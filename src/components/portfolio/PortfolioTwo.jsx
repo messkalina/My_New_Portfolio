@@ -1,63 +1,56 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
+import { useNavigate } from "react-router-dom"; // Add this import
 
 const tabList = ["UX/UI Design", "Motion Design", "All"];
 
 const tabListContent = [
-  // Index 0 - "UX/UI Design" tab (only UX/UI items)
   {
     porftoliItems: [
       {
         img: "/img/portfolio/1.jpg",
         title: "My Story",
         meta: "UX/UI Design",
-        portfolioLink: "https://www.instagram.com/",
+        portfolioLink: "/case-study/my-story", // Changed from Instagram link
       },
       {
         img: "/img/portfolio/2.jpg",
         title: "Design Trend",
         meta: "UX/UI Design",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+        portfolioLink: "/case-study/design-trend", // Changed from Dribbble link
       },
-      // Only UX/UI Design items here
     ],
   },
-  // Index 1 - "Motion Design" tab (only Motion Design items)
   {
     porftoliItems: [
       {
         img: "/img/portfolio/3.jpg",
         title: "Animation Project",
         meta: "Motion Design",
-        portfolioLink: "https://www.behance.net/ib-themes",
+        portfolioLink: "/case-study/animation-project", // Changed from Behance link
       },
-      // Only Motion Design items here
     ],
   },
-  // Index 2 - "All" tab (shows all items)
   {
     porftoliItems: [
-      // Put ALL your portfolio items here
       {
         img: "/img/portfolio/1.jpg",
         title: "My Story",
         meta: "UX/UI Design",
-        portfolioLink: "https://www.instagram.com/",
+        portfolioLink: "/case-study/my-story", // Changed
       },
       {
         img: "/img/portfolio/2.jpg",
         title: "Design Trend",
         meta: "UX/UI Design",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+        portfolioLink: "/case-study/design-trend", // Changed
       },
       {
         img: "/img/portfolio/3.jpg",
         title: "Animation Project",
         meta: "Motion Design",
-        portfolioLink: "https://www.behance.net/ib-themes",
+        portfolioLink: "/case-study/animation-project", // Changed
       },
       {
         img: "/img/portfolio/14.jpg",
@@ -91,6 +84,18 @@ const tabListContent = [
 ];
 
 const Portfolio = () => {
+  const navigate = useNavigate(); // Add this hook
+
+  const handlePortfolioClick = (portfolioLink) => {
+    if (portfolioLink.startsWith("http")) {
+      // External link - open in new tab
+      window.open(portfolioLink, "_blank");
+    } else {
+      // Internal link - navigate using React Router
+      navigate(portfolioLink);
+    }
+  };
+
   return (
     <div className="shane_tm_section" id="portfolio">
       <div className="shane_tm_portfolio">
@@ -141,7 +146,11 @@ const Portfolio = () => {
                                         alt="portfolio"
                                         role="button"
                                         ref={ref}
-                                        onClick={open}
+                                        onClick={() =>
+                                          handlePortfolioClick(
+                                            val.portfolioLink
+                                          )
+                                        } // Change this line
                                       />
                                     )}
                                   </Item>
