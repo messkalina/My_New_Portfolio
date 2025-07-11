@@ -2,23 +2,62 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
-const tabList = ["All", "Design", "Branding", "Photography"];
+const tabList = ["UX/UI Design", "Motion Design", "All"];
 
 const tabListContent = [
+  // Index 0 - "UX/UI Design" tab (only UX/UI items)
   {
     porftoliItems: [
       {
         img: "/img/portfolio/1.jpg",
-        title: " My Story",
-        meta: "Design",
+        title: "My Story",
+        meta: "UX/UI Design",
         portfolioLink: "https://www.instagram.com/",
       },
       {
         img: "/img/portfolio/2.jpg",
         title: "Design Trend",
-        meta: "Branding",
+        meta: "UX/UI Design",
         portfolioLink:
           "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+      },
+      // Only UX/UI Design items here
+    ],
+  },
+  // Index 1 - "Motion Design" tab (only Motion Design items)
+  {
+    porftoliItems: [
+      {
+        img: "/img/portfolio/3.jpg",
+        title: "Animation Project",
+        meta: "Motion Design",
+        portfolioLink: "https://www.behance.net/ib-themes",
+      },
+      // Only Motion Design items here
+    ],
+  },
+  // Index 2 - "All" tab (shows all items)
+  {
+    porftoliItems: [
+      // Put ALL your portfolio items here
+      {
+        img: "/img/portfolio/1.jpg",
+        title: "My Story",
+        meta: "UX/UI Design",
+        portfolioLink: "https://www.instagram.com/",
+      },
+      {
+        img: "/img/portfolio/2.jpg",
+        title: "Design Trend",
+        meta: "UX/UI Design",
+        portfolioLink:
+          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+      },
+      {
+        img: "/img/portfolio/3.jpg",
+        title: "Animation Project",
+        meta: "Motion Design",
+        portfolioLink: "https://www.behance.net/ib-themes",
       },
       {
         img: "/img/portfolio/14.jpg",
@@ -46,59 +85,6 @@ const tabListContent = [
         title: "Behance Shoot",
         meta: "Branding",
         portfolioLink: "https://www.behance.net/ib-themes",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/22.jpg",
-        title: "Shane Design",
-        meta: "Design",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/1.jpg",
-        title: " My Story",
-        meta: "Design",
-        portfolioLink: "https://www.instagram.com/",
-      },
-      {
-        img: "/img/portfolio/2.jpg",
-        title: "Design Trend",
-        meta: "Branding",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/15.jpg",
-        title: "Soft Cream",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
       },
     ],
   },
