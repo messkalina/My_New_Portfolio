@@ -28,7 +28,7 @@ const Header = () => {
             </NavLink>
           </div>
           {/* End logo */}
-          <div className="menu">
+          <div className="menu ">
             <Scrollspy
               className="anchor_nav"
               items={["home", "about", "portfolio", "news", "contact"]}

@@ -491,7 +491,7 @@ h6 {
   clear: both;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 25px 50px;
   transition: all 0.3s ease;
 }
@@ -505,7 +505,7 @@ h6 {
 }
 
 .shane_tm_topbar .menu ul {
-  margin: 0px;
+  margin-left: 50px;
   list-style-type: none;
 }
 .shane_tm_topbar .menu ul li {
