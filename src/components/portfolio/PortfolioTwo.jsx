@@ -52,33 +52,7 @@ const tabListContent = [
         meta: "Motion Design",
         portfolioLink: "/case-study/animation-project", // Changed
       },
-      {
-        img: "/img/portfolio/14.jpg",
-        title: "Soft Cream",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-      },
-      {
-        img: "/img/portfolio/22.jpg",
-        title: "Shane Design",
-        meta: "Design",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/3.jpg",
-        title: "Behance Shoot",
-        meta: "Branding",
-        portfolioLink: "https://www.behance.net/ib-themes",
-      },
+     
     ],
   },
 ];
