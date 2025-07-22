@@ -15,6 +15,11 @@ const Slider = () => {
 
         <div className="container">
           <div className="content">
+             <div className="subheading_wrap">
+              <div className="subheading">
+                <h3><span>Creating beautiful design for web and mobile</span></h3>
+              </div>
+            </div>
             <div className="name_wrap">
               <h3>
                 <span>Kalina</span>
@@ -38,6 +43,9 @@ const Slider = () => {
                 <span className="overlay_effect"></span>
               </span>
             </div>
+
+            {/* Add subheading AFTER social media icons */}
+           
           </div>
           {/* End content */}
 

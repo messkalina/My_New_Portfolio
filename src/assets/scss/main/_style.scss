@@ -610,7 +610,7 @@ h6 {
   bottom: 0px;
   left: 0px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: right center; // Change from "center center" to "right center"
   background-size: cover;
 }
 .shane_tm_hero[data-style="one"] .background {
@@ -631,6 +631,27 @@ h6 {
   top: 50%;
   transform: translateY(-50%);
   padding-right: 20px;
+  
+  .subheading_wrap {
+    width: 100%;
+    margin: 20px 0;
+    
+    .subheading {
+      max-width: 25vw; // 50% of viewport width
+      font-size: 50px !important; // Change this from 36px to 50px
+      color: #666;
+      font-weight: 400;
+      line-height: 1.5;
+      margin: 0;
+      
+      @media (max-width: 767px) {
+        color: #fff !important; // White text on mobile
+        text-align: center;
+        max-width: 90vw; // More width on mobile
+        font-size: 36px !important; // Smaller on mobile
+      }
+    }
+  }
 }
 .shane_tm_hero .name_wrap {
   width: 100%;
@@ -3417,7 +3438,7 @@ body.intro .loader_line:after {
   bottom: 0px;
   left: 0px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: right center; // Change from "center center" to "right center"
   background-size: cover;
 }
 
@@ -3442,8 +3463,28 @@ body.intro .loader_line:after {
   top: 50%;
   transform: translateY(-50%);
   padding-right: 20px;
+  
+  .subheading_wrap {
+    width: 100%;
+    margin: 20px 0;
+    
+    .subheading {
+      max-width: 50vw; // 50% of viewport width
+      font-size: 50px !important;
+      color: #666;
+      font-weight: 400;
+      line-height: 1.5;
+      margin: 0;
+      
+      @media (max-width: 767px) {
+        color: #fff !important; // White text on mobile
+        text-align: center;
+        max-width: 90vw; // More width on mobile
+        font-size: 36px !important; // Smaller on mobile
+      }
+    }
+  }
 }
-
 .shane_tm_case_study_hero .name_wrap {
   width: 100%;
   height: auto;
@@ -3451,14 +3492,12 @@ body.intro .loader_line:after {
   float: left;
   margin-bottom: 0;
 }
-
 .shane_tm_case_study_hero .job_wrap {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-
 .shane_tm_case_study_hero .content h3 {
   position: relative;
   font-size: 72px;
@@ -3470,7 +3509,6 @@ body.intro .loader_line:after {
   display: inline-block;
   overflow: hidden;
 }
-
 .shane_tm_case_study_hero .content h3 span {
   color: transparent;
   -webkit-text-stroke: 1px #000;
@@ -3479,7 +3517,6 @@ body.intro .loader_line:after {
     -webkit-text-stroke: 1px #fff;
   }
 }
-
 .shane_tm_case_study_hero .content .job {
   font-weight: 500;
   font-size: 17px;
