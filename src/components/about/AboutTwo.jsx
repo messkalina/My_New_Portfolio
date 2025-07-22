@@ -1,5 +1,5 @@
 import React from "react";
-
+import Social from "../Social"; // Change from SocialTwo to Social
 const AboutTwo = () => {
   return (
     <>
@@ -54,7 +54,7 @@ const AboutTwo = () => {
                   <a href="img/resume/resume.jpg" download>
                     Download CV
                   </a>
-                </div>
+                </div> 
               </div>
               {/* End right */}
             </div>
