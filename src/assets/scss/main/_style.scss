@@ -3651,10 +3651,20 @@ body.intro .loader_line:after {
     h3 {
       font-weight: 800;
       font-family: "Poppins";
-      color: #000; // Dark text on desktop
+      color: #000;
+      font-size: 72px; // Make it larger on desktop
+      line-height: 1.2;
+      
+      @media (max-width: 1199px) {
+        font-size: 40px; // Slightly smaller on tablets
+      }
+      
+      @media (max-width: 767px) {
+        font-size: 32px; // Smaller on mobile
+      }
     }
     
-    p span {
+    span {
       display: inline-block;
       background-color: rgba(0, 0, 0, 0.05);
       text-transform: uppercase;
