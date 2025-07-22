@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Social from "../SocialTwo";
 
 const Slider = () => {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowButton(true), 1200); // 1200ms delay
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="slider-two">
       <div className="shane_tm_hero" id="home" data-style="three">
@@ -41,22 +48,17 @@ const Slider = () => {
             </div>
             {/* End designation */}
 
-            <div className="job_wrap sociallo">
-              <span className="job">
-                <Social />
-                <span className="overlay_effect"></span>
-              </span>
+            {/* Button with fade-in effect */}
+            <div
+              className="shane_tm_button fade-in-delay"
+              style={{
+                opacity: showButton ? 1 : 0,
+                transition: "opacity 0.8s ease",
+              }}
+            >
+              <a href="#portfolio">See my work</a>
             </div>
-  <div
-                  className="shane_tm_button"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                   <a href="#portfolio">
-                    See my work
-                  </a>
-                </div>
-            {/* Add subheading AFTER social media icons */}
+            {/* ...existing code... */}
           </div>
           {/* End content */}
 

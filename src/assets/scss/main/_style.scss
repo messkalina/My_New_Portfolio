@@ -3376,6 +3376,11 @@ body.intro .loader_line:after {
   }
 }
 
+.fade-in-delay {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
 @media screen and (max-width: 767px) {
   .prev-logo {
     height: 45px;

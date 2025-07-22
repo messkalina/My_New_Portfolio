@@ -53,7 +53,7 @@ const AboutTwo = () => {
                 > </div>
                  
                   
-                <div
+                {/* <div
                   className="shane_tm_button"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -61,7 +61,7 @@ const AboutTwo = () => {
                   <a href="img/resume/resume.jpg" download>
                     Download CV
                   </a>
-                </div> 
+                </div>  */}
               </div>
               {/* End right */}
             </div>
