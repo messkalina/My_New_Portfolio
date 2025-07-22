@@ -10,6 +10,7 @@ import Testimonial from "../../components/testimonial/TestimonialTwo";
 import News from "../../components/news/NewsTwo";
 import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
+import Contact from "../../components/Contact";
 
 const HomeTwo = () => {
   return (
@@ -29,10 +30,10 @@ const HomeTwo = () => {
       <Skills />
       {/* End Skills Section */}
 
-      <Video />
+      {/* <Video /> */}
       {/* End Video Section */}
 
-      <div className="shane_tm_section">
+      {/* <div className="shane_tm_section">
         <div className="shane_tm_partners">
           <div className="container">
             <div className="partners_inner">
@@ -40,10 +41,10 @@ const HomeTwo = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End shane_tm_partners */}
 
-      <div className="shane_tm_section">
+      {/* <div className="shane_tm_section">
         <div className="shane_tm_testimonials">
           <div className="container">
             <div className="testimonials_inner">
@@ -67,14 +68,14 @@ const HomeTwo = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       {/* End  shane_tm_testimonials*/}
-
+{/* 
       <News />
-      {/* End Blog Section */}
+      End Blog Section */}
 
-      <CallToAction />
+      {/* <Contact /> */}
       {/* End CallToAction */}
 
       <Footer />

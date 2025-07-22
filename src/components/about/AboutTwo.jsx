@@ -1,5 +1,5 @@
 import React from "react";
-import Social from "../Social"; // Change from SocialTwo to Social
+import Social from "../Social";
 const AboutTwo = () => {
   return (
     <>
@@ -46,6 +46,13 @@ const AboutTwo = () => {
                     of the design process, from discussion and collaboration.
                   </p>
                 </div>
+<div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                > </div>
+                 
+                  
                 <div
                   className="shane_tm_button"
                   data-aos="fade-up"
