@@ -3623,3 +3623,72 @@ body.intro .loader_line:after {
     font-size: 24px;
   }
 }
+
+/*---------------------------------------------------*/
+/*	CASE STUDY HERO POSITIONING
+/*---------------------------------------------------*/
+.shane_tm_hero_case_study {
+  height: auto !important;
+  min-height: auto !important;
+  padding: 120px 0 60px 0; // Reduced padding
+  
+  .container {
+    position: static !important;
+  }
+  
+  .content {
+    position: static !important;
+    transform: none !important;
+    top: auto !important;
+    padding-top: 0;
+    width: 100%;
+    max-width: 800px; // Limit content width
+  }
+  
+  .shane_tm_title {
+    margin-bottom: 30px;
+  }
+  
+  .hero_description {
+    margin-bottom: 0;
+    
+    .text {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #666;
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    padding: 100px 0 40px 0;
+    
+    .content {
+      text-align: center;
+      
+      .shane_tm_title {
+        span {
+          color: #fff !important;
+          background-color: rgba(255, 255, 255, 0.2) !important;
+        }
+        
+        h3 {
+          color: #fff !important;
+        }
+      }
+      
+      .hero_description .text {
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+// Reduce spacing between hero and next section
+.shane_tm_hero_case_study + .shane_tm_section {
+  padding-top: 60px !important; // Reduced from default padding
+  
+  @media (max-width: 767px) {
+    padding-top: 40px !important;
+  }
+}
