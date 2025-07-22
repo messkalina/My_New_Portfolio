@@ -24,12 +24,12 @@ const Slider = () => {
               </div>
             </div>
             <div className="name_wrap">
-              <h3>
+              <h4>
                 <span>Kalina</span>
                 <br />
                 <span>Iwaszko</span>
                 <span className="overlay_effect"></span>
-              </h3>
+              </h4>
             </div>
             {/* End title */}
 

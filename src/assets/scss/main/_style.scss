@@ -3593,3 +3593,33 @@ body.intro .loader_line:after {
     clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 100%);
   }
 }
+.shane_tm_hero .content .name_wrap h4 {
+  position: relative;
+  font-size: 48px; // Smaller than h3's 72px
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #000;
+  line-height: 1.2;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  
+  span {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    padding-left: 2px;
+    
+    @media screen and (max-width: 767px) {
+      -webkit-text-stroke: 1px #fff;
+    }
+  }
+  
+  @media screen and (max-width: 1040px) {
+    font-size: 28px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    font-size: 24px;
+  }
+}
