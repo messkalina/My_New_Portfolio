@@ -3714,3 +3714,26 @@ body.intro .loader_line:after {
     padding-top: 40px !important;
   }
 }
+
+// Add white background to subheading text only
+.slider-two {
+  .subheading_wrap {
+    .subheading {
+      h3 {
+        background-color: rgba(255, 255, 255, 0.6); // Semi-transparent white
+        padding: 0px; // Add some padding around the text
+        border-radius: 0px; // Rounded corners
+        display: inline-block; // Make background fit text width
+        backdrop-filter: blur(10px); // Optional: add blur effect
+        width: fit-content; // Make background exactly the width of the text
+        
+        @media (max-width: 767px) {
+          background-color: transparent !important; // Remove background on mobile
+          padding: 0 !important; // Remove padding on mobile
+          border-radius: 0 !important; // Remove border radius on mobile
+          backdrop-filter: none !important; // Remove blur effect on mobile
+        }
+      }
+    }
+  }
+}
