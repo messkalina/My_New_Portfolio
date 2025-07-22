@@ -3630,7 +3630,7 @@ body.intro .loader_line:after {
 .shane_tm_hero_case_study {
   height: auto !important;
   min-height: auto !important;
-  padding: 120px 0 60px 0; // Reduced padding
+  padding: 120px 0 60px 0;
   
   .container {
     position: static !important;
@@ -3647,38 +3647,60 @@ body.intro .loader_line:after {
   
   .shane_tm_title {
     margin-bottom: 30px;
+    
+    h3 {
+      font-weight: 800;
+      font-family: "Poppins";
+      color: #000; // Dark text on desktop
+    }
+    
+    p span {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.05);
+      text-transform: uppercase;
+      padding: 4px 10px;
+      font-weight: 600;
+      font-size: 12px;
+      color: #333; // Dark text on desktop
+      font-family: "Poppins";
+      letter-spacing: 0px;
+      margin-bottom: 15px;
+    }
   }
   
   .hero_description {
     margin-bottom: 0;
     
-    .text {
+    .top .text {
       font-size: 18px;
       line-height: 1.6;
-      color: #666;
+      color: #666; // Dark text on desktop
       margin: 0;
     }
   }
   
+  // MOBILE STYLES - DARK TEXT, LEFT ALIGNED
   @media (max-width: 767px) {
     padding: 100px 0 40px 0;
     
     .content {
-      text-align: center;
+      text-align: left !important; // LEFT ALIGNED
       
       .shane_tm_title {
-        span {
-          color: #fff !important;
-          background-color: rgba(255, 255, 255, 0.2) !important;
+        p span {
+          color: #333 !important; // DARK TEXT
+          background-color: rgba(0, 0, 0, 0.05) !important;
         }
         
         h3 {
-          color: #fff !important;
+          color: #000 !important; // DARK TEXT
         }
       }
       
-      .hero_description .text {
-        color: #fff !important;
+      .hero_description {
+        .top .text {
+          color: #666 !important; // DARK TEXT
+        }
       }
     }
   }
@@ -3686,7 +3708,7 @@ body.intro .loader_line:after {
 
 // Reduce spacing between hero and next section
 .shane_tm_hero_case_study + .shane_tm_section {
-  padding-top: 60px !important; // Reduced from default padding
+  padding-top: 60px !important;
   
   @media (max-width: 767px) {
     padding-top: 40px !important;

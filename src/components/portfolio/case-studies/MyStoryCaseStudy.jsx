@@ -16,7 +16,7 @@ const MyStoryCaseStudy = () => {
       </div>
 
       {/* Hero Section */}
-      <div className="shane_tm_hero shane_tm_hero_case_study" id="home">
+      <div className="shane_tm_hero_case_study" id="home">
         <div className="container">
           <div className="content">
             <div
