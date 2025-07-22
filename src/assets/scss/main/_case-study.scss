@@ -1,0 +1,84 @@
+.shane_tm_case_study {
+  // Back button styles
+  .back_button {
+    display: inline-flex;
+    align-items: center;
+    color: #666;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  // Case study specific hero adjustments
+  .shane_tm_hero {
+    .subtitle {
+      background: #007bff;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+
+  // Case study sections
+  .case_study_section {
+    margin-bottom: 80px;
+
+    .section_title {
+      margin-bottom: 40px;
+      text-align: center;
+
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      p {
+        font-size: 1.1rem;
+        color: #666;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  // Image gallery styles
+  .case_study_gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+
+    .gallery_item {
+      img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: translateY(-5px);
+        }
+      }
+    }
+  }
+
+  // Responsive adjustments
+  @media (max-width: 768px) {
+    .shane_tm_hero .name {
+      font-size: 2rem;
+    }
+    
+    .case_study_gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+}
