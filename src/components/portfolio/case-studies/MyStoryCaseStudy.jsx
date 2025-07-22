@@ -19,10 +19,19 @@ const MyStoryCaseStudy = () => {
       <div className="shane_tm_hero" id="home">
         <div className="container">
           <div className="content">
-            <div className="details">
+          <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                 <p><span>Project Overview</span></p>
+                  <h3>Creating Digital Stories</h3>
+                </div>
+
+
+
+            <div>
               <div className="top">
-                <span className="subtitle">UX/UI Design Case Study</span>
-                <h1 className="name">My Story</h1>
                 <p className="text">
                   A comprehensive UX/UI design project focused on storytelling
                   through digital interfaces, creating an immersive narrative
@@ -30,11 +39,11 @@ const MyStoryCaseStudy = () => {
                 </p>
               </div>
             </div>
-            <div className="avatar">
+            {/* <div className="avatar">
               <div className="image">
                 <img src="/img/portfolio/1.jpg" alt="My Story Project Hero" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
