@@ -47,7 +47,15 @@ const Slider = () => {
                 <span className="overlay_effect"></span>
               </span>
             </div>
-
+  <div
+                  className="shane_tm_button"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                   <a href="#portfolio">
+                    See my work
+                  </a>
+                </div>
             {/* Add subheading AFTER social media icons */}
           </div>
           {/* End content */}
