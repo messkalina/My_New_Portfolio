@@ -82,3 +82,27 @@
     }
   }
 }
+
+.shane_tm_about {
+  .image {
+    position: relative;
+    
+    .image_caption {
+      margin-top: 20px;
+      
+      p {
+        font-size: 14px;
+        color: #666;
+        font-style: italic;
+        line-height: 1.5;
+        margin: 0;
+        text-align: center;
+        
+        @media (max-width: 768px) {
+          font-size: 13px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

@@ -57,6 +57,13 @@ const MyStoryCaseStudy = () => {
                       backgroundImage: "url(/img/portfolio/case-study/2.jpg)",
                     }}
                   ></div>
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>
+                      Initial concept sketches and user journey mapping for the
+                      storytelling platform
+                    </p>
+                  </div>
                 </div>
               </div>
               {/* End left */}
@@ -156,6 +163,13 @@ const MyStoryCaseStudy = () => {
                       backgroundImage: "url(/img/portfolio/case-study/3.jpg)",
                     }}
                   ></div>
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>
+                      User interview sessions and persona development workshop
+                      results
+                    </p>
+                  </div>
                 </div>
               </div>
               {/* End right */}
@@ -183,6 +197,13 @@ const MyStoryCaseStudy = () => {
                       backgroundImage: "url(/img/portfolio/case-study/4.jpg)",
                     }}
                   ></div>
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>
+                      Low-fidelity wireframes showing information architecture
+                      and user flow progression
+                    </p>
+                  </div>
                 </div>
               </div>
               {/* End left */}
@@ -279,6 +300,13 @@ const MyStoryCaseStudy = () => {
                       backgroundImage: "url(/img/portfolio/case-study/5.jpg)",
                     }}
                   ></div>
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>
+                      High-fidelity mockups showcasing the final color palette
+                      and typography system
+                    </p>
+                  </div>
                 </div>
               </div>
               {/* End right */}
@@ -306,6 +334,13 @@ const MyStoryCaseStudy = () => {
                       backgroundImage: "url(/img/portfolio/case-study/6.jpg)",
                     }}
                   ></div>
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>
+                      Analytics dashboard showing improved user engagement and
+                      story completion rates
+                    </p>
+                  </div>
                 </div>
               </div>
               {/* End left */}
