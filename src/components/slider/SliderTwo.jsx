@@ -27,7 +27,8 @@ const Slider = () => {
               <h3>
                 <span>Kalina</span>
                 <br />
-                Iwaszko<span className="overlay_effect"></span>
+                <span>Iwaszko</span>
+                <span className="overlay_effect"></span>
               </h3>
             </div>
             {/* End title */}
