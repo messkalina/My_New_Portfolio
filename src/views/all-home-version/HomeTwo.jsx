@@ -21,11 +21,11 @@ const HomeTwo = () => {
       <Slider />
       {/* End Slider Section */}
 
-      <About />
-      {/* End About Section */}
-
       <Portfolio />
       {/* End Portfolio Section */}
+
+       <About />
+      {/* End About Section */}
 
       <Skills />
       {/* End Skills Section */}
@@ -75,7 +75,7 @@ const HomeTwo = () => {
       <News />
       End Blog Section */}
 
-      {/* <Contact /> */}
+      <CallToAction />
       {/* End CallToAction */}
 
       <Footer />
