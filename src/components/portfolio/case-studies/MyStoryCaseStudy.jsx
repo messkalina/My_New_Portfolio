@@ -27,7 +27,7 @@ const MyStoryCaseStudy = () => {
               <p>
                 <span>Project Overview</span>
               </p>
-              <h3>Creating Digital Stories</h3>
+              <h1>Creating Digital Stories</h1>
             </div>
 
             <div className="hero_description">
