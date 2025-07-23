@@ -15,42 +15,46 @@ const MyStoryCaseStudy = () => {
         </div>
       </div>
 
-      {/* Hero Section */}
-      <div className="shane_tm_hero_case_study" id="home">
-        <div className="container">
-          <div className="content">
-            <div
-              className="shane_tm_title"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <p>
-                <span>Project Overview</span>
+      /* Hero Section */}
+        <div className="shane_tm_hero_case_study" id="home">
+          <div className="container">
+            <div className="content">
+          <div
+            className="shane_tm_title"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <p>
+              <span>Project Overview</span>
+            </p>
+            <h1>Creating Digital Stories</h1>
+          </div>
+          <div
+            className="project_timeline"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            style={{ marginTop: 16, marginBottom: 16 }}
+          >
+            <p style={{ fontWeight: 500, color: "#888" }}>April 2024 – September 2024</p>
+          </div>
+          <div
+            className="hero_description"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <div className="top">
+              <p className="text">
+            A comprehensive UX/UI design project focused on storytelling
+            through digital interfaces, creating an immersive narrative
+            experience that guides users through personal storytelling.
               </p>
-              <h1>Creating Digital Stories</h1>
             </div>
-            <div
-              className="project_timeline"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              style={{ marginTop: 16, marginBottom: 16 }}
-            >
-              <p style={{ fontWeight: 500, color: "#888" }}>April 2024 – September 2024</p>
-            </div>
-            <div className="hero_description">
-              <div className="top">
-                <p className="text">
-                  A comprehensive UX/UI design project focused on storytelling
-                  through digital interfaces, creating an immersive narrative
-                  experience that guides users through personal storytelling.
-                </p>
-              </div>
+          </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Project Overview Section - Image left, Text right */}
+        {/* Project Overview Section - Image left, Text right */}
       <div className="shane_tm_section" id="about">
         <div className="shane_tm_about">
           <div className="container">
