@@ -3749,7 +3749,7 @@ body.intro .loader_line:after {
   max-width: 600px;
   margin: 60px auto 40px auto;
   background: #fff;
-  border-radius: 18px;
+  border-radius: 0px;
   box-shadow: 0 8px 32px rgba(60,60,60,0.08);
   padding: 40px 32px;
   display: flex;
@@ -3814,9 +3814,10 @@ body.intro .loader_line:after {
   margin-top: 3px;
 }
 .consent-label {
-  font-weight: 400;
+  font-weight: 500;
   color: #555;
   line-height: 1.5;
+  font-size: 16px;
 }
 .contact-success {
   color: #2e7d32;
