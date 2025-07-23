@@ -11,6 +11,7 @@ import News from "../../components/news/NewsTwo";
 import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
 import Contact from "../../components/Contact";
+import ContactForm from "../../components/ContactForm";
 
 const HomeTwo = () => {
   return (
@@ -29,6 +30,7 @@ const HomeTwo = () => {
 
       <Skills />
       {/* End Skills Section */}
+       <ContactForm />
 
       {/* <Video /> */}
       {/* End Video Section */}
@@ -75,7 +77,7 @@ const HomeTwo = () => {
       <News />
       End Blog Section */}
 
-      <CallToAction />
+      {/* <CallToAction /> */}
       {/* End CallToAction */}
 
       <Footer />

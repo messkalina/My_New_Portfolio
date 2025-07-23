@@ -69,7 +69,7 @@ const AboutTwo = () => {
           {/* End container */}
         </div>
       </div>
-      <ContactForm />
+      {/* <ContactForm /> */}
     </>
   );
 };
