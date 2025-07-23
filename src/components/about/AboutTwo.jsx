@@ -1,5 +1,6 @@
 import React from "react";
 import Social from "../Social";
+import ContactForm from "../../components/ContactForm";
 const AboutTwo = () => {
   return (
     <>
@@ -46,13 +47,12 @@ const AboutTwo = () => {
                     of the design process, from discussion and collaboration.
                   </p>
                 </div>
-<div
+                <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
-                > </div>
-                 
-                  
+                ></div>
+
                 {/* <div
                   className="shane_tm_button"
                   data-aos="fade-up"
@@ -61,7 +61,7 @@ const AboutTwo = () => {
                   <a href="img/resume/resume.jpg" download>
                     Download CV
                   </a>
-                </div>  */}
+                </div> */}
               </div>
               {/* End right */}
             </div>
@@ -69,6 +69,7 @@ const AboutTwo = () => {
           {/* End container */}
         </div>
       </div>
+      <ContactForm />
     </>
   );
 };
