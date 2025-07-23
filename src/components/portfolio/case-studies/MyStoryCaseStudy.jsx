@@ -29,7 +29,14 @@ const MyStoryCaseStudy = () => {
               </p>
               <h1>Creating Digital Stories</h1>
             </div>
-
+            <div
+              className="project_timeline"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              style={{ marginTop: 16, marginBottom: 16 }}
+            >
+              <p style={{ fontWeight: 500, color: "#888" }}>April 2024 – September 2024</p>
+            </div>
             <div className="hero_description">
               <div className="top">
                 <p className="text">
