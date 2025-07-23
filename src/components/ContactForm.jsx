@@ -97,9 +97,11 @@ const ContactForm = () => {
               <span style={{ color: "#f52225" }}>*</span>
             </label>
           </div>
-          <button type="submit" className="shane_tm_button">
-            Send Message
-          </button>
+         <div className="tokyo_tm_button">
+  <button type="submit" className="white-fill-bg fill-black">
+    Send Message
+  </button>
+</div>
         </form>
       )}
     </section>
