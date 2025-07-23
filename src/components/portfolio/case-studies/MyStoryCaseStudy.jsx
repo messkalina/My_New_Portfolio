@@ -14,47 +14,108 @@ const MyStoryCaseStudy = () => {
           </div>
         </div>
       </div>
-
-      /* Hero Section */}
-        <div className="shane_tm_hero_case_study" id="home">
-          <div className="container">
-            <div className="content">
-          <div
-            className="shane_tm_title"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
-            <p>
-              <span>Project Overview</span>
-            </p>
-            <h1>Creating Digital Stories</h1>
-          </div>
-          <div
-            className="project_timeline"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-            style={{ marginTop: 16, marginBottom: 16 }}
-          >
-            <p style={{ fontWeight: 500, color: "#888" }}>April 2024 – September 2024</p>
-          </div>
-          <div
-            className="hero_description"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
-            <div className="top">
-              <p className="text">
-            A comprehensive UX/UI design project focused on storytelling
-            through digital interfaces, creating an immersive narrative
-            experience that guides users through personal storytelling.
+      <div className="shane_tm_hero_case_study" id="home">
+        <div className="container">
+          <div className="content">
+            <div
+              className="shane_tm_title"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <p>
+                <span>Project Overview</span>
+              </p>
+              <h1>Creating Digital Stories</h1>
+              {/* Chips horizontally below the title */}
+              <div
+                className="case-study-chips"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                style={{
+                  marginTop: 12,
+                  marginBottom: 0,
+                  display: "flex",
+                  gap: 8,
+                  flexWrap: "nowrap",
+                }}
+              >
+                <span
+                  style={{
+                    background: "#7C3AED",
+                    color: "#fff",
+                    borderRadius: 0,
+                    padding: "4px 14px",
+                    fontSize: 12,
+                    fontWeight: 500,
+                    display: "inline-block",
+                    letterSpacing: 0.5,
+                    whiteSpace: "nowrap",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  UX Research
+                </span>
+                <span
+                  style={{
+                    background: "#7C3AED",
+                    color: "#fff",
+                    borderRadius: 0,
+                    padding: "4px 14px",
+                    fontSize: 12,
+                    fontWeight: 500,
+                    display: "inline-block",
+                    letterSpacing: 0.5,
+                    whiteSpace: "nowrap",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  UX/UI Design
+                </span>
+                <span
+                  style={{
+                    background: "#7C3AED",
+                    color: "#fff",
+                    borderRadius: 0,
+                    padding: "4px 14px",
+                    fontSize: 12,
+                    fontWeight: 500,
+                    display: "inline-block",
+                    letterSpacing: 0.5,
+                    whiteSpace: "nowrap",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  Web Design
+                </span>
+              </div>
+            </div>
+            <div
+              className="project_timeline"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              style={{ marginTop: 16, marginBottom: 16 }}
+            >
+              <p style={{ fontWeight: 500, color: "#888" }}>
+                April 2024 – September 2024
               </p>
             </div>
-          </div>
+            <div
+              className="hero_description"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="top">
+                <p className="text">
+                  A comprehensive UX/UI design project focused on storytelling
+                  through digital interfaces, creating an immersive narrative
+                  experience that guides users through personal storytelling.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-
-        {/* Project Overview Section - Image left, Text right */}
+      </div>
+      {/* Project Overview Section - Image left, Text right */}
       <div className="shane_tm_section" id="about">
         <div className="shane_tm_about">
           <div className="container">
@@ -124,7 +185,6 @@ const MyStoryCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-
       {/* Research Section - Text left, Image right */}
       <div className="shane_tm_section" id="research">
         <div className="shane_tm_about">
@@ -193,7 +253,6 @@ const MyStoryCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-
       {/* Design Process Section - Image left, Text right */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -262,7 +321,6 @@ const MyStoryCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-
       {/* Visual Design Section - Text left, Image right */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -330,7 +388,6 @@ const MyStoryCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-
       {/* Results Section - Image left, Text right */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
