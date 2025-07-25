@@ -96,7 +96,10 @@ const MyStoryCaseStudy = () => {
               style={{ marginTop: 16, marginBottom: 16 }}
             >
               <p style={{ fontWeight: 500, color: "#888" }}>
-                April 2024 – September 2024
+                Timeline:{" "}
+                <span className="timeline-fine">
+                  April 2024 – September 2024
+                </span>
               </p>
             </div>
             <div
