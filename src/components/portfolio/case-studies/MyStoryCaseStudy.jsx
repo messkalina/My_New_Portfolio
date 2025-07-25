@@ -51,7 +51,7 @@ const MyStoryCaseStudy = () => {
               data-aos-duration="1200"
               style={{ marginTop: 0, marginBottom: 10 }}
             >
-              <p style={{ fontWeight: 500, color: "#888" }}>
+              <p style={{ fontWeight: 600, color: "#888" }}>
                 Timeline:{" "}
                 <span className="timeline-fine">
                   April 2024 – September 2024
