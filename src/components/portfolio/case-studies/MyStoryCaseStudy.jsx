@@ -4,92 +4,45 @@ import { Link } from "react-router-dom";
 const MyStoryCaseStudy = () => {
   return (
     <div className="shane_tm_all_wrap">
-      {/* Back Navigation */}
-      <div className="shane_tm_topbar">
-        <div className="topbar_inner">
-          <div className="logo">
-            <Link to="/#portfolio" className="back_button">
-              ← Back to Portfolio
-            </Link>
+
+        <div className="shane_tm_topbar">
+          <div className="topbar_inner">
+            <div className="logo">
+          <Link to="/#portfolio" className="back_button">
+            ← Back to Portfolio
+          </Link>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="shane_tm_hero_case_study" id="home">
-        <div className="container">
-          <div className="content">
+        <div className="shane_tm_hero_case_study" id="home">
+          <div className="container">
+            <div className="content">
+          <div
+            className="shane_tm_title"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
             <div
-              className="shane_tm_title"
-              data-aos="fade-up"
-              data-aos-duration="1200"
+              className="shane_tm_title span"
+              style={{ marginBottom: 4 }}
             >
-              <div
-                className="case-study-chips"
-            
-                style={{
-                  marginTop: 0,
-                  marginBottom: 0,
-                  display: "flex",
-                  gap: 8,
-                  flexWrap: "nowrap",
-                }}
-              >
-                <span
-                  style={{
-                    background: "#7C3AED",
-                    color: "#fff",
-                    borderRadius: 0,
-                    padding: "4px 14px",
-                    fontSize: 12,
-                    fontWeight: 500,
-                    display: "inline-block",
-                    letterSpacing: 0.5,
-                    whiteSpace: "nowrap",
-                    lineHeight: 1.5,
-                  }}
-                >
-                  UX Research
-                </span>
-                <span
-                  style={{
-                    background: "#7C3AED",
-                    color: "#fff",
-                    borderRadius: 0,
-                    padding: "4px 14px",
-                    fontSize: 12,
-                    fontWeight: 500,
-                    display: "inline-block",
-                    letterSpacing: 0.5,
-                    whiteSpace: "nowrap",
-                    lineHeight: 1.5,
-                  }}
-                >
-                  UX/UI Design
-                </span>
-                <span
-                  style={{
-                    background: "#7C3AED",
-                    color: "#fff",
-                    borderRadius: 0,
-                    padding: "4px 14px",
-                    fontSize: 12,
-                    fontWeight: 500,
-                    display: "inline-block",
-                    letterSpacing: 0.5,
-                    whiteSpace: "nowrap",
-                    lineHeight: 1.5,
-                  }}
-                >
-                  Web Design
-                </span>
-              </div>
+              <span>
+            UX Research
+              </span>
+              <span>
+            UX/UI Design
+              </span>
+              <span>
+            Web Design
+              </span>
+            </div>
 
-             
-              <h1
-                style={{ marginBottom: 10 }}
-              >
-                Creating Digital Stories
-              </h1>
-              {/* Chips horizontally below the title */}
+            <h1
+              style={{ marginBottom: 10 }}
+            >
+              Creating Digital Stories
+            </h1>
+            {/* Chips horizontally below the title */}
               
             </div>
             <div
