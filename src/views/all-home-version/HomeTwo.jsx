@@ -30,7 +30,7 @@ const HomeTwo = () => {
 
       <Skills />
       {/* End Skills Section */}
-       <ContactForm />
+      <ContactForm />
 
       {/* <Video /> */}
       {/* End Video Section */}

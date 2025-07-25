@@ -40,7 +40,7 @@ const MyStoryCaseStudy = () => {
             <h1
               style={{ marginBottom: 10 }}
             >
-              Creating Digital Stories
+              Orbit Health Website Redesign
             </h1>
             {/* Chips horizontally below the title */}
               
@@ -65,9 +65,9 @@ const MyStoryCaseStudy = () => {
             >
               <div className="top">
                 <p className="text">
-                  A comprehensive UX/UI design project focused on storytelling
-                  through digital interfaces, creating an immersive narrative
-                  experience that guides users through personal storytelling.
+                  Orbit Health is a Munich-based digital health startup focused on enhancing care for people with Parkinson’s Disease (PD). Its AI-powered solution uses smartwatches to track motor symptoms, giving patients and neurologists real-time, data-driven insights into symptom fluctuations and treatment efficacy.
+                <br />
+                <br />With the product still undergoing clinical trials and awaiting medical device approval in Germany, the website needed to clearly explain a sophisticated digital health product—while guiding two very different user groups through complex decision-making and regulatory processes.
                 </p>
               </div>
             </div>
