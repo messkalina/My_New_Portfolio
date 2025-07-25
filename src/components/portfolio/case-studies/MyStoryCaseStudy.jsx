@@ -109,34 +109,33 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Project Overview</span>
-                  <h3>Creating Digital Stories</h3>
+                  <span>The Challenge</span>
+                  <h3>Designing Website for Complex Medical Products and Audiences</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>
-                    This project explores the intersection of personal narrative
-                    and user experience design. The challenge was to create an
-                    intuitive interface that guides users through compelling
-                    stories while maintaining excellent usability principles.
-                  </p>
-                  <p>
-                    The primary goal was to develop a platform where users could
-                    share their personal experiences in an engaging, interactive
-                    format that combines visual storytelling with seamless
-                    navigation.
-                  </p>
+                  <p>The central challenge was to design a website that clearly and persuasively communicates the value of 
+  <strong> AI-enabled medical device apps</strong>—while serving the needs of two very different audiences:</p>
+  
+  <ul>
+    <li><strong>People living with Parkinson’s Disease</strong>, who need support understanding how the product can help them and how to access it as a reimbursable treatment option.</li>
+    <li><strong>Neurologists</strong>, who require detailed clinical context, reimbursement guidance, and a clear value proposition for integrating the solution into patient care.</li>
+  </ul>
+  
+  <p>The site not only needed to explain how the product works but also to guide each audience through the complex process of 
+  <strong> prescription, eligibility, and reimbursement</strong> within Germany’s healthcare system. This required building user flows and content that translated 
+  <strong> medical, technical, and regulatory complexity</strong> into actionable next steps—for both patients and professionals.</p>
                 </div>
-                <div
+                {/* <div
                   className="shane_tm_button"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
                   <a href="#research">View Research Process</a>
-                </div>
+                </div> */}
               </div>
               {/* End right */}
             </div>
