@@ -22,17 +22,11 @@ const MyStoryCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <p>
-                <span>Project Overview</span>
-              </p>
-              <h1>Creating Digital Stories</h1>
-              {/* Chips horizontally below the title */}
               <div
                 className="case-study-chips"
-                data-aos="fade-up"
-                data-aos-duration="1200"
+            
                 style={{
-                  marginTop: 12,
+                  marginTop: 0,
                   marginBottom: 0,
                   display: "flex",
                   gap: 8,
@@ -88,12 +82,21 @@ const MyStoryCaseStudy = () => {
                   Web Design
                 </span>
               </div>
+
+             
+              <h1
+                style={{ marginBottom: 10 }}
+              >
+                Creating Digital Stories
+              </h1>
+              {/* Chips horizontally below the title */}
+              
             </div>
             <div
               className="project_timeline"
               data-aos="fade-up"
               data-aos-duration="1200"
-              style={{ marginTop: 16, marginBottom: 16 }}
+              style={{ marginTop: 0, marginBottom: 10 }}
             >
               <p style={{ fontWeight: 500, color: "#888" }}>
                 Timeline:{" "}
