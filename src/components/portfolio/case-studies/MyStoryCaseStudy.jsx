@@ -32,19 +32,7 @@ const MyStoryCaseStudy = () => {
               </h1>
               {/* Chips horizontally below the title */}
             </div>
-            <div
-              className="project_timeline"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              style={{ marginTop: 0, marginBottom: 10 }}
-            >
-              <p style={{ fontWeight: 600, color: "#888" }}>
-                Timeline:{" "}
-                <span className="timeline-fine">
-                  April 2024 – September 2024
-                </span>
-              </p>
-            </div>
+           
             
             <div
               className="hero_description"
@@ -66,7 +54,21 @@ const MyStoryCaseStudy = () => {
                 />
               </div>
             </div>
-            <div className="shane_tm_section" style={{ marginLeft: "3rem"   }}>
+                   <div
+              className="project_timeline"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              style={{ marginTop: 0, marginBottom: 10 }}
+            >
+              <p style={{ fontWeight: 600, color: "#888" }}>
+                Timeline:{" "}
+                <span className="timeline-fine">
+                  April 2024 – September 2024
+                </span>
+              </p>
+            </div>
+
+            <div className="shane_tm_section">
               <div className="top">
                 <p className="text"
                  data-aos="fade-up"
