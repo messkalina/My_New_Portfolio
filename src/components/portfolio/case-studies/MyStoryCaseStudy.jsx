@@ -137,8 +137,11 @@ const MyStoryCaseStudy = () => {
                       patient care.
                     </li>
                   </ul>
-
                   <p>
+                    The site lacked differentiated user flows, conversion-focused messaging, and guidance through the complex German healthcare system.
+                  </p>
+
+                  {/* <p>
                     The site not only needed to explain how the product works
                     but also to guide each audience through the complex process
                     of
@@ -154,7 +157,7 @@ const MyStoryCaseStudy = () => {
                     </strong>{" "}
                     into actionable next steps—for both patients and
                     professionals.
-                  </p>
+                  </p> */}
                 </div>
                 {/* <div
                   className="shane_tm_button"
@@ -171,7 +174,7 @@ const MyStoryCaseStudy = () => {
         </div>
       </div>
       {/* Research Section - Text left, Image right */}
-      <div className="shane_tm_section" id="research">
+      <div className="shane_tm_section" id="solution">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
@@ -181,8 +184,8 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Research Phase</span>
-                  <h3>Understanding User Needs</h3>
+                  <span>Solution</span>
+                  <h3>Applying Design Thinking to Solve for Complexity and Clarity</h3>
                 </div>
                 <div
                   className="text"
