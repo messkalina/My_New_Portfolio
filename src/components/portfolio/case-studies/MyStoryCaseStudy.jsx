@@ -45,32 +45,51 @@ const MyStoryCaseStudy = () => {
                 </span>
               </p>
             </div>
-
+            <div className="shane_tm_section">
+              <div className="shane_tm_about">
+                <div className="container">
+                  <div className="about_inner">
+                    <div>
+                      <div
+                        className="text"
+                        data-aos="fade-up"
+                        data-aos-duration="1200"
+                      >
+                        <p>
+                          Since direct user interviews weren’t possible at this
+                          stage, I focused on stakeholder insights and
+                          competitive analysis:
+                        </p>
+                      </div>
+                    </div>
+                    {/* End left */}
+                  </div>
+                </div>
+                {/* End container */}
+              </div>
+            </div>
             <div
               className="hero_description"
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-             
-
-               <div className="full-image-section" style={{ width: "100%" }}>
-              <img
-                src="/img/portfolio/case-study/Orbit_health_wireframes.png"
-                alt="Orbit Health Wireframes"
-                style={{
-                  width: "100%",
-                  height: "auto",
-                  display: "block",
-                  // borderRadius: "12px",
-                  objectFit: "cover",
-                  maxWidth: "100%",
-                }}
-              />
+              <div className="full-image-section" style={{ width: "100%" }}>
+                <img
+                  src="/img/portfolio/case-study/Orbit_health_wireframes.png"
+                  alt="Orbit Health Wireframes"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    display: "block",
+                    // borderRadius: "12px",
+                    objectFit: "cover",
+                    maxWidth: "100%",
+                  }}
+                />
+              </div>
             </div>
-            </div>
-                 <div className="shane_tm_section">
-
-                 <div className="top">
+            <div className="shane_tm_section" style={{ marginLeft: "3rem" }}>
+              <div className="top">
                 <p className="text">
                   Orbit Health is a Munich-based digital health startup focused
                   on enhancing care for people with Parkinson’s Disease (PD).
@@ -88,7 +107,7 @@ const MyStoryCaseStudy = () => {
                 </p>
               </div>
 
-        {/* <div className="shane_tm_about">
+              {/* <div className="shane_tm_about">
           <div className="container">
             <div className="full-image-section" style={{ width: "100%" }}>
               <img
@@ -109,7 +128,7 @@ const MyStoryCaseStudy = () => {
                 
 
         </div> */}
-      </div>
+            </div>
           </div>
         </div>
       </div>
@@ -503,7 +522,6 @@ const MyStoryCaseStudy = () => {
         </div>
       </div>
       {/* --- END COPY --- */}
- 
     </div>
   );
 };
