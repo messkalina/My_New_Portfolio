@@ -83,10 +83,10 @@ const MyStoryCaseStudy = () => {
                   <br />
                   <br />
                   With the product still undergoing clinical trials and awaiting
-                  medical device approval in Germany, the website needed to
+                  medical device approval in Germany, <strong>the website needed to
                   clearly explain a sophisticated digital health product—while
                   guiding two very different user groups through complex
-                  decision-making and regulatory processes.
+                  decision-making and regulatory processes.</strong>
                 </p>
               </div>
 
