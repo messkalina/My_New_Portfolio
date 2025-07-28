@@ -138,9 +138,11 @@ const MyStoryCaseStudy = () => {
                     </li>
                   </ul>
                   <p>
-                    The site lacked differentiated user flows,
+                    The existing site lacked differentiated user flows,
                     conversion-focused messaging, and guidance through the
-                    complex German healthcare system.
+                    complex German healthcare system.  My goal was to fix that by
+                    aligning UX with product complexity, compliance, and
+                    audience needs.
                   </p>
 
                   {/* <p>
@@ -221,7 +223,7 @@ const MyStoryCaseStudy = () => {
                   </p>
                 </div>
               </div>
-              {/* End left */}
+          
 
               <div className="right">
                 <div
