@@ -3850,3 +3850,11 @@ body.intro .loader_line:after {
     margin-bottom: 0;
   }
 }
+.full-image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  // border-radius: 12px;
+  object-fit: cover;
+  max-width: 100%;
+}

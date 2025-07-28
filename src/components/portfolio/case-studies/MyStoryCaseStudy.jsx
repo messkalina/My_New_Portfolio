@@ -45,6 +45,7 @@ const MyStoryCaseStudy = () => {
                 </span>
               </p>
             </div>
+
             <div
               className="hero_description"
               data-aos="fade-up"
@@ -67,7 +68,42 @@ const MyStoryCaseStudy = () => {
                   decision-making and regulatory processes.
                 </p>
               </div>
+
+               <div className="full-image-section" style={{ width: "100%" }}>
+              <img
+                src="/img/portfolio/case-study/Orbit_health_wireframes.png"
+                alt="Orbit Health Wireframes"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  // borderRadius: "12px",
+                  objectFit: "cover",
+                  maxWidth: "100%",
+                }}
+              />
             </div>
+            </div>
+                 <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="full-image-section" style={{ width: "100%" }}>
+              <img
+                src="/img/portfolio/case-study/Orbit_health_wireframes.png"
+                alt="Orbit Health Wireframes"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  // borderRadius: "12px",
+                  objectFit: "cover",
+                  maxWidth: "100%",
+                }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
           </div>
         </div>
       </div>
@@ -412,19 +448,22 @@ const MyStoryCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Created a clear and scalable information architecture</strong>
+                      <strong>
+                        Created a clear and scalable information architecture
+                      </strong>
                       based on audience segmentation
                     </li>
                     <li>
-                      <strong>Defined enrollment paths</strong> aligned with German healthcare
-                      reimbursement requirements
+                      <strong>Defined enrollment paths</strong> aligned with
+                      German healthcare reimbursement requirements
                     </li>
                     <li>
-                      <strong>Provided a prototype and content recommendations</strong> that
-                      clarified the company’s value and next steps
+                      <strong>
+                        Provided a prototype and content recommendations
+                      </strong>{" "}
+                      that clarified the company’s value and next steps
                     </li>
                   </ul>
-                  
                 </div>
               </div>
               {/* End left */}
@@ -458,6 +497,7 @@ const MyStoryCaseStudy = () => {
         </div>
       </div>
       {/* --- END COPY --- */}
+ 
     </div>
   );
 };
