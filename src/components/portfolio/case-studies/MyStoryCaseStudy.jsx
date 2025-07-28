@@ -88,7 +88,7 @@ const MyStoryCaseStudy = () => {
                 </p>
               </div>
 
-        <div className="shane_tm_about">
+        {/* <div className="shane_tm_about">
           <div className="container">
             <div className="full-image-section" style={{ width: "100%" }}>
               <img
@@ -98,7 +98,7 @@ const MyStoryCaseStudy = () => {
                   width: "100%",
                   height: "auto",
                   display: "block",
-                  // borderRadius: "12px",
+                 
                   objectFit: "cover",
                   maxWidth: "100%",
                 }}
@@ -108,7 +108,7 @@ const MyStoryCaseStudy = () => {
           </div>
                 
 
-        </div>
+        </div> */}
       </div>
           </div>
         </div>
