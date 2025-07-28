@@ -27,7 +27,7 @@ const MyStoryCaseStudy = () => {
                 <span>Web Design</span>
               </div> */}
 
-              <h1 style={{ marginBottom: 10 }}>
+              <h1 style={{ marginBottom: "4rem" }}>
                 Orbit Health Website Redesign
               </h1>
               {/* Chips horizontally below the title */}
