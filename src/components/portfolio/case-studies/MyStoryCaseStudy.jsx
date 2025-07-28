@@ -412,15 +412,15 @@ const MyStoryCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Created a clear and scalable information architecture
+                      <strong>Created a clear and scalable information architecture</strong>
                       based on audience segmentation
                     </li>
                     <li>
-                      Defined enrollment paths aligned with German healthcare
+                      <strong>Defined enrollment paths</strong> aligned with German healthcare
                       reimbursement requirements
                     </li>
                     <li>
-                      Provided a prototype and content recommendations that
+                      <strong>Provided a prototype and content recommendations</strong> that
                       clarified the company’s value and next steps
                     </li>
                   </ul>
