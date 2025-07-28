@@ -21,11 +21,11 @@ const MyStoryCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="shane_tm_title span" style={{ marginBottom: 4 }}>
+              {/* <div className="shane_tm_title span" style={{ marginBottom: 4 }}>
                 <span>UX Research</span>
                 <span>UX/UI Design</span>
                 <span>Web Design</span>
-              </div>
+              </div> */}
 
               <h1 style={{ marginBottom: 10 }}>
                 Orbit Health Website Redesign
@@ -188,9 +188,9 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>The Solution</span>
+                  <span>The Challenge</span>
                   <h3>
-                    A User-Centered Redesign Grounded in Design Thinking
+                   Designing Website for Complex Medical Products and Audiences
                   </h3>
                 </div>
                 <div
@@ -199,30 +199,32 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    To solve this, I applied the{" "}
-                    <strong>Design Thinking framework</strong>—starting with
-                    in-depth discovery and stakeholder interviews to understand
-                    the full scope of the product, user goals, and regulatory
-                    constraints.
+                    The central challenge was to design a website that clearly
+                    and persuasively communicates the value of
+                    <strong> AI-enabled medical device apps</strong>—while
+                    serving the needs of two very different audiences:
                   </p>
-                  <p>The redesigned experience needed to:</p>
+
                   <ul className="case-study-list">
                     <li>
-                      <strong>Simplify and explain</strong> a complex, AI-driven
-                      medical device
+                      <strong>People living with Parkinson’s Disease</strong>,
+                      who need support understanding how the product can help
+                      them and how to access it as a reimbursable treatment
+                      option.
                     </li>
                     <li>
-                      <strong>Differentiate user journeys</strong> for patients
-                      and healthcare professionals
-                    </li>
-                    <li>
-                      <strong>Guide users</strong> through eligibility,
-                      reimbursement, and onboarding workflows
+                      <strong>Neurologists</strong>, who require detailed
+                      clinical context, reimbursement guidance, and a clear
+                      value proposition for integrating the solution into
+                      patient care.
                     </li>
                   </ul>
                   <p>
-                    This process helped me transform strategic insights into
-                    clear user flows and a conversion-oriented site structure.
+                    The existing site lacked differentiated user flows,
+                    conversion-focused messaging, and guidance through the
+                    complex German healthcare system.  My goal was to fix that by
+                    aligning UX with product complexity, compliance, and
+                    audience needs.
                   </p>
                 </div>
               </div>
