@@ -66,11 +66,12 @@ const MyStoryCaseStudy = () => {
                 />
               </div>
             </div>
-            <div className="shane_tm_section" style={{ marginLeft: "3rem" }}>
+            <div className="shane_tm_section" style={{ marginLeft: "3rem"   }}>
               <div className="top">
                 <p className="text"
                  data-aos="fade-up"
-                  data-aos-duration="1200">
+                  data-aos-duration="1200"
+                   style={{ color: "#767676c3" }}>
                   Orbit Health is a Munich-based digital health startup focused
                   on enhancing care for people with Parkinson’s Disease (PD).
                   Its AI-powered solution uses smartwatches to track motor
