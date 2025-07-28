@@ -178,7 +178,7 @@ const MyStoryCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
