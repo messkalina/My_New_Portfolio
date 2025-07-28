@@ -71,9 +71,7 @@ const MyStoryCaseStudy = () => {
           </div>
         </div>
       </div>
-    
 
-           
       <div className="shane_tm_section" id="solution">
         <div className="shane_tm_about">
           <div className="container">
@@ -86,7 +84,7 @@ const MyStoryCaseStudy = () => {
                 >
                   <span>The Challenge</span>
                   <h3>
-                   Designing Website for Complex Medical Products and Audiences
+                    Designing Website for Complex Medical Products and Audiences
                   </h3>
                 </div>
                 <div
@@ -118,13 +116,12 @@ const MyStoryCaseStudy = () => {
                   <p>
                     The existing site lacked differentiated user flows,
                     conversion-focused messaging, and guidance through the
-                    complex German healthcare system.  My goal was to fix that by
+                    complex German healthcare system. My goal was to fix that by
                     aligning UX with product complexity, compliance, and
                     audience needs.
                   </p>
                 </div>
               </div>
-          
 
               <div className="right">
                 <div
@@ -362,14 +359,16 @@ const MyStoryCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Modular sitemap </strong>tailored to dual-audience logic
+                      <strong>Modular sitemap </strong>tailored to dual-audience
+                      logic
                     </li>
                     <li>
-                      <strong>Wireframes </strong>for segmented patient and provider flows
+                      <strong>Wireframes </strong>for segmented patient and
+                      provider flows
                     </li>
                     <li>
-                      <strong>Clickable Figma prototype </strong>showcasing product
-                      explainers, testimonials, and conversion paths
+                      <strong>Clickable Figma prototype </strong>showcasing
+                      product explainers, testimonials, and conversion paths
                     </li>
                   </ul>
                 </div>
@@ -387,6 +386,78 @@ const MyStoryCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
+
+      {/* --- COPY OF SECTION BELOW --- */}
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="right">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Outcome</span>
+                  <h3>Key Contributions</h3>
+                </div>
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <p>
+                    Although the redesigned site was never built due to
+                    financial constrains, through my work I:
+                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      Created a clear and scalable information architecture
+                      based on audience segmentation
+                    </li>
+                    <li>
+                      Defined enrollment paths aligned with German healthcare
+                      reimbursement requirements
+                    </li>
+                    <li>
+                      Provided a prototype and content recommendations that
+                      clarified the company’s value and next steps
+                    </li>
+                  </ul>
+                  
+                </div>
+              </div>
+              {/* End left */}
+
+              <div className="right">
+                <div
+                  className="image"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img src="/img/portfolio/1.jpg" alt="placeholder" />
+                  <div
+                    className="main"
+                    style={{
+                      backgroundImage: "url(/img/portfolio/case-study/5.jpg)",
+                    }}
+                  ></div>
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>
+                      High-fidelity mockups showcasing the final color palette
+                      and typography system
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* End right */}
+            </div>
+          </div>
+          {/* End container */}
+        </div>
+      </div>
+      {/* --- END COPY --- */}
     </div>
   );
 };
