@@ -72,7 +72,7 @@ const MyStoryCaseStudy = () => {
         </div>
       </div>
       {/* Project Overview Section - Image left, Text right */}
-      <div className="shane_tm_section" id="about">
+      <div className="shane_tm_section" id="challenge">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
@@ -138,7 +138,9 @@ const MyStoryCaseStudy = () => {
                     </li>
                   </ul>
                   <p>
-                    The site lacked differentiated user flows, conversion-focused messaging, and guidance through the complex German healthcare system.
+                    The site lacked differentiated user flows,
+                    conversion-focused messaging, and guidance through the
+                    complex German healthcare system.
                   </p>
 
                   {/* <p>
@@ -185,7 +187,9 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
-                  <h3>Applying Design Thinking to Solve for Complexity and Clarity</h3>
+                  <h3>
+                    Applying Design Thinking to Solve for Complexity and Clarity
+                  </h3>
                 </div>
                 <div
                   className="text"
@@ -193,21 +197,27 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    We conducted extensive user research to understand how
-                    people consume and share personal stories online. Through
-                    interviews with 25 participants, we discovered key pain
-                    points in existing storytelling platforms.
+                    The original Orbit Health website failed to effectively
+                    serve either of its two core audiences:
                   </p>
+                 <ul className="case-study-list">
+                    <li>
+                      <strong>People with Parkinson’s Disease</strong> – who
+                      needed support understanding the app’s value and how to
+                      access it as a reimbursable treatment option.
+                    </li>
+                    <li>
+                      <strong>Neurologists</strong> – who needed clinical
+                      clarity and guidance on prescription and reimbursement
+                      processes to adopt the product in their practice.
+                    </li>
+                  </ul>
                   <p>
-                    The research revealed that users wanted more control over
-                    their narrative flow, better integration of multimedia
-                    elements, and clearer visual hierarchy to guide readers
-                    through their stories.
-                  </p>
-                  <p>
-                    Based on these insights, we developed user personas and
-                    journey maps that would inform our design decisions
-                    throughout the project lifecycle.
+                    The site lacked differentiated user journeys,
+                    conversion-oriented content, and clear guidance through the
+                    German healthcare system. My challenge was to fix that by
+                    aligning UX with product complexity, compliance, and
+                    audience needs.
                   </p>
                 </div>
               </div>
