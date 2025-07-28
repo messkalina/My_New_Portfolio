@@ -459,14 +459,13 @@ const MyStoryCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Modular sitemap tailored to dual-audience logic
+                      <strong>Modular sitemap </strong>tailored to dual-audience logic
                     </li>
                     <li>
-                      Sketched wireframes for segmented patient and provider
-                      flows
+                      <strong>Wireframes </strong>for segmented patient and provider flows
                     </li>
                     <li>
-                      Built a clickable Figma prototype showcasing product
+                      <strong>Clickable Figma prototype </strong>showcasing product
                       explainers, testimonials, and conversion paths
                     </li>
                   </ul>
