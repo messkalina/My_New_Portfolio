@@ -200,7 +200,7 @@ const MyStoryCaseStudy = () => {
                     The original Orbit Health website failed to effectively
                     serve either of its two core audiences:
                   </p>
-                 <ul className="case-study-list">
+                  <ul className="case-study-list">
                     <li>
                       <strong>People with Parkinson’s Disease</strong> – who
                       needed support understanding the app’s value and how to
@@ -286,8 +286,8 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Design Process</span>
-                  <h3>From Wireframes to High-Fidelity</h3>
+                  <span>The Solution</span>
+                  <h3>A User-Centered Redesign Grounded in Design Thinking</h3>
                 </div>
                 <div
                   className="text"
@@ -295,21 +295,30 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The design process began with low-fidelity wireframes that
-                    focused on information architecture and user flow. We tested
-                    these early concepts with users to validate our approach
-                    before moving to visual design.
+                    To solve this, I applied the{" "}
+                    <strong>Design Thinking framework</strong>—starting with
+                    in-depth discovery and stakeholder interviews to understand
+                    the full scope of the product, user goals, and regulatory
+                    constraints.
                   </p>
+                  <p>The redesigned experience needed to:</p>
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>Simplify and explain</strong> a complex, AI-driven
+                      medical device
+                    </li>
+                    <li>
+                      <strong>Differentiate user journeys</strong> for patients
+                      and healthcare professionals
+                    </li>
+                    <li>
+                      <strong>Guide users</strong> through eligibility,
+                      reimbursement, and onboarding workflows
+                    </li>
+                  </ul>
                   <p>
-                    Multiple iterations were created, each building upon user
-                    feedback and usability testing results. The final design
-                    features a clean, minimalist aesthetic that puts the user's
-                    story at the center of attention.
-                  </p>
-                  <p>
-                    Typography plays a crucial role in the design, with
-                    carefully selected typefaces that enhance readability while
-                    maintaining visual interest throughout long-form content.
+                    This process helped me transform strategic insights into
+                    clear user flows and a conversion-oriented site structure.
                   </p>
                 </div>
               </div>
@@ -330,8 +339,8 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Visual Design</span>
-                  <h3>Creating Emotional Connection</h3>
+                  <span>1. Empathize</span>
+                  <h3>Researching Users, Market, and Business Goals</h3>
                 </div>
                 <div
                   className="text"
@@ -339,21 +348,25 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The visual design system was crafted to evoke emotion and
-                    create a strong connection between the storyteller and their
-                    audience. We used a warm color palette and subtle animations
-                    to enhance the reading experience.
+                    Since direct user interviews weren’t possible at this stage,
+                    I focused on stakeholder insights and competitive analysis:
                   </p>
-                  <p>
-                    Interactive elements were designed to feel natural and
-                    intuitive, with hover states and transitions that provide
-                    clear feedback without overwhelming the content.
-                  </p>
-                  <p>
-                    The layout system is fully responsive, ensuring that stories
-                    look beautiful and remain readable across all device sizes,
-                    from mobile phones to large desktop displays.
-                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      <strong> Conducted interviews with internal
+                      stakeholders  </strong>  (product, operations, regulatory) to define
+                      business objectives, product functionality, and user pain
+                      points
+                    </li>
+                    <li>
+                      <strong>Mapped workflows</strong> from patient onboarding
+                      to neurologist prescription and follow-up
+                    </li>
+                    <li>
+                      <strong>Analyzed competitor websites</strong> to benchmark UX patterns,
+                      messaging tone, and regulatory handling
+                    </li>
+                  </ul>
                 </div>
               </div>
               {/* End left */}
