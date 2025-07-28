@@ -186,7 +186,7 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Solution</span>
+                  <span>Process</span>
                   <h3>
                     Applying Design Thinking to Solve for Complexity and Clarity
                   </h3>
@@ -340,7 +340,7 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Empathize & Define</span>
-                  <h3>Framing the Problem Through User Segmentation and Journey Mapping</h3>
+                  <h3>User Segmentation and Journey Mapping</h3>
                 </div>
                 <div
                   className="text"
@@ -353,23 +353,29 @@ const MyStoryCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong> Conducted interviews with internal
-                      stakeholders  </strong>  (product, operations, regulatory) to define
-                      business objectives, product functionality, and user pain
-                      points
+                      <strong>
+                        {" "}
+                        Conducted interviews with internal stakeholders{" "}
+                      </strong>{" "}
+                      (product, operations, regulatory) to define business
+                      objectives, product functionality, and user pain points
                     </li>
                     <li>
                       <strong>Mapped workflows</strong> from patient onboarding
                       to neurologist prescription and follow-up
                     </li>
                     <li>
-                      <strong>Analyzed competitor websites</strong> to benchmark UX patterns,
-                      messaging tone, and regulatory handling
+                      <strong>Analyzed competitor websites</strong> to benchmark
+                      UX patterns, messaging tone, and regulatory handling
                     </li>
                   </ul>
                   <p>
-                    From my research, I developed distinct user personas and journeys that helped me identify and define core UX problems: how to <strong>explain </strong> complex medical products, <strong>build trust and credibility</strong> and design <strong>conversion flows</strong> that work within German healthcare regulations.
-
+                    From my research, I developed distinct user personas and
+                    journeys that helped me identify and define core UX
+                    problems: how to <strong>explain </strong> complex medical
+                    products, <strong>build trust and credibility</strong> and
+                    design <strong>conversion flows</strong> that work within
+                    German healthcare regulations.
                   </p>
                 </div>
               </div>
@@ -438,8 +444,8 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Results & Impact</span>
-                  <h3>Measuring Success</h3>
+                  <span>Ideate & Prototype</span>
+                  <h3>Solutions for Content, Navigation, and UX Structure</h3>
                 </div>
                 <div
                   className="text"
@@ -447,30 +453,31 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The final product exceeded our initial success metrics, with
-                    user engagement increasing by 150% compared to previous
-                    storytelling platforms. Time spent reading stories increased
-                    significantly, indicating improved user experience.
+                    I explored multiple approaches and gathered feedback from
+                    stakeholders to refine the Information Architecture and
+                    onboarding logic and developed:
                   </p>
-                  <p>
-                    Post-launch surveys showed that 89% of users found the new
-                    interface more intuitive and engaging than existing
-                    alternatives. The clear visual hierarchy and improved
-                    navigation resulted in better story completion rates.
-                  </p>
-                  <p>
-                    This project demonstrates how thoughtful UX design can
-                    transform the way people share and consume personal
-                    narratives in digital spaces.
-                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      Modular sitemap tailored to dual-audience logic
+                    </li>
+                    <li>
+                      Sketched wireframes for segmented patient and provider
+                      flows
+                    </li>
+                    <li>
+                      Built a clickable Figma prototype showcasing product
+                      explainers, testimonials, and conversion paths
+                    </li>
+                  </ul>
                 </div>
-                <div
+                {/* <div
                   className="shane_tm_button"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
                   <Link to="/#portfolio">View More Projects</Link>
-                </div>
+                </div> */}
               </div>
               {/* End right */}
             </div>
