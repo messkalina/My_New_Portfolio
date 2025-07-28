@@ -51,23 +51,7 @@ const MyStoryCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="top">
-                <p className="text">
-                  Orbit Health is a Munich-based digital health startup focused
-                  on enhancing care for people with Parkinson’s Disease (PD).
-                  Its AI-powered solution uses smartwatches to track motor
-                  symptoms, giving patients and neurologists real-time,
-                  data-driven insights into symptom fluctuations and treatment
-                  efficacy.
-                  <br />
-                  <br />
-                  With the product still undergoing clinical trials and awaiting
-                  medical device approval in Germany, the website needed to
-                  clearly explain a sophisticated digital health product—while
-                  guiding two very different user groups through complex
-                  decision-making and regulatory processes.
-                </p>
-              </div>
+             
 
                <div className="full-image-section" style={{ width: "100%" }}>
               <img
@@ -85,6 +69,25 @@ const MyStoryCaseStudy = () => {
             </div>
             </div>
                  <div className="shane_tm_section">
+
+                 <div className="top">
+                <p className="text">
+                  Orbit Health is a Munich-based digital health startup focused
+                  on enhancing care for people with Parkinson’s Disease (PD).
+                  Its AI-powered solution uses smartwatches to track motor
+                  symptoms, giving patients and neurologists real-time,
+                  data-driven insights into symptom fluctuations and treatment
+                  efficacy.
+                  <br />
+                  <br />
+                  With the product still undergoing clinical trials and awaiting
+                  medical device approval in Germany, the website needed to
+                  clearly explain a sophisticated digital health product—while
+                  guiding two very different user groups through complex
+                  decision-making and regulatory processes.
+                </p>
+              </div>
+
         <div className="shane_tm_about">
           <div className="container">
             <div className="full-image-section" style={{ width: "100%" }}>
@@ -101,7 +104,10 @@ const MyStoryCaseStudy = () => {
                 }}
               />
             </div>
+            
           </div>
+                
+
         </div>
       </div>
           </div>
