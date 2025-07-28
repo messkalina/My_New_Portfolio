@@ -333,14 +333,14 @@ const MyStoryCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>1. Empathize</span>
-                  <h3>Researching Users, Market, and Business Goals</h3>
+                  <span>Empathize & Define</span>
+                  <h3>Framing the Problem Through User Segmentation and Journey Mapping</h3>
                 </div>
                 <div
                   className="text"
@@ -367,6 +367,10 @@ const MyStoryCaseStudy = () => {
                       messaging tone, and regulatory handling
                     </li>
                   </ul>
+                  <p>
+                    From my research, I developed distinct user personas and journeys that helped me identify and define core UX problems: how to <strong>explain </strong> complex medical products, <strong>build trust and credibility</strong> and design <strong>conversion flows</strong> that work within German healthcare regulations.
+
+                  </p>
                 </div>
               </div>
               {/* End left */}
