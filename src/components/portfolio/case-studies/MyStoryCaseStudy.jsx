@@ -468,9 +468,8 @@ const MyStoryCaseStudy = () => {
                   <ul className="case-study-list">
                     <li>
                       <strong>
-                        Created a clear and scalable information architecture
-                      </strong>
-                      based on audience segmentation
+                        Created a clear and scalable information architecture </strong>
+                       based on audience segmentation
                     </li>
                     <li>
                       <strong>Defined enrollment paths</strong> aligned with
