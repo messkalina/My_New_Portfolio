@@ -45,29 +45,7 @@ const MyStoryCaseStudy = () => {
                 </span>
               </p>
             </div>
-            <div className="shane_tm_section">
-              <div className="shane_tm_about">
-                <div className="container">
-                  <div className="about_inner">
-                    <div>
-                      <div
-                        className="text"
-                        data-aos="fade-up"
-                        data-aos-duration="1200"
-                      >
-                        <p>
-                          Since direct user interviews weren’t possible at this
-                          stage, I focused on stakeholder insights and
-                          competitive analysis:
-                        </p>
-                      </div>
-                    </div>
-                    {/* End left */}
-                  </div>
-                </div>
-                {/* End container */}
-              </div>
-            </div>
+            
             <div
               className="hero_description"
               data-aos="fade-up"
