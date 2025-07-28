@@ -188,9 +188,9 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Process</span>
+                  <span>The Solution</span>
                   <h3>
-                    Applying Design Thinking to Solve for Complexity and Clarity
+                    A User-Centered Redesign Grounded in Design Thinking
                   </h3>
                 </div>
                 <div
@@ -199,27 +199,30 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The original Orbit Health website failed to effectively
-                    serve either of its two core audiences:
+                    To solve this, I applied the{" "}
+                    <strong>Design Thinking framework</strong>—starting with
+                    in-depth discovery and stakeholder interviews to understand
+                    the full scope of the product, user goals, and regulatory
+                    constraints.
                   </p>
+                  <p>The redesigned experience needed to:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>People with Parkinson’s Disease</strong> – who
-                      needed support understanding the app’s value and how to
-                      access it as a reimbursable treatment option.
+                      <strong>Simplify and explain</strong> a complex, AI-driven
+                      medical device
                     </li>
                     <li>
-                      <strong>Neurologists</strong> – who needed clinical
-                      clarity and guidance on prescription and reimbursement
-                      processes to adopt the product in their practice.
+                      <strong>Differentiate user journeys</strong> for patients
+                      and healthcare professionals
+                    </li>
+                    <li>
+                      <strong>Guide users</strong> through eligibility,
+                      reimbursement, and onboarding workflows
                     </li>
                   </ul>
                   <p>
-                    The site lacked differentiated user journeys,
-                    conversion-oriented content, and clear guidance through the
-                    German healthcare system. My challenge was to fix that by
-                    aligning UX with product complexity, compliance, and
-                    audience needs.
+                    This process helped me transform strategic insights into
+                    clear user flows and a conversion-oriented site structure.
                   </p>
                 </div>
               </div>
