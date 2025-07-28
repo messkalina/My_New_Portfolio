@@ -27,7 +27,7 @@ const MyStoryCaseStudy = () => {
                 <span>Web Design</span>
               </div> */}
 
-              <h1 style={{ marginBottom: "4rem" }}>
+              <h1 >
                 Orbit Health Website Redesign
               </h1>
               {/* Chips horizontally below the title */}
@@ -38,18 +38,19 @@ const MyStoryCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
+      <p style={{ fontWeight: 600, fontSize: "14px" }}>
+                Timeline:{" "}
+                <span className="timeline-fine">
+                  April 2024 – September 2024
+                </span>
+              </p>
+
+
               <div className="full-image-section" style={{ width: "100%" }}>
                 <img
                   src="/img/portfolio/case-study/Orbit_health_wireframes.png"
                   alt="Orbit Health Wireframes"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    display: "block",
-                    // borderRadius: "12px",
-                    objectFit: "cover",
-                    maxWidth: "100%",
-                  }}
+             
                 />
               </div>
             </div>
@@ -71,12 +72,7 @@ const MyStoryCaseStudy = () => {
              data-aos="fade-up"
                   data-aos-duration="1200">
               <div className="top">
-                 <p style={{ fontWeight: 600,  marginBottom: "18px" }}>
-                Timeline:{" "}
-                <span className="timeline-fine">
-                  April 2024 – September 2024
-                </span>
-              </p>
+           
                 <p
                   className="text"
                  

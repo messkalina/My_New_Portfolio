@@ -3852,9 +3852,17 @@ body.intro .loader_line:after {
   }
 }
 .full-image-section {
-  margin: 5rem 0; // Add top and bottom margin
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
+
+@media (max-width: 768px) {
+  .full-image-section {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+}
 
 .full-image-section img {
   width: 100%;
