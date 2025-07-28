@@ -28,7 +28,7 @@ const MyStoryCaseStudy = () => {
               </div> */}
 
               <h1 >
-                Orbit Health Website Redesign
+                Orbit Health <br /> Website Redesign
               </h1>
               {/* Chips horizontally below the title */}
             </div>
