@@ -71,7 +71,7 @@ const MyStoryCaseStudy = () => {
              data-aos="fade-up"
                   data-aos-duration="1200">
               <div className="top">
-                 <p style={{ fontWeight: 600}}>
+                 <p style={{ fontWeight: 600,  marginBottom: "18px" }}>
                 Timeline:{" "}
                 <span className="timeline-fine">
                   April 2024 – September 2024
