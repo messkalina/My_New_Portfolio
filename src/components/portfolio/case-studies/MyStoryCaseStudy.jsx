@@ -32,8 +32,7 @@ const MyStoryCaseStudy = () => {
               </h1>
               {/* Chips horizontally below the title */}
             </div>
-           
-            
+
             <div
               className="hero_description"
               data-aos="fade-up"
@@ -54,26 +53,35 @@ const MyStoryCaseStudy = () => {
                 />
               </div>
             </div>
-                   <div
+            {/* <div
               className="project_timeline"
               data-aos="fade-up"
               data-aos-duration="1200"
               style={{ marginTop: 0, marginBottom: 10 }}
             >
-              <p style={{ fontWeight: 600, color: "#888" }}>
+              <p style={{ fontWeight: 600}}>
                 Timeline:{" "}
                 <span className="timeline-fine">
                   April 2024 – September 2024
                 </span>
               </p>
-            </div>
+            </div> */}
 
-            <div className="shane_tm_section">
+            <div className="case-study-intro-section"
+             data-aos="fade-up"
+                  data-aos-duration="1200">
               <div className="top">
-                <p className="text"
-                 data-aos="fade-up"
-                  data-aos-duration="1200"
-                   style={{ color: "#767676c3" }}>
+                 <p style={{ fontWeight: 600}}>
+                Timeline:{" "}
+                <span className="timeline-fine">
+                  April 2024 – September 2024
+                </span>
+              </p>
+                <p
+                  className="text"
+                 
+                  style={{ color: "#767676b9" }}
+                >
                   Orbit Health is a Munich-based digital health startup focused
                   on enhancing care for people with Parkinson’s Disease (PD).
                   Its AI-powered solution uses smartwatches to track motor
@@ -83,10 +91,13 @@ const MyStoryCaseStudy = () => {
                   <br />
                   <br />
                   With the product still undergoing clinical trials and awaiting
-                  medical device approval in Germany, <strong>the website needed to
-                  clearly explain a sophisticated digital health product—while
-                  guiding two very different user groups through complex
-                  decision-making and regulatory processes.</strong>
+                  medical device approval in Germany,{" "}
+                  <strong>
+                    the website needed to clearly explain a sophisticated
+                    digital health product—while guiding two very different user
+                    groups through complex decision-making and regulatory
+                    processes.
+                  </strong>
                 </p>
               </div>
 
