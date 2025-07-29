@@ -147,7 +147,7 @@ const Portfolio = () => {
                                 </div>
                                 {/* Always show project name and meta below the image */}
                                 <div className="portfolio_title_always">
-                                  <h3 style={{ margin: "12px 0 4px 0", fontSize: "1.1em" }}>{val.title}</h3>
+                                  <h3 style={{ margin: "12px 0 0px 0", fontSize: "1.1em" }}>{val.title}</h3>
                                   <span style={{ color: "#888", fontSize: "0.95em" }}>{val.meta}</span>
                                 </div>
                               </div>
