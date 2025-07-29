@@ -3885,3 +3885,10 @@ body.intro .loader_line:after {
     padding-left: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .shane_tm_about {
+    padding-top: 28px !important;
+    padding-bottom: 28px !important;
+  }
+}
