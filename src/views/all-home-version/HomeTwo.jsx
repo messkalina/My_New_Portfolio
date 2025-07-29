@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Header from "../../components/header/Header";
 import Slider from "../../components/slider/SliderTwo";
 import About from "../../components/about/AboutTwo";
@@ -14,22 +15,30 @@ import Contact from "../../components/Contact";
 import ContactForm from "../../components/ContactForm";
 
 const HomeTwo = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace("#", "");
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
     <div className="home-two">
       <Header />
-      {/* End Header Section */}
 
       <Slider />
-      {/* End Slider Section */}
 
       <Portfolio />
-      {/* End Portfolio Section */}
 
-       <About />
-      {/* End About Section */}
+      <About />
 
       <Skills />
-      {/* End Skills Section */}
+
       <ContactForm />
 
       {/* <Video /> */}
@@ -73,7 +82,7 @@ const HomeTwo = () => {
         </div> */}
       {/* </div> */}
       {/* End  shane_tm_testimonials*/}
-{/* 
+      {/* 
       <News />
       End Blog Section */}
 
@@ -81,7 +90,6 @@ const HomeTwo = () => {
       {/* End CallToAction */}
 
       <Footer />
-      {/* End Footer Section */}
     </div>
   );
 };

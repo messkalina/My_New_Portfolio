@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import Social from "../SocialTwo";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -36,19 +36,19 @@ const Header = () => {
               offset={-200}
             >
               <li>
-                <a href="#home">Home</a>
+                <NavLink to="/#home">Home</NavLink>
               </li>
               <li>
-                <a href="#about">About</a>
+                <NavLink to="/#about">About</NavLink>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <NavLink to="/#portfolio">Portfolio</NavLink>
               </li>
               <li>
-                <a href="#news">News</a>
+                <NavLink to="/#news">News</NavLink>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <NavLink to="/#contact">Contact</NavLink>
               </li>
               <li>
                 <a
