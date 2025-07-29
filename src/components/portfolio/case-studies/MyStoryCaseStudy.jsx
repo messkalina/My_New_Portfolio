@@ -162,23 +162,19 @@ const MyStoryCaseStudy = () => {
               </div>
 
               <div className="right">
-                <div
-                  className="image"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <img src="/img/portfolio/1.jpg" alt="placeholder" />
-                  <div
-                    className="main"
-                    style={{
-                      backgroundImage: "url(/img/portfolio/case-study/3.jpg)",
-                    }}
-                  ></div>
+                 <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() => setLightboxOpen(true)}
+                  />
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      User interview sessions and persona development workshop
-                      results
+                      Analytics dashboard showing improved user engagement and
+                      story completion rates
                     </p>
                   </div>
                 </div>
@@ -353,12 +349,7 @@ const MyStoryCaseStudy = () => {
           <div className="container">
             <div className="about_inner">
               <div className="left">
-                <div
-                
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-               
+                <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
                     alt="Wireframe"
@@ -472,23 +463,19 @@ const MyStoryCaseStudy = () => {
               {/* End left */}
 
               <div className="right">
-                <div
-                  className="image"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <img src="/img/portfolio/1.jpg" alt="placeholder" />
-                  <div
-                    className="main"
-                    style={{
-                      backgroundImage: "url(/img/portfolio/case-study/5.jpg)",
-                    }}
-                  ></div>
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() => setLightboxOpen(true)}
+                  />
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      High-fidelity mockups showcasing the final color palette
-                      and typography system
+                      Analytics dashboard showing improved user engagement and
+                      story completion rates
                     </p>
                   </div>
                 </div>
