@@ -10,8 +10,8 @@ const tabListContent = [
     porftoliItems: [
       {
         img: "/img/portfolio/case-study/Orbit_health_wireframes.png",
-        title: "My Story",
-        meta: "UX/UI Design",
+        title: "Orbit Health Website Redesign",
+        meta: "Designing Website for Complex Digital Products",
         portfolioLink: "/case-study/my-story", // Changed from Instagram link
       },
       {
