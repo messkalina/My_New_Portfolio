@@ -3929,3 +3929,14 @@ body.intro .loader_line:after {
     padding-bottom: 28px !important;
   }
 }
+
+.shane_tm_portfolio_animation_wrap > div,
+.shane_tm_portfolio_animation_wrap img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  overflow: hidden;
+  border-radius: 0px; 
+}

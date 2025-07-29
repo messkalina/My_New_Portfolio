@@ -9,7 +9,7 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/1.jpg",
+        img: "/img/portfolio/case-study/Orbit_health_wireframes.png",
         title: "My Story",
         meta: "UX/UI Design",
         portfolioLink: "/case-study/my-story", // Changed from Instagram link
@@ -52,7 +52,6 @@ const tabListContent = [
         meta: "Motion Design",
         portfolioLink: "/case-study/animation-project", // Changed
       },
-     
     ],
   },
 ];
@@ -115,17 +114,29 @@ const Portfolio = () => {
                                     height={1000}
                                   >
                                     {({ ref, open }) => (
-                                      <img
-                                        src={val.img}
-                                        alt="portfolio"
-                                        role="button"
-                                        ref={ref}
+                                      <div
+                                        
                                         onClick={() =>
                                           handlePortfolioClick(
                                             val.portfolioLink
                                           )
-                                        } // Change this line
-                                      />
+                                        }
+                                        role="button"
+                                        tabIndex={0}
+                                      >
+                                        <img
+                                          src={val.img}
+                                          alt="portfolio"
+                                          ref={ref}
+                                          style={{
+                                            width: "100%",
+                                            height: "100%",
+                                            objectFit: "cover",
+                                            display: "block",
+                                            cursor: "pointer",
+                                          }}
+                                        />
+                                      </div>
                                     )}
                                   </Item>
                                 </div>
