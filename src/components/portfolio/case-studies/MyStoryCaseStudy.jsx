@@ -54,13 +54,13 @@ const MyStoryCaseStudy = () => {
               <img
                 src="/img/portfolio/case-study/Orbit_health_wireframes.png"
                 alt="Orbit Health Wireframes"
-                style={{
-                  width: "100%",
-                  height: "auto",
-                  display: "block",
-                  objectFit: "cover",
-                  maxWidth: "100%",
-                }}
+                // style={{
+                //   width: "100%",
+                //   height: "auto",
+                //   display: "block",
+                //   objectFit: "cover",
+                //   maxWidth: "100%",
+                // }}
               />
             </div>
           </div>
