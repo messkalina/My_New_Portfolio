@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Header from "../../header/Header";
+import Footer from "../../footer/Footer";
 
 const MyStoryCaseStudy = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
 
   return (
     <div className="shane_tm_all_wrap">
+      <Header />
       <div className="shane_tm_topbar">
         <div className="topbar_inner">
           <div className="logo">
@@ -162,7 +165,7 @@ const MyStoryCaseStudy = () => {
               </div>
 
               <div className="right">
-                 <div data-aos="fade-up" data-aos-duration="1200">
+                <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
                     alt="Wireframe"
@@ -191,7 +194,7 @@ const MyStoryCaseStudy = () => {
           <div className="container">
             <div className="about_inner">
               <div className="left">
-              <div data-aos="fade-up" data-aos-duration="1200">
+                <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
                     alt="Wireframe"
@@ -312,7 +315,7 @@ const MyStoryCaseStudy = () => {
               {/* End left */}
 
               <div className="right">
-             <div data-aos="fade-up" data-aos-duration="1200">
+                <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
                     alt="Wireframe"
@@ -505,6 +508,7 @@ const MyStoryCaseStudy = () => {
           />
         </div>
       )}
+      <Footer />
     </div>
   );
 };
