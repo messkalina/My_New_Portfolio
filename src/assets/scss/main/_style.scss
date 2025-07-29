@@ -145,6 +145,17 @@ h6 {
   float: left;
 }
 
+.image_caption {
+  font-size: 13px !important;
+  color: #888 !important;
+  margin-top: 4px !important;
+  text-align: left !important;
+}
+
+.shane_tm_about .image .image_caption p {
+  text-align: left !important;
+}
+
 .shane_tm_title h1 {
   margin-bottom: -4rem;
 }
