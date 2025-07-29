@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const MyStoryCaseStudy = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+
   return (
     <div className="shane_tm_all_wrap">
       <div className="shane_tm_topbar">
@@ -50,9 +52,12 @@ const MyStoryCaseStudy = () => {
       <div className="container">
         <div className="content">
           <div className="shane_tm_section">
-            <div className="full-image-section" style={{ width: "100%" }}
-             data-aos="fade-up"
-              data-aos-duration="1200">
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <img
                 src="/img/portfolio/case-study/Orbit_health_wireframes.png"
                 alt="Orbit Health Wireframes"
@@ -349,17 +354,18 @@ const MyStoryCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div
-                  className="image"
+                
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <img src="/img/placeholders/1-1.jpg" alt="placeholder" />
-                  <div
-                    className="main"
-                    style={{
-                      backgroundImage: "url(/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png)",
-                    }}
-                  ></div>
+               
+                  <img
+                    src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() => setLightboxOpen(true)}
+                  />
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
@@ -494,6 +500,32 @@ const MyStoryCaseStudy = () => {
         </div>
       </div>
       {/* --- END COPY --- */}
+
+      {/* Lightbox */}
+      {lightboxOpen && (
+        <div
+          className="lightbox"
+          onClick={() => setLightboxOpen(false)}
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: "rgba(0,0,0,0.85)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 9999,
+          }}
+        >
+          <img
+            src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+            alt="Wireframe Full"
+            style={{ maxWidth: "90vw", maxHeight: "90vh" }}
+          />
+        </div>
+      )}
     </div>
   );
 };
