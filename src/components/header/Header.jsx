@@ -44,22 +44,12 @@ const Header = () => {
               <li>
                 <NavLink to="/#portfolio">Portfolio</NavLink>
               </li>
-              <li>
-                <NavLink to="/#news">News</NavLink>
-              </li>
-              <li>
+             
+              <li
+              className="white-fill-bg btn-outline btn_sm">
                 <NavLink to="/#contact">Contact</NavLink>
               </li>
-              <li>
-                <a
-                  className="white-fill-bg btn-outline btn_sm"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://themeforest.net/item/shane-react-personal-portfolio-template/32642263"
-                >
-                  Buy Now
-                </a>
-              </li>
+             
             </Scrollspy>
           </div>
           {/* End menu */}
