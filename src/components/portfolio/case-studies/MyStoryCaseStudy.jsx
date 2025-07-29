@@ -47,61 +47,60 @@ const MyStoryCaseStudy = () => {
       </div>
 
       {/* Full-width image section */}
-       <div className="container">
-      <div className="content">
-      <div className="shane_tm_section">
-        <div className="full-image-section" style={{ width: "100%" }}>
-          <img
-            src="/img/portfolio/case-study/Orbit_health_wireframes.png"
-            alt="Orbit Health Wireframes"
-            style={{
-              width: "100%",
-              height: "auto",
-              display: "block",
-              objectFit: "cover",
-              maxWidth: "100%",
-            }}
-          />
-        </div>
-        </div>
+      <div className="container">
+        <div className="content">
+          <div className="shane_tm_section">
+            <div className="full-image-section" style={{ width: "100%" }}>
+              <img
+                src="/img/portfolio/case-study/Orbit_health_wireframes.png"
+                alt="Orbit Health Wireframes"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  objectFit: "cover",
+                  maxWidth: "100%",
+                }}
+              />
+            </div>
+          </div>
         </div>
       </div>
 
-       <div className="shane_tm_hero_case_study">
+      <div className="shane_tm_hero_case_study">
         <div className="container">
           <div className="content">
-      <div className="shane_tm_section">
-    <div
-              className="case-study-intro-section"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="top">
-                <p className="text" style={{ color: "#767676b9" }}>
-                  Orbit Health is a Munich-based digital health startup focused
-                  on enhancing care for people with Parkinson’s Disease (PD).
-                  Its AI-powered solution uses smartwatches to track motor
-                  symptoms, giving patients and neurologists real-time,
-                  data-driven insights into symptom fluctuations and treatment
-                  efficacy.
-                  <br />
-                  <br />
-                  With the product still undergoing clinical trials and awaiting
-                  medical device approval in Germany,{" "}
-                  <strong>
-                    the website needed to clearly explain a sophisticated
-                    digital health product—while guiding two very different user
-                    groups through complex decision-making and regulatory
-                    processes.
-                  </strong>
-                </p>
-              </div>
-              </div>
-              </div>
-              </div>
+            <div className="shane_tm_section">
+              <div
+                className="case-study-intro-section"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <div className="top">
+                  <p className="text" style={{ color: "#767676b9" }}>
+                    Orbit Health is a Munich-based digital health startup
+                    focused on enhancing care for people with Parkinson’s
+                    Disease (PD). Its AI-powered solution uses smartwatches to
+                    track motor symptoms, giving patients and neurologists
+                    real-time, data-driven insights into symptom fluctuations
+                    and treatment efficacy.
+                    <br />
+                    <br />
+                    With the product still undergoing clinical trials and
+                    awaiting medical device approval in Germany,{" "}
+                    <strong>
+                      the website needed to clearly explain a sophisticated
+                      digital health product—while guiding two very different
+                      user groups through complex decision-making and regulatory
+                      processes.
+                    </strong>
+                  </p>
+                </div>
               </div>
             </div>
-
+          </div>
+        </div>
+      </div>
 
       {/* Case study description section (challenge, etc.) */}
       <div className="shane_tm_section" id="solution">
