@@ -357,7 +357,7 @@ const MyStoryCaseStudy = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(/img/portfolio/case-study/6.jpg)",
+                      backgroundImage: "url(/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png)",
                     }}
                   ></div>
                   {/* Add caption */}
