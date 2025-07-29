@@ -50,7 +50,9 @@ const MyStoryCaseStudy = () => {
       <div className="container">
         <div className="content">
           <div className="shane_tm_section">
-            <div className="full-image-section" style={{ width: "100%" }}>
+            <div className="full-image-section" style={{ width: "100%" }}
+             data-aos="fade-up"
+              data-aos-duration="1200">
               <img
                 src="/img/portfolio/case-study/Orbit_health_wireframes.png"
                 alt="Orbit Health Wireframes"
