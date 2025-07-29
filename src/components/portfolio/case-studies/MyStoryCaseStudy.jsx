@@ -13,6 +13,7 @@ const MyStoryCaseStudy = () => {
           </div>
         </div>
       </div>
+      {/* Hero section */}
       <div className="shane_tm_hero_case_study" id="home">
         <div className="container">
           <div className="content">
@@ -21,63 +22,58 @@ const MyStoryCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              {/* <div className="shane_tm_title span" style={{ marginBottom: 4 }}>
-                <span>UX Research</span>
-                <span>UX/UI Design</span>
-                <span>Web Design</span>
-              </div> */}
-
-              <h1 >
+              <h1>
                 Orbit Health <br /> Website Redesign
               </h1>
-              {/* Chips horizontally below the title */}
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div
-              className="hero_description"
+      {/* Timeline section */}
+      <div className="shane_tm_section">
+        <div className="container">
+          <div
+            className="hero_description"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <p style={{ fontWeight: 600, fontSize: "14px" }}>
+              Timeline:{" "}
+              <span className="timeline-fine">April 2024 – September 2024</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Full-width image section */}
+      <div className="shane_tm_section">
+        <div className="full-image-section" style={{ width: "100%" }}>
+          <img
+            src="/img/portfolio/case-study/Orbit_health_wireframes.png"
+            alt="Orbit Health Wireframes"
+            style={{
+              width: "100%",
+              height: "auto",
+              display: "block",
+              objectFit: "cover",
+              maxWidth: "100%",
+            }}
+          />
+        </div>
+      </div>
+
+       <div className="shane_tm_hero_case_study">
+        <div className="container">
+          <div className="content">
+      <div className="shane_tm_section">
+    <div
+              className="case-study-intro-section"
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-      <p style={{ fontWeight: 600, fontSize: "14px" }}>
-                Timeline:{" "}
-                <span className="timeline-fine">
-                  April 2024 – September 2024
-                </span>
-              </p>
-
-
-              <div className="full-image-section" style={{ width: "100%" }}>
-                <img
-                  src="/img/portfolio/case-study/Orbit_health_wireframes.png"
-                  alt="Orbit Health Wireframes"
-             
-                />
-              </div>
-            </div>
-            {/* <div
-              className="project_timeline"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              style={{ marginTop: 0, marginBottom: 10 }}
-            >
-              <p style={{ fontWeight: 600}}>
-                Timeline:{" "}
-                <span className="timeline-fine">
-                  April 2024 – September 2024
-                </span>
-              </p>
-            </div> */}
-
-            <div className="case-study-intro-section"
-             data-aos="fade-up"
-                  data-aos-duration="1200">
               <div className="top">
-           
-                <p
-                  className="text"
-                 
-                  style={{ color: "#767676b9" }}
-                >
+                <p className="text" style={{ color: "#767676b9" }}>
                   Orbit Health is a Munich-based digital health startup focused
                   on enhancing care for people with Parkinson’s Disease (PD).
                   Its AI-powered solution uses smartwatches to track motor
@@ -96,33 +92,14 @@ const MyStoryCaseStudy = () => {
                   </strong>
                 </p>
               </div>
-
-              {/* <div className="shane_tm_about">
-          <div className="container">
-            <div className="full-image-section" style={{ width: "100%" }}>
-              <img
-                src="/img/portfolio/case-study/Orbit_health_wireframes.png"
-                alt="Orbit Health Wireframes"
-                style={{
-                  width: "100%",
-                  height: "auto",
-                  display: "block",
-                 
-                  objectFit: "cover",
-                  maxWidth: "100%",
-                }}
-              />
+              </div>
+              </div>
+              </div>
+              </div>
             </div>
-            
-          </div>
-                
 
-        </div> */}
-            </div>
-          </div>
-        </div>
-      </div>
 
+      {/* Case study description section (challenge, etc.) */}
       <div className="shane_tm_section" id="solution">
         <div className="shane_tm_about">
           <div className="container">
@@ -464,8 +441,9 @@ const MyStoryCaseStudy = () => {
                   <ul className="case-study-list">
                     <li>
                       <strong>
-                        Created a clear and scalable information architecture </strong>
-                       based on audience segmentation
+                        Created a clear and scalable information architecture{" "}
+                      </strong>
+                      based on audience segmentation
                     </li>
                     <li>
                       <strong>Defined enrollment paths</strong> aligned with
