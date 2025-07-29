@@ -9,18 +9,20 @@ const MyStoryCaseStudy = () => {
   return (
     <div className="shane_tm_all_wrap">
       <Header />
-      <div className="shane_tm_topbar">
-        <div className="topbar_inner">
-          <div className="logo">
+     
+      {/* Hero section */}
+      <div className="shane_tm_hero_case_study" id="home">
+         <div >
+        
+      </div>
+        <div className="container">
+          <div >
+          <div >
             <Link to="/#portfolio" className="back_button">
-              ← Back to Portfolio
+              ← Back
             </Link>
           </div>
         </div>
-      </div>
-      {/* Hero section */}
-      <div className="shane_tm_hero_case_study" id="home">
-        <div className="container">
           <div className="content">
             <div
               className="shane_tm_title"
