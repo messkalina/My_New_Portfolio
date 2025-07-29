@@ -118,16 +118,7 @@ const Portfolio = () => {
                                         onClick={() => handlePortfolioClick(val.portfolioLink)}
                                         role="button"
                                         tabIndex={0}
-                                        style={{
-                                          width: "100%",
-                                          aspectRatio: "1 / 1",
-                                          overflow: "hidden",
-                                          borderRadius: "12px",
-                                          background: "#eee",
-                                          display: "flex",
-                                          alignItems: "center",
-                                          justifyContent: "center",
-                                        }}
+                                      
                                       >
                                         <img
                                           src={val.img}
