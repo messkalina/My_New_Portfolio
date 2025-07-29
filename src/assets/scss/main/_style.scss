@@ -125,6 +125,21 @@ h6 {
   font-size: 16px;
 }
 
+.back_button {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+}
+
+.back_button:hover {
+  color: #ffffff; // or your accent color
+  text-decoration: none;
+  background-color: #000;
+}
+
 .shane_tm_all_wrap {
   width: 100%;
   height: auto;
