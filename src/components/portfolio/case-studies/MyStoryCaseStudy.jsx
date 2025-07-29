@@ -103,7 +103,7 @@ const MyStoryCaseStudy = () => {
       </div>
 
       {/* Case study description section (challenge, etc.) */}
-      <div className="shane_tm_section" id="solution">
+      <div className="shane_tm_section" id="challenge">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
