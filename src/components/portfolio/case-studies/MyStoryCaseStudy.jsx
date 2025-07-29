@@ -47,6 +47,8 @@ const MyStoryCaseStudy = () => {
       </div>
 
       {/* Full-width image section */}
+       <div className="container">
+      <div className="content">
       <div className="shane_tm_section">
         <div className="full-image-section" style={{ width: "100%" }}>
           <img
@@ -60,6 +62,8 @@ const MyStoryCaseStudy = () => {
               maxWidth: "100%",
             }}
           />
+        </div>
+        </div>
         </div>
       </div>
 
