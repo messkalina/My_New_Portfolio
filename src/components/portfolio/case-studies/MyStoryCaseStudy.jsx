@@ -525,15 +525,20 @@ const MyStoryCaseStudy = () => {
             right: 0,
             bottom: 0,
             background: "rgba(0,0,0,0.85)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
             zIndex: 9999,
+            width: "100vw",
+            height: "100vh",
+            overflow: "auto", // Enable scrollbars if needed
+            cursor: "zoom-out",
           }}
         >
           <img
             src={lightboxImg}
             alt="Wireframe Full"
+            style={{
+              display: "block",
+              margin: "40px auto", // Optional: add some margin from top
+            }}
           />
         </div>
       )}
