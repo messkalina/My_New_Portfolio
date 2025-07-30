@@ -534,7 +534,6 @@ const MyStoryCaseStudy = () => {
           <img
             src={lightboxImg}
             alt="Wireframe Full"
-            style={{ maxWidth: "90vw", maxHeight: "90vh" }}
           />
         </div>
       )}
