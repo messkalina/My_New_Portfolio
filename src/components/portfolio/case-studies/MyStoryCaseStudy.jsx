@@ -5,10 +5,16 @@ import Footer from "../../footer/Footer";
 
 const MyStoryCaseStudy = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxImg, setLightboxImg] = useState("");
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const handleImageClick = (imgSrc) => {
+    setLightboxImg(imgSrc);
+    setLightboxOpen(true);
+  };
 
   return (
     <div className="shane_tm_all_wrap">
@@ -175,7 +181,11 @@ const MyStoryCaseStudy = () => {
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() => setLightboxOpen(true)}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+                      )
+                    }
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -200,11 +210,15 @@ const MyStoryCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+                    src="/img/portfolio/case-study/Patient_User_persona+journey.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() => setLightboxOpen(true)}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Patient_User_persona+journey.png"
+                      )
+                    }
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -325,7 +339,11 @@ const MyStoryCaseStudy = () => {
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() => setLightboxOpen(true)}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+                      )
+                    }
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -354,7 +372,11 @@ const MyStoryCaseStudy = () => {
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() => setLightboxOpen(true)}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+                      )
+                    }
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -468,7 +490,11 @@ const MyStoryCaseStudy = () => {
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() => setLightboxOpen(true)}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+                      )
+                    }
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -506,7 +532,7 @@ const MyStoryCaseStudy = () => {
           }}
         >
           <img
-            src="/img/portfolio/case-study/Orbit_mid_wireframes_wider_dark-b&w_cm.png"
+            src={lightboxImg}
             alt="Wireframe Full"
             style={{ maxWidth: "90vw", maxHeight: "90vh" }}
           />
