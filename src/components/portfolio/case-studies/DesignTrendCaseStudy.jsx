@@ -37,9 +37,7 @@ const DesignTrendCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>
-                Design Trend <br /> Website Redesign
-              </h1>
+              <h1>Buhdi – Mindful ADHD Support App</h1>
             </div>
           </div>
         </div>
@@ -61,7 +59,7 @@ const DesignTrendCaseStudy = () => {
               }}
             >
               Timeline:{" "}
-              <span className="timeline-fine">[Your Timeline Here]</span>
+              <span className="timeline-fine"> December 2024 – March 2025</span>
             </p>
           </div>
         </div>
@@ -97,8 +95,19 @@ const DesignTrendCaseStudy = () => {
               >
                 <div className="top">
                   <p className="text" style={{ color: "#767676b9" }}>
-                    [Intro text about Design Trend project goes here.]
+                    Buhdi is a mindful, AI-powered task management app designed
+                    for adults with ADHD. Traditional productivity tools often
+                    fail neurodivergent users due to overwhelming interfaces,
+                    rigid systems, and lack of emotional support. Buhdi offers a
+                    flexible, gamified experience—guided by a calming AI
+                    coach—to help users complete meaningful goals at their own
+                    pace.
                   </p>
+                  <br />
+                  <p className="text" style={{ color: "#767676b9" }}>
+                    I joined the project early in MVP development and worked closely with the founder to shape both the core product experience and branding. My goal was to design an experience that was not just functional, but emotionally supportive and truly tailored to ADHD users' needs.
+                  </p>
+                
                 </div>
               </div>
             </div>
