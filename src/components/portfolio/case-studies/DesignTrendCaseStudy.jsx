@@ -261,7 +261,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>UX Validation</span>
-                  <h3>Validating and Improving the First-Time Journey</h3>
+                  <h3>Testing and Improving User Journey</h3>
                 </div>
                 <div
                   className="text"
