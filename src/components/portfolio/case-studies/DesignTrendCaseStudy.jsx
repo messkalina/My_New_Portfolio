@@ -219,7 +219,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Process</span>
-                  <h3> A User-Centered Design Approach Rooted in Empathy</h3>
+                  <h3> User-Centered Design</h3>
                 </div>
                 <div
                   className="text"
@@ -343,26 +343,18 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
-                  <h3>Designing Motivation Through Structure and Story</h3>
-                  <p>I designed Quest Mode, a guided task flow that breaks down goals into small, rewarding steps with visual progress, points, and mindfulness pauses—customized around therapeutic, values-based goals. I also created a value-focused onboarding experience and a cohesive brand system using calming visuals, Buddhist-inspired design, and a supportive AI coach persona to convey emotional clarity and purpose.</p>
+                  <h3>Designing Structure and Story for Engagement</h3>
+                
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Ideate & Prototype description goes here.]</p>
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>[Prototype 1]</strong>
-                    </li>
-                    <li>
-                      <strong>[Prototype 2]</strong>
-                    </li>
-                    <li>
-                      <strong>[Prototype 3]</strong>
-                    </li>
-                  </ul>
+                  <p> I designed Quest Mode, a guided task flow that breaks down goals into small, rewarding steps with visual progress, points, and mindfulness pauses—customized around therapeutic, values-based goals.</p> 
+                    <br />
+                    <p>I also designed a value-focused onboarding experience and a cohesive brand system using calming visuals, Buddhist-inspired design, and a supportive AI coach persona to convey emotional clarity and purpose.</p>
+                  
                 </div>
               </div>
               {/* End right */}
@@ -391,7 +383,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Outcome summary goes here.]</p>
+                
                   <ul className="case-study-list">
                     <li>The MVP launched on the App Store and secured its first paying users
                     
