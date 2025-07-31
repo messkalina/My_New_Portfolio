@@ -211,13 +211,13 @@ const MyStoryCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Orbit_Home_Pages.png"
+                    src="/img/portfolio/case-study/Home Page wireframe.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Orbit_Home_Pages.png"
+                        "/img/portfolio/case-study/Home Page wireframe.png"
                       )
                     }
                   />
