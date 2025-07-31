@@ -126,7 +126,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>The Challenge</span>
+                  <span>Challenge</span>
                   <h3>Turning Disengagement into Motivation
 </h3>
                 </div>
@@ -218,7 +218,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>The Process</span>
+                  <span>Process</span>
                   <h3> A User-Centered Design Approach Rooted in Empathy</h3>
                 </div>
                 <div
