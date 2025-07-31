@@ -27,7 +27,7 @@ const MyStoryCaseStudy = () => {
           <div>
             <div>
               <Link to="/#portfolio" className="back_button">
-                ← Back
+                ← BACK
               </Link>
             </div>
           </div>
@@ -53,7 +53,7 @@ const MyStoryCaseStudy = () => {
             data-aos="fade-up"
             data-aos-duration="1200"
           >
-            <p style={{ fontWeight: 600, fontSize: "14px" }}>
+            <p style={{ fontWeight: 600, fontSize: "14px", marginBottom: "52px" }}>
               Timeline:{" "}
               <span className="timeline-fine">April 2024 – September 2024</span>
             </p>
@@ -62,7 +62,7 @@ const MyStoryCaseStudy = () => {
       </div>
 
       {/* Full-width image section */}
-      <div className="container">
+      {/* <div className="container">
         <div className="content">
           <div className="shane_tm_section">
             <div
@@ -85,7 +85,7 @@ const MyStoryCaseStudy = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="shane_tm_hero_case_study">
         <div className="container">
