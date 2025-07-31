@@ -191,8 +191,7 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      Analytics dashboard showing improved user engagement and
-                      story completion rates
+                      Wireframes of the redesigned Orbit Health website
                     </p>
                   </div>
                 </div>
@@ -382,8 +381,7 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      Analytics dashboard showing improved user engagement and
-                      story completion rates
+                      Wireframes of the redesigned Orbit Health website
                     </p>
                   </div>
                 </div>
