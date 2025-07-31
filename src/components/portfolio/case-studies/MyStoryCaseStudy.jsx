@@ -211,13 +211,13 @@ const MyStoryCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Orbit_Home_Page_Redesign2.png"
+                    src="/img/portfolio/case-study/Orbit_Home_Pages.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Orbit_Home_Page_Redesign2.png"
+                        "/img/portfolio/case-study/Orbit_Home_Pages.png"
                       )
                     }
                   />
@@ -336,13 +336,13 @@ const MyStoryCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/orbit_persona_patient_journey_vertical.png"
+                    src="/img/portfolio/case-study/orbit_persona_patient_journey.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/orbit_persona_patient_journey_vertical.png"
+                        "/img/portfolio/case-study/orbit_persona_patient_journey.png"
                       )
                     }
                   />
