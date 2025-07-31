@@ -16,8 +16,8 @@ const tabListContent = [
       },
       {
         img: "/img/portfolio/2.jpg",
-        title: "Design Trend",
-        meta: "UX/UI Design",
+        title: "Buhdi – Mindful ADHD Support App",
+        meta: " UX Challenges for ADHD Users",
         portfolioLink: "/case-study/design-trend", // Changed from Dribbble link
       },
     ],

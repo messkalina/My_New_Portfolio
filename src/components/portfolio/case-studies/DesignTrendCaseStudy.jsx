@@ -127,23 +127,25 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>The Challenge</span>
-                  <h3>[Challenge Title]</h3>
+                  <h3>Turning Disengagement into Motivation
+</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Challenge description goes here.]</p>
+                  <p>Designing a digital experience for ADHD users meant overcoming specific behavioral barriers:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>[Audience 1]</strong>, [description]
+                      Low <strong>motivation</strong> and difficulty with 
+                      <strong>focus</strong>
                     </li>
                     <li>
-                      <strong>[Audience 2]</strong>, [description]
+                      Frustration with rigid or overwhelming to-do list apps
                     </li>
                   </ul>
-                  <p>[Additional challenge details.]</p>
+                  <p>In addition, the app was offered behind a paywall with a free trial, which meant we had to clearly communicate the app’s value before users could test it—placing even greater importance on the onboarding flow.</p>
                 </div>
               </div>
 
