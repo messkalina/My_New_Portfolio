@@ -146,6 +146,18 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                   <p>In addition, the app was offered behind a paywall with a free trial, which meant we had to clearly communicate the app’s value before users could test it—placing even greater importance on the onboarding flow.</p>
+                <p>Our UX goals were to:</p>
+                <ul className="case-study-list">
+                  <li>
+                    Create a compelling onboarding experience that builds trust and clarity before account creation
+                  </li>
+                  <li>
+                    Differentiate Buhdi from other productivity tools through a unique brand and experience
+                  </li>
+                  <li>
+                    Incorporate gamification elements to boost motivation
+                  </li>
+                </ul>
                 </div>
               </div>
 
@@ -206,27 +218,29 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>The Solution</span>
-                  <h3>[Solution Title]</h3>
+                  <span>The Process</span>
+                  <h3> A User-Centered Design Approach Rooted in Empathy</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Solution description goes here.]</p>
+                  <p>To deeply understand the target audience, I:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>[Point 1]</strong>
+                      <strong>Created behavioral user scenarios</strong> to reflect real-world ADHD challenges
                     </li>
                     <li>
-                      <strong>[Point 2]</strong>
+                      Conducted <strong>1:1 user interviews</strong> with first-time users to observe pain points and cognitive friction
                     </li>
                     <li>
-                      <strong>[Point 3]</strong>
+                      <strong>Created user journey maps</strong> to visualize the end-to-end experience
                     </li>
                   </ul>
-                  <p>[Additional solution details.]</p>
+                  <p>The design was shaped by ideas from the founder, who was inspired by Acceptance and Commitment Therapy (ACT) and mindfulness principles. I worked to thoughtfully incorporate these concepts into the product’s flow and tone—ensuring the experience felt calming, supportive, and aligned with therapeutic practices.</p>
+                <br />
+                  <p>Users were guided by a gentle AI avatar, Master Buhdi, who helped them define and break down goals into manageable, values-based steps.</p>
                 </div>
               </div>
               {/* End right */}
@@ -246,27 +260,27 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Empathize & Define</span>
-                  <h3>[Empathize & Define Title]</h3>
+                  <span>UX Validation</span>
+                  <h3>Validating and Improving the First-Time Journey</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Empathize & Define description goes here.]</p>
+                  <p>To validate the MVP and improve core flows, I designed and ran a structured user testing round focused on:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>[Research 1]</strong>
+                      <strong>First-time user experience</strong>
                     </li>
                     <li>
-                      <strong>[Research 2]</strong>
+                      <strong>Onboarding content comprehension</strong>
                     </li>
                     <li>
-                      <strong>[Research 3]</strong>
+                      <strong>Cognitive load during Quest setup</strong>
                     </li>
                   </ul>
-                  <p>[Additional empathize & define details.]</p>
+                  <p>From testing insights, I identified friction in the original onboarding (too long, too text-heavy) and proposed a simplified, more linear flow that prioritized bite-sized interactions and visual clarity.</p>
                 </div>
               </div>
               {/* End left */}
@@ -328,8 +342,9 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Ideate & Prototype</span>
-                  <h3>[Ideate & Prototype Title]</h3>
+                  <span>Solution</span>
+                  <h3>Designing Motivation Through Structure and Story</h3>
+                  <p>I designed Quest Mode, a guided task flow that breaks down goals into small, rewarding steps with visual progress, points, and mindfulness pauses—customized around therapeutic, values-based goals. I also created a value-focused onboarding experience and a cohesive brand system using calming visuals, Buddhist-inspired design, and a supportive AI coach persona to convey emotional clarity and purpose.</p>
                 </div>
                 <div
                   className="text"
@@ -369,7 +384,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Outcome</span>
-                  <h3>Key Contributions</h3>
+                  <h3>Validated by Users, Live in the App Store</h3>
                 </div>
                 <div
                   className="text"
@@ -378,14 +393,14 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>[Outcome summary goes here.]</p>
                   <ul className="case-study-list">
-                    <li>
-                      <strong>[Outcome 1]</strong>
+                    <li>The MVP launched on the App Store and secured its first paying users
+                    
                     </li>
                     <li>
-                      <strong>[Outcome 2]</strong>
+                      User testing confirmed that Quest Mode felt engaging, calming, and motivating
                     </li>
                     <li>
-                      <strong>[Outcome 3]</strong>
+                      Onboarding was simplified based on feedback, improving clarity and reducing drop-off.
                     </li>
                   </ul>
                 </div>
