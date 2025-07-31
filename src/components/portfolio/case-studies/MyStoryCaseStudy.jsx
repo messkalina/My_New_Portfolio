@@ -53,7 +53,7 @@ const MyStoryCaseStudy = () => {
             data-aos="fade-up"
             data-aos-duration="1200"
           >
-            <p style={{ fontWeight: 600, fontSize: "14px", marginBottom: "52px" }}>
+            <p style={{ fontWeight: 600, fontSize: "14px", marginBottom: "60px" }}>
               Timeline:{" "}
               <span className="timeline-fine">April 2024 – September 2024</span>
             </p>
@@ -96,6 +96,7 @@ const MyStoryCaseStudy = () => {
                 data-aos="fade-up"
                 data-aos-duration="1200"
               >
+                
                 <div className="top">
                   <p className="text" style={{ color: "#767676b9" }}>
                     Orbit Health is a Munich-based digital health startup
