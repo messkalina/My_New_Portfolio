@@ -266,18 +266,18 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <p>My key work included: </p>
                   <ul className="case-study-list">
-                    <li>Led the project from discovery to deployment</li>
+                    <li>Led the project from <strong>discovery to deployment</strong></li>
                     <li>
-                      Designed responsive UI/UX and built interactive prototypes
+                      Designed <strong>responsive</strong> UI/UX and built interactive prototypes
                     </li>
                     <li>
-                      Hand-coded the site in <strong>React</strong> without
+                     <strong>Coded</strong> the site in <strong>React</strong> without
                       using web editors
                     </li>
-                    <li>Created custom motion design elements</li>
-                    <li>Set up SEO and analytics tracking</li>
+                    <li>Created custom <strong>motion design</strong> elements</li>
+                    <li>Set up <strong>SEO</strong> and <strong>analytics</strong> tracking</li>
                   </ul>
-                  <p>[Additional empathize & define details.]</p>
+                 
                 </div>
               </div>
               {/* End left */}
@@ -349,7 +349,7 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <p>
                     The new website launched successfully and received
-                    <strong>enthusiastic feedback</strong> from the clinic—especially the
+                    <strong> enthusiastic feedback</strong> from the clinic—especially the
                     animated hero section, which helped visually reinforce their
                     values. The design now enables clear service communication
                     and offers an intuitive experience for both new and
