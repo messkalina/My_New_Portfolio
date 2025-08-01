@@ -12,21 +12,26 @@ const tabListContent = [
         img: "/img/portfolio/case-study/Orbit_covr_2_pages.png",
         title: "Orbit Health Website Redesign",
         meta: "Designing Website for Complex Digital Products",
-        portfolioLink: "/case-study/my-story", // Changed from Instagram link
+        portfolioLink: "/case-study/my-story",
       },
       {
         img: "/img/portfolio/2.jpg",
         title: "Buhdi – Mindful ADHD Support App",
         meta: " UX Challenges for ADHD Users",
-        portfolioLink: "/case-study/design-trend", // Changed from Dribbble link
+        portfolioLink: "/case-study/design-trend",
       },
       {
         img: "/img/portfolio/3.jpg",
-        title: "Animation Project",
-        meta: "Motion Design",
-        portfolioLink: "/case-study/animation-project", // Changed from Behance link
+        title: "Unlimitix – AI Nutrition Coach",
+        meta: " Beta version app redesign for better UX",
+        portfolioLink: "/case-study/animation-project",
       },
-
+      {
+        img: "/img/portfolio/case-study/AnimationProject_1.png",
+        title: "Veterinary Practice Website",
+        meta: "End-to-end UX/UI & React Development",
+        portfolioLink: "/case-study/unlimitix-app",
+      },
     ],
   },
   {
@@ -35,7 +40,7 @@ const tabListContent = [
         img: "/img/portfolio/3.jpg",
         title: "Animation Project",
         meta: "Motion Design",
-        portfolioLink: "/case-study/animation-project", // Changed from Behance link
+        portfolioLink: "/case-study/animation-project",
       },
     ],
   },
@@ -45,19 +50,25 @@ const tabListContent = [
         img: "/img/portfolio/1.jpg",
         title: "My Story",
         meta: "UX/UI Design",
-        portfolioLink: "/case-study/my-story", // Changed
+        portfolioLink: "/case-study/my-story",
       },
       {
         img: "/img/portfolio/2.jpg",
         title: "Design Trend",
         meta: "UX/UI Design",
-        portfolioLink: "/case-study/design-trend", // Changed
+        portfolioLink: "/case-study/design-trend",
       },
       {
         img: "/img/portfolio/3.jpg",
         title: "Animation Project",
         meta: "Motion Design",
-        portfolioLink: "/case-study/animation-project", // Changed
+        portfolioLink: "/case-study/animation-project",
+      },
+      {
+        img: "/img/portfolio/case-study/AnimationProject_1.png",
+        title: "Veterinary Practice Website",
+        meta: "End-to-end UX/UI & React Development",
+        portfolioLink: "/case-study/unlimitix-app",
       },
     ],
   },
