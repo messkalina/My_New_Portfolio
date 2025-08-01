@@ -386,9 +386,9 @@ const AnimationProjectCaseStudy = () => {
                   <p>
                     This project underscored the value of small design
                     details—like subtle motion—in shaping perception and trust.
-                    More importantly, building the product from scratch taught
+                    More importantly, <strong>building the product from scratch</strong> taught
                     me how design and development feed into each other, and gave
-                    me a stronger process for aligning the two from day one.
+                    me a <strong>stronger process</strong> for aligning the two from day one.
                   </p>
                 </div>
               </div>
