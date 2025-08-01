@@ -37,7 +37,7 @@ const AnimationProjectCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Animation Project</h1>
+              <h1>Veterinary Practice Website</h1>
             </div>
           </div>
         </div>
@@ -58,8 +58,7 @@ const AnimationProjectCaseStudy = () => {
                 marginBottom: "60px",
               }}
             >
-              Timeline:{" "}
-              <span className="timeline-fine">[Your Timeline Here]</span>
+              Timeline: <span className="timeline-fine">April – May 2025</span>
             </p>
           </div>
         </div>
@@ -76,7 +75,20 @@ const AnimationProjectCaseStudy = () => {
               >
                 <div className="top">
                   <p className="text" style={{ color: "#767676b9" }}>
-                    [Intro text about Animation Project goes here.]
+                    Tierarztpraxis Leberberg is a modern veterinary practice in
+                    Vienna. They needed their first-ever website to reflect
+                    their professional yet warm personality, build client trust,
+                    and make it easier for pet owners to contact and book
+                    appointments.
+                  </p>
+                  <p>
+                    I led this project end-to-end —{" "}
+                    <strong>designing the UX/UI</strong> and fully{" "}
+                    <strong>developing the website </strong> from scratch using
+                    HTML, CSS, javascript and React js library. I didn’t use any
+                    website editors or builders - a deliberate choice to deepen
+                    my skills in web development and create a product where{" "}
+                    <strong>design and code are tightly connected</strong>.
                   </p>
                 </div>
               </div>
@@ -97,7 +109,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>[Challenge Title]</h3>
+                  <h3>Designing and Developing Website from Scratch</h3>
                 </div>
                 <div
                   className="text"
