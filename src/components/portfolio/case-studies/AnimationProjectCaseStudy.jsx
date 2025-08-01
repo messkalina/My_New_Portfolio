@@ -74,7 +74,7 @@ const AnimationProjectCaseStudy = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                  <p className="text" >
+                  <p className="text">
                     Tierarztpraxis Leberberg is a modern veterinary practice in
                     Vienna. They needed their first-ever website to reflect
                     their professional yet warm personality, build client trust,
@@ -110,23 +110,30 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Designing and Developing Effective Bussiness Website from Scratch</h3>
+                  <h3>
+                    Designing and Developing Effective Bussiness Website from
+                    Scratch
+                  </h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>The practice had no existing digital presence, so the site had to be designed from the ground up. It needed to feel:</p>
+                  <p>
+                    The practice had no existing digital presence, so the site
+                    had to be designed from the ground up. It needed to feel:
+                  </p>
                   <ul className="case-study-list">
-                    <li>
-                      Local and trustworthy
-                    </li>
-                    <li>
-                      Visually friendly, but professional
-                    </li>
+                    <li>Local and trustworthy</li>
+                    <li>Visually friendly, but professional</li>
+                    <li>Technically modern yet lightweight and intuitive</li>
                   </ul>
-                  <p>Technically modern yet lightweight and intuitive</p>
+                  <p>
+                    It also had to clearly communicate services, introduce the
+                    care team, and support mobile users—especially for
+                    appointment inquiries.
+                  </p>
                 </div>
               </div>
 
@@ -187,27 +194,49 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>The Solution</span>
-                  <h3>[Solution Title]</h3>
+                  <span>Solution</span>
+                  <h3>Design and Development Aligned from Day One</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Solution description goes here.]</p>
+                  <p>
+                    Using the clinic’s brand assets (logo, colors, tone), I
+                    created a responsive, emotionally engaging site experience:
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>[Point 1]</strong>
+                      Designed the full UX and UI system in{" "}
+                      <strong>Figma</strong>
                     </li>
                     <li>
-                      <strong>[Point 2]</strong>
+                      Created <strong>high-fidelity mid-fi wireframes</strong>{" "}
+                      and a clickable prototype for feedback
                     </li>
                     <li>
-                      <strong>[Point 3]</strong>
+                      Developed custom <strong>motion design</strong> in the
+                      homepage hero
+                    </li>
+                    <li>
+                      Built the site in <strong>React + React-Bootstrap</strong>
+                    </li>
+                    <li>
+                      Implemented <strong>SEO basics</strong> and{" "}
+                      <strong>analytics</strong>
+                    </li>
+                    <li>
+                      Used progressive disclosure to keep the site clear and
+                      digestible
                     </li>
                   </ul>
-                  <p>[Additional solution details.]</p>
+                  <p>
+                    This was also my first time delivering a full production
+                    build in React for a real client—an experience that
+                    sharpened both my frontend skills and my ability to debug
+                    design decisions in context.
+                  </p>
                 </div>
               </div>
               {/* End right */}
@@ -227,25 +256,26 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Empathize & Define</span>
-                  <h3>[Empathize & Define Title]</h3>
+                  <span>Contributions</span>
+                  <h3>From Design to Development</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Empathize & Define description goes here.]</p>
+                  <p>My key work included: </p>
                   <ul className="case-study-list">
+                    <li>Led the project from discovery to deployment</li>
                     <li>
-                      <strong>[Research 1]</strong>
+                      Designed responsive UI/UX and built interactive prototypes
                     </li>
                     <li>
-                      <strong>[Research 2]</strong>
+                      Hand-coded the site in <strong>React</strong> without
+                      using web editors
                     </li>
-                    <li>
-                      <strong>[Research 3]</strong>
-                    </li>
+                    <li>Created custom motion design elements</li>
+                    <li>Set up SEO and analytics tracking</li>
                   </ul>
                   <p>[Additional empathize & define details.]</p>
                 </div>
