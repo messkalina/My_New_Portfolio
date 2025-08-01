@@ -20,6 +20,13 @@ const tabListContent = [
         meta: " UX Challenges for ADHD Users",
         portfolioLink: "/case-study/design-trend", // Changed from Dribbble link
       },
+      {
+        img: "/img/portfolio/3.jpg",
+        title: "Animation Project",
+        meta: "Motion Design",
+        portfolioLink: "/case-study/animation-project", // Changed from Behance link
+      },
+
     ],
   },
   {
