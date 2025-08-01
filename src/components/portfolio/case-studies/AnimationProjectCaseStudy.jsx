@@ -339,26 +339,22 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Ideate & Prototype</span>
-                  <h3>[Ideate & Prototype Title]</h3>
+                  <span>Outcome</span>
+                  <h3>A Playful, Professional Site That Clients Love</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Ideate & Prototype description goes here.]</p>
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>[Prototype 1]</strong>
-                    </li>
-                    <li>
-                      <strong>[Prototype 2]</strong>
-                    </li>
-                    <li>
-                      <strong>[Prototype 3]</strong>
-                    </li>
-                  </ul>
+                  <p>
+                    The new website launched successfully and received
+                    enthusiastic feedback from the clinic—especially the
+                    animated hero section, which helped visually reinforce their
+                    values. The design now enables clear service communication
+                    and offers an intuitive experience for both new and
+                    returning clients.
+                  </p>
                 </div>
               </div>
               {/* End right */}
@@ -379,26 +375,21 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Outcome</span>
-                  <h3>Key Contributions</h3>
+                  <span>Takeaways</span>
+                  <h3>Blending Design & Development for Impact</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Outcome summary goes here.]</p>
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>[Outcome 1]</strong>
-                    </li>
-                    <li>
-                      <strong>[Outcome 2]</strong>
-                    </li>
-                    <li>
-                      <strong>[Outcome 3]</strong>
-                    </li>
-                  </ul>
+                  <p>
+                    This project underscored the value of small design
+                    details—like subtle motion—in shaping perception and trust.
+                    More importantly, building the product from scratch taught
+                    me how design and development feed into each other, and gave
+                    me a stronger process for aligning the two from day one.
+                  </p>
                 </div>
               </div>
               {/* End left */}
