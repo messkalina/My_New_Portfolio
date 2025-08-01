@@ -95,19 +95,24 @@ const DesignTrendCaseStudy = () => {
               >
                 <div className="top">
                   <p className="text" style={{ color: "#767676b9" }}>
-                    Buhdi is a mindful, <strong>AI-powered</strong> task management app designed
-                    for adults with ADHD. Traditional productivity tools often
-                    fail neurodivergent users due to overwhelming interfaces,
-                    rigid systems, and lack of emotional support. Buhdi offers a
-                    flexible, <strong>gamified</strong> experience—guided by a calming AI
+                    Buhdi is a mindful, <strong>AI-powered</strong> task
+                    management app designed for adults with ADHD. Traditional
+                    productivity tools often fail neurodivergent users due to
+                    overwhelming interfaces, rigid systems, and lack of
+                    emotional support. Buhdi offers a flexible,{" "}
+                    <strong>gamified</strong> experience—guided by a calming AI
                     coach—to help users complete meaningful goals at their own
                     pace.
                   </p>
                   <br />
                   <p className="text" style={{ color: "#767676b9" }}>
-                    I joined the project early in <strong>MVP development</strong>  and worked closely with the founder to shape both the core product experience and branding. My goal was to design an experience that was not just functional, but emotionally supportive and truly tailored to ADHD users' needs.
+                    I joined the project early in{" "}
+                    <strong>MVP development</strong> and worked closely with the
+                    founder to shape both the core product experience and
+                    branding. My goal was to design an experience that was not
+                    just functional, but emotionally supportive and truly
+                    tailored to ADHD users' needs.
                   </p>
-                
                 </div>
               </div>
             </div>
@@ -127,37 +132,48 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Turning Disengagement into Motivation
-</h3>
+                  <h3>Turning Disengagement into Motivation</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>Designing a digital experience for ADHD users meant overcoming specific behavioral barriers:</p>
+                  <p>
+                    Designing a digital experience for ADHD users meant
+                    overcoming specific behavioral barriers:
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      Low <strong>motivation</strong> and difficulty with 
-                      <strong>focus</strong>
+                      <strong> Low motivation</strong> and difficulty with
+                      <strong> focus</strong>
                     </li>
                     <li>
-                      Frustration with rigid or overwhelming to-do list apps
+                      <strong>Frustration</strong> with rigid or overwhelming
+                      to-do list apps
                     </li>
                   </ul>
-                  <p>In addition, the app was offered behind a paywall with a free trial, which meant we had to clearly communicate the app’s value before users could test it—placing even greater importance on the onboarding flow.</p>
-                <p>Our UX goals were to:</p>
-                <ul className="case-study-list">
-                  <li>
-                    Create a compelling onboarding experience that builds trust and clarity before account creation
-                  </li>
-                  <li>
-                    Differentiate Buhdi from other productivity tools through a unique brand and experience
-                  </li>
-                  <li>
-                    Incorporate gamification elements to boost motivation
-                  </li>
-                </ul>
+                  <p>
+                    In addition, the app was offered behind a{" "}
+                    <strong>paywall with a free trial</strong>, which meant we
+                    had to clearly communicate the app’s value before users
+                    could test it—placing even greater importance on the
+                    <strong> onboarding flow.</strong>
+                  </p>
+                  <p>Our UX goals were to:</p>
+                  <ul className="case-study-list">
+                    <li>
+                      Create a <strong>compelling onboarding experience</strong> that builds
+                      trust and clarity before account creation
+                    </li>
+                    <li>
+                      Differentiate Buhdi from other productivity tools through
+                      a <strong>unique</strong> brand and experience
+                    </li>
+                    <li>
+                      Incorporate <strong>gamification elements</strong> to boost motivation
+                    </li>
+                  </ul>
                 </div>
               </div>
 
@@ -219,7 +235,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Process</span>
-                  <h3> User-Centered Design</h3>
+                  <h3> Applying User-Centered Design</h3>
                 </div>
                 <div
                   className="text"
@@ -229,18 +245,33 @@ const DesignTrendCaseStudy = () => {
                   <p>To deeply understand the target audience, I:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Created behavioral user scenarios</strong> to reflect real-world ADHD challenges
+                      <strong>Created behavioral user scenarios</strong> to
+                      reflect real-world ADHD challenges
                     </li>
                     <li>
-                      Conducted <strong>1:1 user interviews</strong> with first-time users to observe pain points and cognitive friction
+                      Conducted <strong>1:1 user interviews</strong> with
+                      first-time users to observe pain points and cognitive
+                      friction
                     </li>
                     <li>
-                      <strong>Created user journey maps</strong> to visualize the end-to-end experience
+                      <strong>Created user journey maps</strong> to visualize
+                      the end-to-end experience
                     </li>
                   </ul>
-                  <p>The design was shaped by ideas from the founder, who was inspired by Acceptance and Commitment Therapy (ACT) and mindfulness principles. I worked to thoughtfully incorporate these concepts into the product’s flow and tone—ensuring the experience felt calming, supportive, and aligned with therapeutic practices.</p>
-                <br />
-                  <p>Users were guided by a gentle AI avatar, Master Buhdi, who helped them define and break down goals into manageable, values-based steps.</p>
+                  <p>
+                    The design was shaped by ideas from the founder, who was
+                    inspired by <strong>Acceptance and Commitment Therapy (ACT)</strong> and
+                    <strong> mindfulness principles.</strong> I worked to thoughtfully incorporate
+                    these concepts into the product’s flow and tone—ensuring the
+                    experience felt calming, supportive, and aligned with
+                    therapeutic practices.
+                  </p>
+                  <br />
+                  <p>
+                    Users were guided by a gentle AI avatar, Master Buhdi, who
+                    helped them define and break down goals into manageable,
+                    values-based steps.
+                  </p>
                 </div>
               </div>
               {/* End right */}
@@ -268,7 +299,10 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>To validate the MVP and improve core flows, I designed and ran a structured user testing round focused on:</p>
+                  <p>
+                    To validate the MVP and improve core flows, I designed and
+                    ran a structured user testing round focused on:
+                  </p>
                   <ul className="case-study-list">
                     <li>
                       <strong>First-time user experience</strong>
@@ -280,7 +314,12 @@ const DesignTrendCaseStudy = () => {
                       <strong>Cognitive load during Quest setup</strong>
                     </li>
                   </ul>
-                  <p>From testing insights, I identified friction in the original onboarding (too long, too text-heavy) and proposed a simplified, more linear flow that prioritized bite-sized interactions and visual clarity.</p>
+                  <p>
+                    From testing insights, I <strong>identified friction</strong> in the original
+                    onboarding (too long and unclear) and proposed a
+                    <strong> simplified flow</strong> that prioritized <strong>bite-sized
+                    interactions</strong> and visual clarity.
+                  </p>
                 </div>
               </div>
               {/* End left */}
@@ -344,17 +383,29 @@ const DesignTrendCaseStudy = () => {
                 >
                   <span>Solution</span>
                   <h3>Designing Structure and Story for Engagement</h3>
-                
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p> I designed Quest Mode, a guided task flow that breaks down goals into small, rewarding steps with visual progress, points, and mindfulness pauses—customized around therapeutic, values-based goals.</p> 
-                    <br />
-                    <p>I also designed a value-focused onboarding experience and a cohesive brand system using calming visuals, Buddhist-inspired design, and a supportive AI coach persona to convey emotional clarity and purpose.</p>
-                  
+                  <p>
+                    {" "}
+                    I designed user interfaces (UI) for Quest Mode, a guided task flow that breaks down
+                    goals into small, rewarding steps with visual progress,
+                   that foster a sense of achievement and engaging.
+                  </p>
+                  <br />
+                  <p>
+                    I also designed UI for the onboarding flow and a
+                    cohesive brand system using calming visuals,
+                    Buddhist-inspired design, and a supportive AI coach persona
+                    to convey emotional clarity and purpose.
+                  </p>
+                   <br />
+                  <p>
+                    Lastly I designed and run user testing and feedback sessions to iterate on the design and created recommendations for future improvements.
+                  </p>
                 </div>
               </div>
               {/* End right */}
@@ -383,16 +434,18 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                
                   <ul className="case-study-list">
-                    <li>The MVP launched on the App Store and secured its first paying users
-                    
+                    <li>
+                      The MVP launched on the App Store and secured its first
+                      paying users
                     </li>
                     <li>
-                      User testing confirmed that Quest Mode felt engaging, calming, and motivating
+                      User testing confirmed that Quest Mode felt engaging,
+                      calming, and motivating
                     </li>
                     <li>
-                      Onboarding was simplified based on feedback, improving clarity and reducing drop-off.
+                      Onboarding was simplified based on feedback, improving
+                      clarity and reducing drop-off.
                     </li>
                   </ul>
                 </div>
