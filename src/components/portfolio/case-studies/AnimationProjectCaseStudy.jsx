@@ -125,9 +125,9 @@ const AnimationProjectCaseStudy = () => {
                     had to be designed from the ground up. It needed to feel:
                   </p>
                   <ul className="case-study-list">
-                    <li>Local and trustworthy</li>
-                    <li>Visually friendly, but professional</li>
-                    <li>Technically modern yet lightweight and intuitive</li>
+                    <li><strong>Local</strong> and <strong>trustworthy</strong></li>
+                    <li>Visually <strong>friendly, but professional</strong></li>
+                    <li><strong>Modern, responsive</strong> yet lightweight and intuitive</li>
                   </ul>
                   <p>
                     It also had to clearly communicate services, introduce the
