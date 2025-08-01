@@ -349,7 +349,7 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <p>
                     The new website launched successfully and received
-                    enthusiastic feedback from the clinic—especially the
+                    <strong>enthusiastic feedback</strong> from the clinic—especially the
                     animated hero section, which helped visually reinforce their
                     values. The design now enables clear service communication
                     and offers an intuitive experience for both new and
