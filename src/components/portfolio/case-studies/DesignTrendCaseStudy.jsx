@@ -391,20 +391,20 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     {" "}
-                    I designed user interfaces (UI) for Quest Mode, a guided task flow that breaks down
+                    I designed <strong>user interfaces</strong> (UI) for Quest Mode, a guided task flow that breaks down
                     goals into small, rewarding steps with visual progress,
-                   that foster a sense of achievement and engaging.
+                   that foster a sense of achievement and engagement.
                   </p>
                   <br />
                   <p>
-                    I also designed UI for the onboarding flow and a
+                    I also designed UI for the <strong>onboarding flow</strong> and a
                     cohesive brand system using calming visuals,
                     Buddhist-inspired design, and a supportive AI coach persona
                     to convey emotional clarity and purpose.
                   </p>
                    <br />
                   <p>
-                    Lastly I designed and run user testing and feedback sessions to iterate on the design and created recommendations for future improvements.
+                    Lastly I designed and run <strong>user testing</strong> and feedback sessions to iterate on the design and created <strong>recommendations</strong> for future improvements.
                   </p>
                 </div>
               </div>
@@ -436,16 +436,16 @@ const DesignTrendCaseStudy = () => {
                 >
                   <ul className="case-study-list">
                     <li>
-                      The MVP launched on the App Store and secured its first
+                      The app was successfully <strong>launched on the App Store</strong> and secured its first
                       paying users
                     </li>
                     <li>
-                      User testing confirmed that Quest Mode felt engaging,
+                      <strong>User testing confirmed </strong> that Quest Mode felt engaging,
                       calming, and motivating
                     </li>
                     <li>
-                      Onboarding was simplified based on feedback, improving
-                      clarity and reducing drop-off.
+                      Onboarding was simplified based on feedback, <strong>improving
+                      clarity and reducing drop-off.</strong>
                     </li>
                   </ul>
                 </div>
