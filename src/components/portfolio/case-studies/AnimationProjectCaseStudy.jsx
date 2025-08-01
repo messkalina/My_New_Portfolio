@@ -110,23 +110,23 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Designing and Developing Website from Scratch</h3>
+                  <h3>Designing and Developing Effective Bussiness Website from Scratch</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>[Challenge description goes here.]</p>
+                  <p>The practice had no existing digital presence, so the site had to be designed from the ground up. It needed to feel:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>[Audience 1]</strong>, [description]
+                      Local and trustworthy
                     </li>
                     <li>
-                      <strong>[Audience 2]</strong>, [description]
+                      Visually friendly, but professional
                     </li>
                   </ul>
-                  <p>[Additional challenge details.]</p>
+                  <p>Technically modern yet lightweight and intuitive</p>
                 </div>
               </div>
 
