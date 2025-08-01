@@ -95,17 +95,17 @@ const DesignTrendCaseStudy = () => {
               >
                 <div className="top">
                   <p className="text" style={{ color: "#767676b9" }}>
-                    Buhdi is a mindful, AI-powered task management app designed
+                    Buhdi is a mindful, <strong>AI-powered</strong> task management app designed
                     for adults with ADHD. Traditional productivity tools often
                     fail neurodivergent users due to overwhelming interfaces,
                     rigid systems, and lack of emotional support. Buhdi offers a
-                    flexible, gamified experience—guided by a calming AI
+                    flexible, <strong>gamified</strong> experience—guided by a calming AI
                     coach—to help users complete meaningful goals at their own
                     pace.
                   </p>
                   <br />
                   <p className="text" style={{ color: "#767676b9" }}>
-                    I joined the project early in MVP development and worked closely with the founder to shape both the core product experience and branding. My goal was to design an experience that was not just functional, but emotionally supportive and truly tailored to ADHD users' needs.
+                    I joined the project early in <strong>MVP development</strong>  and worked closely with the founder to shape both the core product experience and branding. My goal was to design an experience that was not just functional, but emotionally supportive and truly tailored to ADHD users' needs.
                   </p>
                 
                 </div>
