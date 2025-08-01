@@ -74,13 +74,14 @@ const AnimationProjectCaseStudy = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                  <p className="text" style={{ color: "#767676b9" }}>
+                  <p className="text" >
                     Tierarztpraxis Leberberg is a modern veterinary practice in
                     Vienna. They needed their first-ever website to reflect
                     their professional yet warm personality, build client trust,
                     and make it easier for pet owners to contact and book
                     appointments.
                   </p>
+                  <br />
                   <p>
                     I led this project end-to-end —{" "}
                     <strong>designing the UX/UI</strong> and fully{" "}
