@@ -180,13 +180,13 @@ const DesignTrendCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/DesignTrend_1.png"
+                    src="/img/portfolio/case-study/hand_buhdi_stats_col.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/DesignTrend_1.png"
+                        "/img/portfolio/case-study/hand_buhdi_stats_col.png"
                       )
                     }
                   />
@@ -210,13 +210,13 @@ const DesignTrendCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/DesignTrend_2.png"
+                    src="/img/portfolio/case-study/Onboarding_Flow.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/DesignTrend_2.png"
+                        "/img/portfolio/case-study/Onboarding_Flow.png"
                       )
                     }
                   />
@@ -327,13 +327,13 @@ const DesignTrendCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/DesignTrend_3.png"
+                    src="/img/portfolio/case-study/Quest_Screens_Iterations.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/DesignTrend_3.png"
+                        "/img/portfolio/case-study/Quest_Screens_Iterations.png"
                       )
                     }
                   />
@@ -357,13 +357,13 @@ const DesignTrendCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/DesignTrend_4.png"
+                    src="/img/portfolio/case-study/Gamification_System.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/DesignTrend_4.png"
+                        "/img/portfolio/case-study/Gamification_System.png"
                       )
                     }
                   />
@@ -455,13 +455,13 @@ const DesignTrendCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/DesignTrend_5.png"
+                    src="/img/portfolio/case-study/Mockup_2_screens.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/DesignTrend_5.png"
+                        "/img/portfolio/case-study/Mockup_2_screens.png"
                       )
                     }
                   />
