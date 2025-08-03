@@ -181,16 +181,21 @@ const AnimationProjectCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/AnimationProject_2.png"
-                    alt="Wireframe"
+                        <video
+                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/AnimationProject_2.png"
+                        "/img/portfolio/case-study/Phone _mockup02.mp4"
                       )
                     }
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    // controls removed for background effect
+                    poster="/img/portfolio/case-study/Phone _mockup02.mp4" // Optional: show image before play
                   />
                   {/* Add caption */}
                   <div className="image_caption">
