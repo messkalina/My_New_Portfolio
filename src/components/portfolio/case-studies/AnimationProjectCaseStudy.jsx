@@ -310,13 +310,13 @@ const AnimationProjectCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/AnimationProject_3.png"
+                    src="/img/portfolio/case-study/Wireframessm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/AnimationProject_3.png"
+                        "/img/portfolio/case-study/Wireframessm.png"
                       )
                     }
                   />
@@ -340,13 +340,13 @@ const AnimationProjectCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/AnimationProject_4.png"
+                    src="/img/portfolio/case-study/Desktop_3_screens.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/AnimationProject_4.png"
+                        "/img/portfolio/case-study/Desktop_3_screens.png"
                       )
                     }
                   />
@@ -424,13 +424,13 @@ const AnimationProjectCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/AnimationProject_5.png"
+                    src="/img/portfolio/case-study/contact_page_mobile2.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/AnimationProject_5.png"
+                        "/img/portfolio/case-study/contact_page_mobile2.png"
                       )
                     }
                   />
