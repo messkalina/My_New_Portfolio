@@ -140,13 +140,13 @@ const AnimationProjectCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/AnimationProject_1.png"
+                    src="/img/portfolio/case-study/home_screen_team.png.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/AnimationProject_1.png"
+                        "/img/portfolio/case-study/home_screen_team.png"
                       )
                     }
                   />

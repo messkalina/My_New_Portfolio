@@ -30,7 +30,7 @@ const tabListContent = [
         img: "/img/portfolio/case-study/AnimationProject_1.png",
         title: "Veterinary Practice Website",
         meta: "End-to-end UX/UI & React Development",
-        portfolioLink: "/case-study/unlimitix-app",
+        portfolioLink: "/case-study/animation-project",
       },
     ],
   },
