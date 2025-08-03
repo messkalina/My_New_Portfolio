@@ -21,15 +21,15 @@ const tabListContent = [
         portfolioLink: "/case-study/design-trend",
       },
       {
-        img: "/img/portfolio/3.jpg",
+        img: "/img/portfolio/case-study/un_Hero.png",
         title: "Unlimitix – AI Nutrition Coach",
-        meta: " Beta version app redesign for better UX",
+        meta: " Beta Version App Redesign for Better UX",
         portfolioLink: "/case-study/animation-project",
       },
       {
         img: "/img/portfolio/case-study/home_screen_team.png",
         title: "Veterinary Practice Website",
-        meta: "End-to-end UX/UI & React Development",
+        meta: "End-to-end UX/UI & Web Development",
         portfolioLink: "/case-study/animation-project",
       },
     ],
@@ -67,7 +67,7 @@ const tabListContent = [
       {
         img: "/img/portfolio/case-study/AnimationProject_1.png",
         title: "Veterinary Practice Website",
-        meta: "End-to-end UX/UI & React Development",
+        meta: "End-to-end UX/UI & Web Development",
         portfolioLink: "/case-study/unlimitix-app",
       },
     ],
