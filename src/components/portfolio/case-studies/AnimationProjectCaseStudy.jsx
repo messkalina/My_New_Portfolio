@@ -149,12 +149,12 @@ const AnimationProjectCaseStudy = () => {
                   <video
                     src="/img/portfolio/case-study/Home_Desktop.mp4"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Home_Desktop.mp4"
-                      )
-                    }
+                    style={{ width: "100%" }}
+                    // onClick={() =>
+                    //   handleImageClick(
+                    //     "/img/portfolio/case-study/Home_Desktop.mp4"
+                    //   )
+                    // }
                     autoPlay
                     loop
                     muted
@@ -184,12 +184,12 @@ const AnimationProjectCaseStudy = () => {
                         <video
                     src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Phone _mockup02.mp4"
-                      )
-                    }
+                    style={{ width: "100%"}}
+                    // onClick={() =>
+                    //   handleImageClick(
+                    //     "/img/portfolio/case-study/Phone _mockup02.mp4"
+                    //   )
+                    // }
                     autoPlay
                     loop
                     muted
