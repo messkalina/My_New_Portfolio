@@ -147,7 +147,7 @@ const AnimationProjectCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <video
-                    src="/img/portfolio/case-study/Home_Desktop.mp4" // <-- Use your video file path here
+                    src="/img/portfolio/case-study/Home_Desktop.mp4"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
@@ -155,7 +155,11 @@ const AnimationProjectCaseStudy = () => {
                         "/img/portfolio/case-study/Home_Desktop.mp4"
                       )
                     }
-                    controls
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    // controls removed for background effect
                     poster="/img/portfolio/case-study/Home_Desktop.mp4" // Optional: show image before play
                   />
                   {/* Add caption */}
