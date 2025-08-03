@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Button } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
@@ -381,6 +381,15 @@ const AnimationProjectCaseStudy = () => {
                     experience for both new and returning clients.
                   </p>
                 </div>
+                 <div
+                  className="shane_tm_button"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <a href="https://tierarzt-leberberg.at/" target="_blank" rel="noopener noreferrer">
+                    See Live
+                  </a>
+                </div>
               </div>
               {/* End right */}
             </div>
@@ -418,6 +427,7 @@ const AnimationProjectCaseStudy = () => {
                     from day one.
                   </p>
                 </div>
+            
               </div>
               {/* End left */}
 
