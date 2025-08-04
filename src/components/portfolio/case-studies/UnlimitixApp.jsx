@@ -124,8 +124,12 @@ const UnlimitixApp = () => {
                     features like:
                   </p>
                   <ul className="case-study-list">
-                    <li>User <strong>onboarding and profile-building</strong> flow</li>
-                    <li>Diet <strong>tracking and progress monitoring</strong></li>
+                    <li>
+                      User <strong>onboarding and profile-building</strong> flow
+                    </li>
+                    <li>
+                      Diet <strong>tracking and progress monitoring</strong>
+                    </li>
                   </ul>
                   <p>
                     The challenge was to create delightful experiences by
@@ -205,13 +209,18 @@ const UnlimitixApp = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      A <strong>competitive analysis</strong> of apps like HealthifyMe, BetterMe,
-                      and Calorie Mama
+                      A <strong>competitive analysis</strong> of apps like
+                      HealthifyMe, BetterMe, and Calorie Mama
                     </li>
-                    <li><strong>Daily beta testing</strong> of Unlimitix’s original version</li>
-                    <li><strong>User interviews</strong> with peers and testers</li>
+                    <li>
+                      <strong>Daily beta testing</strong> of Unlimitix’s
+                      original version
+                    </li>
+                    <li>
+                      <strong>User interviews</strong> with peers and testers
+                    </li>
                   </ul>
-                  <p>Key hypothesis:</p>
+                  <p><strong>Key hypothesis:</strong></p>
                   <ul className="case-study-list">
                     <li>
                       Users <strong> expect tracking tools</strong> alongside AI
@@ -263,9 +272,12 @@ const UnlimitixApp = () => {
                       Enter relevant characteristics and goals → Get
                       <strong> personalized</strong> meal plan
                     </li>
-                    <li><strong>Track</strong> meals, water intake and activity</li>
                     <li>
-                      <strong>Chat</strong> with AI for feedback, challenges, and encouragement
+                      <strong>Track</strong> meals, water intake and activity
+                    </li>
+                    <li>
+                      <strong>Chat</strong> with AI for feedback, challenges,
+                      and encouragement
                     </li>
                   </ul>
                 </div>
@@ -470,22 +482,33 @@ const UnlimitixApp = () => {
                   <p>
                     The final prototype transformed Unlimitix from a limited
                     chatbot into a more complete and engaging coaching tool.
-
                   </p>
                   <br />
-                  <p><strong>Key work:</strong></p>
+                  <p>
+                    <strong>Key work:</strong>
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      Used <strong>beta-testing insights</strong> to guide real-world redesign
+                      Used <strong>beta-testing insights</strong> to guide
+                      real-world redesign
                     </li>
                     <li>
-                      Conducted <strong>competitor analysis</strong> and informal interviews
+                      Conducted <strong>competitor analysis</strong> and
+                      informal interviews
                     </li>
-                    <li>Designed user flows and interaction patterns for <strong>new features</strong></li>
-                    <li>Created UI design with <strong>new visual identity</strong></li>
-                    <li><strong>Built and tested</strong> an interactive Figma prototype</li>
+                    <li>
+                      Designed user flows and interaction patterns for{" "}
+                      <strong>new features</strong>
+                    </li>
+                    <li>
+                      Created UI design with{" "}
+                      <strong>new visual identity</strong>
+                    </li>
+                    <li>
+                      <strong>Built and tested</strong> an interactive Figma
+                      prototype
+                    </li>
                   </ul>
-             
                 </div>
               </div>
               {/* End right */}
