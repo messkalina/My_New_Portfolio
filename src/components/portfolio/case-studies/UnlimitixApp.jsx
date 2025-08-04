@@ -479,14 +479,14 @@ const UnlimitixApp = () => {
                   <p><strong>Key work:</strong></p>
                   <ul className="case-study-list">
                     <li>
-                      Used beta-testing insights to guide real-world redesign
+                      Used <strong>beta-testing insights</strong> to guide real-world redesign
                     </li>
                     <li>
-                      Conducted competitor analysis and informal interviews
+                      Conducted <strong>competitor analysis</strong> and informal interviews
                     </li>
-                    <li>Designed user flows and interaction patterns for new features</li>
-                     <li>Created a minimalist visual language with bold illustrations</li>
-                    <li>Built and tested an interactive Figma prototype</li>
+                    <li>Designed user flows and interaction patterns for <strong>new features</strong></li>
+                    <li>Created UI design with <strong>new visual identity</strong></li>
+                    <li><strong>Built and tested</strong> an interactive Figma prototype</li>
                   </ul>
              
                 </div>
