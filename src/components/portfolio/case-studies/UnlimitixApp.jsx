@@ -124,8 +124,8 @@ const UnlimitixApp = () => {
                     features like:
                   </p>
                   <ul className="case-study-list">
-                    <li>User onboarding and profile building flow</li>
-                    <li>Diet tracking and progress monitoring</li>
+                    <li>User <strong>onboarding and profile-building</strong> flow</li>
+                    <li>Diet <strong>tracking and progress monitoring</strong></li>
                   </ul>
                   <p>
                     The challenge was to create delightful experiences by
@@ -205,11 +205,11 @@ const UnlimitixApp = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      A competitive analysis of apps like HealthifyMe, BetterMe,
+                      A <strong>competitive analysis</strong> of apps like HealthifyMe, BetterMe,
                       and Calorie Mama
                     </li>
-                    <li>Daily beta testing of Unlimitix’s original version</li>
-                    <li>Informal user interviews with peers and testers</li>
+                    <li><strong>Daily beta testing</strong> of Unlimitix’s original version</li>
+                    <li><strong>User interviews</strong> with peers and testers</li>
                   </ul>
                   <p>Key hypothesis:</p>
                   <ul className="case-study-list">
@@ -261,11 +261,11 @@ const UnlimitixApp = () => {
                   <ul className="case-study-list">
                     <li>
                       Enter relevant characteristics and goals → Get
-                      personalized meal plan
+                      <strong> personalized</strong> meal plan
                     </li>
-                    <li>Track meals, water intake and activity</li>
+                    <li><strong>Track</strong> meals, water intake and activity</li>
                     <li>
-                      Chat with AI for feedback, challenges, and encouragement
+                      <strong>Chat</strong> with AI for feedback, challenges, and encouragement
                     </li>
                   </ul>
                 </div>
@@ -469,11 +469,8 @@ const UnlimitixApp = () => {
                 >
                   <p>
                     The final prototype transformed Unlimitix from a limited
-                    chatbot into a more complete and motivating coaching tool.
-                    It offered a deeper sense of structure while staying
-                    lightweight and friendly for mobile users. The redesign
-                    emphasized daily momentum, visual clarity, and long-term
-                    user motivation.
+                    chatbot into a more complete and engaging coaching tool.
+
                   </p>
                   <br />
                   <p><strong>Key work:</strong></p>
