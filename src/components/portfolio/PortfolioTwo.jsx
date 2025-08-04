@@ -27,7 +27,7 @@ const tabListContent = [
         portfolioLink: "/case-study/unlimitix-app",
       },
       {
-        img: "/img/portfolio/case-study/home_screen_team.png",
+        img: "/img/portfolio/case-study/home_screen_team7.png",
         title: "Veterinary Practice Website",
         meta: "End-to-end UX/UI & Web Development",
         portfolioLink: "/case-study/animation-project",
