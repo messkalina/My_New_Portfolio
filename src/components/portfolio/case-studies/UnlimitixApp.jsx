@@ -37,7 +37,7 @@ const UnlimitixApp = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Veterinary Practice Website</h1>
+              <h1>Unlimitix – AI Nutrition Coach</h1>
             </div>
           </div>
         </div>
@@ -58,7 +58,8 @@ const UnlimitixApp = () => {
                 marginBottom: "60px",
               }}
             >
-              Timeline: <span className="timeline-fine">April – May 2025</span>
+              Timeline:{" "}
+              <span className="timeline-fine">January – March 2023</span>
             </p>
           </div>
         </div>
@@ -75,21 +76,19 @@ const UnlimitixApp = () => {
               >
                 <div className="top">
                   <p className="text">
-                    Tierarztpraxis Leberberg is a modern veterinary practice in
-                    Vienna. They needed their first-ever website to reflect
-                    their professional yet warm personality, build client trust,
-                    and make it easier for pet owners to contact and book
-                    appointments.
+                    Unlimitix is a beta-stage mobile app that uses AI to help
+                    users build healthy eating habits through chat-based
+                    coaching and motivational feedback. While working on this as
+                    part of my CareerFoundry UI Design Bootcamp, the app was
+                    live and in active development—so I joined as a real beta
+                    tester, using my own insights and experience with the app to
+                    inform a full redesign of its mobile interface.
                   </p>
                   <br />
                   <p>
-                    I led this project end-to-end —{" "}
-                    <strong>designing the UX/UI</strong> and fully{" "}
-                    <strong>developing the website </strong> from scratch using
-                    HTML, CSS, javascript and React js library. I didn’t use any
-                    website editors or builders - a deliberate choice to deepen
-                    my skills in web development and create a product where{" "}
-                    <strong>design and code are tightly connected</strong>.
+                    My goal was to <strong>elevate the onboarding process</strong> and create a more <strong>enjoyable, engaging </strong>
+                    interface that would help users stay motivated on their
+                    <strong> journey to better nutrition.</strong>
                   </p>
                 </div>
               </div>
@@ -125,9 +124,16 @@ const UnlimitixApp = () => {
                     had to be designed from the ground up. It needed to feel:
                   </p>
                   <ul className="case-study-list">
-                    <li><strong>Local</strong> and <strong>trustworthy</strong></li>
-                    <li>Visually <strong>friendly, but professional</strong></li>
-                    <li><strong>Modern, responsive</strong> yet lightweight and intuitive</li>
+                    <li>
+                      <strong>Local</strong> and <strong>trustworthy</strong>
+                    </li>
+                    <li>
+                      Visually <strong>friendly, but professional</strong>
+                    </li>
+                    <li>
+                      <strong>Modern, responsive</strong> yet lightweight and
+                      intuitive
+                    </li>
                   </ul>
                   <p>
                     It also had to clearly communicate services, introduce the
@@ -266,18 +272,26 @@ const UnlimitixApp = () => {
                 >
                   <p>My key work included: </p>
                   <ul className="case-study-list">
-                    <li>Led the project from <strong>discovery to deployment</strong></li>
                     <li>
-                      Designed <strong>responsive</strong> UI/UX and built interactive prototypes
+                      Led the project from{" "}
+                      <strong>discovery to deployment</strong>
                     </li>
                     <li>
-                     <strong>Coded</strong> the site in <strong>React</strong> without
-                      using web editors
+                      Designed <strong>responsive</strong> UI/UX and built
+                      interactive prototypes
                     </li>
-                    <li>Created custom <strong>motion design</strong> elements</li>
-                    <li>Set up <strong>SEO</strong> and <strong>analytics</strong> tracking</li>
+                    <li>
+                      <strong>Coded</strong> the site in <strong>React</strong>{" "}
+                      without using web editors
+                    </li>
+                    <li>
+                      Created custom <strong>motion design</strong> elements
+                    </li>
+                    <li>
+                      Set up <strong>SEO</strong> and <strong>analytics</strong>{" "}
+                      tracking
+                    </li>
                   </ul>
-                 
                 </div>
               </div>
               {/* End left */}
@@ -349,11 +363,11 @@ const UnlimitixApp = () => {
                 >
                   <p>
                     The new website launched successfully and received
-                    <strong> enthusiastic feedback</strong> from the clinic—especially the
-                    animated hero section, which helped visually reinforce their
-                    values. The design now enables clear service communication
-                    and offers an intuitive experience for both new and
-                    returning clients.
+                    <strong> enthusiastic feedback</strong> from the
+                    clinic—especially the animated hero section, which helped
+                    visually reinforce their values. The design now enables
+                    clear service communication and offers an intuitive
+                    experience for both new and returning clients.
                   </p>
                 </div>
               </div>
@@ -386,9 +400,11 @@ const UnlimitixApp = () => {
                   <p>
                     This project underscored the value of small design
                     details—like subtle motion—in shaping perception and trust.
-                    More importantly, <strong>building the product from scratch</strong> taught
-                    me how design and development feed into each other, and gave
-                    me a <strong>stronger process</strong> for aligning the two from day one.
+                    More importantly,{" "}
+                    <strong>building the product from scratch</strong> taught me
+                    how design and development feed into each other, and gave me
+                    a <strong>stronger process</strong> for aligning the two
+                    from day one.
                   </p>
                 </div>
               </div>
