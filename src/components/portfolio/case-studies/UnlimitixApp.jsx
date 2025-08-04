@@ -86,7 +86,9 @@ const UnlimitixApp = () => {
                   </p>
                   <br />
                   <p>
-                    My goal was to <strong>elevate the onboarding process</strong> and create a more <strong>enjoyable, engaging </strong>
+                    My goal was to{" "}
+                    <strong>elevate the onboarding process</strong> and create a
+                    more <strong>enjoyable, engaging </strong>
                     interface that would help users stay motivated on their
                     <strong> journey to better nutrition.</strong>
                   </p>
@@ -109,9 +111,7 @@ const UnlimitixApp = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>
-                 From Chatbot to Full Coaching Platform
-                  </h3>
+                  <h3>From Chatbot to Full Coaching Platform</h3>
                 </div>
                 <div
                   className="text"
@@ -119,19 +119,17 @@ const UnlimitixApp = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The original version of Unlimitix included a basic AI chatbot and educational articles, but lacked essential features like:
+                    The original version of Unlimitix included a basic AI
+                    chatbot and educational articles, but lacked essential
+                    features like:
                   </p>
                   <ul className="case-study-list">
-                    <li>
-                      User onboarding and profile building flow
-                    </li>
-                    <li>
-                      Diet tracking and progress monitoring
-                    </li>
-                   
+                    <li>User onboarding and profile building flow</li>
+                    <li>Diet tracking and progress monitoring</li>
                   </ul>
                   <p>
-                   The challenge was to create delightful experiences by improving usability and elevating the UI.
+                    The challenge was to create delightful experiences by
+                    improving usability and elevating the UI.
                   </p>
                 </div>
               </div>
@@ -202,35 +200,33 @@ const UnlimitixApp = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    To identify feature gaps and user expectations, I conducted::
+                    To identify feature gaps and user expectations, I
+                    conducted::
                   </p>
                   <ul className="case-study-list">
                     <li>
-                  A competitive analysis of apps like HealthifyMe, BetterMe, and Calorie Mama
+                      A competitive analysis of apps like HealthifyMe, BetterMe,
+                      and Calorie Mama
                     </li>
-                    <li>
-                    Daily beta testing of Unlimitix’s original version
-                    </li>
-                    <li>
-                     Informal user interviews with peers and testers
-                    </li>
-                   
+                    <li>Daily beta testing of Unlimitix’s original version</li>
+                    <li>Informal user interviews with peers and testers</li>
                   </ul>
-                  <p>
-                    Key hypothesis:
-                  </p>
+                  <p>Key hypothesis:</p>
                   <ul className="case-study-list">
                     <li>
-                  Users <strong> expect tracking tools</strong> alongside AI coaching
+                      Users <strong> expect tracking tools</strong> alongside AI
+                      coaching
                     </li>
                     <li>
-                   <strong>Visual language</strong> should support <strong>motivation</strong> and <strong>personalization</strong>  
+                      <strong>Visual language</strong> should support{" "}
+                      <strong>motivation</strong> and{" "}
+                      <strong>personalization</strong>
                     </li>
                     <li>
-                     Following <strong>platform-specific UX patterns</strong> improves usability and trust
+                      Following <strong>platform-specific UX patterns</strong>{" "}
+                      improves usability and trust
                     </li>
                   </ul>
-               
                 </div>
               </div>
               {/* End right */}
@@ -258,14 +254,16 @@ const UnlimitixApp = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>I mapped out expanded user flows for a more interactive experience: </p>
+                  <p>
+                    I mapped out expanded user flows for a more interactive
+                    experience:{" "}
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      Enter relevant characteristics and goals → Get personalized meal plan
+                      Enter relevant characteristics and goals → Get
+                      personalized meal plan
                     </li>
-                    <li>
-                      Track meals, water intake and activity
-                    </li>
+                    <li>Track meals, water intake and activity</li>
                     <li>
                       Chat with AI for feedback, challenges, and encouragement
                     </li>
@@ -331,8 +329,8 @@ const UnlimitixApp = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Outcome</span>
-                  <h3>A Playful, Professional Site That Clients Love</h3>
+                  <span>Visual Design</span>
+                  <h3>Minimalist UI with Bold, Human Illustrations</h3>
                 </div>
                 <div
                   className="text"
@@ -340,12 +338,22 @@ const UnlimitixApp = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The new website launched successfully and received
-                    <strong> enthusiastic feedback</strong> from the
-                    clinic—especially the animated hero section, which helped
-                    visually reinforce their values. The design now enables
-                    clear service communication and offers an intuitive
-                    experience for both new and returning clients.
+                    To move away from generic visuals, I kept the brand’s color
+                    palette but created a new visual identity with:
+                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      Custom illustrations and bold color palette inspired by{" "}
+                      <strong>neobrutalism</strong>
+                    </li>
+                    <li>
+                      Clear <strong>visual hierarchy</strong>
+                    </li>
+                    <li>Simplified layout</li>
+                  </ul>
+                  <p>
+                    The style was designed to feel modern, expressive, and
+                    aligned with a personalized coaching tone.
                   </p>
                 </div>
               </div>
@@ -367,8 +375,8 @@ const UnlimitixApp = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Takeaways</span>
-                  <h3>Blending Design & Development for Impact</h3>
+                  <span>Prototype & Testing</span>
+                  <h3>Validating the Redesign With Real Users</h3>
                 </div>
                 <div
                   className="text"
@@ -376,14 +384,20 @@ const UnlimitixApp = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    This project underscored the value of small design
-                    details—like subtle motion—in shaping perception and trust.
-                    More importantly,{" "}
-                    <strong>building the product from scratch</strong> taught me
-                    how design and development feed into each other, and gave me
-                    a <strong>stronger process</strong> for aligning the two
-                    from day one.
+                    <strong>What users loved:</strong>
                   </p>
+                  <ul className="case-study-list">
+                    <li>Unique, consistent illustration style</li>
+                    <li>Clear, readable typography</li>
+                    <li>Clean visual structure</li>
+                  </ul>
+                  <p>
+                    <strong>What I improved based on feedback:</strong>
+                  </p>
+                  <ul className="case-study-list">
+                    <li>Clear, readable typography</li>
+                    <li>Clean visual structure</li>
+                  </ul>
                 </div>
               </div>
               {/* End left */}
@@ -405,6 +419,76 @@ const UnlimitixApp = () => {
                   <div className="image_caption">
                     <p>[Caption for the image]</p>
                   </div>
+                </div>
+              </div>
+              {/* End right */}
+            </div>
+          </div>
+          {/* End container */}
+        </div>
+      </div>
+
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/AnimationProject_4.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/AnimationProject_4.png"
+                      )
+                    }
+                  />
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>[Caption for the image]</p>
+                  </div>
+                </div>
+              </div>
+              {/* End left */}
+
+              <div className="right">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Outcome</span>
+                  <h3>A Richer, More Engaging Coaching Experience</h3>
+                </div>
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <p>
+                    The final prototype transformed Unlimitix from a limited
+                    chatbot into a more complete and motivating coaching tool.
+                    It offered a deeper sense of structure while staying
+                    lightweight and friendly for mobile users. The redesign
+                    emphasized daily momentum, visual clarity, and long-term
+                    user motivation.
+                  </p>
+                  <br />
+                  <p><strong>Key work:</strong></p>
+                  <ul className="case-study-list">
+                    <li>
+                      Used beta-testing insights to guide real-world redesign
+                    </li>
+                    <li>
+                      Conducted competitor analysis and informal interviews
+                    </li>
+                    <li>Designed user flows and interaction patterns for new features</li>
+                     <li>Created a minimalist visual language with bold illustrations</li>
+                    <li>Built and tested an interactive Figma prototype</li>
+                  </ul>
+             
                 </div>
               </div>
               {/* End right */}
