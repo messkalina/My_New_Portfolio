@@ -140,16 +140,21 @@ const UnlimitixApp = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/AnimationProject_1.png"
-                    alt="Wireframe"
+                   <video
+                    src="/img/portfolio/case-study/Unlimitix iOS_small.mp4"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/AnimationProject_1.png"
-                      )
-                    }
+                    style={{ width: "60%" }}
+                    // onClick={() =>
+                    //   handleImageClick(
+                    //     "/img/portfolio/case-study/Home_Desktop.mp4"
+                    //   )
+                    // }
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    // controls removed for background effect
+                    poster="/img/portfolio/case-study/Unlimitix iOS_small.png" // Optional: show image before play
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -416,21 +421,16 @@ const UnlimitixApp = () => {
 
               <div className="right">
                <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/case-study/Unlimitix iOS_small.mp4"
+                  <img
+                    src="/img/portfolio/case-study/Un-User_feedback.png"
+                    alt="Wireframe"
                     className="clickable-image"
-                    style={{ width: "60%" }}
-                    // onClick={() =>
-                    //   handleImageClick(
-                    //     "/img/portfolio/case-study/Home_Desktop.mp4"
-                    //   )
-                    // }
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    // controls removed for background effect
-                    poster="/img/portfolio/case-study/Unlimitix iOS_small.png" // Optional: show image before play
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Un-User_feedback.png"
+                      )
+                    }
                   />
                   {/* Add caption */}
                   <div className="image_caption">
