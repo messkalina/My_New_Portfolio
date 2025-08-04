@@ -250,34 +250,24 @@ const UnlimitixApp = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Contributions</span>
-                  <h3>From Design to Development</h3>
+                  <span>Design</span>
+                  <h3>Turning a Chatbot Into a Coaching System</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>My key work included: </p>
+                  <p>I mapped out expanded user flows for a more interactive experience: </p>
                   <ul className="case-study-list">
                     <li>
-                      Led the project from{" "}
-                      <strong>discovery to deployment</strong>
+                      Enter relevant characteristics and goals → Get personalized meal plan
                     </li>
                     <li>
-                      Designed <strong>responsive</strong> UI/UX and built
-                      interactive prototypes
+                      Track meals, water intake and activity
                     </li>
                     <li>
-                      <strong>Coded</strong> the site in <strong>React</strong>{" "}
-                      without using web editors
-                    </li>
-                    <li>
-                      Created custom <strong>motion design</strong> elements
-                    </li>
-                    <li>
-                      Set up <strong>SEO</strong> and <strong>analytics</strong>{" "}
-                      tracking
+                      Chat with AI for feedback, challenges, and encouragement
                     </li>
                   </ul>
                 </div>
