@@ -193,8 +193,8 @@ const UnlimitixApp = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Solution</span>
-                  <h3>Design and Development Aligned from Day One</h3>
+                  <span>Research</span>
+                  <h3>Learning From Competitors and My Own Use</h3>
                 </div>
                 <div
                   className="text"
@@ -202,40 +202,35 @@ const UnlimitixApp = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Using the clinic’s brand assets (logo, colors, tone), I
-                    created a responsive, emotionally engaging site experience:
+                    To identify feature gaps and user expectations, I conducted::
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Designed the full UX and UI system in{" "}
-                      <strong>Figma</strong>
+                  A competitive analysis of apps like HealthifyMe, BetterMe, and Calorie Mama
                     </li>
                     <li>
-                      Created <strong>high-fidelity mid-fi wireframes</strong>{" "}
-                      and a clickable prototype for feedback
+                    Daily beta testing of Unlimitix’s original version
                     </li>
                     <li>
-                      Developed custom <strong>motion design</strong> in the
-                      homepage hero
+                     Informal user interviews with peers and testers
                     </li>
-                    <li>
-                      Built the site in <strong>React + React-Bootstrap</strong>
-                    </li>
-                    <li>
-                      Implemented <strong>SEO basics</strong> and{" "}
-                      <strong>analytics</strong>
-                    </li>
-                    <li>
-                      Used progressive disclosure to keep the site clear and
-                      digestible
-                    </li>
+                   
                   </ul>
                   <p>
-                    This was also my first time delivering a full production
-                    build in React for a real client—an experience that
-                    sharpened both my frontend skills and my ability to debug
-                    design decisions in context.
+                    Key hypothesis:
                   </p>
+                  <ul className="case-study-list">
+                    <li>
+                  Users <strong> expect tracking tools</strong> alongside AI coaching
+                    </li>
+                    <li>
+                   <strong>Visual language</strong> should support <strong>motivation</strong> and <strong>personalization</strong>  
+                    </li>
+                    <li>
+                     Following <strong>platform-specific UX patterns</strong> improves usability and trust
+                    </li>
+                  </ul>
+               
                 </div>
               </div>
               {/* End right */}
