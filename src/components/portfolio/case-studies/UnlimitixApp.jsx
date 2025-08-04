@@ -171,13 +171,13 @@ const UnlimitixApp = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/un_user_flow.png"
+                    src="/img/portfolio/case-study/un_platforms.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/un_user_flow.png"
+                        "/img/portfolio/case-study/un_platforms.png"
                       )
                     }
                   />
