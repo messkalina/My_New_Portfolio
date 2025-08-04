@@ -24,7 +24,7 @@ const tabListContent = [
         img: "/img/portfolio/case-study/un_Hero.png",
         title: "Unlimitix – AI Nutrition Coach",
         meta: " Beta Version App Redesign for Better UX",
-        portfolioLink: "/case-study/animation-project",
+        portfolioLink: "/case-study/unlimitix-app",
       },
       {
         img: "/img/portfolio/case-study/home_screen_team.png",

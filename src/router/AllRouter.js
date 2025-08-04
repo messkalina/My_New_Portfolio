@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import MyStoryCaseStudy from "../components/portfolio/case-studies/MyStoryCaseStudy";
 import DesignTrendCaseStudy from "../components/portfolio/case-studies/DesignTrendCaseStudy";
 import AnimationProjectCaseStudy from "../components/portfolio/case-studies/AnimationProjectCaseStudy";
+import UnlimitixApp from "../components/portfolio/case-studies/UnlimitixApp";
 
 const AllRouter = () => {
   return (
@@ -18,6 +19,9 @@ const AllRouter = () => {
         <Route path="/case-study/my-story" element={<MyStoryCaseStudy />} />
         <Route path="/case-study/design-trend" element={<DesignTrendCaseStudy />} />
         <Route path="/case-study/animation-project" element={<AnimationProjectCaseStudy />} />
+        <Route path="/case-study/unlimitix-app" element={<UnlimitixApp />} />
+
+        {/* Catch-all route for 404 Not Found */}
 
         <Route path="*" element={<NotFound />} />
       </Routes>
