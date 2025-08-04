@@ -110,8 +110,7 @@ const UnlimitixApp = () => {
                 >
                   <span>Challenge</span>
                   <h3>
-                    Designing and Developing Effective Bussiness Website from
-                    Scratch
+                 From Chatbot to Full Coaching Platform
                   </h3>
                 </div>
                 <div
@@ -120,25 +119,19 @@ const UnlimitixApp = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The practice had no existing digital presence, so the site
-                    had to be designed from the ground up. It needed to feel:
+                    The original version of Unlimitix included a basic AI chatbot and educational articles, but lacked essential features like:
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Local</strong> and <strong>trustworthy</strong>
+                      User onboarding and profile building flow
                     </li>
                     <li>
-                      Visually <strong>friendly, but professional</strong>
+                      Diet tracking and progress monitoring
                     </li>
-                    <li>
-                      <strong>Modern, responsive</strong> yet lightweight and
-                      intuitive
-                    </li>
+                   
                   </ul>
                   <p>
-                    It also had to clearly communicate services, introduce the
-                    care team, and support mobile users—especially for
-                    appointment inquiries.
+                   The challenge was to create delightful experiences by improving usability and elevating the UI.
                   </p>
                 </div>
               </div>
