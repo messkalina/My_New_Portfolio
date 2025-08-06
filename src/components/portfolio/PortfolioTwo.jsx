@@ -37,37 +37,37 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/3.jpg",
+        img: "/img/portfolio/Neptune_walkthrough0.jpg",
         title: "Neptune Apps Demo",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion01",
       },
       {
-        img: "/img/portfolio/3.jpg",
+        img: "/img/portfolio/woltad_1.png",
         title: "Social Media Video Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion02",
       },
       {
-        img: "/img/portfolio/3.jpg",
+        img: "/img/portfolio/caspar.png",
         title: "Explainer Videos",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion03",
       },
       {
-        img: "/img/portfolio/3.jpg",
+        img: "/img/portfolio/talon.png",
         title: "Social Media Video Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion04",
       },
       {
-        img: "/img/portfolio/3.jpg",
+        img: "/img/portfolio/trivago2.png",
         title: "Trivago TV Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion05",
       },
       {
-        img: "/img/portfolio/3.jpg",
+        img: "/img/portfolio/filmfest.png",
         title: "Euroshorts 2015 Video Promo",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion06",
