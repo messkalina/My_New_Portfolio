@@ -75,7 +75,7 @@ const Motion01 = () => {
               >
                 <div className="top">
                   <p className="text">
-                   Snippets from a walkthrough video demonstrating medical apps features and useflow I did when working at Orbit Health company.
+                   Snippets from a walkthrough video demonstrating medical apps features and userflow I created when working at Orbit Health company.
                   <strong> Tools:</strong> Figma, Adobe XD, After Effects
                   </p>
                  
