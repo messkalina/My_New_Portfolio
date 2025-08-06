@@ -37,7 +37,7 @@ const Motion04 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Explainer Videos</h1>
+              <h1>Social Media Video Ad</h1>
             </div>
           </div>
         </div>
@@ -75,8 +75,8 @@ const Motion04 = () => {
               >
                 <div className="top">
                   <p className="text">
-                   As a motion designer at Goreha GmbH I was in charge of creating animated educational as content for company product - Caspar Health, the online multi-therapy platform. The animations were long videos between 10 to 45 min long and had to be optimised for the viewers - patients of various demographics. The objective was creating medically correct, informative, engaging and easy to follow<br />
-                  <strong> Tools:</strong> Adobe After Effects, Premiere Pro, Photoshop, Illustrator
+                   Video ad created for social media<br />
+                  <strong> Tools:</strong> Adobe After Effects, Photoshop, Illustrator
                   </p>
                  
 
@@ -85,7 +85,7 @@ const Motion04 = () => {
                   
                     <ul className="case-study-list">
                       <li>
-                        <strong>Ideation based on the scripts</strong> 
+                        <strong>Ideation</strong> 
                       </li>
                       <li>
                         <strong>Visual assets</strong> 
@@ -93,19 +93,14 @@ const Motion04 = () => {
                       <li>
                         <strong>Motion graphics design</strong> 
                       </li>
-                      <li>
-                        <strong>Video editing</strong>
-                      </li>
-                      <li>
-                        <strong>Sound design</strong>
-                      </li>
+                  
                     </ul>
                     <div className="case-study-video" style={{ marginTop: "56px", marginBottom: "56px", textAlign: "center" }}>
                         <iframe
                             width="800"
                             height="450"
-                            src="https://www.youtube.com/embed/9F-EWAQiF8g"
-                            title="Explainer Videos"
+                            src="https://www.youtube.com/embed/IgY4LgvxP0I"
+                            title="Social Media Video Ad"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen

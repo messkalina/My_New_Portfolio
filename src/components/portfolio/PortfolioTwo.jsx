@@ -57,7 +57,7 @@ const tabListContent = [
       },
          {
         img: "/img/portfolio/3.jpg",
-        title: "Explainer Videos",
+        title: "Social Media Video Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion04",
       },  
