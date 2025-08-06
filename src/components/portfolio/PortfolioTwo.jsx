@@ -135,7 +135,7 @@ const Portfolio = () => {
               <div className="title_flex">
                 <div className="left">
                   <span>Portfolio</span>
-                  <h3>Creative Portfolio</h3>
+                  <h3>Selected works</h3>
                 </div>
               </div>
             </div>
