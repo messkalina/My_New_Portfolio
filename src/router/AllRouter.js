@@ -10,11 +10,11 @@ import AnimationProjectCaseStudy from "../components/portfolio/case-studies/Anim
 import UnlimitixApp from "../components/portfolio/case-studies/UnlimitixApp";
 import Motion01 from "../components/portfolio/case-studies/motion01";
 import Motion02 from "../components/portfolio/case-studies/motion02";
-import Motion03 from "../components/portfolio/case-studies/motion03"; // Import the new Motion03 component  
-
+import Motion03 from "../components/portfolio/case-studies/motion03";
+import Motion04 from "../components/portfolio/case-studies/motion04";
 const AllRouter = () => {
   return (
-    <>
+    <>  
       <Routes>
         <Route path="/" element={<HomeTwo />} />
 
@@ -35,6 +35,7 @@ const AllRouter = () => {
         <Route path="/case-study/motion01" element={<Motion01 />} />
         <Route path="/case-study/motion02" element={<Motion02 />} />
         <Route path="/case-study/motion03" element={<Motion03 />} /> 
+        <Route path="/case-study/motion04" element={<Motion04 />} />
 
         {/* Catch-all route for 404 Not Found */}
 

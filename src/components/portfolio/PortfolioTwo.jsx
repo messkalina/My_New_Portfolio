@@ -54,6 +54,12 @@ const tabListContent = [
         meta: "Motion Design",
         portfolioLink: "/case-study/motion03",
       },
+         {
+        img: "/img/portfolio/3.jpg",
+        title: "Explainer Videos",
+        meta: "Motion Design",
+        portfolioLink: "/case-study/motion04",
+      },  
     ],
   },
   {
