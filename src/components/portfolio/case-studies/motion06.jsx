@@ -26,7 +26,7 @@ const Motion06 = () => {
         <div className="container">
           <div>
             <div>
-              <Link to="/#portfolio" className="back_button">
+              <Link to="/?tab=motion#portfolio" className="back_button">
                 ← BACK
               </Link>
             </div>
@@ -75,46 +75,52 @@ const Motion06 = () => {
               >
                 <div className="top">
                   <p className="text">
-                  Promotional video I created 
-                  for Euroshorts 2015 Film Festival<br />
-                  <strong> Tools:</strong> Adobe After Effects, Premiere Pro, Photoshop, Illustrator
-                  </p>
-                 
-
+                    Promotional video I created for Euroshorts 2015 Film
+                    Festival
                     <br />
+                    <strong> Tools:</strong> Adobe After Effects, Premiere Pro,
+                    Photoshop, Illustrator
+                  </p>
+
+                  <br />
                   <h3 className="title">Key Work</h3>
-                  
-                    <ul className="case-study-list">
-                      <li>
-                        <strong>Art Direction</strong> 
-                      </li>
-                      <li>
-                        <strong>Visual assets</strong> 
-                      </li>
-                      <li>
-                        <strong>Motion graphics design</strong> 
-                      </li>
-                      <li>
-                        <strong>Video editing</strong>
-                      </li>
-                      <li>
-                        <strong>Sound design</strong>
-                      </li>
-                    </ul>
-                    <div className="case-study-video" style={{ marginTop: "56px", marginBottom: "56px", textAlign: "center" }}>
-                        <iframe
-                            width="800"
-                            height="450"
-                            src="https://www.youtube.com/embed/TMjuqn8H97I"
-                            title="Euroshorts 2015 Video Promo"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            style={{ maxWidth: "100%", borderRadius: "12px" }}
-                        ></iframe>
-                    </div>
-                   
-                  
+
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>Art Direction</strong>
+                    </li>
+                    <li>
+                      <strong>Visual assets</strong>
+                    </li>
+                    <li>
+                      <strong>Motion graphics design</strong>
+                    </li>
+                    <li>
+                      <strong>Video editing</strong>
+                    </li>
+                    <li>
+                      <strong>Sound design</strong>
+                    </li>
+                  </ul>
+                  <div
+                    className="case-study-video"
+                    style={{
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                      textAlign: "center",
+                    }}
+                  >
+                    <iframe
+                      width="800"
+                      height="450"
+                      src="https://www.youtube.com/embed/TMjuqn8H97I"
+                      title="Euroshorts 2015 Video Promo"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      style={{ maxWidth: "100%", borderRadius: "12px" }}
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -122,9 +128,6 @@ const Motion06 = () => {
         </div>
       </div>
 
-      
-
-      
       <Footer />
     </div>
   );

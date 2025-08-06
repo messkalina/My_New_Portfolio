@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
-import { useNavigate } from "react-router-dom"; // Add this import
+import { useNavigate, useLocation } from "react-router-dom"; // Add useLocation
 
 const tabList = ["UX/UI Design", "Motion Design", "All"];
 
@@ -32,7 +32,6 @@ const tabListContent = [
         meta: "End-to-end UX/UI & Web Development",
         portfolioLink: "/case-study/vet-website",
       },
-      
     ],
   },
   {
@@ -43,37 +42,36 @@ const tabListContent = [
         meta: "Motion Design",
         portfolioLink: "/case-study/motion01",
       },
-         {
+      {
         img: "/img/portfolio/3.jpg",
         title: "Social Media Video Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion02",
       },
-       {
+      {
         img: "/img/portfolio/3.jpg",
         title: "Explainer Videos",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion03",
       },
-         {
+      {
         img: "/img/portfolio/3.jpg",
         title: "Social Media Video Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion04",
-      },  
-       {
+      },
+      {
         img: "/img/portfolio/3.jpg",
         title: "Trivago TV Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion05",
-      }, 
-         {
+      },
+      {
         img: "/img/portfolio/3.jpg",
         title: "Euroshorts 2015 Video Promo",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion06",
-      }, 
-       
+      },
     ],
   },
   {
@@ -107,14 +105,23 @@ const tabListContent = [
 ];
 
 const Portfolio = () => {
-  const navigate = useNavigate(); // Add this hook
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [tabIndex, setTabIndex] = useState(0);
+
+  // Set tab based on URL query
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const tab = params.get("tab");
+    if (tab === "motion") setTabIndex(1);
+    else if (tab === "all") setTabIndex(2);
+    else setTabIndex(0);
+  }, [location.search]);
 
   const handlePortfolioClick = (portfolioLink) => {
     if (portfolioLink.startsWith("http")) {
-      // External link - open in new tab
       window.open(portfolioLink, "_blank");
     } else {
-      // Internal link - navigate using React Router
       navigate(portfolioLink);
     }
   };
@@ -135,7 +142,7 @@ const Portfolio = () => {
             {/* End shane_tm_title */}
 
             <div className="portfolio_filter">
-              <Tabs>
+              <Tabs selectedIndex={tabIndex} onSelect={setTabIndex}>
                 <TabList>
                   {tabList.map((val, i) => (
                     <Tab key={i}>{val}</Tab>
@@ -219,39 +226,37 @@ const Portfolio = () => {
                 </div>
                 {/* End list wrapper */}
                 <div style={{ textAlign: "center", margin: "0px 0 0 0" }}>
-        <button
-          className="white-fill-bg btn-outline"
-           data-aos="fade-in"
-                              data-aos-duration="1200"
-                            
-          // style={{
-          //   padding: "12px px",
-          //   fontSize: "1.1em",
-        
-          //   border: "2px solid #222",
-          //   background: "transparent",
-          //   color: "#222",
-          //   cursor: "pointer",
-          //   fontWeight: 600,
-          //   transition: "background 0.2s, color 0.2s",
-          // }}
-          onClick={() => {
-            const contactSection = document.getElementById("contact");
-            if (contactSection) {
-              contactSection.scrollIntoView({ behavior: "smooth" });
-            }
-          }}
-        >
-          CONTACT
-        </button>
-      </div>
+                  <button
+                    className="white-fill-bg btn-outline"
+                    data-aos="fade-in"
+                    data-aos-duration="1200"
+                    // style={{
+                    //   padding: "12px px",
+                    //   fontSize: "1.1em",
+
+                    //   border: "2px solid #222",
+                    //   background: "transparent",
+                    //   color: "#222",
+                    //   cursor: "pointer",
+                    //   fontWeight: 600,
+                    //   transition: "background 0.2s, color 0.2s",
+                    // }}
+                    onClick={() => {
+                      const contactSection = document.getElementById("contact");
+                      if (contactSection) {
+                        contactSection.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
+                  >
+                    CONTACT
+                  </button>
+                </div>
               </Tabs>
             </div>
           </div>
         </div>
       </div>
       {/* Add Contact button below portfolio */}
-      
     </div>
   );
 };
