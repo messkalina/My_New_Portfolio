@@ -158,7 +158,7 @@ const UnlimitixApp = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p>User onboarding flow</p>
                   </div>
                 </div>
               </div>
@@ -188,7 +188,7 @@ const UnlimitixApp = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p> Platform-specific design</p>
                   </div>
                 </div>
               </div>
@@ -304,7 +304,7 @@ const UnlimitixApp = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p>Main user flow</p>
                   </div>
                 </div>
               </div>
@@ -334,7 +334,7 @@ const UnlimitixApp = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p>High-fidelity screens</p>
                   </div>
                 </div>
               </div>
@@ -434,7 +434,7 @@ const UnlimitixApp = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p>User feedback</p>
                   </div>
                 </div>
               </div>
@@ -464,7 +464,7 @@ const UnlimitixApp = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p>All screens overview</p>
                   </div>
                 </div>
               </div>
