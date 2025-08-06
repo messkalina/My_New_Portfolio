@@ -48,7 +48,7 @@ const Header = () => {
               <li
                 className="white-fill-bg btn-outline btn_sm"
                 style={{
-                  transition: "background 0.2s, color 0.2s",
+                  transition: "background 0.8s, color 0.8s",
                 }}
                 onMouseEnter={(e) => {
                   const link = e.currentTarget.querySelector("a");
