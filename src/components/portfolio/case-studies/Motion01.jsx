@@ -26,9 +26,9 @@ const Motion01 = () => {
         <div className="container">
           <div>
             <div>
-              <Link to="/#portfolio" className="back_button">
-                ← BACK
-              </Link>
+             <Link to="/?tab=motion#portfolio" className="back_button">
+                             ← BACK
+                           </Link>
             </div>
           </div>
           <div className="content">
