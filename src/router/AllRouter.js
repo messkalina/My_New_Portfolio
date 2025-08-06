@@ -8,6 +8,7 @@ import MyStoryCaseStudy from "../components/portfolio/case-studies/MyStoryCaseSt
 import DesignTrendCaseStudy from "../components/portfolio/case-studies/DesignTrendCaseStudy";
 import AnimationProjectCaseStudy from "../components/portfolio/case-studies/AnimationProjectCaseStudy";
 import UnlimitixApp from "../components/portfolio/case-studies/UnlimitixApp";
+import Motion01 from "../components/portfolio/case-studies/Motion01";
 
 const AllRouter = () => {
   return (
@@ -20,6 +21,7 @@ const AllRouter = () => {
         <Route path="/case-study/buhdi-app" element={<DesignTrendCaseStudy />} />
         <Route path="/case-study/vet-website" element={<AnimationProjectCaseStudy />} />
         <Route path="/case-study/unlimitix-app" element={<UnlimitixApp />} />
+        <Route path="/case-study/motion01" element={<Motion01 />} />
 
         {/* Catch-all route for 404 Not Found */}
 

@@ -40,7 +40,7 @@ const tabListContent = [
         img: "/img/portfolio/3.jpg",
         title: "Animation Project",
         meta: "Motion Design",
-        portfolioLink: "/case-study/animation-project",
+        portfolioLink: "/case-study/motion01",
       },
     ],
   },
