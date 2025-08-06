@@ -44,12 +44,23 @@ const Header = () => {
               <li>
                 <NavLink to="/#portfolio">Portfolio</NavLink>
               </li>
-             
+
               <li
-              className="white-fill-bg btn-outline btn_sm">
+                className="white-fill-bg btn-outline btn_sm"
+                style={{
+                  transition: "background 0.2s, color 0.2s",
+                }}
+                onMouseEnter={(e) => {
+                  const link = e.currentTarget.querySelector("a");
+                  if (link) link.style.color = "#fff";
+                }}
+                onMouseLeave={(e) => {
+                  const link = e.currentTarget.querySelector("a");
+                  if (link) link.style.color = "";
+                }}
+              >
                 <NavLink to="/#contact">Contact</NavLink>
               </li>
-             
             </Scrollspy>
           </div>
           {/* End menu */}
