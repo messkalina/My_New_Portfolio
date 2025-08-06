@@ -19,7 +19,7 @@ const SocialShare = [
 const Social = () => {
   return (
     <div className="share">
-      <span>Share:</span>
+      
       <ul className="social">
         {SocialShare.map((val, i) => (
           <li key={i}>

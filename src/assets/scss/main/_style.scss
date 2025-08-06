@@ -583,6 +583,23 @@ h6 {
   }
 }
 
+.social {
+  display: inline-flex;
+  gap: 18px; /* Adjust spacing as needed */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+   margin: 0;
+padding: 0;
+}
+
+// .social li {
+//   list-style: none;
+//   margin: 0;
+//   padding: 0;
+// }
+
 .social.social-default {
   display: inline-flex;
   list-style: none;
