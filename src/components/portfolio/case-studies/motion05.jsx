@@ -37,7 +37,7 @@ const Motion05 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Explainer Videos</h1>
+              <h1>Trivago TV Ad</h1>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ const Motion05 = () => {
               >
                 <div className="top">
                   <p className="text">
-                   Video ad created for social media<br />
+                   TV ad created when I worked as a motion designer for hotel search engine app Trivago.<br />
                   <strong> Tools:</strong> Adobe After Effects, Photoshop, Illustrator
                   </p>
                  
@@ -85,13 +85,13 @@ const Motion05 = () => {
                   
                     <ul className="case-study-list">
                       <li>
-                        <strong>Ideation</strong> 
-                      </li>
-                      <li>
-                        <strong>Visual assets</strong> 
-                      </li>
-                      <li>
                         <strong>Motion graphics design</strong> 
+                      </li>
+                      <li>
+                        <strong>Video editing</strong> 
+                      </li>
+                      <li>
+                        <strong>Video post production</strong> 
                       </li>
                   
                     </ul>
@@ -99,8 +99,8 @@ const Motion05 = () => {
                         <iframe
                             width="800"
                             height="450"
-                            src="https://www.youtube.com/embed/IgY4LgvxP0I"
-                            title="Social Media Video Ad"
+                            src="https://www.youtube.com/embed/ajRg-LXQ8Jg"
+                            title="Trivago TV Ad"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
