@@ -75,7 +75,7 @@ const Motion02 = () => {
               >
                 <div className="top">
                   <p className="text">
-                   This video was a design challenge I did during recruitment process during for a company. The task was to create a video ad for social media that would attract new customers. I used motion graphics and video editing skills while using provided video footage.
+                   This video was a design challenge I did during recruitment process during for a company. The task was to create a video ad for social media that would attract new customers. I used motion graphics and video editing skills while using provided video footage.<br />
                   <strong> Tools:</strong> Adobe After Effects, Premiere Pro, Photoshop, Illustrator
                   </p>
                  
