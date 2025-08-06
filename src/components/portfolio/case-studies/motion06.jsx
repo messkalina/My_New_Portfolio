@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
-const Motion04 = () => {
+const Motion06 = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxImg, setLightboxImg] = useState("");
 
@@ -37,7 +37,7 @@ const Motion04 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Explainer Videos</h1>
+              <h1>Euroshorts 2015 Video Promo</h1>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Motion04 = () => {
                 marginBottom: "60px",
               }}
             >
-              Timeline: <span className="timeline-fine">2019 - 2022</span>
+              Timeline: <span className="timeline-fine">2015</span>
             </p>
           </div>
         </div>
@@ -75,7 +75,8 @@ const Motion04 = () => {
               >
                 <div className="top">
                   <p className="text">
-                   As a motion designer at Goreha GmbH I was in charge of creating animated educational as content for company product - Caspar Health, the online multi-therapy platform. The animations were long videos between 10 to 45 min long and had to be optimised for the viewers - patients of various demographics. The objective was creating medically correct, informative, engaging and easy to follow<br />
+                  Promotional video I created 
+                  for Euroshorts 2015 Film Festival<br />
                   <strong> Tools:</strong> Adobe After Effects, Premiere Pro, Photoshop, Illustrator
                   </p>
                  
@@ -85,7 +86,7 @@ const Motion04 = () => {
                   
                     <ul className="case-study-list">
                       <li>
-                        <strong>Ideation based on the scripts</strong> 
+                        <strong>Art Direction</strong> 
                       </li>
                       <li>
                         <strong>Visual assets</strong> 
@@ -104,8 +105,8 @@ const Motion04 = () => {
                         <iframe
                             width="800"
                             height="450"
-                            src="https://www.youtube.com/embed/9F-EWAQiF8g"
-                            title="Explainer Videos"
+                            src="https://www.youtube.com/embed/TMjuqn8H97I"
+                            title="Euroshorts 2015 Video Promo"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
@@ -129,4 +130,4 @@ const Motion04 = () => {
   );
 };
 
-export default Motion04;
+export default Motion06;

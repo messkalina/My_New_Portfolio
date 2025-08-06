@@ -69,7 +69,7 @@ const tabListContent = [
       }, 
          {
         img: "/img/portfolio/3.jpg",
-        title: "Social Media Video Ad",
+        title: "Euroshorts 2015 Video Promo",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion06",
       }, 
