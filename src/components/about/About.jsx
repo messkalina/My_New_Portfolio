@@ -13,10 +13,10 @@ const About = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <img src="/img/placeholders/1-1.jpg" alt="placeholder" />
+                  <img src="/img/about/profile_pic_kal.png" alt="placeholder" />
                   <div
                     className="main"
-                    style={{ backgroundImage: "url(img/about/1.jpg)" }}
+                    style={{ backgroundImage: "url(/img/about/profile_pic_kal.png)" }}
                   ></div>
                 </div>
 
