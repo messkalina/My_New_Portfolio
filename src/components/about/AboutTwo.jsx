@@ -46,15 +46,18 @@ const AboutTwo = () => {
                     necessary to make your project a success. I enjoy every step
                     of the design process, from discussion and collaboration.
                   </p>
-                </div>
-                <div
+
+                   <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
-                ></div>
-                <div>
-                  <Social />
+                >
+                        <Social />
+                
                 </div>
+                  
+                </div>
+               
 
                 {/* <div
                   className="shane_tm_button"
