@@ -2005,7 +2005,7 @@ body.modal {
 }
 .white-fill-bg {
   &:hover {
-    color: #fff;
+    color: #fff !important;
     background-color: black;
     transform: translateY(-3px);
   }
@@ -3327,7 +3327,7 @@ body.intro .loader_line:after {
 .home-three,
 .home-three {
   .white-fill-bg.btn_sm {
-    border-color: #555 !important;
+    border-color: #000000 !important;
     &:hover {
       border-color: #000 !important;
       background: #000 !important;
