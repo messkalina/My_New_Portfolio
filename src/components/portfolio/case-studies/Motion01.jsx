@@ -37,7 +37,7 @@ const Motion01 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Motion Project</h1>
+              <h1>Neptune Apps Demo</h1>
             </div>
           </div>
         </div>
@@ -75,22 +75,28 @@ const Motion01 = () => {
               >
                 <div className="top">
                   <p className="text">
-                    Tierarztpraxis Leberberg is a modern veterinary practice in
-                    Vienna. They needed their first-ever website to reflect
-                    their professional yet warm personality, build client trust,
-                    and make it easier for pet owners to contact and book
-                    appointments.
+                   Snippets from a walkthrough video demonstrating medical apps features and useflow I did when working at Orbit Health company.
+                  <strong> Tools:</strong> Figma, Adobe XD, After Effects
                   </p>
-                  <br />
-                  <p>
-                    I led this project end-to-end —{" "}
-                    <strong>designing the UX/UI</strong> and fully{" "}
-                    <strong>developing the website </strong> from scratch using
-                    HTML, CSS, javascript and React js library. I didn’t use any
-                    website editors or builders - a deliberate choice to deepen
-                    my skills in web development and create a product where{" "}
-                    <strong>design and code are tightly connected</strong>.
-                  </p>
+                 
+
+                    <br />
+                  <h3 className="title">Key Work</h3>
+                  
+                    <ul className="case-study-list">
+                      <li>
+                        <strong>motion design</strong> 
+                      </li>
+                      <li>
+                        <strong>video post production</strong> 
+                      </li>
+                      <li>
+                        <strong>video editing</strong> 
+                      </li>
+                    </ul>
+                    
+                   
+                  
                 </div>
               </div>
             </div>
