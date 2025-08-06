@@ -24,7 +24,11 @@ const Header = () => {
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
           <div className="logo">
             <NavLink to="/">
-              <img src="/img/logo/new/dark.png" alt="partners brand" />
+              <img
+                src="/img/svg/Personal_Logo_black.svg"
+                alt="Kalina Iwaszko Portfolio"
+                style={{ height: "24px", width: "auto", display: "block" }} // Adjust height as needed to match nav buttons
+              />
             </NavLink>
           </div>
           {/* End logo */}
