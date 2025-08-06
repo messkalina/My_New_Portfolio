@@ -192,7 +192,7 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p> Incorporating gamification patterns</p>
                   </div>
                 </div>
               </div>
@@ -222,7 +222,7 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p> Iterations of the user onboarding flow</p>
                   </div>
                 </div>
               </div>
@@ -339,7 +339,7 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p>Quest screen iterations</p>
                   </div>
                 </div>
               </div>
@@ -369,7 +369,7 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p>Gamification elements</p>
                   </div>
                 </div>
               </div>
@@ -467,7 +467,7 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p>Task management interfaces</p>
                   </div>
                 </div>
               </div>
