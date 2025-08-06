@@ -32,6 +32,7 @@ const tabListContent = [
         meta: "End-to-end UX/UI & Web Development",
         portfolioLink: "/case-study/vet-website",
       },
+      
     ],
   },
   {
@@ -50,7 +51,7 @@ const tabListContent = [
       },
        {
         img: "/img/portfolio/3.jpg",
-        title: "Animation Project",
+        title: "Explainer Videos",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion03",
       },
@@ -60,6 +61,19 @@ const tabListContent = [
         meta: "Motion Design",
         portfolioLink: "/case-study/motion04",
       },  
+       {
+        img: "/img/portfolio/3.jpg",
+        title: "Social Media Video Ad",
+        meta: "Motion Design",
+        portfolioLink: "/case-study/motion05",
+      }, 
+         {
+        img: "/img/portfolio/3.jpg",
+        title: "Social Media Video Ad",
+        meta: "Motion Design",
+        portfolioLink: "/case-study/motion06",
+      }, 
+       
     ],
   },
   {
