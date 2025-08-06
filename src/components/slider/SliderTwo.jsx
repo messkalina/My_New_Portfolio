@@ -35,7 +35,7 @@ const Slider = () => {
                 <span>Kalina</span>
                 <br />
                 <span>Iwaszko</span>
-                <span className="overlay_effect"></span>
+                {/* <span className="overlay_effect"></span> */}
               </h4>
             </div>
             {/* End title */}
@@ -43,7 +43,7 @@ const Slider = () => {
             <div className="job_wrap">
               <span className="job">
                 UI/UX & Motion Designer
-                <span className="overlay_effect"></span>
+                {/* <span className="overlay_effect"></span> */}
               </span>
             </div>
             {/* End designation */}
