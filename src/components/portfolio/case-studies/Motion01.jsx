@@ -94,7 +94,18 @@ const Motion01 = () => {
                         <strong>video editing</strong> 
                       </li>
                     </ul>
-                    
+                    <div className="case-study-video" style={{ marginTop: "56px", marginBottom: "56px", textAlign: "center" }}>
+                        <iframe
+                            width="800"
+                            height="450"
+                            src="https://www.youtube.com/embed/iXAHo2ywRNg"
+                            title="Neptune Apps Demo"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            style={{ maxWidth: "100%", borderRadius: "12px" }}
+                        ></iframe>
+                    </div>
                    
                   
                 </div>
