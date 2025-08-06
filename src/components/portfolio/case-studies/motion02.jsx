@@ -37,7 +37,7 @@ const Motion02 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Neptune Apps Demo</h1>
+              <h1>Social Media Video Ad</h1>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Motion02 = () => {
                 marginBottom: "60px",
               }}
             >
-              Timeline: <span className="timeline-fine">2024</span>
+              Timeline: <span className="timeline-fine">2022</span>
             </p>
           </div>
         </div>
@@ -75,8 +75,8 @@ const Motion02 = () => {
               >
                 <div className="top">
                   <p className="text">
-                   Snippets from a walkthrough video demonstrating medical apps features and userflow I created when working at Orbit Health company.
-                  <strong> Tools:</strong> Figma, Adobe XD, After Effects
+                   This video was a design challenge I did during recruitment process during for a company. The task was to create a video ad for social media that would attract new customers. I used motion graphics and video editing skills while using provided video footage.
+                  <strong> Tools:</strong> Adobe After Effects, Premiere Pro, Photoshop, Illustrator
                   </p>
                  
 
@@ -85,21 +85,24 @@ const Motion02 = () => {
                   
                     <ul className="case-study-list">
                       <li>
-                        <strong>motion design</strong> 
+                        <strong>Visual assets</strong> 
                       </li>
                       <li>
-                        <strong>video post production</strong> 
+                        <strong>Motion graphics design</strong> 
                       </li>
                       <li>
-                        <strong>video editing</strong> 
+                        <strong>Video editing</strong>
+                      </li>
+                      <li>
+                        <strong>Sound design</strong>
                       </li>
                     </ul>
                     <div className="case-study-video" style={{ marginTop: "56px", marginBottom: "56px", textAlign: "center" }}>
                         <iframe
                             width="800"
                             height="450"
-                            src="https://www.youtube.com/embed/iXAHo2ywRNg"
-                            title="Neptune Apps Demo"
+                            src="https://www.youtube.com/embed/7i5AQkFl30I"
+                            title="Social Media Video Ad"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
