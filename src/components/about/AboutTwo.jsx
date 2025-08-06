@@ -52,6 +52,9 @@ const AboutTwo = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 ></div>
+                <div>
+                  <Social />
+                </div>
 
                 {/* <div
                   className="shane_tm_button"
