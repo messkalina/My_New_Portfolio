@@ -17,9 +17,18 @@ const AllRouter = () => {
         <Route path="/" element={<HomeTwo />} />
 
         {/* Case Study Routes */}
-        <Route path="/case-study/orbit-website" element={<MyStoryCaseStudy />} />
-        <Route path="/case-study/buhdi-app" element={<DesignTrendCaseStudy />} />
-        <Route path="/case-study/vet-website" element={<AnimationProjectCaseStudy />} />
+        <Route
+          path="/case-study/orbit-website"
+          element={<MyStoryCaseStudy />}
+        />
+        <Route
+          path="/case-study/buhdi-app"
+          element={<DesignTrendCaseStudy />}
+        />
+        <Route
+          path="/case-study/vet-website"
+          element={<AnimationProjectCaseStudy />}
+        />
         <Route path="/case-study/unlimitix-app" element={<UnlimitixApp />} />
         <Route path="/case-study/motion01" element={<Motion01 />} />
 
