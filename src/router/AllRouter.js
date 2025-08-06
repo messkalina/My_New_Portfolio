@@ -16,9 +16,9 @@ const AllRouter = () => {
         <Route path="/" element={<HomeTwo />} />
 
         {/* Case Study Routes */}
-        <Route path="/case-study/my-story" element={<MyStoryCaseStudy />} />
-        <Route path="/case-study/design-trend" element={<DesignTrendCaseStudy />} />
-        <Route path="/case-study/animation-project" element={<AnimationProjectCaseStudy />} />
+        <Route path="/case-study/orbit-website" element={<MyStoryCaseStudy />} />
+        <Route path="/case-study/buhdi-app" element={<DesignTrendCaseStudy />} />
+        <Route path="/case-study/vet-website" element={<AnimationProjectCaseStudy />} />
         <Route path="/case-study/unlimitix-app" element={<UnlimitixApp />} />
 
         {/* Catch-all route for 404 Not Found */}
