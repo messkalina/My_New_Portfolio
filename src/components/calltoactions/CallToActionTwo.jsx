@@ -83,7 +83,7 @@ const CallToActionTwo = () => {
                 {/* End left */}
                 <div className="right">
                   <div className="map_wrap">
-                    <Map />
+                    {/* <Map /> */}
                   </div>
                 </div>
                 {/* End right */}
@@ -93,41 +93,42 @@ const CallToActionTwo = () => {
               <div className="short_info">
                 <ul>
                   <li>
-                    <div className="list_inner">
-                      <img
+                    <div >
+                      {/* <img
                         className="svg"
                         src="img/svg/location.svg"
                         alt="location"
                       />
-                      <p>Brook 103, 90021 New York, USA</p>
+                      <p>Brook 103, 90021 New York, USA</p> */}
                     </div>
                   </li>
-                  {/* End silgle address */}
+          
 
-                  <li>
+                  {/* <li>
                     <div className="list_inner">
-                      <img
+                      {/* <img
                         className="svg"
                         src="img/svg/phone.svg"
                         alt="phone"
                       />
                       <p>
                         <a href="tel:+77 033 442 55 57">+77 033 442 55 57</a>
-                      </p>
-                    </div>
-                  </li>
+                      </p> */}
+                    {/* </div>
+                  </li>  */}
+                
                   {/* End silgle address */}
 
-                  <li>
+                  {/* <li>
                     <div className="list_inner">
-                      <img
+                      {/* <img
                         className="svg"
                         src="img/svg/share.svg"
                         alt="share"
-                      />
-                      <Social />
+                      /> */}
+                      {/* <Social />
                     </div>
-                  </li>
+                  </li> */} 
                   {/* End silgle address */}
                 </ul>
               </div>
