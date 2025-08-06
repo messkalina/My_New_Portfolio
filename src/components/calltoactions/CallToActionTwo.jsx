@@ -45,7 +45,7 @@ const CallToActionTwo = () => {
             data-aos-duration="1200"
             data-aos-delay="100"
           >
-            <button className="white-fill-bg" onClick={toggleModalOne}>
+            <button className="white-fill-bg btn-outline" onClick={toggleModalOne}>
               Contact me
             </button>
           </div>
