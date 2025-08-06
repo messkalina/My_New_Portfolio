@@ -1988,7 +1988,8 @@ body.modal {
   }
   &.btn-outline {
     background: transparent;
-    color: #fff;
+    color: #000000;
+    border-color: #000;
   }
   &.btn_sm {
     margin-top: 0;
@@ -2005,7 +2006,7 @@ body.modal {
 .white-fill-bg {
   &:hover {
     color: #fff;
-    background-color: transparent;
+    background-color: black;
     transform: translateY(-3px);
   }
   &.fill-black {
@@ -2016,8 +2017,8 @@ body.modal {
   }
   &.btn-outline {
     &:hover {
-      background: #fff !important;
-      color: #000 !important;
+      background: #000000 !important;
+      color: #ffffff !important;
       border-color: #fff !important;
     }
   }

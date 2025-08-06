@@ -133,10 +133,13 @@ const Portfolio = () => {
                                   >
                                     {({ ref, open }) => (
                                       <div
-                                        onClick={() => handlePortfolioClick(val.portfolioLink)}
+                                        onClick={() =>
+                                          handlePortfolioClick(
+                                            val.portfolioLink
+                                          )
+                                        }
                                         role="button"
                                         tabIndex={0}
-                                      
                                       >
                                         <img
                                           src={val.img}
@@ -156,8 +159,22 @@ const Portfolio = () => {
                                 </div>
                                 {/* Always show project name and meta below the image */}
                                 <div className="portfolio_title_always">
-                                  <h6 style={{ margin: "12px 0 0px 0", fontWeight: "600" }}>{val.title}</h6>
-                                  <span style={{ color: "#888", fontSize: "0.95em" }}>{val.meta}</span>
+                                  <h6
+                                    style={{
+                                      margin: "12px 0 0px 0",
+                                      fontWeight: "600",
+                                    }}
+                                  >
+                                    {val.title}
+                                  </h6>
+                                  <span
+                                    style={{
+                                      color: "#888",
+                                      fontSize: "0.95em",
+                                    }}
+                                  >
+                                    {val.meta}
+                                  </span>
                                 </div>
                               </div>
                             </li>
@@ -169,11 +186,37 @@ const Portfolio = () => {
                   {/* End tabpanel */}
                 </div>
                 {/* End list wrapper */}
+                <div style={{ textAlign: "center", margin: "0px 0 0 0" }}>
+        <button
+          className="white-fill-bg btn-outline"
+          // style={{
+          //   padding: "12px px",
+          //   fontSize: "1.1em",
+        
+          //   border: "2px solid #222",
+          //   background: "transparent",
+          //   color: "#222",
+          //   cursor: "pointer",
+          //   fontWeight: 600,
+          //   transition: "background 0.2s, color 0.2s",
+          // }}
+          onClick={() => {
+            const contactSection = document.getElementById("contact");
+            if (contactSection) {
+              contactSection.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
+          Contact
+        </button>
+      </div>
               </Tabs>
             </div>
           </div>
         </div>
       </div>
+      {/* Add Contact button below portfolio */}
+      
     </div>
   );
 };
