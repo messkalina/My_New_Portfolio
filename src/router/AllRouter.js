@@ -8,7 +8,7 @@ import MyStoryCaseStudy from "../components/portfolio/case-studies/MyStoryCaseSt
 import DesignTrendCaseStudy from "../components/portfolio/case-studies/DesignTrendCaseStudy";
 import AnimationProjectCaseStudy from "../components/portfolio/case-studies/AnimationProjectCaseStudy";
 import UnlimitixApp from "../components/portfolio/case-studies/UnlimitixApp";
-import Motion01 from "../components/portfolio/case-studies/Motion01";
+import Motion01 from "../components/portfolio/case-studies/motion01";
 
 const AllRouter = () => {
   return (
