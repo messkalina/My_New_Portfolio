@@ -189,6 +189,9 @@ const Portfolio = () => {
                 <div style={{ textAlign: "center", margin: "0px 0 0 0" }}>
         <button
           className="white-fill-bg btn-outline"
+           data-aos="fade-in"
+                              data-aos-duration="1200"
+                            
           // style={{
           //   padding: "12px px",
           //   fontSize: "1.1em",
