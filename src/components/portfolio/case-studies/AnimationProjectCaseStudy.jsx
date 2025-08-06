@@ -446,7 +446,7 @@ const AnimationProjectCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>[Caption for the image]</p>
+                    <p>Contact form</p>
                   </div>
                 </div>
               </div>
