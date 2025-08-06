@@ -58,7 +58,7 @@ const Motion05 = () => {
                 marginBottom: "60px",
               }}
             >
-              Timeline: <span className="timeline-fine">2019 - 2022</span>
+              Timeline: <span className="timeline-fine">2017</span>
             </p>
           </div>
         </div>

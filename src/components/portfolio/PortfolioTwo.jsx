@@ -63,7 +63,7 @@ const tabListContent = [
       },  
        {
         img: "/img/portfolio/3.jpg",
-        title: "Social Media Video Ad",
+        title: "Trivago TV Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion05",
       }, 

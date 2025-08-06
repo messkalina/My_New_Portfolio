@@ -12,6 +12,8 @@ import Motion01 from "../components/portfolio/case-studies/motion01";
 import Motion02 from "../components/portfolio/case-studies/motion02";
 import Motion03 from "../components/portfolio/case-studies/motion03";
 import Motion04 from "../components/portfolio/case-studies/motion04";
+import Motion05 from "../components/portfolio/case-studies/motion05"; 
+import Motion06 from "../components/portfolio/case-studies/motion06"; 
 const AllRouter = () => {
   return (
     <>  
@@ -36,6 +38,8 @@ const AllRouter = () => {
         <Route path="/case-study/motion02" element={<Motion02 />} />
         <Route path="/case-study/motion03" element={<Motion03 />} /> 
         <Route path="/case-study/motion04" element={<Motion04 />} />
+        <Route path="/case-study/motion05" element={<Motion05 />} />
+        <Route path="/case-study/motion06" element={<Motion06 />} />
 
         {/* Catch-all route for 404 Not Found */}
 
