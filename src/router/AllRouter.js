@@ -9,6 +9,7 @@ import DesignTrendCaseStudy from "../components/portfolio/case-studies/DesignTre
 import AnimationProjectCaseStudy from "../components/portfolio/case-studies/AnimationProjectCaseStudy";
 import UnlimitixApp from "../components/portfolio/case-studies/UnlimitixApp";
 import Motion01 from "../components/portfolio/case-studies/motion01";
+import Motion02 from "../components/portfolio/case-studies/motion02";
 
 const AllRouter = () => {
   return (
@@ -31,6 +32,7 @@ const AllRouter = () => {
         />
         <Route path="/case-study/unlimitix-app" element={<UnlimitixApp />} />
         <Route path="/case-study/motion01" element={<Motion01 />} />
+        <Route path="/case-study/motion02" element={<Motion02 />} />
 
         {/* Catch-all route for 404 Not Found */}
 

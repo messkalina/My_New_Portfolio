@@ -38,9 +38,15 @@ const tabListContent = [
     porftoliItems: [
       {
         img: "/img/portfolio/3.jpg",
-        title: "Animation Project",
+        title: "Neptune Apps Demo",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion01",
+      },
+         {
+        img: "/img/portfolio/3.jpg",
+        title: "Animation Project",
+        meta: "Motion Design",
+        portfolioLink: "/case-study/motion02",
       },
     ],
   },
