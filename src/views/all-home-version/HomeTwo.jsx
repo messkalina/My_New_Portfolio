@@ -13,6 +13,7 @@ import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
 import Contact from "../../components/Contact";
 import ContactForm from "../../components/ContactForm";
+import Skills2 from "../../components/skills/Skills";
 
 const HomeTwo = () => {
   const location = useLocation();
@@ -87,7 +88,7 @@ const HomeTwo = () => {
       {/* 
       <News />
       End Blog Section */}
-
+      <Skills2 />
     
       {/* End CallToAction */}
 

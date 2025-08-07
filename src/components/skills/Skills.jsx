@@ -1,4 +1,6 @@
 import React from "react";
+import ContactForm from "../ContactForm";
+
 
 const Skills = () => {
   return (
@@ -9,15 +11,11 @@ const Skills = () => {
             <div className="skills_inner">
               <div className="left">
                 <div className="shane_tm_title">
-                  <h3>I have high skills in developing and programming</h3>
+                  <h3>Get in Touch</h3>
+                  <ContactForm />
+                  
                 </div>
-                <div className="text">
-                  <p>
-                    I am working on a professional, visually sophisticated and
-                    technologically proficient, responsive and multi-functional
-                    personal portfolio template Shane.
-                  </p>
-                </div>
+                
               </div>
               {/* End .left */}
 
@@ -74,6 +72,7 @@ const Skills = () => {
               </div>
               {/* End .right */}
             </div>
+            
           </div>
           {/* End .conainer */}
         </div>
