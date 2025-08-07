@@ -6,7 +6,7 @@ const Skills = () => {
     <>
       <div className="shane_tm_section">
         <div className="shane_tm_skills"
-        style={{ backgroundColor: "#0b1021", minHeight: "100vh" }} 
+        // style={{ backgroundColor: "#0b1021", minHeight: "100vh" }} 
         >
           <div className="container">
             <div className="skills_inner">
@@ -21,7 +21,7 @@ const Skills = () => {
                       <div className="right" style={{ position: "relative", minHeight: "350px" }}>
                       <div className="tokyo_progress" style={{ position: "absolute", bottom: "100px", left: "30%", transform: "translateX(-50%)" }}>
                         <img
-                        src="/img/Contact_Animation_4.gif"
+                        src="/img/mailbox.svg"
                         alt="Mailbox illustration"
                         style={{
                           width: "800px", minWidth: "800px", maxWidth: "none",
