@@ -14,21 +14,20 @@ const Skills = () => {
                   <ContactForm />
                 </div>
               </div>
-              {/* End .left */}
+              
 
-              <div className="right">
-                <div className="tokyo_progress">
-                  <img
-                    src="/img/Contact_Animation_4.gif" // <-- Place your image in public/img/ and use this path
-                    alt="Mailbox illustration"
-                    style={{
-                      width: "200%",
-                      // maxWidth: 340,
-                      display: "block",
-                      margin: "0 auto",
-                    }}
-                  />
-                  {/* End .progress_inner */}
+                      <div className="right" style={{ position: "relative", minHeight: "350px" }}>
+                      <div className="tokyo_progress" style={{ position: "absolute", bottom: "100px", left: "30%", transform: "translateX(-50%)" }}>
+                        <img
+                        src="/img/Contact_Animation_4.gif"
+                        alt="Mailbox illustration"
+                        style={{
+                          width: "800px", minWidth: "800px", maxWidth: "none",
+                          // maxWidth: "100%",
+                          display: "block",
+                        }}
+                        />
+                        
                 </div>
               </div>
               {/* End .right */}
