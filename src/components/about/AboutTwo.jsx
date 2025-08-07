@@ -1,6 +1,6 @@
 import React from "react";
 import Social from "../Social";
-import ContactForm from "../../components/ContactForm";
+
 const AboutTwo = () => {
   return (
     <>
