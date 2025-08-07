@@ -5,7 +5,9 @@ const Skills = () => {
   return (
     <>
       <div className="shane_tm_section">
-        <div className="shane_tm_skills">
+        <div className="shane_tm_skills"
+        style={{ backgroundColor: "#0b1021", minHeight: "100vh" }} 
+        >
           <div className="container">
             <div className="skills_inner">
               <div className="left">
