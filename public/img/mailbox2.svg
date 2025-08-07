@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2326.5 2313.7" style="enable-background:new 0 0 2326.5 2313.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#1A1A1A;stroke-width:5.3348;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{stroke:#1A1A1A;stroke-width:4.9983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#1A1A1A;stroke-width:4.9983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:#1A1A1A;stroke:#1A1A1A;stroke-width:6.8294;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{stroke:#1A1A1A;stroke-width:5.382;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st6{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<polygon class="st0" points="1553.6,1259.5 1553.6,2315.1 1414.3,2315.1 1414.3,1261.3 		"/>
+		<path class="st1" d="M1191.4,807.6c88.3,0,159.9,73.5,159.9,164.1v290.5h550.5V971.7c0-90.6-71.6-164.1-159.9-164.1L1191.4,807.6
+			L1191.4,807.6z"/>
+		<path class="st2" d="M1031.5,969.2V1260h319.8V969.2c0-89.2-71.6-161.6-159.9-161.6C1103,807.6,1031.5,879.9,1031.5,969.2z"/>
+		<path class="st2" d="M1329.6,1237.8V969.2c0-76.8-62-139.3-138.2-139.3s-138.2,62.5-138.2,139.3v268.6H1329.6z"/>
+		<rect x="1096.6" y="940.6" class="st3" width="173.8" height="45.9"/>
+		<path class="st2" d="M1181.1,876.1h-32.2v22.2c0,0,30.9,0.2,32.2,0C1189,896.9,1188.8,876.1,1181.1,876.1z"/>
+		<ellipse class="st2" cx="1147.1" cy="884.9" rx="16.9" ry="17.3"/>
+		<rect x="1483.9" y="1260.9" class="st4" width="69.7" height="1052.8"/>
+	</g>
+	<g>
+		<path class="st5" d="M249.6,151.4c185.2,0,535.5,218.2,510.8,429c-17.4,148.3-253.2,172.6-391,211
+			C231.3,829.8,76.4,934.1,29.8,1131.8c-97.1,411.9,107.4,598.3,258.4,707.8c302.2,219.2,982.2,227.7,905.6-98.8
+			c-32-136.6-200-182.3-291.3-56.8c-144.9,199.1,108.2,441.5,333.4,459c389.1,28.7,543.5-135,616.8-222.5
+			c101-120.6,93.1-320.3-151.3-449.3c-176.6-93.2-682-173-478.9-344.9c80.2-67.9,107.1-107.2,71.7-146.8"/>
+		<g>
+			<g>
+				<path class="st6" d="M531.1,246.9c-14.3-8.4-302.2-190.4-309.1-194.6c-0.5-0.3-1.1,0.2-0.9,0.7c1.6,4.7-5-13.4,22.8,69.1
+					c-0.3,0.6-0.5,1.4-0.5,2.2c-1.4,4.6,6.1-20.6-31.1,105.3c-0.2,0.8,0.3,1.6,1.1,1.7l76.7,7l13,48.1
+					C305.1,286.1,505.5,251.3,531.1,246.9z"/>
+			</g>
+			<g id="XMLID_1_">
+				<g>
+					<polygon points="289.2,235.7 216,229 269.6,163.1 					"/>
+				</g>
+			</g>
+			<g>
+				<path d="M509.4,239.9c0,0-240.4-80.2-241.2-79.1l-51.6,63.5l29.3-99.1l181.7,77.7C454.3,216.3,481.7,228.6,509.4,239.9z"/>
+			</g>
+		</g>
+	</g>
+	<path class="st5" d="M1329.6,370.3"/>
+</g>
+</svg>

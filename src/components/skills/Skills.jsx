@@ -18,10 +18,11 @@ const Skills = () => {
               </div>
               
 
-                      <div className="right" style={{ position: "relative", minHeight: "350px" }}>
-                      <div className="tokyo_progress" style={{ position: "absolute", bottom: "100px", left: "30%", transform: "translateX(-50%)" }}>
+                      <div className="right" 
+                    >
+                      <div className="tokyo_progress">
                         <img
-                        src="/img/mailbox.svg"
+                        src="/img/mailbox2.svg"
                         alt="Mailbox illustration"
                         style={{
                           width: "800px", minWidth: "800px", maxWidth: "none",
