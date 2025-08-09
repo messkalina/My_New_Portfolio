@@ -14,7 +14,7 @@ const SkillsTwo = () => {
             <div
               style={{
                 display: "flex",
-                justifyContent: "center",
+                justifyContent: "space-between",
                 flexWrap: "wrap",
                 gap: "40px",
               }}
