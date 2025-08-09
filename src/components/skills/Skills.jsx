@@ -5,13 +5,13 @@ const Skills = () => {
   return (
     <>
       <div className="shane_tm_section">
-        <div className="shane_tm_skills"
+        <div className="shane_tm_skills" id="contact"
         // style={{ backgroundColor: "#0b1021", minHeight: "100vh" }} 
         >
-          <div className="container">
+          <div className="container" >
             <div className="skills_inner">
               <div className="left">
-                <div className="shane_tm_title" id="contact">
+                <div className="shane_tm_title" >
                   {/* <h3>Get in Touch</h3> */}
                   <ContactForm />
                 </div>
