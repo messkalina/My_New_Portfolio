@@ -79,8 +79,11 @@ const Header = () => {
             <div className="topbar_in">
               <div className="logo">
                 <NavLink to="/">
-                  <img src="/img/logo/new/dark.svg" alt="partners brand" 
-                  style={{ height: "24px", width: "auto" }} />
+                  <img
+                    src="/img/logo/new/dark.svg"
+                    alt="partners brand"
+                    style={{ height: "24px", width: "auto" }}
+                  />
                 </NavLink>
               </div>
               {/* End logo */}
@@ -103,9 +106,29 @@ const Header = () => {
         </div>
         <div className={click ? "dropdown active" : "dropdown"}>
           <div className="container">
-            <span className="close_menu" onClick={handleClick}>
-              close
-            </span>
+            <div
+              className="dropdown_header"
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                marginBottom: "20px",
+                padding: "15px 0",
+              }}
+            >
+              <div className="logo">
+                <NavLink to="/">
+                  <img
+                    src="/img/logo/new/light.svg"
+                    alt="Kalina Iwaszko Portfolio"
+                    style={{ height: "24px", width: "auto" }}
+                  />
+                </NavLink>
+              </div>
+              <span className="close_menu" onClick={handleClick}>
+                close
+              </span>
+            </div>
             <div className="dropdown_inner">
               <ul className="anchor_nav">
                 <li className="current">
@@ -123,10 +146,13 @@ const Header = () => {
                     Portfolio
                   </a>
                 </li>
-                
+
                 <li>
-                  <a href="#contact" onClick={handleClick}
-                    className="white-fill-bg btn-outline btn_sm">
+                  <a
+                    href="#contact"
+                    onClick={handleClick}
+                    className="white-fill-bg btn-outline btn_sm"
+                  >
                     Contact
                   </a>
                 </li>
