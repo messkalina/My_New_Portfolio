@@ -92,6 +92,16 @@ const AnimationProjectCaseStudy = () => {
                     <strong>design and code are tightly connected</strong>.
                   </p>
                 </div>
+                 <div
+                  className="shane_tm_button"
+                  style={{ marginTop: "32px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <a href="https://tierarzt-leberberg.at/" target="_blank" rel="noopener noreferrer">
+                    See Live
+                  </a>
+                </div>
               </div>
             </div>
           </div>
