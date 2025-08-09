@@ -9,6 +9,7 @@ const SkillsTwo = () => {
             <div style={{ textAlign: "center" }}>
               <h3>My Skills</h3>
             </div>
+            
           </div>
           {/* End .conainer */}
         </div>
