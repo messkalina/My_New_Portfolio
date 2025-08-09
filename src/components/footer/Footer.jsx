@@ -15,6 +15,8 @@ const Footer = () => {
                 </p>
                 <div className="footer_links">
                   <Link to="/privacy-policy">Privacy Policy</Link>
+                  <span style={{ margin: "0 8px" }}>|</span>
+                  <Link to="/impressum">Impressum</Link>
                 </div>
               </div>
             </div>

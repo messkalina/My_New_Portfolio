@@ -15,6 +15,7 @@ import Motion04 from "../components/portfolio/case-studies/motion04";
 import Motion05 from "../components/portfolio/case-studies/motion05";
 import Motion06 from "../components/portfolio/case-studies/motion06";
 import PrivacyPolicy from "../components/PrivacyPolicy";
+import Impressum from "../components/Impressum";
 
 const AllRouter = () => {
   return (
@@ -22,8 +23,9 @@ const AllRouter = () => {
       <Routes>
         <Route path="/" element={<HomeTwo />} />
 
-        {/* Add Privacy Policy Route */}
+        {/* Legal Pages */}
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/impressum" element={<Impressum />} />
 
         {/* Case Study Routes */}
         <Route
@@ -47,7 +49,6 @@ const AllRouter = () => {
         <Route path="/case-study/motion06" element={<Motion06 />} />
 
         {/* Catch-all route for 404 Not Found */}
-
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
