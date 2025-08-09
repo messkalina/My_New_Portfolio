@@ -79,7 +79,7 @@ const Header = () => {
             <div className="topbar_in">
               <div className="logo">
                 <NavLink to="/">
-                  <img src="/img/logo/new/dark.png" alt="partners brand" />
+                  <img src="/img/logo/new/dark.svg" alt="partners brand" />
                 </NavLink>
               </div>
               {/* End logo */}
@@ -122,17 +122,14 @@ const Header = () => {
                     Portfolio
                   </a>
                 </li>
+                
                 <li>
-                  <a href="#news" onClick={handleClick}>
-                    News
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact" onClick={handleClick}>
+                  <a href="#contact" onClick={handleClick}
+                    className="white-fill-bg btn-outline btn_sm">
                     Contact
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     className="white-fill-bg btn-outline btn_sm"
                     target="_blank"
@@ -141,7 +138,7 @@ const Header = () => {
                   >
                     Buy Now
                   </a>
-                </li>
+                </li> */}
               </ul>
               <div className="social-menu">
                 <Social />
