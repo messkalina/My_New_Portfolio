@@ -44,16 +44,7 @@ const SkillsTwo = () => {
               </div>
 
               {/* Skill 3 */}
-              <div style={{ textAlign: "center", width: "150px" }}>
-                <div style={{ marginBottom: "15px" }}>
-                  <img
-                    src="/img/svg/code-block-svgrepo.svg"
-                    alt="Frontend Development"
-                    style={{ height: "60px", width: "60px" }}
-                  />
-                </div>
-                <h4 style={{ margin: "0", fontSize: "18px" }}>Basic Frontend</h4>
-              </div>
+         
 
               {/* Skill 4 */}
               <div style={{ textAlign: "center", width: "150px" }}>
@@ -66,6 +57,17 @@ const SkillsTwo = () => {
                 </div>
                 <h4 style={{ margin: "0", fontSize: "18px" }}>Motion Design</h4>
               </div>
+                   <div style={{ textAlign: "center", width: "150px" }}>
+                <div style={{ marginBottom: "15px" }}>
+                  <img
+                    src="/img/svg/laptop-web-development.svg"
+                    alt="Frontend Development"
+                    style={{ height: "60px", width: "60px" }}
+                  />
+                </div>
+                <h4 style={{ margin: "0", fontSize: "18px" }}>Basic Frontend</h4>
+              </div>
+
             </div>
           </div>
           {/* End .container */}
