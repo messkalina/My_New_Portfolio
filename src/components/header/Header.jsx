@@ -79,7 +79,8 @@ const Header = () => {
             <div className="topbar_in">
               <div className="logo">
                 <NavLink to="/">
-                  <img src="/img/logo/new/dark.svg" alt="partners brand" />
+                  <img src="/img/logo/new/dark.svg" alt="partners brand" 
+                  style={{ height: "24px", width: "auto" }} />
                 </NavLink>
               </div>
               {/* End logo */}
