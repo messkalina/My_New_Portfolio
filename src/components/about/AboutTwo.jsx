@@ -18,7 +18,9 @@ const AboutTwo = () => {
 
                   <div
                     className="main"
-                    style={{ backgroundImage: "url(/img/about/profile_pic_kal.png)" }}
+                    style={{
+                      backgroundImage: "url(/img/about/profile_pic_kal.png)",
+                    }}
                   ></div>
                 </div>
                 {/* End image */}
@@ -40,24 +42,32 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I'm web designer, and I'm very passionate and dedicated to
-                    my work. With 20 years experience as a professional web
-                    developer, I have acquired the skills and knowledge
-                    necessary to make your project a success. I enjoy every step
-                    of the design process, from discussion and collaboration.
+                    I’m a UX/UI and Motion Designer with a background in visual
+                    storytelling and product design. I create intuitive and
+                    engaging user experiences for web and mobile applications,
+                    combining strong visual design with user research and
+                    accessibility principles.</p>
+                    <p>I bring experience from fast-paced
+                    startups, where I’ve contributed across the entire design
+                    process — from research and wireframing to high-fidelity
+                    prototyping and motion-enhanced UI.</p>
+                    <br />
+                    <p>My background in motion
+                    design helps me shape seamless, expressive interactions. I
+                    also have a solid understanding of frontend technologies
+                    like HTML, CSS, JavaScript, and React, which I use to better
+                    collaborate with developers and design with implementation
+                    in mind.
                   </p>
 
-                   <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                        <Social />
-                
+                  <div
+                    className="text"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <Social />
+                  </div>
                 </div>
-                  
-                </div>
-               
 
                 {/* <div
                   className="shane_tm_button"
