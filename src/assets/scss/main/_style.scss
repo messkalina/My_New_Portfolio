@@ -3816,7 +3816,8 @@ body.intro .loader_line:after {
   margin: 60px auto 40px auto;
   background: #fff;
   border-radius: 0px;
-  box-shadow: 0 8px 32px rgba(60,60,60,0.08);
+  border:#000 2px solid;
+  // box-shadow: 0 8px 32px rgba(60,60,60,0.08);
   padding: 40px 32px;
   display: flex;
   flex-direction: column;
