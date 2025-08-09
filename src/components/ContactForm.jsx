@@ -94,7 +94,7 @@ const ContactForm = () => {
               </a>{" "}
               of this website. I am aware that my data will be used solely for
               the purpose of responding to my enquiry.{" "}
-              <span style={{ color: "#f52225" }}>*</span>
+              {/* <span style={{ color: "#f52225" }}>*</span> */}
             </label>
           </div>
          <div className="tokyo_tm_button">
