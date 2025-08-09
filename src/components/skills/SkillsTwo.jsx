@@ -6,7 +6,7 @@ const SkillsTwo = () => {
       <div className="shane_tm_section">
         <div className="shane_tm_skills">
           <div className="container">
-            <div style={{ textAlign: "center", marginBottom: "40px" }}>
+            <div style={{ textAlign: "center", marginBottom: "80px" }}>
               <h3>My Skills</h3>
             </div>
 
@@ -14,7 +14,7 @@ const SkillsTwo = () => {
             <div
               style={{
                 display: "flex",
-                justifyContent: "space-between",
+                justifyContent: "space-around",
                 flexWrap: "wrap",
                 gap: "40px",
               }}
