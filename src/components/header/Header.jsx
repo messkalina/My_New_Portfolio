@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
-import Social from "../SocialTwo";
+import Social from "../Social";
 import { NavLink, useLocation } from "react-router-dom";
 
 const Header = () => {
