@@ -3,7 +3,7 @@ import React from "react";
 const SkillsTwo = () => {
   return (
     <>
-      <div className="shane_tm_section" id="contact">
+      <div className="shane_tm_section">
         <div className="shane_tm_skills"
         style={{ backgroundColor: "#fff" }}
         >

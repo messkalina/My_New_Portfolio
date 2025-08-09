@@ -11,7 +11,7 @@ const Skills = () => {
           <div className="container">
             <div className="skills_inner">
               <div className="left">
-                <div className="shane_tm_title">
+                <div className="shane_tm_title" id="contact">
                   {/* <h3>Get in Touch</h3> */}
                   <ContactForm />
                 </div>
