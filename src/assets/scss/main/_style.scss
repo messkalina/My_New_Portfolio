@@ -3968,3 +3968,36 @@ body.intro .loader_line:after {
   
   margin-top: 10px;
 }
+
+/* Add this to your CSS file */
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer_links {
+  margin-top: 8px;
+}
+
+.footer_links a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer_links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer_content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer_links {
+    margin-top: 10px;
+  }
+}
