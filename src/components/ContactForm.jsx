@@ -97,11 +97,19 @@ const ContactForm = () => {
               {/* <span style={{ color: "#f52225" }}>*</span> */}
             </label>
           </div>
-         <div className="tokyo_tm_button">
-  <button type="submit" className="white-fill-bg fill-black">
-    Send Message
-  </button>
-</div>
+          <div className="tokyo_tm_button">
+            <button
+              type="submit"
+              className="white-fill-bg btn-outline"
+              style={{
+                transition: "background 0.2s, color 0.2s",
+                backgroundColor: "#000 !important",
+                color: "#fff !important",
+              }}
+            >
+              Send Message
+            </button>
+          </div>
         </form>
       )}
     </section>
