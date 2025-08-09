@@ -40,7 +40,7 @@ const HomeTwo = () => {
 
       <Skills />
 
-        <CallToAction />
+      
 
       {/* <ContactForm /> */}
 
