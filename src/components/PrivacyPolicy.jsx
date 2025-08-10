@@ -186,6 +186,163 @@ const PrivacyPolicy = () => {
                     reflect changes to my practices or for legal and regulatory
                     reasons.
                   </p>
+
+                  {/* German Version */}
+                  <div
+                    className="german-version"
+                    style={{
+                      marginTop: "80px",
+                      paddingTop: "40px",
+                      borderTop: "1px solid #eee",
+                    }}
+                  >
+                    <h2>Datenschutzerklärung</h2>
+                    <p
+                      style={{
+                        fontWeight: 600,
+                        fontSize: "14px",
+                        marginBottom: "30px",
+                      }}
+                    >
+                      Aktualisiert am: 10. August 2025
+                    </p>
+
+                    <h3>Überblick</h3>
+                    <p>
+                      Diese Datenschutzerklärung beschreibt, wie Ihre
+                      personenbezogenen Daten erfasst, verwendet und
+                      weitergegeben werden, wenn Sie diese Portfolio-Website
+                      (die „Website") besuchen.
+                    </p>
+                    <p>
+                      Dies ist meine professionelle Portfolio-Website, die dazu
+                      dient, meine Fähigkeiten und Erfahrungen zu präsentieren.
+                    </p>
+
+                    <h3>Verantwortlich für diese Website:</h3>
+                    <p>
+                      Kalina Iwaszko
+                      <br />
+                      Rupprechtstr. 30
+                      <br />
+                      10317 Berlin, Deutschland
+                      <br />
+                      📧 kalina.iwaszko@gmail.com
+                    </p>
+
+                    <h3>1. Hosting & Bereitstellung</h3>
+                    <p>
+                      Diese Website wird über Netlify gehostet und
+                      bereitgestellt. Beim Besuch dieser Website werden
+                      automatisch technische Daten (z. B. IP-Adresse,
+                      Browsertyp, Betriebssystem, Referrer-URL, Zugriffszeit) an
+                      die Server von Netlify übermittelt. Netlify kann diese
+                      Daten gemäß seiner eigenen Datenschutzerklärung speichern
+                      und verarbeiten.
+                    </p>
+
+                    <h3>2. Erhobene personenbezogene Daten</h3>
+                    <p>
+                      Beim Besuch der Website werden automatisch bestimmte
+                      Informationen über Ihr Gerät erfasst, einschließlich
+                      Informationen zu Ihrem Webbrowser, Ihrer IP-Adresse, Ihrer
+                      Zeitzone und einigen der auf Ihrem Gerät installierten
+                      Cookies.
+                    </p>
+                    <p>
+                      Zusätzlich werden beim Durchsuchen der Website
+                      Informationen zu den einzelnen von Ihnen besuchten Seiten,
+                      den Websites oder Suchbegriffen, die Sie auf die Website
+                      geführt haben, sowie zu Ihrer Interaktion mit der Website
+                      erfasst. Diese automatisch erhobenen Informationen werden
+                      als „Geräteinformationen" bezeichnet.
+                    </p>
+
+                    <h3>3. Cookies & Analyse</h3>
+                    <p>
+                      Um besser zu verstehen, wie Besucher mit dieser Website
+                      interagieren und um Marketing-Einblicke zu gewinnen,
+                      werden Cookies und Analysetools eingesetzt. Diese können
+                      anonyme Informationen speichern, wie z. B. besuchte
+                      Seiten, Verweildauer und allgemeine geografische Region.
+                      Geräteinformationen können auch verwendet werden, um
+                      potenzielle Risiken und Betrug zu erkennen sowie die
+                      Website zu verbessern und zu optimieren.
+                    </p>
+                    <p>
+                      Durch die weitere Nutzung dieser Website stimmen Sie der
+                      Verwendung solcher Cookies und Tracking-Technologien zu.
+                    </p>
+
+                    <h3>4. Google Fonts</h3>
+                    <p>
+                      Zur Verbesserung der Typografie nutzt diese Website Google
+                      Fonts. Beim Aufruf einer Seite lädt Ihr Browser die
+                      erforderlichen Schriftarten von den Servern von Google,
+                      wobei Ihre IP-Adresse verarbeitet werden kann. Weitere
+                      Informationen finden Sie in der Datenschutzerklärung von
+                      Google.
+                    </p>
+
+                    <h3>5. Kontaktformular</h3>
+                    <p>
+                      Wenn Sie das Kontaktformular verwenden, werden folgende
+                      personenbezogene Daten erhoben:
+                    </p>
+                    <ul>
+                      <li>Name</li>
+                      <li>E-Mail-Adresse</li>
+                      <li>Inhalt der Nachricht</li>
+                    </ul>
+                    <p>
+                      Diese Daten werden über Netlify Forms übertragen und an
+                      mein Gmail-Konto weitergeleitet. Sie werden ausschließlich
+                      zum Zweck der Beantwortung Ihrer Anfrage verwendet, nur so
+                      lange wie notwendig gespeichert und gelöscht, wenn sie
+                      nicht mehr relevant sind oder auf Ihre Anfrage hin.
+                    </p>
+
+                    <h3>6. Weitergabe Ihrer Daten</h3>
+                    <p>
+                      Ich gebe Ihre personenbezogenen Daten nicht an Dritte
+                      weiter, außer wie in dieser Datenschutzerklärung
+                      beschrieben oder mit Ihrer Einwilligung. Eine Weitergabe
+                      kann erfolgen, um geltende Gesetze einzuhalten, auf
+                      rechtmäßige Anfragen zu reagieren oder meine Rechte zu
+                      schützen.
+                    </p>
+
+                    <h3>7. Speicherdauer</h3>
+                    <p>
+                      Über das Kontaktformular übermittelte Informationen werden
+                      nur so lange gespeichert, wie sie relevant sind, oder bis
+                      Sie deren Löschung verlangen.
+                    </p>
+
+                    <h3>8. Ihre Rechte</h3>
+                    <p>Gemäß DSGVO haben Sie das Recht:</p>
+                    <ul>
+                      <li>Auskunft über gespeicherte Daten zu erhalten</li>
+                      <li>Berichtigung unrichtiger Daten zu verlangen</li>
+                      <li>Löschung Ihrer Daten zu beantragen</li>
+                      <li>Der Verarbeitung Ihrer Daten zu widersprechen</li>
+                    </ul>
+                    <p>
+                      Zur Ausübung dieser Rechte können Sie mich jederzeit unter{" "}
+                      <a href="mailto:kalina.iwaszko@gmail.com">
+                        kalina.iwaszko@gmail.com
+                      </a>{" "}
+                      kontaktieren.
+                    </p>
+
+                    <h3>9. Änderungen</h3>
+                    <p>
+                      Ich kann diese Datenschutzerklärung von Zeit zu Zeit
+                      aktualisieren, um Änderungen meiner Verfahren oder aus
+                      rechtlichen bzw. regulatorischen Gründen zu
+                      berücksichtigen.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
