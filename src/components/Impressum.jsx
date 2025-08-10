@@ -84,7 +84,7 @@ const Impressum = () => {
                   
                   </p>
 
-                  <h3>EU Dispute Resolution</h3>
+                  {/* <h3>EU Dispute Resolution</h3>
                   <p>
                     The European Commission provides a platform for online
                     dispute resolution (ODR):
@@ -125,7 +125,7 @@ const Impressum = () => {
                     pages were checked for possible legal violations at the time
                     of linking. Illegal contents were not recognizable at the
                     time of linking.
-                  </p>
+                  </p> */}
 
                   <h3>Copyright</h3>
                   <p>
