@@ -19,7 +19,6 @@ const SocialShare = [
 const Social = () => {
   return (
     <div className="share">
-      
       <ul className="social">
         {SocialShare.map((val, i) => (
           <li key={i}>
@@ -28,7 +27,8 @@ const Social = () => {
                 className="svg"
                 src={`/img/svg/social/${val.iconName}.svg`}
                 alt="social"
-              ></img>
+                style={{ width: "32px", height: "32px" }}
+              />
             </a>
           </li>
         ))}
