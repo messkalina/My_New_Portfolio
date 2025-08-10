@@ -40,8 +40,6 @@ const HomeTwo = () => {
 
       <Skills />
 
-      
-
       {/* <ContactForm /> */}
 
       {/* <Video /> */}
@@ -89,7 +87,7 @@ const HomeTwo = () => {
       <News />
       End Blog Section */}
       <Skills2 />
-    
+
       {/* End CallToAction */}
 
       <Footer />
