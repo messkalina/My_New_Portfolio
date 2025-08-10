@@ -65,27 +65,23 @@ const Impressum = () => {
                   <p>
                     Kalina Iwaszko
                     <br />
-                    Musterstraße 123
+                    Rupprechtstr. 30
                     <br />
-                    10115 Berlin
+                    10317 Berlin
                     <br />
                     Germany
                   </p>
 
                   <h3>Contact</h3>
                   <p>
-                    Phone: +49 123 456789
-                    <br />
-                    Email: contact@kalinaiwaszko.com
+              
+                    Email: kalina.iwaszko@gmail.com
                   </p>
 
                   <h3>Professional Information</h3>
                   <p>
-                    Professional Title: UX/UI Designer
-                    <br />
-                    Awarded by: [Insert relevant institution if applicable]
-                    <br />
-                    Country where title was granted: [Country]
+                    Professional Title: Digital Designer
+                  
                   </p>
 
                   <h3>EU Dispute Resolution</h3>
