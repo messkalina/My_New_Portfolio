@@ -114,6 +114,16 @@ const DesignTrendCaseStudy = () => {
                     tailored to ADHD users' needs.
                   </p>
                 </div>
+                 <div
+                  className="shane_tm_button"
+                  style={{ marginTop: "32px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <a href="https://buhdi.com/" target="_blank" rel="noopener noreferrer">
+                    See Live
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -448,6 +458,16 @@ const DesignTrendCaseStudy = () => {
                       clarity and reducing drop-off.</strong>
                     </li>
                   </ul>
+                </div>
+                  <div
+                  className="shane_tm_button"
+                  style={{ marginTop: "32px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <a href="https://buhdi.com/" target="_blank" rel="noopener noreferrer">
+                    See Live
+                  </a>
                 </div>
               </div>
               {/* End left */}
