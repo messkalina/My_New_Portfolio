@@ -1,20 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion05 = () => {
-  const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [lightboxImg, setLightboxImg] = useState("");
+ 
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const handleImageClick = (imgSrc) => {
-    setLightboxImg(imgSrc);
-    setLightboxOpen(true);
-  };
+
 
   return (
     <div className="shane_tm_all_wrap">
