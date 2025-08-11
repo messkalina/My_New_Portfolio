@@ -52,6 +52,7 @@ const Header = () => {
               <li
                 className="white-fill-bg btn-outline btn_sm"
                 style={{
+                  border: "1px solid black !important",
                   transition: "background 0.8s, color 0.8s",
                 }}
                 onMouseEnter={(e) => {
