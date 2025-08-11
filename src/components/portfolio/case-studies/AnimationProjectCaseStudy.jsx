@@ -483,6 +483,32 @@ const AnimationProjectCaseStudy = () => {
         </div>
       </div>
 
+      {/* Add the navigation buttons before the Footer */}
+      <div className="shane_tm_section">
+        <div className="container">
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              marginBottom: "40px",
+            }}
+          >
+            <Link to="/#portfolio" className="back_button">
+              ← BACK
+            </Link>
+            <Link
+              to="/case-study/orbit-website"
+              className="back_button"
+              style={{
+                float: "right",
+              }}
+            >
+              NEXT PROJECT →
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* Lightbox */}
       {lightboxOpen && (
         <div

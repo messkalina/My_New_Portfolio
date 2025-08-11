@@ -30,14 +30,14 @@ const UnlimitixApp = () => {
                 ← BACK
               </Link>
               <Link
-                              to="/case-study/vet-website"
-                              className="back_button"
-                              style={{
-                                float: "right",
-                              }}
-                            >
-                              NEXT PROJECT →
-                            </Link>
+                to="/case-study/vet-website"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
+                NEXT PROJECT →
+              </Link>
             </div>
           </div>
           <div className="content">
@@ -149,7 +149,7 @@ const UnlimitixApp = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                   <video
+                  <video
                     src="/img/portfolio/case-study/Unlimitix iOS_small.mp4"
                     className="clickable-image"
                     style={{ width: "60%" }}
@@ -234,7 +234,9 @@ const UnlimitixApp = () => {
                       <strong>User interviews</strong> with peers and testers
                     </li>
                   </ul>
-                  <p><strong>Key hypothesis:</strong></p>
+                  <p>
+                    <strong>Key hypothesis:</strong>
+                  </p>
                   <ul className="case-study-list">
                     <li>
                       Users <strong> expect tracking tools</strong> alongside AI
@@ -429,7 +431,7 @@ const UnlimitixApp = () => {
               {/* End left */}
 
               <div className="right">
-               <div data-aos="fade-up" data-aos-duration="1200">
+                <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Un-User_feedback.png"
                     alt="Wireframe"
@@ -531,7 +533,30 @@ const UnlimitixApp = () => {
           {/* End container */}
         </div>
       </div>
-
+      <div className="shane_tm_section">
+        <div className="container">
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              marginBottom: "40px",
+            }}
+          >
+            <Link to="/#portfolio" className="back_button">
+              ← BACK
+            </Link>
+            <Link
+              to="/case-study/vet-website"
+              className="back_button"
+              style={{
+                float: "right",
+              }}
+            >
+              NEXT PROJECT →
+            </Link>
+          </div>
+        </div>
+      </div>
       {/* Lightbox */}
       {lightboxOpen && (
         <div
