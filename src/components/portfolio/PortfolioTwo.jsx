@@ -40,7 +40,7 @@ const tabListContent = [
         img: "/img/portfolio/Neptune_walkthrough0.jpg",
         title: "Neptune Apps Demo",
         meta: "Motion Design",
-        portfolioLink: "/case-study/motion01",
+        portfolioLink: "/case-study/animation01",
       },
       {
         img: "/img/portfolio/woltad_1.png",
