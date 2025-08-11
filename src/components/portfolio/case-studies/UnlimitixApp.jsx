@@ -29,6 +29,15 @@ const UnlimitixApp = () => {
               <Link to="/#portfolio" className="back_button">
                 ← BACK
               </Link>
+              <Link
+                              to="/case-study/vet-website"
+                              className="back_button"
+                              style={{
+                                float: "right",
+                              }}
+                            >
+                              NEXT PROJECT →
+                            </Link>
             </div>
           </div>
           <div className="content">

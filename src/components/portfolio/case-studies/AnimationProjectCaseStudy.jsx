@@ -29,6 +29,15 @@ const AnimationProjectCaseStudy = () => {
               <Link to="/#portfolio" className="back_button">
                 ← BACK
               </Link>
+              <Link
+                to="/case-study/orbit-website"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
+                NEXT PROJECT →
+              </Link>
             </div>
           </div>
           <div className="content">
@@ -92,13 +101,17 @@ const AnimationProjectCaseStudy = () => {
                     <strong>design and code are tightly connected</strong>.
                   </p>
                 </div>
-                 <div
+                <div
                   className="shane_tm_button"
                   style={{ marginTop: "32px" }}
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a href="https://tierarzt-leberberg.at/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://tierarzt-leberberg.at/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     See Live
                   </a>
                 </div>
@@ -191,10 +204,10 @@ const AnimationProjectCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                        <video
+                  <video
                     src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     className="clickable-image"
-                    style={{ width: "100%"}}
+                    style={{ width: "100%" }}
                     // onClick={() =>
                     //   handleImageClick(
                     //     "/img/portfolio/case-study/Phone _mockup02.mp4"
@@ -360,7 +373,7 @@ const AnimationProjectCaseStudy = () => {
                       )
                     }
                   />
-               
+
                   <div className="image_caption">
                     <p>Desktop screens</p>
                   </div>
@@ -391,12 +404,16 @@ const AnimationProjectCaseStudy = () => {
                     experience for both new and returning clients.
                   </p>
                 </div>
-                 <div
+                <div
                   className="shane_tm_button"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a href="https://tierarzt-leberberg.at/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://tierarzt-leberberg.at/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     See Live
                   </a>
                 </div>
@@ -437,7 +454,6 @@ const AnimationProjectCaseStudy = () => {
                     from day one.
                   </p>
                 </div>
-            
               </div>
               {/* End left */}
 

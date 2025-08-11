@@ -29,6 +29,15 @@ const MyStoryCaseStudy = () => {
               <Link to="/#portfolio" className="back_button">
                 ← BACK
               </Link>
+              <Link
+                to="/case-study/buhdi-app"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
+                NEXT PROJECT →
+              </Link>
             </div>
           </div>
           <div className="content">
@@ -53,7 +62,13 @@ const MyStoryCaseStudy = () => {
             data-aos="fade-up"
             data-aos-duration="1200"
           >
-            <p style={{ fontWeight: 600, fontSize: "14px", marginBottom: "60px" }}>
+            <p
+              style={{
+                fontWeight: 600,
+                fontSize: "14px",
+                marginBottom: "60px",
+              }}
+            >
               Timeline:{" "}
               <span className="timeline-fine">April 2024 – September 2024</span>
             </p>
@@ -96,7 +111,6 @@ const MyStoryCaseStudy = () => {
                 data-aos="fade-up"
                 data-aos-duration="1200"
               >
-                
                 <div className="top">
                   <p className="text" style={{ color: "#767676b9" }}>
                     Orbit Health is a Munich-based digital health startup
@@ -190,9 +204,7 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>
-                      Wireframes of the redesigned Orbit Health website
-                    </p>
+                    <p>Wireframes of the redesigned Orbit Health website</p>
                   </div>
                 </div>
               </div>
@@ -222,9 +234,7 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>
-                      Homepage redesign
-                    </p>
+                    <p>Homepage redesign</p>
                   </div>
                 </div>
               </div>
@@ -347,7 +357,8 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      User persona and journey map for Orbit Health's patient audience
+                      User persona and journey map for Orbit Health's patient
+                      audience
                     </p>
                   </div>
                 </div>
@@ -378,9 +389,7 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>
-                      Wireframes of the redesigned Orbit Health website
-                    </p>
+                    <p>Wireframes of the redesigned Orbit Health website</p>
                   </div>
                 </div>
               </div>
@@ -495,9 +504,7 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>
-                      Sitemap with information architecture
-                    </p>
+                    <p>Sitemap with information architecture</p>
                   </div>
                 </div>
               </div>

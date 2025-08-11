@@ -29,6 +29,15 @@ const DesignTrendCaseStudy = () => {
               <Link to="/#portfolio" className="back_button">
                 ← BACK
               </Link>
+              <Link
+                to="/case-study/unlimitix-app"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
+                NEXT PROJECT →
+              </Link>
             </div>
           </div>
           <div className="content">
@@ -114,13 +123,17 @@ const DesignTrendCaseStudy = () => {
                     tailored to ADHD users' needs.
                   </p>
                 </div>
-                 <div
+                <div
                   className="shane_tm_button"
                   style={{ marginTop: "32px" }}
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a href="https://buhdi.com/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://buhdi.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     See Live
                   </a>
                 </div>
@@ -173,15 +186,16 @@ const DesignTrendCaseStudy = () => {
                   <p>Our UX goals were to:</p>
                   <ul className="case-study-list">
                     <li>
-                      Create a <strong>compelling onboarding experience</strong> that builds
-                      trust and clarity before account creation
+                      Create a <strong>compelling onboarding experience</strong>{" "}
+                      that builds trust and clarity before account creation
                     </li>
                     <li>
                       Differentiate Buhdi from other productivity tools through
                       a <strong>unique</strong> brand and experience
                     </li>
                     <li>
-                      Incorporate <strong>gamification elements</strong> to boost motivation
+                      Incorporate <strong>gamification elements</strong> to
+                      boost motivation
                     </li>
                   </ul>
                 </div>
@@ -270,11 +284,12 @@ const DesignTrendCaseStudy = () => {
                   </ul>
                   <p>
                     The design was shaped by ideas from the founder, who was
-                    inspired by <strong>Acceptance and Commitment Therapy (ACT)</strong> and
-                    <strong> mindfulness principles.</strong> I worked to thoughtfully incorporate
-                    these concepts into the product’s flow and tone—ensuring the
-                    experience felt calming, supportive, and aligned with
-                    therapeutic practices.
+                    inspired by{" "}
+                    <strong>Acceptance and Commitment Therapy (ACT)</strong> and
+                    <strong> mindfulness principles.</strong> I worked to
+                    thoughtfully incorporate these concepts into the product’s
+                    flow and tone—ensuring the experience felt calming,
+                    supportive, and aligned with therapeutic practices.
                   </p>
                   <br />
                   <p>
@@ -325,10 +340,11 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                   <p>
-                    From testing insights, I <strong>identified friction</strong> in the original
+                    From testing insights, I{" "}
+                    <strong>identified friction</strong> in the original
                     onboarding (too long and unclear) and proposed a
-                    <strong> simplified flow</strong> that prioritized <strong>bite-sized
-                    interactions</strong> and visual clarity.
+                    <strong> simplified flow</strong> that prioritized{" "}
+                    <strong>bite-sized interactions</strong> and visual clarity.
                   </p>
                 </div>
               </div>
@@ -401,20 +417,23 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     {" "}
-                    I designed <strong>user interfaces</strong> (UI) for Quest Mode, a guided task flow that breaks down
-                    goals into small, rewarding steps with visual progress,
-                   that foster a sense of achievement and engagement.
+                    I designed <strong>user interfaces</strong> (UI) for Quest
+                    Mode, a guided task flow that breaks down goals into small,
+                    rewarding steps with visual progress, that foster a sense of
+                    achievement and engagement.
                   </p>
                   <br />
                   <p>
-                    I also designed UI for the <strong>onboarding flow</strong> and a
-                    cohesive brand system using calming visuals,
+                    I also designed UI for the <strong>onboarding flow</strong>{" "}
+                    and a cohesive brand system using calming visuals,
                     Buddhist-inspired design, and a supportive AI coach persona
                     to convey emotional clarity and purpose.
                   </p>
-                   <br />
+                  <br />
                   <p>
-                    Lastly I designed and run <strong>user testing</strong> and feedback sessions to iterate on the design and created <strong>recommendations</strong> for future improvements.
+                    Lastly I designed and run <strong>user testing</strong> and
+                    feedback sessions to iterate on the design and created{" "}
+                    <strong>recommendations</strong> for future improvements.
                   </p>
                 </div>
               </div>
@@ -446,26 +465,31 @@ const DesignTrendCaseStudy = () => {
                 >
                   <ul className="case-study-list">
                     <li>
-                      The app was successfully <strong>launched on the App Store</strong> and secured its first
-                      paying users
+                      The app was successfully{" "}
+                      <strong>launched on the App Store</strong> and secured its
+                      first paying users
                     </li>
                     <li>
-                      <strong>User testing confirmed </strong> that Quest Mode felt engaging,
-                      calming, and motivating
+                      <strong>User testing confirmed </strong> that Quest Mode
+                      felt engaging, calming, and motivating
                     </li>
                     <li>
-                      Onboarding was simplified based on feedback, <strong>improving
-                      clarity and reducing drop-off.</strong>
+                      Onboarding was simplified based on feedback,{" "}
+                      <strong>improving clarity and reducing drop-off.</strong>
                     </li>
                   </ul>
                 </div>
-                  <div
+                <div
                   className="shane_tm_button"
                   style={{ marginTop: "32px" }}
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a href="https://buhdi.com/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://buhdi.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     See Live
                   </a>
                 </div>
