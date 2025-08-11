@@ -67,7 +67,7 @@ const SkillsTwo = () => {
                     style={{ height: "60px", width: "60px" }}
                   />
                 </div>
-                <h4 style={{ margin: "0", fontSize: "18px" }}>Basic Frontend</h4>
+                <h4 style={{ margin: "0", fontSize: "18px" }}> Frontend Fundamentals</h4>
               </div>
 
             </div>
