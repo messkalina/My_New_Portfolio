@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Social from "../SocialTwo";
+
 
 const Slider = () => {
   const [showButton, setShowButton] = useState(false);

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import Social from "../Social";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [click, setClick] = useState(false);

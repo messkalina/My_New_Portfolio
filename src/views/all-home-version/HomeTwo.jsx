@@ -5,14 +5,9 @@ import Slider from "../../components/slider/SliderTwo";
 import About from "../../components/about/AboutTwo";
 import Portfolio from "../../components/portfolio/PortfolioTwo";
 import Skills from "../../components/skills/SkillsTwo";
-import Video from "../../components/video/VideoTwo";
-import Brand from "../../components/BrandAnimation";
-import Testimonial from "../../components/testimonial/TestimonialTwo";
-import News from "../../components/news/NewsTwo";
-import CallToAction from "../../components/calltoactions/CallToActionTwo";
+
 import Footer from "../../components/footer/Footer";
-import Contact from "../../components/Contact";
-import ContactForm from "../../components/ContactForm";
+
 import Skills2 from "../../components/skills/Skills";
 
 const HomeTwo = () => {
