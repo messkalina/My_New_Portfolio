@@ -8,15 +8,16 @@ const Footer = () => {
         <div className="shane_tm_copyright">
           <div className="container">
             <div className="inner">
-              <div className="footer_content">
-                <p>
+              <div className="">
+              
+                <div className="footer_links">
+                  <Link to="/privacy-policy">Privacy Policy</Link>
+                  <span style={{ margin: "0 16px" }}>|</span>
+                  <Link to="/impressum">Impressum</Link>
+                    <p  style={{ marginTop: "16px" }}>
                   &copy; {new Date().getFullYear()} by Kalina Iwaszko. All
                   rights reserved.
                 </p>
-                <div className="footer_links">
-                  <Link to="/privacy-policy">Privacy Policy</Link>
-                  <span style={{ margin: "0 8px" }}>|</span>
-                  <Link to="/impressum">Impressum</Link>
                 </div>
               </div>
             </div>

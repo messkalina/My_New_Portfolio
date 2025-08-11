@@ -2079,7 +2079,9 @@ body.modal {
 }
 .shane_tm_copyright p {
   font-family: "Poppins";
-  color: #fff;
+  color: #ffffff9b;
+  font-size: 13px;
+  font-weight: 400;
 }
 .shane_tm_copyright a {
   text-decoration: none;
@@ -3983,13 +3985,15 @@ body.intro .loader_line:after {
 }
 
 .footer_links a {
-  color: inherit;
+  color: white;
   text-decoration: none;
   font-size: 14px;
+
 }
 
 .footer_links a:hover {
   text-decoration: underline;
+  color: rgba(255, 255, 255, 0.651);
 }
 
 @media (max-width: 768px) {
