@@ -1,20 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion01 = () => {
-  const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [lightboxImg, setLightboxImg] = useState("");
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  const handleImageClick = (imgSrc) => {
-    setLightboxImg(imgSrc);
-    setLightboxOpen(true);
-  };
 
   return (
     <div className="shane_tm_all_wrap">
@@ -26,9 +18,9 @@ const Motion01 = () => {
         <div className="container">
           <div>
             <div>
-             <Link to="/?tab=motion#portfolio" className="back_button">
-                             ← BACK
-                           </Link>
+              <Link to="/?tab=motion#portfolio" className="back_button">
+                ← BACK
+              </Link>
             </div>
           </div>
           <div className="content">
@@ -75,39 +67,45 @@ const Motion01 = () => {
               >
                 <div className="top">
                   <p className="text">
-                   Snippets from a walkthrough video demonstrating medical apps features and userflow I created when working at Orbit Health company.
-                  <strong> Tools:</strong> Figma, Adobe XD, After Effects
+                    Snippets from a walkthrough video demonstrating medical apps
+                    features and userflow I created when working at Orbit Health
+                    company.
+                    <strong> Tools:</strong> Figma, Adobe XD, After Effects
                   </p>
-                 
 
-                    <br />
+                  <br />
                   <h3 className="title">Key Work</h3>
-                  
-                    <ul className="case-study-list">
-                      <li>
-                        <strong>motion design</strong> 
-                      </li>
-                      <li>
-                        <strong>video post production</strong> 
-                      </li>
-                      <li>
-                        <strong>video editing</strong> 
-                      </li>
-                    </ul>
-                    <div className="case-study-video" style={{ marginTop: "56px", marginBottom: "56px", textAlign: "center" }}>
-                        <iframe
-                            width="800"
-                            height="450"
-                            src="https://www.youtube.com/embed/iXAHo2ywRNg"
-                            title="Neptune Apps Demo"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            style={{ maxWidth: "100%", borderRadius: "12px" }}
-                        ></iframe>
-                    </div>
-                   
-                  
+
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>motion design</strong>
+                    </li>
+                    <li>
+                      <strong>video post production</strong>
+                    </li>
+                    <li>
+                      <strong>video editing</strong>
+                    </li>
+                  </ul>
+                  <div
+                    className="case-study-video"
+                    style={{
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                      textAlign: "center",
+                    }}
+                  >
+                    <iframe
+                      width="800"
+                      height="450"
+                      src="https://www.youtube.com/embed/1WJArISlkw4"
+                      title="Neptune Apps Demo"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      style={{ maxWidth: "100%", borderRadius: "12px" }}
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -115,9 +113,6 @@ const Motion01 = () => {
         </div>
       </div>
 
-      
-
-      
       <Footer />
     </div>
   );
