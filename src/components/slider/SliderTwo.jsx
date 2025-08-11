@@ -25,7 +25,7 @@ const Slider = () => {
             <div className="subheading_wrap">
               <div className="subheading">
                 <h3>
-                  Creating beautiful design for web and mobile
+                  Intuitive design with a creative twist
                   <span className="overlay_effect"></span>
                 </h3>
               </div>
