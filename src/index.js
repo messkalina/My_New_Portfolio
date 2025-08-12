@@ -9,9 +9,7 @@ import "react-cookie-manager/style.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <StrictMode
-  
-  >
+ 
   <CookieManager
     enableFloatingButton={true}
   theme="light"
@@ -20,7 +18,7 @@ root.render(
       <App />
     </BrowserRouter>
   </CookieManager>
-  </StrictMode>
+ 
 );
 
 // If you want to start measuring performance in your app, pass a function
