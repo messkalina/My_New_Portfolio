@@ -3097,6 +3097,33 @@ body.dark .shane_tm_settings .cursor li .svg,
   }
 }
 
+/* Mobile centering for hero content */
+@media (max-width: 768px) {
+  .mobile-centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .mobile-centered-content .name_wrap,
+  .mobile-centered-content .job_wrap,
+  .mobile-centered-content .shane_tm_button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .mobile-centered-content .job {
+    text-align: center;
+  }
+  
+  /* Override any left alignment */
+  .mobile-white-text {
+    text-align: center !important;
+  }
+}
 body.intro #preloader:before,
 body.intro #preloader:after {
   background-color: #fff;
@@ -4055,21 +4082,4 @@ body.intro .loader_line:after {
   opacity: 0;
   transition: opacity 0.3s, visibility 0.3s;
   white-space: nowrap;
-  font-size: 14px;
-}
-
-.tooltip::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #000 transparent transparent transparent;
-}
-
-.social-link:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
 }

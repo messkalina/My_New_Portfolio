@@ -2,10 +2,22 @@ import React, { useState, useEffect } from "react";
 
 const Slider = () => {
   const [showButton, setShowButton] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowButton(true), 1200); // 1200ms delay
-    return () => clearTimeout(timer);
+    const timer = setTimeout(() => setShowButton(true), 1200);
+
+    // Handle resize events to update mobile state
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (
@@ -32,46 +44,38 @@ const Slider = () => {
                 </div>
               </div>
             </div>
-            <div className="name_wrap">
-              <h4
+
+            {/* Mobile-centered content wrapper */}
+            <div className="mobile-centered-content">
+              <div className="name_wrap">
+                <h4
+                  style={{
+                    fontSize: "28px",
+                    fontWeight: 600,
+                    color: isMobile ? "#fff" : "black",
+                    textTransform: "none",
+                  }}
+                  className="mobile-white-text"
+                >
+                  Kalina Iwaszko
+                </h4>
+              </div>
+
+              <div className="job_wrap" style={{ marginTop: "-8px" }}>
+                <span className="job">UI/UX & Motion Designer</span>
+              </div>
+
+              <div
+                className="shane_tm_button fade-in-delay"
                 style={{
-                  fontSize: "28px",
-                  fontWeight: 600,
-                  color: window.innerWidth <= 768 ? "#fff" : "black", // White text on mobile
-                  textTransform: "none" 
+                  opacity: showButton ? 1 : 0,
+                  transition: "opacity 0.8s ease",
+                  marginTop: "32px",
                 }}
-                className="mobile-white-text" // Add a class for CSS fallback
               >
-                Kalina Iwaszko
-                {/* <br /> */}
-               
-              </h4>
+                <a href="#portfolio">See my work</a>
+              </div>
             </div>
-            {/* End title */}
-
-            <div className="job_wrap"
-              style={{
-                marginTop: "-8px"}}  >
-              <span className="job">
-                UI/UX & Motion Designer
-                {/* <span className="overlay_effect"></span> */}
-              </span>
-            </div>
-            {/* End designation */}
-
-            {/* Button with fade-in effect */}
-            <div
-              className="shane_tm_button fade-in-delay"
-              style={{
-                opacity: showButton ? 1 : 0,
-                transition: "opacity 0.8s ease",
-                marginTop: "32px", // Add top margin here (adjust as needed)
-                
-              }}
-            >
-              <a href="#portfolio">See my work</a>
-            </div>
-            {/* ...existing code... */}
           </div>
           {/* End content */}
 
