@@ -35,19 +35,23 @@ const Slider = () => {
             <div className="name_wrap">
               <h4
                 style={{
-                  fontSize: "24px",
+                  fontSize: "28px",
+                  fontWeight: 600,
                   color: window.innerWidth <= 768 ? "#fff" : "black", // White text on mobile
+                  textTransform: "none" 
                 }}
                 className="mobile-white-text" // Add a class for CSS fallback
               >
-                Kalina
-                <br />
-                Iwaszko
+                Kalina Iwaszko
+                {/* <br /> */}
+               
               </h4>
             </div>
             {/* End title */}
 
-            <div className="job_wrap">
+            <div className="job_wrap"
+              style={{
+                marginTop: "-8px"}}  >
               <span className="job">
                 UI/UX & Motion Designer
                 {/* <span className="overlay_effect"></span> */}
