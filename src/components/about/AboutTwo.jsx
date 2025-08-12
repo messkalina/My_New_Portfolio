@@ -35,7 +35,7 @@ const AboutTwo = () => {
                 >
                   <span>About Me</span>
                   <h3>
-                    UX/UI & motion graphic designer based in Berlin, Germany
+                    Designing Digital Experiences with Impact
                   </h3>
                 </div>
                 <div
