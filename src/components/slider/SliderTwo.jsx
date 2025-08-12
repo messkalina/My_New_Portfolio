@@ -24,17 +24,18 @@ const Slider = () => {
           <div className="content">
             <div className="subheading_wrap">
               <div className="subheading">
-                <h3>
-                  Intuitive design with a twist
-                  <span className="overlay_effect"></span>
-                </h3>
+                <div className="name_wrap">
+              <h3 >
+                Smart Design <br /><span> with an edge </span> <span className="overlay_effect"></span>
+              </h3>
+            </div>
               </div>
             </div>
             <div className="name_wrap">
-              <h4>
-                <span>Kalina</span>
+              <h4 style={{ fontSize: "24px" }}>
+                Kalina
                 <br />
-                <span>Iwaszko</span>
+                Iwaszko
                 {/* <span className="overlay_effect"></span> */}
               </h4>
             </div>
