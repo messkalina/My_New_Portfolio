@@ -10,7 +10,7 @@ const Slider = () => {
 
   return (
     <div className="slider-two">
-      <div className="shane_tm_hero" id="home" data-style="three">
+      <div className="shane_tm_hero" id="home" data-style="one">
         <div className="background">
           <div
             className="image"
