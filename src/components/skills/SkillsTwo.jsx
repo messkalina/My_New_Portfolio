@@ -7,7 +7,11 @@ const SkillsTwo = () => {
         <div className="shane_tm_skills"
         style={{ backgroundColor: "#fff" }}
         >
-          <div className="container">
+          <div className="container"
+         data-aos="fade-up"
+                    data-aos-duration="1200"
+                   
+          >
             <div style={{ textAlign: "center", marginBottom: "80px" }}>
               <h3>My Skills</h3>
             </div>
