@@ -66,6 +66,7 @@ const Slider = () => {
                 opacity: showButton ? 1 : 0,
                 transition: "opacity 0.8s ease",
                 marginTop: "32px", // Add top margin here (adjust as needed)
+                
               }}
             >
               <a href="#portfolio">See my work</a>
