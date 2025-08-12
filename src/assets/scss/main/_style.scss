@@ -3659,7 +3659,7 @@ body.intro .loader_line:after {
 // Responsive adjustments for case study hero
 @media (max-width: 1040px) {
   .shane_tm_case_study_hero .content h3 {
-    font-size: 35px;
+    font-size: 48px;
   }
   
   .shane_tm_case_study_hero[data-style="one"] .background {
@@ -3677,7 +3677,7 @@ body.intro .loader_line:after {
   line-height: 1.1;
   display: inline-block;
   overflow: hidden;
-  margin: 0;
+  margin-top: 60px;
   
   span {
     color: transparent;
@@ -3809,6 +3809,12 @@ body.intro .loader_line:after {
         }
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-white-text {
+    color: #fff !important;
   }
 }
 
