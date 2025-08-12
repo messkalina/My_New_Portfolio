@@ -688,7 +688,7 @@ padding: 0;
     
     .subheading {
       max-width: 50vw; // 50% of viewport width
-      font-size: 60px !important;
+      font-size: 70px !important;
       color: #666;
       font-weight: 400;
       line-height: 1.5;
@@ -718,15 +718,16 @@ padding: 0;
 }
 .shane_tm_hero .content h3 {
   position: relative;
-  font-size: 72px;
+  font-size: 82px;
   font-family: "Poppins";
   text-transform: uppercase;
   font-weight: 900;
   color: #000; // Solid black color like "Iwaszko"
-  line-height: 1.2;
+  line-height: 1.1;
   display: inline-block;
   overflow: hidden;
   max-width: 50vw;
+  text-align: left;
   
   @media screen and (max-width: 1040px) {
     font-size: 35px;
@@ -2925,7 +2926,7 @@ body.dark .shane_tm_settings .cursor li .svg,
     display: block;
   }
   .shane_tm_hero .content h3 {
-    font-size: 35px;
+    font-size: 48px;
   }
   .shane_tm_about .about_inner {
     flex-direction: column;
@@ -3304,7 +3305,7 @@ body.intro .loader_line:after {
   }
   @media screen and (max-width: 767px) {
     .shane_tm_hero .content h3 {
-      font-size: 40px;
+      font-size: 44px;
     }
     .shane_tm_hero .content .job {
       font-size: 25px;
@@ -3544,7 +3545,7 @@ body.intro .loader_line:after {
     
     .subheading {
       max-width: 50vw; // 50% of viewport width
-      font-size: 50px !important;
+      font-size: 60px !important;
       color: #666;
       font-weight: 400;
       line-height: 1.5;
