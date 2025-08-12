@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-
 const Slider = () => {
   const [showButton, setShowButton] = useState(false);
 
@@ -25,18 +24,25 @@ const Slider = () => {
             <div className="subheading_wrap">
               <div className="subheading">
                 <div className="name_wrap">
-              <h3 >
-                Smart Design <br /><span> with an edge </span> <span className="overlay_effect"></span>
-              </h3>
-            </div>
+                  <h3>
+                    Smart Design <br />
+                    <span> with an edge </span>{" "}
+                    <span className="overlay_effect"></span>
+                  </h3>
+                </div>
               </div>
             </div>
             <div className="name_wrap">
-              <h4 style={{ fontSize: "24px" }}>
+              <h4
+                style={{
+                  fontSize: "24px",
+                  color: window.innerWidth <= 768 ? "#fff" : "black", // White text on mobile
+                }}
+                className="mobile-white-text" // Add a class for CSS fallback
+              >
                 Kalina
                 <br />
                 Iwaszko
-                {/* <span className="overlay_effect"></span> */}
               </h4>
             </div>
             {/* End title */}
