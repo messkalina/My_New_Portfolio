@@ -15,7 +15,7 @@ const tabListContent = [
         portfolioLink: "/case-study/orbit-website",
       },
       {
-        img: "/img/portfolio/case-study/Buhdi_Coversm.png",
+        img: "/img/portfolio/case-study/Buhdi_Coversm3.png",
         title: "Buhdi – Mindful ADHD Support App",
         meta: " UX Challenges for ADHD Users",
         portfolioLink: "/case-study/buhdi-app",
