@@ -25,7 +25,7 @@ const Header = () => {
           <div className="logo">
             <NavLink to="/">
               <img
-                src="/img/svg/Personal_Logo_black.svg"
+                src="/img/logo/new/Personal_Logo_black_name.svg"
                 alt="Kalina Iwaszko Portfolio"
                 style={{ height: "24px", width: "auto", display: "block" }} // Adjust height as needed to match nav buttons
               />
@@ -81,7 +81,7 @@ const Header = () => {
               <div className="logo">
                 <NavLink to="/">
                   <img
-                    src="/img/logo/new/dark.svg"
+                    src="/img/logo/new/Personal_Logo_black_name.svg"
                     alt="partners brand"
                     style={{ height: "24px", width: "auto" }}
                   />
@@ -120,7 +120,7 @@ const Header = () => {
               <div className="logo">
                 <NavLink to="/">
                   <img
-                    src="/img/logo/new/light.svg"
+                    src="/img/logo/new/Personal_Logo_white_name.svg"
                     alt="Kalina Iwaszko Portfolio"
                     style={{ height: "24px", width: "auto" }}
                   />
