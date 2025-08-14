@@ -30,7 +30,7 @@ const AnimationProjectCaseStudy = () => {
                 ← PORTFOLIO / UX/UI PROJECTS
               </Link>
               <Link
-                to="/case-study/orbit-website"
+                to="/case-study/buhdi-app"
                 className="back_button"
                 style={{
                   float: "right",
@@ -515,7 +515,7 @@ const AnimationProjectCaseStudy = () => {
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
             <Link
-              to="/case-study/orbit-website"
+              to="/case-study/buhdi-app"
               className="back_button"
               style={{
                 float: "right",

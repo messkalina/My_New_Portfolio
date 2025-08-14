@@ -30,7 +30,7 @@ const DesignTrendCaseStudy = () => {
                 ← PORTFOLIO / UX/UI PROJECTS
               </Link>
               <Link
-                to="/case-study/unlimitix-app"
+                to="/case-study/orbit-website"
                 className="back_button"
                 style={{
                   float: "right",
@@ -534,7 +534,7 @@ const DesignTrendCaseStudy = () => {
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
             <Link
-               to="/case-study/unlimitix-app"
+               to="/case-study/orbit-website"
               className="back_button"
               style={{
                 float: "right",
