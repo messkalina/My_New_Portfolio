@@ -4,13 +4,9 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion06 = () => {
- 
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-
 
   return (
     <div className="shane_tm_all_wrap">
@@ -23,7 +19,16 @@ const Motion06 = () => {
           <div>
             <div>
               <Link to="/?tab=motion#portfolio" className="back_button">
-                ← BACK
+                ← PORTFOLIO / ANIMATION
+              </Link>
+              <Link
+                to="/case-study/animation01"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
+                NEXT PROJECT →
               </Link>
             </div>
           </div>
@@ -123,7 +128,30 @@ const Motion06 = () => {
           </div>
         </div>
       </div>
-
+                     <div className="shane_tm_section">
+                            <div className="container">
+                              <div
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "space-between",
+                                  marginBottom: "40px",
+                                }}
+                              >
+                                <Link to="/#portfolio" className="back_button">
+                                  ← PORTFOLIO / ANIMATION
+                                </Link>
+                                <Link
+                                  to="/case-study/animation01"
+                                  className="back_button"
+                                  style={{
+                                    float: "right",
+                                  }}
+                                >
+                                  NEXT PROJECT →
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
       <Footer />
     </div>
   );
