@@ -27,7 +27,7 @@ const AnimationProjectCaseStudy = () => {
           <div>
             <div>
               <Link to="/#portfolio" className="back_button">
-                ← BACK
+                ← PORTFOLIO / UX/UI PROJECTS
               </Link>
               <Link
                 to="/case-study/orbit-website"
@@ -494,7 +494,7 @@ const AnimationProjectCaseStudy = () => {
             }}
           >
             <Link to="/#portfolio" className="back_button">
-              ← BACK
+              ← PORTFOLIO / UX/UI PROJECTS
             </Link>
             <Link
               to="/case-study/orbit-website"

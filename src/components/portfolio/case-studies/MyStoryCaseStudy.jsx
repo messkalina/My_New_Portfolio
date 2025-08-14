@@ -27,7 +27,7 @@ const MyStoryCaseStudy = () => {
           <div>
             <div>
               <Link to="/#portfolio" className="back_button">
-                ← BACK
+                ← PORTFOLIO / UX/UI PROJECTS
               </Link>
               <Link
                 to="/case-study/buhdi-app"
@@ -525,7 +525,7 @@ const MyStoryCaseStudy = () => {
             }}
           >
             <Link to="/#portfolio" className="back_button">
-              ← BACK
+              ← PORTFOLIO / UX/UI PROJECTS
             </Link>
             <Link
                to="/case-study/buhdi-app"
