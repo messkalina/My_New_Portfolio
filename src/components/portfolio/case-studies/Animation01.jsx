@@ -21,6 +21,15 @@ const Motion01 = () => {
               <Link to="/?tab=motion#portfolio" className="back_button">
                 ← BACK
               </Link>
+              <Link
+                to="/case-study/motion02"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
+                NEXT PROJECT →
+              </Link>
             </div>
           </div>
           <div className="content">
@@ -112,6 +121,31 @@ const Motion01 = () => {
           </div>
         </div>
       </div>
+
+      <div className="shane_tm_section">
+              <div className="container">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    marginBottom: "40px",
+                  }}
+                >
+                  <Link to="/#portfolio" className="back_button">
+                    ← BACK
+                  </Link>
+                  <Link
+                    to="/case-study/motion02"
+                    className="back_button"
+                    style={{
+                      float: "right",
+                    }}
+                  >
+                    NEXT PROJECT →
+                  </Link>
+                </div>
+              </div>
+            </div>
 
       <Footer />
     </div>
