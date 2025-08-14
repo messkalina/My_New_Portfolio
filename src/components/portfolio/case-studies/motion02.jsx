@@ -4,13 +4,9 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion02 = () => {
-
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-
 
   return (
     <div className="shane_tm_all_wrap">
@@ -22,9 +18,18 @@ const Motion02 = () => {
         <div className="container">
           <div>
             <div>
-             <Link to="/?tab=motion#portfolio" className="back_button">
-                             ← BACK
-                           </Link>
+              <Link to="/?tab=motion#portfolio" className="back_button">
+                ← PORTFOLIO / ANIMATION
+              </Link>
+              <Link
+                to="/case-study/motion03"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
+                NEXT PROJECT →
+              </Link>
             </div>
           </div>
           <div className="content">
@@ -71,52 +76,82 @@ const Motion02 = () => {
               >
                 <div className="top">
                   <p className="text">
-                   This video was a design challenge I did during recruitment process during for a company. The task was to create a video ad for social media that would attract new customers. I used motion graphics and video editing skills while using provided video footage.<br />
-                  <strong> Tools:</strong> Adobe After Effects, Premiere Pro, Photoshop, Illustrator
-                  </p>
-                 
-
+                    This video was a design challenge I did during recruitment
+                    process during for a company. The task was to create a video
+                    ad for social media that would attract new customers. I used
+                    motion graphics and video editing skills while using
+                    provided video footage.
                     <br />
+                    <strong> Tools:</strong> Adobe After Effects, Premiere Pro,
+                    Photoshop, Illustrator
+                  </p>
+
+                  <br />
                   <h3 className="title">Key Work</h3>
-                  
-                    <ul className="case-study-list">
-                      <li>
-                        <strong>Visual assets</strong> 
-                      </li>
-                      <li>
-                        <strong>Motion graphics design</strong> 
-                      </li>
-                      <li>
-                        <strong>Video editing</strong>
-                      </li>
-                      <li>
-                        <strong>Sound design</strong>
-                      </li>
-                    </ul>
-                    <div className="case-study-video" style={{ marginTop: "56px", marginBottom: "56px", textAlign: "center" }}>
-                        <iframe
-                            width="800"
-                            height="450"
-                            src="https://www.youtube.com/embed/7i5AQkFl30I"
-                            title="Social Media Video Ad"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            style={{ maxWidth: "100%", borderRadius: "12px" }}
-                        ></iframe>
-                    </div>
-                   
-                  
+
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>Visual assets</strong>
+                    </li>
+                    <li>
+                      <strong>Motion graphics design</strong>
+                    </li>
+                    <li>
+                      <strong>Video editing</strong>
+                    </li>
+                    <li>
+                      <strong>Sound design</strong>
+                    </li>
+                  </ul>
+                  <div
+                    className="case-study-video"
+                    style={{
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                      textAlign: "center",
+                    }}
+                  >
+                    <iframe
+                      width="800"
+                      height="450"
+                      src="https://www.youtube.com/embed/7i5AQkFl30I"
+                      title="Social Media Video Ad"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      style={{ maxWidth: "100%", borderRadius: "12px" }}
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      
-
-      
+      <div className="shane_tm_section">
+        <div className="container">
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              marginBottom: "40px",
+            }}
+          >
+            <Link to="/#portfolio" className="back_button">
+              ← PORTFOLIO / ANIMATION
+            </Link>
+            <Link
+              to="/case-study/motion03"
+              className="back_button"
+              style={{
+                float: "right",
+              }}
+            >
+              NEXT PROJECT →
+            </Link>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
