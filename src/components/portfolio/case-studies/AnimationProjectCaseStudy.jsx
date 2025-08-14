@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
@@ -69,6 +69,24 @@ const AnimationProjectCaseStudy = () => {
             >
               Timeline: <span className="timeline-fine">April – May 2025</span>
             </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="content">
+          <div className="shane_tm_section">
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <img
+                src="/img/portfolio/case-study/home_screen_team_big.png"
+                alt="App Screens"
+              />
+            </div>
           </div>
         </div>
       </div>
