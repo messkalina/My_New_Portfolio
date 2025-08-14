@@ -8,30 +8,32 @@ const tabList = ["UX/UI Design", "Motion Design", "All"];
 const tabListContent = [
   {
     porftoliItems: [
-      {
-        img: "/img/portfolio/case-study/Orbit_covr_2_pages.png",
-        title: "Orbit Health Website Redesign",
-        meta: "Designing Website for Complex Digital Products",
-        portfolioLink: "/case-study/orbit-website",
-      },
+    
       {
         img: "/img/portfolio/case-study/Buhdi_Coversm3.png",
         title: "Buhdi – Mindful ADHD Support App",
         meta: " UX Challenges for ADHD Users",
         portfolioLink: "/case-study/buhdi-app",
       },
-      {
-        img: "/img/portfolio/case-study/Hero4.png",
-        title: "Unlimitix – AI Nutrition Coach",
-        meta: " Beta Version App Redesign for Better UX",
-        portfolioLink: "/case-study/unlimitix-app",
+        {
+        img: "/img/portfolio/case-study/Orbit_covr_2_pages.png",
+        title: "Orbit Health Website Redesign",
+        meta: "Designing Website for Complex Digital Products",
+        portfolioLink: "/case-study/orbit-website",
       },
+     
       {
         img: "/img/portfolio/case-study/vetpraxis_portfolioItem_iblue3.png",
         title: "Veterinary Practice Website",
         meta: "End-to-end UX/UI & Web Development",
         portfolioLink: "/case-study/vet-website",
         video: "/img/portfolio/case-study/Home_Desktop.mp4", // You can add the video path here
+      },
+       {
+        img: "/img/portfolio/case-study/Hero4.png",
+        title: "Unlimitix – AI Nutrition Coach",
+        meta: " Beta Version App Redesign for Better UX",
+        portfolioLink: "/case-study/unlimitix-app",
       },
     ],
   },
