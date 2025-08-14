@@ -75,7 +75,7 @@ const DesignTrendCaseStudy = () => {
       </div>
 
       {/* Example full-width image section */}
-      {/* <div className="container">
+      <div className="container">
         <div className="content">
           <div className="shane_tm_section">
             <div
@@ -85,13 +85,13 @@ const DesignTrendCaseStudy = () => {
               data-aos-duration="1200"
             >
               <img
-                src="/img/portfolio/case-study/DesignTrend_wireframes.png"
-                alt="Design Trend Wireframes"
+                src="/img/portfolio/case-study/Mockup_3_screenssm.png"
+                alt="App Screens"
               />
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="shane_tm_hero_case_study">
         <div className="container">
