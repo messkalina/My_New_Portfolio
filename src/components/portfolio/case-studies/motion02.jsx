@@ -85,7 +85,53 @@ const Motion02 = () => {
                     <strong> Tools:</strong> Adobe After Effects, Premiere Pro,
                     Photoshop, Illustrator
                   </p>
-
+ <div
+                    className="styleframes-grid"
+                    style={{
+                      display: "grid",
+                      gridTemplateColumns: "repeat(2, 1fr)",
+                      gap: "24px",
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                    }}
+                  >
+                    <img
+                      src="/img/portfolio/stylesframes/wolt/1-copy-2.png"
+                      alt="Wolt ad styleframe 1"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/wolt/2-copy-2.png"
+                      alt="Wolt ad styleframe 2"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/wolt/3-copy-1.png"
+                      alt="Wolt ad styleframe 3"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/wolt/5-copy-1.png"
+                      alt="Wolt ad styleframe 4"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                  </div>
                   <br />
                   <h3 className="title">Key Work</h3>
 
@@ -103,6 +149,9 @@ const Motion02 = () => {
                       <strong>Sound design</strong>
                     </li>
                   </ul>
+
+                 
+
                   <div
                     className="case-study-video"
                     style={{
@@ -119,7 +168,7 @@ const Motion02 = () => {
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      style={{ maxWidth: "100%", borderRadius: "12px" }}
+                      style={{ maxWidth: "100%"}}
                     ></iframe>
                   </div>
                 </div>
