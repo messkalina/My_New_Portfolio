@@ -88,6 +88,55 @@ const Motion03 = () => {
                     Photoshop, Illustrator
                   </p>
 
+
+
+                 <div
+                    className="styleframes-grid"
+                    style={{
+                      display: "grid",
+                      gridTemplateColumns: "repeat(2, 1fr)",
+                      gap: "24px",
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                    }}
+                  >
+                    <img
+                      src="/img/portfolio/stylesframes/caspar/1.png"
+                      alt="Caspar ad styleframe 1"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/caspar/2.png"
+                      alt="Caspar ad styleframe 2"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/caspar/3.png"
+                      alt="Caspar ad styleframe 3"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/caspar/4.png"
+                      alt="Caspar ad styleframe 4"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                  </div>
                   <br />
                   <h3 className="title">Key Work</h3>
 
