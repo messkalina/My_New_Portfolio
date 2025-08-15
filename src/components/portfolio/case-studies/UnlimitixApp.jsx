@@ -74,6 +74,24 @@ const UnlimitixApp = () => {
         </div>
       </div>
 
+   <div className="container">
+        <div className="content">
+          <div className="shane_tm_section">
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <img
+                src="/img/portfolio/case-study/Unlimitix_cover.png"
+                alt="App Screens"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="shane_tm_hero_case_study">
         <div className="container">
           <div className="content">

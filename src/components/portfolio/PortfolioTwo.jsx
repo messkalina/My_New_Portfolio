@@ -32,7 +32,7 @@ const tabListContent = [
      
     
        {
-        img: "/img/portfolio/case-study/Hero4.png",
+        img: "/img/portfolio/case-study/Unlimitix_Portfolio_Cover.png",
         title: "Unlimitix – AI Nutrition Coach",
         meta: " Beta Version App Redesign for Better UX",
         portfolioLink: "/case-study/unlimitix-app",
