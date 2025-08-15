@@ -84,6 +84,35 @@ const Motion05 = () => {
                   <strong> Tools:</strong> Adobe After Effects, Photoshop, Illustrator
                   </p>
                  
+                 <div
+                    className="styleframes-grid"
+                    style={{
+                      display: "grid",
+                      gridTemplateColumns: "repeat(2, 1fr)",
+                      gap: "24px",
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                    }}
+                  >
+                    <img
+                      src="/img/portfolio/stylesframes/trivago_man/1.png"
+                      alt="Trivago ad styleframe 1"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/trivago_man/2.png"
+                      alt="Trivago ad styleframe 2"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    </div>
 
                     <br />
                   <h3 className="title">Key Work</h3>
