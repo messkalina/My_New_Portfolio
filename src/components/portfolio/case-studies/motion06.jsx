@@ -77,12 +77,59 @@ const Motion06 = () => {
                 <div className="top">
                   <p className="text">
                     Promotional video I created for Euroshorts 2015 Film
-                    Festival
+                    Festival.
                     <br />
                     <strong> Tools:</strong> Adobe After Effects, Premiere Pro,
                     Photoshop, Illustrator
                   </p>
 
+                <div
+                    className="styleframes-grid"
+                    style={{
+                      display: "grid",
+                      gridTemplateColumns: "repeat(2, 1fr)",
+                      gap: "24px",
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                    }}
+                  >
+                    <img
+                      src="/img/portfolio/stylesframes/euroshorts/1.png"
+                      alt="Euroshorts ad styleframe 1"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/euroshorts/2.png"
+                      alt="Euroshorts ad styleframe 2"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/euroshorts/4.png"
+                      alt="Euroshorts ad styleframe 3"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                    <img
+                      src="/img/portfolio/stylesframes/euroshorts/6.png"
+                      alt="Euroshorts ad styleframe 4"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        // borderRadius: "12px",
+                      }}
+                    />
+                  </div>
                   <br />
                   <h3 className="title">Key Work</h3>
 
