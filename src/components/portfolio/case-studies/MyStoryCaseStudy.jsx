@@ -77,7 +77,7 @@ const MyStoryCaseStudy = () => {
       </div>
 
       {/* Full-width image section */}
-      {/* <div className="container">
+      <div className="container">
         <div className="content">
           <div className="shane_tm_section">
             <div
@@ -87,7 +87,7 @@ const MyStoryCaseStudy = () => {
               data-aos-duration="1200"
             >
               <img
-                src="/img/portfolio/case-study/Orbit_health_wireframes.png"
+                src="/img/portfolio/case-study/3_pages_cover_sm.png"
                 alt="Orbit Health Wireframes"
                 // style={{
                 //   width: "100%",
@@ -100,7 +100,7 @@ const MyStoryCaseStudy = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="shane_tm_hero_case_study">
         <div className="container">
