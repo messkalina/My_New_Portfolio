@@ -3,35 +3,33 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useNavigate, useLocation } from "react-router-dom"; // Add useLocation
 
-const tabList = ["UX/UI Design", "Motion Design", "All"];
+// Change the tabList array
+const tabList = ["UX/UI Design", "Animation"];
 
 const tabListContent = [
   {
     porftoliItems: [
-
-        {
+      {
         img: "/img/portfolio/case-study/vetpraxis_portfolioItem_iblue3.png",
         title: "Veterinary Practice Website",
         meta: "End-to-end UX/UI & Web Development",
         portfolioLink: "/case-study/vet-website",
-       
       },
-    
+
       {
         img: "/img/portfolio/case-study/Buhdi_Coversm3.png",
         title: "Buhdi – Mindful ADHD Support App",
         meta: " UX Challenges for ADHD Users",
         portfolioLink: "/case-study/buhdi-app",
       },
-        {
+      {
         img: "/img/portfolio/case-study/Orbit_covr_2_pages.png",
         title: "Orbit Health Website Redesign",
         meta: "Designing Website for Complex Digital Products",
         portfolioLink: "/case-study/orbit-website",
       },
-     
-    
-       {
+
+      {
         img: "/img/portfolio/case-study/Unlimitix_Portfolio_Cover.png",
         title: "Unlimitix – AI Nutrition Coach",
         meta: " Beta Version App Redesign for Better UX",
@@ -79,34 +77,7 @@ const tabListContent = [
       },
     ],
   },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/1.jpg",
-        title: "My Story",
-        meta: "UX/UI Design",
-        portfolioLink: "/case-study/my-story",
-      },
-      {
-        img: "/img/portfolio/2.jpg",
-        title: "Design Trend",
-        meta: "UX/UI Design",
-        portfolioLink: "/case-study/design-trend",
-      },
-      {
-        img: "/img/portfolio/3.jpg",
-        title: "Animation Project",
-        meta: "Motion Design",
-        portfolioLink: "/case-study/animation-project",
-      },
-      {
-        img: "/img/portfolio/case-study/AnimationProject_1.png",
-        title: "Veterinary Practice Website",
-        meta: "End-to-end UX/UI & Web Development",
-        portfolioLink: "/case-study/unlimitix-app",
-      },
-    ],
-  },
+  // Remove the third object (All tab)
 ];
 
 const Portfolio = () => {
@@ -119,7 +90,6 @@ const Portfolio = () => {
     const params = new URLSearchParams(location.search);
     const tab = params.get("tab");
     if (tab === "motion") setTabIndex(1);
-    else if (tab === "all") setTabIndex(2);
     else setTabIndex(0);
   }, [location.search]);
 
