@@ -165,7 +165,8 @@ const Portfolio = () => {
                                             style={{
                                               width: "100%",
                                               height: "100%",
-                                              objectFit: "cover",
+                                              objectFit: "cover", // Changed from "cover" to show top left corner
+                                              objectPosition: "20% center", // Explicitly position the video
                                               display: "block",
                                               cursor: "pointer",
                                             }}
@@ -181,7 +182,8 @@ const Portfolio = () => {
                                               style={{
                                                 width: "100%",
                                                 height: "100%",
-                                                objectFit: "cover",
+                                                objectFit: "fill", // Match the video style
+                                                objectPosition: "top left",
                                                 display: "block",
                                               }}
                                             />
