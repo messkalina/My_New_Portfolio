@@ -10,10 +10,11 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/Port_thumbnail_vetpraxis.png",
+        img: "/img/portfolio/Port_thumbnail_vetpraxis.png", // Keep as fallback
         title: "Veterinary Practice Website",
         meta: "End-to-end UX/UI & Web Development",
         portfolioLink: "/case-study/vet-website",
+        video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property
       },
 
       {
@@ -155,18 +156,50 @@ const Portfolio = () => {
                                         role="button"
                                         tabIndex={0}
                                       >
-                                        <img
-                                          src={val.img}
-                                          alt="portfolio"
-                                          ref={ref}
-                                          style={{
-                                            width: "100%",
-                                            height: "100%",
-                                            objectFit: "cover",
-                                            display: "block",
-                                            cursor: "pointer",
-                                          }}
-                                        />
+                                        {val.video ? (
+                                          <video
+                                            autoPlay
+                                            loop
+                                            muted
+                                            playsInline
+                                            style={{
+                                              width: "100%",
+                                              height: "100%",
+                                              objectFit: "cover",
+                                              display: "block",
+                                              cursor: "pointer",
+                                            }}
+                                          >
+                                            <source
+                                              src={val.video}
+                                              type="video/mp4"
+                                            />
+                                            <img
+                                              src={val.img}
+                                              alt={val.title}
+                                              ref={ref}
+                                              style={{
+                                                width: "100%",
+                                                height: "100%",
+                                                objectFit: "cover",
+                                                display: "block",
+                                              }}
+                                            />
+                                          </video>
+                                        ) : (
+                                          <img
+                                            src={val.img}
+                                            alt={val.title}
+                                            ref={ref}
+                                            style={{
+                                              width: "100%",
+                                              height: "100%",
+                                              objectFit: "cover",
+                                              display: "block",
+                                              cursor: "pointer",
+                                            }}
+                                          />
+                                        )}
                                       </div>
                                     )}
                                   </Item>
