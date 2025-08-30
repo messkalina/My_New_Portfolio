@@ -10,27 +10,27 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/case-study/vetpraxis_portfolioItem_iblue3.png",
+        img: "/img/portfolio/Port_thumbnail_vetpraxis.png",
         title: "Veterinary Practice Website",
         meta: "End-to-end UX/UI & Web Development",
         portfolioLink: "/case-study/vet-website",
       },
 
       {
-        img: "/img/portfolio/case-study/Buhdi_Coversm3.png",
+        img: "/img/portfolio/Port_thumbnail_Buhdi.png",
         title: "Buhdi – Mindful ADHD Support App",
         meta: " UX Challenges for ADHD Users",
         portfolioLink: "/case-study/buhdi-app",
       },
       {
-        img: "/img/portfolio/case-study/Orbit_covr_2_pages.png",
+        img: "/img/portfolio/Port_thumbnail_orbit.png",
         title: "Orbit Health Website Redesign",
         meta: "Designing Website for Complex Digital Products",
         portfolioLink: "/case-study/orbit-website",
       },
 
       {
-        img: "/img/portfolio/case-study/Unlimitix_Portfolio_Cover.png",
+        img: "/img/portfolio/Port_thumbnail_Unlimitix.png",
         title: "Unlimitix – AI Nutrition Coach",
         meta: " Beta Version App Redesign for Better UX",
         portfolioLink: "/case-study/unlimitix-app",
