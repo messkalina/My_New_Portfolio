@@ -51,7 +51,7 @@ const Slider = () => {
                 <h4
                   style={{
                     fontSize: "32px",
-                    fontWeight: 600,
+                    fontWeight: 700,
                     color: isMobile ? "#fff" : "black",
                     textTransform: "none",
                   }}
