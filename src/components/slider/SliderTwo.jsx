@@ -70,7 +70,7 @@ const Slider = () => {
                 style={{
                   opacity: showButton ? 1 : 0,
                   transition: "opacity 0.8s ease",
-                  marginTop: "32px",
+               
                   border: "none",
                   cursor: "pointer",
                   padding: 0,
