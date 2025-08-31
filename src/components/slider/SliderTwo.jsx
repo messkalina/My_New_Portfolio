@@ -39,7 +39,7 @@ const Slider = () => {
                   <h3>
                     Smart Design <br />
                     <span> with an edge </span>{" "}
-                    <span className="overlay_effect"></span>
+                    <span></span>
                   </h3>
                 </div>
               </div>

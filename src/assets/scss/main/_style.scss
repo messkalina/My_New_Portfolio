@@ -723,7 +723,7 @@ padding: 0;
   text-transform: uppercase;
   font-weight: 900;
   color: #000; // Solid black color like "Iwaszko"
-  line-height: 1.1;
+  line-height: 1;
   display: inline-block;
   overflow: hidden;
   max-width: 50vw;
@@ -756,6 +756,8 @@ padding: 0;
   position: relative;
   overflow: hidden;
   color: #4749ad ;
+  line-height: 1.2;
+  letter-spacing: 1.2px;
 }
 .overlay_effect {
   position: absolute;

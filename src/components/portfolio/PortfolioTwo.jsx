@@ -208,17 +208,17 @@ const Portfolio = () => {
                                 </div>
                                 {/* Always show project name and meta below the image */}
                                 <div className="portfolio_title_always">
-                                  <h6
+                                  <h5
                                     style={{
-                                      margin: "12px 0 0px 0",
+                                      margin: "24px 0 0px 0",
                                       fontWeight: "600",
                                     }}
                                   >
                                     {val.title}
-                                  </h6>
+                                  </h5>
                                   <span
                                     style={{
-                                      color: "#888",
+                                      color: "#4749ad",
                                       fontSize: "0.95em",
                                     }}
                                   >
