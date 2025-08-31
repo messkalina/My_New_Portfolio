@@ -2039,12 +2039,20 @@ body.modal {
   &:hover {
     color: #fff !important;
     background-color: black;
-    transform: translateY(-3px);
+  
   }
+  
+  &:active {
+    transform: translateY(2px); // Push button down when clicked
+    transition: transform 0.1s ease; // Quick transition for responsive feel
+      transform: translateY(2px);
+  }
+  
   &.fill-black {
     &:hover {
       background-color: #fff;
       color: #000;
+      // transform: translateY(-3px);
     }
   }
   &.btn-outline {
@@ -2052,12 +2060,10 @@ body.modal {
       background: #000000 !important;
       color: #fff !important;
       border-color: #fff !important;
+      
     }
   }
 }
-
-
-
 
 .shane_tm_talk .background {
   position: absolute;
@@ -2473,7 +2479,7 @@ body.modal {
   top: 0px;
   right: 100%;
   background-color: #000;
-  padding: 12px 12px 4px 12px;
+  padding:  12px 12px 4px 12px;
 }
 .shane_tm_settings .icon .svg {
   color: #fff;
