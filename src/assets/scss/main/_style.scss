@@ -1018,15 +1018,17 @@ body.loaded .overlay_effect:after {
 }
 
 .shane_tm_button:hover .button-text {
-  background-color: #5052d8;
+  background-color: #4f51c0;
   // transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 .shane_tm_button:active .button-text {
 
 transform: translateY(2px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  color:#EDE9FE;
+   background-color: #4749ad;
 }
 
 .shane_tm_button:focus {
@@ -1034,7 +1036,7 @@ transform: translateY(2px);
 }
 
 .shane_tm_button:focus-visible {
-  outline: 2px solid #6264eb;
+  outline: 2px solid #F472B6;
   outline-offset: 2px;
 }
 
