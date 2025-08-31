@@ -1024,7 +1024,7 @@ body.loaded .overlay_effect:after {
 .shane_tm_button:hover .button-text {
   background-color: #4f51c0;
   // transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .shane_tm_button:active .button-text {
@@ -1033,6 +1033,7 @@ transform: translateY(2px);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
   color:#EDE9FE;
    background-color: #4749ad;
+    box-shadow: none;
 }
 
 .shane_tm_button:focus {

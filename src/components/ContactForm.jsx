@@ -100,14 +100,15 @@ const ContactForm = () => {
           <div className="tokyo_tm_button">
             <button
               type="submit"
-              className="white-fill-bg btn-outline"
+              className="shane_tm_button"
               style={{
-                transition: "background 0.2s, color 0.2s",
-                backgroundColor: "#000 !important",
-                color: "#fff !important",
+                border: "none",
+                cursor: "pointer",
+                padding: 0,
+                backgroundColor: "transparent",
               }}
             >
-              Send Message
+              <span className="button-text">Send Message</span>
             </button>
           </div>
         </form>
