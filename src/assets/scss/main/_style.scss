@@ -1999,7 +1999,7 @@ body.modal {
 }
 .white-fill-bg {
   text-decoration: none;
-  color: #000 !important;
+  color:  #6264eb !important;
   background-color: #fff !important;
   display: inline-block;
   padding: 15px 48px;
@@ -2020,18 +2020,18 @@ body.modal {
   }
   &.btn-outline {
     background: #fff;
-    color: #000000;
-    border-color: #000;
+    color:  #6264eb;
+    border-color: #6264eb;
   }
   &.btn_sm {
     margin-top: 0;
     padding: 5px 25px !important;
     font-size: 15px !important;
-    text-transform: uppercase;
-    border-color: black;
+    // text-transform: uppercase;
+    border-color: #6264eb;
     &:hover {
       border-color: #fff;
-      transform: translateY(-3px);
+      // transform: translateY(-3px);
     }
   }
 }
@@ -3393,11 +3393,11 @@ body.intro .loader_line:after {
 .home-three,
 .home-three {
   .white-fill-bg.btn_sm {
-    border-color: #000000 !important;
+    border-color: #4749ad !important;
     &:hover {
       border-color: #000 !important;
       background: #000 !important;
-      color: #fff !important;
+      color: #4749ad !important;
     }
   }
 }
