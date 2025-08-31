@@ -9,13 +9,7 @@ const tabList = ["UX/UI Design", "Animation"];
 const tabListContent = [
   {
     porftoliItems: [
-      {
-        img: "/img/portfolio/Port_thumbnail_vetpraxis.png", // Keep as fallback
-        title: "Veterinary Practice Website",
-        meta: "End-to-end UX/UI & Web Development",
-        portfolioLink: "/case-study/vet-website",
-        video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property
-      },
+     
 
       {
         img: "/img/portfolio/Port_thumbnail_Buhdi.png",
@@ -28,6 +22,14 @@ const tabListContent = [
         title: "Orbit Health Website Redesign",
         meta: "Designing Website for Complex Digital Products",
         portfolioLink: "/case-study/orbit-website",
+      },
+
+       {
+        img: "/img/portfolio/Port_thumbnail_vetpraxis.png", // Keep as fallback
+        title: "Veterinary Practice Website",
+        meta: "End-to-end UX/UI & Web Development",
+        portfolioLink: "/case-study/vet-website",
+        video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property
       },
 
       {
