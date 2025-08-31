@@ -235,22 +235,16 @@ const Portfolio = () => {
                   {/* End tabpanel */}
                 </div>
                 {/* End list wrapper */}
-                <div style={{ textAlign: "center", margin: "0px 0 0 0" }}>
+                <div style={{ textAlign: "center", margin: "32px 0 0 0" }}>
                   <button
-                    className="white-fill-bg btn-outline"
-                    data-aos="fade-in"
-                    data-aos-duration="1200"
-                    // style={{
-                    //   padding: "12px px",
-                    //   fontSize: "1.1em",
-
-                    //   border: "2px solid #222",
-                    //   background: "transparent",
-                    //   color: "#222",
-                    //   cursor: "pointer",
-                    //   fontWeight: 600,
-                    //   transition: "background 0.2s, color 0.2s",
-                    // }}
+                    className="shane_tm_button fade-in-delay"
+                    style={{
+                      opacity: 1,
+                      border: "none",
+                      cursor: "pointer",
+                      padding: 0,
+                      backgroundColor: "transparent",
+                    }}
                     onClick={() => {
                       const contactSection = document.getElementById("contact");
                       if (contactSection) {
@@ -258,7 +252,7 @@ const Portfolio = () => {
                       }
                     }}
                   >
-                    Contact
+                    <span className="button-text">Contact</span>
                   </button>
                 </div>
               </Tabs>
