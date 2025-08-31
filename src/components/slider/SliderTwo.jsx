@@ -50,7 +50,7 @@ const Slider = () => {
               <div className="name_wrap">
                 <h4
                   style={{
-                    fontSize: "28px",
+                    fontSize: "32px",
                     fontWeight: 600,
                     color: isMobile ? "#fff" : "black",
                     textTransform: "none",
@@ -61,8 +61,11 @@ const Slider = () => {
                 </h4>
               </div>
 
-              <div className="job_wrap" style={{ marginTop: "-8px" }}>
-                <span className="job">UI/UX & Motion Designer</span>
+              <div
+                className="job_wrap"
+                style={{ marginTop: "-8px", color: "rgb(124, 58, 237)" }}
+              >
+                <span className="job">UI/UX & MOTION DESIGNER</span>
               </div>
 
               <button
@@ -70,7 +73,7 @@ const Slider = () => {
                 style={{
                   opacity: showButton ? 1 : 0,
                   transition: "opacity 0.8s ease",
-               
+
                   border: "none",
                   cursor: "pointer",
                   padding: 0,

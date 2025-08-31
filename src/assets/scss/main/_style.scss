@@ -755,7 +755,7 @@ padding: 0;
   float: left;
   position: relative;
   overflow: hidden;
-  color: #555;
+  color: #4749ad ;
 }
 .overlay_effect {
   position: absolute;
@@ -1012,7 +1012,7 @@ body.loaded .overlay_effect:after {
   font-size: 15px;
   display: inline-block;
   padding: 12px 36px;
-  background-color: #6264eb;
+  background-color: rgb(124, 58, 237);
   color: #fff;
   border-radius: 2px;
   font-weight: 500;
@@ -2023,14 +2023,14 @@ body.modal {
   &.btn-outline {
     background: #fff;
     color:  black;
-    border-color: #6264eb;
+    border-color: rgb(124, 58, 237);
   }
   &.btn_sm {
     margin-top: 0;
     padding: 5px 25px !important;
     font-size: 15px !important;
     // text-transform: uppercase;
-    border-color: #6264eb;
+    border-color: rgb(124, 58, 237);
     &:hover {
       border-color: #fff;
        background-color:#EDE9FE ;
@@ -2040,7 +2040,7 @@ body.modal {
 }
 .white-fill-bg {
   &:hover {
-    color: #6264eb !important;
+    color: rgb(124, 58, 237) !important;
     background-color:#EDE9FE !important;
   
   }
@@ -2061,7 +2061,7 @@ body.modal {
   &.btn-outline {
     &:hover {
       background: #EDE9FE !important;
-      color: #6264eb !important;
+      color: rgb(124, 58, 237) !important;
       border-color: #fff !important;
       
     }
@@ -3507,7 +3507,7 @@ body.intro .loader_line:after {
       font-weight: 500;
       &:hover {
         background: #000 !important;
-        color: #6264eb !important;
+        color: rgb(124, 58, 237) !important;
       }
     }
   }
@@ -3940,7 +3940,7 @@ body.intro .loader_line:after {
 }
 .form-group input:focus,
 .form-group textarea:focus {
-  border: 1.5px solid #6264eb;
+  border: 1.5px solid rgb(124, 58, 237);
   outline: none;
 }
 .form-group textarea {
