@@ -258,7 +258,7 @@ const Portfolio = () => {
                       }
                     }}
                   >
-                    CONTACT
+                    Contact
                   </button>
                 </div>
               </Tabs>
