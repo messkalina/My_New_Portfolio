@@ -65,16 +65,25 @@ const Slider = () => {
                 <span className="job">UI/UX & Motion Designer</span>
               </div>
 
-              <div
+              <button
                 className="shane_tm_button fade-in-delay"
                 style={{
                   opacity: showButton ? 1 : 0,
                   transition: "opacity 0.8s ease",
                   marginTop: "32px",
+                  border: "none",
+                  cursor: "pointer",
+                  padding: 0,
+                  backgroundColor: "transparent",
+                }}
+                onClick={() => {
+                  document.getElementById("portfolio").scrollIntoView({
+                    behavior: "smooth",
+                  });
                 }}
               >
-                <a href="#portfolio">See my work</a>
-              </div>
+                <span className="button-text">See my work</span>
+              </button>
             </div>
           </div>
           {/* End content */}

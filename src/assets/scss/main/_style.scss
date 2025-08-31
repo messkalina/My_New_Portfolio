@@ -1000,29 +1000,57 @@ body.loaded .overlay_effect:after {
   padding-top: 27px;
 }
 .shane_tm_button {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
+  position: relative;
+  overflow: hidden;
+  margin-top: 32px;
+  display: inline-block; /* Change from flex to inline-block */
+  align-self: flex-start; /* Align to the left in flex containers */
 }
-.shane_tm_button a {
-  text-decoration: none;
-  color: #fff;
-  background-color: #7C3AED;
+
+.shane_tm_button .button-text {
   display: inline-block;
-  padding: 13px 48px;
-  border: 2px solid #ffffff;
-  font-family: "Poppins";
-  transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
-  cursor: pointer !important;
-  @media screen and (max-width: 992px) {
-    padding: 8px 25px;
-  }
+  padding: 12px 36px;
+  background-color: #6264eb;
+  color: #fff;
+  border-radius: 2px;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
-.shane_tm_button a:hover {
-  color: #000;
-  background-color: transparent;
-  transform: translateY(-3px);
+
+.shane_tm_button:hover .button-text {
+  background-color: #5052d8;
+  // transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shane_tm_button:active .button-text {
+
+transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shane_tm_button:focus {
+  outline: none;
+}
+
+.shane_tm_button:focus-visible {
+  outline: 2px solid #6264eb;
+  outline-offset: 2px;
+}
+
+/* Override mobile centering for this specific button */
+@media (max-width: 768px) {
+  .mobile-centered-content .shane_tm_button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .mobile-centered-content .shane_tm_button .button-text {
+    text-align: center;
+  }
 }
 
 /*---------------------------------------------------*/
@@ -2456,11 +2484,12 @@ body.modal {
   top: 0px;
   bottom: 0px;
   left: 0px;
-  right: 0px;
+  right:  0px;
   z-index: 1;
 }
 
 @-webkit-keyframes fa-spin {
+  
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
