@@ -23,55 +23,56 @@ const SkillsTwo = () => {
                 justifyContent: "space-around",
                 flexWrap: "wrap",
                 gap: "40px",
+                marginBottom: "32px"
               }}
             >
               {/* Skill 1 */}
-              <div style={{ textAlign: "center", width: "150px" }}>
-                <div style={{ marginBottom: "15px" }}>
+              <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
+                <div style={{ marginBottom: "32px" }}>
                   <img
                     src="/img/svg/browser-ui-svgrepo-com.svg"
                     alt="UX Design"
                     style={{ height: "60px", width: "60px" }}
                   />
                 </div>
-                <h4 style={{ margin: "0", fontSize: "18px" }}>UX Design</h4>
+                <h4 style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>UX Design</h4>
               </div>
 
               {/* Skill 2 */}
-              <div style={{ textAlign: "center", width: "150px" }}>
-                <div style={{ marginBottom: "15px" }}>
+              <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
+                <div style={{ marginBottom: "32px" }}>
                   <img
                     src="/img/svg/vector-svgrepo-com.svg"
                     alt="UI Design"
                     style={{ height: "60px", width: "60px" }}
                   />
                 </div>
-                <h4 style={{ margin: "0", fontSize: "18px" }}>UI Design</h4>
+                <h4 style={{  margin: "0", fontSize: "16px", fontWeight: "600" }}>UI Design</h4>
               </div>
 
               {/* Skill 3 */}
          
 
               {/* Skill 4 */}
-              <div style={{ textAlign: "center", width: "150px" }}>
-                <div style={{ marginBottom: "15px" }}>
+              <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
+                <div style={{ marginBottom: "32px" }}>
                   <img
                     src="/img/svg/animation-svgrepo-com.svg"
                     alt="Motion Design"
                     style={{ height: "60px", width: "60px" }}
                   />
                 </div>
-                <h4 style={{ margin: "0", fontSize: "18px" }}>Motion Design</h4>
+                <h4 style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>Motion Design</h4>
               </div>
-                   <div style={{ textAlign: "center", width: "150px" }}>
-                <div style={{ marginBottom: "15px" }}>
+              <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
+                <div style={{ marginBottom: "32px" }}>
                   <img
                     src="/img/svg/laptop-web-development.svg"
                     alt="Frontend Development"
                     style={{ height: "60px", width: "60px" }}
                   />
                 </div>
-                <h4 style={{ margin: "0", fontSize: "18px" }}> Frontend Fundamentals</h4>
+                <h4 style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>Frontend Fundamentals</h4>
               </div>
 
             </div>
