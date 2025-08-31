@@ -2031,14 +2031,15 @@ body.modal {
     border-color: #6264eb;
     &:hover {
       border-color: #fff;
+       background-color:#EDE9FE ;
       // transform: translateY(-3px);
     }
   }
 }
 .white-fill-bg {
   &:hover {
-    color: #fff !important;
-    background-color: black;
+    color: #6264eb !important;
+    background-color:#EDE9FE !important;
   
   }
   
@@ -2057,8 +2058,8 @@ body.modal {
   }
   &.btn-outline {
     &:hover {
-      background: #000000 !important;
-      color: #fff !important;
+      background: #EDE9FE !important;
+      color: #6264eb !important;
       border-color: #fff !important;
       
     }
@@ -2477,7 +2478,7 @@ body.modal {
 .shane_tm_settings .icon {
   position: absolute;
   top: 0px;
-  right: 100%;
+  right:  100%;
   background-color: #000;
   padding:  12px 12px 4px 12px;
 }
@@ -3401,8 +3402,8 @@ body.intro .loader_line:after {
   .white-fill-bg.btn_sm {
     border-color: #4749ad !important;
     &:hover {
-      border-color: #000 !important;
-      background: #000 !important;
+      border-color:#4749ad !important;
+      background: #EDE9FE !important;
       color: #4749ad !important;
     }
   }
@@ -3504,7 +3505,7 @@ body.intro .loader_line:after {
       font-weight: 500;
       &:hover {
         background: #000 !important;
-        color: #fff !important;
+        color: #6264eb !important;
       }
     }
   }
@@ -4119,4 +4120,16 @@ body.intro .loader_line:after {
   opacity: 0;
   transition: opacity 0.3s, visibility 0.3s;
   white-space: nowrap;
+}
+
+.white-fill-bg.btn-outline.btn_sm {
+  &:hover {
+    a {
+      color: #4749ad !important;
+    }
+  }
+}
+
+.white-fill-bg.btn-outline.btn_sm a {
+  transition: color 0.3s ease;
 }
