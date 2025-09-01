@@ -1082,7 +1082,7 @@ transform: translateY(2px);
   ul.react-tabs__tab-list {
     li {
       text-decoration: none;
-      color: #000;
+      color: #767676;
       font-family: "Poppins";
       font-weight: 500;
       cursor: pointer;
@@ -1098,7 +1098,7 @@ transform: translateY(2px);
         left: 0;
         bottom: -3px;
         width: 0;
-        background: currentcolor;
+        background: rgb(124, 58, 237);
         height: 2px;
         transition: 0.3s;
       }
