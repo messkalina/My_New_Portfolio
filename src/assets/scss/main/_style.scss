@@ -554,17 +554,6 @@ h6 {
 }
 .shane_tm_topbar .menu ul li a {
   text-decoration: none;
-  color: #000;
-  font-weight: 500;
-  font-family: "Poppins";
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.shane_tm_topbar .menu ul li a {
   color: #222;
   position: relative;
   &::before {
@@ -573,7 +562,7 @@ h6 {
     left: 0;
     bottom: -5px;
     width: 0;
-    background: currentcolor;
+    background: rgb(124, 58, 237); // Changed from currentcolor to rgb(124, 58, 237)
     height: 2px;
     transition: 0.3s;
   }
@@ -2484,7 +2473,7 @@ body.modal {
   padding: 40px 20px 33px 30px;
 
   -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -3756,40 +3745,6 @@ body.intro .loader_line:after {
     clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 100%);
   }
 }
-.shane_tm_hero .content .name_wrap h4 {
-  position: relative;
-  font-size: 36px; // Smaller than h3's 72px
-  font-family: "Poppins";
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #000;
-  line-height: 1.1;
-  display: inline-block;
-  overflow: hidden;
-  margin-top: 40px;
-  
-  span {
-    color: transparent;
-    -webkit-text-stroke: 1px #000;
-    padding-left: 2px;
-    
-    @media screen and (max-width: 767px) {
-      -webkit-text-stroke: 1px #fff;
-    }
-  }
-  
-  @media screen and (max-width: 1040px) {
-    font-size: 28px;
-  }
-  
-  @media screen and (max-width: 767px) {
-    font-size: 24px;
-  }
-}
-
-/*---------------------------------------------------*/
-/*	CASE STUDY HERO POSITIONING
-/*---------------------------------------------------*/
 .shane_tm_hero_case_study {
   height: auto !important;
   min-height: auto !important;
