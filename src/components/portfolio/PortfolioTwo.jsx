@@ -237,7 +237,7 @@ const Portfolio = () => {
                   {/* End tabpanel */}
                 </div>
                 {/* End list wrapper */}
-                <div style={{ textAlign: "center", margin: "32px 0 0 0" }}>
+                {/* <div style={{ textAlign: "center", margin: "32px 0 0 0" }}>
                   <button
                     className="shane_tm_button fade-in-delay"
                     style={{
@@ -256,7 +256,7 @@ const Portfolio = () => {
                   >
                     <span className="button-text">Contact</span>
                   </button>
-                </div>
+                </div> */}
               </Tabs>
             </div>
           </div>
