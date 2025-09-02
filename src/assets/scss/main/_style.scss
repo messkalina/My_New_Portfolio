@@ -34,13 +34,13 @@ html {
 }
 body {
   font-family: 'Poppins', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.8rem;                   
   letter-spacing: 0.5px;
   word-wrap: break-word;
   font-weight: 400;
   background-color: #fff;
-  color: #767676;
+  color: #5e5e5e;
   overflow: hidden;
 }
 svg {
@@ -125,7 +125,7 @@ h4 {
 }
 h5 {
   font-size: 20px;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.1px;
 }
 h6 {
   font-size: 16px;
@@ -981,11 +981,11 @@ body.loaded .overlay_effect:after {
   background-color: #000;
   text-transform: uppercase;
   padding: 2px 10px;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 15px;
   color: #ffffff;
   font-family: "Poppins";
-  letter-spacing: 0.8px;
+  letter-spacing: 1.5px;
   margin-bottom: 15px;
   margin-right: 16px;
 }

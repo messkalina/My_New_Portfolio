@@ -221,7 +221,7 @@ const Portfolio = () => {
                                   <span
                                     style={{
                                       color: "#4749ad",
-                                      fontSize: "0.95em",
+                                      fontSize: "1rem",
                                     }}
                                   >
                                     {val.meta}
