@@ -32,7 +32,7 @@ const SkillsTwo = () => {
                   <img
                     src="/img/svg/browser-ui-svgrepo-com.svg"
                     alt="UX Design"
-                    style={{ height: "60px", width: "60px" }}
+                    style={{ height: "42px", width: "42px" }}
                   />
                 </div>
                 <h4 style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>UX Design</h4>
@@ -44,7 +44,7 @@ const SkillsTwo = () => {
                   <img
                     src="/img/svg/vector-svgrepo-com.svg"
                     alt="UI Design"
-                    style={{ height: "60px", width: "60px" }}
+                     style={{ height: "42px", width: "42px" }}
                   />
                 </div>
                 <h4 style={{  margin: "0", fontSize: "16px", fontWeight: "600" }}>UI Design</h4>
@@ -59,7 +59,7 @@ const SkillsTwo = () => {
                   <img
                     src="/img/svg/animation-svgrepo-com.svg"
                     alt="Motion Design"
-                    style={{ height: "60px", width: "60px" }}
+                     style={{ height: "42px", width: "42px" }}
                   />
                 </div>
                 <h4 style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>Motion Design</h4>
@@ -69,7 +69,7 @@ const SkillsTwo = () => {
                   <img
                     src="/img/svg/laptop-web-development.svg"
                     alt="Frontend Development"
-                    style={{ height: "60px", width: "60px" }}
+                    style={{ height: "42px", width: "42px" }}
                   />
                 </div>
                 <h4 style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>Frontend Fundamentals</h4>
