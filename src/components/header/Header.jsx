@@ -35,7 +35,7 @@ const Header = () => {
           <div className="menu ">
             <Scrollspy
               className="anchor_nav"
-              items={["home", "about", "portfolio", "news", "contact"]}
+              items={["home", "portfolio", "about", "contact"]} // Updated order to match your navigation
               currentClassName="current"
               offset={-200}
             >
@@ -43,15 +43,13 @@ const Header = () => {
                 <NavLink to="/#home">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/#about">About</NavLink>
-              </li>
-              <li>
                 <NavLink to="/#portfolio">Portfolio</NavLink>
               </li>
-
+              <li>
+                <NavLink to="/#about">About</NavLink>
+              </li>
               <li
                 className="white-fill-bg btn-outline btn_sm"
-             
                 onMouseEnter={(e) => {
                   const link = e.currentTarget.querySelector("a");
                   if (link) link.style.color = "#fff";
