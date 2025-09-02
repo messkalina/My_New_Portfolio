@@ -48,9 +48,10 @@ const Slider = () => {
             {/* Mobile-centered content wrapper */}
             <div className="mobile-centered-content">
               <div className="name_wrap">
-                <h4
+                <h3
                   style={{
-                    fontSize: "32px",
+                    fontSize: "36px",
+                    letterSpacing: "-0.5px",
                     fontWeight: 700,
                     color: isMobile ? "#fff" : "black",
                     textTransform: "none",
@@ -58,7 +59,7 @@ const Slider = () => {
                   className="mobile-white-text"
                 >
                   Kalina Iwaszko
-                </h4>
+                </h3>
               </div>
 
               <div
