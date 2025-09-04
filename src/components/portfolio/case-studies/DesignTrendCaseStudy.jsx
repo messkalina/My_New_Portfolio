@@ -124,18 +124,32 @@ const DesignTrendCaseStudy = () => {
                   </p>
                 </div>
                 <div
-                  className="shane_tm_button"
+                  className="shane_tm_button fade-in-delay"
                   style={{ marginTop: "32px" }}
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a
-                    href="https://buhdi.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    className="shane_tm_button fade-in-delay"
+                    style={{
+                      marginTop: "32px",
+                      background: "none",
+                      border: "none",
+                      padding: 0,
+                      cursor: "pointer",
+                    }}
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    onClick={() =>
+                      window.open(
+                        "https://buhdi.com/",
+                        "_blank",
+                        "noopener,noreferrer"
+                      )
+                    }
                   >
-                    See Live
-                  </a>
+                    <span className="button-text">See Live</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -480,18 +494,32 @@ const DesignTrendCaseStudy = () => {
                   </ul>
                 </div>
                 <div
-                  className="shane_tm_button"
+                  className="shane_tm_button fade-in-delay"
                   style={{ marginTop: "32px" }}
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a
-                    href="https://buhdi.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    className="shane_tm_button fade-in-delay"
+                    style={{
+                      marginTop: "32px",
+                      background: "none",
+                      border: "none",
+                      padding: 0,
+                      cursor: "pointer",
+                    }}
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    onClick={() =>
+                      window.open(
+                        "https://buhdi.com/",
+                        "_blank",
+                        "noopener,noreferrer"
+                      )
+                    }
                   >
-                    See Live
-                  </a>
+                    <span className="button-text">See Live</span>
+                  </button>
                 </div>
               </div>
               {/* End left */}
@@ -521,7 +549,7 @@ const DesignTrendCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-<div className="shane_tm_section">
+      <div className="shane_tm_section">
         <div className="container">
           <div
             style={{
@@ -534,7 +562,7 @@ const DesignTrendCaseStudy = () => {
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
             <Link
-               to="/case-study/orbit-website"
+              to="/case-study/orbit-website"
               className="back_button"
               style={{
                 float: "right",
