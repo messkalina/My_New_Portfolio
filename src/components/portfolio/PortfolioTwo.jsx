@@ -210,7 +210,7 @@ const Portfolio = () => {
                                 <div className="portfolio_title_always">
                                   <h5
                                     style={{
-                                      margin: "24px 0 4px 0",
+                                      margin: "24px 0 2px 0",
                                       fontWeight: "600",
                                     }}
                                   >
@@ -222,7 +222,7 @@ const Portfolio = () => {
                                       color: "#4749ad",
                                       fontSize: "0.9rem",
                                       fontWeight: "300",
-                                      marginTop: "4px",
+                                      marginTop: "0px",
                                     }}
                                   >
                                     {val.meta}
