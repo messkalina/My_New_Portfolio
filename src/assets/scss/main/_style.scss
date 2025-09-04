@@ -35,7 +35,7 @@ html {
 body {
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.8rem;                   
+  line-height: 1.6rem;                   
   // letter-spacing: 0.5px;
   word-wrap: break-word;
   font-weight: 400;
@@ -2051,7 +2051,7 @@ body.modal {
     // text-transform: uppercase;
     border-color: rgb(124, 58, 237);
     &:hover {
-      border-color: #fff;
+      border-color:rgb(124, 58, 237);
        background-color:#EDE9FE ;
       // transform: translateY(-3px);
     }
@@ -2061,6 +2061,7 @@ body.modal {
   &:hover {
     color: rgb(124, 58, 237) !important;
     background-color:#EDE9FE !important;
+    border: 2px solid rgb(124, 58, 237);
   
   }
   

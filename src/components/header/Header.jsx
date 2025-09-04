@@ -48,17 +48,7 @@ const Header = () => {
               <li>
                 <NavLink to="/#about">About</NavLink>
               </li>
-              <li
-                className="white-fill-bg btn-outline btn_sm"
-                onMouseEnter={(e) => {
-                  const link = e.currentTarget.querySelector("a");
-                  if (link) link.style.color = "#fff";
-                }}
-                onMouseLeave={(e) => {
-                  const link = e.currentTarget.querySelector("a");
-                  if (link) link.style.color = "";
-                }}
-              >
+              <li>
                 <NavLink to="/#contact">Contact</NavLink>
               </li>
             </Scrollspy>
@@ -142,13 +132,8 @@ const Header = () => {
                     Portfolio
                   </a>
                 </li>
-
                 <li>
-                  <a
-                    href="#contact"
-                    onClick={handleClick}
-                    className="white-fill-bg btn-outline btn_sm"
-                  >
+                  <a href="#contact" onClick={handleClick}>
                     Contact
                   </a>
                 </li>
