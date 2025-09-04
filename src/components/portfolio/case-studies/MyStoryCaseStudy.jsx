@@ -112,7 +112,7 @@ const MyStoryCaseStudy = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                  <p className="text" style={{ color: "#767676b9" }}>
+                  <p className="text" >
                     Orbit Health is a Munich-based digital health startup
                     focused on enhancing care for people with Parkinson’s
                     Disease (PD). Its AI-powered solution uses smartwatches to

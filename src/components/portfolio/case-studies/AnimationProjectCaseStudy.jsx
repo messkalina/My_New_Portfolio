@@ -125,13 +125,24 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a
-                    href="https://tierarzt-leberberg.at/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    className="shane_tm_button"
+                    style={{
+                      background: "none",
+                      border: "none",
+                      padding: 0,
+                      cursor: "pointer",
+                    }}
+                    onClick={() =>
+                      window.open(
+                        "https://tierarzt-leberberg.at/",
+                        "_blank",
+                        "noopener,noreferrer"
+                      )
+                    }
                   >
-                    See Live
-                  </a>
+                    <span className="button-text">See Live</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -427,13 +438,24 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a
-                    href="https://tierarzt-leberberg.at/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    className="shane_tm_button"
+                    style={{
+                      background: "none",
+                      border: "none",
+                      padding: 0,
+                      cursor: "pointer",
+                    }}
+                    onClick={() =>
+                      window.open(
+                        "https://tierarzt-leberberg.at/",
+                        "_blank",
+                        "noopener,noreferrer"
+                      )
+                    }
                   >
-                    See Live
-                  </a>
+                    <span className="button-text">See Live</span>
+                  </button>
                 </div>
               </div>
               {/* End right */}
