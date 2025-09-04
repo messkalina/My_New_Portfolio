@@ -9,8 +9,6 @@ const tabList = ["UX/UI Design", "Animation"];
 const tabListContent = [
   {
     porftoliItems: [
-     
-
       {
         img: "/img/portfolio/Port_thumbnail_Buhdi.png",
         title: "Buhdi – Mindful ADHD Support App",
@@ -24,7 +22,7 @@ const tabListContent = [
         portfolioLink: "/case-study/orbit-website",
       },
 
-       {
+      {
         img: "/img/portfolio/Port_thumbnail_vetpraxis.png", // Keep as fallback
         title: "Veterinary Practice Website",
         meta: "End-to-end UX/UI & Web Development",
@@ -212,16 +210,19 @@ const Portfolio = () => {
                                 <div className="portfolio_title_always">
                                   <h5
                                     style={{
-                                      margin: "24px 0 0px 0",
+                                      margin: "24px 0 4px 0",
                                       fontWeight: "600",
                                     }}
                                   >
                                     {val.title}
                                   </h5>
                                   <span
+                                    className="portfolio-meta-description"
                                     style={{
                                       color: "#4749ad",
-                                      fontSize: "1rem",
+                                      fontSize: "0.9rem",
+                                      fontWeight: "300",
+                                      marginTop: "4px",
                                     }}
                                   >
                                     {val.meta}

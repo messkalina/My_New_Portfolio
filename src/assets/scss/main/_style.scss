@@ -745,7 +745,7 @@ padding: 0;
   }
 }
 .shane_tm_hero .content .job {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   font-family: "Poppins";
   float: left;
@@ -4120,4 +4120,10 @@ body.intro .loader_line:after {
 
 .white-fill-bg.btn-outline.btn_sm a {
   transition: color 0.3s ease;
+}
+.shane_tm_portfolio .portfolio_list .portfolio_title_always span.portfolio-meta-description,
+.portfolio-meta-description {
+  line-height: 1.1rem !important;
+  display: inline-block !important;
+  max-width: 100% !important;
 }
