@@ -87,7 +87,7 @@ const MyStoryCaseStudy = () => {
               data-aos-duration="1200"
             >
               <img
-                src="/img/portfolio/case-study/3_pages_cover_sm.png"
+                src="/img/portfolio/case-study/3_pages_cover_cmp.png"
                 alt="Orbit Health Wireframes"
                 // style={{
                 //   width: "100%",
