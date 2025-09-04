@@ -85,7 +85,7 @@ const DesignTrendCaseStudy = () => {
               data-aos-duration="1200"
             >
               <img
-                src="/img/portfolio/case-study/Mockup_3_screenssm.png"
+                src="/img/portfolio/case-study/Mockup_3_screens.png"
                 alt="App Screens"
               />
             </div>
