@@ -103,7 +103,7 @@ const DesignTrendCaseStudy = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                  <p className="text" style={{ color: "#767676b9" }}>
+                  <p className="text">
                     Buhdi is a mindful, <strong>AI-powered</strong> task
                     management app designed for adults with ADHD. Traditional
                     productivity tools often fail neurodivergent users due to
@@ -114,7 +114,7 @@ const DesignTrendCaseStudy = () => {
                     pace.
                   </p>
                   <br />
-                  <p className="text" style={{ color: "#767676b9" }}>
+                  <p className="text">
                     I joined the project early in{" "}
                     <strong>MVP development</strong> and worked closely with the
                     founder to shape both the core product experience and
