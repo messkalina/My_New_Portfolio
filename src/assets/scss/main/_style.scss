@@ -4127,3 +4127,9 @@ body.intro .loader_line:after {
   display: inline-block !important;
   max-width: 100% !important;
 }
+
+@media (max-width: 767px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}

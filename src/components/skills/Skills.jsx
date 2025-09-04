@@ -22,15 +22,16 @@ const Skills = () => {
                     >
                       <div className="tokyo_progress">
                         <img
-                        src="/img/mailbox2.svg"
-                        alt="Mailbox illustration"
-                        style={{
-                          width: "800px", minWidth: "800px", maxWidth: "none",
-                          // maxWidth: "100%",
-                          display: "block",
-                        }}
+                          src="/img/mailbox2.svg"
+                          alt="Mailbox illustration"
+                          className="hide-on-mobile"
+                          style={{
+                            width: "800px", 
+                            minWidth: "800px", 
+                            maxWidth: "none",
+                            display: "block"
+                          }}
                         />
-                        
                 </div>
               </div>
               {/* End .right */}
