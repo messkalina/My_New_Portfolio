@@ -3,14 +3,28 @@ import { useState } from "react";
 const ContactForm = () => {
   const [status, setStatus] = useState("");
 
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
+    const formData = {};
+
+    // Convert form data to object
+    new FormData(form).forEach((value, key) => {
+      formData[key] = value;
+    });
 
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(new FormData(form)).toString(),
+      body: encode({ "form-name": "contact", ...formData }),
     })
       .then(() => {
         setStatus("success");
@@ -40,20 +54,18 @@ const ContactForm = () => {
 
       {status !== "success" && (
         <form
-          className="contact-form"
           name="contact"
-          method="POST"
+          method="post"
+          action="/thank-you/"
           data-netlify="true"
-          netlify-honeypot="bot-field"
+          data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
         >
-          {/* Hidden input required for Netlify forms */}
+          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="contact" />
-          <p hidden>
-            <label>
-              Don't fill this out: <input name="bot-field" />
-            </label>
-          </p>
+          <div hidden>
+            <input name="bot-field" />
+          </div>
 
           <div className="form-group">
             <label htmlFor="name">Name</label>
