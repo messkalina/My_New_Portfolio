@@ -7,7 +7,7 @@ const ContactForm = () => {
     message: "",
     consent: false,
   });
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -20,23 +20,58 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!form.consent) return;
-    // TODO: handle sending the form (API, Email, etc)
-    setSubmitted(true);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({
+        "form-name": "contact",
+        ...form,
+      }).toString(),
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error("Network response was not ok");
+        setStatus("success");
+        setForm({ name: "", email: "", message: "", consent: false });
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        setStatus("error");
+      });
   };
 
   return (
     <section className="contact-section">
       <h2 className="contact-title">Contact Me</h2>
-      {submitted ? (
+
+      {status === "success" && (
         <div className="contact-success">
           <p>Thank you for your message! I will get back to you soon.</p>
         </div>
-      ) : (
+      )}
+
+      {status === "error" && (
+        <div className="contact-error">
+          <p>Sorry, there was an error. Please try again.</p>
+        </div>
+      )}
+
+      {status !== "success" && (
         <form
           className="contact-form"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
-          autoComplete="off"
         >
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden>
+            <label>
+              Don't fill this out: <input name="bot-field" />
+            </label>
+          </p>
+
           <div className="form-group">
             <label htmlFor="name">Name*</label>
             <input
@@ -92,9 +127,7 @@ const ContactForm = () => {
               >
                 privacy policy
               </a>{" "}
-              of this website. I am aware that my data will be used solely for
-              the purpose of responding to my enquiry.{" "}
-              {/* <span style={{ color: "#f52225" }}>*</span> */}
+              of this website.
             </label>
           </div>
           <div className="tokyo_tm_button">
