@@ -47,6 +47,15 @@ const AllRouter = () => {
         <Route path="/case-study/motion04" element={<Motion04 />} />
         <Route path="/case-study/motion05" element={<Motion05 />} />
         <Route path="/case-study/motion06" element={<Motion06 />} />
+         <Route
+          path="/cv"
+          element={
+            (() => {
+              window.location.replace("/Kalina_Iwaszko_CV_references.pdf");
+              return null;
+            })()
+          }
+        />
 
         {/* Catch-all route for 404 Not Found */}
         <Route path="*" element={<NotFound />} />
