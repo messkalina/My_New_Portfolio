@@ -16,6 +16,7 @@ import Motion05 from "../components/portfolio/case-studies/motion05";
 import Motion06 from "../components/portfolio/case-studies/motion06";
 import PrivacyPolicy from "../components/PrivacyPolicy";
 import Impressum from "../components/Impressum";
+   import RedirectToCV from "../components/RedirectToCV";
 
 const AllRouter = () => {
   return (
@@ -47,15 +48,11 @@ const AllRouter = () => {
         <Route path="/case-study/motion04" element={<Motion04 />} />
         <Route path="/case-study/motion05" element={<Motion05 />} />
         <Route path="/case-study/motion06" element={<Motion06 />} />
-         <Route
-          path="/cv"
-          element={
-            (() => {
-              window.location.replace("/Kalina_Iwaszko_CV_references.pdf");
-              return null;
-            })()
-          }
-        />
+     
+
+<Route path="/cv" element={<RedirectToCV />} />
+        
+     
 
         {/* Catch-all route for 404 Not Found */}
         <Route path="*" element={<NotFound />} />
