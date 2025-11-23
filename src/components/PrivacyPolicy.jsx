@@ -76,7 +76,7 @@ const PrivacyPolicy = () => {
                   <p>
                     Kalina Iwaszko
                     <br />
-                    Rupprechtstr. 30
+                    Rupprechtstr. 28
                     <br />
                     10317 Berlin, Germany
                     <br />
@@ -223,7 +223,7 @@ const PrivacyPolicy = () => {
                     <p>
                       Kalina Iwaszko
                       <br />
-                      Rupprechtstr. 30
+                      Rupprechtstr. 28
                       <br />
                       10317 Berlin, Deutschland
                       <br />

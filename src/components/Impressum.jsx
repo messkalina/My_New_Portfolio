@@ -65,7 +65,7 @@ const Impressum = () => {
                   <p>
                     Kalina Iwaszko
                     <br />
-                    Rupprechtstr. 30
+                    Rupprechtstr. 28
                     <br />
                     10317 Berlin
                     <br />
