@@ -102,14 +102,21 @@ const AnimationProjectCaseStudy = () => {
               >
                 <div className="top">
                   <p className="text">
-                    A new veterinary practice in Vienna needed more than just a
-                    website—they needed a digital identity that reflected their
-                    business and a functional tool for client bookings.
+                    Tierarztpraxis Leberberg is a modern veterinary practice in
+                    Vienna. They needed their first-ever website to reflect
+                    their professional yet warm personality, build client trust,
+                    and make it easier for pet owners to contact and book
+                    appointments.
                   </p>
                   <br />
                   <p>
-                     This project taught me the value of leveraging available technology and experience to get the job done, acting as UX/UI and Motion
-                    designer and a developer for the initial launch.
+                    I led this project end-to-end —{" "}
+                    <strong>designing the UX/UI</strong> and fully{" "}
+                    <strong>developing the website </strong> from scratch using
+                    HTML, CSS, javascript and React js library. I didn’t use any
+                    website editors or builders - a deliberate choice to deepen
+                    my skills in web development and create a product where{" "}
+                    <strong>design and code are tightly connected</strong>.
                   </p>
                 </div>
                 <div
@@ -130,7 +137,7 @@ const AnimationProjectCaseStudy = () => {
                       window.open(
                         "https://tierarzt-leberberg.at/",
                         "_blank",
-                        "noopener,noreferrer",
+                        "noopener,noreferrer"
                       )
                     }
                   >
@@ -156,7 +163,8 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <span>Challenge</span>
                   <h3>
-                    Designing and Developing Effective Bussiness Website Agile Way
+                    Designing and Developing Effective Bussiness Website from
+                    Scratch
                   </h3>
                 </div>
                 <div
@@ -165,10 +173,8 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    My goal was to build a site that felt as warm as the clinic itself.
-                    I took a two-step approach: shipping a working site fast to
-                    meet the business launch date and then iterating into a more
-                    polished, high-end design.
+                    The practice had no existing digital presence, so the site
+                    had to be designed from the ground up. It needed to feel:
                   </p>
                   <ul className="case-study-list">
                     <li>
@@ -258,7 +264,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
-                  <h3>The AI-powered workflow for effective delivery</h3>
+                  <h3>Design and Development Aligned from Day One</h3>
                 </div>
                 <div
                   className="text"
@@ -266,23 +272,40 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                  Instead of starting from a blank canvas, I used an AI-forward workflow to move from data to structure in a short time.
+                    Using the clinic’s brand assets (logo, colors, tone), I
+                    created a responsive, emotionally engaging site experience:
                   </p>
                   <ul className="case-study-list">
                     <li>
-                    Sitemap: Using Relume’s AI platyform, I transformed the client’s raw copy into a logical Information Architecture.
+                      Designed the full UX and UI system in{" "}
+                      <strong>Figma</strong>
                     </li>
                     <li>
-                Rapid Wireframing: I leveraged the Relume component library to ideate different page sections, allowing me to test layouts and design patterns instantly.
+                      Created <strong>high-fidelity mid-fi wireframes</strong>{" "}
+                      and a clickable prototype for feedback
                     </li>
                     <li>
-                Seamless Handoff: Exporting these mid-fidelity wireframes to Figma gave me a foundation of styles and components already mapped to the structure, saving hours of manual setup.
+                      Developed custom <strong>motion design</strong> in the
+                      homepage hero
                     </li>
                     <li>
-                      Built the site in <strong>React + React-Bootstrap</strong>  and deployed via Netlify service. This gave me total control over the UX, higher performance, and a cost-effective hosting solution that a professional developer could easily take over later.The objective was speed, flexibility and scalability. I used Cursor AI as my coding partner.
-
+                      Built the site in <strong>React + React-Bootstrap</strong>
                     </li>
-                </ul>
+                    <li>
+                      Implemented <strong>SEO basics</strong> and{" "}
+                      <strong>analytics</strong>
+                    </li>
+                    <li>
+                      Used progressive disclosure to keep the site clear and
+                      digestible
+                    </li>
+                  </ul>
+                  <p>
+                    This was also my first time delivering a full production
+                    build in React for a real client—an experience that
+                    sharpened both my frontend skills and my ability to debug
+                    design decisions in context.
+                  </p>
                 </div>
               </div>
               {/* End right */}
@@ -302,30 +325,35 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Process</span>
-                  <h3>Leveraging Tech for Lean UX</h3>
+                  <span>Contributions</span>
+                  <h3>From Design to Development</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>Following Lean UX principles, I focused on shipping a functional "Minimum Viable Product" to get the business live. </p>
+                  <p>My key work included: </p>
                   <ul className="case-study-list">
                     <li>
-                      I designed responsive UI/UX and built interactive prototypes in Figma and used Relume AI platform to speed up ideation phase
+                      Led the project from{" "}
+                      <strong>discovery to deployment</strong>
                     </li>
                     <li>
-                      Community Testing: I validated the MVP via the Career Foundry and Google UX communities. Their feedback helped me iron out mobile responsiveness flaws before the official launch.
+                      Designed <strong>responsive</strong> UI/UX and built
+                      interactive prototypes
                     </li>
                     <li>
                       <strong>Coded</strong> the site in <strong>React</strong>{" "}
-                      using Cursor AI coding editor for support and debugging
+                      without using web editors
                     </li>
                     <li>
-                      I created custom <strong>motion design</strong> elements in Adobe After Effects
+                      Created custom <strong>motion design</strong> elements
                     </li>
-      
+                    <li>
+                      Set up <strong>SEO</strong> and <strong>analytics</strong>{" "}
+                      tracking
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -340,7 +368,7 @@ const AnimationProjectCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Wireframessm.png",
+                        "/img/portfolio/case-study/Wireframessm.png"
                       )
                     }
                   />
@@ -370,7 +398,7 @@ const AnimationProjectCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Desktop_3_screens.png",
+                        "/img/portfolio/case-study/Desktop_3_screens.png"
                       )
                     }
                   />
@@ -388,8 +416,8 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Refinement</span>
-                  <h3>Iterating for Human Connection</h3>
+                  <span>Outcome</span>
+                  <h3>A Playful, Professional Site That Clients Love</h3>
                 </div>
                 <div
                   className="text"
@@ -397,23 +425,13 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                   Once the MVP was live and receiving praise, I pivoted to a high-fidelity iteration to maximize "the pop factor" and trust.
+                    The new website launched successfully and received
+                    <strong> enthusiastic feedback</strong> from the
+                    clinic—especially the animated hero section, which helped
+                    visually reinforce their values. The design now enables
+                    clear service communication and offers an intuitive
+                    experience for both new and returning clients.
                   </p>
-                   <ul className="case-study-list">
-                    <li>
-                      Color Strategy: I evolved the palette from a simple Green/White to a sophisticated trio: Emerald Green (Primary), Warm Orange (Action/CTA), and Soft White (Neutral).
-                    </li>
-                    <li>
-                      Typography & Content: I used Gemini to refine the copy for a more inviting tone and selected fonts that balanced authority with friendliness.
-                    </li>
-                    <li>
-                      Social Proof: Integrated Google Review widgets and testimonials to capitalize on the practice’s early success.
-                    </li>
-                    <li>
-                    Art Direction: I provided creative direction for new photography and a video tour to ensure the digital space felt as premium as the physical clinic.
-                    </li>
-      
-                  </ul>
                 </div>
                 <div
                   className="shane_tm_button"
@@ -432,7 +450,7 @@ const AnimationProjectCaseStudy = () => {
                       window.open(
                         "https://tierarzt-leberberg.at/",
                         "_blank",
-                        "noopener,noreferrer",
+                        "noopener,noreferrer"
                       )
                     }
                   >
@@ -458,7 +476,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Outcome</span>
+                  <span>Takeaways</span>
                   <h3>Blending Design & Development for Impact</h3>
                 </div>
                 <div
@@ -467,23 +485,14 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                  The final design was not just a visual upgrade—it was a strategic asset. By handling the IA, design, code, and art direction, I delivered a product that was:
-
+                    This project underscored the value of small design
+                    details—like subtle motion—in shaping perception and trust.
+                    More importantly,{" "}
+                    <strong>building the product from scratch</strong> taught me
+                    how design and development feed into each other, and gave me
+                    a <strong>stronger process</strong> for aligning the two
+                    from day one.
                   </p>
-                    <ul className="case-study-list">
-                    <li>
-Fast to market (using AI-assisted wireframing and coding)</li>
-                    <li>
-Technically sound (React-based and ready for a dev-handoff)</li>
-                    <li>
-                     Human-centric (Validated by testers and loved by real clients)
-                    </li>
-                    <li>
-                      I created custom <strong>motion design</strong> elements in Adobe After Effects
-                    </li>
-      
-                  </ul>
-                  <p>  The result was a live, functional website delivered on time for the business launch, which the client’s customers have already praised for its aesthetics and ease of use. The client is now successfully booking appointments through the site, and the project is ready for its next phase of professional development with a clean, well-documented Figma file. </p>
                 </div>
               </div>
               {/* End left */}
@@ -497,7 +506,7 @@ Technically sound (React-based and ready for a dev-handoff)</li>
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/contact_page_mobile2.png",
+                        "/img/portfolio/case-study/contact_page_mobile2.png"
                       )
                     }
                   />
