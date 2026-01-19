@@ -112,31 +112,7 @@ const AnimationProjectCaseStudy = () => {
                     designer and a developer for the initial launch.
                   </p>
                 </div>
-                <div
-                  className="shane_tm_button"
-                  style={{ marginTop: "32px" }}
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <button
-                    className="shane_tm_button"
-                    style={{
-                      background: "none",
-                      border: "none",
-                      padding: 0,
-                      cursor: "pointer",
-                    }}
-                    onClick={() =>
-                      window.open(
-                        "https://tierarzt-leberberg.at/",
-                        "_blank",
-                        "noopener,noreferrer",
-                      )
-                    }
-                  >
-                    <span className="button-text">See Live</span>
-                  </button>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -415,7 +391,7 @@ const AnimationProjectCaseStudy = () => {
       
                   </ul>
                 </div>
-                <div
+                {/* <div
                   className="shane_tm_button"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -438,7 +414,7 @@ const AnimationProjectCaseStudy = () => {
                   >
                     <span className="button-text">See Live</span>
                   </button>
-                </div>
+                </div> */}
               </div>
               {/* End right */}
             </div>
@@ -484,6 +460,31 @@ Technically sound (React-based and ready for a dev-handoff)</li>
       
                   </ul>
                   <p>  The result was a live, functional website delivered on time for the business launch, which the client’s customers have already praised for its aesthetics and ease of use. The client is now successfully booking appointments through the site, and the project is ready for its next phase of professional development with a clean, well-documented Figma file. </p>
+                </div>
+                <div
+                  className="shane_tm_button"
+                  style={{ marginTop: "32px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <button
+                    className="shane_tm_button"
+                    style={{
+                      background: "none",
+                      border: "none",
+                      padding: 0,
+                      cursor: "pointer",
+                    }}
+                    onClick={() =>
+                      window.open(
+                        "https://tierarzt-leberberg.at/",
+                        "_blank",
+                        "noopener,noreferrer",
+                      )
+                    }
+                  >
+                    <span className="button-text">See Live</span>
+                  </button>
                 </div>
               </div>
               {/* End left */}
