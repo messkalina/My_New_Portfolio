@@ -192,9 +192,25 @@ const AnimationProjectCaseStudy = () => {
               </div>
               {/* End right */}
             </div>
+             <div className="content">
+          <div className="shane_tm_section">
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <img
+                src="/img/portfolio/case-study/home_screen_team_big.png"
+                alt="App Screens"
+              />
+            </div>
+          </div>
+        </div>
           </div>
           {/* End container */}
         </div>
+        
       </div>
       {/* Design Process Section - Image left, Text right */}
       <div className="shane_tm_section">
