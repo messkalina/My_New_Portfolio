@@ -55,24 +55,46 @@ const AnimationProjectCaseStudy = () => {
       {/* Timeline section */}
       <div className="shane_tm_section">
         <div className="container">
-          <div
-            className="hero_description"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
-            <p
+        </div>
+      </div>
+<div className="shane_tm_hero_case_study">
+        <div className="container">
+          <div className="content">
+            <div className="shane_tm_section">
+              <div
+                className="case-study-intro-section"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <div className="top">
+                 <p
               style={{
                 fontWeight: 600,
                 fontSize: "14px",
-                marginBottom: "60px",
+              
               }}
             >
               Timeline: <span className="timeline-fine">April – May 2025</span>
             </p>
+            <br />
+
+                  <p className="text">
+                    A new veterinary practice in Vienna needed more than just a
+                    website—they needed a digital identity that reflected their
+                    business and a functional tool for client bookings.
+                  </p>
+                  <br />
+                  <p>
+                     This project taught me the value of leveraging available technology and experience to get the job done, acting as UX/UI and Motion
+                    designer and a developer for the initial launch.
+                  </p>
+                </div>
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
       <div className="container">
         <div className="content">
           <div className="shane_tm_section">
@@ -91,40 +113,14 @@ const AnimationProjectCaseStudy = () => {
         </div>
       </div>
 
-      <div className="shane_tm_hero_case_study">
-        <div className="container">
-          <div className="content">
-            <div className="shane_tm_section">
-              <div
-                className="case-study-intro-section"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <div className="top">
-                  <p className="text">
-                    A new veterinary practice in Vienna needed more than just a
-                    website—they needed a digital identity that reflected their
-                    business and a functional tool for client bookings.
-                  </p>
-                  <br />
-                  <p>
-                     This project taught me the value of leveraging available technology and experience to get the job done, acting as UX/UI and Motion
-                    designer and a developer for the initial launch.
-                  </p>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       {/* Case study description section (challenge, etc.) */}
       <div className="shane_tm_section" id="animationproject-challenge">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="right">
+              <div className="left">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -192,7 +188,7 @@ const AnimationProjectCaseStudy = () => {
               </div>
               {/* End right */}
             </div>
-             <div className="content">
+        <div className="content">
           <div className="shane_tm_section">
             <div
               className="full-image-section"
@@ -201,13 +197,13 @@ const AnimationProjectCaseStudy = () => {
               data-aos-duration="1200"
             >
               <img
-                src="/img/portfolio/case-study/home_screen_team_big.png"
+                src="/img/portfolio/case-study/Lebensberg_ideation.png"
                 alt="App Screens"
               />
             </div>
           </div>
-        </div>
           </div>
+        </div>
           {/* End container */}
         </div>
         
@@ -279,6 +275,21 @@ const AnimationProjectCaseStudy = () => {
               </div>
               {/* End right */}
             </div>
+             <div className="content">
+          <div className="shane_tm_section">
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <img
+                src="/img/portfolio/case-study/Lebensberg_ideation.png"
+                alt="App Screens"
+              />
+            </div>
+          </div>
+          </div>
           </div>
           {/* End container */}
         </div>
@@ -507,20 +518,25 @@ Technically sound (React-based and ready for a dev-handoff)</li>
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/contact_page_mobile2.png"
-                    alt="Wireframe"
+                  <video
+                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/contact_page_mobile2.png",
-                      )
-                    }
+                    style={{ width: "100%" }}
+                    // onClick={() =>
+                    //   handleImageClick(
+                    //     "/img/portfolio/case-study/Phone _mockup02.mp4"
+                    //   )
+                    // }
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    // controls removed for background effect
+                    poster="/img/portfolio/case-study/Phone _mockup02.mp4" // Optional: show image before play
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Contact form</p>
+                    <p>Mobile navigation</p>
                   </div>
                 </div>
               </div>
