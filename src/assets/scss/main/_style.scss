@@ -897,7 +897,7 @@ body.loaded .overlay_effect:after {
   height: auto;
   clear: both;
   float: left;
-  padding: 150px 0px;
+  padding: 60px 0px 0px 0px;
   @media screen and (max-width: 992px) {
     padding: 60px 0px;
   }
@@ -3989,8 +3989,8 @@ body.intro .loader_line:after {
   }
 }
 .full-image-section {
-  margin-top: 56px;
-  margin-bottom: 56px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 
