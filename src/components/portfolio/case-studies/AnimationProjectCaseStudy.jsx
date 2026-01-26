@@ -311,7 +311,7 @@ const AnimationProjectCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="right">
+              <div className="left">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -516,7 +516,7 @@ const AnimationProjectCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="right">
+              <div className="left">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
