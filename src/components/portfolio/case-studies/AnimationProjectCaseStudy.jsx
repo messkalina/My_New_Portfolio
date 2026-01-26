@@ -54,10 +54,9 @@ const AnimationProjectCaseStudy = () => {
 
       {/* Timeline section */}
       <div className="shane_tm_section">
-        <div className="container">
-        </div>
+        <div className="container"></div>
       </div>
-<div className="shane_tm_hero_case_study">
+      <div className="shane_tm_hero_case_study">
         <div className="container">
           <div className="content">
             <div className="shane_tm_section">
@@ -67,16 +66,16 @@ const AnimationProjectCaseStudy = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                 <p
-              style={{
-                fontWeight: 600,
-                fontSize: "14px",
-              
-              }}
-            >
-              Timeline: <span className="timeline-fine">April – May 2025</span>
-            </p>
-            <br />
+                  <p
+                    style={{
+                      fontWeight: 600,
+                      fontSize: "14px",
+                    }}
+                  >
+                    Timeline:{" "}
+                    <span className="timeline-fine">April – May 2025</span>
+                  </p>
+                  <br />
 
                   <p className="text">
                     A new veterinary practice in Vienna needed more than just a
@@ -85,11 +84,12 @@ const AnimationProjectCaseStudy = () => {
                   </p>
                   <br />
                   <p>
-                     This project taught me the value of leveraging available technology and experience to get the job done, acting as UX/UI and Motion
-                    designer and a developer for the initial launch.
+                    This project taught me the value of leveraging available
+                    technology and experience to get the job done, acting as
+                    UX/UI and Motion designer and a developer for the initial
+                    launch.
                   </p>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -113,8 +113,6 @@ const AnimationProjectCaseStudy = () => {
         </div>
       </div>
 
-      
-
       {/* Case study description section (challenge, etc.) */}
       <div className="shane_tm_section" id="animationproject-challenge">
         <div className="shane_tm_about">
@@ -128,7 +126,8 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <span>Challenge</span>
                   <h3>
-                    Designing and Developing Effective Bussiness Website Agile Way
+                    Designing and Developing Effective Bussiness Website Agile
+                    Way
                   </h3>
                 </div>
                 <div
@@ -137,10 +136,10 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    My goal was to build a site that felt as warm as the clinic itself.
-                    I took a two-step approach: shipping a working site fast to
-                    meet the business launch date and then iterating into a more
-                    polished, high-end design.
+                    My goal was to build a site that felt as warm as the clinic
+                    itself. I took a two-step approach: shipping a working site
+                    fast to meet the business launch date and then iterating
+                    into a more polished, high-end design.
                   </p>
                   <ul className="case-study-list">
                     <li>
@@ -188,25 +187,24 @@ const AnimationProjectCaseStudy = () => {
               </div>
               {/* End right */}
             </div>
-        <div className="content">
-          <div className="shane_tm_section">
-            <div
-              className="full-image-section"
-              style={{ width: "100%" }}
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <img
-                src="/img/portfolio/case-study/Lebensberg_ideation.png"
-                alt="App Screens"
-              />
+            <div className="content">
+              <div className="shane_tm_section">
+                <div
+                  className="full-image-section"
+                  style={{ width: "100%" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/case-study/Lebensberg_ideation.png"
+                    alt="App Screens"
+                  />
+                </div>
+              </div>
             </div>
           </div>
-          </div>
-        </div>
           {/* End container */}
         </div>
-        
       </div>
       {/* Design Process Section - Image left, Text right */}
       <div className="shane_tm_section">
@@ -254,42 +252,56 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                  Instead of starting from a blank canvas, I used an AI-forward workflow to move from data to structure in a short time.
+                    Instead of starting from a blank canvas, I used an
+                    AI-forward workflow to move from data to structure in a
+                    short time.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                    Sitemap: Using Relume’s AI platyform, I transformed the client’s raw copy into a logical Information Architecture.
+                      Sitemap: Using Relume’s AI platyform, I transformed the
+                      client’s raw copy into a logical Information Architecture.
                     </li>
                     <li>
-                Rapid Wireframing: I leveraged the Relume component library to ideate different page sections, allowing me to test layouts and design patterns instantly.
+                      Rapid Wireframing: I leveraged the Relume component
+                      library to ideate different page sections, allowing me to
+                      test layouts and design patterns instantly.
                     </li>
                     <li>
-                Seamless Handoff: Exporting these mid-fidelity wireframes to Figma gave me a foundation of styles and components already mapped to the structure, saving hours of manual setup.
+                      Seamless Handoff: Exporting these mid-fidelity wireframes
+                      to Figma gave me a foundation of styles and components
+                      already mapped to the structure, saving hours of manual
+                      setup.
                     </li>
                     <li>
-                      Built the site in <strong>React + React-Bootstrap</strong>  and deployed via Netlify service. This gave me total control over the UX, higher performance, and a cost-effective hosting solution that a professional developer could easily take over later.The objective was speed, flexibility and scalability. I used Cursor AI as my coding partner.
-
+                      Built the site in <strong>React + React-Bootstrap</strong>{" "}
+                      and deployed via Netlify service. This gave me total
+                      control over the UX, higher performance, and a
+                      cost-effective hosting solution that a professional
+                      developer could easily take over later.The objective was
+                      speed, flexibility and scalability. I used Cursor AI as my
+                      coding partner.
                     </li>
-                </ul>
+                  </ul>
                 </div>
               </div>
               {/* End right */}
             </div>
-             <div className="content">
-          <div className="shane_tm_section">
-            <div
-              className="full-image-section"
-              style={{ width: "100%" }}
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <img
-                src="/img/portfolio/case-study/Lebensberg_ideation.png"
-                alt="App Screens"
-              />
+            <div className="content">
+              <div className="shane_tm_section">
+                <div
+                  className="full-image-section"
+                  style={{ width: "100%" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/case-study/Lebensberg_ideation.png"
+                    alt="App Screens"
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-          </div>
+            
           </div>
           {/* End container */}
         </div>
@@ -313,22 +325,31 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>Following Lean UX principles, I focused on shipping a functional "Minimum Viable Product" to get the business live. </p>
+                  <p>
+                    Following Lean UX principles, I focused on shipping a
+                    functional "Minimum Viable Product" to get the business
+                    live.{" "}
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      I designed responsive UI/UX and built interactive prototypes in Figma and used Relume AI platform to speed up ideation phase
+                      I designed responsive UI/UX and built interactive
+                      prototypes in Figma and used Relume AI platform to speed
+                      up ideation phase
                     </li>
                     <li>
-                      Community Testing: I validated the MVP via the Career Foundry and Google UX communities. Their feedback helped me iron out mobile responsiveness flaws before the official launch.
+                      Community Testing: I validated the MVP via the Career
+                      Foundry and Google UX communities. Their feedback helped
+                      me iron out mobile responsiveness flaws before the
+                      official launch.
                     </li>
                     <li>
                       <strong>Coded</strong> the site in <strong>React</strong>{" "}
                       using Cursor AI coding editor for support and debugging
                     </li>
                     <li>
-                      I created custom <strong>motion design</strong> elements in Adobe After Effects
+                      I created custom <strong>motion design</strong> elements
+                      in Adobe After Effects
                     </li>
-      
                   </ul>
                 </div>
               </div>
@@ -354,6 +375,21 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
               {/* End right */}
+            </div>
+                <div className="content">
+              <div className="shane_tm_section">
+                <div
+                  className="full-image-section"
+                  style={{ width: "100%" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/case-study/Lebensberg_ideation.png"
+                    alt="App Screens"
+                  />
+                </div>
+              </div>
             </div>
           </div>
           {/* End container */}
@@ -400,22 +436,32 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                   Once the MVP was live and receiving praise, I pivoted to a high-fidelity iteration to maximize "the pop factor" and trust.
+                    Once the MVP was live and receiving praise, I pivoted to a
+                    high-fidelity iteration to maximize "the pop factor" and
+                    trust.
                   </p>
-                   <ul className="case-study-list">
+                  <ul className="case-study-list">
                     <li>
-                      Color Strategy: I evolved the palette from a simple Green/White to a sophisticated trio: Emerald Green (Primary), Warm Orange (Action/CTA), and Soft White (Neutral).
+                      Color Strategy: I evolved the palette from a simple
+                      Green/White to a sophisticated trio: Emerald Green
+                      (Primary), Warm Orange (Action/CTA), and Soft White
+                      (Neutral).
                     </li>
                     <li>
-                      Typography & Content: I used Gemini to refine the copy for a more inviting tone and selected fonts that balanced authority with friendliness.
+                      Typography & Content: I used Gemini to refine the copy for
+                      a more inviting tone and selected fonts that balanced
+                      authority with friendliness.
                     </li>
                     <li>
-                      Social Proof: Integrated Google Review widgets and testimonials to capitalize on the practice’s early success.
+                      Social Proof: Integrated Google Review widgets and
+                      testimonials to capitalize on the practice’s early
+                      success.
                     </li>
                     <li>
-                    Art Direction: I provided creative direction for new photography and a video tour to ensure the digital space felt as premium as the physical clinic.
+                      Art Direction: I provided creative direction for new
+                      photography and a video tour to ensure the digital space
+                      felt as premium as the physical clinic.
                     </li>
-      
                   </ul>
                 </div>
                 {/* <div
@@ -445,6 +491,21 @@ const AnimationProjectCaseStudy = () => {
               </div>
               {/* End right */}
             </div>
+                <div className="content">
+              <div className="shane_tm_section">
+                <div
+                  className="full-image-section"
+                  style={{ width: "100%" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/case-study/Lebensberg_ideation.png"
+                    alt="App Screens"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           {/* End container */}
         </div>
@@ -470,23 +531,37 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                  The final design was not just a visual upgrade—it was a strategic asset. By handling the IA, design, code, and art direction, I delivered a product that was:
-
+                    The final design was not just a visual upgrade—it was a
+                    strategic asset. By handling the IA, design, code, and art
+                    direction, I delivered a product that was:
                   </p>
-                    <ul className="case-study-list">
+                  <ul className="case-study-list">
                     <li>
-Fast to market (using AI-assisted wireframing and coding)</li>
-                    <li>
-Technically sound (React-based and ready for a dev-handoff)</li>
-                    <li>
-                     Human-centric (Validated by testers and loved by real clients)
+                      Fast to market (using AI-assisted wireframing and coding)
                     </li>
                     <li>
-                      I created custom <strong>motion design</strong> elements in Adobe After Effects
+                      Technically sound (React-based and ready for a
+                      dev-handoff)
                     </li>
-      
+                    <li>
+                      Human-centric (Validated by testers and loved by real
+                      clients)
+                    </li>
+                    <li>
+                      I created custom <strong>motion design</strong> elements
+                      in Adobe After Effects
+                    </li>
                   </ul>
-                  <p>  The result was a live, functional website delivered on time for the business launch, which the client’s customers have already praised for its aesthetics and ease of use. The client is now successfully booking appointments through the site, and the project is ready for its next phase of professional development with a clean, well-documented Figma file. </p>
+                  <p>
+                    {" "}
+                    The result was a live, functional website delivered on time
+                    for the business launch, which the client’s customers have
+                    already praised for its aesthetics and ease of use. The
+                    client is now successfully booking appointments through the
+                    site, and the project is ready for its next phase of
+                    professional development with a clean, well-documented Figma
+                    file.{" "}
+                  </p>
                 </div>
                 <div
                   className="shane_tm_button"
@@ -541,6 +616,21 @@ Technically sound (React-based and ready for a dev-handoff)</li>
                 </div>
               </div>
               {/* End right */}
+            </div>
+                <div className="content">
+              <div className="shane_tm_section">
+                <div
+                  className="full-image-section"
+                  style={{ width: "100%" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/case-study/Lebensberg_ideation.png"
+                    alt="App Screens"
+                  />
+                </div>
+              </div>
             </div>
           </div>
           {/* End container */}
