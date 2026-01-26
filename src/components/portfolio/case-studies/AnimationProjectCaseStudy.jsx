@@ -105,7 +105,7 @@ const AnimationProjectCaseStudy = () => {
               data-aos-duration="1200"
             >
               <img
-                src="/img/portfolio/case-study/home_screen_team_big.png"
+                src="/img/portfolio/case-study/Wireframessm.png"
                 alt="App Screens"
               />
             </div>
