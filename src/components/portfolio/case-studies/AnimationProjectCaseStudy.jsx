@@ -167,25 +167,17 @@ const AnimationProjectCaseStudy = () => {
                     src="/img/portfolio/case-study/Home_Desktop.mp4"
                     className="clickable-image"
                     style={{ width: "100%" }}
-                    // onClick={() =>
-                    //   handleImageClick(
-                    //     "/img/portfolio/case-study/Home_Desktop.mp4"
-                    //   )
-                    // }
                     autoPlay
                     loop
                     muted
                     playsInline
-                    // controls removed for background effect
-                    poster="/img/portfolio/case-study/Home_Desktop.mp4" // Optional: show image before play
+                    poster="/img/portfolio/case-study/Home_Desktop.mp4" 
                   />
-                  {/* Add caption */}
                   <div className="image_caption">
                     <p>Homepage</p>
                   </div>
                 </div>
               </div>
-              {/* End right */}
             </div>
             <div className="content">
               <div className="shane_tm_section">
@@ -203,10 +195,10 @@ const AnimationProjectCaseStudy = () => {
               </div>
             </div>
           </div>
-          {/* End container */}
         </div>
       </div>
-      {/* Design Process Section - Image left, Text right */}
+
+      {/* Solution Section - Headline and Content Swapped */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
@@ -217,25 +209,17 @@ const AnimationProjectCaseStudy = () => {
                     src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     className="clickable-image"
                     style={{ width: "100%" }}
-                    // onClick={() =>
-                    //   handleImageClick(
-                    //     "/img/portfolio/case-study/Phone _mockup02.mp4"
-                    //   )
-                    // }
                     autoPlay
                     loop
                     muted
                     playsInline
-                    // controls removed for background effect
-                    poster="/img/portfolio/case-study/Phone _mockup02.mp4" // Optional: show image before play
+                    poster="/img/portfolio/case-study/Phone _mockup02.mp4" 
                   />
-                  {/* Add caption */}
                   <div className="image_caption">
                     <p>Mobile navigation</p>
                   </div>
                 </div>
               </div>
-              {/* End left */}
 
               <div className="right">
                 <div
@@ -244,6 +228,73 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
+                  <h3>Leveraging Tech for Lean UX</h3>
+                </div>
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <p>
+                    Following Lean UX principles, I focused on shipping a
+                    functional "Minimum Viable Product" to get the business live.{" "}
+                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      I designed responsive UI/UX and built interactive
+                      prototypes in Figma and used Relume AI platform to speed
+                      up ideation phase
+                    </li>
+                    <li>
+                      Community Testing: I validated the MVP via the Career
+                      Foundry and Google UX communities. Their feedback helped
+                      me iron out mobile responsiveness flaws before the
+                      official launch.
+                    </li>
+                    <li>
+                      <strong>Coded</strong> the site in <strong>React</strong>{" "}
+                      using Cursor AI coding editor for support and debugging
+                    </li>
+                    <li>
+                      I created custom <strong>motion design</strong> elements
+                      in Adobe After Effects
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="content">
+              <div className="shane_tm_section">
+                <div
+                  className="full-image-section"
+                  style={{ width: "100%" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/case-study/Lebensberg_ideation.png"
+                    alt="App Screens"
+                  />
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      {/* Process Section - Headline and Content Swapped */}
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Process</span>
                   <h3>The AI-powered workflow for effective delivery</h3>
                 </div>
                 <div
@@ -284,7 +335,25 @@ const AnimationProjectCaseStudy = () => {
                   </ul>
                 </div>
               </div>
-              {/* End right */}
+
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Wireframessm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Wireframessm.png",
+                      )
+                    }
+                  />
+                  <div className="image_caption">
+                    <p>Wireframing in Figma</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="content">
               <div className="shane_tm_section">
@@ -301,101 +370,11 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-            
           </div>
-          {/* End container */}
         </div>
       </div>
-      {/* Visual Design Section - Text left, Image right */}
-      <div className="shane_tm_section">
-        <div className="shane_tm_about">
-          <div className="container">
-            <div className="about_inner">
-              <div className="left">
-                <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <span>Process</span>
-                  <h3>Leveraging Tech for Lean UX</h3>
-                </div>
-                <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <p>
-                    Following Lean UX principles, I focused on shipping a
-                    functional "Minimum Viable Product" to get the business
-                    live.{" "}
-                  </p>
-                  <ul className="case-study-list">
-                    <li>
-                      I designed responsive UI/UX and built interactive
-                      prototypes in Figma and used Relume AI platform to speed
-                      up ideation phase
-                    </li>
-                    <li>
-                      Community Testing: I validated the MVP via the Career
-                      Foundry and Google UX communities. Their feedback helped
-                      me iron out mobile responsiveness flaws before the
-                      official launch.
-                    </li>
-                    <li>
-                      <strong>Coded</strong> the site in <strong>React</strong>{" "}
-                      using Cursor AI coding editor for support and debugging
-                    </li>
-                    <li>
-                      I created custom <strong>motion design</strong> elements
-                      in Adobe After Effects
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              {/* End left */}
 
-              <div className="right">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Wireframessm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Wireframessm.png",
-                      )
-                    }
-                  />
-                  {/* Add caption */}
-                  <div className="image_caption">
-                    <p>Wireframing in Figma</p>
-                  </div>
-                </div>
-              </div>
-              {/* End right */}
-            </div>
-                <div className="content">
-              <div className="shane_tm_section">
-                <div
-                  className="full-image-section"
-                  style={{ width: "100%" }}
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <img
-                    src="/img/portfolio/case-study/Lebensberg_ideation.png"
-                    alt="App Screens"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* End container */}
-        </div>
-      </div>
-      {/* Results Section - Image left, Text right */}
+      {/* Refinement Section */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
@@ -419,7 +398,6 @@ const AnimationProjectCaseStudy = () => {
                   </div>
                 </div>
               </div>
-              {/* End left */}
 
               <div className="right">
                 <div
@@ -464,34 +442,9 @@ const AnimationProjectCaseStudy = () => {
                     </li>
                   </ul>
                 </div>
-                {/* <div
-                  className="shane_tm_button"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <button
-                    className="shane_tm_button"
-                    style={{
-                      background: "none",
-                      border: "none",
-                      padding: 0,
-                      cursor: "pointer",
-                    }}
-                    onClick={() =>
-                      window.open(
-                        "https://tierarzt-leberberg.at/",
-                        "_blank",
-                        "noopener,noreferrer",
-                      )
-                    }
-                  >
-                    <span className="button-text">See Live</span>
-                  </button>
-                </div> */}
               </div>
-              {/* End right */}
             </div>
-                <div className="content">
+            <div className="content">
               <div className="shane_tm_section">
                 <div
                   className="full-image-section"
@@ -507,7 +460,6 @@ const AnimationProjectCaseStudy = () => {
               </div>
             </div>
           </div>
-          {/* End container */}
         </div>
       </div>
 
@@ -553,14 +505,13 @@ const AnimationProjectCaseStudy = () => {
                     </li>
                   </ul>
                   <p>
-                    {" "}
                     The result was a live, functional website delivered on time
                     for the business launch, which the client’s customers have
                     already praised for its aesthetics and ease of use. The
                     client is now successfully booking appointments through the
                     site, and the project is ready for its next phase of
                     professional development with a clean, well-documented Figma
-                    file.{" "}
+                    file.
                   </p>
                 </div>
                 <div
@@ -589,7 +540,6 @@ const AnimationProjectCaseStudy = () => {
                   </button>
                 </div>
               </div>
-              {/* End left */}
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
@@ -597,27 +547,19 @@ const AnimationProjectCaseStudy = () => {
                     src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     className="clickable-image"
                     style={{ width: "100%" }}
-                    // onClick={() =>
-                    //   handleImageClick(
-                    //     "/img/portfolio/case-study/Phone _mockup02.mp4"
-                    //   )
-                    // }
                     autoPlay
                     loop
                     muted
                     playsInline
-                    // controls removed for background effect
-                    poster="/img/portfolio/case-study/Phone _mockup02.mp4" // Optional: show image before play
+                    poster="/img/portfolio/case-study/Phone _mockup02.mp4" 
                   />
-                  {/* Add caption */}
                   <div className="image_caption">
                     <p>Mobile navigation</p>
                   </div>
                 </div>
               </div>
-              {/* End right */}
             </div>
-                <div className="content">
+            <div className="content">
               <div className="shane_tm_section">
                 <div
                   className="full-image-section"
@@ -633,11 +575,10 @@ const AnimationProjectCaseStudy = () => {
               </div>
             </div>
           </div>
-          {/* End container */}
         </div>
       </div>
 
-      {/* Add the navigation buttons before the Footer */}
+      {/* Navigation and Footer */}
       <div className="shane_tm_section">
         <div className="container">
           <div
