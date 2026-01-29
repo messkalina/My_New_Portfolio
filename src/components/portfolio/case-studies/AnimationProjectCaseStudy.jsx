@@ -181,17 +181,50 @@ const AnimationProjectCaseStudy = () => {
             </div>
             <div className="content">
               <div className="shane_tm_section">
+                <div className="about_inner">
+              <div className="left">
+                
                 <div
-                  className="full-image-section"
-                  style={{ width: "100%" }}
+                  className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <img
-                    src="/img/portfolio/case-study/Lebensberg_ideation.png"
-                    alt="App Screens"
+                    <img
+                    src="/img/portfolio/case-study/Wireframessm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Wireframessm.png",
+                      )
+                    }
                   />
+                  <div className="image_caption">
+                    <p>Wireframing in Figma</p>
+                  </div>
                 </div>
+              </div>
+
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Wireframessm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Wireframessm.png",
+                      )
+                    }
+                  />
+                  <div className="image_caption">
+                    <p>Wireframing in Figma</p>
+                  </div>
+                </div>
+              </div>
+            </div>
               </div>
             </div>
           </div>
