@@ -190,13 +190,13 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                     <img
-                    src="/img/portfolio/case-study/Wireframessm.png"
+                    src="/img/portfolio/case-study/ vet_lo-fi_wireframes.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Wireframessm.png",
+                        "/img/portfolio/case-study/ vet_lo-fi_wireframes.png",
                       )
                     }
                   />
@@ -209,13 +209,13 @@ const AnimationProjectCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Wireframessm.png"
+                    src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Wireframessm.png",
+                        "/img/portfolio/case-study/Veterinary Practise_ver01resized.png",
                       )
                     }
                   />
