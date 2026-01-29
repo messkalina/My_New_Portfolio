@@ -164,14 +164,14 @@ const AnimationProjectCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <video
-                    src="/img/portfolio/case-study/Home_Desktop.mp4"
+                    src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
                     className="clickable-image"
                     style={{ width: "100%" }}
                     autoPlay
                     loop
                     muted
                     playsInline
-                    poster="/img/portfolio/case-study/Home_Desktop.mp4" 
+                    poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4" 
                   />
                   <div className="image_caption">
                     <p>Homepage</p>
