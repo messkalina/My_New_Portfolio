@@ -105,7 +105,7 @@ const AnimationProjectCaseStudy = () => {
               data-aos-duration="1200"
             >
               <img
-                src="/img/portfolio/case-study/Wireframessm.png"
+                src="/img/portfolio/case-study/Vet_hero_image.png"
                 alt="App Screens"
               />
             </div>
@@ -188,20 +188,20 @@ const AnimationProjectCaseStudy = () => {
                       data-aos="fade-up"
                       data-aos-duration="1200"
                     >
-                      {/* <img
-                        src="/img/portfolio/case-study/ vet_lo-fi_wireframes.png"
+                      <img
+                        src="/img/portfolio/case-study/vet_visual_identity-cm.png"
                         alt="Wireframe"
                         className="clickable-image"
                         style={{ width: "100%", cursor: "pointer" }}
                         onClick={() =>
                           handleImageClick(
-                            "/img/portfolio/case-study/ vet_lo-fi_wireframes.png",
+                            "/img/portfolio/case-study/vet_visual_identity-cm.png",
                           )
                         }
                       />
                       <div className="image_caption">
                         <p>Low fidelity wireframes</p>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
 
@@ -240,18 +240,19 @@ const AnimationProjectCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
-                    className="clickable-image"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/case-study/Phone _mockup02.mp4"
-                  />
+                   <img
+                        src="/img/portfolio/case-study/Vet_final_screens_cm.png"
+                        alt="Wireframe"
+                        className="clickable-image"
+                        style={{ width: "100%", cursor: "pointer" }}
+                        onClick={() =>
+                          handleImageClick(
+                            "/img/portfolio/case-study/Vet_final_screens_cm.png",
+                          )
+                        }
+                      />
                   <div className="image_caption">
-                    <p>Mobile navigation</p>
+                    <p>Mobile navigation designed for easy development in choosen tech stack</p>
                   </div>
                 </div>
               </div>
@@ -308,6 +309,28 @@ const AnimationProjectCaseStudy = () => {
                       data-aos="fade-up"
                       data-aos-duration="1200"
                     >
+                       <img
+                        src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
+                        alt="Wireframe"
+                        className="clickable-image"
+                        style={{ width: "100%", cursor: "pointer" }}
+                        onClick={() =>
+                          handleImageClick(
+                            "/img/portfolio/case-study/Veterinary Practise_ver01resized.png",
+                          )
+                        }
+                      />
+                      <div className="image_caption">
+                        <p>
+                          High fidelity wireframes for MVP, designed to be built
+                          quickly and easily with the avaaialable tech stack
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="right">
+                    <div data-aos="fade-up" data-aos-duration="1200">
                       <img
                         src="/img/portfolio/case-study/ vet_lo-fi_wireframes.png"
                         alt="Wireframe"
@@ -316,25 +339,6 @@ const AnimationProjectCaseStudy = () => {
                         onClick={() =>
                           handleImageClick(
                             "/img/portfolio/case-study/ vet_lo-fi_wireframes.png",
-                          )
-                        }
-                      />
-                      <div className="image_caption">
-                        <p>Low fidelity wireframes</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="right">
-                    <div data-aos="fade-up" data-aos-duration="1200">
-                      <img
-                        src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
-                        alt="Wireframe"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/Veterinary Practise_ver01resized.png",
                           )
                         }
                       />
@@ -408,19 +412,18 @@ const AnimationProjectCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Wireframessm.png"
-                    alt="Wireframe"
+                 <video
+                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Wireframessm.png",
-                      )
-                    }
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Phone _mockup02.mp4"
                   />
                   <div className="image_caption">
-                    <p>Wireframing in Figma</p>
+                    <p>Mobile navigation</p>
                   </div>
                 </div>
               </div>
@@ -452,13 +455,13 @@ const AnimationProjectCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Desktop_3_screens.png"
+                    src="/img/portfolio/case-study/Vet_final_screens_cm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Desktop_3_screens.png",
+                        "/img/portfolio/case-study/Vet_final_screens_cm.png",
                       )
                     }
                   />
@@ -624,12 +627,12 @@ const AnimationProjectCaseStudy = () => {
                     poster="/img/portfolio/case-study/Phone _mockup02.mp4"
                   />
                   <div className="image_caption">
-                    <p>Mobile navigation</p>
+                    <p>Client testimonial</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="content">
+            {/* <div className="content">
               <div className="shane_tm_section">
                 <div
                   className="full-image-section"
@@ -643,7 +646,7 @@ const AnimationProjectCaseStudy = () => {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
