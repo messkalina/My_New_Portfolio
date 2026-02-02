@@ -455,13 +455,20 @@ const AnimationProjectCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Vet_final_screens_cm.png"
+                    src="/img/portfolio/case-study/Vet_Final_design_Home_rs_cm.png"
                     alt="Wireframe"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
+                    style={{ 
+      maxHeight: "100vh", 
+      width: "auto",      // Keeps aspect ratio
+      display: "block",   // Removes bottom spacing
+      margin: "0 auto",   // Centers it
+      cursor: "pointer",
+      objectFit: "contain" 
+    }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Vet_final_screens_cm.png",
+                        "/img/portfolio/case-study/Vet_Final_design_Home_rs_cm.png",
                       )
                     }
                   />
@@ -517,7 +524,7 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-            <div className="content">
+            {/* <div className="content">
               <div className="shane_tm_section">
                 <div
                   className="full-image-section"
@@ -531,7 +538,7 @@ const AnimationProjectCaseStudy = () => {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -617,14 +624,14 @@ const AnimationProjectCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <video
-                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
+                    src="/img/portfolio/case-study/Testimonial.png"
                     className="clickable-image"
                     style={{ width: "100%" }}
                     autoPlay
                     loop
                     muted
                     playsInline
-                    poster="/img/portfolio/case-study/Phone _mockup02.mp4"
+                    poster="/img/portfolio/case-study/Testimonial.png"
                   />
                   <div className="image_caption">
                     <p>Client testimonial</p>
