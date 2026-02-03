@@ -242,27 +242,26 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <p>
                     Instead of starting from a blank canvas, I used an
-                    AI-forward workflow to move from data to structure in a
-                    short time.
+                    AI-forward workflow to move from client brief to a Minimal Viable Product (MVP) in a quick, efficient way. The goal was to validate the design quickly via user testing and moving to iterations.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Sitemap: Using Relume’s AI platyform, I transformed the
-                      client’s raw copy into a logical Information Architecture.
+                      <strong>Sitemap & Information Architecture:</strong> Using Relume’s AI platform I transformed the
+                      client’s raw copy into a logical information architecture, created site map and ideate the wireframes in almost no time.
                     </li>
                     <li>
-                      Rapid Wireframing: I leveraged the Relume component
+                      <strong>Rapid Wireframing:</strong> I leveraged the Relume component
                       library to ideate different page sections, allowing me to
                       test layouts and design patterns instantly.
                     </li>
                     <li>
-                      Seamless Handoff: Exporting these mid-fidelity wireframes
+                      <strong>Seamless Handoff:</strong> Exporting these mid-fidelity wireframes
                       to Figma gave me a foundation of styles and components
                       already mapped to the structure, saving hours of manual
                       setup.
                     </li>
                     <li>
-                      Built the site in <strong>React + React-Bootstrap</strong>{" "}
+                      <strong>Development:</strong> I build website in React and
                       and deployed via Netlify service. This gave me total
                       control over the UX, higher performance, and a
                       cost-effective hosting solution that a professional
