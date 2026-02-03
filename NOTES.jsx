@@ -54,89 +54,80 @@ const AnimationProjectCaseStudy = () => {
 
       {/* Timeline section */}
       <div className="shane_tm_section">
-        <div className="shane_tm_about">
-          <div className="container">
-            <div className="about_inner">
-              <div className="left">
-                <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
+        <div className="container"></div>
+      </div>
+      <div className="shane_tm_hero_case_study">
+        <div className="container">
+          <div className="content">
+            <div className="shane_tm_section">
+              <div
+                className="case-study-intro-section"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <div className="top">
+                  <p
+                    style={{
+                      fontWeight: 600,
+                      fontSize: "14px",
+                    }}
+                  >
+                    Timeline:{" "}
+                    <span className="timeline-fine">April – May 2025</span>
+                  </p>
+
+                  <p
+                    style={{
+                      fontWeight: 600,
+                      fontSize: "14px",
+                    }}
+                  >
+                    Role:{" "}
+                    <span className="timeline-fine">UX/UI Design, Motion Design, Front-End Development</span>
+                  </p>
+                  
+                    <p
+                    style={{
+                      fontWeight: 600,
+                      fontSize: "14px",
+                    }}
+                  >
+                    Tools:{" "}
+                    <span className="timeline-fine">Figma, React.js, Relume AI, Cursor AI, After Effects</span>
+                  </p>
+                  <br />
+
                   <p className="text">
-                    Tierarztpraxis Leberberg is a modern veterinary clinic in
-                    Vienna that required a digital identity mirroring its
-                    professional yet warm physical space.
+                    A new veterinary practice in Vienna needed more than just a
+                    website—they needed a digital identity that reflected their
+                    business and a functional tool for client bookings.
                   </p>
                   <br />
                   <p>
-                    I led the project end-to-end—acting as the sole UX/UI
-                    Designer, Motion Designer, and Front-End Developer—to launch
-                    an initial MVP followed by a high-fidelity visual overhaul.
+                    This project taught me the value of leveraging available
+                    technology and experience to get the job done, acting as
+                    UX/UI and Motion designer and a developer for the initial
+                    launch.
                   </p>
-                </div>
-              </div>
-
-              <div className="right">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <div className="text">
-                    <p
-                      style={{
-                        fontWeight: 600,
-                        fontSize: "14px",
-                      }}
-                    >
-                      Timeline:{" "}
-                    </p>
-                    <p>
-                      <span className="timeline-fine">April – May 2025</span>
-                    </p>
-
-                    <p
-                      style={{
-                        fontWeight: 600,
-                        fontSize: "14px",
-                      }}
-                    >
-                      What I did:{" "}
-                    </p>
-                    <p className="timeline-fine">
-                      UX/UI Design, Motion Design, Web Development
-                    </p>
-
-                    <p
-                      style={{
-                        fontWeight: 600,
-                        fontSize: "14px",
-                      }}
-                    >
-                      Tools:{" "}
-                    </p>
-                    <p className="timeline-fine">
-                      Figma, React.js, Relume AI, Cursor AI, After Effects
-                    </p>
-
-                    <br />
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="content">
-            <div className="shane_tm_section">
-              <div
-                className="full-image-section"
-                style={{ width: "100%" }}
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <img
-                  src="/img/portfolio/case-study/Vet_hero_image.png"
-                  alt="App Screens"
-                />
-              </div>
+      </div>
+      <div className="container">
+        <div className="content">
+          <div className="shane_tm_section">
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <img
+                src="/img/portfolio/case-study/Vet_hero_image.png"
+                alt="App Screens"
+              />
             </div>
           </div>
         </div>
@@ -154,7 +145,10 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Velocity vs. Quality</h3>
+                  <h3>
+                    Designing and Developing Effective Bussiness Website Agile
+                    Way
+                  </h3>
                 </div>
                 <div
                   className="text"
@@ -162,27 +156,27 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The client was launching a new business and needed a
-                    professional presence live in a short time. 
+                    My goal was to build a site that felt as warm as the clinic
+                    itself. I took a two-step approach: shipping a working site
+                    fast to meet the business launch date and then iterating
+                    into a more polished, high-end design.
                   </p>
-
                   <ul className="case-study-list">
                     <li>
-                      <strong>Feel:</strong> local and trustworthy
+                      <strong>Local</strong> and <strong>trustworthy</strong>
                     </li>
                     <li>
-                      <strong>Look:</strong> warm but professional
+                      Visually <strong>friendly, but professional</strong>
                     </li>
                     <li>
-                      <strong>Tech:</strong> scalable, lightweight, easy to
-                      maintain
+                      <strong>Modern, responsive</strong> yet lightweight and
+                      intuitive
                     </li>
                   </ul>
                   <p>
-                    I took a
-                    two-step approach: shipping a working site fast to meet the
-                    business launch date and then iterating into a more
-                    polished, human-centric design.
+                    It also had to clearly communicate services, introduce the
+                    care team, and support mobile users—especially for
+                    appointment inquiries.
                   </p>
                 </div>
               </div>
@@ -200,7 +194,7 @@ const AnimationProjectCaseStudy = () => {
                     poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
                   />
                   <div className="image_caption">
-                    <p>Hero section of the MVP version, designed and built to meet project objectives - professional yet warm, built using lightweight Lottie animation </p>
+                    <p>Hero section of the MVP version</p>
                   </div>
                 </div>
               </div>
