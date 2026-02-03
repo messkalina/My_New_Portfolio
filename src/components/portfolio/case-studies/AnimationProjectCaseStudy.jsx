@@ -61,7 +61,7 @@ const AnimationProjectCaseStudy = () => {
           <div className="content">
             <div className="shane_tm_section">
               <div
-                className="case-study-intro-section"
+                className="about_inner"
                 data-aos="fade-up"
                 data-aos-duration="1200"
               >
@@ -200,7 +200,11 @@ const AnimationProjectCaseStudy = () => {
                         }
                       />
                       <div className="image_caption">
-                        <p>Low fidelity wireframes</p>
+                        <p>
+                          Style Guide - first choice was cool color pallette, in
+                          the second iteration an orange accent color was
+                          introduced
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -220,8 +224,8 @@ const AnimationProjectCaseStudy = () => {
                       />
                       <div className="image_caption">
                         <p>
-                          High fidelity wireframes for MVP, designed to be built
-                          quickly and easily with the available tech stack
+                          1. Website reference that client provided; 2. MVP
+                          version; 3. Second iteration of the design
                         </p>
                       </div>
                     </div>
@@ -240,19 +244,22 @@ const AnimationProjectCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                   <img
-                        src="/img/portfolio/case-study/Vet_final_screens_cm.png"
-                        alt="Wireframe"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/Vet_final_screens_cm.png",
-                          )
-                        }
-                      />
+                  <img
+                    src="/img/portfolio/case-study/Vet_final_screens_cm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Vet_final_screens_cm.png",
+                      )
+                    }
+                  />
                   <div className="image_caption">
-                    <p>Mobile navigation designed for easy development in choosen tech stack</p>
+                    <p>
+                      Second iteration design screens for home page - mobile and
+                      desktop view.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -300,7 +307,7 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-         <div className="content">
+            <div className="content">
               <div className="shane_tm_section">
                 <div className="about_inner">
                   <div className="left">
@@ -309,7 +316,7 @@ const AnimationProjectCaseStudy = () => {
                       data-aos="fade-up"
                       data-aos-duration="1200"
                     >
-                       <img
+                      <img
                         src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
                         alt="Wireframe"
                         className="clickable-image"
@@ -321,10 +328,7 @@ const AnimationProjectCaseStudy = () => {
                         }
                       />
                       <div className="image_caption">
-                        <p>
-                          High fidelity wireframes for MVP, designed to be built
-                          quickly and easily with the avaaialable tech stack
-                        </p>
+                        <p>MVP version of the website</p>
                       </div>
                     </div>
                   </div>
@@ -344,8 +348,8 @@ const AnimationProjectCaseStudy = () => {
                       />
                       <div className="image_caption">
                         <p>
-                          High fidelity wireframes for MVP, designed to be built
-                          quickly and easily with the avaaialable tech stack
+                          Low fidelity wireframes for the website created using
+                          Relume component library.
                         </p>
                       </div>
                     </div>
@@ -412,7 +416,7 @@ const AnimationProjectCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                 <video
+                  <video
                     src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     className="clickable-image"
                     style={{ width: "100%" }}
@@ -423,7 +427,10 @@ const AnimationProjectCaseStudy = () => {
                     poster="/img/portfolio/case-study/Phone _mockup02.mp4"
                   />
                   <div className="image_caption">
-                    <p>Mobile navigation</p>
+                    <p>
+                      Mobile navigation designed for easy development in a
+                      choosen tech stack
+                    </p>
                   </div>
                 </div>
               </div>
@@ -440,6 +447,13 @@ const AnimationProjectCaseStudy = () => {
                     src="/img/portfolio/case-study/Lebensberg_ideation.png"
                     alt="App Screens"
                   />
+                  <div className="image_caption">
+                    <p>
+                      I used Relume AI platform for creating and ideating
+                      website site map and structure and for rapid wireframing
+                      design solutions
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -458,14 +472,14 @@ const AnimationProjectCaseStudy = () => {
                     src="/img/portfolio/case-study/Vet_Final_design_Home_rs_cm.png"
                     alt="Wireframe"
                     className="clickable-image"
-                    style={{ 
-      maxHeight: "100vh", 
-      width: "auto",      // Keeps aspect ratio
-      display: "block",   // Removes bottom spacing
-      margin: "0 auto",   // Centers it
-      cursor: "pointer",
-      objectFit: "contain" 
-    }}
+                    style={{
+                      maxHeight: "100vh",
+                      width: "auto", // Keeps aspect ratio
+                      display: "block", // Removes bottom spacing
+                      margin: "0 auto", // Centers it
+                      cursor: "pointer",
+                      objectFit: "contain",
+                    }}
                     onClick={() =>
                       handleImageClick(
                         "/img/portfolio/case-study/Vet_Final_design_Home_rs_cm.png",
@@ -474,7 +488,9 @@ const AnimationProjectCaseStudy = () => {
                   />
 
                   <div className="image_caption">
-                    <p>Desktop screens</p>
+                    <p>
+                      High Fidelity Design for Home page for desktop and mobile
+                    </p>
                   </div>
                 </div>
               </div>
