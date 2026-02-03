@@ -51,7 +51,23 @@ const AnimationProjectCaseStudy = () => {
           </div>
         </div>
       </div>
-
+ <div className="container">
+          <div className="content">
+            <div className="shane_tm_section">
+              <div
+                className="full-image-section"
+                style={{ width: "100%" }}
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <img
+                  src="/img/portfolio/case-study/Vet_hero_image.png"
+                  alt="App Screens"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       {/* Timeline section */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -92,7 +108,7 @@ const AnimationProjectCaseStudy = () => {
                     <p>
                       <span className="timeline-fine">April – May 2025</span>
                     </p>
-
+<br />
                     <p
                       style={{
                         fontWeight: 600,
@@ -104,7 +120,7 @@ const AnimationProjectCaseStudy = () => {
                     <p className="timeline-fine">
                       UX/UI Design, Motion Design, Web Development
                     </p>
-
+<br />
                     <p
                       style={{
                         fontWeight: 600,
@@ -124,23 +140,7 @@ const AnimationProjectCaseStudy = () => {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="content">
-            <div className="shane_tm_section">
-              <div
-                className="full-image-section"
-                style={{ width: "100%" }}
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <img
-                  src="/img/portfolio/case-study/Vet_hero_image.png"
-                  alt="App Screens"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+       
       </div>
 
       {/* Case study description section (challenge, etc.) */}
