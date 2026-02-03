@@ -64,9 +64,10 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p className="text">
-                    Tierarztpraxis Leberberg is a modern veterinary clinic in
-                    Vienna that required a digital identity mirroring its
-                    professional yet warm physical space.
+                    Tierarztpraxis Leberberg is recently launched veterinary
+                    practise in Vienna that required a digital identity
+                    mirroring its professional yet warm and welcoming bussiness
+                    catering to local pets owners.
                   </p>
                   <br />
                   <p>
@@ -163,7 +164,9 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <p>
                     The client was launching a new business and needed a
-                    professional presence live in a short time.
+                    professional presence live in a short time. It had to
+                    clearly communicate services, introduce the care team, and
+                    support mobile users—especially for appointment inquiries.
                   </p>
                   {/* <br /> */}
                   <p
@@ -188,41 +191,40 @@ const AnimationProjectCaseStudy = () => {
                     </li>
                   </ul>
                   <p>
-                    I took a <strong>two-step approach:</strong> shipping a working site fast to
-                    meet the business launch date and then iterating into a more
-                    polished, human-centric design.
+                    I took a <strong>two-step approach:</strong> shipping a
+                    working site fast to meet the business launch date and then
+                    iterating into a more polished, human-centric design.
                   </p>
                 </div>
               </div>
 
-               <div className="right">
-                    <div data-aos="fade-up" data-aos-duration="1200">
-                      <img
-                        src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
-                        alt="Wireframe"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
-                          )
-                        }
-                      />
-                      <div className="image_caption">
-                        <p>
-                          1. Website reference that client provided; 2. MVP
-                          version; 3. Second iteration of the design
-                        </p>
-                      </div>
-                    </div>
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
+                      )
+                    }
+                  />
+                  <div className="image_caption">
+                    <p>
+                      1. Website reference that client provided; 2. MVP version;
+                      3. Second iteration of the design
+                    </p>
                   </div>
+                </div>
+              </div>
             </div>
-            
           </div>
         </div>
       </div>
-{/* Process Section - Headline and Content Swapped */}
-            <div className="shane_tm_section">
+      {/* Process Section - Headline and Content Swapped */}
+      <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
@@ -242,23 +244,28 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <p>
                     Instead of starting from a blank canvas, I used an
-                    AI-forward workflow to move from client brief to a Minimal Viable Product (MVP) in a quick, efficient way. The goal was to validate the design quickly via user testing and moving to iterations.
+                    AI-forward workflow to move from client brief to a Minimal
+                    Viable Product (MVP) in a quick, efficient way. The goal was
+                    to validate the design quickly via user testing and moving
+                    to iterations.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Sitemap & Information Architecture:</strong> Using Relume’s AI platform I transformed the
-                      client’s raw copy into a logical information architecture, created site map and ideate the wireframes in almost no time.
+                      <strong>Sitemap & Information Architecture:</strong> Using
+                      Relume’s AI platform I transformed the client’s raw copy
+                      into a logical information architecture, created site map
+                      and ideate the wireframes in almost no time.
                     </li>
                     <li>
-                      <strong>Rapid Wireframing:</strong> I leveraged the Relume component
-                      library to ideate different page sections, allowing me to
-                      test layouts and design patterns instantly.
+                      <strong>Rapid Wireframing:</strong> I leveraged the Relume
+                      component library to ideate different page sections,
+                      allowing me to test layouts and design patterns instantly.
                     </li>
                     <li>
-                      <strong>Seamless Handoff:</strong> Exporting these mid-fidelity wireframes
-                      to Figma gave me a foundation of styles and components
-                      already mapped to the structure, saving hours of manual
-                      setup.
+                      <strong>Seamless Handoff:</strong> Exporting these
+                      mid-fidelity wireframes to Figma gave me a foundation of
+                      styles and components already mapped to the structure,
+                      saving hours of manual setup.
                     </li>
                     <li>
                       <strong>Development:</strong> I build website in React and
@@ -276,25 +283,25 @@ const AnimationProjectCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                        src="/img/portfolio/case-study/vet_visual_identity-cm.png"
-                        alt="Wireframe"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/vet_visual_identity-cm.png",
-                          )
-                        }
-                      />
-                      <div className="image_caption">
-                        <p>
-                          Style Guide was designed to match the aesthetic and
-                          branding of the practise. My initial choice was a cool
-                          color pallette based on the brand emerald color. In
-                          the second iteration I added an orange accent color
-                          that visual pop and a touch of warmth.
-                        </p>
-                      </div>
+                    src="/img/portfolio/case-study/vet_visual_identity-cm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/vet_visual_identity-cm.png",
+                      )
+                    }
+                  />
+                  <div className="image_caption">
+                    <p>
+                      Style Guide was designed to match the aesthetic and
+                      branding of the practise. My initial choice was a cool
+                      color pallette based on the brand emerald color. In the
+                      second iteration I added an orange accent color that
+                      visual pop and a touch of warmth.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -358,7 +365,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
-                  <h3>Leveraging Tech for Lean UX</h3>
+                  <h3> Building Minimum Viable Product</h3>
                 </div>
                 <div
                   className="text"
@@ -367,28 +374,30 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <p>
                     Following Lean UX principles, I focused on shipping a
-                    functional "Minimum Viable Product" to get the business
-                    live.{" "}
+                    functional "Minimum Viable Product" to quickly get the
+                    business website live and validate it via user testing. The
+                    goal was to meet bussiness requirements, gather insights and
+                    move to design iterations that then would be easily
+                    implemented by external developer.{" "}
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      I designed responsive UI/UX and built interactive
-                      prototypes in Figma and used Relume AI platform to speed
-                      up ideation phase
+                      <strong>Leveraging Figma:</strong> I designed responsive
+                      UI/UX and built interactive prototypes in Figma and used
+                      Relume AI platform to speed up ideation phase
                     </li>
                     <li>
-                      Community Testing: I validated the MVP via the Career
-                      Foundry and Google UX communities. Their feedback helped
-                      me iron out mobile responsiveness flaws before the
-                      official launch.
+                      <strong>Community Testing:</strong> I validated the MVP
+                      via the Career Foundry and Google UX communities. Their
+                      feedback helped me iron out mobile responsiveness flaws
+                      before the official launch.
                     </li>
                     <li>
-                      <strong>Coded</strong> the site in <strong>React</strong>{" "}
-                      using Cursor AI coding editor for support and debugging
-                    </li>
-                    <li>
-                      I created custom <strong>motion design</strong> elements
-                      in Adobe After Effects
+                      <strong>Custom Build:</strong> I coded the website in
+                      React.js bypassing subscription-based website builders
+                      such as Wix or heavy Wordpress CMS.The site was deployed
+                      via Netlify, ensuring a cost-effective and
+                      high-performance hosting solution.
                     </li>
                   </ul>
                 </div>
@@ -403,23 +412,23 @@ const AnimationProjectCaseStudy = () => {
                       data-aos="fade-up"
                       data-aos-duration="1200"
                     >
-                    <video
-                    src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-                    className="clickable-image"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-                  />
-                  <div className="image_caption">
-                    <p>
-                      Hero section of the MVP version, designed and built to
-                      meet project objectives - professional yet warm, built
-                      using lightweight Lottie animation{" "}
-                    </p>
-                  </div>
+                      <video
+                        src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                        className="clickable-image"
+                        style={{ width: "100%" }}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                      />
+                      <div className="image_caption">
+                        <p>
+                          Hero section of the MVP version, designed and built to
+                          meet project objectives - professional yet warm, built
+                          using lightweight Lottie animation{" "}
+                        </p>
+                      </div>
                     </div>
                   </div>
 
@@ -448,7 +457,7 @@ const AnimationProjectCaseStudy = () => {
         </div>
       </div>
 
-            {/* Validation Section */}
+      {/* Validation Section */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
@@ -468,14 +477,21 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I validated the MVP through two rounds of testing to identify friction points and emotional resonance.
+                    I validated the MVP through two rounds of testing to
+                    identify friction points and emotional resonance.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Round 1 (Functionality):</strong> Tested with peers in the Career Foundry and Google UX communities. Users flagged minor mobile responsiveness issues which were fixed before the launch.
+                      <strong>Round 1 (Functionality):</strong> Tested with
+                      peers in the Career Foundry and Google UX communities.
+                      Users flagged minor mobile responsiveness issues which
+                      were fixed before the launch.
                     </li>
                     <li>
-                      <strong>Round 2 (Desirability):</strong>  Testing revealed the MVP felt "clinical." This insight drove the decision to move toward a warmer, high-fidelity color palette and more sophisticated typographic choices.
+                      <strong>Round 2 (Desirability):</strong> Testing revealed
+                      the MVP felt "clinical." This insight drove the decision
+                      to move toward a warmer, high-fidelity color palette and
+                      more sophisticated typographic choices.
                     </li>
                   </ul>
                   <p>
@@ -488,31 +504,7 @@ const AnimationProjectCaseStudy = () => {
                     file.
                   </p>
                 </div>
-                <div
-                  className="shane_tm_button"
-                  style={{ marginTop: "32px" }}
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <button
-                    className="shane_tm_button"
-                    style={{
-                      background: "none",
-                      border: "none",
-                      padding: 0,
-                      cursor: "pointer",
-                    }}
-                    onClick={() =>
-                      window.open(
-                        "https://tierarzt-leberberg.at/",
-                        "_blank",
-                        "noopener,noreferrer",
-                      )
-                    }
-                  >
-                    <span className="button-text">See Live</span>
-                  </button>
-                </div>
+               
               </div>
 
               <div className="right">
@@ -529,7 +521,9 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      Usability testing revelaved friction points in the navigation, responsiveness as well as in the UX writing. The insights were incorporated in the second iteration.
+                      Usability testing revelaved friction points in the
+                      navigation, responsiveness as well as in the UX writing.
+                      The insights were incorporated in the second iteration.
                     </p>
                   </div>
                 </div>
@@ -553,7 +547,6 @@ const AnimationProjectCaseStudy = () => {
           </div>
         </div>
       </div>
-
 
       {/* Refinement Section */}
       <div className="shane_tm_section">
@@ -610,10 +603,10 @@ const AnimationProjectCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Color Strategy: I evolved the palette from a simple
-                      Green/White to a sophisticated trio: Emerald Green
-                      (Primary), Warm Orange (Action/CTA), and Soft White
-                      (Neutral).
+                      Color Strategy: I evolved the palette from a simple Green
+                      (Primary)/ White (neutral) to a more sophisticated Green
+                      (Primary), Orange (Action/CTA) and pastel gradients to
+                      balance authority with friendliness and less steryle look.
                     </li>
                     <li>
                       Typography & Content: I used Gemini to refine the copy for
@@ -628,7 +621,7 @@ const AnimationProjectCaseStudy = () => {
                     <li>
                       Art Direction: I provided creative direction for new
                       photography and a video tour to ensure the digital space
-                      felt as premium as the physical clinic.
+                      felt as premium as the physical venue.
                     </li>
                   </ul>
                 </div>
@@ -673,36 +666,23 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The final design was not just a visual upgrade—it was a
-                    strategic asset. By handling the IA, design, code, and art
-                    direction, I delivered a product that was:
-                  </p>
-                  <ul className="case-study-list">
-                    <li>
-                      Fast to market (using AI-assisted wireframing and coding)
-                    </li>
-                    <li>
-                      Technically sound (React-based and ready for a
-                      dev-handoff)
-                    </li>
-                    <li>
-                      Human-centric (Validated by testers and loved by real
-                      clients)
-                    </li>
-                    <li>
-                      I created custom <strong>motion design</strong> elements
-                      in Adobe After Effects
-                    </li>
-                  </ul>
-                  <p>
-                    The result was a live, functional website delivered on time
-                    for the business launch, which the client’s customers have
-                    already praised for its aesthetics and ease of use. The
+                    The project was delivered on time for the business launch,
+                    transforming from a functional placeholder to a
+                    strategic branding asset. The
                     client is now successfully booking appointments through the
                     site, and the project is ready for its next phase of
-                    professional development with a clean, well-documented Figma
-                    file.
+                    professional development with a light, scalable code built and the second iteration of the design ready. 
                   </p>
+                  {/* <ul className="case-study-list">
+                    <li>
+                      Live website delivered in 5 weeks
+                    </li>
+                    <li>
+                      Average 
+                    </li>
+                    
+                  </ul> */}
+                
                 </div>
                 <div
                   className="shane_tm_button"
