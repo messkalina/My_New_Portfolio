@@ -163,10 +163,19 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <p>
                     The client was launching a new business and needed a
-                    professional presence live in a short time. 
+                    professional presence live in a short time.
+                  </p>
+                  {/* <br /> */}
+                  <p
+                    style={{
+                      marginTop: "18px",
+                      // marginBottom:"12px"
+                    }}
+                  >
+                    <strong>Requirements:</strong>
                   </p>
 
-                  <ul className="case-study-list">
+                  <ul className="case-study-list" style={{ marginTop: "10px" }}>
                     <li>
                       <strong>Feel:</strong> local and trustworthy
                     </li>
@@ -179,9 +188,8 @@ const AnimationProjectCaseStudy = () => {
                     </li>
                   </ul>
                   <p>
-                    I took a
-                    two-step approach: shipping a working site fast to meet the
-                    business launch date and then iterating into a more
+                    I took a two-step approach: shipping a working site fast to
+                    meet the business launch date and then iterating into a more
                     polished, human-centric design.
                   </p>
                 </div>
@@ -200,7 +208,11 @@ const AnimationProjectCaseStudy = () => {
                     poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
                   />
                   <div className="image_caption">
-                    <p>Hero section of the MVP version, designed and built to meet project objectives - professional yet warm, built using lightweight Lottie animation </p>
+                    <p>
+                      Hero section of the MVP version, designed and built to
+                      meet project objectives - professional yet warm, built
+                      using lightweight Lottie animation{" "}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -227,9 +239,11 @@ const AnimationProjectCaseStudy = () => {
                       />
                       <div className="image_caption">
                         <p>
-                          Style Guide - first choice was cool color pallette, in
-                          the second iteration an orange accent color was
-                          introduced
+                          Style Guide was designed to match the aesthetic and
+                          branding of the practise. My initial choice was a cool
+                          color pallette based on the brand emerald color. In
+                          the second iteration I added an orange accent color
+                          that visual pop and a touch of warmth.
                         </p>
                       </div>
                     </div>
@@ -255,6 +269,105 @@ const AnimationProjectCaseStudy = () => {
                         </p>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{/* Process Section - Headline and Content Swapped */}
+            <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Process</span>
+                  <h3>The AI-powered workflow for effective delivery</h3>
+                </div>
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <p>
+                    Instead of starting from a blank canvas, I used an
+                    AI-forward workflow to move from data to structure in a
+                    short time.
+                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      Sitemap: Using Relume’s AI platyform, I transformed the
+                      client’s raw copy into a logical Information Architecture.
+                    </li>
+                    <li>
+                      Rapid Wireframing: I leveraged the Relume component
+                      library to ideate different page sections, allowing me to
+                      test layouts and design patterns instantly.
+                    </li>
+                    <li>
+                      Seamless Handoff: Exporting these mid-fidelity wireframes
+                      to Figma gave me a foundation of styles and components
+                      already mapped to the structure, saving hours of manual
+                      setup.
+                    </li>
+                    <li>
+                      Built the site in <strong>React + React-Bootstrap</strong>{" "}
+                      and deployed via Netlify service. This gave me total
+                      control over the UX, higher performance, and a
+                      cost-effective hosting solution that a professional
+                      developer could easily take over later.The objective was
+                      speed, flexibility and scalability. I used Cursor AI as my
+                      coding partner.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <video
+                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
+                    className="clickable-image"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Phone _mockup02.mp4"
+                  />
+                  <div className="image_caption">
+                    <p>
+                      Mobile navigation designed for easy development in a
+                      choosen tech stack
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content">
+              <div className="shane_tm_section">
+                <div
+                  className="full-image-section"
+                  style={{ width: "100%" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/case-study/Lebensberg_ideation.png"
+                    alt="App Screens"
+                  />
+                  <div className="image_caption">
+                    <p>
+                      I used Relume AI platform for creating and ideating
+                      website site map and structure and for rapid wireframing
+                      design solutions
+                    </p>
                   </div>
                 </div>
               </div>
@@ -387,7 +500,7 @@ const AnimationProjectCaseStudy = () => {
         </div>
       </div>
 
-      {/* Process Section - Headline and Content Swapped */}
+            {/* Validation Section */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
@@ -398,8 +511,8 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Process</span>
-                  <h3>The AI-powered workflow for effective delivery</h3>
+                  <span>Validation</span>
+                  <h3>User Testing</h3>
                 </div>
                 <div
                   className="text"
@@ -407,36 +520,50 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Instead of starting from a blank canvas, I used an
-                    AI-forward workflow to move from data to structure in a
-                    short time.
+                    I validated the MVP through two rounds of testing to identify friction points and emotional resonance.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Sitemap: Using Relume’s AI platyform, I transformed the
-                      client’s raw copy into a logical Information Architecture.
+                      <strong>Round 1 (Functionality):</strong> Tested with peers in the Career Foundry and Google UX communities. Users flagged minor mobile responsiveness issues which were fixed before the launch.
                     </li>
                     <li>
-                      Rapid Wireframing: I leveraged the Relume component
-                      library to ideate different page sections, allowing me to
-                      test layouts and design patterns instantly.
-                    </li>
-                    <li>
-                      Seamless Handoff: Exporting these mid-fidelity wireframes
-                      to Figma gave me a foundation of styles and components
-                      already mapped to the structure, saving hours of manual
-                      setup.
-                    </li>
-                    <li>
-                      Built the site in <strong>React + React-Bootstrap</strong>{" "}
-                      and deployed via Netlify service. This gave me total
-                      control over the UX, higher performance, and a
-                      cost-effective hosting solution that a professional
-                      developer could easily take over later.The objective was
-                      speed, flexibility and scalability. I used Cursor AI as my
-                      coding partner.
+                      <strong>Round 2 (Desirability):</strong>  Testing revealed the MVP felt "clinical." This insight drove the decision to move toward a warmer, high-fidelity color palette and more sophisticated typographic choices.
                     </li>
                   </ul>
+                  <p>
+                    The result was a live, functional website delivered on time
+                    for the business launch, which the client’s customers have
+                    already praised for its aesthetics and ease of use. The
+                    client is now successfully booking appointments through the
+                    site, and the project is ready for its next phase of
+                    professional development with a clean, well-documented Figma
+                    file.
+                  </p>
+                </div>
+                <div
+                  className="shane_tm_button"
+                  style={{ marginTop: "32px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <button
+                    className="shane_tm_button"
+                    style={{
+                      background: "none",
+                      border: "none",
+                      padding: 0,
+                      cursor: "pointer",
+                    }}
+                    onClick={() =>
+                      window.open(
+                        "https://tierarzt-leberberg.at/",
+                        "_blank",
+                        "noopener,noreferrer",
+                      )
+                    }
+                  >
+                    <span className="button-text">See Live</span>
+                  </button>
                 </div>
               </div>
 
@@ -454,14 +581,13 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      Mobile navigation designed for easy development in a
-                      choosen tech stack
+                      Usability testing revelaved friction points in the navigation, responsiveness as well as in the UX writing. The insights were incorporated in the second iteration.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="content">
+            {/* <div className="content">
               <div className="shane_tm_section">
                 <div
                   className="full-image-section"
@@ -473,19 +599,13 @@ const AnimationProjectCaseStudy = () => {
                     src="/img/portfolio/case-study/Lebensberg_ideation.png"
                     alt="App Screens"
                   />
-                  <div className="image_caption">
-                    <p>
-                      I used Relume AI platform for creating and ideating
-                      website site map and structure and for rapid wireframing
-                      design solutions
-                    </p>
-                  </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
+
 
       {/* Refinement Section */}
       <div className="shane_tm_section">
