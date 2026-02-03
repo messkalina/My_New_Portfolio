@@ -188,68 +188,14 @@ const AnimationProjectCaseStudy = () => {
                     </li>
                   </ul>
                   <p>
-                    I took a two-step approach: shipping a working site fast to
+                    I took a <strong>two-step approach:</strong> shipping a working site fast to
                     meet the business launch date and then iterating into a more
                     polished, human-centric design.
                   </p>
                 </div>
               </div>
 
-              <div className="right">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-                    className="clickable-image"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-                  />
-                  <div className="image_caption">
-                    <p>
-                      Hero section of the MVP version, designed and built to
-                      meet project objectives - professional yet warm, built
-                      using lightweight Lottie animation{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="content">
-              <div className="shane_tm_section">
-                <div className="about_inner">
-                  <div className="left">
-                    <div
-                      className="text"
-                      data-aos="fade-up"
-                      data-aos-duration="1200"
-                    >
-                      <img
-                        src="/img/portfolio/case-study/vet_visual_identity-cm.png"
-                        alt="Wireframe"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/vet_visual_identity-cm.png",
-                          )
-                        }
-                      />
-                      <div className="image_caption">
-                        <p>
-                          Style Guide was designed to match the aesthetic and
-                          branding of the practise. My initial choice was a cool
-                          color pallette based on the brand emerald color. In
-                          the second iteration I added an orange accent color
-                          that visual pop and a touch of warmth.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="right">
+               <div className="right">
                     <div data-aos="fade-up" data-aos-duration="1200">
                       <img
                         src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
@@ -270,9 +216,8 @@ const AnimationProjectCaseStudy = () => {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
             </div>
+            
           </div>
         </div>
       </div>
@@ -331,22 +276,26 @@ const AnimationProjectCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
-                    className="clickable-image"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/case-study/Phone _mockup02.mp4"
-                  />
-                  <div className="image_caption">
-                    <p>
-                      Mobile navigation designed for easy development in a
-                      choosen tech stack
-                    </p>
-                  </div>
+                  <img
+                        src="/img/portfolio/case-study/vet_visual_identity-cm.png"
+                        alt="Wireframe"
+                        className="clickable-image"
+                        style={{ width: "100%", cursor: "pointer" }}
+                        onClick={() =>
+                          handleImageClick(
+                            "/img/portfolio/case-study/vet_visual_identity-cm.png",
+                          )
+                        }
+                      />
+                      <div className="image_caption">
+                        <p>
+                          Style Guide was designed to match the aesthetic and
+                          branding of the practise. My initial choice was a cool
+                          color pallette based on the brand emerald color. In
+                          the second iteration I added an orange accent color
+                          that visual pop and a touch of warmth.
+                        </p>
+                      </div>
                 </div>
               </div>
             </div>
@@ -455,6 +404,28 @@ const AnimationProjectCaseStudy = () => {
                       data-aos="fade-up"
                       data-aos-duration="1200"
                     >
+                    <video
+                    src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                    className="clickable-image"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                  />
+                  <div className="image_caption">
+                    <p>
+                      Hero section of the MVP version, designed and built to
+                      meet project objectives - professional yet warm, built
+                      using lightweight Lottie animation{" "}
+                    </p>
+                  </div>
+                    </div>
+                  </div>
+
+                  <div className="right">
+                    <div data-aos="fade-up" data-aos-duration="1200">
                       <img
                         src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
                         alt="Wireframe"
@@ -468,28 +439,6 @@ const AnimationProjectCaseStudy = () => {
                       />
                       <div className="image_caption">
                         <p>MVP version of the website</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="right">
-                    <div data-aos="fade-up" data-aos-duration="1200">
-                      <img
-                        src="/img/portfolio/case-study/ vet_lo-fi_wireframes.png"
-                        alt="Wireframe"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/ vet_lo-fi_wireframes.png",
-                          )
-                        }
-                      />
-                      <div className="image_caption">
-                        <p>
-                          Low fidelity wireframes for the website created using
-                          Relume component library.
-                        </p>
                       </div>
                     </div>
                   </div>

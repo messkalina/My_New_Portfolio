@@ -755,3 +755,25 @@ const AnimationProjectCaseStudy = () => {
 };
 
 export default AnimationProjectCaseStudy;
+
+{
+
+   <video
+                    src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                    className="clickable-image"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                  />
+                  <div className="image_caption">
+                    <p>
+                      Hero section of the MVP version, designed and built to
+                      meet project objectives - professional yet warm, built
+                      using lightweight Lottie animation{" "}
+                    </p>
+                  </div>
+
+}
