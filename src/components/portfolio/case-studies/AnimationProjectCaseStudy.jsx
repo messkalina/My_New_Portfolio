@@ -560,7 +560,7 @@ const AnimationProjectCaseStudy = () => {
                     alt="Wireframe"
                     className="clickable-image"
                     style={{
-                      maxHeight: "100vh",
+                      maxHeight: "75vh",
                       width: "auto", // Keeps aspect ratio
                       display: "block", // Removes bottom spacing
                       margin: "0 auto", // Centers it
