@@ -65,13 +65,10 @@ const AnimationProjectCaseStudy = () => {
                 alt="App Screens"
               />
             </div>
-          </div>
-        </div>
-      </div>
-      {/* Timeline section */}
+             {/* Overview section */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
-          <div className="container">
+          <div>
             <div className="about_inner">
               <div className="left">
                 <div
@@ -141,6 +138,10 @@ const AnimationProjectCaseStudy = () => {
           </div>
         </div>
       </div>
+          </div>
+        </div>
+      </div>
+     
 
       {/* Case study description section (challenge, etc.) */}
       <div className="shane_tm_section" id="animationproject-challenge">
