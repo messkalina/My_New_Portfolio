@@ -305,7 +305,7 @@ const AnimationProjectCaseStudy = () => {
               </div>
             </div>
             <div className="content">
-              <div className="shane_tm_section">
+              <div >
                 <div
                   className="full-image-section"
                   style={{ width: "100%" }}
