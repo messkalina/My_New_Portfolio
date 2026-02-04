@@ -165,6 +165,7 @@ h6 {
   height: auto;
   clear: both;
   float: left;
+  padding-bottom: 4rem;
 }
 
 .image_caption {
@@ -910,7 +911,7 @@ body.loaded .overlay_effect:after {
   clear: both;
   display: flex;
   align-items: top;
-  padding-bottom: 8rem;
+  // padding-bottom: 8rem;
 }
 .shane_tm_about .left {
   width: 50%;

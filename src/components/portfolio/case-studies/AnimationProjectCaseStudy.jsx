@@ -51,23 +51,23 @@ const AnimationProjectCaseStudy = () => {
           </div>
         </div>
       </div>
- <div className="container">
-          <div className="content">
-            <div className="shane_tm_section">
-              <div
-                className="full-image-section"
-                style={{ width: "100%" }}
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <img
-                  src="/img/portfolio/case-study/Vet_hero_image.png"
-                  alt="App Screens"
-                />
-              </div>
+      <div className="container">
+        <div className="content">
+          <div className="shane_tm_section">
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <img
+                src="/img/portfolio/case-study/Vet_hero_image.png"
+                alt="App Screens"
+              />
             </div>
           </div>
         </div>
+      </div>
       {/* Timeline section */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -108,7 +108,7 @@ const AnimationProjectCaseStudy = () => {
                     <p>
                       <span className="timeline-fine">April – May 2025</span>
                     </p>
-<br />
+                    <br />
                     <p
                       style={{
                         fontWeight: 600,
@@ -120,7 +120,7 @@ const AnimationProjectCaseStudy = () => {
                     <p className="timeline-fine">
                       UX/UI Design, Motion Design, Web Development
                     </p>
-<br />
+                    <br />
                     <p
                       style={{
                         fontWeight: 600,
@@ -140,7 +140,6 @@ const AnimationProjectCaseStudy = () => {
             </div>
           </div>
         </div>
-       
       </div>
 
       {/* Case study description section (challenge, etc.) */}
@@ -504,7 +503,6 @@ const AnimationProjectCaseStudy = () => {
                     file.
                   </p>
                 </div>
-               
               </div>
 
               <div className="right">
@@ -667,11 +665,12 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <p>
                     The project was delivered on time for the business launch,
-                    transforming from a functional placeholder to a
-                    strategic branding asset. The
-                    client is now successfully booking appointments through the
-                    site, and the project is ready for its next phase of
-                    professional development with a light, scalable code built and the second iteration of the design ready. 
+                    transforming from a functional placeholder to a strategic
+                    branding asset. The client is now successfully booking
+                    appointments through the site, and the project is ready for
+                    its next phase of professional development with a light,
+                    scalable code built and the second iteration of the design
+                    ready.
                   </p>
                   {/* <ul className="case-study-list">
                     <li>
@@ -682,7 +681,6 @@ const AnimationProjectCaseStudy = () => {
                     </li>
                     
                   </ul> */}
-                
                 </div>
                 <div
                   className="shane_tm_button"
