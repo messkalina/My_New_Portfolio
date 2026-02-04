@@ -753,13 +753,14 @@ const AnimationProjectCaseStudy = () => {
       </div>
 
       {/* Navigation and Footer */}
-      <div className="shane_tm_section">
+      <div>
         <div className="container">
           <div
             style={{
               display: "flex",
               justifyContent: "space-between",
-              marginBottom: "40px",
+              // marginBottom: "40px",
+              marginTop:"40px"
             }}
           >
             <Link to="/#portfolio" className="back_button">

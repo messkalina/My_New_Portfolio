@@ -5,7 +5,7 @@ import Social from "../Social";
 const Footer = () => {
   return (
     <>
-      <div className="shane_tm_section">
+      <div className="content">
         <div className="shane_tm_copyright">
            <div className="footer_logo">
                 <img
