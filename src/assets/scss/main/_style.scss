@@ -924,9 +924,9 @@ body.loaded .overlay_effect:after {
   height: auto;
   clear: both;
   float: left;
-  padding: 60px 0px 0px 0px;
+  padding: 60px 0px;
   @media screen and (max-width: 992px) {
-    padding: 60px 0px;
+    padding: 16px 8px;
   }
 }
 .shane_tm_about .about_inner {
@@ -935,7 +935,7 @@ body.loaded .overlay_effect:after {
   clear: both;
   display: flex;
   align-items: top;
-  margin-bottom: 5rem;
+  // margin-bottom: 5rem;
 }
 .shane_tm_about .left {
   width: 50%;

@@ -411,10 +411,13 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-            <div className="content">
-              <div className="shane_tm_section">
+            <div className="content"
+            >
+              <div className="shane_tm_section"
+              
+              >
                 <div className="about_inner">
-                    <div className="left" style={{ marginTop: "-2rem" }}>
+                    <div className="left" >
                     <div data-aos="fade-up" data-aos-duration="1200">
                       <img
                         src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
