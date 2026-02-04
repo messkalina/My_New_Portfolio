@@ -155,28 +155,28 @@ const AnimationProjectCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div
-                      className="text"
-                      data-aos="fade-up"
-                      data-aos-duration="1200"
-                    >
-                      <video
-                        src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-                        className="clickable-image"
-                        style={{ width: "100%" }}
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-                      />
-                      <div className="image_caption">
-                        <p>
-                          Hero section of the MVP version, designed and built to
-                          meet project objectives - professional yet warm, built
-                          using lightweight Lottie animation{" "}
-                        </p>
-                      </div>
-                    </div>
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <video
+                    src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                    className="clickable-image"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                  />
+                  <div className="image_caption">
+                    <p>
+                      Hero section of the MVP version, designed and built to
+                      meet project objectives - professional yet warm, built
+                      using lightweight Lottie animation{" "}
+                    </p>
+                  </div>
+                </div>
               </div>
               <div className="right">
                 <div
@@ -414,12 +414,7 @@ const AnimationProjectCaseStudy = () => {
             <div className="content">
               <div className="shane_tm_section">
                 <div className="about_inner">
-                  <div className="left">
-                    
-                  </div>
-
-                  <div className="right"
-                  style={{marginTop: "-2rem"}}>
+                    <div className="left" style={{ marginTop: "-2rem" }}>
                     <div data-aos="fade-up" data-aos-duration="1200">
                       <img
                         src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
@@ -437,6 +432,8 @@ const AnimationProjectCaseStudy = () => {
                       </div>
                     </div>
                   </div>
+
+                
                 </div>
               </div>
             </div>
@@ -542,27 +539,20 @@ const AnimationProjectCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Vet_Final_design_Home_rs_cm.png"
+                    src="/img/portfolio/case-study/Vet_final_screens_cm.png"
                     alt="Wireframe"
                     className="clickable-image"
-                    style={{
-                      maxHeight: "75vh",
-                      width: "auto", // Keeps aspect ratio
-                      display: "block", // Removes bottom spacing
-                      margin: "0 auto", // Centers it
-                      cursor: "pointer",
-                      objectFit: "contain",
-                    }}
+                    style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Vet_Final_design_Home_rs_cm.png",
+                        "/img/portfolio/case-study/Vet_final_screens_cm.png",
                       )
                     }
                   />
-
                   <div className="image_caption">
                     <p>
-                      High Fidelity Design for Home page for desktop and mobile
+                      Second iteration design screens for home page - mobile and
+                      desktop view.
                     </p>
                   </div>
                 </div>
