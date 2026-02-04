@@ -183,6 +183,7 @@ h6 {
 .shane_tm_title h1 {
   margin-bottom: -3rem;
   margin-top: 24px;
+  width: 100% !important;
 }
 
 #preloader {
@@ -3781,7 +3782,7 @@ body.intro .loader_line:after {
     top: auto !important;
     padding-top: 0;
     width: 100%;
-    max-width: 800px; // Limit content width
+    max-width: 1400px; // Limit content width
   }
   
   .shane_tm_title {
