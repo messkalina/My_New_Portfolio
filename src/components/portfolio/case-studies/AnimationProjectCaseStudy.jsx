@@ -51,86 +51,95 @@ const AnimationProjectCaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="content">
-          <div className="shane_tm_section">
-            <div
-              className="full-image-section"
-              style={{ width: "100%" }}
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
+      <div
+        className="full-image-section"
+        style={{ width: "100%" }}
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
+        <div className="container">
+          <div className="content">
+            <div className="shane_tm_section">
               <img
                 src="/img/portfolio/case-study/Vet_hero_image.png"
                 alt="App Screens"
               />
-            </div>
-             {/* Overview section */}
-      <div className="shane_tm_section">
-        <div className="shane_tm_about">
-          <div>
-            <div className="about_inner">
-              <div className="left">
-                <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <p className="text">
-                    Tierarztpraxis Leberberg is recently launched veterinary
-                    practise in Vienna that required a digital identity
-                    mirroring its professional yet warm and welcoming bussiness
-                    catering to local pets owners.
-                  </p>
-                  <br />
-                  <p>
-                    I led the project end-to-end—acting as the sole UX/UI
-                    Designer, Motion Designer, and Front-End Developer—to launch
-                    an initial MVP followed by a high-fidelity visual overhaul.
-                  </p>
-                </div>
-              </div>
 
-              <div className="right">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <div className="text">
-                    <p
-                      style={{
-                        fontWeight: 600,
-                        fontSize: "14px",
-                      }}
-                    >
-                      Timeline:{" "}
-                    </p>
-                    <p>
-                      <span className="timeline-fine">April – May 2025</span>
-                    </p>
-                    <br />
-                    <p
-                      style={{
-                        fontWeight: 600,
-                        fontSize: "14px",
-                      }}
-                    >
-                      What I did:{" "}
-                    </p>
-                    <p className="timeline-fine">
-                      UX/UI Design, Motion Design, Web Development
-                    </p>
-                    <br />
-                    <p
-                      style={{
-                        fontWeight: 600,
-                        fontSize: "14px",
-                      }}
-                    >
-                      Tools:{" "}
-                    </p>
-                    <p className="timeline-fine">
-                      Figma, React.js, Relume AI, Cursor AI, After Effects
-                    </p>
+              {/* Overview section */}
+              <div className="shane_tm_section">
+                <div className="shane_tm_about">
+                  <div>
+                    <div className="about_inner">
+                      <div className="left">
+                        <div
+                          className="text"
+                          data-aos="fade-up"
+                          data-aos-duration="1200"
+                        >
+                          <p>
+                            Tierarztpraxis Leberberg is recently launched
+                            veterinary practise in Vienna that required a
+                            digital identity mirroring its professional yet warm
+                            and welcoming bussiness catering to local pets
+                            owners.
+                          </p>
+                          <br />
+                          <p>
+                            I led the project end-to-end—acting as the sole
+                            UX/UI Designer, Motion Designer, and Front-End
+                            Developer—to launch an initial MVP followed by a
+                            high-fidelity visual overhaul.
+                          </p>
+                        </div>
+                      </div>
 
-                    <br />
+                      <div className="right">
+                        <div data-aos="fade-up" data-aos-duration="1200">
+                          <div className="text">
+                            <p
+                              style={{
+                                fontWeight: 600,
+                                fontSize: "14px",
+                              }}
+                            >
+                              Timeline:{" "}
+                            </p>
+                            <p>
+                              <span className="timeline-fine">
+                                April – May 2025
+                              </span>
+                            </p>
+                            <br />
+                            <p
+                              style={{
+                                fontWeight: 600,
+                                fontSize: "14px",
+                              }}
+                            >
+                              What I did:{" "}
+                            </p>
+                            <p className="timeline-fine">
+                              UX/UI Design, Motion Design, Web Development
+                            </p>
+                            <br />
+                            <p
+                              style={{
+                                fontWeight: 600,
+                                fontSize: "14px",
+                              }}
+                            >
+                              Tools:{" "}
+                            </p>
+                            <p className="timeline-fine">
+                              Figma, React.js, Relume AI, Cursor AI, After
+                              Effects
+                            </p>
+
+                            <br />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -138,10 +147,6 @@ const AnimationProjectCaseStudy = () => {
           </div>
         </div>
       </div>
-          </div>
-        </div>
-      </div>
-     
 
       {/* Case study description section (challenge, etc.) */}
       <div className="shane_tm_section" id="animationproject-challenge">
@@ -306,7 +311,7 @@ const AnimationProjectCaseStudy = () => {
               </div>
             </div>
             <div className="content">
-              <div >
+              <div>
                 <div
                   className="full-image-section"
                   style={{ width: "100%" }}
