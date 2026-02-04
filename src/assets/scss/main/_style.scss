@@ -908,7 +908,7 @@ body.loaded .overlay_effect:after {
   height: auto;
   clear: both;
   display: flex;
-  align-items: center;
+  align-items: top;
 }
 .shane_tm_about .left {
   width: 50%;
@@ -996,7 +996,7 @@ body.loaded .overlay_effect:after {
   clear: both;
   float: left;
   margin-bottom: 40px;
-  padding-top: 27px;
+  // padding-top: 27px;
 }
 
 .shane_tm_about .left .text {
@@ -1005,7 +1005,7 @@ body.loaded .overlay_effect:after {
   clear: both;
   float: left;
   margin-bottom: 40px;
-  padding-top: 27px;
+  // padding-top: 27px;
 }
 
 .shane_tm_button {
