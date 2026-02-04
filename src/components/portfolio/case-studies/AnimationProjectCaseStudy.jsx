@@ -59,7 +59,7 @@ const AnimationProjectCaseStudy = () => {
       >
         <div className="container">
           <div className="content">
-            <div className="shane_tm_section">
+            <div >
               <img
                 src="/img/portfolio/case-study/Vet_hero_image.png"
                 alt="App Screens"
