@@ -288,8 +288,23 @@ h6 {
   width: 100%;
   object-fit: contain;
   display: block;
-  transition: opacity 0.3s ease;
+  cursor: pointer;
+
+  /* 1. This is the key: define the transition on the base state */
+  /* We add 'transform' here and set a duration (0.3s) and timing (ease) */
+  transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+  
+  /* Ensure the starting scale is explicitly 1 */
+  transform: scale(1);
 }
+
+.clickable-image:hover {
+  /* 2. The target state */
+  transform: scale(1.05);
+  filter: brightness(1.04);
+  // opacity: 0.9;
+}
+
 
 /*hiding all*/
 .preloaded .loader_line:after {

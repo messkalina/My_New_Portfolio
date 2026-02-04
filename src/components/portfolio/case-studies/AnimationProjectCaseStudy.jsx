@@ -291,7 +291,7 @@ const AnimationProjectCaseStudy = () => {
                     src="/img/portfolio/case-study/vet_visual_identity-cm.png"
                     alt="Wireframe"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
+                    // style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
                         "/img/portfolio/case-study/vet_visual_identity-cm.png",
