@@ -59,7 +59,7 @@ const AnimationProjectCaseStudy = () => {
       >
         <div className="container">
           <div className="content">
-            <div >
+            <div>
               <img
                 src="/img/portfolio/case-study/Vet_hero_image.png"
                 alt="App Screens"
@@ -153,7 +153,7 @@ const AnimationProjectCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-                <div className="left">
+              <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
@@ -223,8 +223,6 @@ const AnimationProjectCaseStudy = () => {
                   </p>
                 </div>
               </div>
-
-            
             </div>
           </div>
         </div>
@@ -345,20 +343,20 @@ const AnimationProjectCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Vet_final_screens_cm.png"
+                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Vet_final_screens_cm.png",
+                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
                       )
                     }
                   />
                   <div className="image_caption">
                     <p>
-                      Second iteration design screens for home page - mobile and
-                      desktop view.
+                      1. Website reference that client provided; 2. MVP version;
+                      3. Second iteration of the design
                     </p>
                   </div>
                 </div>
@@ -371,7 +369,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
-                  <h3> Building Minimum Viable Product</h3>
+                  <h3> Lean UX in Webdesign</h3>
                 </div>
                 <div
                   className="text"
@@ -761,7 +759,7 @@ const AnimationProjectCaseStudy = () => {
               display: "flex",
               justifyContent: "space-between",
               // marginBottom: "40px",
-              marginTop:"40px"
+              marginTop: "40px",
             }}
           >
             <Link to="/#portfolio" className="back_button">
