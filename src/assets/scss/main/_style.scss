@@ -910,10 +910,12 @@ body.loaded .overlay_effect:after {
   clear: both;
   display: flex;
   align-items: top;
+  padding-bottom: 8rem;
 }
 .shane_tm_about .left {
   width: 50%;
   padding-right: 50px;
+  
 }
 .shane_tm_about .left .image {
   position: relative;
