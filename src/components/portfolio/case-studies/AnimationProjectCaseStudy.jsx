@@ -154,25 +154,29 @@ const AnimationProjectCaseStudy = () => {
           <div className="container">
             <div className="about_inner">
               <div className="left">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
-                      )
-                    }
-                  />
-                  <div className="image_caption">
-                    <p>
-                      1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design
-                    </p>
-                  </div>
-                </div>
+                <div
+                      className="text"
+                      data-aos="fade-up"
+                      data-aos-duration="1200"
+                    >
+                      <video
+                        src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                        className="clickable-image"
+                        style={{ width: "100%" }}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+                      />
+                      <div className="image_caption">
+                        <p>
+                          Hero section of the MVP version, designed and built to
+                          meet project objectives - professional yet warm, built
+                          using lightweight Lottie animation{" "}
+                        </p>
+                      </div>
+                    </div>
               </div>
               <div className="right">
                 <div
@@ -411,32 +415,11 @@ const AnimationProjectCaseStudy = () => {
               <div className="shane_tm_section">
                 <div className="about_inner">
                   <div className="left">
-                    <div
-                      className="text"
-                      data-aos="fade-up"
-                      data-aos-duration="1200"
-                    >
-                      <video
-                        src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-                        className="clickable-image"
-                        style={{ width: "100%" }}
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-                      />
-                      <div className="image_caption">
-                        <p>
-                          Hero section of the MVP version, designed and built to
-                          meet project objectives - professional yet warm, built
-                          using lightweight Lottie animation{" "}
-                        </p>
-                      </div>
-                    </div>
+                    
                   </div>
 
-                  <div className="right">
+                  <div className="right"
+                  style={{marginTop: "-2rem"}}>
                     <div data-aos="fade-up" data-aos-duration="1200">
                       <img
                         src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
