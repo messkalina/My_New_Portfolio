@@ -52,100 +52,73 @@ const UnlimitixApp = () => {
         </div>
       </div>
 
-      <div
-        className="full-image-section"
-        style={{ width: "100%" }}
-        data-aos="fade-up"
-        data-aos-duration="1200"
-      >
+      {/* Timeline section */}
+      <div className="shane_tm_section">
         <div className="container">
-          <div className="content">
-            <div>
+          <div
+            className="hero_description"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <p
+              style={{
+                fontWeight: 600,
+                fontSize: "14px",
+                marginBottom: "60px",
+              }}
+            >
+              Timeline:{" "}
+              <span className="timeline-fine">January – March 2023</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+   <div className="container">
+        <div className="content">
+          <div className="shane_tm_section">
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <img
                 src="/img/portfolio/case-study/Unlimitix_cover.png"
                 alt="App Screens"
               />
+            </div>
+          </div>
+        </div>
+      </div>
 
-              {/* Overview section */}
-              <div className="shane_tm_section">
-                <div className="shane_tm_about">
-                  <div>
-                    <div className="about_inner">
-                      <div className="left">
-                        <div
-                          className="text"
-                          data-aos="fade-up"
-                          data-aos-duration="1200"
-                        >
-                          <p className="text">
-                            Unlimitix is a beta-stage mobile app that uses AI to
-                            help users build healthy eating habits through
-                            chat-based coaching and motivational feedback. While
-                            working on this as part of my CareerFoundry UI
-                            Design Bootcamp, the app was live and in active
-                            development—so I joined as a real beta tester, using
-                            my own insights and experience with the app to
-                            inform a full redesign of its mobile interface.
-                          </p>
-                          <br />
-                          <p>
-                            My goal was to{" "}
-                            <strong>elevate the onboarding process</strong> and
-                            create a more <strong>enjoyable, engaging </strong>
-                            interface that would help users stay motivated on
-                            their
-                            <strong> journey to better nutrition.</strong>
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="right">
-                        <div data-aos="fade-up" data-aos-duration="1200">
-                          <div className="text">
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Timeline:{" "}
-                            </p>
-                            <p>
-                              <span className="timeline-fine">
-                                January – March 2023
-                              </span>
-                            </p>
-                            <br />
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              What I did:{" "}
-                            </p>
-                            <p className="timeline-fine">
-                              UX Research, UX/UI Design
-                            </p>
-                            <br />
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Tools:{" "}
-                            </p>
-                            <p className="timeline-fine">
-                              Figma, Adobe Photoshop, Adobe Illustrator, Lyssna
-                            </p>
-
-                            <br />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+      <div className="shane_tm_hero_case_study">
+        <div className="container">
+          <div className="content">
+            <div className="shane_tm_section">
+              <div
+                className="case-study-intro-section"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <div className="top">
+                  <p className="text">
+                    Unlimitix is a beta-stage mobile app that uses AI to help
+                    users build healthy eating habits through chat-based
+                    coaching and motivational feedback. While working on this as
+                    part of my CareerFoundry UI Design Bootcamp, the app was
+                    live and in active development—so I joined as a real beta
+                    tester, using my own insights and experience with the app to
+                    inform a full redesign of its mobile interface.
+                  </p>
+                  <br />
+                  <p>
+                    My goal was to{" "}
+                    <strong>elevate the onboarding process</strong> and create a
+                    more <strong>enjoyable, engaging </strong>
+                    interface that would help users stay motivated on their
+                    <strong> journey to better nutrition.</strong>
+                  </p>
                 </div>
               </div>
             </div>
@@ -158,7 +131,7 @@ const UnlimitixApp = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -236,7 +209,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/un_platforms.png",
+                        "/img/portfolio/case-study/un_platforms.png"
                       )
                     }
                   />
@@ -310,7 +283,7 @@ const UnlimitixApp = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -354,7 +327,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/un_user_flow.png",
+                        "/img/portfolio/case-study/un_user_flow.png"
                       )
                     }
                   />
@@ -384,7 +357,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/un_mockups.png",
+                        "/img/portfolio/case-study/un_mockups.png"
                       )
                     }
                   />
@@ -442,7 +415,7 @@ const UnlimitixApp = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -484,7 +457,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Un-User_feedback.png",
+                        "/img/portfolio/case-study/Un-User_feedback.png"
                       )
                     }
                   />
@@ -514,7 +487,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/un_screens_all.png",
+                        "/img/portfolio/case-study/un_screens_all.png"
                       )
                     }
                   />
