@@ -207,7 +207,7 @@ const MyStoryCaseStudy = () => {
                 </div>
                     <div
                   className="shane_tm_button"
-                  style={{ marginTop: "20px" }}
+                  // style={{ marginTop: "20px" }}
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
