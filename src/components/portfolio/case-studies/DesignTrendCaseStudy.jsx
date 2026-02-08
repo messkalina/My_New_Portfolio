@@ -510,7 +510,7 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                 </div>
-                <div
+                {/* <div
                  
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -519,9 +519,10 @@ const DesignTrendCaseStudy = () => {
                     className="shane_tm_button fade-in-delay"
                     style={{
                       // marginTop: "32px",
-                      background: "none",
-                      border: "none",
+                      backgroundColor: "#fff",
+                      border: "1px solid #6e41e2",
                       padding: 0,
+                      color: "#6e41e2",
                       cursor: "pointer",
                     }}
                     data-aos="fade-up"
@@ -536,7 +537,7 @@ const DesignTrendCaseStudy = () => {
                   >
                     <span className="button-text">See Live</span>
                   </button>
-                </div>
+                </div> */}
               </div>
               {/* End left */}
 

@@ -231,6 +231,110 @@ const AnimationProjectCaseStudy = () => {
           </div>
         </div>
       </div>
+{/* Solution Section - Headline and Content Swapped */}
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Solution</span>
+                  <h3> Lean UX in Webdesign</h3>
+                </div>
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <p>
+                    Following Lean UX principles, I focused on shipping a
+                    functional "Minimum Viable Product" to quickly get the
+                    business website live and validate it via user testing. The
+                    goal was to meet bussiness requirements, gather insights and
+                    move to design iterations that then would be easily
+                    implemented by external developer.{" "}
+                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>Leveraging Figma:</strong> I designed responsive
+                      UI/UX and built interactive prototypes in Figma and used
+                      Relume AI platform to speed up ideation phase
+                    </li>
+                    <li>
+                      <strong>Community Testing:</strong> I validated the MVP
+                      via the Career Foundry and Google UX communities. Their
+                      feedback helped me iron out mobile responsiveness flaws
+                      before the official launch.
+                    </li>
+                    <li>
+                      <strong>Custom Build:</strong> I coded the website in
+                      React.js bypassing subscription-based website builders
+                      such as Wix or heavy Wordpress CMS.The site was deployed
+                      via Netlify, ensuring a cost-effective and
+                      high-performance hosting solution.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
+                      )
+                    }
+                  />
+                  <div className="image_caption">
+                    <p>
+                      1. Website reference that client provided; 2. MVP version;
+                      3. Second iteration of the design
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content"
+            >
+              <div className="shane_tm_section"
+              
+              >
+                <div className="about_inner">
+                    <div className="left" >
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                      <img
+                        src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
+                        alt="Wireframe"
+                        className="clickable-image"
+                        style={{ width: "100%", cursor: "pointer" }}
+                        onClick={() =>
+                          handleImageClick(
+                            "/img/portfolio/case-study/Veterinary Practise_ver01resized.png",
+                          )
+                        }
+                      />
+                      <div className="image_caption">
+                        <p>MVP version of the website</p>
+                      </div>
+                    </div>
+                  </div>
+
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Process Section - Headline and Content Swapped */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -332,111 +436,6 @@ const AnimationProjectCaseStudy = () => {
                       design solutions
                     </p>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Solution Section - Headline and Content Swapped */}
-      <div className="shane_tm_section">
-        <div className="shane_tm_about">
-          <div className="container">
-            <div className="about_inner">
-              <div className="left">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
-                      )
-                    }
-                  />
-                  <div className="image_caption">
-                    <p>
-                      1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="right">
-                <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <span>Solution</span>
-                  <h3> Lean UX in Webdesign</h3>
-                </div>
-                <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <p>
-                    Following Lean UX principles, I focused on shipping a
-                    functional "Minimum Viable Product" to quickly get the
-                    business website live and validate it via user testing. The
-                    goal was to meet bussiness requirements, gather insights and
-                    move to design iterations that then would be easily
-                    implemented by external developer.{" "}
-                  </p>
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>Leveraging Figma:</strong> I designed responsive
-                      UI/UX and built interactive prototypes in Figma and used
-                      Relume AI platform to speed up ideation phase
-                    </li>
-                    <li>
-                      <strong>Community Testing:</strong> I validated the MVP
-                      via the Career Foundry and Google UX communities. Their
-                      feedback helped me iron out mobile responsiveness flaws
-                      before the official launch.
-                    </li>
-                    <li>
-                      <strong>Custom Build:</strong> I coded the website in
-                      React.js bypassing subscription-based website builders
-                      such as Wix or heavy Wordpress CMS.The site was deployed
-                      via Netlify, ensuring a cost-effective and
-                      high-performance hosting solution.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="content"
-            >
-              <div className="shane_tm_section"
-              
-              >
-                <div className="about_inner">
-                    <div className="left" >
-                    <div data-aos="fade-up" data-aos-duration="1200">
-                      <img
-                        src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
-                        alt="Wireframe"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/Veterinary Practise_ver01resized.png",
-                          )
-                        }
-                      />
-                      <div className="image_caption">
-                        <p>MVP version of the website</p>
-                      </div>
-                    </div>
-                  </div>
-
-                
                 </div>
               </div>
             </div>
@@ -663,7 +662,7 @@ const AnimationProjectCaseStudy = () => {
                     
                   </ul> */}
                 </div>
-                <div
+                {/* <div
                   className="shane_tm_button"
                   style={{ marginTop: "32px" }}
                   data-aos="fade-up"
@@ -687,7 +686,7 @@ const AnimationProjectCaseStudy = () => {
                   >
                     <span className="button-text">See Live</span>
                   </button>
-                </div>
+                </div> */}
               </div>
 
               <div className="right">
