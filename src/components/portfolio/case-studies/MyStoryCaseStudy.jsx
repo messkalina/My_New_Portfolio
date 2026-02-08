@@ -82,21 +82,21 @@ const MyStoryCaseStudy = () => {
                           <p className="text">
                             Orbit Health is a Munich-based digital health
                             startup focused on enhancing care for people with
-                            Parkinson’s Disease (PD). Its AI-powered solution
-                            uses smartwatches to track motor symptoms, giving
-                            patients and neurologists real-time, data-driven
+                            Parkinson’s Disease (PD). Its <strong>AI-powered solutions</strong>
+                            use smartwatch data to track motor symptoms, giving
+                            patients and neurologists real-time, objectives
                             insights into symptom fluctuations and treatment
                             efficacy.
                             <br />
                             <br />
                             With the product still undergoing clinical trials
                             and awaiting medical device approval in Germany,{" "}
-                            <strong>
-                              the website needed to clearly explain a
+                            
+                              the website needed to <strong>clearly explain</strong> a
                               sophisticated digital health product—while guiding
                               two very different user groups through complex
                               decision-making and regulatory processes.
-                            </strong>
+                            
                           </p>
                         </div>
                       </div>
