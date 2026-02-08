@@ -52,7 +52,7 @@ const DesignTrendCaseStudy = () => {
         </div>
       </div>
 
-       <div
+      <div
         className="full-image-section"
         style={{ width: "100%" }}
         data-aos="fade-up"
@@ -78,23 +78,24 @@ const DesignTrendCaseStudy = () => {
                           data-aos-duration="1200"
                         >
                           <p>
-                                Buhdi is a mindful, <strong>AI-powered</strong> task
-                    management app designed for adults with ADHD. Traditional
-                    productivity tools often fail neurodivergent users due to
-                    overwhelming interfaces, rigid systems, and lack of
-                    emotional support. Buhdi offers a flexible,{" "}
-                    <strong>gamified</strong> experience—guided by a calming AI
-                    coach—to help users complete meaningful goals at their own
-                    pace.
+                            Buhdi is a mindful, <strong>AI-powered</strong> task
+                            management app designed for adults with ADHD.
+                            Traditional productivity tools often fail
+                            neurodivergent users due to overwhelming interfaces,
+                            rigid systems, and lack of emotional support. Buhdi
+                            offers a flexible, <strong>gamified</strong>{" "}
+                            experience—guided by a calming AI coach—to help
+                            users complete meaningful goals at their own pace.
                           </p>
                           <br />
                           <p>
                             I joined the project early in{" "}
-                    <strong>MVP development</strong> and worked closely with the
-                    founder to shape both the core product experience and
-                    branding. My goal was to design an experience that was not
-                    just functional, but emotionally supportive and truly
-                    tailored to ADHD users' needs.
+                            <strong>MVP development</strong> and worked closely
+                            with the founder to shape both the core product
+                            experience and branding. My goal was to design an
+                            experience that was not just functional, but
+                            emotionally supportive and truly tailored to ADHD
+                            users' needs.
                           </p>
                         </div>
                       </div>
@@ -220,7 +221,7 @@ const DesignTrendCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/hand_buhdi_stats_col.png"
+                        "/img/portfolio/case-study/hand_buhdi_stats_col.png",
                       )
                     }
                   />
@@ -250,7 +251,7 @@ const DesignTrendCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Onboarding_Flow.png"
+                        "/img/portfolio/case-study/Onboarding_Flow.png",
                       )
                     }
                   />
@@ -369,7 +370,7 @@ const DesignTrendCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Quest_Screens_Iterations.png"
+                        "/img/portfolio/case-study/Quest_Screens_Iterations.png",
                       )
                     }
                   />
@@ -399,7 +400,7 @@ const DesignTrendCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Gamification_System.png"
+                        "/img/portfolio/case-study/Gamification_System.png",
                       )
                     }
                   />
@@ -510,7 +511,7 @@ const DesignTrendCaseStudy = () => {
                       window.open(
                         "https://buhdi.com/",
                         "_blank",
-                        "noopener,noreferrer"
+                        "noopener,noreferrer",
                       )
                     }
                   >
@@ -529,7 +530,7 @@ const DesignTrendCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Mockup_2_screens.png"
+                        "/img/portfolio/case-study/Mockup_2_screens.png",
                       )
                     }
                   />
