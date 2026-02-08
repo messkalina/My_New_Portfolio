@@ -52,33 +52,59 @@ const DesignTrendCaseStudy = () => {
         </div>
       </div>
 
-       <div
-        className="full-image-section"
-        style={{ width: "100%" }}
-        data-aos="fade-up"
-        data-aos-duration="1200"
-      >
+      {/* Timeline section */}
+      <div className="shane_tm_section">
         <div className="container">
-          <div className="content">
-            <div>
+          <div
+            className="hero_description"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <p
+              style={{
+                fontWeight: 600,
+                fontSize: "14px",
+                marginBottom: "60px",
+              }}
+            >
+              Timeline:{" "}
+              <span className="timeline-fine"> December 2024 – March 2025</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* full-width image */}
+      <div className="container">
+        <div className="content">
+          <div className="shane_tm_section">
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <img
                 src="/img/portfolio/case-study/Mockup_3_screens.png"
                 alt="App Screens"
               />
+            </div>
+          </div>
+        </div>
+      </div>
 
-              {/* Overview section */}
-              <div className="shane_tm_section">
-                <div className="shane_tm_about">
-                  <div>
-                    <div className="about_inner">
-                      <div className="left">
-                        <div
-                          className="text"
-                          data-aos="fade-up"
-                          data-aos-duration="1200"
-                        >
-                          <p>
-                                Buhdi is a mindful, <strong>AI-powered</strong> task
+      <div className="shane_tm_hero_case_study">
+        <div className="container">
+          <div className="content">
+            <div className="shane_tm_section">
+              <div
+                className="case-study-intro-section"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <div className="top">
+                  <p className="text">
+                    Buhdi is a mindful, <strong>AI-powered</strong> task
                     management app designed for adults with ADHD. Traditional
                     productivity tools often fail neurodivergent users due to
                     overwhelming interfaces, rigid systems, and lack of
@@ -86,66 +112,44 @@ const DesignTrendCaseStudy = () => {
                     <strong>gamified</strong> experience—guided by a calming AI
                     coach—to help users complete meaningful goals at their own
                     pace.
-                          </p>
-                          <br />
-                          <p>
-                            I joined the project early in{" "}
+                  </p>
+                  <br />
+                  <p className="text">
+                    I joined the project early in{" "}
                     <strong>MVP development</strong> and worked closely with the
                     founder to shape both the core product experience and
                     branding. My goal was to design an experience that was not
                     just functional, but emotionally supportive and truly
                     tailored to ADHD users' needs.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="right">
-                        <div data-aos="fade-up" data-aos-duration="1200">
-                          <div className="text">
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Timeline:{" "}
-                            </p>
-                            <p>
-                              <span className="timeline-fine">
-                                December 2024 – March 2025
-                              </span>
-                            </p>
-                            <br />
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              What I did:{" "}
-                            </p>
-                            <p className="timeline-fine">
-                              UX/UI Design, UX Research, User Testing
-                            </p>
-                            <br />
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Tools:{" "}
-                            </p>
-                            <p className="timeline-fine">
-                              Figma, Adobe Illustrator, Lyssna
-                            </p>
-
-                            <br />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  </p>
+                </div>
+                <div
+                  className="shane_tm_button fade-in-delay"
+                  style={{ marginTop: "32px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <button
+                    className="shane_tm_button fade-in-delay"
+                    style={{
+                      marginTop: "32px",
+                      background: "none",
+                      border: "none",
+                      padding: 0,
+                      cursor: "pointer",
+                    }}
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    onClick={() =>
+                      window.open(
+                        "https://buhdi.com/",
+                        "_blank",
+                        "noopener,noreferrer"
+                      )
+                    }
+                  >
+                    <span className="button-text">See Live</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -158,7 +162,7 @@ const DesignTrendCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -320,7 +324,7 @@ const DesignTrendCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -459,7 +463,7 @@ const DesignTrendCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
