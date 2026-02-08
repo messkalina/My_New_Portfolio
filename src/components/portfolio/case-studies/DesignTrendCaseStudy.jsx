@@ -144,6 +144,7 @@ const DesignTrendCaseStudy = () => {
                             <br />
                           </div>
                         </div>
+                        
                       </div>
                     </div>
                   </div>
@@ -210,6 +211,22 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                 </div>
+                <div
+                          className="shane_tm_button"
+                          style={{ marginTop: "20px" }}
+                          data-aos="fade-up"
+                          data-aos-duration="1200"
+                        >
+                          <a
+                            href="#solution"
+                            
+                            style={{
+                              textDecoration: "none",
+                            }}
+                          >
+                            <span className="button-text">Jump to Solution</span>
+                          </a>
+                        </div>
               </div>
 
               <div className="right">
@@ -387,7 +404,7 @@ const DesignTrendCaseStudy = () => {
         </div>
       </div>
       {/* Results Section - Image left, Text right */}
-      <div className="shane_tm_section">
+      <div className="shane_tm_section" id="solution">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
