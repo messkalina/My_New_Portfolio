@@ -1040,7 +1040,7 @@ body.loaded .overlay_effect:after {
 .shane_tm_button {
   position: relative;
   overflow: hidden;
-  margin-top: 24px;
+  margin-top: 3rem;
   display: inline-block; /* Change from flex to inline-block */
   align-self: flex-start; /* Align to the left in flex containers */
 }
@@ -1049,7 +1049,7 @@ body.loaded .overlay_effect:after {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   display: inline-block;
-  padding: 12px 36px;
+  padding: 12px 3rem;
   background-color: rgb(124, 58, 237);
   color: #fff;
   border-radius: 2px;
@@ -1060,7 +1060,7 @@ body.loaded .overlay_effect:after {
 }
 
 .shane_tm_button:hover .button-text {
-  background-color: #4f51c0;
+  background-color: #06060d;
   // transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

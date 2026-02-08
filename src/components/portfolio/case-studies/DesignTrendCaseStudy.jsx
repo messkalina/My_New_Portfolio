@@ -211,22 +211,7 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                 </div>
-                <div
-                          className="shane_tm_button"
-                          style={{ marginTop: "20px" }}
-                          data-aos="fade-up"
-                          data-aos-duration="1200"
-                        >
-                          <a
-                            href="#solution"
-                            
-                            style={{
-                              textDecoration: "none",
-                            }}
-                          >
-                            <span className="button-text">Jump to Solution</span>
-                          </a>
-                        </div>
+                
               </div>
 
               <div className="right">
@@ -254,6 +239,91 @@ const DesignTrendCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
+                    {/* Results Section - Image left, Text right */}
+      <div className="shane_tm_section" id="solution">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Gamification_System.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Gamification_System.png",
+                      )
+                    }
+                  />
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>Gamification elements</p>
+                  </div>
+                </div>
+              </div>
+              {/* End left */}
+
+              <div className="right">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Solution</span>
+                  <h3>Designing Structure and Story for Engagement</h3>
+                </div>
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <p>
+                    {" "}
+                    I designed <strong>user interfaces</strong> (UI) for Quest
+                    Mode, a guided task flow that breaks down goals into small,
+                    rewarding steps with visual progress, that foster a sense of
+                    achievement and engagement.
+                  </p>
+                  <br />
+                  <p>
+                    I also designed UI for the <strong>onboarding flow</strong>{" "}
+                    and a cohesive brand system using calming visuals,
+                    Buddhist-inspired design, and a supportive AI coach persona
+                    to convey emotional clarity and purpose.
+                  </p>
+                  <br />
+                  <p>
+                    Lastly I designed and run <strong>user testing</strong> and
+                    feedback sessions to iterate on the design and created{" "}
+                    <strong>recommendations</strong> for future improvements.
+                  </p>
+                </div>
+                <div
+                          className="shane_tm_button"
+                          // style={{ marginTop: "20px" }}
+                          data-aos="fade-up"
+                          data-aos-duration="1200"
+                        >
+                          <a
+                            href="#outcome"
+                            
+                            style={{
+                              textDecoration: "none",
+                            }}
+                          >
+                            <span className="button-text">Jump to Outcome</span>
+                          </a>
+                        </div>
+              </div>
+              {/* End right */}
+            </div>
+          </div>
+          {/* End container */}
+        </div>
+      </div>
+
       {/* Design Process Section - Image left, Text right */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -403,77 +473,10 @@ const DesignTrendCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-      {/* Results Section - Image left, Text right */}
-      <div className="shane_tm_section" id="solution">
-        <div className="shane_tm_about">
-          <div className="container">
-            <div className="about_inner">
-              <div className="left">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Gamification_System.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Gamification_System.png",
-                      )
-                    }
-                  />
-                  {/* Add caption */}
-                  <div className="image_caption">
-                    <p>Gamification elements</p>
-                  </div>
-                </div>
-              </div>
-              {/* End left */}
-
-              <div className="right">
-                <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <span>Solution</span>
-                  <h3>Designing Structure and Story for Engagement</h3>
-                </div>
-                <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <p>
-                    {" "}
-                    I designed <strong>user interfaces</strong> (UI) for Quest
-                    Mode, a guided task flow that breaks down goals into small,
-                    rewarding steps with visual progress, that foster a sense of
-                    achievement and engagement.
-                  </p>
-                  <br />
-                  <p>
-                    I also designed UI for the <strong>onboarding flow</strong>{" "}
-                    and a cohesive brand system using calming visuals,
-                    Buddhist-inspired design, and a supportive AI coach persona
-                    to convey emotional clarity and purpose.
-                  </p>
-                  <br />
-                  <p>
-                    Lastly I designed and run <strong>user testing</strong> and
-                    feedback sessions to iterate on the design and created{" "}
-                    <strong>recommendations</strong> for future improvements.
-                  </p>
-                </div>
-              </div>
-              {/* End right */}
-            </div>
-          </div>
-          {/* End container */}
-        </div>
-      </div>
+      
 
       {/* Outcome Section */}
-      <div className="shane_tm_section">
+      <div className="shane_tm_section" id="outcome">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
@@ -508,15 +511,14 @@ const DesignTrendCaseStudy = () => {
                   </ul>
                 </div>
                 <div
-                  className="shane_tm_button fade-in-delay"
-                  style={{ marginTop: "32px" }}
+                 
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
                   <button
                     className="shane_tm_button fade-in-delay"
                     style={{
-                      marginTop: "32px",
+                      // marginTop: "32px",
                       background: "none",
                       border: "none",
                       padding: 0,

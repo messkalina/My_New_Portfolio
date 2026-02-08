@@ -205,6 +205,21 @@ const MyStoryCaseStudy = () => {
                     audience needs.
                   </p>
                 </div>
+                    <div
+                  className="shane_tm_button"
+                  style={{ marginTop: "20px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="#solution"
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    <span className="button-text">Jump to Solution</span>
+                  </a>
+                </div>
               </div>
 
               <div className="right">
@@ -260,7 +275,7 @@ const MyStoryCaseStudy = () => {
 
               <div className="right">
                 <div
-                  className="shane_tm_title"
+                  className="shane_tm_title" id="solution"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
