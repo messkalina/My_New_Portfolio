@@ -1,3 +1,5 @@
+#6a6969
+
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header/Header";

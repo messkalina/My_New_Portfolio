@@ -130,7 +130,8 @@ h4 {
 }
 h5 {
   font-size: 20px;
-  // letter-spacing: -0.1px;
+  letter-spacing: -0.1px;
+  font-weight: 700;
 }
 h6 {
   font-size: 16px;
@@ -4177,9 +4178,12 @@ body.intro .loader_line:after {
 }
 .shane_tm_portfolio .portfolio_list .portfolio_title_always span.portfolio-meta-description,
 .portfolio-meta-description {
-  line-height: 1.1rem !important;
+  line-height: 1rem !important;
   display: inline-block !important;
   max-width: 100% !important;
+  color:#6a6969;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
 }
 
 @media (max-width: 767px) {

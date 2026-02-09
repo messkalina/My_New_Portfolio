@@ -211,7 +211,7 @@ const Portfolio = () => {
                                   <h5
                                     style={{
                                       margin: "24px 0 2px 0",
-                                      fontWeight: "600",
+                                      // fontWeight: "600",
                                     }}
                                   >
                                     {val.title}
@@ -219,7 +219,7 @@ const Portfolio = () => {
                                   <span
                                     className="portfolio-meta-description"
                                     style={{
-                                      color: "#4749ad",
+                                      // color: "#4749ad",
                                       fontSize: "0.9rem",
                                       fontWeight: "300",
                                       marginTop: "0px",
