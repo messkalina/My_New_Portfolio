@@ -47,6 +47,7 @@ const DesignTrendCaseStudy = () => {
               data-aos-duration="1200"
             >
               <h1>Buhdi – Mindful ADHD Support App</h1>
+              <h4>UX Challenges for ADHD Users</h4>
             </div>
           </div>
         </div>

@@ -47,7 +47,9 @@ const AnimationProjectCaseStudy = () => {
               data-aos-duration="1200"
             >
               <h1>Veterinary Practice Website</h1>
+              <h4>End-to-end UX/UI & Web Development</h4>
             </div>
+            
           </div>
         </div>
       </div>

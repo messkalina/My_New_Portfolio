@@ -47,6 +47,7 @@ const UnlimitixApp = () => {
               data-aos-duration="1200"
             >
               <h1>Unlimitix – AI Nutrition Coach</h1>
+              <h4>Beta Version App Redesign for Better UX</h4>
             </div>
           </div>
         </div>
