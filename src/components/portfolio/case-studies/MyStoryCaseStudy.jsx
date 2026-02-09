@@ -49,6 +49,7 @@ const MyStoryCaseStudy = () => {
               <h1>
                 Orbit Health Website Redesign
               </h1>
+              <h4>Designing Website for Complex Medical Products and Audiences</h4>
             </div>
           </div>
         </div>
