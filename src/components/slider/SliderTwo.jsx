@@ -64,7 +64,7 @@ const Slider = () => {
 
               <div
                 className="job_wrap"
-                style={{ marginTop: "-8px", color: "rgb(124, 58, 237)" }}
+                style={{ marginTop: "-8px", color: "#6a6969" }}
               >
                 <span className="job">UI/UX & MOTION DESIGNER</span>
               </div>
