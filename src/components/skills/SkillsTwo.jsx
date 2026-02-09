@@ -28,26 +28,26 @@ const SkillsTwo = () => {
             >
               {/* Skill 1 */}
               <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
-                <div style={{ marginBottom: "32px" }}>
+                <div style={{ marginBottom: "16px" }}>
                   <img
                     src="/img/svg/browser-ui-svgrepo-com.svg"
                     alt="UX Design"
                     style={{ height: "42px", width: "42px" }}
                   />
                 </div>
-                <h4 style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>UX Design</h4>
+                <h6>UX Design</h6>
               </div>
 
               {/* Skill 2 */}
               <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
-                <div style={{ marginBottom: "32px" }}>
+                <div style={{ marginBottom: "16px" }}>
                   <img
                     src="/img/svg/vector-svgrepo-com.svg"
                     alt="UI Design"
                      style={{ height: "42px", width: "42px" }}
                   />
                 </div>
-                <h4 style={{  margin: "0", fontSize: "16px", fontWeight: "600" }}>UI Design</h4>
+                <h6>UI Design</h6>
               </div>
 
               {/* Skill 3 */}
@@ -55,24 +55,24 @@ const SkillsTwo = () => {
 
               {/* Skill 4 */}
               <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
-                <div style={{ marginBottom: "32px" }}>
+                <div style={{ marginBottom: "16px" }}>
                   <img
                     src="/img/svg/animation-svgrepo-com.svg"
                     alt="Motion Design"
                      style={{ height: "42px", width: "42px" }}
                   />
                 </div>
-                <h4 style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>Motion Design</h4>
+                <h6>Motion Design</h6>
               </div>
               <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
-                <div style={{ marginBottom: "32px" }}>
+                <div style={{ marginBottom: "16px" }}>
                   <img
                     src="/img/svg/laptop-web-development.svg"
                     alt="Frontend Development"
                     style={{ height: "42px", width: "42px" }}
                   />
                 </div>
-                <h4 style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>Frontend Fundamentals</h4>
+                <h6>Frontend Fundamentals</h6>
               </div>
 
             </div>

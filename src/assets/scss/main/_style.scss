@@ -135,7 +135,13 @@ h5 {
   font-weight: 700;
 }
 h6 {
-  font-size: 16px;
+
+   line-height: 1rem !important;
+  display: inline-block !important;
+  max-width: 100% !important;
+  color:#6a6969;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
   //  letter-spacing: -0.1px;
 }
 
