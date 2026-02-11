@@ -498,8 +498,8 @@ const AnimationProjectCaseStudy = () => {
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <video
                     src="/img/portfolio/case-study/Phone _mockup02.mp4"
-                    className="clickable-image"
-                    style={{ width: "100%" }}
+                    
+                  style={{ width: "100%" }}
                     autoPlay
                     loop
                     muted
@@ -695,7 +695,7 @@ const AnimationProjectCaseStudy = () => {
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <video
                     src="/img/portfolio/case-study/Testimonial.png"
-                    className="clickable-image"
+                    
                     style={{ width: "100%" }}
                     autoPlay
                     loop
