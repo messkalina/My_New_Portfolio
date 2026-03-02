@@ -8,6 +8,6 @@
   status = 200
 
   [[headers]]
-  for = "/case-studies/*"
+  for = "/case-study/buhdi-app"
   [headers.values]
     Basic-Auth = "user:password"
