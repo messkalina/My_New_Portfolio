@@ -46,8 +46,8 @@ const DesignTrendCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>From Cognitive Overload to Actionable Quests</h1>
-              <h4>Buhdi – Mindful ADHD Support App</h4>
+              <h1>Buhdi – Mindful ADHD Support App</h1>
+              <h4>UX Challenges for ADHD Users</h4>
             </div>
           </div>
         </div>
