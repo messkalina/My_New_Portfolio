@@ -95,10 +95,11 @@ const DesignTrendCaseStudy = () => {
                             <strong>MVP development</strong> and worked closely
                             with the founder to shape both the core product
                             experience and branding. I led the end-to-end design
-                            of <strong>Quest Mode</strong>: a generative <strong>AI feature</strong> that
-                            decomposes overwhelming goals into a series of
-                            small, dopamine-inducing steps guided by a calming
-                            AI coach, Master Buhdi.
+                            of <strong>Quest Mode</strong>: a generative{" "}
+                            <strong>AI feature</strong> that decomposes
+                            overwhelming goals into a series of small,
+                            dopamine-inducing steps guided by a calming AI
+                            coach, Master Buhdi.
                           </p>
                         </div>
                       </div>
@@ -129,7 +130,8 @@ const DesignTrendCaseStudy = () => {
                               What I did:{" "}
                             </p>
                             <p className="timeline-fine">
-                              UX/UI Design, coding prompt engineering, UX Research, User Testing
+                              UX/UI Design, coding prompt engineering, UX
+                              Research, User Testing
                             </p>
                             <br />
                             <p
@@ -141,7 +143,8 @@ const DesignTrendCaseStudy = () => {
                               Tech Stack:{" "}
                             </p>
                             <p className="timeline-fine">
-                              Figma, Flutter, Cursor AI, Adobe Illustrator, After Effects, Lyssna
+                              Figma, Flutter, Cursor AI, Adobe Illustrator,
+                              After Effects, Lyssna
                             </p>
 
                             <br />
@@ -182,36 +185,26 @@ const DesignTrendCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong> Low motivation</strong> and difficulty with
-                      <strong> focus</strong>
+                      <strong> Inconsistent motivation:</strong> difficulties
+                      with working memory and keeping focus
                     </li>
                     <li>
-                      <strong>Frustration</strong> with rigid or overwhelming
-                      to-do list apps
+                      <strong>Executive Dysfunction:</strong> large tasks feel
+                      emotionally overwhelming and impossible to start ("task
+                      paralysis" )
+                    </li>
+                    <li>
+                      <strong>Lack of Immediate Reward:</strong> traditional
+                      lists feel like "work" rather than progress
                     </li>
                   </ul>
                   <p>
-                    In addition, the app was offered behind a{" "}
+                    In addition, the app was to be offered behind a{" "}
                     <strong>paywall with a free trial</strong>, which meant we
                     had to clearly communicate the app’s value before users
                     could test it—placing even greater importance on the
                     <strong> onboarding flow.</strong>
                   </p>
-                  <p>Our UX goals were to:</p>
-                  <ul className="case-study-list">
-                    <li>
-                      Create a <strong>compelling onboarding experience</strong>{" "}
-                      that builds trust and clarity before account creation
-                    </li>
-                    <li>
-                      Differentiate Buhdi from other productivity tools through
-                      a <strong>unique</strong> brand and experience
-                    </li>
-                    <li>
-                      Incorporate <strong>gamification elements</strong> to
-                      boost motivation
-                    </li>
-                  </ul>
                 </div>
               </div>
 
@@ -272,8 +265,8 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Solution</span>
-                  <h3>Designing Structure and Story for Engagement</h3>
+                  <span>Discovery</span>
+                  <h3>Building empathy with users</h3>
                 </div>
                 <div
                   className="text"
@@ -282,24 +275,55 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     {" "}
-                    I designed <strong>user interfaces</strong> (UI) for Quest
-                    Mode, a guided task flow that breaks down goals into small,
-                    rewarding steps with visual progress, that foster a sense of
-                    achievement and engagement.
+                    To design for neurodiversity, I moved beyond standard UI
+                    patterns and looked into the behavioral science of focus.
                   </p>
                   <br />
                   <p>
-                    I also designed UI for the <strong>onboarding flow</strong>{" "}
-                    and a cohesive brand system using calming visuals,
-                    Buddhist-inspired design, and a supportive AI coach persona
-                    to convey emotional clarity and purpose.
+                    <strong>1. Primary & Field Research</strong>
                   </p>
+                  <ul className="case-study-list">
+                    <li>
+                      <strong> User Interviews:</strong>Conducted deep-dive
+                      interviews with 4 diagnosed/self-diagnosed ADHD
+                      individuals to map their daily friction points.
+                    </li>
+                    <li>
+                      <strong>Contextual Inquiry:</strong> Conducted an online
+                      survey via Reddit (r/ADHD) to validate pains and gains at
+                      scale, filling out a{" "}
+                      <strong>Value Proposition Canvas</strong> that revealed a
+                      core need for "emotional scaffolding" alongside task
+                      tracking.
+                    </li>
+                    <li>
+                      <strong>Quantitative Insights:</strong> traditional lists
+                      feel like "work" rather than progress
+                    </li>
+                  </ul>
                   <br />
                   <p>
-                    Lastly I designed and run <strong>user testing</strong> and
-                    feedback sessions to iterate on the design and created{" "}
-                    <strong>recommendations</strong> for future improvements.
+                    <strong>2. Secondary Research & Benchmarking</strong>
                   </p>
+                  <ul className="case-study-list">
+                    <li>
+                      <strong> Scientific Foundation:</strong> Studied papers on
+                      the mechanisms of ADHD, specifically focusing on Executive
+                      Dysfunction and the "Point of Performance." I learned that
+                      ADHD is often a performance disorder, not a knowledge
+                      disorder—users know what to do, but their brains struggle
+                      to initiate the action.
+                    </li>
+                    <li>
+                      <strong>Competitive Benchmarking:</strong> I analyzed
+                      leading apps for managing ADHD - Inflow
+                      (psycho-education), Shmoody (mood/action), and Tiimo
+                      (visual planning).I also researched apps that incorporated
+                      gamification into their core user flows - Studied Duolingo
+                      (streak psychology), Calm/Headspace (sensory UX), and
+                      Sunsama (focus workflows).
+                    </li>
+                  </ul>
                 </div>
                 <div
                   className="shane_tm_button"
