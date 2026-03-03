@@ -85,18 +85,20 @@ const DesignTrendCaseStudy = () => {
                             neurodivergent users due to overwhelming interfaces,
                             rigid systems, and lack of emotional support. Buhdi
                             offers a flexible, <strong>gamified</strong>{" "}
-                            experience—guided by a calming AI coach—to help
-                            users complete meaningful goals at their own pace.
+                            experience guided by a calming AI coach, to help
+                            users complete goals by tackling "task paralysis"
+                            and emotional overwhelm.
                           </p>
                           <br />
                           <p>
                             I joined the project early in{" "}
                             <strong>MVP development</strong> and worked closely
                             with the founder to shape both the core product
-                            experience and branding. My goal was to design an
-                            experience that was not just functional, but
-                            emotionally supportive and truly tailored to ADHD
-                            users' needs.
+                            experience and branding. I led the end-to-end design
+                            of <strong>Quest Mode</strong>: a generative <strong>AI feature</strong> that
+                            decomposes overwhelming goals into a series of
+                            small, dopamine-inducing steps guided by a calming
+                            AI coach, Master Buhdi.
                           </p>
                         </div>
                       </div>
@@ -127,7 +129,7 @@ const DesignTrendCaseStudy = () => {
                               What I did:{" "}
                             </p>
                             <p className="timeline-fine">
-                              UX/UI Design, UX Research, User Testing
+                              UX/UI Design, coding prompt engineering, UX Research, User Testing
                             </p>
                             <br />
                             <p
@@ -136,16 +138,15 @@ const DesignTrendCaseStudy = () => {
                                 fontSize: "14px",
                               }}
                             >
-                              Tools:{" "}
+                              Tech Stack:{" "}
                             </p>
                             <p className="timeline-fine">
-                              Figma, Adobe Illustrator, Lyssna
+                              Figma, Flutter, Cursor AI, Adobe Illustrator, After Effects, Lyssna
                             </p>
 
                             <br />
                           </div>
                         </div>
-                        
                       </div>
                     </div>
                   </div>
@@ -212,7 +213,6 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                 </div>
-                
               </div>
 
               <div className="right">
@@ -240,7 +240,7 @@ const DesignTrendCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-                    {/* Results Section - Image left, Text right */}
+      {/* Results Section - Image left, Text right */}
       <div className="shane_tm_section" id="solution">
         <div className="shane_tm_about">
           <div className="container">
@@ -302,21 +302,20 @@ const DesignTrendCaseStudy = () => {
                   </p>
                 </div>
                 <div
-                          className="shane_tm_button"
-                          // style={{ marginTop: "20px" }}
-                          data-aos="fade-up"
-                          data-aos-duration="1200"
-                        >
-                          <a
-                            href="#outcome"
-                            
-                            style={{
-                              textDecoration: "none",
-                            }}
-                          >
-                            <span className="button-text">Jump to Outcome</span>
-                          </a>
-                        </div>
+                  className="shane_tm_button"
+                  // style={{ marginTop: "20px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="#outcome"
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    <span className="button-text">Jump to Outcome</span>
+                  </a>
+                </div>
               </div>
               {/* End right */}
             </div>
@@ -474,7 +473,6 @@ const DesignTrendCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-      
 
       {/* Outcome Section */}
       <div className="shane_tm_section" id="outcome">
