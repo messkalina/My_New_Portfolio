@@ -521,24 +521,64 @@ const DesignTrendCaseStudy = () => {
                 </div>
                 <div
                   className="text"
+                 
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                    The app was successfully{" "}
-                      <strong>launched on the App Store</strong> and secured its
-                      first paying users in 2025. By grounding the design in scientific
-                      research and iterative testing, Buhdi achieved significant
-                      growth metrics during the MVP phase, validated by post-launch research:
+                  The app was successfully{" "}
+                  <strong>launched on the App Store</strong> and secured its
+                  first paying users in 2025. By grounding the design in
+                  scientific research and iterative testing, Buhdi achieved
+                  significant growth metrics during the MVP phase, validated by
+                  post-launch research:
                   <ul className="case-study-list">
                     <li>
-                      <strong>82% Quest Activation Rate:</strong> Users successfully completing their first AI-generated breakdown.
+                      <strong><string 
+                       style={{
+                    fontSize: "1.5em", // 200% bigger (2 * 1em)
+                    color: "#6e41e2", // Brand violet color
+                    fontWeight: "bold", // Making it stand out
+                    // display: "inline-block", // Ensuring it behaves as a block
+                    marginBottom: "0", // Add some spacing below
+                  }}>82% </string> 
+             <string 
+                       style={{
+                        fontSize: "1.1em",
+                         color: "#6e41e2"
+                       }}>
+                  Quest Activation Rate:</string></strong> Users
+                      successfully completing their first AI-generated
+                      breakdown.
                     </li>
                     <li>
-                      <strong>+22% D30 Retention:</strong> Highlighting the long-term value of the gamified reward loop.
+                      <strong><string 
+                       style={{
+                    fontSize: "1.5em", // 200% bigger (2 * 1em)
+                    color: "#6e41e2", // Brand violet color
+                    fontWeight: "bold", // Making it stand out
+                    // display: "inline-block", // Ensuring it behaves as a block
+                    marginBottom: "0", // Add some spacing below
+                  }}>+22%</string><string 
+                       style={{
+                        fontSize: "1.1em",
+                         color: "#6e41e2"
+                       }}> D30 Retention:</string></strong> Highlighting the
+                      long-term value of the gamified reward loop.
                     </li>
                     <li>
-                     
-                      <strong>2x Task Completion:</strong>Compared to pre-using Buhdi for more than half of the users being researched.
+                      <strong><string 
+                       style={{
+                    fontSize: "1.5em", // 200% bigger (2 * 1em)
+                    color: "#6e41e2", // Brand violet color
+                    fontWeight: "bold", // Making it stand out
+                    // display: "inline-block", // Ensuring it behaves as a block
+                    marginBottom: "0", // Add some spacing below
+                  }}>2x </string> <string 
+                       style={{
+                        fontSize: "1.1em",
+                         color: "#6e41e2"
+                       }}>Task Completion:</string></strong> Compared to pre-using
+                      Buhdi for more than half of the users being researched.
                     </li>
                   </ul>
                 </div>
