@@ -205,6 +205,21 @@ const DesignTrendCaseStudy = () => {
                     could test it—placing even greater importance on the
                     <strong> onboarding flow.</strong>
                   </p>
+                  <div
+                  className="shane_tm_button"
+                  // style={{ marginTop: "20px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="#outcome"
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    <span className="button-text">Jump to Outcome</span>
+                  </a>
+                </div>
                 </div>
               </div>
 
@@ -301,7 +316,7 @@ const DesignTrendCaseStudy = () => {
                       feel like "work" rather than progress
                     </li>
                   </ul>
-                  <br />
+              
                   <p>
                     <strong>2. Secondary Research & Benchmarking</strong>
                   </p>
@@ -325,21 +340,7 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                 </div>
-                <div
-                  className="shane_tm_button"
-                  // style={{ marginTop: "20px" }}
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <a
-                    href="#outcome"
-                    style={{
-                      textDecoration: "none",
-                    }}
-                  >
-                    <span className="button-text">Jump to Outcome</span>
-                  </a>
-                </div>
+                
               </div>
               {/* End right */}
             </div>
