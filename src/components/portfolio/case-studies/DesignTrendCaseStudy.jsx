@@ -266,7 +266,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Discovery</span>
-                  <h3>Building empathy with users</h3>
+                  <h3>Building Empathy with users</h3>
                 </div>
                 <div
                   className="text"
@@ -380,45 +380,28 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Process</span>
-                  <h3> Applying User-Centered Design</h3>
+                  <span>STRATEGY</span>
+                  <h3> Turning Task Paralysis into Quests</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>To deeply understand the target audience, I:</p>
+                  <p>
+                    Based on my research, I defined the <strong>Value Proposition</strong>: Buhdi
+                    isn't just a to-do list; it is a <strong>Cognitive Bypass</strong>. Drawing from Value Proposition Canvas I identified:
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Created behavioral user scenarios</strong> to
-                      reflect real-world ADHD challenges
+                      <strong>Pain Reliever:</strong> The AI decomposes "The Wall of Awful" (large, scary tasks) into micro-steps.
                     </li>
+    
                     <li>
-                      Conducted <strong>1:1 user interviews</strong> with
-                      first-time users to observe pain points and cognitive
-                      friction
-                    </li>
-                    <li>
-                      <strong>Created user journey maps</strong> to visualize
-                      the end-to-end experience
+                      <strong>Gain Creator:</strong> Gamification provides the immediate dopamine hit that ADHD brains lack during long-term projects. The Quest Feature reduces emotional and cognitive overwhealm that accompanies multi-steps tasks.
                     </li>
                   </ul>
-                  <p>
-                    The design was shaped by ideas from the founder, who was
-                    inspired by{" "}
-                    <strong>Acceptance and Commitment Therapy (ACT)</strong> and
-                    <strong> mindfulness principles.</strong> I worked to
-                    thoughtfully incorporate these concepts into the product’s
-                    flow and tone—ensuring the experience felt calming,
-                    supportive, and aligned with therapeutic practices.
-                  </p>
-                  <br />
-                  <p>
-                    Users were guided by a gentle AI avatar, Master Buhdi, who
-                    helped them define and break down goals into manageable,
-                    values-based steps.
-                  </p>
+                  
                 </div>
               </div>
               {/* End right */}
@@ -438,7 +421,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>UX Validation</span>
+                  <span>Validation</span>
                   <h3>Testing and Improving User Journey</h3>
                 </div>
                 <div
@@ -448,7 +431,7 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     To validate the MVP and improve core flows, I designed and
-                    ran a structured user testing round focused on:
+                    ran moderated usability study with 5 participants focusing on <strong>First-time user experience</strong>,<strong>Onboarding content comprehension</strong>, <strong>Cognitive load during Quest setup</strong>
                   </p>
                   <ul className="case-study-list">
                     <li>
