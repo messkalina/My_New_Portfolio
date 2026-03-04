@@ -189,13 +189,13 @@ const DesignTrendCaseStudy = () => {
                       with working memory and keeping focus
                     </li>
                     <li>
-                      <strong>Executive Dysfunction:</strong> large tasks feel
+                      <strong>Executive dysfunction:</strong> large tasks feel
                       emotionally overwhelming and impossible to start ("task
                       paralysis" )
                     </li>
                     <li>
-                      <strong>Lack of Immediate Reward:</strong> traditional
-                      lists feel like "work" rather than progress
+                      <strong>Lack of immediate reward:</strong> traditional
+                      to-do lists are not motivating in the long run - they feel like chore rather than tool to visualise progress
                     </li>
                   </ul>
                   <p>
