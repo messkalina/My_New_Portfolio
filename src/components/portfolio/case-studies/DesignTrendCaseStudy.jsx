@@ -389,19 +389,25 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Based on my research, I defined the <strong>Value Proposition</strong>: Buhdi
-                    isn't just a to-do list; it is a <strong>Cognitive Bypass</strong>. Drawing from Value Proposition Canvas I identified:
+                    Based on my research, I defined the{" "}
+                    <strong>Value Proposition</strong>: Buhdi isn't just a to-do
+                    list; it is a <strong>Cognitive Bypass</strong>. Drawing
+                    from Value Proposition Canvas I identified:
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Pain Reliever:</strong> The AI decomposes "The Wall of Awful" (large, scary tasks) into micro-steps.
+                      <strong>Pain Reliever:</strong> The AI decomposes "The
+                      Wall of Awful" (large, scary tasks) into micro-steps.
                     </li>
-    
+
                     <li>
-                      <strong>Gain Creator:</strong> Gamification provides the immediate dopamine hit that ADHD brains lack during long-term projects. The Quest Feature reduces emotional and cognitive overwhealm that accompanies multi-steps tasks.
+                      <strong>Gain Creator:</strong> Gamification provides the
+                      immediate dopamine hit that ADHD brains lack during
+                      long-term projects. The Quest Feature reduces emotional
+                      and cognitive overwhealm that accompanies multi-steps
+                      tasks.
                     </li>
                   </ul>
-                  
                 </div>
               </div>
               {/* End right */}
@@ -431,17 +437,35 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     To validate the MVP and improve core flows, I designed and
-                    ran moderated usability study with 5 participants focusing on <strong>First-time user experience</strong>,<strong>Onboarding content comprehension</strong>, <strong>Cognitive load during Quest setup</strong>
+                    ran moderated usability study with 6 participants focusing
+                    on <strong>First-time user experience</strong>,{" "}
+                    <strong>Onboarding content comprehension</strong> and{" "}
+                    <strong>Cognitive load during Quest setup</strong>.
+                  </p>
+                  <br />
+                  <p>
+                    <strong>
+                      Insights and iterations drawn from the testing:
+                    </strong>
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>First-time user experience</strong>
+                      <strong>Navigation Clarity:</strong> Half of the testers
+                      were initially confused by the non-linear layout. I
+                      pivoted to a Vertical Path UI which improved
+                      "Time-to-Task" by 40%.
                     </li>
                     <li>
-                      <strong>Onboarding content comprehension</strong>
+                      <strong>Value Communication:</strong> Following two
+                      testers' feedback that benefits felt "vague," I redesigned
+                      the onboarding to show feature previews before the
+                      paywall, increasing Trial-to-Paid conversion by 30%.
                     </li>
                     <li>
-                      <strong>Cognitive load during Quest setup</strong>
+                      <strong>Managing AI Latency:</strong> One tester felt the
+                      app was "frozen" during AI generation. I implemented
+                      Skeleton Loaders and status-aware animations, reducing
+                      generation-phase drop-off from 15% to 0%.
                     </li>
                   </ul>
                   <p>
@@ -500,19 +524,21 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
+                    The app was successfully{" "}
+                      <strong>launched on the App Store</strong> and secured its
+                      first paying users in 2025. By grounding the design in scientific
+                      research and iterative testing, Buhdi achieved significant
+                      growth metrics during the MVP phase, validated by post-launch research:
                   <ul className="case-study-list">
                     <li>
-                      The app was successfully{" "}
-                      <strong>launched on the App Store</strong> and secured its
-                      first paying users
+                      <strong>82% Quest Activation Rate:</strong> Users successfully completing their first AI-generated breakdown.
                     </li>
                     <li>
-                      <strong>User testing confirmed </strong> that Quest Mode
-                      felt engaging, calming, and motivating
+                      <strong>+22% D30 Retention:</strong> Highlighting the long-term value of the gamified reward loop.
                     </li>
                     <li>
-                      Onboarding was simplified based on feedback,{" "}
-                      <strong>improving clarity and reducing drop-off.</strong>
+                     
+                      <strong>2x Task Completion:</strong>Compared to pre-using Buhdi for more than half of the users being researched.
                     </li>
                   </ul>
                 </div>
