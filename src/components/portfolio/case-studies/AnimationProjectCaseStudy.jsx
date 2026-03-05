@@ -83,22 +83,19 @@ const AnimationProjectCaseStudy = () => {
                             presence alongside its physical opening. Guided by{" "}
                             <strong>Lean UX</strong> principles, I adopted a{" "}
                             <strong>two-phase delivery strategy</strong> to
-                            balance{" "}
-                            <strong>
-                              business velocity </strong> with <strong>long-term growth</strong>
-                           
-                            . This involved first designing and developing an{" "}
-                          <strong> MVP</strong> version of the website to meet the immediate
-                            launch deadline and drive conversions through{" "}
-                            <strong>automated booking channel</strong>. Then a{" "}
-                          strategic iteration folowed, focused on
-                            expressing bussiness core values of{" "}
-                            trust, credibility, and warmth.
-                            Thanks to an{" "}
+                            balance <strong>business velocity </strong> with{" "}
+                            <strong>long-term growth</strong>. This involved
+                            first designing and developing an{" "}
+                            <strong> MVP</strong> version of the website to meet
+                            the immediate launch deadline and drive conversions
+                            through <strong>automated booking channel</strong>.
+                            Then a strategic iteration folowed, focused on
+                            expressing bussiness core values of trust,
+                            credibility, and warmth. Thanks to an{" "}
                             <strong>AI-accelerated workflow</strong>, we moved
                             from discovery to production in record time while
-                            ensuring the business could operate with{" "}
-                            high efficiency from the start.
+                            ensuring the business could operate with high
+                            efficiency from the start.
                           </p>
                         </div>
                       </div>
@@ -129,7 +126,8 @@ const AnimationProjectCaseStudy = () => {
                               Role:{" "}
                             </p>
                             <p className="timeline-fine">
-                              Product Designer,Motion Designer, Front-end Developer
+                              Product Designer,Motion Designer, Front-end
+                              Developer
                             </p>
                             <br />
                             <p
@@ -141,7 +139,8 @@ const AnimationProjectCaseStudy = () => {
                               Tech Stack:{" "}
                             </p>
                             <p className="timeline-fine">
-                              Figma, React.js, CSS, Adobe After Effects, Relume AI, Cursor AI
+                              Figma, React.js, CSS, Adobe After Effects, Relume
+                              AI, Cursor AI
                             </p>
 
                             <br />
@@ -192,7 +191,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Mitigating Operational Risk</h3>
+                  <h3>Velocity vs. Quality</h3>
                 </div>
                 <div
                   className="text"
@@ -200,17 +199,20 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Launching a new practice involves high administrative
-                    overhead. Industry benchmarks show that manual scheduling
-                    can consume up to 40% of a receptionist's day. The business
-                    needed to prevent this bottleneck before opening.
+                    The client was launching a new business and needed a
+                    professional presence live in a short time. It had to
+                    clearly communicate services, introduce the care team, and
+                    support mobile users—especially for appointment inquiries.
+                    Industry benchmarks show that manual scheduling can consume
+                    up to 40% of a receptionist's day. The business needed to
+                    prevent this bottleneck before opening.
                   </p>
                   <p
                     style={{
                       marginTop: "18px",
                     }}
                   >
-                    <strong>Core Objectives:</strong>
+                    <strong>Requirements:</strong>
                   </p>
 
                   <ul className="case-study-list" style={{ marginTop: "10px" }}>
@@ -223,9 +225,9 @@ const AnimationProjectCaseStudy = () => {
                       traffic originating from mobile "near me" searches.
                     </li>
                     <li>
-                      <strong>Trust:</strong> Establish authority for a
-                      brand-new practice through social proof and professional
-                      art direction.
+                      <strong>Values:</strong> Feel local and trustworthy; Look
+                      warm but professional; Tech must be scalable and easy to
+                      maintain.
                     </li>
                   </ul>
                 </div>
@@ -255,30 +257,23 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I utilized an AI-native design system and "Vibecoding"
-                    (AI-assisted React development) to bypass traditional agency
-                    timelines, shipping a production-ready system that automates
-                    the customer acquisition funnel.
+                    I took a two-step approach: shipping a working site fast to
+                    meet the launch date, and then iterating into a more
+                    polished design that reflected business values like trust,
+                    credibility, and warmth. Vibecoding let me bypass
+                    traditional agency timelines, shipping a production-ready
+                    system that automates the customer acquisition funnel.
                   </p>
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>AI-Native Workflow:</strong> I used Relume AI to
-                      architect the sitemap and Information Architecture,
-                      ensuring a logical flow from landing to booking in
-                      minutes.
-                    </li>
-                    <li>
-                      <strong>Custom React Build:</strong> I coded the MVP
-                      myself using React and Tailwind, ensuring the "Online
-                      Booking" system was deeply integrated into the UX.
-                    </li>
-                    <li>
-                      <strong>Phased Iteration:</strong> Shipped a functional
-                      MVP for the business launch, followed by a "Phase 2"
-                      visual overhaul that integrated Google Reviews and
-                      high-fidelity video content.
-                    </li>
-                  </ul>
+                  <br />
+                  <p>
+                    I delivered a functional MVP website for the launch and
+                    designed a polished design for the second ietarion, to be
+                    developed by a web developer. This second step
+                    integrated Google Reviews and human-centered content to
+                    emphasize trust and warmth, turning a "clinical" tool into
+                    an inviting brand.
+                  </p>
+                  
                 </div>
               </div>
               <div className="right">
