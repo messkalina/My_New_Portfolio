@@ -79,14 +79,26 @@ const AnimationProjectCaseStudy = () => {
                         >
                           <p>
                             Tierpraxis Lebensberg is a modern veterinary
-                            practice that launched its digital presence
-                            alongside its physical opening. The challenge was to
-                            design a high-conversion system that established a
-                            new identity while ensuring the business could
-                            operate with high efficiency from Day 1. I designed
-                            and developed the React MVP using an AI-accelerated
-                            workflow to move from discovery to production in
-                            record time.
+                            practice in Vienna that launched its digital
+                            presence alongside its physical opening. Guided by{" "}
+                            <strong>Lean UX</strong> principles, I adopted a{" "}
+                            <strong>two-phase delivery strategy</strong> to
+                            balance{" "}
+                            <strong>
+                              business velocity </strong> with <strong>long-term growth</strong>
+                           
+                            . This involved first designing and developing an{" "}
+                          <strong> MVP</strong> version of the website to meet the immediate
+                            launch deadline and drive conversions through{" "}
+                            <strong>automated booking channel</strong>. Then a{" "}
+                          strategic iteration folowed, focused on
+                            expressing bussiness core values of{" "}
+                            trust, credibility, and warmth.
+                            Thanks to an{" "}
+                            <strong>AI-accelerated workflow</strong>, we moved
+                            from discovery to production in record time while
+                            ensuring the business could operate with{" "}
+                            high efficiency from the start.
                           </p>
                         </div>
                       </div>
@@ -117,7 +129,7 @@ const AnimationProjectCaseStudy = () => {
                               Role:{" "}
                             </p>
                             <p className="timeline-fine">
-                              Product Designer, AI Strategy, Front-end Developer
+                              Product Designer,Motion Designer, Front-end Developer
                             </p>
                             <br />
                             <p
@@ -126,10 +138,10 @@ const AnimationProjectCaseStudy = () => {
                                 fontSize: "14px",
                               }}
                             >
-                              Stack:{" "}
+                              Tech Stack:{" "}
                             </p>
                             <p className="timeline-fine">
-                              React, Tailwind CSS, Relume AI, Cursor AI
+                              Figma, React.js, CSS, Adobe After Effects, Relume AI, Cursor AI
                             </p>
 
                             <br />
