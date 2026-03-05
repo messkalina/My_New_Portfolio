@@ -49,7 +49,6 @@ const AnimationProjectCaseStudy = () => {
               <h1>Tierpraxis Lebensberg</h1>
               <h4>Designing for Lean Clinical Operations</h4>
             </div>
-            
           </div>
         </div>
       </div>
@@ -79,7 +78,15 @@ const AnimationProjectCaseStudy = () => {
                           data-aos-duration="1200"
                         >
                           <p>
-                            Tierpraxis Lebensberg is a modern veterinary practice that launched its digital presence alongside its physical opening. The challenge was to design a high-conversion system that established a new identity while ensuring the business could operate with high efficiency from Day 1. I designed and developed the React MVP using an AI-accelerated workflow to move from discovery to production in record time.
+                            Tierpraxis Lebensberg is a modern veterinary
+                            practice that launched its digital presence
+                            alongside its physical opening. The challenge was to
+                            design a high-conversion system that established a
+                            new identity while ensuring the business could
+                            operate with high efficiency from Day 1. I designed
+                            and developed the React MVP using an AI-accelerated
+                            workflow to move from discovery to production in
+                            record time.
                           </p>
                         </div>
                       </div>
@@ -160,7 +167,8 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      The React MVP: Prioritizing "Online-Terminvereinbarung" to mitigate administrative load from day one.
+                      The React MVP: Prioritizing "Online-Terminvereinbarung" to
+                      mitigate administrative load from day one.
                     </p>
                   </div>
                 </div>
@@ -180,7 +188,10 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Launching a new practice involves high administrative overhead. Industry benchmarks show that manual scheduling can consume up to 40% of a receptionist's day. The business needed to prevent this bottleneck before opening.
+                    Launching a new practice involves high administrative
+                    overhead. Industry benchmarks show that manual scheduling
+                    can consume up to 40% of a receptionist's day. The business
+                    needed to prevent this bottleneck before opening.
                   </p>
                   <p
                     style={{
@@ -192,13 +203,17 @@ const AnimationProjectCaseStudy = () => {
 
                   <ul className="case-study-list" style={{ marginTop: "10px" }}>
                     <li>
-                      <strong>Automation:</strong> Drive users to book consultations digitally without calling the practice.
+                      <strong>Automation:</strong> Drive users to book
+                      consultations digitally without calling the practice.
                     </li>
                     <li>
-                      <strong>Mobile-First:</strong> Capture the 70% of local traffic originating from mobile "near me" searches.
+                      <strong>Mobile-First:</strong> Capture the 70% of local
+                      traffic originating from mobile "near me" searches.
                     </li>
                     <li>
-                      <strong>Trust:</strong> Establish authority for a brand-new practice through social proof and professional art direction.
+                      <strong>Trust:</strong> Establish authority for a
+                      brand-new practice through social proof and professional
+                      art direction.
                     </li>
                   </ul>
                 </div>
@@ -228,17 +243,28 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I utilized an AI-native design system and "Vibecoding" (AI-assisted React development) to bypass traditional agency timelines, shipping a production-ready system that automates the customer acquisition funnel.
+                    I utilized an AI-native design system and "Vibecoding"
+                    (AI-assisted React development) to bypass traditional agency
+                    timelines, shipping a production-ready system that automates
+                    the customer acquisition funnel.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>AI-Native Workflow:</strong> I used Relume AI to architect the sitemap and Information Architecture, ensuring a logical flow from landing to booking in minutes.
+                      <strong>AI-Native Workflow:</strong> I used Relume AI to
+                      architect the sitemap and Information Architecture,
+                      ensuring a logical flow from landing to booking in
+                      minutes.
                     </li>
                     <li>
-                      <strong>Custom React Build:</strong> I coded the MVP myself using React and Tailwind, ensuring the "Online Booking" system was deeply integrated into the UX.
+                      <strong>Custom React Build:</strong> I coded the MVP
+                      myself using React and Tailwind, ensuring the "Online
+                      Booking" system was deeply integrated into the UX.
                     </li>
                     <li>
-                      <strong>Phased Iteration:</strong> Shipped a functional MVP for the business launch, followed by a "Phase 2" visual overhaul that integrated Google Reviews and high-fidelity video content.
+                      <strong>Phased Iteration:</strong> Shipped a functional
+                      MVP for the business launch, followed by a "Phase 2"
+                      visual overhaul that integrated Google Reviews and
+                      high-fidelity video content.
                     </li>
                   </ul>
                 </div>
@@ -258,7 +284,8 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      1. Client reference; 2. Functional React MVP; 3. Trust-building iteration.
+                      1. Client reference; 2. Functional React MVP; 3.
+                      Trust-building iteration.
                     </p>
                   </div>
                 </div>
@@ -288,20 +315,29 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I leveraged an AI-forward workflow to bridge the gap between business strategy and production code.
+                    I leveraged an AI-forward workflow to bridge the gap between
+                    business strategy and production code.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Sitemap & IA (Relume AI):</strong> Transformed the client’s raw copy into a logical information architecture and sitemap in almost no time.
+                      <strong>Sitemap & IA (Relume AI):</strong> Transformed the
+                      client’s raw copy into a logical information architecture
+                      and sitemap in almost no time.
                     </li>
                     <li>
-                      <strong>Rapid Wireframing:</strong> Leveraged the Relume component library to test layouts and design patterns instantly.
+                      <strong>Rapid Wireframing:</strong> Leveraged the Relume
+                      component library to test layouts and design patterns
+                      instantly.
                     </li>
                     <li>
-                      <strong>Vibecoding:</strong> Paired with Cursor AI to develop the React front-end, allowing for complex styling and custom logic that a standard CMS could not provide.
+                      <strong>Vibecoding:</strong> Paired with Cursor AI to
+                      develop the React front-end, allowing for complex styling
+                      and custom logic that a standard CMS could not provide.
                     </li>
                     <li>
-                      <strong>AI Triage Vision:</strong> Proposed a roadmap for an AI Triage layer to categorize pet symptoms before booking.
+                      <strong>AI Triage Vision:</strong> Proposed a roadmap for
+                      an AI Triage layer to categorize pet symptoms before
+                      booking.
                     </li>
                   </ul>
                 </div>
@@ -321,7 +357,9 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      Second iteration color strategy: adding warm orange accents to emerald green to balance authority with friendliness.
+                      Second iteration color strategy: adding warm orange
+                      accents to emerald green to balance authority with
+                      friendliness.
                     </p>
                   </div>
                 </div>
@@ -341,7 +379,8 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      Using Relume AI platform for creating and ideating website structure and for rapid wireframing.
+                      Using Relume AI platform for creating and ideating website
+                      structure and for rapid wireframing.
                     </p>
                   </div>
                 </div>
@@ -371,18 +410,25 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I validated the MVP through the lens of mobile usability and behavioral science.
+                    I validated the MVP through the lens of mobile usability and
+                    behavioral science.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Mobile-First Priority:</strong> Tested with participants to ensure the booking flow worked for "One-Handed" ease on mobile devices.
+                      <strong>Mobile-First Priority:</strong> Tested with
+                      participants to ensure the booking flow worked for
+                      "One-Handed" ease on mobile devices.
                     </li>
                     <li>
-                      <strong>Desirability Testing:</strong> Insights revealed that the initial MVP felt "clinical," driving the shift toward a warmer, high-fidelity color palette.
+                      <strong>Desirability Testing:</strong> Insights revealed
+                      that the initial MVP felt "clinical," driving the shift
+                      toward a warmer, high-fidelity color palette.
                     </li>
                   </ul>
                   <p>
-                    The result: 100% of testers successfully navigated to the Online Booking within 5 seconds, validating the "Speed-to-Action" goal.
+                    The result: 100% of testers successfully navigated to the
+                    Online Booking within 5 seconds, validating the
+                    "Speed-to-Action" goal.
                   </p>
                 </div>
               </div>
@@ -399,7 +445,9 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      Mobile usability testing revealed friction points in navigation and responsiveness which were solved in the second iteration.
+                      Mobile usability testing revealed friction points in
+                      navigation and responsiveness which were solved in the
+                      second iteration.
                     </p>
                   </div>
                 </div>
@@ -429,17 +477,22 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The project transformed from a functional placeholder to a strategic operational asset.
+                    The project transformed from a functional placeholder to a
+                    strategic operational asset.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>-40% Administrative Risk:</strong> Mitigated potential receptionist burnout by automating appointment scheduling.
+                      <strong>-40% Administrative Risk:</strong> Mitigated
+                      potential receptionist burnout by automating appointment
+                      scheduling.
                     </li>
                     <li>
-                      <strong>+35% Conversion Lift:</strong> Achieved through Phase 2 integration of social proof and art direction.
+                      <strong>+35% Conversion Lift:</strong> Achieved through
+                      Phase 2 integration of social proof and art direction.
                     </li>
                     <li>
-                      <strong>CES of 1.8/7:</strong> Users reported high "Ease of Use," making digital booking faster than a phone call.
+                      <strong>CES of 1.8/7:</strong> Users reported high "Ease
+                      of Use," making digital booking faster than a phone call.
                     </li>
                   </ul>
                 </div>
@@ -453,7 +506,9 @@ const AnimationProjectCaseStudy = () => {
                     alt="Client Testimonial"
                   />
                   <div className="image_caption">
-                    <p>Client testimonial praising the aesthetic and ease of use.</p>
+                    <p>
+                      Client testimonial praising the aesthetic and ease of use.
+                    </p>
                   </div>
                 </div>
               </div>
