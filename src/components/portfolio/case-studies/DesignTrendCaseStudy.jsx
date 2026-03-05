@@ -552,18 +552,11 @@ const DesignTrendCaseStudy = () => {
                       breakdown.
                     </li>
                     <li>
-                      <strong><string 
-                       style={{
-                    fontSize: "1.5em", // 200% bigger (2 * 1em)
-                    color: "#6e41e2", // Brand violet color
-                    fontWeight: "bold", // Making it stand out
-                    // display: "inline-block", // Ensuring it behaves as a block
-                    marginBottom: "0", // Add some spacing below
-                  }}>+22%</string><string 
-                       style={{
-                        fontSize: "1.1em",
-                         color: "#6e41e2"
-                       }}> D30 Retention:</string></strong> Highlighting the
+                      <strong><string className="highlight"
+                    
+                  >+22%</string>{" "}<string className="highlight_label"
+                    
+                      >{" "}D30 Retention:</string></strong> Highlighting the
                       long-term value of the gamified reward loop.
                     </li>
                     <li>
