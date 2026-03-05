@@ -120,15 +120,15 @@ h3 {
   font-weight: 700;
 }
 h4 {
-  font-size: 28px;
-  letter-spacing: 0.5px;
-  font-weight: 600;
+  font-size: 33px;
+  letter-spacing: 1.1px;
+  font-weight: 500;
   line-height: 1.2;
   text-align: center;
   color: #6a6969;
   margin-top: 1.5rem;
   margin-bottom: 4rem;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 h5 {
   font-size: 22px;
@@ -2992,8 +2992,11 @@ body.dark .shane_tm_settings .cursor li .svg,
       font-size: 22px;
       line-height: 1.2;
       color: #fff;
-      font-weight: 600;
+      font-weight: 500;
       margin-bottom: 18px;
+      transition: 0.5s;
+      letter-spacing: 2px;
+    
     }
     p {
       color: rgba(198, 201, 216, 0.75);

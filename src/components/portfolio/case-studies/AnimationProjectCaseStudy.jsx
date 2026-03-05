@@ -46,8 +46,8 @@ const AnimationProjectCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Tierpraxis Lebensberg</h1>
-              <h4>Designing for Lean Clinical Operations</h4>
+              <h1> AI-Powered Design for Speed and Conversion</h1>
+              <h4>Veterinary Practise Website</h4>
             </div>
           </div>
         </div>
