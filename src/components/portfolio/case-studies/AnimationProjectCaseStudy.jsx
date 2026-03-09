@@ -489,16 +489,23 @@ const AnimationProjectCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>-40% Administrative Risk:</strong> Mitigated
-                      potential receptionist burnout by automating appointment
+                      <strong> <string className="highlight">-40%</string></strong> <string className="highlight_label"
+                    
+                      >Administrative Risk</string> Mitigated
+                      potential receptionist workload by automating appointment
                       scheduling.
+                   
                     </li>
                     <li>
-                      <strong>+35% Conversion Lift:</strong> Achieved through
-                      Phase 2 integration of social proof and art direction.
+                      <strong> <string className="highlight">+35%</string></strong> <string className="highlight_label"
+                    
+                      >Customer Conversion Lift </string> Achieved after
+                     integrating social proof (Google Rating Score and Google Reviews widgets).
                     </li>
                     <li>
-                      <strong>CES of 1.8/7:</strong> Users reported high "Ease
+                      <strong><string className="highlight">1.8/7 </string></strong> <string className="highlight_label"
+                    
+                      >Customer Effort Score</string> Users reported high "Ease
                       of Use," making digital booking faster than a phone call.
                     </li>
                   </ul>
