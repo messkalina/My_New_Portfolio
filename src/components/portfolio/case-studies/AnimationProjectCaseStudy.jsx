@@ -230,6 +230,22 @@ const AnimationProjectCaseStudy = () => {
                       maintain.
                     </li>
                   </ul>
+                    <div
+                  className="shane_tm_button"
+                  // style={{ marginTop: "20px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="#outcome"
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    <span className="button-text">Jump to Outcome</span>
+                  </a>
+                </div>
+
                 </div>
               </div>
             </div>
@@ -256,7 +272,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                 <p>
+                  <p>
                     Following <strong>Lean UX</strong> principles, I focused on
                     shipping a functional "Minimum Viable Product" to quickly
                     get the business website live and validate it via user
@@ -279,7 +295,6 @@ const AnimationProjectCaseStudy = () => {
                       high-performance hosting solution.
                     </li>
                   </ul>
-
                 </div>
               </div>
               <div className="right">
@@ -305,12 +320,11 @@ const AnimationProjectCaseStudy = () => {
               </div>
             </div>
             <div className="content"
+            style={{ marginTop: "5em"}}
             >
-              <div className="shane_tm_section"
-              
-              >
+              <div className="shane_tm_section">
                 <div className="about_inner">
-                    <div className="left" >
+                  <div className="left">
                     <div data-aos="fade-up" data-aos-duration="1200">
                       <img
                         src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
@@ -328,15 +342,32 @@ const AnimationProjectCaseStudy = () => {
                       </div>
                     </div>
                   </div>
-
-                
+                  <div className="right">
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                      <img
+                        src="/img/portfolio/case-study/Vet_Final_designs_Home_cm.png"
+                        alt="Re-design Home Page"
+                        className="clickable-image"
+                        style={{ width: "100%", cursor: "pointer" }}
+                        onClick={() =>
+                          handleImageClick(
+                            "/img/portfolio/case-study/Vet_Final_designs_Home_cm.png",
+                          )
+                        }
+                      />
+                      <div className="image_caption">
+                        <p>
+                          Since user testing revealed the MVP felt too "clinical" and cold I moved toward a warmer, high-fidelity color palette and more sophisticated typographic choices in the refinement phase.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
 
       {/* Process Section */}
       <div className="shane_tm_section">
@@ -420,7 +451,8 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-            <div className="content">
+            <div className="content"
+            style={{ marginTop: "5em"}}>
               <div>
                 <div
                   className="full-image-section"
@@ -591,7 +623,7 @@ const AnimationProjectCaseStudy = () => {
       </div>
 
       {/* Outcome Section */}
-      <div className="shane_tm_section">
+      <div className="shane_tm_section" id="outcome">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
