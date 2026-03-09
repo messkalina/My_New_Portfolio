@@ -83,7 +83,7 @@ const MyStoryCaseStudy = () => {
                           <p className="text">
                             Orbit Health is a Munich-based digital health
                             startup focused on enhancing care for people with
-                            Parkinson’s Disease (PD). Its <strong>AI-powered solutions</strong>
+                            Parkinson’s Disease (PD). Its <strong>AI-powered solutions </strong>
                             use smartwatch data to track motor symptoms, giving
                             patients and neurologists real-time, objectives
                             insights into symptom fluctuations and treatment
@@ -180,27 +180,27 @@ const MyStoryCaseStudy = () => {
                   <p>
                     The central challenge was to design a website that clearly
                     and persuasively communicates the value of
-                    <strong> AI-enabled medical device apps</strong>—while
-                    serving the needs of two very different audiences:
+                    <strong> AI-enabled medical device apps</strong> that serve
+                    the needs of two very different user groups:
                   </p>
 
                   <ul className="case-study-list">
                     <li>
-                      <strong>People living with Parkinson’s Disease</strong>,
+                      <strong>People living with Parkinson’s Disease </strong>
                       who need support understanding how the product can help
                       them and how to access it as a reimbursable treatment
                       option.
                     </li>
                     <li>
-                      <strong>Neurologists</strong>, who require detailed
+                      <strong>Neurologists</strong> who require detailed
                       clinical context, reimbursement guidance, and a clear
-                      value proposition for integrating the solution into
+                      value proposition for integrating the solution into their
                       patient care.
                     </li>
                   </ul>
                   <p>
                     The existing site lacked differentiated user flows,
-                    conversion-focused messaging, and guidance through the
+                    conversion-focused messaging and guidance through the
                     complex German healthcare system. My goal was to fix that by
                     aligning UX with product complexity, compliance, and
                     audience needs.
@@ -289,29 +289,29 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    To solve this, I applied the{" "}
-                    <strong>Design Thinking framework</strong>—starting with
-                    in-depth discovery and stakeholder interviews to understand
+                   I used {" "}
+                    <strong>Design Thinking framework</strong> and started with
+                    secondary research and stakeholder interviews to understand
                     the full scope of the product, user goals, and regulatory
                     constraints.
                   </p>
-                  <p>The redesigned experience needed to:</p>
+                  <p>The discovery phase pointed to the following objectives:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Simplify and explain</strong> a complex, AI-driven
-                      medical device
+                      <strong>Simplifying and explaining</strong> a complex, AI-driven
+                      medical devices and a system that those solutions create
                     </li>
                     <li>
-                      <strong>Differentiate user journeys</strong> for patients
+                      <strong>Delineating user journeys</strong> for patients
                       and healthcare professionals
                     </li>
                     <li>
-                      <strong>Guide users</strong> through eligibility,
-                      reimbursement, and onboarding workflows
+                      <strong>Guiding users</strong> through eligibility,
+                      reimbursement, and onboarding processes
                     </li>
                   </ul>
                   <p>
-                    This process helped me transform strategic insights into
+                    My jpb was to transform those strategic goals into
                     clear user flows and a conversion-oriented site structure.
                   </p>
                 </div>
