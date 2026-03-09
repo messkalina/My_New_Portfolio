@@ -47,9 +47,9 @@ const MyStoryCaseStudy = () => {
               data-aos-duration="1200"
             >
               <h1>
-                Orbit Health Website Redesign
+                Designing Website for Complex Medical Products and Audiences
               </h1>
-              <h4>Designing Website for Complex Medical Products and Audiences</h4>
+              <h4>Orbit Health Website Redesign</h4>
             </div>
           </div>
         </div>
