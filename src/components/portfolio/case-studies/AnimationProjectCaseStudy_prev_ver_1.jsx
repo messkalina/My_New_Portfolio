@@ -245,7 +245,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
-                  <h3> Lean UX in Webdesign</h3>
+                  <h3> Lean UX + the "Builder" Approach</h3>
                 </div>
                 <div
                   className="text"

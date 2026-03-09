@@ -237,7 +237,7 @@ const AnimationProjectCaseStudy = () => {
         </div>
       </div>
 
-      {/* Solution Section */}
+      {/* Solution Section - Headline and Content Swapped */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
@@ -249,38 +249,44 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
-                  <h3>The "Builder" Approach</h3>
+                  <h3> Lean UX + the "Builder" Approach</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>
-                    I took a two-step approach: shipping a working site fast to
-                    meet the launch date, and then iterating into a more
-                    polished design that reflected business values like trust,
-                    credibility, and warmth. Vibecoding let me bypass
-                    traditional agency timelines, shipping a production-ready
-                    system that automates the customer acquisition funnel.
+                 <p>
+                    Following <strong>Lean UX</strong> principles, I focused on
+                    shipping a functional "Minimum Viable Product" to quickly
+                    get the business website live and validate it via user
+                    testing.
                   </p>
-                  <br />
-                  <p>
-                    I delivered a functional MVP website for the launch and
-                    designed a polished design for the second ietarion, to be
-                    developed by a web developer. This second step
-                    integrated Google Reviews and human-centered content to
-                    emphasize trust and warmth, turning a "clinical" tool into
-                    an inviting brand.
-                  </p>
-                  
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>Iterative Workflow:</strong> I took a two-step
+                      approach: shipping a working site fast...
+                    </li>
+                    <li>
+                      <strong>Community Testing:</strong> I validated the MVP
+                      via the Career Foundry and Google UX communities.
+                    </li>
+                    <li>
+                      <strong>Custom Build:</strong> I coded the website in
+                      React.js bypassing subscription-based website builders
+                      such as Wix or heavy Wordpress CMS.The site was deployed
+                      via Netlify, ensuring a cost-effective and
+                      high-performance hosting solution.
+                    </li>
+                  </ul>
+
                 </div>
               </div>
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
-                    alt="Phased Iterations"
+                    alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
@@ -291,16 +297,46 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      1. Client reference; 2. Functional React MVP; 3.
-                      Trust-building iteration.
+                      1. Website reference that client provided; 2. MVP version;
+                      3. Second iteration of the design
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="content"
+            >
+              <div className="shane_tm_section"
+              
+              >
+                <div className="about_inner">
+                    <div className="left" >
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                      <img
+                        src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
+                        alt="Wireframe"
+                        className="clickable-image"
+                        style={{ width: "100%", cursor: "pointer" }}
+                        onClick={() =>
+                          handleImageClick(
+                            "/img/portfolio/case-study/Veterinary Practise_ver01resized.png",
+                          )
+                        }
+                      />
+                      <div className="image_caption">
+                        <p>MVP version of the website</p>
+                      </div>
+                    </div>
+                  </div>
+
+                
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
 
       {/* Process Section */}
       <div className="shane_tm_section">
@@ -314,7 +350,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Process</span>
-                  <h3>AI-Accelerated Delivery</h3>
+                  <h3>The AI-powered workflow for effective delivery</h3>
                 </div>
                 <div
                   className="text"
@@ -322,29 +358,38 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I leveraged an AI-forward workflow to bridge the gap between
-                    business strategy and production code.
+                    Instead of starting from a blank canvas, I used an
+                    AI-forward workflow to move from client brief to a Minimal
+                    Viable Product (MVP) in a quick, efficient way. The goal was
+                    to validate the design quickly via user testing and moving
+                    to iterations.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Sitemap & IA (Relume AI):</strong> Transformed the
-                      client’s raw copy into a logical information architecture
-                      and sitemap in almost no time.
+                      <strong>Sitemap & Information Architecture:</strong> Using
+                      Relume’s AI platform I transformed the client’s raw copy
+                      into a logical information architecture, created site map
+                      and ideate the wireframes in almost no time.
                     </li>
                     <li>
-                      <strong>Rapid Wireframing:</strong> Leveraged the Relume
-                      component library to test layouts and design patterns
-                      instantly.
+                      <strong>Rapid Wireframing:</strong> I leveraged the Relume
+                      component library to ideate different page sections,
+                      allowing me to test layouts and design patterns instantly.
                     </li>
                     <li>
-                      <strong>Vibecoding:</strong> Paired with Cursor AI to
-                      develop the React front-end, allowing for complex styling
-                      and custom logic that a standard CMS could not provide.
+                      <strong>Seamless Handoff:</strong> Exporting these
+                      mid-fidelity wireframes to Figma gave me a foundation of
+                      styles and components already mapped to the structure,
+                      saving hours of manual setup.
                     </li>
                     <li>
-                      <strong>AI Triage Vision:</strong> Proposed a roadmap for
-                      an AI Triage layer to categorize pet symptoms before
-                      booking.
+                      <strong>Development:</strong> I build website in React and
+                      and deployed via Netlify service. This gave me total
+                      control over the UX, higher performance, and a
+                      cost-effective hosting solution that a professional
+                      developer could easily take over later.The objective was
+                      speed, flexibility and scalability. I used Cursor AI as my
+                      coding partner.
                     </li>
                   </ul>
                 </div>
@@ -354,8 +399,9 @@ const AnimationProjectCaseStudy = () => {
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/vet_visual_identity-cm.png"
-                    alt="Style Guide"
+                    alt="Wireframe"
                     className="clickable-image"
+                    // style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
                         "/img/portfolio/case-study/vet_visual_identity-cm.png",
@@ -364,9 +410,11 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      Second iteration color strategy: adding warm orange
-                      accents to emerald green to balance authority with
-                      friendliness.
+                      Style Guide was designed to match the aesthetic and
+                      branding of the practise. My initial choice was a cool
+                      color pallette based on the brand emerald color. In the
+                      second iteration I added an orange accent color that
+                      visual pop and a touch of warmth.
                     </p>
                   </div>
                 </div>
@@ -382,12 +430,13 @@ const AnimationProjectCaseStudy = () => {
                 >
                   <img
                     src="/img/portfolio/case-study/Lebensberg_ideation.png"
-                    alt="Relume AI Process"
+                    alt="App Screens"
                   />
                   <div className="image_caption">
                     <p>
-                      Using Relume AI platform for creating and ideating website
-                      structure and for rapid wireframing.
+                      I used Relume AI platform for creating and ideating
+                      website site map and structure and for rapid wireframing
+                      design solutions
                     </p>
                   </div>
                 </div>
@@ -417,25 +466,27 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I validated the MVP through the lens of mobile usability and
-                    behavioral science.
+                    I validated the MVP through two rounds of testing to
+                    identify friction points and emotional resonance.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Mobile-First Priority:</strong> Tested with
-                      participants to ensure the booking flow worked for
-                      "One-Handed" ease on mobile devices.
+                      <strong>Round 1 (Functionality):</strong> Tested with
+                      peers in the Career Foundry and Google UX communities.
+                      Users flagged minor mobile responsiveness issues which
+                      were fixed before the launch.
                     </li>
                     <li>
-                      <strong>Desirability Testing:</strong> Insights revealed
-                      that the initial MVP felt "clinical," driving the shift
-                      toward a warmer, high-fidelity color palette.
+                      <strong>Round 2 (Desirability):</strong> Testing revealed
+                      the MVP felt "clinical." This insight drove the decision
+                      to move toward a warmer, high-fidelity color palette and
+                      more sophisticated typographic choices.
                     </li>
                   </ul>
                   <p>
-                    The result: 100% of testers successfully navigated to the
-                    Online Booking within 5 seconds, validating the
-                    "Speed-to-Action" goal.
+                    <strong>The result: 100%</strong> of testers successfully
+                    navigated to the Online Booking within 5 seconds, validating
+                    the "Speed-to-Action" goal.
                   </p>
                 </div>
               </div>
@@ -457,6 +508,81 @@ const AnimationProjectCaseStudy = () => {
                       second iteration.
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Refinement Section */}
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Vet_final_screens_cm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Vet_final_screens_cm.png",
+                      )
+                    }
+                  />
+                  <div className="image_caption">
+                    <p>
+                      Second iteration design screens for home page - mobile and
+                      desktop view.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="right">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Refinement</span>
+                  <h3>Iterating for Human Connection</h3>
+                </div>
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <p>
+                    Once the MVP was live and receiving praise, I pivoted to a
+                    high-fidelity iteration to maximize "the pop factor" and
+                    trust.
+                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      Color Strategy: I evolved the palette from a simple Green
+                      (Primary)/ White (neutral) to a more sophisticated Green
+                      (Primary), Orange (Action/CTA) and pastel gradients to
+                      balance authority with friendliness and less steryle look.
+                    </li>
+                    <li>
+                      Typography & Content: I used Gemini to refine the copy for
+                      a more inviting tone and selected fonts that balanced
+                      authority with friendliness.
+                    </li>
+                    <li>
+                      Social Proof: Integrated Google Review widgets and
+                      testimonials to capitalize on the practice’s early
+                      success.
+                    </li>
+                    <li>
+                      Art Direction: I provided creative direction for new
+                      photography and a video tour to ensure the digital space
+                      felt as premium as the physical venue.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -489,24 +615,36 @@ const AnimationProjectCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong> <string className="highlight">-40%</string></strong> <string className="highlight_label"
-                    
-                      >Administrative Risk</string> Mitigated
-                      potential receptionist workload by automating appointment
-                      scheduling.
-                   
+                      <strong>
+                        {" "}
+                        <string className="highlight">-40%</string>
+                      </strong>{" "}
+                      <string className="highlight_label">
+                        Administrative Risk
+                      </string>{" "}
+                      Mitigated potential receptionist workload by automating
+                      appointment scheduling.
                     </li>
                     <li>
-                      <strong> <string className="highlight">+35%</string></strong> <string className="highlight_label"
-                    
-                      >Customer Conversion Lift </string> Achieved after
-                     integrating social proof (Google Rating Score and Google Reviews widgets).
+                      <strong>
+                        {" "}
+                        <string className="highlight">+35%</string>
+                      </strong>{" "}
+                      <string className="highlight_label">
+                        Customer Conversion Lift{" "}
+                      </string>{" "}
+                      Achieved after integrating social proof (Google Rating
+                      Score and Google Reviews widgets).
                     </li>
                     <li>
-                      <strong><string className="highlight">1.8/7 </string></strong> <string className="highlight_label"
-                    
-                      >Customer Effort Score</string> Users reported high "Ease
-                      of Use," making digital booking faster than a phone call.
+                      <strong>
+                        <string className="highlight">1.8/7 </string>
+                      </strong>{" "}
+                      <string className="highlight_label">
+                        Customer Effort Score
+                      </string>{" "}
+                      Users reported high "Ease of Use," making digital booking
+                      faster than a phone call.
                     </li>
                   </ul>
                 </div>
