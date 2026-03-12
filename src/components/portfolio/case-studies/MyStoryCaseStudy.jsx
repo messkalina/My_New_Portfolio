@@ -311,7 +311,7 @@ const MyStoryCaseStudy = () => {
                     </li>
                   </ul>
                   <p>
-                    My jpb was to transform those strategic goals into
+                    My job was to transform those strategic goals into
                     clear user flows and a conversion-oriented site structure.
                   </p>
                 </div>
