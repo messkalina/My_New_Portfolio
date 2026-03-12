@@ -83,7 +83,8 @@ const MyStoryCaseStudy = () => {
                           <p className="text">
                             Orbit Health is a Munich-based digital health
                             startup focused on enhancing care for people with
-                            Parkinson’s Disease (PD). Its <strong>AI-powered solutions </strong>
+                            Parkinson’s Disease (PD). Its{" "}
+                            <strong>AI-powered solutions </strong>
                             use smartwatch data to track motor symptoms, giving
                             patients and neurologists real-time, objectives
                             insights into symptom fluctuations and treatment
@@ -91,13 +92,11 @@ const MyStoryCaseStudy = () => {
                             <br />
                             <br />
                             With the product still undergoing clinical trials
-                            and awaiting medical device approval in Germany,{" "}
-                            
-                              the website needed to <strong>clearly explain</strong> a
-                              sophisticated digital health product—while guiding
-                              two very different user groups through complex
-                              decision-making and regulatory processes.
-                            
+                            and awaiting medical device approval in Germany, the
+                            website needed to <strong>clearly explain</strong> a
+                            sophisticated digital health product—while guiding
+                            two very different user groups through complex
+                            decision-making and regulatory processes.
                           </p>
                         </div>
                       </div>
@@ -206,7 +205,7 @@ const MyStoryCaseStudy = () => {
                     audience needs.
                   </p>
                 </div>
-                    <div
+                <div
                   className="shane_tm_button"
                   // style={{ marginTop: "20px" }}
                   data-aos="fade-up"
@@ -276,12 +275,14 @@ const MyStoryCaseStudy = () => {
 
               <div className="right">
                 <div
-                  className="shane_tm_title" id="solution"
+                  className="shane_tm_title"
+                  id="solution"
                   data-aos="fade-up"
                   data-aos-duration="1200"
+                  n
                 >
                   <span>The Solution</span>
-                  <h3>A User-Centered Redesign Grounded in Design Thinking</h3>
+                  <h3>Transforming Strategy into High-Conversion UX</h3>
                 </div>
                 <div
                   className="text"
@@ -289,30 +290,27 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                   I used {" "}
-                    <strong>Design Thinking framework</strong> and started with
-                    secondary research and stakeholder interviews to understand
-                    the full scope of the product, user goals, and regulatory
-                    constraints.
+                    Guided by <strong>Design Thinking</strong>, I conducted
+                    secondary research and stakeholder interviews to navigate
+                    the product’s scope, user goals, and{" "}
+                    <strong>regulatory constraints</strong>.
                   </p>
-                  <p>The discovery phase pointed to the following objectives:</p>
+                  <p>
+                    The discovery phase pointed me to identify the following objectives:
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Simplifying and explaining</strong> a complex, AI-driven
-                      medical devices and a system that those solutions create
+                      <strong>Simplifying Complexity</strong> Explaining AI-driven medical systems without losing clinical depth
                     </li>
                     <li>
-                      <strong>Delineating user journeys</strong> for patients
-                      and healthcare professionals
+                      <strong>Delineating user journeys</strong> Mapping distinct paths for patients versus healthcare professionals.
                     </li>
                     <li>
-                      <strong>Guiding users</strong> through eligibility,
-                      reimbursement, and onboarding processes
+                      <strong>Guiding Actions:</strong> Streamlining the flow through eligibility, reimbursement, and onboarding.
                     </li>
                   </ul>
                   <p>
-                    My job was to transform those strategic goals into
-                    clear user flows and a conversion-oriented site structure.
+                   My role was to translate these <strong>strategic goals</strong> into intuitive <strong>user flows</strong> and a <strong>conversion-oriented site structure</strong> that bridges the gap between deep-tech and user needs.
                   </p>
                 </div>
               </div>
