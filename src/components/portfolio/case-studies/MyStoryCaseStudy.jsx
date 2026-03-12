@@ -255,13 +255,13 @@ const MyStoryCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Home Page wireframe.png"
+                    src="/img/portfolio/case-study/Orbit-website-wireframes_all.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Home Page wireframe.png",
+                        "/img/portfolio/case-study/Orbit-website-wireframes_all.png",
                       )
                     }
                   />
@@ -408,20 +408,20 @@ const MyStoryCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/site map_BG.png"
+                 <img
+                    src="/img/portfolio/case-study/Home Page wireframe.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/site map_BG.png",
+                        "/img/portfolio/case-study/Home Page wireframe.png",
                       )
                     }
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Wireframes of the redesigned Orbit Health website</p>
+                    <p>Homepage redesign</p>
                   </div>
                 </div>
               </div>
@@ -522,7 +522,7 @@ const MyStoryCaseStudy = () => {
               </div>
               {/* End left */}
 
-              <div className="right">
+              {/* <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Orbit-website-wireframes_all.png"
@@ -536,11 +536,11 @@ const MyStoryCaseStudy = () => {
                     }
                   />
                   {/* Add caption */}
-                  <div className="image_caption">
+                  {/* <div className="image_caption">
                     <p>Sitemap with information architecture</p>
                   </div>
-                </div>
-              </div>
+                </div> */}
+              {/* </div> */} 
               {/* End right */}
             </div>
           </div>
