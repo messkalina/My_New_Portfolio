@@ -212,12 +212,12 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <a
-                    href="#solution"
+                    href="#outcome"
                     style={{
                       textDecoration: "none",
                     }}
                   >
-                    <span className="button-text">Jump to Solution</span>
+                    <span className="button-text">Jump to Outcome</span>
                   </a>
                 </div>
               </div>
@@ -477,7 +477,7 @@ const MyStoryCaseStudy = () => {
       </div>
 
       {/* --- COPY OF SECTION BELOW --- */}
-      <div className="shane_tm_section">
+      <div className="shane_tm_section" id="outcome">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
