@@ -47,7 +47,7 @@ const MyStoryCaseStudy = () => {
               data-aos-duration="1200"
             >
               <h1>
-                Designing Website for Complex Medical Products and Audiences
+                Designing User Experience Flows for Complex Products and Audiences
               </h1>
               <h4>Orbit Health Website Redesign</h4>
             </div>
@@ -156,7 +156,7 @@ const MyStoryCaseStudy = () => {
       </div>
 
       {/* Case study description section (challenge, etc.) */}
-      <div className="shane_tm_section" id="challenge">
+      <div className="shane_tm_section" id="problem">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
@@ -166,9 +166,9 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>The Challenge</span>
+                  <span>The Problem</span>
                   <h3>
-                    Designing Website for Complex Medical Products and Audiences
+                    One Website, Two Audiences, Complex Healthcare System
                   </h3>
                 </div>
                 <div
@@ -267,7 +267,7 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Redesigned Homepage user flow was designed to guide both target user groups to signing up for introductiory call</p>
+                    <p>The information architecture catered to diverse audiences needs, apart from  target apps users (neurologists and patients) the bussiness goals pointed to adressing other audiences, such as health insurance providers and medical scientists </p>
                   </div>
                 </div>
               </div>
@@ -282,7 +282,7 @@ const MyStoryCaseStudy = () => {
                   n
                 >
                   <span>The Solution</span>
-                  <h3>Transforming Strategy into High-Conversion UX</h3>
+                  <h3>Dual UX and content structure for clarity, trust and conversion </h3>
                 </div>
                 <div
                   className="text"
@@ -331,8 +331,8 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>UX Research</span>
-                  <h3>User Segmentation and Journey Mapping</h3>
+                  <span>Discovery</span>
+                  <h3>Patients, doctors and healthcare system</h3>
                 </div>
                 <div
                   className="text"
@@ -421,7 +421,7 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Homepage redesign</p>
+                    <p>Redesigned Homepage user flow was designed to guide both target user groups to signing up for eligibility call</p>
                   </div>
                 </div>
               </div>
@@ -434,7 +434,7 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Ideation</span>
-                  <h3>Solutions for Content, Navigation, and UX Structure</h3>
+                  <h3>Better usability through clear structure and rich content</h3>
                 </div>
                 <div
                   className="text"
