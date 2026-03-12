@@ -237,7 +237,7 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Main pages of the redesigned Orbit Health website</p>
+                    <p>Primary pages of the redesigned Orbit Health website, containing main UX flows - for people with PD and for health care profesionals</p>
                   </div>
                 </div>
               </div>
