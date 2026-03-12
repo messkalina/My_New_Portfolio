@@ -237,7 +237,7 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Wireframes of the redesigned Orbit Health website</p>
+                    <p>Main pages of the redesigned Orbit Health website</p>
                   </div>
                 </div>
               </div>
@@ -267,7 +267,7 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Homepage redesign</p>
+                    <p>Redesigned Homepage user flow was designed to guide both target user groups to signing up for introductiory call</p>
                   </div>
                 </div>
               </div>
@@ -331,7 +331,7 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Empathize & Define</span>
+                  <span>UX Research</span>
                   <h3>User Segmentation and Journey Mapping</h3>
                 </div>
                 <div
@@ -389,8 +389,8 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      User persona and journey map for Orbit Health's patient
-                      audience
+                      User persona and journey map for Orbit a patient
+                      user. Since the average age of patients is above 55 y/o the UX needed to cater to their tech literacy level. 
                     </p>
                   </div>
                 </div>
@@ -433,7 +433,7 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Ideate & Prototype</span>
+                  <span>Ideation</span>
                   <h3>Solutions for Content, Navigation, and UX Structure</h3>
                 </div>
                 <div
