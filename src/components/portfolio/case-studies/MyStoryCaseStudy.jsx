@@ -334,7 +334,7 @@ const MyStoryCaseStudy = () => {
                     <strong>conversion-oriented site structure</strong>.
                     <br />
                    <br />
-                    <p>I set the metric for <string className="highlight">Success:</string> <string className="highlight">15%</string> <strong>increase in qualified demo requests and egibility calls</strong> within the first 3 months after website deployment.</p>
+                    <p>I set the metric for <string className="highlight">Success:</string> <string className="highlight">15%</string> <string className="highlight_label">increase in demo requests and egibility calls</string> within the first 3 months after website deployment.</p>
                   </p>
                 </div>
               </div>
