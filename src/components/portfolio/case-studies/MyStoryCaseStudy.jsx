@@ -47,7 +47,8 @@ const MyStoryCaseStudy = () => {
               data-aos-duration="1200"
             >
               <h1>
-                Designing User Experience Flows for Complex Products and Audiences
+                Designing User Experience Flows for Complex Products and
+                Audiences
               </h1>
               <h4>Orbit Health Website Redesign</h4>
             </div>
@@ -167,9 +168,7 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>The Problem</span>
-                  <h3>
-                    One Website, Two Audiences, Complex Healthcare System
-                  </h3>
+                  <h3>Redesign the website to clarify value proposition and increase sign‑ups</h3>
                 </div>
                 <div
                   className="text"
@@ -237,7 +236,11 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Primary pages of the redesigned Orbit Health website, containing main UX flows - for people with PD and for health care profesionals</p>
+                    <p>
+                      Primary pages of the redesigned Orbit Health website,
+                      containing main UX flows - for people with PD and for
+                      health care profesionals
+                    </p>
                   </div>
                 </div>
               </div>
@@ -267,7 +270,13 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>The information architecture catered to diverse audiences needs, apart from  target apps users (neurologists and patients) the bussiness goals pointed to adressing other audiences, such as health insurance providers and medical scientists </p>
+                    <p>
+                      The information architecture catered to diverse audiences
+                      needs, apart from target apps users (neurologists and
+                      patients) the bussiness goals pointed to adressing other
+                      audiences, such as health insurance providers and medical
+                      scientists{" "}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -282,7 +291,11 @@ const MyStoryCaseStudy = () => {
                   n
                 >
                   <span>The Solution</span>
-                  <h3>Dual UX and content structure for clarity, trust and conversion </h3>
+                  <h3>
+                    Distinct user flows and content segmentation for more clarity and
+                    conversion
+                    {" "}
+                  </h3>
                 </div>
                 <div
                   className="text"
@@ -296,21 +309,32 @@ const MyStoryCaseStudy = () => {
                     <strong>regulatory constraints</strong>.
                   </p>
                   <p>
-                    The discovery phase pointed me to identify the following objectives:
+                    The discovery phase pointed me to identify the following
+                    objectives:
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Simplifying Complexity</strong> Explaining AI-driven medical systems without losing clinical depth
+                      <strong>Simplifying Complexity</strong> Explaining
+                      AI-driven medical systems without losing clinical depth
                     </li>
                     <li>
-                      <strong>Delineating user journeys</strong> Mapping distinct paths for patients versus healthcare professionals.
+                      <strong>Delineating user journeys</strong> Mapping
+                      distinct paths for patients versus healthcare
+                      professionals.
                     </li>
                     <li>
-                      <strong>Guiding Actions:</strong> Streamlining the flow through eligibility, reimbursement, and onboarding.
+                      <strong>Guiding Actions:</strong> Streamlining the flow
+                      through eligibility, reimbursement, and onboarding.
                     </li>
                   </ul>
                   <p>
-                   My role was to translate these <strong>strategic goals</strong> into intuitive <strong>user flows</strong> and a <strong>conversion-oriented site structure</strong> that bridges the gap between deep-tech and user needs.
+                    My objective was to translate these{" "}
+                    <strong>strategic goals</strong> into intuitive{" "}
+                    <strong>user flows</strong> and a{" "}
+                    <strong>conversion-oriented site structure</strong>.
+                    <br />
+                   <br />
+                    <p>I set the metric for <string className="highlight">Success:</string> <string className="highlight">15%</string> <strong>increase in qualified demo requests and egibility calls</strong> within the first 3 months after website deployment.</p>
                   </p>
                 </div>
               </div>
@@ -389,8 +413,9 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      User persona and journey map for Orbit a patient
-                      user. Since the average age of patients is above 55 y/o the UX needed to cater to their tech literacy level. 
+                      User persona and journey map for Orbit a patient user.
+                      Since the average age of patients is above 55 y/o the UX
+                      needed to cater to their tech literacy level.
                     </p>
                   </div>
                 </div>
@@ -408,7 +433,7 @@ const MyStoryCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                 <img
+                  <img
                     src="/img/portfolio/case-study/Home Page wireframe.png"
                     alt="Wireframe"
                     className="clickable-image"
@@ -421,7 +446,10 @@ const MyStoryCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Redesigned Homepage user flow was designed to guide both target user groups to signing up for eligibility call</p>
+                    <p>
+                      Redesigned Homepage user flow was designed to guide both
+                      target user groups to signing up for eligibility call
+                    </p>
                   </div>
                 </div>
               </div>
@@ -434,7 +462,9 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Ideation</span>
-                  <h3>Better usability through clear structure and rich content</h3>
+                  <h3>
+                    Better usability through clear structure and rich content
+                  </h3>
                 </div>
                 <div
                   className="text"
@@ -456,8 +486,25 @@ const MyStoryCaseStudy = () => {
                       provider flows
                     </li>
                     <li>
-                      <strong>Clickable Figma prototype </strong>showcasing
+                      <strong>Interactive Figma prototype </strong>showcasing
                       product explainers, testimonials, and conversion paths
+                    </li>
+                    <li>
+                      <strong>
+                        Clear and scalable information
+                        architecture{" "}
+                      </strong>
+                      based on audience segmentation
+                    </li>
+                    <li>
+                      <strong>Defined enrollment paths</strong> aligned with
+                      German healthcare reimbursement requirements
+                    </li>
+                    <li>
+                      <strong>
+                        Content recommendations
+                      </strong>{" "}
+                      that clarified the company’s value and next steps
                     </li>
                   </ul>
                 </div>
@@ -536,11 +583,11 @@ const MyStoryCaseStudy = () => {
                     }
                   />
                   {/* Add caption */}
-                  {/* <div className="image_caption">
+              {/* <div className="image_caption">
                     <p>Sitemap with information architecture</p>
                   </div>
                 </div> */}
-              {/* </div> */} 
+              {/* </div> */}
               {/* End right */}
             </div>
           </div>
