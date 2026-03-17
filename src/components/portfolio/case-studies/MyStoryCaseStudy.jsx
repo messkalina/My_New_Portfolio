@@ -168,7 +168,7 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>The Problem</span>
-                  <h3>Redesign the website to clarify value proposition and increase sign‑ups</h3>
+                  <h3>The existing website did not differentiate between patients and neurologists, under‑explained a complex AI medical product, and offered little guidance through German reimbursement and onboarding.</h3>
                 </div>
                 <div
                   className="text"
