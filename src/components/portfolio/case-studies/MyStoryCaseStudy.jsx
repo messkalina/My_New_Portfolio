@@ -46,10 +46,7 @@ const MyStoryCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>
-                Designing User Experience Flows for Complex Products and
-                Audiences
-              </h1>
+              <h1>Clarifying Value to Drive Conversion</h1>
               <h4>Orbit Health Website Redesign</h4>
             </div>
           </div>
@@ -83,21 +80,13 @@ const MyStoryCaseStudy = () => {
                         >
                           <p className="text">
                             Orbit Health is a Munich-based digital health
-                            startup focused on enhancing care for people with
-                            Parkinson’s Disease (PD). Its{" "}
-                            <strong>AI-powered solutions </strong>
-                            use smartwatch data to track motor symptoms, giving
-                            patients and neurologists real-time, objectives
-                            insights into symptom fluctuations and treatment
-                            efficacy.
+                            startup transforming Parkinson’s Disease care
+                            through AI-powered technology. By turning patients
+                            data into objective, continuous insights, the
+                            solutions help neurologists and patients move toward
+                            data-backed symptom management.
                             <br />
                             <br />
-                            With the product still undergoing clinical trials
-                            and awaiting medical device approval in Germany, the
-                            website needed to <strong>clearly explain</strong> a
-                            sophisticated digital health product—while guiding
-                            two very different user groups through complex
-                            decision-making and regulatory processes.
                           </p>
                         </div>
                       </div>
@@ -168,7 +157,7 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>The Problem</span>
-                  <h3>The existing website did not differentiate between patients and neurologists, under‑explained a complex AI medical product, and offered little guidance through German reimbursement and onboarding.</h3>
+                  <h3>Low engagement and few sign‑ups via website</h3>
                 </div>
                 <div
                   className="text"
@@ -176,32 +165,10 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The central challenge was to design a website that clearly
-                    and persuasively communicates the value of
-                    <strong> AI-enabled medical device apps</strong> that serve
-                    the needs of two very different user groups:
-                  </p>
-
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>People living with Parkinson’s Disease </strong>
-                      who need support understanding how the product can help
-                      them and how to access it as a reimbursable treatment
-                      option.
-                    </li>
-                    <li>
-                      <strong>Neurologists</strong> who require detailed
-                      clinical context, reimbursement guidance, and a clear
-                      value proposition for integrating the solution into their
-                      patient care.
-                    </li>
-                  </ul>
-                  <p>
-                    The existing site lacked differentiated user flows,
-                    conversion-focused messaging and guidance through the
-                    complex German healthcare system. My goal was to fix that by
-                    aligning UX with product complexity, compliance, and
-                    audience needs.
+                    The existing site lacked effective user flows,
+                    conversion-focused messaging and guidance through complex
+                    egibility, regulatory and reimbursement processes for
+                    medical applications.
                   </p>
                 </div>
                 <div
@@ -216,7 +183,7 @@ const MyStoryCaseStudy = () => {
                       textDecoration: "none",
                     }}
                   >
-                    <span className="button-text">Jump to Outcome</span>
+                    <span className="button-text">Jump to Impact</span>
                   </a>
                 </div>
               </div>
@@ -272,9 +239,9 @@ const MyStoryCaseStudy = () => {
                   <div className="image_caption">
                     <p>
                       The information architecture catered to diverse audiences
-                      needs, apart from target apps users (neurologists and
-                      patients) the bussiness goals pointed to adressing other
-                      audiences, such as health insurance providers and medical
+                      needs - apart from main user groups (neurologists and
+                      patients) the bussiness goals related to other audiences,
+                      such as health insurance providers and medical
                       scientists{" "}
                     </p>
                   </div>
@@ -292,9 +259,8 @@ const MyStoryCaseStudy = () => {
                 >
                   <span>The Solution</span>
                   <h3>
-                    Distinct user flows and content segmentation for more clarity and
-                    conversion
-                    {" "}
+                    Distinct user flows and content segmentation for more
+                    clarity and conversion{" "}
                   </h3>
                 </div>
                 <div
@@ -302,40 +268,28 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>
-                    Guided by <strong>Design Thinking</strong>, I conducted
-                    secondary research and stakeholder interviews to navigate
-                    the product’s scope, user goals, and{" "}
-                    <strong>regulatory constraints</strong>.
-                  </p>
-                  <p>
-                    The discovery phase pointed me to identify the following
-                    objectives:
-                  </p>
+                  <p>Key design decisions included:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Simplifying Complexity</strong> Explaining
-                      AI-driven medical systems without losing clinical depth
+                      <strong>Delivering clear, audience‑specific value propositions - </strong> demonstrating clinical relevance in terms of insights and time-optimisation for neurologists and  simple explanations of benefits, eligibility, and funding guidance for patients. 
                     </li>
                     <li>
-                      <strong>Delineating user journeys</strong> Mapping
+                      <strong>Delineating user journeys to minimaze frictions:</strong> mapping
                       distinct paths for patients versus healthcare
                       professionals.
                     </li>
                     <li>
-                      <strong>Guiding Actions:</strong> Streamlining the flow
+                      <strong>Guiding Actions:</strong> streamlining the flow
                       through eligibility, reimbursement, and onboarding.
                     </li>
+                    <li>
+                      <strong>Redesigning Homepage</strong> so that it targets both user groups but prioritises patients as primary visitors and key influencers of doctors’ decisions.
+                    </li>
+                    <li>Recommending content communicating the broader value when both user groups use solutions as a system.
+</li>
+                    
                   </ul>
-                  <p>
-                    My objective was to translate these{" "}
-                    <strong>strategic goals</strong> into intuitive{" "}
-                    <strong>user flows</strong> and a{" "}
-                    <strong>conversion-oriented site structure</strong>.
-                    <br />
-                   <br />
-                    <p>I set the metric for <string className="highlight">Success:</string> <string className="highlight">15%</string> <string className="highlight_label">increase in demo requests and egibility calls</string> within the first 3 months after website deployment.</p>
-                  </p>
+                  
                 </div>
               </div>
               {/* End right */}
@@ -355,45 +309,26 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Discovery</span>
-                  <h3>Patients, doctors and healthcare system</h3>
-                </div>
-                <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <p>
-                    Since direct user interviews weren’t possible at this stage,
-                    I focused on stakeholder insights and competitive analysis:
-                  </p>
+                  <span>Success metrics</span>
+                  <h3>How I defined success</h3>
                   <ul className="case-study-list">
                     <li>
-                      <strong>
-                        {" "}
-                        Conducted interviews with internal stakeholders{" "}
-                      </strong>{" "}
-                      (product, operations, regulatory) to define business
-                      objectives, product functionality, and user pain points
+                      <strong>Primary KPI:</strong> Min.{" "}
+                      <string className="highlight">15%</string>{" "}
+                      <string className="highlight_label">increase</string> in
+                      <string className="highlight_label"> demo requests </string>
+                      and <string className="highlight_label">eligibility-related contact</string> within 3
+                      months post-launch. This is direct signal that the website
+                      <strong> drives patients and neurologists toward adoption.</strong>
                     </li>
                     <li>
-                      <strong>Mapped workflows</strong> from patient onboarding
-                      to neurologist prescription and follow-up
-                    </li>
-                    <li>
-                      <strong>Analyzed competitor websites</strong> to benchmark
-                      UX patterns, messaging tone, and regulatory handling
+                      <strong>Secondary KPI:</strong> <string className="highlight_label">Reduced homepage bounce </string>
+                      rate and <string className="highlight_label">increased time on the product pages,</string> benchmarked
+                      against current Google Analytics data. This would signal <strong>increased engagement.</strong>
                     </li>
                   </ul>
-                  <p>
-                    From my research, I developed distinct user personas and
-                    journeys that helped me identify and define core UX
-                    problems: how to <strong>explain </strong> complex medical
-                    products, <strong>build trust and credibility</strong> and
-                    design <strong>conversion flows</strong> that work within
-                    German healthcare regulations.
-                  </p>
                 </div>
+                
               </div>
               {/* End left */}
 
@@ -461,7 +396,7 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Ideation</span>
+                  <span>Highlights</span>
                   <h3>
                     Better usability through clear structure and rich content
                   </h3>
@@ -491,8 +426,7 @@ const MyStoryCaseStudy = () => {
                     </li>
                     <li>
                       <strong>
-                        Clear and scalable information
-                        architecture{" "}
+                        Clear and scalable information architecture{" "}
                       </strong>
                       based on audience segmentation
                     </li>
@@ -501,10 +435,8 @@ const MyStoryCaseStudy = () => {
                       German healthcare reimbursement requirements
                     </li>
                     <li>
-                      <strong>
-                        Content recommendations
-                      </strong>{" "}
-                      that clarified the company’s value and next steps
+                      <strong>Content recommendations</strong> that clarified
+                      the company’s value and next steps
                     </li>
                   </ul>
                 </div>
@@ -534,8 +466,8 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Outcome</span>
-                  <h3>Key Contributions</h3>
+                  <span>Impact</span>
+                  <h3>UX alignment with bussiness goals</h3>
                 </div>
                 <div
                   className="text"
