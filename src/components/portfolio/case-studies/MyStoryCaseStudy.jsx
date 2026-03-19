@@ -475,26 +475,22 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Although the redesigned site was never built due to
-                    financial constrains, through my work I:
+                    Since my work focused on the discovery and UX design phase, its impact aligned stakeholders around one website strategy, dual content structure, and complex user journey maps that integrate German regulatory and reimbursement constraints:
+
                   </p>
                   <ul className="case-study-list">
                     <li>
                       <strong>
-                        Created a clear and scalable information
-                        architecture{" "}
-                      </strong>
-                      based on audience segmentation
-                    </li>
+                        Shared mental model</strong> Stakeholders gained a clear, visual representation of patient and neurologist journeys, making cross‑team discussions faster and more concrete</li>
+                      
+
                     <li>
-                      <strong>Defined enrollment paths</strong> aligned with
-                      German healthcare reimbursement requirements
-                    </li>
-                    <li>
-                      <strong>
-                        Provided a prototype and content recommendations
-                      </strong>{" "}
-                      that clarified the company’s value and next steps
+                      <strong>Decision‑ready mid‑fidelity prototype </strong> The full‑site mid‑fi wireframes and prototype created a ready‑to‑use foundation for high‑fidelity visual design, motion, and future usability testing with patients and clinicians.</li>
+<li>
+                        <strong>
+                        Provided a prototype and content recommendations </strong>
+                      
+                      The project clarified which messages belong on the website vs. in deeper materials, reducing ambiguity about “what to say where" 
                     </li>
                   </ul>
                 </div>
