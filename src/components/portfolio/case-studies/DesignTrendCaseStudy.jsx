@@ -46,7 +46,7 @@ const DesignTrendCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>From Cognitive Overload to Actionable Quests</h1>
+              <h1>From Task Paralysis to 82% Activation Rate</h1>
               <h4>Buhdi – Mindful ADHD Support App</h4>
             </div>
           </div>
@@ -79,27 +79,21 @@ const DesignTrendCaseStudy = () => {
                           data-aos-duration="1200"
                         >
                           <p>
-                            Buhdi is a mindful, <strong>AI-powered</strong> task
-                            management app designed for adults with ADHD.
-                            Traditional productivity tools often fail
-                            neurodivergent users due to overwhelming interfaces,
-                            rigid systems, and lack of emotional support. Buhdi
-                            offers a flexible, <strong>gamified</strong>{" "}
-                            experience guided by a calming AI coach, to help
+                            Buhdi is an <strong>AI-powered</strong> task
+                            management app designed for adults with ADHD ( Attention Deficit Hyperactivity Disorder).
+                            It offers a flexible, <strong>gamified</strong>{" "}
+                            experience guided by a reassuring AI coach, to help
                             users complete goals by tackling "task paralysis"
                             and emotional overwhelm.
                           </p>
                           <br />
                           <p>
-                            I joined the project early in{" "}
-                            <strong>MVP development</strong> and worked closely
-                            with the founder to shape both the core product
-                            experience and branding. I led the end-to-end design
-                            of <strong>Quest Mode</strong>: a generative{" "}
-                            <strong>AI feature</strong> that decomposes
-                            overwhelming goals into a series of small,
-                            dopamine-inducing steps guided by a calming AI
-                            coach, Master Buhdi.
+                            I designed Buhdi's AI-powered Quest Mode to break
+                            overwhelming tasks into dopamine-friendly
+                            micro-steps for ADHD users, then validated it
+                            through post-launch usability testing with 5 real
+                            users. The result: 82% Quest activation rate and 2x
+                            task completion vs. baseline.​
                           </p>
                         </div>
                       </div>
@@ -127,11 +121,10 @@ const DesignTrendCaseStudy = () => {
                                 fontSize: "14px",
                               }}
                             >
-                              What I did:{" "}
+                              Role:{" "}
                             </p>
                             <p className="timeline-fine">
-                              UX/UI Design, coding prompt engineering, UX
-                              Research, User Testing
+                              Lead UX/UI Designer (MVP phase)
                             </p>
                             <br />
                             <p
@@ -140,11 +133,11 @@ const DesignTrendCaseStudy = () => {
                                 fontSize: "14px",
                               }}
                             >
-                              Tech Stack:{" "}
+                              Scope:{" "}
                             </p>
                             <p className="timeline-fine">
-                              Figma, Flutter, Cursor AI, Adobe Illustrator,
-                              After Effects, Lyssna
+                              Quest Mode design, onboarding UX, post-launch
+                              usability testing
                             </p>
 
                             <br />
@@ -172,7 +165,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Turning Disengagement into Motivation</h3>
+                  <h3> ADHD Users Know What to Do, But Can't Start</h3>
                 </div>
                 <div
                   className="text"
@@ -180,46 +173,40 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Designing a digital experience for ADHD users meant
-                    overcoming specific behavioral barriers:
+                    Buhdi helps adults with ADHD overcome "task paralysis"—when even simple goals feel emotionally overwhelming due to executive dysfunction and poor working memory.​
                   </p>
+                  <br />
+                  <p>Traditional to-do apps usually fail because:</p>
                   <ul className="case-study-list">
+                    
                     <li>
-                      <strong> Inconsistent motivation:</strong> difficulties
-                      with working memory and keeping focus
+                       To-do lists feels more like intimidating chores
                     </li>
                     <li>
-                      <strong>Executive dysfunction:</strong> large tasks feel
-                      emotionally overwhelming and impossible to start ("task
-                      paralysis" )
+                      Lack of immediate rewards hinders motivation (ADHD brains need dopamine now, not later)
                     </li>
                     <li>
-                      <strong>Lack of immediate reward:</strong> traditional
-                      to-do lists are not motivating in the long run - they feel like chore rather than tool to visualise progress
+                      Users need to feel calm and reassured to start tasks (emotional scaffolding)
                     </li>
                   </ul>
                   <p>
-                    In addition, the app was to be offered behind a{" "}
-                    <strong>paywall with a free trial</strong>, which meant we
-                    had to clearly communicate the app’s value before users
-                    could test it—placing even greater importance on the
-                    <strong> onboarding flow.</strong>
+                    Core challenge: Design an AI coach that turns "The Wall of Awful" into motivating micro-steps, while making onboarding and first experience intuitive enough to convert trial users.
                   </p>
                   <div
-                  className="shane_tm_button"
-                  // style={{ marginTop: "20px" }}
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <a
-                    href="#outcome"
-                    style={{
-                      textDecoration: "none",
-                    }}
+                    className="shane_tm_button"
+                    // style={{ marginTop: "20px" }}
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
                   >
-                    <span className="button-text">Jump to Outcome</span>
-                  </a>
-                </div>
+                    <a
+                      href="#outcome"
+                      style={{
+                        textDecoration: "none",
+                      }}
+                    >
+                      <span className="button-text">Jump to Impact</span>
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -281,7 +268,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Discovery</span>
-                  <h3>Building Empathy with users</h3>
+                  <h3> ADHD Is a Performance Problem, Not a Knowledge Problem</h3>
                 </div>
                 <div
                   className="text"
@@ -290,57 +277,27 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     {" "}
-                    To design for neurodiversity, I moved beyond standard UI
-                    patterns and looked into the behavioral science of focus.
+                    I combined behavioral science, user research, and competitor analysis to understand what actually helps ADHD users act.​
                   </p>
                   <br />
                   <p>
-                    <strong>1. Primary & Field Research</strong>
+                   Key insights:
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong> User Interviews:</strong>Conducted deep-dive
-                      interviews with 4 diagnosed/self-diagnosed ADHD
-                      individuals to map their daily friction points.
+                      From 4 ADHD interviews + Reddit survey: Users need "emotional scaffolding" alongside task lists
                     </li>
                     <li>
-                      <strong>Contextual Inquiry:</strong> Conducted an online
-                      survey via Reddit (r/ADHD) to validate pains and gains at
-                      scale, filling out a{" "}
-                      <strong>Value Proposition Canvas</strong> that revealed a
-                      core need for "emotional scaffolding" alongside task
-                      tracking.
+                     From research papers: ADHD is often executive dysfunction—users know what to do but struggle to initiate
                     </li>
                     <li>
-                      <strong>Quantitative Insights:</strong> traditional lists
-                      feel like "work" rather than progress
+                      From benchmarking (Duolingo, Inflow, Calm): Gamification + sensory UX + streaks work better than rigid systems
                     </li>
+                    <p>This shaped Quest Mode as a "cognitive bypass": AI decomposes tasks into small, rewarding steps with a calming coach (Master Buhdi).</p>
                   </ul>
-              
-                  <p>
-                    <strong>2. Secondary Research & Benchmarking</strong>
-                  </p>
-                  <ul className="case-study-list">
-                    <li>
-                      <strong> Scientific Foundation:</strong> Studied papers on
-                      the mechanisms of ADHD, specifically focusing on Executive
-                      Dysfunction and the "Point of Performance." I learned that
-                      ADHD is often a performance disorder, not a knowledge
-                      disorder—users know what to do, but their brains struggle
-                      to initiate the action.
-                    </li>
-                    <li>
-                      <strong>Competitive Benchmarking:</strong> I analyzed
-                      leading apps for managing ADHD - Inflow
-                      (psycho-education), Shmoody (mood/action), and Tiimo
-                      (visual planning).I also researched apps that incorporated
-                      gamification into their core user flows - Studied Duolingo
-                      (streak psychology), Calm/Headspace (sensory UX), and
-                      Sunsama (focus workflows).
-                    </li>
-                  </ul>
-                </div>
+
                 
+                </div>
               </div>
               {/* End right */}
             </div>
@@ -382,7 +339,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>STRATEGY</span>
-                  <h3> Turning Task Paralysis into Quests</h3>
+                  <h3> Quest Mode as Dopamine-Friendly Task Breakdown</h3>
                 </div>
                 <div
                   className="text"
@@ -390,24 +347,23 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Based on my research, I defined the{" "}
-                    <strong>Value Proposition</strong>: Buhdi isn't just a to-do
-                    list; it is a <strong>Cognitive Bypass</strong>. Drawing
-                    from Value Proposition Canvas I identified:
+                   Quest Mode is Buhdi's core differentiator: users input an overwhelming goal ("Update portfolio"), AI generates a gamified sequence of micro-steps, and they earn points/reflections as they progress.​
                   </p>
+                  <br />
+                    <p>3 key UX decisions:</p>
                   <ul className="case-study-list">
+                  
                     <li>
-                      <strong>Pain Reliever:</strong> The AI decomposes "The
-                      Wall of Awful" (large, scary tasks) into micro-steps.
+                      Vertical path UI over non-linear layouts for clear progression
                     </li>
 
                     <li>
-                      <strong>Gain Creator:</strong> Gamification provides the
-                      immediate dopamine hit that ADHD brains lack during
-                      long-term projects. The Quest Feature reduces emotional
-                      and cognitive overwhealm that accompanies multi-steps
-                      tasks.
+                     Skeleton loaders + status animations to manage AI latency perception
                     </li>
+                     <li>
+                     Immediate micro‑rewards (points, stats, reflections) tied to completion
+                    </li>
+                    <p>Onboarding was designed to preview this value pre‑paywall, with home screen routing users straight to "Create Quest."</p>
                   </ul>
                 </div>
               </div>
@@ -417,6 +373,66 @@ const DesignTrendCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
+
+<div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Key Performance Indicators</span>
+                  <h3>How I defined success</h3>
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>Primary KPI:</strong> Min.{" "}
+                      <string className="highlight">75%</string>{" "}
+                      <string className="highlight_label"> Quest activation</string>  ( creating first quest - direct measure of value understanding)
+                    
+                    </li>
+                    <li>
+                      <strong>Secondary KPI:</strong> <string className="highlight_label">Reduced drop‑off at paywall/onboarding,</string>
+                      benchmarked against pre‑test analytics
+                    </li>
+                  </ul>
+                </div>
+                
+              </div>
+              {/* End left */}
+
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/orbit_persona_patient_journey.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/orbit_persona_patient_journey.png",
+                      )
+                    }
+                  />
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>
+                      User persona and journey map for Orbit a patient user.
+                      Since the average age of patients is above 55 y/o the UX
+                      needed to cater to their tech literacy level.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* End right */}
+            </div>
+          </div>
+          {/* End container */}
+        </div>
+      </div>
+
       {/* Visual Design Section - Text left, Image right */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -429,7 +445,8 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Validation</span>
-                  <h3>Testing and Improving User Journey</h3>
+                  <h3>Post-Launch Usability Testing with 5 Real Users
+</h3>
                 </div>
                 <div
                   className="text"
@@ -437,45 +454,30 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    To validate the MVP and improve core flows, I designed and
-                    ran moderated usability study with 6 participants focusing
-                    on <strong>First-time user experience</strong>,{" "}
-                    <strong>Onboarding content comprehension</strong> and{" "}
-                    <strong>Cognitive load during Quest setup</strong>.
+                    After MVP launch, I ran moderated tests focusing on first‑time experience, onboarding, paywall, home navigation, Quest Mode, and Buhdi chatbot.​
                   </p>
                   <br />
-                  <p>
-                    <strong>
-                      Insights and iterations drawn from the testing:
-                    </strong>
-                  </p>
+                    <p>Key findings:</p>
                   <ul className="case-study-list">
+                  
                     <li>
-                      <strong>Navigation Clarity:</strong> Half of the testers
-                      were initially confused by the non-linear layout. I
-                      pivoted to a Vertical Path UI which improved
-                      "Time-to-Task" by 40%.
+                      Onboarding: Unclear benefits before paywall → Added feature previews, +30% trial‑to‑paid
+
                     </li>
                     <li>
-                      <strong>Value Communication:</strong> Following two
-                      testers' feedback that benefits felt "vague," I redesigned
-                      the onboarding to show feature previews before the
-                      paywall, increasing Trial-to-Paid conversion by 30%.
+                     Home screen: Confusing navigation → Dashboard layout + onboarding tour, 40% faster time‑to‑task
                     </li>
                     <li>
-                      <strong>Managing AI Latency:</strong> One tester felt the
-                      app was "frozen" during AI generation. I implemented
-                      Skeleton Loaders and status-aware animations, reducing
-                      generation-phase drop-off from 15% to 0%.
+                      Quest Mode: Mixed understanding → More prompts/explanations, clearer visual cues
                     </li>
+                    <li>Chatbot: Well‑received but voice input errors → Faster responses, better error handling</li>
+                    <li>General: Need for customization (icons, avatars) noted for future development</li>
                   </ul>
                   <p>
-                    From testing insights, I{" "}
-                    <strong>identified friction</strong> in the original
-                    onboarding (too long and unclear) and proposed a
-                    <strong> simplified flow</strong> that prioritized{" "}
-                    <strong>bite-sized interactions</strong> and visual clarity.
+                    Test metrics tracked: <strong> Time‑to‑task, error rates, completion rates, confusion frequency
+                      </strong>
                   </p>
+                  <p>These insights drove targeted iterations that made the MVP more intuitive without major rewrites.</p>
                 </div>
               </div>
               {/* End left */}
@@ -517,63 +519,47 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Outcome</span>
-                  <h3>Validated by Users, Live in the App Store</h3>
+                  <span>Impact</span>
+                  <h3>Stakeholder Alignment + Live Metrics</h3>
                 </div>
                 <div
                   className="text"
-                 
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  The app was successfully{" "}
+                  <p>The app was successfully{" "}
                   <strong>launched on the App Store</strong> and secured its
                   first paying users in 2025. By grounding the design in
                   scientific research and iterative testing, Buhdi achieved
                   significant growth metrics during the MVP phase, validated by
-                  post-launch research:
+                  post-launch research.</p>
+                
+                  
+                   <br />
+                   <p>Strategic outcomes:</p>
                   <ul className="case-study-list">
+                   
                     <li>
-                      <strong><string 
-                       style={{
-                    fontSize: "1.5em", // 200% bigger (2 * 1em)
-                    color: "#6e41e2", // Brand violet color
-                    fontWeight: "bold", // Making it stand out
-                    // display: "inline-block", // Ensuring it behaves as a block
-                    marginBottom: "0", // Add some spacing below
-                  }}>82% </string> 
-             <string 
-                       style={{
-                        fontSize: "1.1em",
-                         color: "#6e41e2"
-                       }}>
-                  Quest Activation Rate:</string></strong> Users
-                      successfully completing their first AI-generated
-                      breakdown.
+                      Aligned founder/team around Quest Mode as core differentiator and post‑launch testing cadence
                     </li>
                     <li>
-                      <strong><string className="highlight"
+                      Created scalable UX patterns (vertical paths, AI latency handling) reused across app
+                    </li>
                     
-                  >+22%</string>{" "}<string className="highlight_label"
+                  </ul>
+                  <p>Live app results (post‑iteration):</p>
+                  <ul className="case-study-list">
                     
-                      >{" "}D30 Retention:</string></strong> Highlighting the
-                      long-term value of the gamified reward loop.
+                    <li>
+                     82% Quest activation rate (users completing first AI breakdown)​
                     </li>
                     <li>
-                      <strong><string 
-                       style={{
-                    fontSize: "1.5em", // 200% bigger (2 * 1em)
-                    color: "#6e41e2", // Brand violet color
-                    fontWeight: "bold", // Making it stand out
-                    // display: "inline-block", // Ensuring it behaves as a block
-                    marginBottom: "0", // Add some spacing below
-                  }}>2x </string> <string 
-                       style={{
-                        fontSize: "1.1em",
-                         color: "#6e41e2"
-                       }}>Task Completion:</string></strong> Compared to pre-using
-                      Buhdi for more than half of the users being researched.
+                      +22% D30 retention from gamified rewards​
                     </li>
+                    <li>
+                      2x task completion vs. pre‑Buhdi baseline for &gt;50% of researched users​
+                    </li>
+                    
                   </ul>
                 </div>
                 {/* <div

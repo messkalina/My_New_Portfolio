@@ -309,7 +309,7 @@ const MyStoryCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Success metrics</span>
+                  <span>Key Performance Indicators</span>
                   <h3>How I defined success</h3>
                   <ul className="case-study-list">
                     <li>
