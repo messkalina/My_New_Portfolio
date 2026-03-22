@@ -114,10 +114,10 @@ const MyStoryCaseStudy = () => {
                                 fontSize: "14px",
                               }}
                             >
-                              What I did:{" "}
+                              Role:{" "}
                             </p>
                             <p className="timeline-fine">
-                              UX Research, UX/UI Design, UX writing
+                              Sole UX/UI Designer (UX Research, UX/UI Design, UX writing)
                             </p>
                             <br />
                             <p
@@ -126,10 +126,10 @@ const MyStoryCaseStudy = () => {
                                 fontSize: "14px",
                               }}
                             >
-                              Tools:{" "}
+                              Scope:{" "}
                             </p>
                             <p className="timeline-fine">
-                              Figma, Adobe Photoshop, Adobe Illustrator, Lyssna
+                              Discovery, stakeholder alignment, content and IA strategy, mid‑fidelity wireframes for full website, interactive prototype
                             </p>
 
                             <br />
@@ -407,38 +407,62 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I explored multiple approaches and gathered feedback from
-                    stakeholders to refine the Information Architecture and
-                    onboarding logic and developed:
+                   Based on insights from discovery, I defined the UX strategy for the new site around three principles:
                   </p>
+                  <br />
+                  <strong>1.Separate, but connected, journeys:</strong>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Modular sitemap </strong>tailored to dual-audience
-                      logic
+                      Clear entry points and tailored content for people with Parkinson’s and for neurologists.
                     </li>
                     <li>
-                      <strong>Wireframes </strong>for segmented patient and
-                      provider flows
-                    </li>
-                    <li>
-                      <strong>Interactive Figma prototype </strong>showcasing
-                      product explainers, testimonials, and conversion paths
-                    </li>
-                    <li>
-                      <strong>
-                        Clear and scalable information architecture{" "}
-                      </strong>
-                      based on audience segmentation
-                    </li>
-                    <li>
-                      <strong>Defined enrollment paths</strong> aligned with
-                      German healthcare reimbursement requirements
-                    </li>
-                    <li>
-                      <strong>Content recommendations</strong> that clarified
-                      the company’s value and next steps
-                    </li>
+                      Shared sections only where goals overlap (e.g. “What is Orbit”, "How it works")
+                    </li>  
                   </ul>
+                  <strong>2.Explain complexity step by step:</strong>
+                  <ul className="case-study-list">
+                    <li>
+                      Break down the AI and medical aspects into simple, progressive content blocks.
+                    </li>
+                    <li>
+                      Use familiar metaphors and visuals to communicate what the product does, not just how it works.
+                    </li>  
+                  </ul>
+                  <strong>3.Anchor UX in real decision points:</strong>
+                  <ul className="case-study-list">
+                    <li>
+                      Structure pages around the exact questions users have at each step (eligibility, reimbursement, evidence, next steps).
+                    </li>
+                    <li>
+                      Make it always clear “what to do next” for each audience.
+                    </li>  
+                  </ul>
+                  <strong>For patients, I designed flows and page layouts that:</strong>
+                  <ul className="case-study-list">
+                    <li>
+                      Explain what solutions do in everyday language and how they can help in daily life.
+                    </li>
+                    <li>
+                      Show the steps to access the solution in the German healthcare system.
+                    </li>
+                    <li>
+                      Provide clear calls to action and expectations (talking to a doctor, collecting necessary information, next steps).
+                    </li>   
+                  </ul>
+                   <strong>For neurologists, the UX focuses on:</strong>
+
+                  <ul className="case-study-list">
+                    <li>
+                      Clinical context and how Orbit fits into existing diagnostic and treatment workflows.
+                    </li>
+                    <li>
+                      Evidence, data visualisations, and key indicators relevant to clinical decisions.
+                    </li>
+                     <li>
+                      Guidance on reimbursement and integration into practice, without overwhelming with marketing copy.
+                    </li>    
+                  </ul>
+                  
                 </div>
                 {/* <div
                   className="shane_tm_button"
