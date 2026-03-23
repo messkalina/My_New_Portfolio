@@ -79,21 +79,21 @@ const DesignTrendCaseStudy = () => {
                           data-aos-duration="1200"
                         >
                           <p>
-                            Buhdi is an <strong>AI-powered</strong> task
-                            management app designed for adults with ADHD ( Attention Deficit Hyperactivity Disorder).
-                            It offers a flexible, <strong>gamified</strong>{" "}
-                            experience guided by a reassuring AI coach, to help
+                            Buhdi is an <strong>AI-poweredtask
+                            management app</strong>  designed for adults with <strong>ADHD</strong> ( Attention Deficit Hyperactivity Disorder).
+                            It offers a flexible, <strong>gamified
+                            experience</strong>{" "} guided by a reassuring AI coach, to help
                             users complete goals by tackling "task paralysis"
                             and emotional overwhelm.
                           </p>
                           <br />
                           <p>
-                            I designed Buhdi's AI-powered Quest Mode to break
+                            I designed Buhdi's AI-powered <strong>Quest Mode</strong> to break
                             overwhelming tasks into dopamine-friendly
                             micro-steps for ADHD users, then validated it
                             through post-launch usability testing with 5 real
-                            users. The result: 82% Quest activation rate and 2x
-                            task completion vs. baseline.​
+                            users. The result: <strong>82% Quest activation rate </strong> and <strong>2x
+                            task completion</strong> vs. baseline.​
                           </p>
                         </div>
                       </div>
@@ -173,7 +173,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Buhdi helps adults with ADHD overcome "task paralysis"—when even simple goals feel emotionally overwhelming due to executive dysfunction and poor working memory.​
+                    Buhdi helps adults with ADHD <strong>overcome "task paralysis"</strong>—when even simple goals feel emotionally overwhelming due to executive dysfunction and poor working memory.​
                   </p>
                   <br />
                   <p>Traditional to-do apps usually fail because:</p>
@@ -190,7 +190,7 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                   <p>
-                    Core challenge: Design an AI coach that turns "The Wall of Awful" into motivating micro-steps, while making onboarding and first experience intuitive enough to convert trial users.
+                    Core challenge: Designing experience that turns "The Wall of Awful" into <strong>motivating micro-steps</strong>, while making onboarding and first experience intuitive enough to convert trial users.
                   </p>
                   <div
                     className="shane_tm_button"
@@ -285,15 +285,15 @@ const DesignTrendCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      From 4 ADHD interviews + Reddit survey: Users need "emotional scaffolding" alongside task lists
+                      From 4 ADHD interviews + Reddit survey: Users need <strong>"emotional scaffolding"</strong> alongside task lists
                     </li>
                     <li>
-                     From research papers: ADHD is often executive dysfunction—users know what to do but struggle to initiate
+                     From research papers: ADHD is mostly about <strong>executive dysfunction</strong> - users know what to do but struggle to initiate
                     </li>
                     <li>
-                      From benchmarking (Duolingo, Inflow, Calm): Gamification + sensory UX + streaks work better than rigid systems
+                      From benchmarking (Duolingo, Inflow, Calm): <strong>Gamification + sensory UX + performance streaks </strong> work better than checklists
                     </li>
-                    <p>This shaped Quest Mode as a "cognitive bypass": AI decomposes tasks into small, rewarding steps with a calming coach (Master Buhdi).</p>
+                    <p>This shaped <strong>Quest Mode as a "cognitive bypass"</strong>: AI decomposes tasks into small, rewarding steps with a calming AI coach (Master Buhdi).</p>
                   </ul>
 
                 
@@ -347,7 +347,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                   Quest Mode is Buhdi's core differentiator: users input an overwhelming goal ("Update portfolio"), AI generates a gamified sequence of micro-steps, and they earn points/reflections as they progress.​
+                   Quest Mode is Buhdi's core differentiator: users input an <string className="highlight_label">overwhelming goal</string> → AI generates a <string className="highlight_label">gamified sequence of micro-steps</string> → users earn <string className="highlight_label">micro-rewards</string> along with progress and self-reflection cues as they progress.​
                   </p>
                   <br />
                     <p>3 key UX decisions:</p>
@@ -363,7 +363,7 @@ const DesignTrendCaseStudy = () => {
                      <li>
                      Immediate micro‑rewards (points, stats, reflections) tied to completion
                     </li>
-                    <p>Onboarding was designed to preview this value pre‑paywall, with home screen routing users straight to "Create Quest."</p>
+                    <li>Onboarding that clearly communicate value proposition and gives preview of the Quest generation before hitting free trial/paywall </li>
                   </ul>
                 </div>
               </div>
@@ -419,9 +419,7 @@ const DesignTrendCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      User persona and journey map for Orbit a patient user.
-                      Since the average age of patients is above 55 y/o the UX
-                      needed to cater to their tech literacy level.
+                      By removing small "micro-frustrations" discovered in testing, we ensured that the behavioral logic of the app supported the user's focus rather than distracting from it.
                     </p>
                   </div>
                 </div>
@@ -461,14 +459,14 @@ const DesignTrendCaseStudy = () => {
                   <ul className="case-study-list">
                   
                     <li>
-                      Onboarding: Unclear benefits before paywall → Added feature previews, +30% trial‑to‑paid
+                      Onboarding: Unclear benefits before paywall → Clear value proposition and feature previews, +30% trial‑to‑paid
 
                     </li>
                     <li>
                      Home screen: Confusing navigation → Dashboard layout + onboarding tour, 40% faster time‑to‑task
                     </li>
                     <li>
-                      Quest Mode: Mixed understanding → More prompts/explanations, clearer visual cues
+                      Quest Mode: Mixed understanding → More explanations, clearer visual cues
                     </li>
                     <li>Chatbot: Well‑received but voice input errors → Faster responses, better error handling</li>
                     <li>General: Need for customization (icons, avatars) noted for future development</li>
