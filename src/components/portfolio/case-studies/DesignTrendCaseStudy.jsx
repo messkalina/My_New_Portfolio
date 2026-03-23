@@ -186,7 +186,7 @@ const DesignTrendCaseStudy = () => {
                       Lack of immediate rewards hinders motivation (ADHD brains need dopamine now, not later)
                     </li>
                     <li>
-                      Users need to feel calm and reassured to start tasks (emotional scaffolding)
+                      Users need to feel calm and reassured to start a task (emotional scaffolding)
                     </li>
                   </ul>
                   <p>
@@ -406,13 +406,13 @@ const DesignTrendCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/orbit_persona_patient_journey.png"
+                    src="/img/portfolio/case-study/buhdi_testing_cm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/orbit_persona_patient_journey.png",
+                        "/img/portfolio/case-study/buhdi_testing_cm.png",
                       )
                     }
                   />
@@ -540,10 +540,13 @@ const DesignTrendCaseStudy = () => {
                   <ul className="case-study-list">
                    
                     <li>
-                      Aligned founder/team around Quest Mode as core differentiator and post‑launch testing cadence
+                      Aligned team around Quest Mode as core differentiator and post‑launch testing cadence
+                    </li>
+                     <li>
+                      Designed onboarding experience that substantially increased readiness to free trial (according to qualitative feedback from post-launch user interviews)
                     </li>
                     <li>
-                      Created scalable UX patterns (vertical paths, AI latency handling) reused across app
+                      Created UX gamification patterns (Quest architecture, badges, animated visual feedback, progress indicators) that improved user activation, retention and task completions rates 
                     </li>
                     
                   </ul>
