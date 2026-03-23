@@ -314,13 +314,13 @@ const DesignTrendCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Onboarding_Flow.png"
+                    src="/img/portfolio/case-study/Buhdi_Onboarding_Flowcm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Onboarding_Flow.png",
+                        "/img/portfolio/case-study/Buhdi_Onboarding_Flowcm.png",
                       )
                     }
                   />
