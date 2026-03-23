@@ -538,13 +538,13 @@ const DesignTrendCaseStudy = () => {
                   <ul className="case-study-list">
                    
                     <li>
-                      Aligned team around Quest Mode as core differentiator and post‑launch testing cadence
+                      <strong>Aligned team</strong> around Quest Mode as core differentiator and testing focus
                     </li>
                      <li>
-                      Designed onboarding experience that substantially increased readiness to free trial (according to qualitative feedback from post-launch user interviews)
+                      Designed onboarding experience that substantially <strong>increased readiness to start a free trial</strong> (according to qualitative feedback from post-launch user interviews)
                     </li>
                     <li>
-                      Created UX gamification patterns (Quest architecture, badges, animated visual feedback, progress indicators) that improved user activation, retention and task completions rates 
+                      Created UX gamification patterns (Quest architecture, badges, animated visual feedback, progress indicators) that <strong>improved user activation, retention and task completions rates </strong>
                     </li>
                     
                   </ul>
@@ -552,13 +552,13 @@ const DesignTrendCaseStudy = () => {
                   <ul className="case-study-list">
                     
                     <li>
-                     82% Quest activation rate (users completing first AI breakdown)​
+                     <string className="highlight">82% </string> <string className="highlight_label">Quest activation rate</string> (users completing first AI breakdown)​
                     </li>
                     <li>
-                      +22% D30 retention from gamified rewards​
+                      <string className="highlight">+22%</string>  <string className="highlight_label">D30 user retention</string> (within 30 days after first-time use of the app)
                     </li>
                     <li>
-                      2x task completion vs. pre‑Buhdi baseline for &gt;50% of researched users​
+                      <string className="highlight">2x</string> <string className="highlight_label">task completion vs. pre‑Buhdi baseline</string> for &gt;50% of researched active users​ 
                     </li>
                     
                   </ul>
