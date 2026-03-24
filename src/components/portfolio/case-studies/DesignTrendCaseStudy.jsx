@@ -46,7 +46,7 @@ const DesignTrendCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>From Task Paralysis to 82% Activation Rate</h1>
+              <h1>Solving Behavioral Barriers to Drive Retention</h1>
               <h4>Buhdi – Mindful ADHD Support App</h4>
             </div>
           </div>
@@ -90,9 +90,8 @@ const DesignTrendCaseStudy = () => {
                           <p>
                             I designed Buhdi's AI-powered <strong>Quest Mode</strong> to break
                             overwhelming tasks into dopamine-friendly
-                            micro-steps for ADHD users, then validated it
-                            through post-launch usability testing with 5 real
-                            users. The result: <strong>82% Quest activation rate </strong> and <strong>2x
+                            micro-steps for ADHD users, then validated it with user interviews 
+                            and usability testing. The result: <strong>82% Quest activation rate </strong> and <strong>2x
                             task completion</strong> vs. baseline.​
                           </p>
                         </div>
@@ -165,7 +164,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3> ADHD Users Know What to Do, But Can't Start</h3>
+                  <h3> Starting is hard, consistency is even harder</h3>
                 </div>
                 <div
                   className="text"
@@ -225,7 +224,7 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p> Incorporating gamification patterns</p>
+                    <p> 1{")"} The to-do list does not increase motivation in ADHD users (Todoist App). 2{")"}To combat executive disfunction users need reward system providing constant micro gratifications. Here comes gamification ( Duolingo, Habitica)</p>
                   </div>
                 </div>
               </div>
@@ -267,8 +266,8 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Discovery</span>
-                  <h3> ADHD Is a Performance Problem, Not a Knowledge Problem</h3>
+                  <span>Solution</span>
+                  <h3> Starting is hard, consistency is even harder</h3>
                 </div>
                 <div
                   className="text"
@@ -338,8 +337,8 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>STRATEGY</span>
-                  <h3> Quest Mode as Dopamine-Friendly Task Breakdown</h3>
+                  <span>Solution</span>
+                  <h3> Task Breakdown as Dopamine-Friendly Quest Mode</h3>
                 </div>
                 <div
                   className="text"
