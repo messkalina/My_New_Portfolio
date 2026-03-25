@@ -87,9 +87,10 @@ const DesignTrendCaseStudy = () => {
                             <strong>gamified experience</strong> guided by a
                             reassuring AI coach, to help users deal with
                             inconsistent motivation and emotional overwhelm. I
-                            joined the project in the post-MVP phase to focus on user
-                            activation - ensuring that users didn't just download
-                            the app, but understood how the app works and tested it's value proposition.
+                            joined the project in the post-MVP phase to focus on
+                            user activation - ensuring that users didn't just
+                            download the app, but understood how the app works
+                            and tested it's value proposition.
                           </p>
                         </div>
                       </div>
@@ -168,16 +169,18 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     For many users (especially with ADHD) the big obstacle to
-                    "getting things done" is not a lack of to-do list. It is a
-                    degree of <strong>executive dysfunction</strong> -
-                    struggling with planning, focusing, organizing, initiating
-                    tasks, managing time and regulating emotions.
+                    "getting things done" is not a lack of to-do list. It is{" "}
+                    <strong>Task Paralysis</strong> - when you know what you
+                    need to do, but you feel mentally stuck and unable to
+                    initiate action. The common causes are: problems with task
+                    planning and prioritazation, fear of doing it wrong and
+                    boredom (lack of stimulation).
                   </p>
                   <br />
                   <p>
                     Our early data showed that users were downloading the app
-                    but dropping off very soon. We hyphotesised that it could be
-                    explained by the following neuropsychological concepts:
+                    but dropping off soon after. We hyphotesised that it could
+                    be explained by the following neuropsychological concepts:
                   </p>
                   <ul className="case-study-list">
                     <li>
@@ -266,10 +269,13 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Doing self-reflection activities and taking a
-                      break from a task so that the user can recharge and come
-                      back later was framed as an intentional actions
-                      rewarded in the app.That should decrease the frustration and shame users may feel when they can't complete task as planned.</p>
+                    <p>
+                      Doing self-reflection activities and taking a break from a
+                      task so that the user can recharge and come back later was
+                      framed as an intentional actions rewarded in the app.That
+                      should decrease the frustration and shame users may feel
+                      when they can't complete task as planned.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -291,33 +297,44 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     Users din't need another app to store tasks - they needed a
-                    partner to help them start and persist with their tasks. Our educated guess was that by using AI to
-                    break down complex goals into "micro-wins" steps and provide positive reinforcement for staying on track we
-                    would increase app <strong>activation rate</strong>. The more users would experience app value during the free trial the chance of <strong>convertion to paid subscription and retention.</strong>
-                 
+                    partner to help them start and persist with their tasks. Our
+                    educated guess was that by using AI to break down complex
+                    goals into "micro-wins" steps and provide positive
+                    reinforcement for staying on track we would tackle task
+                    paralysis and increase app <strong>activation rate</strong>.
+                    The more users would experience app value during the free
+                    trial the chance of{" "}
+                    <strong>
+                      convertion to paid subscription and retention.
+                    </strong>
                   </p>
                   <br />
-                  <p><strong>Key UX decisions:</strong></p>
+                  <p>
+                    <strong>Key UX decisions:</strong>
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Gamification design</strong> A reward system—points, stats,
-                      progress indications and self-reflection prompts— tied to
-                      the task completion flow. By providing immediate
-                      gratification for every micro-step, we reframed chores as
-                      micro-wins, lowering the drop-off rate. 
+                      <strong>Gamification design</strong> A reward
+                      system—points, stats, progress indications and
+                      self-reflection prompts— tied to the task completion flow.
+                      By providing immediate gratification for every micro-step,
+                      we reframed chores as micro-wins, lowering the drop-off
+                      rate.
                     </li>
                     <li>
-                      <strong>The AI Coach support</strong> I designed a calming AI coach persona
-                      (Master Buhdi) to provide emotional support and reduce the procrastination and
-                      "failure shame".{" "}
+                      <strong>The AI Coach support</strong> I designed a calming
+                      AI coach persona (Master Buhdi) to provide emotional
+                      support and reduce the procrastination and "failure
+                      shame".{" "}
                     </li>
                     <li>
-                      <strong>The "Value-First" Onboarding</strong> To reduce the anxiety and
-                      "commitment-shutdown" common at paywalls, I designed an
-                      onboarding flow that provides a clear value proposition
-                      and a preview of a generated Quest before the user is
-                      asked to start a free trial. This provides immediate proof
-                      of value and leads to user activation.{" "}
+                      <strong>The "Value-First" Onboarding</strong> To reduce
+                      the anxiety and "commitment-shutdown" common at paywalls,
+                      I designed an onboarding flow that provides a clear value
+                      proposition and a preview of a generated Quest before the
+                      user is asked to start a free trial. This provides
+                      immediate proof of value and leads to user
+                      activation.{" "}
                     </li>
                   </ul>
                 </div>
@@ -371,15 +388,15 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     Quest Mode is Buhdi's core differentiator: users input an{" "}
-                    <string className="highlight_label">
+                    <span className="highlight_label">
                       overwhelming goal
-                    </string>{" "}
+                    </span>{" "}
                     → AI generates a{" "}
-                    <string className="highlight_label">
+                    <span className="highlight_label">
                       gamified sequence of micro-steps
-                    </string>{" "}
+                    </span>{" "}
                     → users earn{" "}
-                    <string className="highlight_label">micro-rewards</string>{" "}
+                    <span className="highlight_label">micro-rewards</span>{" "}
                     along with progress and self-reflection cues as they
                     progress.​
                   </p>
@@ -424,29 +441,58 @@ const DesignTrendCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Key Performance Indicators</span>
-                  <h3>How I defined success</h3>
+                  <span>Defining Success</span>
+                  <h3>Validating the Value Hypothesis</h3>
+                  <p>
+                    To measure if the redesign effectively solved for
+                    ADHD-specific behaviors, I established three primary success
+                    signals. Rather than just gathering data, I used these KPIs
+                    to validate if we were successfully moving users from
+                    "overwhelmed" to "active."
+                  </p>
+                  <p>
+                    KPI 1:
+                    <strong> Onboarding Completion (&gt;80% Target)</strong>
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Primary KPI:</strong> Min.{" "}
-                      <string className="highlight">75%</string>{" "}
-                      <string className="highlight_label">
-                        {" "}
-                        Quest activation
-                      </string>{" "}
-                      (creating first quest - direct measure of understanding value proposition
-                      )
+                      Why: Ensure the "Boredom Threshold" wasn't hit before
+                      the user saw the core value
                     </li>
+
                     <li>
-                      <strong>Secondary KPI:</strong>{" "}
-                      <string className="highlight_label">
-                        Reduced drop‑off during onboarding,
-                      </string>
-                      benchmarked against pre‑test analytics
+                      The Result: We achieved a high completion rate by allowing
+                      users to preview a "Quest" before hitting the paywall.
                     </li>
                   </ul>
+                   <p>
+                    KPI 2:
+                    <strong> Quest Activation (&gt;60% Target)</strong>
+                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      Why: Prove that the AI breakdown effectively bypassed "Task Paralysis"
+                    </li>
+
+                    <li>
+                      The Result: 82% of users successfully started their first Quest, confirming the "Aha! Moment" was reachable
+                    </li>
+                  </ul>
+                  <p>
+                    KPI 3:
+                    <strong> D14 Retention (25% Benchmark)</strong>
+                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      Why: Move beyond "novelty" to ensure the app creates a sustainable habit but still staying within free trial period
+                    </li>
+
+                    <li>
+                      The Result: 22% increase in retention compared to our initial MVP baseline, validating the stickiness of the dopamine-reward loop</li>
+              </ul>
+              <p>Key insight: <strong>Activation is high but Retention is lower that the industry benchmark</strong> for productivity apps (25-30%): Current solution is successful at getting people started, but we need more incentives for users to keep them coming back after two weeks.</p>
                 </div>
-              </div>
+                </div>
               {/* End left */}
 
               <div className="right">
@@ -624,24 +670,24 @@ const DesignTrendCaseStudy = () => {
                   <p>Live app results (post‑iteration):</p>
                   <ul className="case-study-list">
                     <li>
-                      <string className="highlight">82% </string>{" "}
-                      <string className="highlight_label">
+                      <span className="highlight">82% </span>{" "}
+                      <span className="highlight_label">
                         Quest activation rate
-                      </string>{" "}
+                      </span>{" "}
                       (users completing first AI breakdown)​
                     </li>
                     <li>
-                      <string className="highlight">+22%</string>{" "}
-                      <string className="highlight_label">
+                      <span className="highlight">+22%</span>{" "}
+                      <span className="highlight_label">
                         D30 user retention
-                      </string>{" "}
+                      </span>{" "}
                       (within 30 days after first-time use of the app)
                     </li>
                     <li>
-                      <string className="highlight">2x</string>{" "}
-                      <string className="highlight_label">
+                      <span className="highlight">2x</span>{" "}
+                      <span className="highlight_label">
                         task completion vs. pre‑Buhdi baseline
-                      </string>{" "}
+                      </span>{" "}
                       for &gt;50% of researched active users​
                     </li>
                   </ul>
