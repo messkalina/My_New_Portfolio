@@ -33,14 +33,14 @@ html {
   margin: 0px;
 }
 body {
-  font-family: 'Poppins', Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6rem;                   
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7rem;                   
   // letter-spacing: 0.5px;
   word-wrap: break-word;
   font-weight: 400;
   background-color: #fff;
-  color: #5e5e5e;
+  color: #323036;
   overflow: hidden;
 }
 svg {
@@ -102,8 +102,8 @@ h5,
 h6 {
   font-weight: 800;
   line-height: 1.2;
-  font-family: "Poppins";
-  color: #000;
+  font-family: "Montserrat";
+ 
 }
 
 h1 {
@@ -155,7 +155,7 @@ h6 {
 }
 
 .highlight_label {
-  font-size: 1.1em;
+  font-size: 1em;
   color: #6e41e2;
   font-weight: 600;
   background-color: #e9e3325d; /* A soft yellow */
@@ -201,13 +201,13 @@ h6 {
 }
 
 .image_caption {
-  font-size: 13px !important;
+  font-size: 0.9rem !important;
   line-height: 1.4;
   font-weight: 500 !important;
   margin-top: 16px !important;
   margin-left: 16px;
    text-align: center !important;
-   color: #0c0c0c !important;
+   color: #5c5761 !important;
   ;
 }
 
@@ -777,7 +777,7 @@ padding: 0;
 .shane_tm_hero .content h3 {
   position: relative;
   font-size: 82px;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   text-transform: uppercase;
   font-weight: 900;
   color: #000; // Solid black color like "Iwaszko"
@@ -809,7 +809,7 @@ padding: 0;
 .shane_tm_hero .content .job {
   font-weight: 400;
   font-size: 18px;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   float: left;
   position: relative;
   overflow: hidden;
@@ -1014,7 +1014,7 @@ body.loaded .overlay_effect:after {
 .shane_tm_about .experience .year {
   font-size: 80px;
   font-weight: 800;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   color: #fff;
   margin-bottom: 3px;
   line-height: 1;
@@ -1023,7 +1023,7 @@ body.loaded .overlay_effect:after {
 .shane_tm_about .experience .text {
   color: #fff;
   font-style: italic;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   opacity: 0.7;
 }
 .shane_tm_about .right {
@@ -1038,7 +1038,7 @@ body.loaded .overlay_effect:after {
 }
 .shane_tm_title h3 {
   // font-weight: 800;
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }
 .shane_tm_title span {
   display: inline-block;
@@ -1048,7 +1048,7 @@ body.loaded .overlay_effect:after {
   font-weight:  300;
   font-size: 14px;
   color: #ffffff;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   letter-spacing: 1.5px;
   margin-bottom: 15px;
   margin-right: 16px;
@@ -1080,7 +1080,7 @@ body.loaded .overlay_effect:after {
 }
 
 .shane_tm_button .button-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   display: inline-block;
   padding: 12px 3rem;
@@ -1154,7 +1154,7 @@ transform: translateY(2px);
     li {
       text-decoration: none;
       color: #767676;
-      font-family: "Poppins";
+      font-family: "Montserrat";
       font-weight: 500;
       cursor: pointer;
       position: relative;
@@ -1289,7 +1289,7 @@ ul.react-tabs__tab-list {
   background: #ffffff;
   font-size: 18px;
   padding: 5px 15px;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-weight: 600;
   color: #000;
   position: fixed;
@@ -1307,7 +1307,7 @@ ul.react-tabs__tab-list {
   top: 100%;
   left: 0;
   margin-top: -10px;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-size: 15px;
   font-weight: 500;
   padding: 5px 15px;
@@ -1359,7 +1359,7 @@ ul.react-tabs__tab-list {
   }
 }
 .shane_tm_portfolio .mobile_title span {
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-weight: 500;
   color: #000;
 }
@@ -1411,7 +1411,7 @@ ul.react-tabs__tab-list {
   width: 100%;
   display: block;
   text-align: left;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-weight: 500;
   color: #333;
 }
@@ -1564,7 +1564,7 @@ ul.react-tabs__tab-list {
 }
 .shane_tm_business_video .text {
   color: #fff;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-size: 30px;
   max-width: 600px;
   margin: 0px auto;
@@ -1585,7 +1585,7 @@ ul.react-tabs__tab-list {
   display: inline-block;
   padding: 16px 50px;
   border: 2px solid #fff;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
 }
@@ -1861,7 +1861,7 @@ ul.react-tabs__tab-list {
 }
 .shane_tm_news .news_list ul li .details .date {
   text-transform: uppercase;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-size: 12px;
   color: #767676;
   font-style: italic;
@@ -1977,7 +1977,7 @@ body.modal {
 }
 .shane_tm_modalbox_news .date {
   text-transform: uppercase;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-size: 12px;
   color: #767676;
   font-style: italic;
@@ -2020,7 +2020,7 @@ body.modal {
   padding-top: 14px;
 }
 .shane_tm_modalbox_news .share span {
-  font-family: "Poppins";
+  font-family: "Montserrat";
   color: #000;
   font-weight: 600;
   display: inline-block;
@@ -2098,7 +2098,7 @@ body.modal {
   display: inline-block;
   padding: 15px 48px;
   border: 2px solid #fff;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
   cursor: pointer;
   font-size: 16px;
@@ -2212,7 +2212,7 @@ body.modal {
   text-align: center;
 }
 .shane_tm_copyright p {
-  font-family: "Poppins";
+  font-family: "Montserrat";
   color: #ffffff9b;
   font-size: 13px;
   font-weight: 400;
@@ -2354,7 +2354,7 @@ body.modal {
   padding: 50px 15px;
 }
 .shane_tm_mobalbox_contact .short_info > ul > li p {
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-weight: 500;
   color: #fff;
 }
@@ -2852,7 +2852,7 @@ body.dark .shane_tm_settings .cursor li .svg,
   padding-bottom: 20px;
 }
 .shane_tm_intro .hero p {
-  font-family: "Poppins";
+  font-family: "Montserrat";
   font-weight: 500;
   color: #fff;
   font-size: 20px;
@@ -2866,7 +2866,7 @@ body.dark .shane_tm_settings .cursor li .svg,
   display: inline-block;
   padding: 13px 48px;
   border: 2px solid #fff;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -3740,7 +3740,7 @@ body.intro .loader_line:after {
 .shane_tm_case_study_hero .content h3 {
   position: relative;
   font-size: 72px;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   text-transform: uppercase;
   font-weight: 900;
   color: #000;
@@ -3855,7 +3855,7 @@ body.intro .loader_line:after {
     
     h3 {
       font-weight: 800;
-      font-family: "Poppins";
+      font-family: "Montserrat";
       color: #000; // Dark text on desktop
     }
     
@@ -3867,7 +3867,7 @@ body.intro .loader_line:after {
       font-weight: 600;
       font-size: 12px;
       color: #333; // Dark text on desktop
-      font-family: "Poppins";
+      font-family: "Montserrat";
       letter-spacing: 0px;
       margin-bottom: 15px;
     }
@@ -3972,7 +3972,7 @@ body.intro .loader_line:after {
   font-weight: 800;
   margin-bottom: 24px;
   color: #000;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   text-align: center;
 }
 .contact-form {
@@ -3988,7 +3988,7 @@ body.intro .loader_line:after {
   font-weight: 600;
   margin-bottom: 7px;
   color: #222;
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }
 .form-group input,
 .form-group textarea {

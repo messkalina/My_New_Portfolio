@@ -439,8 +439,9 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Defining Success</span>
-                  <h3>From Paralysis to Action</h3></div>
-                   <div
+                  <h3>From Paralysis to Action</h3>
+                </div>
+                <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -449,7 +450,9 @@ const DesignTrendCaseStudy = () => {
                     To measure if the redesign effectively solved for
                     ADHD-specific behaviors, I established three primary success
                     signals. Rather than just gathering data, I used these KPIs
-                    to validate if we successfully communicated the value propositions and prompted users to define their goal and take first step toward action aka battling task paralysis.
+                    to validate if we successfully communicated the value
+                    propositions and prompted users to define their goal and
+                    take first step toward action aka battling task paralysis.
                   </p>
                   <br />
                   <p>
@@ -458,8 +461,10 @@ const DesignTrendCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Why:</strong> Ensure the "Boredom Threshold" wasn't hit before the
-                      user saw the core value, successfully prompting users to test "Quest" feature before free trial decision. 
+                      <strong>Why:</strong> Ensure the "Boredom Threshold"
+                      wasn't hit before the user saw the core value,
+                      successfully prompting users to test "Quest" feature
+                      before free trial decision.
                     </li>
                   </ul>
                   <p>
@@ -468,8 +473,10 @@ const DesignTrendCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Why:</strong> To prove that the AI goal breakdown effectively bypassed
-                      "Task Paralysis" by prompting user to define their goal and receive step-by-step breakdown making starting action easier.
+                      <strong>Why:</strong> To prove that the AI goal breakdown
+                      effectively bypassed "Task Paralysis" by prompting user to
+                      define their goal and receive step-by-step breakdown
+                      making starting action easier.
                     </li>
                   </ul>
                   <p>
@@ -479,9 +486,9 @@ const DesignTrendCaseStudy = () => {
                   <ul className="case-study-list">
                     <li>
                       <strong>Why:</strong> To validate the stickiness of the
-                      dopamine-reward loop design and prove that the app provides enough value to users for long-term use
-                     while still staying within free trial. 
-                
+                      dopamine-reward loop design and prove that the app
+                      provides enough value to users for long-term use while
+                      still staying within free trial.
                     </li>
                   </ul>
                 </div>
@@ -634,46 +641,44 @@ const DesignTrendCaseStudy = () => {
                   <p>
                     The app was successfully{" "}
                     <strong>launched on the App Store</strong> and secured its
-                    first paying users in 2025. 
+                    first paying users in 2025.
                   </p>
-<br />
-                  <strong><p className="list_title ">Strategic outcomes:</p></strong>
+                  <br />
+                  <strong>
+                    <p className="list_title ">Strategic outcomes:</p>
+                  </strong>
                   <ul className="case-study-list">
                     <li>
                       <span className="highlight">73% </span>{" "}
                       <span className="highlight_label">
                         Quest activation rate
                       </span>{" "}
-                      (users creating their first Quest - goal breakdown into sequence of steps)​
+                      (users creating their first Quest - goal breakdown into
+                      sequence of steps)​
                     </li>
                     <li>
                       <span className="highlight">21%</span>{" "}
                       <span className="highlight_label">
                         D14 user retention
                       </span>{" "}
-                      (percent of users re-used the app within 14 days after first-time use)
+                      (percent of users re-used the app within 14 days after
+                      first-time use)
                     </li>
                     <li>
                       <span className="highlight">82%</span>{" "}
                       <span className="highlight_label">
                         onboarding completion
                       </span>{" "}
-        
                     </li>
-                  
                   </ul>
 
-                   <p>
-                    <strong>Strategic insight:{" "}</strong>
+                  <p>
+                    <strong>Strategic insight: </strong>
                     <br />
-                    
-                      User onboarding completion and activation rates are high but mid term retention is sligtly lower that the
-                      industry benchmark for productivity apps (25-30%). It can be partially explained by the target user group profile - people with ADHD generally struggle with consistency.
-                     <strong>Current design is
-                    successful at communicating value and getting users started, but we need more
-                    incentives for users to achieve their goals in the long term.</strong>
+                    Current design is successful at communicating value and
+                    getting users started, but we need more incentives for users
+                    to achieve their goals in the long term.
                   </p>
-
                 </div>
                 {/* <div
                  
@@ -721,7 +726,8 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Task management interfaces</p>
+                    <p> User onboarding completion and activation rates are high but mid term retention is sligtly lower that the
+                      industry benchmark for productivity apps (25-30%). It can be partially explained by the target user group profile - people with ADHD generally struggle with consistency.</p>
                   </div>
                 </div>
               </div>
