@@ -388,17 +388,14 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     Quest Mode is Buhdi's core differentiator: users input an{" "}
-                    <span className="highlight_label">
-                      overwhelming goal
-                    </span>{" "}
-                    → AI generates a{" "}
+                    <span className="highlight_label">overwhelming goal</span> →
+                    AI generates a{" "}
                     <span className="highlight_label">
                       gamified sequence of micro-steps
                     </span>{" "}
                     → users earn{" "}
-                    <span className="highlight_label">micro-rewards</span>{" "}
-                    along with progress and self-reflection cues as they
-                    progress.​
+                    <span className="highlight_label">micro-rewards</span> along
+                    with progress and self-reflection cues as they progress.​
                   </p>
                   <br />
                   <p>3 key UX decisions:</p>
@@ -442,40 +439,37 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Defining Success</span>
-                  <h3>Validating the Value Hypothesis</h3>
+                  <h3>From Paralysis to Action</h3></div>
+                   <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
                   <p>
                     To measure if the redesign effectively solved for
                     ADHD-specific behaviors, I established three primary success
                     signals. Rather than just gathering data, I used these KPIs
-                    to validate if we were successfully moving users from
-                    "overwhelmed" to "active."
+                    to validate if we successfully communicated the value propositions and prompted users to define their goal and take first step toward action aka battling task paralysis.
                   </p>
+                  <br />
                   <p>
                     KPI 1:
                     <strong> Onboarding Completion (&gt;80% Target)</strong>
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Why: Ensure the "Boredom Threshold" wasn't hit before
-                      the user saw the core value
-                    </li>
-
-                    <li>
-                      The Result: We achieved a high completion rate by allowing
-                      users to preview a "Quest" before hitting the paywall.
+                      <strong>Why:</strong> Ensure the "Boredom Threshold" wasn't hit before the
+                      user saw the core value, successfully prompting users to test "Quest" feature before free trial decision. 
                     </li>
                   </ul>
-                   <p>
+                  <p>
                     KPI 2:
                     <strong> Quest Activation (&gt;60% Target)</strong>
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Why: Prove that the AI breakdown effectively bypassed "Task Paralysis"
-                    </li>
-
-                    <li>
-                      The Result: 82% of users successfully started their first Quest, confirming the "Aha! Moment" was reachable
+                      <strong>Why:</strong> To prove that the AI goal breakdown effectively bypassed
+                      "Task Paralysis" by prompting user to define their goal and receive step-by-step breakdown making starting action easier.
                     </li>
                   </ul>
                   <p>
@@ -484,15 +478,14 @@ const DesignTrendCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Why: Move beyond "novelty" to ensure the app creates a sustainable habit but still staying within free trial period
+                      <strong>Why:</strong> To validate the stickiness of the
+                      dopamine-reward loop design and prove that the app provides enough value to users for long-term use
+                     while still staying within free trial. 
+                
                     </li>
-
-                    <li>
-                      The Result: 22% increase in retention compared to our initial MVP baseline, validating the stickiness of the dopamine-reward loop</li>
-              </ul>
-              <p>Key insight: <strong>Activation is high but Retention is lower that the industry benchmark</strong> for productivity apps (25-30%): Current solution is successful at getting people started, but we need more incentives for users to keep them coming back after two weeks.</p>
+                  </ul>
                 </div>
-                </div>
+              </div>
               {/* End left */}
 
               <div className="right">
@@ -538,7 +531,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Validation</span>
-                  <h3>Post-Launch Usability Testing with 5 Real Users</h3>
+                  <h3>Value of a Dopamine-First Strategy</h3>
                 </div>
                 <div
                   className="text"
@@ -546,20 +539,23 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    After MVP launch, I ran moderated tests focusing on
-                    first‑time experience, onboarding, paywall, home navigation,
-                    Quest Mode, and Buhdi chatbot.​
+                    After MVP launch, I ran moderated usability tests with 5
+                    neurodivergent users focusing on first‑time experience,
+                    onboarding, paywall, home navigation, Quest Mode, and Buhdi
+                    chatbot.​
                   </p>
                   <br />
-                  <p>Key findings:</p>
+                  <strong>
+                    <p>Key findings:</p>
+                  </strong>
                   <ul className="case-study-list">
                     <li>
                       Onboarding: Unclear benefits before paywall → Clear value
-                      proposition and feature previews, +30% trial‑to‑paid
+                      proposition and feature previews
                     </li>
                     <li>
                       Home screen: Confusing navigation → Dashboard layout +
-                      onboarding tour, 40% faster time‑to‑task
+                      onboarding tour, 32% faster time‑to‑task score
                     </li>
                     <li>
                       Quest Mode: Mixed understanding → More explanations,
@@ -638,59 +634,46 @@ const DesignTrendCaseStudy = () => {
                   <p>
                     The app was successfully{" "}
                     <strong>launched on the App Store</strong> and secured its
-                    first paying users in 2025. By grounding the design in
-                    scientific research and iterative testing, Buhdi achieved
-                    significant growth metrics during the MVP phase, validated
-                    by post-launch research.
+                    first paying users in 2025. 
                   </p>
-
-                  <br />
-                  <p>Strategic outcomes:</p>
+<br />
+                  <strong><p className="list_title ">Strategic outcomes:</p></strong>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Aligned team</strong> around Quest Mode as core
-                      differentiator and testing focus
-                    </li>
-                    <li>
-                      Designed onboarding experience that substantially{" "}
-                      <strong>increased readiness to start a free trial</strong>{" "}
-                      (according to qualitative feedback from post-launch user
-                      interviews)
-                    </li>
-                    <li>
-                      Created UX gamification patterns (Quest architecture,
-                      badges, animated visual feedback, progress indicators)
-                      that{" "}
-                      <strong>
-                        improved user activation, retention and task completions
-                        rates{" "}
-                      </strong>
-                    </li>
-                  </ul>
-                  <p>Live app results (post‑iteration):</p>
-                  <ul className="case-study-list">
-                    <li>
-                      <span className="highlight">82% </span>{" "}
+                      <span className="highlight">73% </span>{" "}
                       <span className="highlight_label">
                         Quest activation rate
                       </span>{" "}
-                      (users completing first AI breakdown)​
+                      (users creating their first Quest - goal breakdown into sequence of steps)​
                     </li>
                     <li>
-                      <span className="highlight">+22%</span>{" "}
+                      <span className="highlight">21%</span>{" "}
                       <span className="highlight_label">
-                        D30 user retention
+                        D14 user retention
                       </span>{" "}
-                      (within 30 days after first-time use of the app)
+                      (percent of users re-used the app within 14 days after first-time use)
                     </li>
                     <li>
-                      <span className="highlight">2x</span>{" "}
+                      <span className="highlight">82%</span>{" "}
                       <span className="highlight_label">
-                        task completion vs. pre‑Buhdi baseline
+                        onboarding completion
                       </span>{" "}
-                      for &gt;50% of researched active users​
+        
                     </li>
+                  
                   </ul>
+
+                   <p>
+                    <strong>Strategic insight:{" "}</strong>
+                    <br />
+                    
+                      User onboarding completion and activation rates are high but mid term retention is sligtly lower that the
+                      industry benchmark for productivity apps (25-30%). It can be partially explained by the target user group profile - people with ADHD generally struggle with consistency.
+                     <strong>Current design is
+                    successful at communicating value and getting users started, but we need more
+                    incentives for users to achieve their goals in the long term.</strong>
+                  </p>
+
                 </div>
                 {/* <div
                  

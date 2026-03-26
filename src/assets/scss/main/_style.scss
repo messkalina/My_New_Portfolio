@@ -4056,6 +4056,10 @@ body.intro .loader_line:after {
   padding-left: 1.5em;      // Align bullets with paragraph text
   list-style-position: outside;
 
+  .list_title {
+    line-height: 2em;
+    color: rgb(8, 176, 58)
+  }
   li {
     margin-bottom: 10px;    // Space between bullet points
     // line-height: 1.6;
