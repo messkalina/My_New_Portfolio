@@ -85,12 +85,12 @@ const DesignTrendCaseStudy = () => {
                             <strong>ADHD</strong> (Attention Deficit
                             Hyperactivity Disorder). It offers a{" "}
                             <strong>gamified experience</strong> guided by a
-                            reassuring AI coach, to help users deal with
-                            inconsistent motivation and emotional overwhelm. I
-                            joined the project in the post-MVP phase to focus on
-                            user activation - ensuring that users didn't just
-                            download the app, but understood how the app works
-                            and tested it's value proposition.
+                            reassuring <strong>AI coach</strong>, to help users
+                            deal with inconsistent motivation and emotional
+                            overwhelm. I joined the project in the post-MVP
+                            phase to focus on user activation - ensuring that
+                            users didn't just download the app, but understood
+                            how the app works and tested it's value proposition.
                           </p>
                         </div>
                       </div>
@@ -98,14 +98,7 @@ const DesignTrendCaseStudy = () => {
                       <div className="right">
                         <div data-aos="fade-up" data-aos-duration="1200">
                           <div className="text">
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Timeline:{" "}
-                            </p>
+                            <p><strong>Timeline:</strong></p>
                             <p>
                               <span className="timeline-fine">
                                 December 2024 – March 2025
@@ -113,22 +106,16 @@ const DesignTrendCaseStudy = () => {
                             </p>
                             <br />
                             <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Role:{" "}
+                             
+                            ><strong>
+                              Role:</strong>
                             </p>
                             <p className="timeline-fine">Lead UX/UI Designer</p>
                             <br />
                             <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Scope:{" "}
+                              
+                            ><strong>
+                              Scope:</strong>
                             </p>
                             <p className="timeline-fine">
                               Quest Mode design, onboarding design, UX/UI
@@ -170,7 +157,7 @@ const DesignTrendCaseStudy = () => {
                   <p>
                     For many users (especially with ADHD) the big obstacle to
                     "getting things done" is not a lack of to-do list. It is{" "}
-                    <strong>Task Paralysis</strong> - when you know what you
+                    <strong>Task Paralysis</strong> - knowing what you
                     need to do, but you feel mentally stuck and unable to
                     initiate action. The common causes are: problems with task
                     planning and prioritazation, fear of doing it wrong and
@@ -233,12 +220,10 @@ const DesignTrendCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      {" "}
-                      1{")"} The to-do list does not increase motivation in ADHD
-                      users (Todoist App). 2{")"}To combat executive disfunction
+                      The to-do list does not increase motivation in ADHD
+                      users. To combat executive disfunction
                       users need reward system providing constant micro
-                      gratifications. Here comes gamification (Duolingo,
-                      Habitica)
+                      gratifications. We incorporated gamification design patterns such as stats and badges into Buhdi.
                     </p>
                   </div>
                 </div>
@@ -257,13 +242,13 @@ const DesignTrendCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Gamification_System.png"
+                    src="/img/portfolio/case-study/Buhdi_Main_Flowcm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Gamification_System.png",
+                        "/img/portfolio/case-study/Buhdi_Main_Flowcm.png",
                       )
                     }
                   />
@@ -271,10 +256,10 @@ const DesignTrendCaseStudy = () => {
                   <div className="image_caption">
                     <p>
                       Doing self-reflection activities and taking a break from a
-                      task so that the user can recharge and come back later was
-                      framed as an intentional actions rewarded in the app.That
+                      task so that the user can recharge and come back later is 
+                      reframed as intentional actions user is rewarded for. That
                       should decrease the frustration and shame users may feel
-                      when they can't complete task as planned.
+                      when not completing a task as planned.
                     </p>
                   </div>
                 </div>
@@ -296,7 +281,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Users din't need another app to store tasks - they needed a
+                    Users din't need another to-do list app. They needed a
                     partner to help them start and persist with their tasks. Our
                     educated guess was that by using AI to break down complex
                     goals into "micro-wins" steps and provide positive
@@ -305,8 +290,8 @@ const DesignTrendCaseStudy = () => {
                     The more users would experience app value during the free
                     trial the chance of{" "}
                     <strong>
-                      convertion to paid subscription and retention.
-                    </strong>
+                      convertion</strong> to paid subscription and <strong>retention </strong>.
+                   
                   </p>
                   <br />
                   <p>
@@ -354,13 +339,13 @@ const DesignTrendCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Buhdi_Onboarding_Flowcm.png"
+                    src="/img/portfolio/case-study/Buhdi_Main_Flowcm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Buhdi_Onboarding_Flowcm.png",
+                        "/img/portfolio/case-study/Buhdi_Main_Flowcm.png",
                       )
                     }
                   />
@@ -726,8 +711,14 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p> User onboarding completion and activation rates are high but mid term retention is sligtly lower that the
-                      industry benchmark for productivity apps (25-30%). It can be partially explained by the target user group profile - people with ADHD generally struggle with consistency.</p>
+                    <p>
+                      {" "}
+                      User onboarding completion and activation rates are high
+                      but mid term retention is sligtly lower that the industry
+                      benchmark for productivity apps (25-30%). It can be
+                      partially explained by the target user group profile -
+                      people with ADHD generally struggle with consistency.
+                    </p>
                   </div>
                 </div>
               </div>
