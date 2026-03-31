@@ -62,16 +62,15 @@ const DesignTrendCaseStudy = () => {
         <div className="container">
           <div className="content">
             <div>
-               <video
-                    src="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
-                    
-                  style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
-                  />
+              <video
+                src="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+                style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+              />
 
               {/* Overview section */}
               <div className="shane_tm_section">
@@ -104,24 +103,22 @@ const DesignTrendCaseStudy = () => {
                       <div className="right">
                         <div data-aos="fade-up" data-aos-duration="1200">
                           <div className="text">
-                            <p><strong>Timeline:</strong></p>
+                            <p>
+                              <strong>Timeline:</strong>
+                            </p>
                             <p>
                               <span className="timeline-fine">
                                 December 2024 – March 2025
                               </span>
                             </p>
                             <br />
-                            <p
-                             
-                            ><strong>
-                              Role:</strong>
+                            <p>
+                              <strong>Role:</strong>
                             </p>
                             <p className="timeline-fine">Lead UX/UI Designer</p>
                             <br />
-                            <p
-                              
-                            ><strong>
-                              Scope:</strong>
+                            <p>
+                              <strong>Scope:</strong>
                             </p>
                             <p className="timeline-fine">
                               Quest Mode design, onboarding design, UX/UI
@@ -163,11 +160,11 @@ const DesignTrendCaseStudy = () => {
                   <p>
                     For many users (especially with ADHD) the big obstacle to
                     "getting things done" is not a lack of to-do list. It is{" "}
-                    <strong>Task Paralysis</strong> - knowing what you
-                    need to do, but you feel mentally stuck and unable to
-                    initiate action. The common causes are: problems with task
-                    planning and prioritazation, fear of doing it wrong and
-                    boredom (lack of stimulation).
+                    <strong>Task Paralysis</strong> - knowing what you need to
+                    do, but you feel mentally stuck and unable to initiate
+                    action. The common causes are: problems with task planning
+                    and prioritazation, fear of doing it wrong and boredom (lack
+                    of stimulation).
                   </p>
                   <br />
                   <p>
@@ -226,10 +223,11 @@ const DesignTrendCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      The to-do list does not increase motivation in ADHD
-                      users. To combat executive disfunction
-                      users need reward system providing constant micro
-                      gratifications. We incorporated gamification design patterns such as stats and badges into Buhdi.
+                      The to-do list does not increase motivation in ADHD users.
+                      To combat executive disfunction users need reward system
+                      providing constant micro gratifications. We incorporated
+                      gamification design patterns such as stats and badges into
+                      Buhdi.
                     </p>
                   </div>
                 </div>
@@ -262,7 +260,7 @@ const DesignTrendCaseStudy = () => {
                   <div className="image_caption">
                     <p>
                       Doing self-reflection activities and taking a break from a
-                      task so that the user can recharge and come back later is 
+                      task so that the user can recharge and come back later is
                       reframed as intentional actions user is rewarded for. That
                       should decrease the frustration and shame users may feel
                       when not completing a task as planned.
@@ -294,10 +292,8 @@ const DesignTrendCaseStudy = () => {
                     reinforcement for staying on track we would tackle task
                     paralysis and increase app <strong>activation rate</strong>.
                     The more users would experience app value during the free
-                    trial the chance of{" "}
-                    <strong>
-                      convertion</strong> to paid subscription and <strong>retention </strong>.
-                   
+                    trial the chance of <strong>convertion</strong> to paid
+                    subscription and <strong>retention </strong>.
                   </p>
                   <br />
                   <p>
@@ -704,17 +700,29 @@ const DesignTrendCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Mockup_2_screens.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Mockup_2_screens.png",
-                      )
-                    }
+                  <div style={{ 
+  display: "flex", 
+  justifyContent: "center", // Centers horizontally
+  alignItems: "center",     // Centers vertically
+  minHeight: "100vh",       // Ensures the parent is at least full screen height
+  width: "100%" 
+}}>
+                  <video
+                    src="/img/portfolio/case-study/Buhdi_onboarding_after.mp4"
+                    style={{
+                      maxHeight: "80vh",
+                      width: "auto",
+
+                      maxWidth: "100%",
+                      height: "auto",
+                    }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Buhdi_onboarding_after.mp4"
                   />
+                  </div>
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
