@@ -518,7 +518,27 @@ const DesignTrendCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+                  <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Gamifying_to_do_list_sm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Gamifying_to_do_list_sm.png",
+                      )
+                    }
+                  />
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>Quest screen iterations</p>
+                  </div>
+                </div>
+              </div>
+              {/* End right */}
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -580,26 +600,7 @@ const DesignTrendCaseStudy = () => {
               </div>
               {/* End left */}
 
-              <div className="right">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Gamifying_to_do_list_sm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Gamifying_to_do_list_sm.png",
-                      )
-                    }
-                  />
-                  {/* Add caption */}
-                  <div className="image_caption">
-                    <p>Quest screen iterations</p>
-                  </div>
-                </div>
-              </div>
-              {/* End right */}
+          
             </div>
           </div>
           {/* End container */}
