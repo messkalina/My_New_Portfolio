@@ -485,13 +485,13 @@ const DesignTrendCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/buhdi_testing_cm.png"
+                    src="/img/portfolio/case-study/Tackling procrastination_sm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/buhdi_testing_cm.png",
+                        "/img/portfolio/case-study/Tackling procrastination_sm.png",
                       )
                     }
                   />
@@ -583,13 +583,13 @@ const DesignTrendCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Quest_Screens_Iterations.png"
+                    src="/img/portfolio/case-study/Gamifying_to_do_list_sm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Quest_Screens_Iterations.png",
+                        "/img/portfolio/case-study/Gamifying_to_do_list_sm.png",
                       )
                     }
                   />
