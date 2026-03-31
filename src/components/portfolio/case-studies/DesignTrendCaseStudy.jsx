@@ -62,10 +62,16 @@ const DesignTrendCaseStudy = () => {
         <div className="container">
           <div className="content">
             <div>
-              <img
-                src="/img/portfolio/case-study/Mockup_3_screens.png"
-                alt="App Screens"
-              />
+               <video
+                    src="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+                    
+                  style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+                  />
 
               {/* Overview section */}
               <div className="shane_tm_section">
