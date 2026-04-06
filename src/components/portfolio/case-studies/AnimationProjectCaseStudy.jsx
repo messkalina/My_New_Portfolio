@@ -61,9 +61,14 @@ const AnimationProjectCaseStudy = () => {
         <div className="container">
           <div className="content">
             <div>
-              <img
-                src="/img/portfolio/case-study/Vet_hero_image.png"
-                alt="Tierpraxis Lebensberg"
+              <video
+                src="/img/portfolio/case-study/Tierpraxis_Desktop_website_scroll.mp4"
+                style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="/img/portfolio/case-study/Tierpraxis_Desktop_website_scroll.mp4"
               />
 
               {/* Overview section */}
@@ -168,8 +173,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <video
-                    src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-                    className="clickable-image"
+                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     style={{ width: "100%" }}
                     autoPlay
                     loop
@@ -230,22 +234,21 @@ const AnimationProjectCaseStudy = () => {
                       maintain.
                     </li>
                   </ul>
-                    <div
-                  className="shane_tm_button"
-                  // style={{ marginTop: "20px" }}
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <a
-                    href="#outcome"
-                    style={{
-                      textDecoration: "none",
-                    }}
+                  <div
+                    className="shane_tm_button"
+                    // style={{ marginTop: "20px" }}
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
                   >
-                    <span className="button-text">Jump to Outcome</span>
-                  </a>
-                </div>
-
+                    <a
+                      href="#outcome"
+                      style={{
+                        textDecoration: "none",
+                      }}
+                    >
+                      <span className="button-text">Jump to Outcome</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -312,6 +315,11 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
+                      Since user testing revealed the MVP felt too "clinical"
+                      and cold I moved toward a warmer, high-fidelity color
+                      palette and more sophisticated typographic choices in the
+                      refinement phase.
+                      <br />
                       1. Website reference that client provided; 2. MVP version;
                       3. Second iteration of the design
                     </p>
@@ -319,24 +327,23 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-            <div className="content"
-            style={{ marginTop: "5em"}}
-            >
+            <div className="content" style={{ marginTop: "5em" }}>
               <div className="shane_tm_section">
                 <div className="about_inner">
                   <div className="left">
                     <div data-aos="fade-up" data-aos-duration="1200">
                       <img
-                        src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
+                        src="/img/portfolio/case-study/Kundenstimmencm.png"
                         alt="Wireframe"
                         className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
+                        // style={{ width: "100%", cursor: "pointer" }}
                         onClick={() =>
                           handleImageClick(
-                            "/img/portfolio/case-study/Veterinary Practise_ver01resized.png",
+                            "/img/portfolio/case-study/Kundenstimmencm.png",
                           )
                         }
                       />
+
                       <div className="image_caption">
                         <p>MVP version of the website</p>
                       </div>
@@ -344,20 +351,24 @@ const AnimationProjectCaseStudy = () => {
                   </div>
                   <div className="right">
                     <div data-aos="fade-up" data-aos-duration="1200">
-                      <img
-                        src="/img/portfolio/case-study/Vet_Final_designs_Home_cm.png"
-                        alt="Re-design Home Page"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/Vet_Final_designs_Home_cm.png",
-                          )
-                        }
+                      <video
+                        src="/img/portfolio/case-study/Vet_Mobile_Terminbuchungsm.mp4"
+                        style={{
+                          width: "100%",
+                          maxHeight: "90vh",
+                          objectFit: "contain",
+                        }}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
                       />
                       <div className="image_caption">
                         <p>
-                          Since user testing revealed the MVP felt too "clinical" and cold I moved toward a warmer, high-fidelity color palette and more sophisticated typographic choices in the refinement phase.
+                          Since user testing revealed the MVP felt too
+                          "clinical" and cold I moved toward a warmer,
+                          high-fidelity color palette and more sophisticated
+                          typographic choices in the refinement phase.
                         </p>
                       </div>
                     </div>
@@ -451,8 +462,7 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-            <div className="content"
-            style={{ marginTop: "5em"}}>
+            <div className="content" style={{ marginTop: "5em" }}>
               <div>
                 <div
                   className="full-image-section"
@@ -554,13 +564,13 @@ const AnimationProjectCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Vet_final_screens_cm.png"
+                    src="/img/portfolio/case-study/Kundenstimmencm.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Vet_final_screens_cm.png",
+                        "/img/portfolio/case-study/Kundenstimmencm.png",
                       )
                     }
                   />
@@ -615,6 +625,53 @@ const AnimationProjectCaseStudy = () => {
                       felt as premium as the physical venue.
                     </li>
                   </ul>
+                </div>
+              </div>
+            </div>
+            <div className="content" style={{ marginTop: "5em" }}>
+              <div className="shane_tm_section">
+                <div className="about_inner">
+                  <div className="left">
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                      <img
+                        src="/img/portfolio/case-study/Kundenstimmencm.png"
+                        alt="Wireframe"
+                        className="clickable-image"
+                        style={{ width: "100%", cursor: "pointer" }}
+                        onClick={() =>
+                          handleImageClick(
+                            "/img/portfolio/case-study/Kundenstimmencm.png",
+                          )
+                        }
+                      />
+                      <div className="image_caption">
+                        <p>MVP version of the website</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="right">
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                      <img
+                        src="/img/portfolio/case-study/Vet_Final_designs_Home_cm.png"
+                        alt="Re-design Home Page"
+                        className="clickable-image"
+                        style={{ width: "100%", cursor: "pointer" }}
+                        onClick={() =>
+                          handleImageClick(
+                            "/img/portfolio/case-study/Vet_Final_designs_Home_cm.png",
+                          )
+                        }
+                      />
+                      <div className="image_caption">
+                        <p>
+                          Since user testing revealed the MVP felt too
+                          "clinical" and cold I moved toward a warmer,
+                          high-fidelity color palette and more sophisticated
+                          typographic choices in the refinement phase.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -690,9 +747,9 @@ const AnimationProjectCaseStudy = () => {
                     alt="Client Testimonial"
                   />
                   <div className="image_caption">
-                    <p>
+                    {/* <p>
                       Client testimonial praising the aesthetic and ease of use.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
