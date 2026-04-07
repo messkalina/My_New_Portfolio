@@ -298,6 +298,7 @@ const AnimationProjectCaseStudy = () => {
                       high-performance hosting solution.
                     </li>
                   </ul>
+                 
                 </div>
               </div>
               <div className="right">
@@ -315,13 +316,15 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
+                            1. Website reference that client provided; 2. MVP version;
+                      3. Second iteration of the design.
+                       <br />
                       Since user testing revealed the MVP felt too "clinical"
                       and cold I moved toward a warmer, high-fidelity color
                       palette and more sophisticated typographic choices in the
                       refinement phase.
-                      <br />
-                      1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design
+                     
+                
                     </p>
                   </div>
                 </div>
@@ -332,30 +335,11 @@ const AnimationProjectCaseStudy = () => {
                 <div className="about_inner">
                   <div className="left">
                     <div data-aos="fade-up" data-aos-duration="1200">
-                      <img
-                        src="/img/portfolio/case-study/Kundenstimmencm.png"
-                        alt="Wireframe"
-                        className="clickable-image"
-                        // style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/Kundenstimmencm.png",
-                          )
-                        }
-                      />
-
-                      <div className="image_caption">
-                        <p>MVP version of the website</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="right">
-                    <div data-aos="fade-up" data-aos-duration="1200">
-                      <video
+                     <video
                         src="/img/portfolio/case-study/Vet_Mobile_Terminbuchungsm.mp4"
                         style={{
                           width: "100%",
-                          maxHeight: "90vh",
+                          maxHeight: "80vh",
                           objectFit: "contain",
                         }}
                         autoPlay
@@ -363,15 +347,34 @@ const AnimationProjectCaseStudy = () => {
                         muted
                         playsInline
                       />
-                      <div className="image_caption">
+                      {/* <div className="image_caption">
                         <p>
                           Since user testing revealed the MVP felt too
                           "clinical" and cold I moved toward a warmer,
                           high-fidelity color palette and more sophisticated
                           typographic choices in the refinement phase.
                         </p>
-                      </div>
+                      </div> */}
+
+                    
                     </div>
+                  </div>
+                  <div className="right" style={{
+    minHeight: "100vh"
+}}>
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                    <div className="image_caption">
+                    <p>
+                      Since user testing revealed the MVP felt too "clinical"
+                      and cold I moved toward a warmer, high-fidelity color
+                      palette and more sophisticated typographic choices in the
+                      refinement phase.
+                      <br />
+                      1. Website reference that client provided; 2. MVP version;
+                      3. Second iteration of the design
+                    </p>
+                    </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -535,14 +538,17 @@ const AnimationProjectCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                  />
+                  <img
+                        src="/img/portfolio/case-study/Vet_final_screens_cm.png"
+                        alt="Wireframe"
+                        className="clickable-image"
+                        style={{ width: "100%", cursor: "pointer" }}
+                        onClick={() =>
+                          handleImageClick(
+                            "/img/portfolio/case-study/Vet_final_screens_cm.png",
+                          )
+                        }
+                      />
                   <div className="image_caption">
                     <p>
                       Mobile usability testing revealed friction points in
@@ -628,53 +634,7 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-            <div className="content" style={{ marginTop: "5em" }}>
-              <div className="shane_tm_section">
-                <div className="about_inner">
-                  <div className="left">
-                    <div data-aos="fade-up" data-aos-duration="1200">
-                      <img
-                        src="/img/portfolio/case-study/Kundenstimmencm.png"
-                        alt="Wireframe"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/Kundenstimmencm.png",
-                          )
-                        }
-                      />
-                      <div className="image_caption">
-                        <p>MVP version of the website</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="right">
-                    <div data-aos="fade-up" data-aos-duration="1200">
-                      <img
-                        src="/img/portfolio/case-study/Vet_Final_designs_Home_cm.png"
-                        alt="Re-design Home Page"
-                        className="clickable-image"
-                        style={{ width: "100%", cursor: "pointer" }}
-                        onClick={() =>
-                          handleImageClick(
-                            "/img/portfolio/case-study/Vet_Final_designs_Home_cm.png",
-                          )
-                        }
-                      />
-                      <div className="image_caption">
-                        <p>
-                          Since user testing revealed the MVP felt too
-                          "clinical" and cold I moved toward a warmer,
-                          high-fidelity color palette and more sophisticated
-                          typographic choices in the refinement phase.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
