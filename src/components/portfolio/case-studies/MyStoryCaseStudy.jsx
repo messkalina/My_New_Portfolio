@@ -79,12 +79,12 @@ const MyStoryCaseStudy = () => {
                           data-aos-duration="1200"
                         >
                           <p className="text">
-                            Orbit Health is a Munich-based digital health
-                            startup transforming Parkinson’s Disease care
-                            through AI-powered technology. By turning patients
-                            data into objective, continuous insights, the
-                            solutions help neurologists and patients move toward
-                            data-backed symptom management.
+                            Orbit Health is a Munich-based digital healthcare
+                            startup improving Parkinson’s Disease care through
+                            AI-powered technology. Their apps turn users data
+                            into objective, continuous insights helping
+                            neurologists and patients move toward data-backed
+                            symptom management.
                             <br />
                             <br />
                           </p>
@@ -117,7 +117,8 @@ const MyStoryCaseStudy = () => {
                               Role:{" "}
                             </p>
                             <p className="timeline-fine">
-                              Sole UX/UI Designer (UX Research, UX/UI Design, UX writing)
+                              Sole UX/UI Designer (UX Research, UX/UI Design, UX
+                              writing)
                             </p>
                             <br />
                             <p
@@ -129,7 +130,9 @@ const MyStoryCaseStudy = () => {
                               Scope:{" "}
                             </p>
                             <p className="timeline-fine">
-                              Discovery, stakeholder alignment, content and IA strategy, mid‑fidelity wireframes for full website, interactive prototype
+                              Discovery, stakeholder alignment, content and IA
+                              strategy, mid‑fidelity wireframes for full
+                              website, interactive prototype
                             </p>
 
                             <br />
@@ -165,10 +168,18 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The existing site lacked effective user flows,
+                    The company develeped medical apps that were still going
+                    through clinical trials. Users (both clinicians and people
+                    with Parkinson’s) were needed to join an early access
+                    program for products validation and driving early adoption.
+                    The website needed to be a conversion channel for both users
+                    groups.</p>
+                  <br />
+                  <p>
+                    <strong>The existing site lacked effective user flows,
                     conversion-focused messaging and guidance through complex
-                    egibility, regulatory and reimbursement processes for
-                    medical applications.
+                    eligibility, regulatory and reimbursement processes for
+                    medical applications in Germany ("DiGA").</strong>
                   </p>
                 </div>
                 <div
@@ -190,23 +201,21 @@ const MyStoryCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Orbit_3_frames_current_sm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Orbit_3_frames_current_sm.png",
-                      )
-                    }
+                  <video
+                    src="/img/portfolio/case-study/Orbit_old_home_scroll.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Orbit_old_home_scroll.mp4"
                   />
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      Primary pages of the redesigned Orbit Health website,
-                      containing main UX flows - for people with PD and for
-                      health care profesionals
+                      How to present complex medical applications still under development? 
+                      Both doctors and patients needed to easily comprehend what is it, what's the value for them and how to get access.
+                      Existing website lacked this clarity. Simple downloading the app wouldn't work because user needed an account created by the company, after meeting eligibility criteria.
                     </p>
                   </div>
                 </div>
@@ -238,11 +247,11 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      The information architecture catered to diverse audiences
-                      needs - apart from main user groups (neurologists and
-                      patients) the bussiness goals related to other audiences,
-                      such as health insurance providers and medical
-                      scientists{" "}
+                      Doctors and patients needed to be guided through user
+                      flows that remove user frictions and lead to conversion.
+                      Who’s Orbit? Can I trust this company? → What does Orbit
+                      offer? → Does it concern me? → Can I benefit from it? →
+                      How can I get it?
                     </p>
                   </div>
                 </div>
@@ -258,38 +267,47 @@ const MyStoryCaseStudy = () => {
                   n
                 >
                   <span>The Solution</span>
-                  <h3>
-                    Distinct user flows and content segmentation for more
-                    clarity and conversion{" "}
-                  </h3>
+                  <h3>A strategic roadmap for clarity and trust </h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
+                  <p>
+                    My goal was to stop the "guessing game" for visitors. I
+                    redesigned the website structure to act as a guide, leading
+                    different users down their own specific paths.
+                  </p>
                   <p>Key design decisions included:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Delivering clear, audience‑specific value propositions - </strong> demonstrating clinical relevance in terms of insights and time-optimisation for neurologists and  simple explanations of benefits, eligibility, and funding guidance for patients. 
+                      <strong>A "Fork in the Road" Homepage: </strong>
+                      homepage acts as a routing station. A visitor can quickly
+                      self–identify as either a "Professional" or a "Patient."
+                      Moving users quickly to relevant user flow should reduce
+                      bounce rate.
                     </li>
                     <li>
-                      <strong>Delineating user journeys to minimaze frictions:</strong> mapping
-                      distinct paths for patients versus healthcare
-                      professionals.
+                      <strong>
+                        Clear, audience‑specific value proposition for each
+                        product:{" "}
+                      </strong>{" "}
+                      demonstrating clinical relevance in terms of insights and
+                      time-optimisation for neurologists and simple explanations
+                      of benefits, eligibility, and funding guidance for
+                      patients.
                     </li>
+
                     <li>
-                      <strong>Guiding Actions:</strong> streamlining the flow
-                      through eligibility, reimbursement, and onboarding.
+                      <strong>The "How–To" Guide for Funding: </strong>{" "}
+                      dedicated sections to explain the German healthcare
+                      reimbursement process. By breaking down the steps to get
+                      the app covered by insurance, we removed the biggest
+                      conversion obstable (information gap) for patients and
+                      physicians.
                     </li>
-                    <li>
-                      <strong>Redesigning Homepage</strong> so that it targets both user groups but prioritises patients as primary visitors and key influencers of doctors’ decisions.
-                    </li>
-                    <li>Recommending content communicating the broader value when both user groups use solutions as a system.
-</li>
-                    
                   </ul>
-                  
                 </div>
               </div>
               {/* End right */}
@@ -316,19 +334,35 @@ const MyStoryCaseStudy = () => {
                       <strong>Primary KPI:</strong> Min.{" "}
                       <string className="highlight">15%</string>{" "}
                       <string className="highlight_label">increase</string> in
-                      <string className="highlight_label"> demo requests </string>
-                      and <string className="highlight_label">eligibility-related contact</string> within 3
-                      months post-launch. This is direct signal that the website
-                      <strong> drives patients and neurologists toward adoption.</strong>
+                      <string className="highlight_label">
+                        {" "}
+                        demo requests{" "}
+                      </string>
+                      and{" "}
+                      <string className="highlight_label">
+                        eligibility-related contact
+                      </string>{" "}
+                      within 3 months post-launch. This is direct signal that
+                      the website
+                      <strong>
+                        {" "}
+                        drives patients and neurologists toward adoption.
+                      </strong>
                     </li>
                     <li>
-                      <strong>Secondary KPI:</strong> <string className="highlight_label">Reduced homepage bounce </string>
-                      rate and <string className="highlight_label">increased time on the product pages,</string> benchmarked
-                      against current Google Analytics data. This would signal <strong>increased engagement.</strong>
+                      <strong>Secondary KPI:</strong>{" "}
+                      <string className="highlight_label">
+                        Reduced homepage bounce{" "}
+                      </string>
+                      rate and{" "}
+                      <string className="highlight_label">
+                        increased time on the product pages,
+                      </string>{" "}
+                      benchmarked against current Google Analytics data. This
+                      would signal <strong>increased engagement.</strong>
                     </li>
                   </ul>
                 </div>
-                
               </div>
               {/* End left */}
 
@@ -348,9 +382,11 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      User persona and journey map for Orbit a patient user.
-                      Since the average age of patients is above 55 y/o the UX
-                      needed to cater to their tech literacy level.
+                      Data showed that majority of site visitors came from
+                      organic Google traffic, via blog articles. Therefore the
+                      main user flow targets both user groups but prioritises
+                      patients as primary visitors and key influencers of
+                      doctors’ decisions.
                     </p>
                   </div>
                 </div>
@@ -407,62 +443,76 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                   Based on insights from discovery, I defined the UX strategy for the new site around three principles:
+                    Based on insights from discovery, I defined the UX strategy
+                    for the new site around three principles:
                   </p>
                   <br />
                   <strong>1.Separate, but connected, journeys:</strong>
                   <ul className="case-study-list">
                     <li>
-                      Clear entry points and tailored content for people with Parkinson’s and for neurologists.
+                      Clear entry points and tailored content for people with
+                      Parkinson’s and for neurologists.
                     </li>
                     <li>
-                      Shared sections only where goals overlap (e.g. “What is Orbit”, "How it works")
-                    </li>  
+                      Shared sections only where goals overlap (e.g. “What is
+                      Orbit”, "How it works")
+                    </li>
                   </ul>
                   <strong>2.Explain complexity step by step:</strong>
                   <ul className="case-study-list">
                     <li>
-                      Break down the AI and medical aspects into simple, progressive content blocks.
+                      Break down the AI and medical aspects into simple,
+                      progressive content blocks.
                     </li>
                     <li>
-                      Use familiar metaphors and visuals to communicate what the product does, not just how it works.
-                    </li>  
+                      Use familiar metaphors and visuals to communicate what the
+                      product does, not just how it works.
+                    </li>
                   </ul>
                   <strong>3.Anchor UX in real decision points:</strong>
                   <ul className="case-study-list">
                     <li>
-                      Structure pages around the exact questions users have at each step (eligibility, reimbursement, evidence, next steps).
+                      Structure pages around the exact questions users have at
+                      each step (eligibility, reimbursement, evidence, next
+                      steps).
                     </li>
                     <li>
                       Make it always clear “what to do next” for each audience.
-                    </li>  
+                    </li>
                   </ul>
-                  <strong>For patients, I designed flows and page layouts that:</strong>
+                  <strong>
+                    For patients, I designed flows and page layouts that:
+                  </strong>
                   <ul className="case-study-list">
                     <li>
-                      Explain what solutions do in everyday language and how they can help in daily life.
+                      Explain what solutions do in everyday language and how
+                      they can help in daily life.
                     </li>
                     <li>
-                      Show the steps to access the solution in the German healthcare system.
+                      Show the steps to access the solution in the German
+                      healthcare system.
                     </li>
                     <li>
-                      Provide clear calls to action and expectations (talking to a doctor, collecting necessary information, next steps).
-                    </li>   
+                      Provide clear calls to action and expectations (talking to
+                      a doctor, collecting necessary information, next steps).
+                    </li>
                   </ul>
-                   <strong>For neurologists, the UX focuses on:</strong>
+                  <strong>For neurologists, the UX focuses on:</strong>
 
                   <ul className="case-study-list">
                     <li>
-                      Clinical context and how Orbit fits into existing diagnostic and treatment workflows.
+                      Clinical context and how Orbit fits into existing
+                      diagnostic and treatment workflows.
                     </li>
                     <li>
-                      Evidence, data visualisations, and key indicators relevant to clinical decisions.
+                      Evidence, data visualisations, and key indicators relevant
+                      to clinical decisions.
                     </li>
-                     <li>
-                      Guidance on reimbursement and integration into practice, without overwhelming with marketing copy.
-                    </li>    
+                    <li>
+                      Guidance on reimbursement and integration into practice,
+                      without overwhelming with marketing copy.
+                    </li>
                   </ul>
-                  
                 </div>
                 {/* <div
                   className="shane_tm_button"
@@ -491,7 +541,7 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Impact</span>
-                  <h3>UX alignment with bussiness goals</h3>
+                  <h3>A decision–ready blueprint</h3>
                 </div>
                 <div
                   className="text"
@@ -499,29 +549,38 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Since my work focused on the discovery and UX design phase, its impact aligned stakeholders around one website strategy, dual content structure, and complex user journey maps that integrate German regulatory and reimbursement constraints:
-
+                    Since my work focused on the discovery and UX design phase,
+                    its impact aligned stakeholders around one website strategy,
+                    dual content structure, and complex user journey maps that
+                    integrate German regulatory and reimbursement constraints:
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>
-                        Shared mental model</strong> Stakeholders gained a clear, visual representation of patient and neurologist journeys, making cross‑team discussions faster and more concrete</li>
-                      
+                      <strong>Shared mental model: </strong> stakeholders gained
+                      a clear, visual representation of patient and neurologist
+                      journeys, making cross‑team discussions faster and more
+                      concrete
+                    </li>
 
                     <li>
-                      <strong>Decision‑ready mid‑fidelity prototype </strong> The full‑site mid‑fi wireframes and prototype created a ready‑to‑use foundation for high‑fidelity visual design, motion, and future usability testing with patients and clinicians.</li>
-<li>
-                        <strong>
-                        Provided a prototype and content recommendations </strong>
-                      
-                      The project clarified which messages belong on the website vs. in deeper materials, reducing ambiguity about “what to say where" 
+                      <strong>Decision‑ready mid‑fidelity prototype: </strong>{" "}
+                      the full‑site mid‑fi wireframes and prototype created a
+                      ready‑to‑use foundation for high‑fidelity visual design,
+                      motion, and future usability testing with patients and
+                      clinicians.
+                    </li>
+                    <li>
+                      <strong>Content structure and recommendations: </strong>
+                      The project clarified which messages belong on the website
+                      vs. in deeper materials, reducing ambiguity about “what to
+                      say where".
                     </li>
                   </ul>
                 </div>
               </div>
               {/* End left */}
 
-              {/* <div className="right">
+              <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Orbit-website-wireframes_all.png"
@@ -534,12 +593,17 @@ const MyStoryCaseStudy = () => {
                       )
                     }
                   />
-                  {/* Add caption */}
-              {/* <div className="image_caption">
-                    <p>Sitemap with information architecture</p>
+
+                  <div className="image_caption">
+                    <p>
+                      Clarity is the best form of Empathy. When dealing with a
+                      complex disease like Parkinson’s, a designer’s most
+                      important job is to remove the noise so that life–changing
+                      technology can actually reach the people who need it.
+                    </p>
                   </div>
-                </div> */}
-              {/* </div> */}
+                </div>
+              </div>
               {/* End right */}
             </div>
           </div>
