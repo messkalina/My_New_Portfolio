@@ -233,16 +233,14 @@ const MyStoryCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Orbit-website-wireframes_all.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Orbit-website-wireframes_all.png",
-                      )
-                    }
+                  <video
+                    src="/img/portfolio/case-study/Patient_Flow.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Patient_Flow.mp4"
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -368,16 +366,14 @@ const MyStoryCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/orbit_persona_patient_journey.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/orbit_persona_patient_journey.png",
-                      )
-                    }
+                  <video
+                    src="/img/portfolio/case-study/HCP_Flow.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/HCP_Flow.mp4"
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -405,13 +401,18 @@ const MyStoryCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Home Page wireframe.png"
+                    src="/img/portfolio/case-study/Orbit_Homepage_comparison_cm.png"
                     alt="Wireframe"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
+                    style={{
+                          width: "100%",
+                          maxHeight: "100vh",
+                          objectFit: "contain",
+                          cursor: "pointer",
+                        }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Home Page wireframe.png",
+                        "/img/portfolio/case-study/Orbit_Homepage_comparison_cm.png",
                       )
                     }
                   />
