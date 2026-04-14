@@ -77,10 +77,15 @@ const MyStoryCaseStudy = () => {
         <div className="container">
           <div className="content">
             <div>
-              <img
-                src="/img/portfolio/case-study/3_pages_cover_cmp.png"
-                alt="App Screens"
-              />
+               <video
+                    src="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
+                  />
 
               {/* Overview section */}
               <div className="shane_tm_section">
