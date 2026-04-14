@@ -34,13 +34,13 @@ html {
 }
 body {
   font-family: 'Noto Sans', Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.7rem;                   
+  font-size: 17px;
+  line-height: 1.7em;                   
   // letter-spacing: 0.5px;
   word-wrap: break-word;
   font-weight: 400;
   background-color: #fff;
-  color: #323036;
+  color: #585462;
   overflow: hidden;
 }
 svg {
@@ -125,15 +125,19 @@ h4 {
   font-weight: 500;
   line-height: 1.2;
   text-align: center;
-  color: #6a6969;
+  color: #757474;
   margin-top: 1.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   // text-transform: uppercase;
 }
 h5 {
   font-size: 22px;
-  letter-spacing: -0.1px;
-  font-weight: 700;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+  color: #3c3a42;
+
 }
 h6 {
 
@@ -145,6 +149,29 @@ h6 {
   font-size: 1rem !important;
   //  letter-spacing: -0.1px;
 }
+
+/* This wrapper centers the content */
+.subtitle-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px; /* Small gap for mobile */
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+/* This limits the text width on big screens */
+.subtitle-content {
+  width: 100%;
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .subtitle-content {
+    max-width: 70%; /* Limits width only on desktop */
+  }
+}
+
 
 .highlight {
   font-size: 1.5em;
@@ -201,13 +228,13 @@ h6 {
 }
 
 .image_caption {
-  font-size: 0.9rem !important;
+  font-size: 0.9em !important;
   line-height: 1.4;
   font-weight: 500 !important;
   margin-top: 16px !important;
   margin-left: 16px;
    text-align: left !important;
-   color: #5c5761 !important;
+   color: #757474 !important;
   ;
 }
 

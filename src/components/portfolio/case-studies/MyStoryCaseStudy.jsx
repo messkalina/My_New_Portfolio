@@ -45,9 +45,24 @@ const MyStoryCaseStudy = () => {
               className="shane_tm_title"
               data-aos="fade-up"
               data-aos-duration="1200"
-            >
-              <h1>Clarifying Value to Drive Conversion</h1>
-              <h4>Orbit Health Website Redesign</h4>
+            > 
+              <div className="subtitle-container">
+            <div className="subtitle-content">
+              <h1>Driving Growth through Tailored User Journeys</h1>
+              </div>
+              </div>
+              <div>
+                {" "}
+                <h4>Orbit Health Website Redesign</h4>
+              </div>
+              <div className="subtitle-container">
+                <div className="subtitle-content">
+                  <h5>
+                    How replacing a "one-size-fits-all" website with distinct
+                    paths for key users helps improving value proposition and conversion.
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -173,13 +188,16 @@ const MyStoryCaseStudy = () => {
                     with Parkinson’s) were needed to join an early access
                     program for products validation and driving early adoption.
                     The website needed to be a conversion channel for both users
-                    groups.</p>
+                    groups.
+                  </p>
                   <br />
                   <p>
-                    <strong>The existing site lacked effective user flows,
-                    conversion-focused messaging and guidance through complex
-                    eligibility, regulatory and reimbursement processes for
-                    medical applications in Germany ("DiGA").</strong>
+                    <strong>
+                      The existing site lacked effective user flows,
+                      conversion-focused messaging and guidance through complex
+                      eligibility, regulatory and reimbursement processes for
+                      medical applications in Germany ("DiGA").
+                    </strong>
                   </p>
                 </div>
                 <div
@@ -213,9 +231,13 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      How to present complex medical applications still under development? 
-                      Both doctors and patients needed to easily comprehend what is it, what's the value for them and how to get access.
-                      Existing website lacked this clarity. Simple downloading the app wouldn't work because user needed an account created by the company, after meeting eligibility criteria.
+                      How to present complex medical applications still under
+                      development? Both doctors and patients needed to easily
+                      comprehend what is it, what's the value for them and how
+                      to get access. Existing website lacked this clarity.
+                      Simple downloading the app wouldn't work because user
+                      needed an account created by the company, after meeting
+                      eligibility criteria.
                     </p>
                   </div>
                 </div>
@@ -405,11 +427,11 @@ const MyStoryCaseStudy = () => {
                     alt="Wireframe"
                     className="clickable-image"
                     style={{
-                          width: "100%",
-                          maxHeight: "100vh",
-                          objectFit: "contain",
-                          cursor: "pointer",
-                        }}
+                      width: "100%",
+                      maxHeight: "100vh",
+                      objectFit: "contain",
+                      cursor: "pointer",
+                    }}
                     onClick={() =>
                       handleImageClick(
                         "/img/portfolio/case-study/Orbit_Homepage_comparison_cm.png",
@@ -448,29 +470,19 @@ const MyStoryCaseStudy = () => {
                     for the new site around three principles:
                   </p>
                   <br />
-                  <strong>1.Separate, but connected, journeys:</strong>
+                  <strong>1. Separate, but connected, journeys:</strong>
                   <ul className="case-study-list">
                     <li>
                       Clear entry points and tailored content for people with
                       Parkinson’s and for neurologists.
                     </li>
                     <li>
-                      Shared sections only where goals overlap (e.g. “What is
-                      Orbit”, "How it works")
+                      Shared sections only where goals overlap (e.g. what is
+                      Orbit, what they do, blog)
                     </li>
                   </ul>
-                  <strong>2.Explain complexity step by step:</strong>
-                  <ul className="case-study-list">
-                    <li>
-                      Break down the AI and medical aspects into simple,
-                      progressive content blocks.
-                    </li>
-                    <li>
-                      Use familiar metaphors and visuals to communicate what the
-                      product does, not just how it works.
-                    </li>
-                  </ul>
-                  <strong>3.Anchor UX in real decision points:</strong>
+
+                  <strong>2. Anchor UX in real decision points:</strong>
                   <ul className="case-study-list">
                     <li>
                       Structure pages around the exact questions users have at
@@ -542,7 +554,7 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Impact</span>
-                  <h3>A decision–ready blueprint</h3>
+                  <h3>A guess-free blueprint</h3>
                 </div>
                 <div
                   className="text"
@@ -550,17 +562,27 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Since my work focused on the discovery and UX design phase,
-                    its impact aligned stakeholders around one website strategy,
-                    dual content structure, and complex user journey maps that
-                    integrate German regulatory and reimbursement constraints:
+                    Since this project focused on the discovery and design
+                    phase, my goal was to give Orbit a rock–solid foundation to
+                    build on. By bringing together the clinical, business, and
+                    regulatory needs into one plan, I created a roadmap that
+                    made the next steps faster and much more certain.
+                  </p>
+                  <p
+                    style={{
+                      marginTop: "18px",
+                    }}
+                  >
+                    <strong>Key Outcomes:</strong>
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Shared mental model: </strong> stakeholders gained
-                      a clear, visual representation of patient and neurologist
-                      journeys, making cross‑team discussions faster and more
-                      concrete
+                      <strong>Shared mental model: </strong> the redesign was
+                      built on researched-based empathy for the users and
+                      bussiness objectives and insights of the company
+                      stakeholders. That faciliated shared understanding of the
+                      website strategy and made later development work faster
+                      and more concrete.
                     </li>
 
                     <li>
@@ -571,10 +593,11 @@ const MyStoryCaseStudy = () => {
                       clinicians.
                     </li>
                     <li>
-                      <strong>Content structure and recommendations: </strong>
-                      The project clarified which messages belong on the website
-                      vs. in deeper materials, reducing ambiguity about “what to
-                      say where".
+                      <strong>Content structure and recommendations: </strong>I
+                      simplified the content strategy by defining which messages
+                      belonged on the website and which belonged in deeper
+                      medical documents. This cleared up the "what to say where"
+                      confusion that had been slowing the team down.
                     </li>
                   </ul>
                 </div>
