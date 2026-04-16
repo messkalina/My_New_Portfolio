@@ -224,15 +224,18 @@ const MyStoryCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/case-study/Orbit_old_home_scroll.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/case-study/Orbit_old_home_scroll.mp4"
+                  <img
+                    src="/img/portfolio/case-study/Orbit_Old_Flows_cm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Orbit_Old_Flows_cm.png",
+                      )
+                    }
                   />
+
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
@@ -260,14 +263,16 @@ const MyStoryCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/case-study/Patient_Flow.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/case-study/Patient_Flow.mp4"
+                  <img
+                    src="/img/portfolio/case-study/Orbit_New_Flows_cm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Orbit_New_Flows_cm.png",
+                      )
+                    }
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -611,17 +616,18 @@ const MyStoryCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Orbit-website-wireframes_all.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Orbit-website-wireframes_all.png",
-                      )
-                    }
+                  <div data-aos="fade-up" data-aos-duration="1200">
+                  <video
+                    src="/img/portfolio/case-study/Patient_Flow.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/case-study/Patient_Flow.mp4"
                   />
+                  </div>
+                  {/* Add caption */}
 
                   <div className="image_caption">
                     <p>
