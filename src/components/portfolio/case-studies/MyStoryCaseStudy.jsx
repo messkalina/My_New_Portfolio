@@ -189,22 +189,14 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The company develeped medical apps that were still going
-                    through clinical trials. Users (both clinicians and people
-                    with Parkinson’s) were needed to join an early access
+                    The company develeped medical apps ("DiGA") that were still
+                    going through clinical trials. Users (both clinicians and
+                    people with Parkinson’s) were needed to join an early access
                     program for products validation and driving early adoption.
                     The website needed to be a conversion channel for both users
                     groups.
                   </p>
                   <br />
-                  <p>
-                    <strong>
-                      The existing site lacked effective user flows,
-                      conversion-focused messaging and guidance through complex
-                      eligibility, regulatory and reimbursement processes for
-                      medical applications in Germany ("DiGA").
-                    </strong>
-                  </p>
                 </div>
                 <div
                   className="shane_tm_button"
@@ -240,13 +232,12 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      How to present complex medical applications still under
-                      development? Both doctors and patients needed to easily
-                      comprehend what is it, what's the value for them and how
-                      to get access. Existing website lacked this clarity.
-                      Simple downloading the app wouldn't work because user
-                      needed an account created by the company, after meeting
-                      eligibility criteria.
+                      The existing site lacked effective user flows,
+                      conversion-focused messaging and guidance through complex
+                      eligibility, regulatory and reimbursement processes for
+                      medical applications in Germany. Simple downloading the
+                      app wouldn't work because user needed an account created
+                      by the company, after meeting eligibility criteria.
                     </p>
                   </div>
                 </div>
@@ -279,10 +270,11 @@ const MyStoryCaseStudy = () => {
                   <div className="image_caption">
                     <p>
                       Doctors and patients needed to be guided through user
-                      flows that remove user frictions and lead to conversion.
-                      Who’s Orbit? Can I trust this company? → What does Orbit
-                      offer? → Does it concern me? → Can I benefit from it? →
-                      How can I get it?
+                      flows that remove user frictions and lead to conversion. I
+                      moved links to downloading patient's app from Home paged
+                      to Access page so that user is won't get frustrated not
+                      being able to get access to the app without completing
+                      enrollment process.
                     </p>
                   </div>
                 </div>
@@ -412,11 +404,11 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      Data showed that majority of site visitors came from
-                      organic Google traffic, via blog articles. Therefore the
-                      main user flow targets both user groups but prioritises
-                      patients as primary visitors and key influencers of
-                      doctors’ decisions.
+                      <strong>Patient Journey: </strong> Most visitors find us
+                      while researching Parkinson’s topics online. This flow
+                      prioritizes the patient experience, helping them
+                      understand the product so they can take the first step –
+                      reaching out to enroll.
                     </p>
                   </div>
                 </div>
@@ -453,8 +445,9 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      Redesigned Homepage user flow was designed to guide both
-                      target user groups to signing up for eligibility call
+                      How to design a home page for complex medical products and
+                      two quite different user groups? Existing website lacked
+                      clarity for value proposition and enrollment.
                     </p>
                   </div>
                 </div>
@@ -642,46 +635,53 @@ const MyStoryCaseStudy = () => {
 
                   <div className="image_caption">
                     <p>
-                      Clarity is the best form of Empathy. When dealing with a
-                      complex disease like Parkinson’s, a designer’s most
-                      important job is to remove the noise so that life–changing
-                      technology can actually reach the people who need it.
+                      <strong> Doctor's journey: </strong> Just like the patient
+                      flow, the goal here was to make conversion as simple as
+                      possible. However, healthcare professionals have different
+                      priorities. While patients need to learn the eligibility
+                      and enrollment process, doctors need to see medical proof
+                      and understand how the insurance process works.
                     </p>
                   </div>
                 </div>
               </div>
               {/* End right */}
             </div>
-             <div className="container">
-            <div className="content">
-              <div>
-                <img
-                  src="/img/portfolio/case-study/websites_comparison_before_after_cm.png"
-                  alt="Redesign Pages Comparison"
-                  className="clickable-image"
-                  style={{ width: "100%", cursor: "pointer", marginTop: "4em"}}
-                  onClick={() =>
-                    handleImageClick(
-                      "/img/portfolio/case-study/websites_comparison_before_after_cm",
-                    )
-                  }
-                />
-              </div>
-              <div className="right">
-                <div className="image_caption">
-                  <p>
-                    Clarity is the best form of Empathy. When dealing with a
-                    complex disease like Parkinson’s, a designer’s most
-                    important job is to remove the noise so that life–changing
-                    technology can actually reach the people who need it.
-                  </p>
+            <div className="container">
+              <div className="content">
+                <div>
+                  <img
+                    src="/img/portfolio/case-study/websites_comparison_before_after_cm.png"
+                    alt="Redesign Pages Comparison"
+                    className="clickable-image"
+                    style={{
+                      width: "100%",
+                      cursor: "pointer",
+                      marginTop: "4em",
+                    }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/websites_comparison_before_after_cm.png",
+                      )
+                    }
+                  />
+                </div>
+                <div className="right">
+                  <div className="image_caption">
+                    <p>
+                      When dealing with complex products and financial and
+                      regulatory rules, clarity is the best way of converting
+                      website visitors. The most important goal of the redesign
+                      was to remove cognitive and emotional obstables so that
+                      life–changing technology can actually reach the people who
+                      need it.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
           {/* End container */}
-         
         </div>
       </div>
       {/* --- END COPY --- */}
