@@ -45,11 +45,11 @@ const MyStoryCaseStudy = () => {
               className="shane_tm_title"
               data-aos="fade-up"
               data-aos-duration="1200"
-            > 
+            >
               <div className="subtitle-container">
-            <div className="subtitle-content">
-              <h1>Driving Growth through Tailored User Journeys</h1>
-              </div>
+                <div className="subtitle-content">
+                  <h1>Driving Growth through Tailored User Journeys</h1>
+                </div>
               </div>
               <div>
                 {" "}
@@ -59,7 +59,8 @@ const MyStoryCaseStudy = () => {
                 <div className="subtitle-content">
                   <h5>
                     How replacing a "one-size-fits-all" website with distinct
-                    paths for key users helps improving value proposition and conversion.
+                    paths for key users helps improving value proposition and
+                    conversion.
                   </h5>
                 </div>
               </div>
@@ -77,16 +78,15 @@ const MyStoryCaseStudy = () => {
         <div className="container">
           <div className="content">
             <div>
-               <video
-                    src="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-              
-                    poster="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
-                  />
+              <video
+                src="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
+                style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
+              />
 
               {/* Overview section */}
               <div className="shane_tm_section">
@@ -406,7 +406,7 @@ const MyStoryCaseStudy = () => {
                     loop
                     muted
                     playsInline
-                        controls
+                    controls
                     poster="/img/portfolio/case-study/HCP_Flow.mp4"
                   />
                   {/* Add caption */}
@@ -539,6 +539,7 @@ const MyStoryCaseStudy = () => {
                     </li>
                   </ul>
                 </div>
+
                 {/* <div
                   className="shane_tm_button"
                   data-aos="fade-up"
@@ -549,6 +550,13 @@ const MyStoryCaseStudy = () => {
               </div>
               {/* End right */}
             </div>
+
+            <div
+              className="full-image-section"
+              style={{ width: "100%" }}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            ></div>
           </div>
           {/* End container */}
         </div>
@@ -619,16 +627,16 @@ const MyStoryCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/case-study/Patient_Flow.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                        controls
-                    poster="/img/portfolio/case-study/Patient_Flow.mp4"
-                  />
+                    <video
+                      src="/img/portfolio/case-study/Patient_Flow.mp4"
+                      style={{ width: "100%" }}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      controls
+                      poster="/img/portfolio/case-study/Patient_Flow.mp4"
+                    />
                   </div>
                   {/* Add caption */}
 
@@ -644,8 +652,36 @@ const MyStoryCaseStudy = () => {
               </div>
               {/* End right */}
             </div>
+             <div className="container">
+            <div className="content">
+              <div>
+                <img
+                  src="/img/portfolio/case-study/websites_comparison_before_after_cm.png"
+                  alt="Redesign Pages Comparison"
+                  className="clickable-image"
+                  style={{ width: "100%", cursor: "pointer", marginTop: "4em"}}
+                  onClick={() =>
+                    handleImageClick(
+                      "/img/portfolio/case-study/websites_comparison_before_after_cm",
+                    )
+                  }
+                />
+              </div>
+              <div className="right">
+                <div className="image_caption">
+                  <p>
+                    Clarity is the best form of Empathy. When dealing with a
+                    complex disease like Parkinson’s, a designer’s most
+                    important job is to remove the noise so that life–changing
+                    technology can actually reach the people who need it.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
           {/* End container */}
+         
         </div>
       </div>
       {/* --- END COPY --- */}
