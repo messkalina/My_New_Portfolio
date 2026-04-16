@@ -84,6 +84,7 @@ const MyStoryCaseStudy = () => {
                     loop
                     muted
                     playsInline
+              
                     poster="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
                   />
 
@@ -405,6 +406,7 @@ const MyStoryCaseStudy = () => {
                     loop
                     muted
                     playsInline
+                        controls
                     poster="/img/portfolio/case-study/HCP_Flow.mp4"
                   />
                   {/* Add caption */}
@@ -624,6 +626,7 @@ const MyStoryCaseStudy = () => {
                     loop
                     muted
                     playsInline
+                        controls
                     poster="/img/portfolio/case-study/Patient_Flow.mp4"
                   />
                   </div>
