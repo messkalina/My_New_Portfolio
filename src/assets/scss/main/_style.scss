@@ -228,14 +228,22 @@ h6 {
 }
 
 .image_caption {
-  font-size: 0.9em !important;
-  line-height: 1.4;
+  font-size: 0.85rem !important;
+  line-height: 1.5;
   font-weight: 500 !important;
   margin-top: 16px !important;
   margin-left: 16px;
    text-align: left !important;
    color: #757474 !important;
+   max-width: 100%; 
+  box-sizing: border-box;
+  
   ;
+}
+@media (min-width: 1024px) {
+  .image_caption {
+     max-width: 35vw !important; 
+  }
 }
 
 // .shane_tm_about .image .image_caption p {

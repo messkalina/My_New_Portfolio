@@ -246,25 +246,38 @@ const DesignTrendCaseStudy = () => {
             <div className="content">
               <div>
                 <img
-                    src="/img/portfolio/case-study/Todoist_comparison.png"
-                    alt="Redesign Pages Comparison"
-                    className="clickable-image"
-                    style={{
-                      width: "100%",
-                      cursor: "pointer",
-                      marginTop: "4em",
-                    }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Todoist_comparison.png",
-                      )
-                    }
-                  />
+                  src="/img/portfolio/case-study/Todoist_comparison.png"
+                  alt="Redesign Pages Comparison"
+                  className="clickable-image"
+                  style={{
+                 
+                    cursor: "pointer",
+                    marginTop: "4em",
+
+                  Height: "110vh",
+                    width: "auto",
+
+                   
+                 
+                  }}
+                  onClick={() =>
+                    handleImageClick(
+                      "/img/portfolio/case-study/Todoist_comparison.png",
+                    )
+                  }
+                />
 
                 <div className="image_caption">
                   <p>
-                    The to-do list does not increase motivation in ADHD users. To help users stay motivated, we moved away from the cold tone of traditional apps. We leaned into the "wise master" archetype found in films like Star Wars or The Karate Kid. The goal was to create a personality that feels like a trusted mentor – someone who understands your struggles but encourages you to keep climbing. Also reframing working on task by adding "taking a break" and reflection as task actions is intended to combat task paralysis.
-                   
+                    The to-do list does not increase motivation in ADHD users.
+                    To help users stay motivated, we moved away from the cold
+                    tone of traditional apps. We leaned into the "wise master"
+                    archetype found in films like Star Wars or The Karate Kid.
+                    The goal was to create a personality that feels like a
+                    trusted mentor – someone who understands your struggles but
+                    encourages you to keep climbing. Also reframing working on
+                    task by adding "taking a break" and reflection as task
+                    actions is intended to combat task paralysis.
                   </p>
                 </div>
               </div>
@@ -293,12 +306,14 @@ const DesignTrendCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      By removing small "micro-frustrations" discovered in testing, we ensured that the behavioral logic of the app supported the user's focus rather than distracting from it.
-                      Doing self-reflection activities and taking a break from a
-                      task so that the user can recharge and come back later is
-                      reframed as intentional actions user is rewarded for. That
-                      should decrease the frustration and shame users may feel
-                      when not completing a task as planned.
+                      By removing small "micro-frustrations" discovered in
+                      testing, we ensured that the behavioral logic of the app
+                      supported the user's focus rather than distracting from
+                      it. Doing self-reflection activities and taking a break
+                      from a task so that the user can recharge and come back
+                      later is reframed as intentional actions user is rewarded
+                      for. That should decrease the frustration and shame users
+                      may feel when not completing a task as planned.
                     </p>
                   </div>
                 </div>
@@ -335,8 +350,13 @@ const DesignTrendCaseStudy = () => {
                     <strong>Key UX decisions:</strong>
                   </p>
                   <ul className="case-study-list">
-                       <li>
-                      <strong>A vertical "climbing" path:</strong> to make progress feel like an achievement, I designed a bottom–to–top trail. Users start at the base of the mountain and move upward as they complete tasks. This linear path removes "choice paralysis" by showing the user exactly what the next step is on their climb.
+                    <li>
+                      <strong>A vertical "climbing" path:</strong> to make
+                      progress feel like an achievement, I designed a
+                      bottom–to–top trail. Users start at the base of the
+                      mountain and move upward as they complete tasks. This
+                      linear path removes "choice paralysis" by showing the user
+                      exactly what the next step is on their climb.
                     </li>
                     <li>
                       <strong>Designing for dopamine:</strong> A reward system –
@@ -354,11 +374,12 @@ const DesignTrendCaseStudy = () => {
                     </li>
                     <li>
                       <strong>Proof of value before the paywall:</strong> to
-                      reduce the stress of committing to a subscription (even with a free trial), I
-                      designed the onboarding to show users a preview of their
-                      first generated "Quest" before they hit the paywall. This
-                      "Aha!" moment gave them immediate proof that the app
-                      worked before they were asked to pay.{" "}
+                      reduce the stress of committing to a subscription (even
+                      with a free trial), I designed the onboarding to show
+                      users a preview of their first generated "Quest" before
+                      they hit the paywall. This "Aha!" moment gave them
+                      immediate proof that the app worked before they were asked
+                      to pay.{" "}
                     </li>
                   </ul>
                 </div>
@@ -453,7 +474,10 @@ const DesignTrendCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                     The visual task timer was design to accomodate "time-blindness" trait common among people with ADHD. Studies confirms that visualising passing time is more effective than just reading the digits on the timer.
+                      The visual task timer was design to accomodate
+                      "time-blindness" trait common among people with ADHD.
+                      Studies confirms that visualising passing time is more
+                      effective than just reading the digits on the timer.
                     </p>
                   </div>
                 </div>
@@ -485,7 +509,15 @@ const DesignTrendCaseStudy = () => {
                   />
                   {/* Add caption */}
                   <div className="image_caption">
-                    <p>Based on our usability tests we strengthened the mountain metaphor for Quest Tab and added Activity Points rewarding users for taking actions in the app, for example Resistance Exploration exercise. These features – along with our psychological aid cards – were designed to lower anxiety and provide the immediate stimulation required to bypass task paralysis.</p>
+                    <p>
+                      Based on our usability tests we strengthened the mountain
+                      metaphor for Quest Tab and added Activity Points rewarding
+                      users for taking actions in the app, for example
+                      Purpose Reflection exercise. These features – along
+                      with our psychological aid cards – were designed to lower
+                      anxiety and provide the immediate stimulation required to
+                      bypass task paralysis.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -505,10 +537,11 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I ran moderated usability tests with 5
-                    users with ADHD. I focused on first‑time experience,
-                    onboarding, paywall, home navigation, Quest Mode, and experience with Buhdi
-                    chatbot.​Their feedback helped me sharpen the product experience:
+                    I ran moderated usability tests with 5 users with ADHD. I
+                    focused on first‑time experience, onboarding, paywall, home
+                    navigation, Quest Mode, and experience with Buhdi
+                    chatbot.​Their feedback helped me sharpen the product
+                    experience:
                   </p>
                   <p>
                     Test metrics tracked:{" "}
@@ -527,19 +560,26 @@ const DesignTrendCaseStudy = () => {
                       Onboarding: Unclear benefits before paywall → Clear value
                       proposition and feature previews
                     </li>
-                    
+
                     <li>
-                      Quest Mode: Confusing bottom–to–top direction of the Quest screen → Strenghtening mountain metaphor by adding clearer visual clues (flags and trail markers to guide the eye upward) → framing progress as rewarding feeling of climbing the mountain.
+                      Quest Mode: Confusing bottom–to–top direction of the Quest
+                      screen → Strenghtening mountain metaphor by adding clearer
+                      visual clues (flags and trail markers to guide the eye
+                      upward) → framing progress as rewarding feeling of
+                      climbing the mountain.
                     </li>
                     <li>
                       Chatbot: Well‑received but voice input errors → Faster
                       responses, better error handling
                     </li>
                     <li>
-                      Lagging Task Generation: improved visual feedback with "skeleton loaders" and humorous progress captions. This made the app feel faster and more engaging while the AI was generating the task breakdown.
+                      Lagging Task Generation: improved visual feedback with
+                      "skeleton loaders" and humorous progress captions. This
+                      made the app feel faster and more engaging while the AI
+                      was generating the task breakdown.
                     </li>
                   </ul>
-                  
+
                   <p>
                     These insights drove targeted iterations that made the app
                     more intuitive without major rewrites.
@@ -574,8 +614,8 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     The app was successfully{" "}
-                    <strong>launched on App Store</strong> and secured its
-                    first paying users in 2025. User onboarding completion and
+                    <strong>launched on App Store</strong> and secured its first
+                    paying users in 2025. User onboarding completion and
                     activation rates are high but mid term retention is sligtly
                     lower that the industry benchmark for productivity apps
                     (25-30%). It can be partially explained by the target user
@@ -681,7 +721,12 @@ const DesignTrendCaseStudy = () => {
                   <div className="image_caption">
                     <p>
                       {" "}
-                     To reduce the stress of committing to a subscription (even with a free trial), I designed the onboarding to show users a preview of their first generated "Quest" before they hit the paywall. This "Aha!" moment gave them immediate proof that the app worked before they were asked to pay.
+                      To reduce the stress of committing to a subscription (even
+                      with a free trial), I designed the onboarding to show
+                      users a preview of their first generated "Quest" before
+                      they hit the paywall. This "Aha!" moment gave them
+                      immediate proof that the app worked before they were asked
+                      to pay.
                     </p>
                   </div>
                 </div>
