@@ -95,7 +95,7 @@ const DesignTrendCaseStudy = () => {
                             overwhelm. I joined the project in the post-MVP
                             phase to focus on user activation - ensuring that
                             users didn't just download the app, but understood
-                            how the app works and tested it's value proposition.
+                            how the app works and tested its value proposition.
                           </p>
                         </div>
                       </div>
@@ -158,30 +158,30 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    For many users (especially with ADHD) the big obstacle to
-                    "getting things done" is not a lack of to-do list. It is{" "}
-                    <strong>Task Paralysis</strong> - knowing what you need to
-                    do, but you feel mentally stuck and unable to initiate
-                    action. The common causes are: problems with task planning
-                    and prioritazation, fear of doing it wrong and boredom (lack
-                    of stimulation).
+                    For many people (especially those with <strong>ADHD</strong>
+                    ), the biggest obstacle to "getting things done" "getting
+                    things done" is not a lack of to-do list. It is{" "}
+                    <strong>Task Paralysis</strong> - knowing exactly what you
+                    need to do, but feeling mentally stuck and unable to start.
+                    This is often caused by a struggle to plan, a fear of doing
+                    it wrong, or simply a lack of interest.
                   </p>
                   <br />
                   <p>
-                    Our early data showed that users were downloading the app
-                    but dropping off soon after. We hyphotesised that it could
-                    be explained by the following neuropsychological concepts:
+                    Our early data showed that many users were downloading the
+                    app but dropping off almost immediately. We believed this
+                    churn was caused by two specific challenges:
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>The Dopamine Gap </strong> Without immediate
-                      gratification, the neurodivergent mind easily experiences
-                      boredom and disengages. That leads to high churn as users
-                      abandon the app in search of a more stimulating
-                      experience.
+                      <strong>The Dopamine Gap: </strong> without immediate
+                      gratification the neurodivergent mind quickly becomes
+                      bored.If an app doesn't feel stimulating or rewarding
+                      right away, users often abandon it to find something more
+                      engaging.
                     </li>
                     <li>
-                      <strong>Emotional Dysregulation:</strong> When faced with
+                      <strong>Emotional Dysregulation:</strong> when facing with
                       a large, undefined task, the resulting emotional overwhelm
                       leads to procrastination. The user doesn't just "forget"
                       the task; they experience a paralyzing avoidant response
@@ -223,11 +223,10 @@ const DesignTrendCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      The to-do list does not increase motivation in ADHD users.
-                      To combat executive disfunction users need reward system
-                      providing constant micro gratifications. We incorporated
-                      gamification design patterns such as stats and badges into
-                      Buhdi.
+                      To save our retention numbers we needed to design a way to
+                      give users the dopamine and structure the brain was
+                      missing. For that reason we incorporated gamification
+                      design patterns such as statistics and badges into Buhdi.
                     </p>
                   </div>
                 </div>
@@ -236,6 +235,36 @@ const DesignTrendCaseStudy = () => {
             </div>
           </div>
           {/* End container */}
+        </div>
+        <div
+          className="full-image-section"
+          style={{ width: "100%" }}
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          <div className="container">
+            <div className="content">
+              <div>
+                <video
+                  src="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+                  style={{ width: "100%" }}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+                />
+
+                <div className="image_caption">
+                  <p>
+                    The to-do list does not increase motivation in ADHD users.
+                    To combat executive disfunction users need a reward system
+                    providing constant micro gratifications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* Results Section - Image left, Text right */}
@@ -285,15 +314,15 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Users din't need another to-do list app. They needed a
-                    partner to help them start and persist with their tasks. Our
-                    educated guess was that by using AI to break down complex
-                    goals into "micro-wins" steps and provide positive
-                    reinforcement for staying on track we would tackle task
-                    paralysis and increase app <strong>activation rate</strong>.
-                    The more users would experience app value during the free
-                    trial the chance of <strong>convertion</strong> to paid
-                    subscription and <strong>retention </strong>.
+                    Users don't need another to-do list app. They need a partner
+                    to help them actually start and keep going. We believed that
+                    by using AI to break down complex goals into "micro-wins"
+                    steps and provide positive reinforcement for staying on
+                    track we would tackle task paralysis and increase app{" "}
+                    <strong>activation rate</strong>. The more users would
+                    experience app value during the free trial, the higher the
+                    chance of <strong>conversion</strong> to paid subscription
+                    and <strong>retention.</strong>
                   </p>
                   <br />
                   <p>
@@ -301,27 +330,26 @@ const DesignTrendCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Gamification design</strong> A reward
-                      system—points, stats, progress indications and
-                      self-reflection prompts— tied to the task completion flow.
-                      By providing immediate gratification for every micro-step,
-                      we reframed chores as micro-wins, lowering the drop-off
-                      rate.
+                      <strong>Designing for dopamine:</strong> A reward system –
+                      including points, stats, badges and progress trackers –
+                      integrated into into the task flow. By providing immediate
+                      gratification for every small step, we reframed boring
+                      chores as rewarding "wins," which lowered the chance of
+                      users dropping off.
                     </li>
                     <li>
-                      <strong>The AI Coach support</strong> I designed a calming
-                      AI coach persona (Master Buhdi) to provide emotional
-                      support and reduce the procrastination and "failure
-                      shame".{" "}
+                      <strong>Master Buhdi (The AI Coach):</strong> I designed a
+                      calming AI coach persona (Master Buhdi) to offer emotional
+                      support and reduce the "failure shame" leading to
+                      procrastination.{" "}
                     </li>
                     <li>
-                      <strong>The "Value-First" Onboarding</strong> To reduce
-                      the anxiety and "commitment-shutdown" common at paywalls,
-                      I designed an onboarding flow that provides a clear value
-                      proposition and a preview of a generated Quest before the
-                      user is asked to start a free trial. This provides
-                      immediate proof of value and leads to user
-                      activation.{" "}
+                      <strong>Proof of value before the paywall:</strong> to
+                      reduce the stress of committing to a subscription, I
+                      designed the onboarding to show users a preview of their
+                      first generated "Quest" before they hit the paywall. This
+                      "Aha!" moment gave them immediate proof that the app
+                      worked before they were asked to pay.{" "}
                     </li>
                   </ul>
                 </div>
@@ -332,8 +360,6 @@ const DesignTrendCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-
-     
 
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -438,7 +464,7 @@ const DesignTrendCaseStudy = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-                  <div className="left">
+              <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/Gamifying_to_do_list_sm.png"
@@ -519,8 +545,6 @@ const DesignTrendCaseStudy = () => {
                 </div>
               </div>
               {/* End left */}
-
-          
             </div>
           </div>
           {/* End container */}
@@ -549,7 +573,12 @@ const DesignTrendCaseStudy = () => {
                   <p>
                     The app was successfully{" "}
                     <strong>launched on the App Store</strong> and secured its
-                    first paying users in 2025.
+                    first paying users in 2025. User onboarding completion and
+                    activation rates are high but mid term retention is sligtly
+                    lower that the industry benchmark for productivity apps
+                    (25-30%). It can be partially explained by the target user
+                    group profile - people with ADHD generally struggle with
+                    consistency.
                   </p>
                   <br />
                   <strong>
@@ -621,38 +650,41 @@ const DesignTrendCaseStudy = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <div style={{ 
-  display: "flex", 
-  justifyContent: "center", // Centers horizontally
-  alignItems: "center",     // Centers vertically
-  minHeight: "100vh",       // Ensures the parent is at least full screen height
-  width: "100%" 
-}}>
-                  <video
-                    src="/img/portfolio/case-study/Buhdi_onboarding_after.mp4"
+                  <div
                     style={{
-                      maxHeight: "80vh",
-                      width: "auto",
-
-                      maxWidth: "100%",
-                      height: "auto",
+                      display: "flex",
+                      justifyContent: "center", // Centers horizontally
+                      alignItems: "center", // Centers vertically
+                      minHeight: "100vh", // Ensures the parent is at least full screen height
+                      width: "100%",
                     }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/case-study/Buhdi_onboarding_after.mp4"
-                  />
+                  >
+                    <video
+                      src="/img/portfolio/case-study/Buhdi_onboarding_after.mp4"
+                      style={{
+                        maxHeight: "80vh",
+                        width: "auto",
+
+                        maxWidth: "100%",
+                        height: "auto",
+                      }}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      poster="/img/portfolio/case-study/Buhdi_onboarding_after.mp4"
+                    />
                   </div>
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
                       {" "}
-                      User onboarding completion and activation rates are high
-                      but mid term retention is sligtly lower that the industry
-                      benchmark for productivity apps (25-30%). It can be
-                      partially explained by the target user group profile -
-                      people with ADHD generally struggle with consistency.
+                      The goal was to the app feel like a supportive coach
+                      rather than a demanding to-do list. As for the voice and
+                      branding, the goal was to tap into the pop cultural trope
+                      of a wise master ( Star Wars, Karate Kid movies) that is
+                      compassionate but also inspires users to achieve their
+                      best.
                     </p>
                   </div>
                 </div>
