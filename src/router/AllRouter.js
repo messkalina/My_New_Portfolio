@@ -4,9 +4,9 @@ import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
 
 // Import case study components
-import MyStoryCaseStudy from "../components/portfolio/case-studies/MyStoryCaseStudy";
-import DesignTrendCaseStudy from "../components/portfolio/case-studies/DesignTrendCaseStudy";
-import AnimationProjectCaseStudy from "../components/portfolio/case-studies/AnimationProjectCaseStudy";
+import MyStoryCaseStudy from "../components/portfolio/case-studies/OrbitWebsite";
+import DesignTrendCaseStudy from "../components/portfolio/case-studies/BuhdiApp";
+import AnimationProjectCaseStudy from "../components/portfolio/case-studies/VeterinaryWebsite";
 import UnlimitixApp from "../components/portfolio/case-studies/UnlimitixApp";
 import Animation01 from "../components/portfolio/case-studies/Animation01";
 import Motion02 from "../components/portfolio/case-studies/motion02";
