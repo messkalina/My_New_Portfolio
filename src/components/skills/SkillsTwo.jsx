@@ -35,7 +35,9 @@ const SkillsTwo = () => {
                     style={{ height: "42px", width: "42px" }}
                   />
                 </div>
-                <h6>UX Design</h6>
+                <div className="portfolio-meta-description">
+               UX Design
+                </div>
               </div>
 
               {/* Skill 2 */}
@@ -47,7 +49,9 @@ const SkillsTwo = () => {
                      style={{ height: "42px", width: "42px" }}
                   />
                 </div>
-                <h6>UI Design</h6>
+                <div className="portfolio-meta-description">
+            UI Design
+                </div>
               </div>
 
               {/* Skill 3 */}
@@ -62,7 +66,9 @@ const SkillsTwo = () => {
                      style={{ height: "42px", width: "42px" }}
                   />
                 </div>
-                <h6>Motion Design</h6>
+                <div className="portfolio-meta-description">
+                Motion Design
+                </div>
               </div>
               <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>
@@ -72,7 +78,9 @@ const SkillsTwo = () => {
                     style={{ height: "42px", width: "42px" }}
                   />
                 </div>
-                <h6>Frontend Fundamentals</h6>
+                <div className="portfolio-meta-description">
+                Frontend Fundamentals
+                </div>
               </div>
 
             </div>
