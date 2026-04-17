@@ -40,7 +40,7 @@ body {
   word-wrap: break-word;
   font-weight: 400;
   background-color: #fff;
-  color: #585462;
+  color: #3e3b45;
   overflow: hidden;
 }
 svg {
@@ -140,13 +140,12 @@ h5 {
 
 }
 h6 {
-
-   line-height: 1rem !important;
-  display: inline-block !important;
-  max-width: 100% !important;
-  color:#6a6969;
-  font-weight: 500 !important;
-  font-size: 1rem !important;
+  font-size: 1.3em;
+  letter-spacing: 0px;
+  font-weight: 600;
+  
+  line-height: 1.2;
+ 
   //  letter-spacing: -0.1px;
 }
 

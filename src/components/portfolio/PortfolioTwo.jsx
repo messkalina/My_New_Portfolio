@@ -13,7 +13,7 @@ const tabListContent = [
          {
         img: "/img/portfolio/Vet_hero_image02cm.png", // Keep as fallback
         title: "Veterinary Practice Website",
-        meta: "End-to-end UX/UI & Web Development",
+        meta: "Driving Growth through Tailored User Journeys",
         portfolioLink: "/case-study/vet-website",
         // video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property
       },
@@ -21,7 +21,7 @@ const tabListContent = [
       {
         img: "/img/portfolio/Port_thumbnail_Buhdi.png",
         title: "Buhdi – Mindful ADHD Support App",
-        meta: " UX Challenges for ADHD Users",
+        meta: "UX Challenges for ADHD Users",
         portfolioLink: "/case-study/buhdi-app",
       },
       {
@@ -208,14 +208,14 @@ const Portfolio = () => {
                                 </div>
                                 {/* Always show project name and meta below the image */}
                                 <div className="portfolio_title_always">
-                                  <h5
+                                  <h6
                                     style={{
                                       margin: "24px 0 2px 0",
                                       // fontWeight: "600",
                                     }}
                                   >
                                     {val.title}
-                                  </h5>
+                                  </h6>
                                   <span
                                     className="portfolio-meta-description"
                                     style={{
