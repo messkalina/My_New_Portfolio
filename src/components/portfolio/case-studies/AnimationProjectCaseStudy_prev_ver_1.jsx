@@ -49,7 +49,6 @@ const AnimationProjectCaseStudy = () => {
               <h1>Veterinary Practice Website</h1>
               <h4>End-to-end UX/UI & Web Development</h4>
             </div>
-            
           </div>
         </div>
       </div>
@@ -233,7 +232,7 @@ const AnimationProjectCaseStudy = () => {
           </div>
         </div>
       </div>
-{/* Solution Section - Headline and Content Swapped */}
+      {/* Solution Section - Headline and Content Swapped */}
       <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
@@ -253,9 +252,13 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Following Lean UX principles, I focused on shipping a
+                    I bypassed restrictive website
+                    builders like Wix or WordPress in favor of a custom React.js
+                    build. This gave us total control over performance and
+                    eliminated monthly subscription fees for the client.
+                    I focused on shipping a
                     functional "Minimum Viable Product" to quickly get the
-                    business website live and validate it via user testing. The
+                    business website live and validate it via user testing. In the second phase I designed  The
                     goal was to meet bussiness requirements, gather insights and
                     move to design iterations that then would be easily
                     implemented by external developer.{" "}
@@ -304,13 +307,10 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-            <div className="content"
-            >
-              <div className="shane_tm_section"
-              
-              >
+            <div className="content">
+              <div className="shane_tm_section">
                 <div className="about_inner">
-                    <div className="left" >
+                  <div className="left">
                     <div data-aos="fade-up" data-aos-duration="1200">
                       <img
                         src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
@@ -328,8 +328,6 @@ const AnimationProjectCaseStudy = () => {
                       </div>
                     </div>
                   </div>
-
-                
                 </div>
               </div>
             </div>
@@ -498,8 +496,7 @@ const AnimationProjectCaseStudy = () => {
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <video
                     src="/img/portfolio/case-study/Phone _mockup02.mp4"
-                    
-                  style={{ width: "100%" }}
+                    style={{ width: "100%" }}
                     autoPlay
                     loop
                     muted
@@ -695,7 +692,6 @@ const AnimationProjectCaseStudy = () => {
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <video
                     src="/img/portfolio/case-study/Testimonial.png"
-                    
                     style={{ width: "100%" }}
                     autoPlay
                     loop

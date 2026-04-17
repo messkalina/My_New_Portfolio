@@ -46,7 +46,7 @@ const AnimationProjectCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1> AI-Powered Design for Speed and Conversion</h1>
+              <h1>Delivering fast launch and strategic growth</h1>
               <h4>Veterinary Practise Website</h4>
             </div>
           </div>
@@ -175,8 +175,8 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      The React MVP: Prioritizing "Online-Terminvereinbarung" to
-                      mitigate administrative load from day one.
+                      The first version of the website (MVP) focused on user flow to online-booking to mitigate administrative load from day one. Industry benchmarks show that manual scheduling can consume
+                    up to 40% of a receptionist's day.
                     </p>
                   </div>
                 </div>
@@ -188,7 +188,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Velocity vs. Quality</h3>
+                  <h3>Balancing speed and quality of project</h3>
                 </div>
                 <div
                   className="text"
@@ -196,13 +196,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The client was launching a new business and needed a
-                    professional presence live in a short time. It had to
-                    clearly communicate services, introduce the care team, and
-                    support mobile users—especially for appointment inquiries.
-                    Industry benchmarks show that manual scheduling can consume
-                    up to 40% of a receptionist's day. The business needed to
-                    prevent this bottleneck before opening.
+                    Launching a new veterinary clinic comes with a tight deadline. The goal was to build a professional website that was ready to go the moment the doors opened. We needed a site that introduced the medical team and services clearly, but most importantly, handled the "admin heavy lifting."
                   </p>
                   <p
                     style={{
@@ -214,17 +208,17 @@ const AnimationProjectCaseStudy = () => {
 
                   <ul className="case-study-list" style={{ marginTop: "10px" }}>
                     <li>
-                      <strong>Automation:</strong> Drive users to book
-                      consultations digitally without calling the practice.
+                      <strong>Saving time through automation:</strong> Moving as many bookings as possible to a digital system so the team could focus on the animals, not the phone.
                     </li>
                     <li>
-                      <strong>Mobile-First:</strong> Capture the 70% of local
-                      traffic originating from mobile "near me" searches.
+                      <strong>Mobile-first experience for local search:</strong> Over 70% of local traffic comes from "near me" searches on phones, so the mobile experience had to be seamless.
                     </li>
                     <li>
-                      <strong>Values:</strong> Feel local and trustworthy; Look
-                      warm but professional; Tech must be scalable and easy to
-                      maintain.
+                      <strong>Values:</strong> The website needed to feel like a trusted neighbor—warm and welcoming for pet owners, but professional enough to show they are medical experts.
+                    </li>
+                    <li>
+                      <strong>Simple to manage:</strong> Tech must be scalable and easy to maintain.
+
                     </li>
                   </ul>
                   <div
@@ -268,16 +262,15 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>
-                    Following <strong>Lean UX</strong> principles, I focused on
-                    shipping a functional "Minimum Viable Product" to quickly
-                    get the business website live and validate it via user
-                    testing.
-                  </p>
+                
                   <ul className="case-study-list">
                     <li>
-                      <strong>Iterative Workflow:</strong> I took a two-step
-                      approach: shipping a working site fast...
+                      <strong>Iterative Workflow:</strong> I focused on shipping a
+                    functional "Minimum Viable Product" to quickly get the
+                    business website live and validate it via user testing. In the next itaration I focused on communicating brand values of trust and warmth. The
+                    goal was to meet bussiness requirements, gather insights and
+                    move to design iterations that then would be easily
+                    implemented by external developer.
                     </li>
                     <li>
                       <strong>Community Testing:</strong> I validated the MVP
@@ -345,40 +338,13 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Instead of starting from a blank canvas, I used an
-                    AI-forward workflow to move from client brief to a Minimal
+                    Instead of starting from a blank canvas I used an
+                    AI-powered workflow to move from client brief to a Minimal
                     Viable Product (MVP) in a quick, efficient way. The goal was
                     to validate the design quickly via user testing and moving
                     to iterations.
                   </p>
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>Sitemap & Information Architecture:</strong> Using
-                      Relume’s AI platform I transformed the client’s raw copy
-                      into a logical information architecture, created site map
-                      and ideate the wireframes in almost no time.
-                    </li>
-                    <li>
-                      <strong>Rapid Wireframing:</strong> I leveraged the Relume
-                      component library to ideate different page sections,
-                      allowing me to test layouts and design patterns instantly.
-                    </li>
-                    <li>
-                      <strong>Seamless Handoff:</strong> Exporting these
-                      mid-fidelity wireframes to Figma gave me a foundation of
-                      styles and components already mapped to the structure,
-                      saving hours of manual setup.
-                    </li>
-                    <li>
-                      <strong>Development:</strong> I build website in React and
-                      and deployed via Netlify service. This gave me total
-                      control over the UX, higher performance, and a
-                      cost-effective hosting solution that a professional
-                      developer could easily take over later.The objective was
-                      speed, flexibility and scalability. I used Cursor AI as my
-                      coding partner.
-                    </li>
-                  </ul>
+                  
                 </div>
               </div>
 
@@ -553,29 +519,24 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Once the MVP was live and receiving praise, I pivoted to a
+                    Once the MVP was live and receiving positive feedback, I moved to a
                     high-fidelity iteration to maximize "the pop factor" and
                     trust.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      Color Strategy: I evolved the palette from a simple Green
+                      <strong>Color Palette:</strong> I evolved the palette from a simple Green
                       (Primary)/ White (neutral) to a more sophisticated Green
                       (Primary), Orange (Action/CTA) and pastel gradients to
                       balance authority with friendliness and less steryle look.
                     </li>
                     <li>
-                      Typography & Content: I used Gemini to refine the copy for
-                      a more inviting tone and selected fonts that balanced
-                      authority with friendliness.
-                    </li>
-                    <li>
-                      Social Proof: Integrated Google Review widgets and
+                      <strong>Social Proof:</strong> Integrated Google Review widgets and
                       testimonials to capitalize on the practice’s early
                       success.
                     </li>
                     <li>
-                      Art Direction: I provided creative direction for new
+                      <strong>Art Direction:</strong> I provided creative direction for new
                       photography and a video tour to ensure the digital space
                       felt as premium as the physical venue.
                     </li>
@@ -599,7 +560,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Impact</span>
-                  <h3>Measurable Results</h3>
+                  <h3>From MVP to growth</h3>
                 </div>
                 <div
                   className="text"
@@ -607,8 +568,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The project transformed from a functional placeholder to a
-                    strategic operational asset.
+                    The project moved beyond a foundational MVP to become high-converting digital presence.
                   </p>
                   <ul className="case-study-list">
                     <li>
