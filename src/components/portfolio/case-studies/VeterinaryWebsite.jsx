@@ -83,24 +83,17 @@ const AnimationProjectCaseStudy = () => {
                           data-aos-duration="1200"
                         >
                           <p>
-                            Tierpraxis Lebensberg is a modern veterinary
-                            practice in Vienna that launched its digital
-                            presence alongside its physical opening. Guided by{" "}
-                            <strong>Lean UX</strong> principles, I adopted a{" "}
-                            <strong>two-phase delivery strategy</strong> to
-                            balance <strong>business velocity </strong> with{" "}
-                            <strong>long-term growth</strong>. This involved
-                            first designing and developing an{" "}
-                            <strong> MVP</strong> version of the website to meet
-                            the immediate launch deadline and drive conversions
-                            through <strong>automated booking channel</strong>.
-                            Then a strategic iteration folowed, focused on
-                            expressing bussiness core values of trust,
-                            credibility, and warmth. Thanks to an{" "}
-                            <strong>AI-accelerated workflow</strong>, we moved
-                            from discovery to production in record time while
-                            ensuring the business could operate with high
-                            efficiency from the start.
+                            Tierpraxis Lebensberg is a veterinary practice in
+                            Vienna, Austria that launched its digital presence
+                            alongside its physical opening. <br />
+                            <br />I adopted a two-phase delivery strategy to
+                            balance business velocity with long-term growth.
+                            First I designed an Minimal Viable Product (MVP)
+                            version of the website to meet the immediate launch
+                            deadline and drive conversions through an automated
+                            booking channel. In the second iteration I focused
+                            on expressing its business values of trust,
+                            credibility, and warmth.
                           </p>
                         </div>
                       </div>
@@ -141,7 +134,7 @@ const AnimationProjectCaseStudy = () => {
                                 fontSize: "14px",
                               }}
                             >
-                              Tech Stack:{" "}
+                              Scope:{" "}
                             </p>
                             <p className="timeline-fine">
                               Figma, React.js, CSS, Adobe After Effects, Relume
@@ -327,56 +320,7 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
             </div>
-            <div className="content" style={{ marginTop: "5em" }}>
-              <div className="shane_tm_section">
-                <div className="about_inner">
-                  <div className="left">
-                    <div data-aos="fade-up" data-aos-duration="1200">
-                      <video
-                        src="/img/portfolio/case-study/Vet_Mobile_Terminbuchungsm.mp4"
-                        style={{
-                          width: "100%",
-                          maxHeight: "80vh",
-                          objectFit: "contain",
-                        }}
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                      />
-                      {/* <div className="image_caption">
-                        <p>
-                          Since user testing revealed the MVP felt too
-                          "clinical" and cold I moved toward a warmer,
-                          high-fidelity color palette and more sophisticated
-                          typographic choices in the refinement phase.
-                        </p>
-                      </div> */}
-                    </div>
-                  </div>
-                  <div
-                    className="right"
-                    style={{
-                      minHeight: "100vh",
-                    }}
-                  >
-                    <div data-aos="fade-up" data-aos-duration="1200">
-                      <div className="image_caption">
-                        <p>
-                          Since user testing revealed the MVP felt too
-                          "clinical" and cold I moved toward a warmer,
-                          high-fidelity color palette and more sophisticated
-                          typographic choices in the refinement phase.
-                          <br />
-                          1. Website reference that client provided; 2. MVP
-                          version; 3. Second iteration of the design
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -477,9 +421,12 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      I used Relume AI platform for creating and ideating
+                      I was able to move from discovery to production quickly
+                      thanks to an AI-accelerated workflow, ensuring the
+                      business could operate with high efficiency from the
+                      start. I used Relume AI platform for creating and ideating
                       website site map and structure and for rapid wireframing
-                      design solutions
+                      design solutions.
                     </p>
                   </div>
                 </div>
@@ -567,23 +514,27 @@ const AnimationProjectCaseStudy = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Kundenstimmencm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Kundenstimmencm.png",
-                      )
-                    }
-                  />
-                  <div className="image_caption">
-                    <p>
-                      Second iteration design screens for home page - mobile and
-                      desktop view.
-                    </p>
-                  </div>
+                  <video
+                        src="/img/portfolio/case-study/Vet_Mobile_Terminbuchungsm.mp4"
+                        style={{
+                          width: "100%",
+                          maxHeight: "80vh",
+                          objectFit: "contain",
+                        }}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                      />
+                      <div className="image_caption">
+                        <p>
+                          <strong>Main user flow</strong> leads visitors to an
+                          automated booking system to save time. By pairing this
+                          with a video tour of the practice, we made the
+                          experience feel more personal and trustworthy, leading
+                          to a higher number of confirmed appointments.{" "}
+                        </p>
+                      </div>
                 </div>
               </div>
 
