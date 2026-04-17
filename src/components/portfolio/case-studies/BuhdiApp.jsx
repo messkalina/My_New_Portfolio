@@ -714,6 +714,7 @@ const DesignTrendCaseStudy = () => {
                       loop
                       muted
                       playsInline
+                      controls
                       poster="/img/portfolio/case-study/Buhdi_onboarding_after.mp4"
                     />
                   </div>
