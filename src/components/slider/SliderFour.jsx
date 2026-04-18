@@ -105,10 +105,7 @@ const Slider = () => {
           <div className="content">
             <div className="name_wrap">
               <h3>
-                <span>
-                  Bostami
-                  <br />
-                </span>{" "}
+                <span>Bostami</span>{" "}
                 <TextLoop>
                   <span className="loop-text">Web Developer</span>
                   <span className="loop-text"> UI/UX Designer.</span>

@@ -74,13 +74,8 @@ const PrivacyPolicy = () => {
 
                   <h3>Responsible for this website:</h3>
                   <p>
-                    Kalina Iwaszko
-                    <br />
-                    Rupprechtstr. 28
-                    <br />
-                    10317 Berlin, Germany
-                    <br />
-                    📧 kalina.iwaszko@gmail.com
+                    Kalina Iwaszko Rupprechtstr. 28 10317 Berlin, Germany 📧
+                    kalina.iwaszko@gmail.com
                   </p>
 
                   <h3>1. Hosting & Deployment</h3>
@@ -221,12 +216,7 @@ const PrivacyPolicy = () => {
 
                     <h3>Verantwortlich für diese Website:</h3>
                     <p>
-                      Kalina Iwaszko
-                      <br />
-                      Rupprechtstr. 28
-                      <br />
-                      10317 Berlin, Deutschland
-                      <br />
+                      Kalina Iwaszko Rupprechtstr. 28 10317 Berlin, Deutschland
                       📧 kalina.iwaszko@gmail.com
                     </p>
 

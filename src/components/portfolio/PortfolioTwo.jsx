@@ -13,19 +13,19 @@ const tabListContent = [
         {
         img: "/img/portfolio/Port_thumbnail_Buhdi.png",
         title: "Buhdi – Mindful ADHD Support App",
-        meta: "UX Challenges for ADHD Users",
+        meta: "Delivering fast launch and strategic growth",
         portfolioLink: "/case-study/buhdi-app",
       },
    {
         img: "/img/portfolio/Port_thumbnail_orbit.png",
         title: "Orbit Health Website Redesign",
-        meta: "Designing Website for Complex Digital Products",
+        meta: "Driving growth through tailored user journeys",
         portfolioLink: "/case-study/orbit-website",
       },
          {
         img: "/img/portfolio/Vet_hero_image02cm.png", // Keep as fallback
         title: "Veterinary Practice Website",
-        meta: "Driving Growth through Tailored User Journeys",
+        meta: "Delivering fast launch and strategic growth",
         portfolioLink: "/case-study/vet-website",
         // video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property
       },

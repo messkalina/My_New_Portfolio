@@ -106,8 +106,6 @@ const MyStoryCaseStudy = () => {
                             into objective, continuous insights helping
                             neurologists and patients move toward data-backed
                             symptom management.
-                            <br />
-                            <br />
                           </p>
                         </div>
                       </div>
@@ -128,7 +126,7 @@ const MyStoryCaseStudy = () => {
                                 April 2024 – September 2024
                               </span>
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -141,7 +139,7 @@ const MyStoryCaseStudy = () => {
                               Sole UX/UI Designer (UX Research, UX/UI Design, UX
                               writing)
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -155,8 +153,6 @@ const MyStoryCaseStudy = () => {
                               strategy, mid‑fidelity wireframes for full
                               website, interactive prototype
                             </p>
-
-                            <br />
                           </div>
                         </div>
                       </div>
@@ -196,7 +192,6 @@ const MyStoryCaseStudy = () => {
                     The website needed to be a conversion channel for both users
                     groups.
                   </p>
-                  <br />
                 </div>
                 <div
                   className="shane_tm_button"
@@ -474,7 +469,7 @@ const MyStoryCaseStudy = () => {
                     Based on insights from discovery, I defined the UX strategy
                     for the new site around three principles:
                   </p>
-                  <br />
+
                   <strong>1. Separate, but connected, journeys:</strong>
                   <ul className="case-study-list">
                     <li>

@@ -46,9 +46,7 @@ const MyStoryCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>
-                Orbit Health <br /> Website Redesign
-              </h1>
+              <h1>Orbit Health Website Redesign</h1>
             </div>
           </div>
         </div>
@@ -112,17 +110,15 @@ const MyStoryCaseStudy = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                  <p className="text" >
+                  <p className="text">
                     Orbit Health is a Munich-based digital health startup
                     focused on enhancing care for people with Parkinson’s
                     Disease (PD). Its AI-powered solution uses smartwatches to
                     track motor symptoms, giving patients and neurologists
                     real-time, data-driven insights into symptom fluctuations
-                    and treatment efficacy.
-                    <br />
-                    <br />
-                    With the product still undergoing clinical trials and
-                    awaiting medical device approval in Germany,{" "}
+                    and treatment efficacy. With the product still undergoing
+                    clinical trials and awaiting medical device approval in
+                    Germany,{" "}
                     <strong>
                       the website needed to clearly explain a sophisticated
                       digital health product—while guiding two very different
@@ -198,7 +194,7 @@ const MyStoryCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Orbit_3_frames_current_sm.png"
+                        "/img/portfolio/case-study/Orbit_3_frames_current_sm.png",
                       )
                     }
                   />
@@ -228,7 +224,7 @@ const MyStoryCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Home Page wireframe.png"
+                        "/img/portfolio/case-study/Home Page wireframe.png",
                       )
                     }
                   />
@@ -350,7 +346,7 @@ const MyStoryCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/orbit_persona_patient_journey.png"
+                        "/img/portfolio/case-study/orbit_persona_patient_journey.png",
                       )
                     }
                   />
@@ -383,7 +379,7 @@ const MyStoryCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/site map_BG.png"
+                        "/img/portfolio/case-study/site map_BG.png",
                       )
                     }
                   />
@@ -470,7 +466,8 @@ const MyStoryCaseStudy = () => {
                   <ul className="case-study-list">
                     <li>
                       <strong>
-                        Created a clear and scalable information architecture{" "}
+                        Created a clear and scalable information
+                        architecture{" "}
                       </strong>
                       based on audience segmentation
                     </li>
@@ -498,7 +495,7 @@ const MyStoryCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Orbit-website-wireframes_all.png"
+                        "/img/portfolio/case-study/Orbit-website-wireframes_all.png",
                       )
                     }
                   />
@@ -515,7 +512,7 @@ const MyStoryCaseStudy = () => {
         </div>
       </div>
       {/* --- END COPY --- */}
-<div className="shane_tm_section">
+      <div className="shane_tm_section">
         <div className="container">
           <div
             style={{
@@ -528,7 +525,7 @@ const MyStoryCaseStudy = () => {
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
             <Link
-               to="/case-study/unlimitix-app"
+              to="/case-study/unlimitix-app"
               className="back_button"
               style={{
                 float: "right",

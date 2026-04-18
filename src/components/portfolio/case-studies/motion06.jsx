@@ -78,12 +78,11 @@ const Motion06 = () => {
                   <p className="text">
                     Promotional video I created for Euroshorts 2015 Film
                     Festival.
-                    <br />
                     <strong> Tools:</strong> Adobe After Effects, Premiere Pro,
                     Photoshop, Illustrator
                   </p>
 
-                <div
+                  <div
                     className="styleframes-grid"
                     style={{
                       display: "grid",
@@ -130,7 +129,7 @@ const Motion06 = () => {
                       }}
                     />
                   </div>
-                  <br />
+
                   <h3 className="title">Key Work</h3>
 
                   <ul className="case-study-list">
@@ -175,30 +174,30 @@ const Motion06 = () => {
           </div>
         </div>
       </div>
-                     <div className="shane_tm_section">
-                            <div className="container">
-                              <div
-                                style={{
-                                  display: "flex",
-                                  justifyContent: "space-between",
-                                  marginBottom: "40px",
-                                }}
-                              >
-                                <Link to="/#portfolio" className="back_button">
-                                  ← PORTFOLIO / ANIMATION
-                                </Link>
-                                <Link
-                                  to="/case-study/animation01"
-                                  className="back_button"
-                                  style={{
-                                    float: "right",
-                                  }}
-                                >
-                                  NEXT PROJECT →
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
+      <div className="shane_tm_section">
+        <div className="container">
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              marginBottom: "40px",
+            }}
+          >
+            <Link to="/#portfolio" className="back_button">
+              ← PORTFOLIO / ANIMATION
+            </Link>
+            <Link
+              to="/case-study/animation01"
+              className="back_button"
+              style={{
+                float: "right",
+              }}
+            >
+              NEXT PROJECT →
+            </Link>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );

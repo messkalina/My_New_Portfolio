@@ -81,11 +81,10 @@ const Motion02 = () => {
                     ad for social media that would attract new customers. I used
                     motion graphics and video editing skills while using
                     provided video footage.
-                    <br />
                     <strong> Tools:</strong> Adobe After Effects, Premiere Pro,
                     Photoshop, Illustrator
                   </p>
- <div
+                  <div
                     className="styleframes-grid"
                     style={{
                       display: "grid",
@@ -132,7 +131,7 @@ const Motion02 = () => {
                       }}
                     />
                   </div>
-                  <br />
+
                   <h3 className="title">Key Work</h3>
 
                   <ul className="case-study-list">
@@ -150,8 +149,6 @@ const Motion02 = () => {
                     </li>
                   </ul>
 
-                 
-
                   <div
                     className="case-study-video"
                     style={{
@@ -168,7 +165,7 @@ const Motion02 = () => {
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      style={{ maxWidth: "100%"}}
+                      style={{ maxWidth: "100%" }}
                     ></iframe>
                   </div>
                 </div>

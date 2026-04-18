@@ -34,9 +34,7 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <span>About Me</span>
-                  <h3>
-                    Designing Digital Experiences with Impact
-                  </h3>
+                  <h3>Designing Digital Experiences with Impact</h3>
                 </div>
                 <div
                   className="text"
@@ -57,11 +55,13 @@ const AboutTwo = () => {
                     and wireframing to high-fidelity prototyping and
                     motion-enhanced UI.
                   </p>
-                  <br />
+
                   <p>
                     {" "}
-                    I also have a solid grasp of <strong>frontend technologies</strong> such as
-                    <strong> HTML, CSS, JavaScript,</strong> and <strong>React</strong>, which helps me collaborate
+                    I also have a solid grasp of{" "}
+                    <strong>frontend technologies</strong> such as
+                    <strong> HTML, CSS, JavaScript,</strong> and{" "}
+                    <strong>React</strong>, which helps me collaborate
                     effectively with developers and design with implementation
                     in mind.
                   </p>

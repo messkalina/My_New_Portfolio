@@ -74,7 +74,7 @@ const UnlimitixApp = () => {
         </div>
       </div>
 
-   <div className="container">
+      <div className="container">
         <div className="content">
           <div className="shane_tm_section">
             <div
@@ -111,7 +111,7 @@ const UnlimitixApp = () => {
                     tester, using my own insights and experience with the app to
                     inform a full redesign of its mobile interface.
                   </p>
-                  <br />
+
                   <p>
                     My goal was to{" "}
                     <strong>elevate the onboarding process</strong> and create a
@@ -209,7 +209,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/un_platforms.png"
+                        "/img/portfolio/case-study/un_platforms.png",
                       )
                     }
                   />
@@ -327,7 +327,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/un_user_flow.png"
+                        "/img/portfolio/case-study/un_user_flow.png",
                       )
                     }
                   />
@@ -357,7 +357,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/un_mockups.png"
+                        "/img/portfolio/case-study/un_mockups.png",
                       )
                     }
                   />
@@ -457,7 +457,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Un-User_feedback.png"
+                        "/img/portfolio/case-study/Un-User_feedback.png",
                       )
                     }
                   />
@@ -487,7 +487,7 @@ const UnlimitixApp = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/un_screens_all.png"
+                        "/img/portfolio/case-study/un_screens_all.png",
                       )
                     }
                   />
@@ -517,7 +517,7 @@ const UnlimitixApp = () => {
                     The final prototype transformed Unlimitix from a limited
                     chatbot into a more complete and engaging coaching tool.
                   </p>
-                  <br />
+
                   <p>
                     <strong>Key work:</strong>
                   </p>

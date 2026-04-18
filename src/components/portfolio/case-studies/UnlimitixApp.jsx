@@ -88,7 +88,7 @@ const UnlimitixApp = () => {
                             my own insights and experience with the app to
                             inform a full redesign of its mobile interface.
                           </p>
-                          <br />
+
                           <p>
                             My goal was to{" "}
                             <strong>elevate the onboarding process</strong> and
@@ -116,7 +116,7 @@ const UnlimitixApp = () => {
                                 January – March 2023
                               </span>
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -128,7 +128,7 @@ const UnlimitixApp = () => {
                             <p className="timeline-fine">
                               UX Research, UX/UI Design
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -140,8 +140,6 @@ const UnlimitixApp = () => {
                             <p className="timeline-fine">
                               Figma, Adobe Photoshop, Adobe Illustrator, Lyssna
                             </p>
-
-                            <br />
                           </div>
                         </div>
                       </div>
@@ -545,7 +543,7 @@ const UnlimitixApp = () => {
                     The final prototype transformed Unlimitix from a limited
                     chatbot into a more complete and engaging coaching tool.
                   </p>
-                  <br />
+
                   <p>
                     <strong>Key work:</strong>
                   </p>

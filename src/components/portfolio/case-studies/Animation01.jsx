@@ -82,7 +82,6 @@ const Motion01 = () => {
                     <strong> Tools:</strong> Figma, Adobe XD, After Effects
                   </p>
 
-                  <br />
                   <h3 className="title">Key Work</h3>
 
                   <ul className="case-study-list">

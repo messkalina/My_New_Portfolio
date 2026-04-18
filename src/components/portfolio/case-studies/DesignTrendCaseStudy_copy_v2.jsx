@@ -88,7 +88,7 @@ const DesignTrendCaseStudy = () => {
                             experience—guided by a calming AI coach—to help
                             users complete meaningful goals at their own pace.
                           </p>
-                          <br />
+
                           <p>
                             I joined the project early in{" "}
                             <strong>MVP development</strong> and worked closely
@@ -117,7 +117,7 @@ const DesignTrendCaseStudy = () => {
                                 December 2024 – March 2025
                               </span>
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -129,7 +129,7 @@ const DesignTrendCaseStudy = () => {
                             <p className="timeline-fine">
                               UX/UI Design, UX Research, User Testing
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -141,11 +141,8 @@ const DesignTrendCaseStudy = () => {
                             <p className="timeline-fine">
                               Figma, Adobe Illustrator, Lyssna
                             </p>
-
-                            <br />
                           </div>
                         </div>
-                        
                       </div>
                     </div>
                   </div>
@@ -212,7 +209,6 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                 </div>
-                
               </div>
 
               <div className="right">
@@ -240,7 +236,7 @@ const DesignTrendCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-                    {/* Results Section - Image left, Text right */}
+      {/* Results Section - Image left, Text right */}
       <div className="shane_tm_section" id="solution">
         <div className="shane_tm_about">
           <div className="container">
@@ -287,14 +283,14 @@ const DesignTrendCaseStudy = () => {
                     rewarding steps with visual progress, that foster a sense of
                     achievement and engagement.
                   </p>
-                  <br />
+
                   <p>
                     I also designed UI for the <strong>onboarding flow</strong>{" "}
                     and a cohesive brand system using calming visuals,
                     Buddhist-inspired design, and a supportive AI coach persona
                     to convey emotional clarity and purpose.
                   </p>
-                  <br />
+
                   <p>
                     Lastly I designed and run <strong>user testing</strong> and
                     feedback sessions to iterate on the design and created{" "}
@@ -302,21 +298,20 @@ const DesignTrendCaseStudy = () => {
                   </p>
                 </div>
                 <div
-                          className="shane_tm_button"
-                          // style={{ marginTop: "20px" }}
-                          data-aos="fade-up"
-                          data-aos-duration="1200"
-                        >
-                          <a
-                            href="#outcome"
-                            
-                            style={{
-                              textDecoration: "none",
-                            }}
-                          >
-                            <span className="button-text">Jump to Outcome</span>
-                          </a>
-                        </div>
+                  className="shane_tm_button"
+                  // style={{ marginTop: "20px" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <a
+                    href="#outcome"
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    <span className="button-text">Jump to Outcome</span>
+                  </a>
+                </div>
               </div>
               {/* End right */}
             </div>
@@ -390,7 +385,7 @@ const DesignTrendCaseStudy = () => {
                     flow and tone—ensuring the experience felt calming,
                     supportive, and aligned with therapeutic practices.
                   </p>
-                  <br />
+
                   <p>
                     Users were guided by a gentle AI avatar, Master Buhdi, who
                     helped them define and break down goals into manageable,
@@ -474,7 +469,6 @@ const DesignTrendCaseStudy = () => {
           {/* End container */}
         </div>
       </div>
-      
 
       {/* Outcome Section */}
       <div className="shane_tm_section" id="outcome">

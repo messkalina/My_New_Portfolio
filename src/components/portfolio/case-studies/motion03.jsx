@@ -83,14 +83,11 @@ const Motion03 = () => {
                     had to be optimised for the viewers - patients of various
                     demographics. The objective was creating medically correct,
                     informative, engaging and easy to follow
-                    <br />
                     <strong> Tools:</strong> Adobe After Effects, Premiere Pro,
                     Photoshop, Illustrator
                   </p>
 
-
-
-                 <div
+                  <div
                     className="styleframes-grid"
                     style={{
                       display: "grid",
@@ -137,7 +134,7 @@ const Motion03 = () => {
                       }}
                     />
                   </div>
-                  <br />
+
                   <h3 className="title">Key Work</h3>
 
                   <ul className="case-study-list">

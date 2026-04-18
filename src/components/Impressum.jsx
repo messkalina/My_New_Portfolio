@@ -62,27 +62,13 @@ const Impressum = () => {
                   data-aos-duration="1200"
                 >
                   <h3>Information According to § 5 TMG</h3>
-                  <p>
-                    Kalina Iwaszko
-                    <br />
-                    Rupprechtstr. 28
-                    <br />
-                    10317 Berlin
-                    <br />
-                    Germany
-                  </p>
+                  <p>Kalina Iwaszko Rupprechtstr. 28 10317 Berlin Germany</p>
 
                   <h3>Contact</h3>
-                  <p>
-              
-                    Email: kalina.iwaszko@gmail.com
-                  </p>
+                  <p>Email: kalina.iwaszko@gmail.com</p>
 
                   <h3>Professional Information</h3>
-                  <p>
-                    Professional Title: Digital Designer
-                  
-                  </p>
+                  <p>Professional Title: Digital Designer</p>
 
                   {/* <h3>EU Dispute Resolution</h3>
                   <p>

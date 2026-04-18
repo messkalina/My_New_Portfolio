@@ -108,7 +108,7 @@ const AnimationProjectCaseStudy = () => {
                     and make it easier for pet owners to contact and book
                     appointments.
                   </p>
-                  <br />
+
                   <p>
                     I led this project end-to-end —{" "}
                     <strong>designing the UX/UI</strong> and fully{" "}
@@ -137,7 +137,7 @@ const AnimationProjectCaseStudy = () => {
                       window.open(
                         "https://tierarzt-leberberg.at/",
                         "_blank",
-                        "noopener,noreferrer"
+                        "noopener,noreferrer",
                       )
                     }
                   >
@@ -368,7 +368,7 @@ const AnimationProjectCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Wireframessm.png"
+                        "/img/portfolio/case-study/Wireframessm.png",
                       )
                     }
                   />
@@ -398,7 +398,7 @@ const AnimationProjectCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Desktop_3_screens.png"
+                        "/img/portfolio/case-study/Desktop_3_screens.png",
                       )
                     }
                   />
@@ -450,7 +450,7 @@ const AnimationProjectCaseStudy = () => {
                       window.open(
                         "https://tierarzt-leberberg.at/",
                         "_blank",
-                        "noopener,noreferrer"
+                        "noopener,noreferrer",
                       )
                     }
                   >
@@ -506,7 +506,7 @@ const AnimationProjectCaseStudy = () => {
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/contact_page_mobile2.png"
+                        "/img/portfolio/case-study/contact_page_mobile2.png",
                       )
                     }
                   />

@@ -46,7 +46,7 @@ const DesignTrendCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Solving Behavioral Barriers to Drive Engagement</h1>
+              <h1>Solving behavioral barriers to drive engagement</h1>
               <h4>Buhdi – Mindful ADHD Support App</h4>
             </div>
           </div>
@@ -111,12 +111,12 @@ const DesignTrendCaseStudy = () => {
                                 December 2024 – March 2025
                               </span>
                             </p>
-                            <br />
+
                             <p>
                               <strong>Role:</strong>
                             </p>
                             <p className="timeline-fine">Lead UX/UI Designer</p>
-                            <br />
+
                             <p>
                               <strong>Scope:</strong>
                             </p>
@@ -124,8 +124,6 @@ const DesignTrendCaseStudy = () => {
                               Quest Mode design, onboarding design, UX/UI
                               design, user interviews and usability testing
                             </p>
-
-                            <br />
                           </div>
                         </div>
                       </div>
@@ -166,7 +164,7 @@ const DesignTrendCaseStudy = () => {
                     This is often caused by a struggle to plan, a fear of doing
                     it wrong, or simply a lack of interest.
                   </p>
-                  <br />
+
                   <p>
                     Our early data showed that many users were downloading the
                     app but dropping off almost immediately. We believed this
@@ -250,15 +248,11 @@ const DesignTrendCaseStudy = () => {
                   alt="Redesign Pages Comparison"
                   className="clickable-image"
                   style={{
-                 
                     cursor: "pointer",
                     marginTop: "4em",
 
-                  Height: "110vh",
+                    Height: "110vh",
                     width: "auto",
-
-                   
-                 
                   }}
                   onClick={() =>
                     handleImageClick(
@@ -345,7 +339,7 @@ const DesignTrendCaseStudy = () => {
                     chance of <strong>conversion</strong> to paid subscription
                     and <strong>retention.</strong>
                   </p>
-                  <br />
+
                   <p>
                     <strong>Key UX decisions:</strong>
                   </p>
@@ -402,7 +396,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Defining Success</span>
-                  <h3>From Paralysis to Action</h3>
+                  <h3>From paralysis to action</h3>
                 </div>
                 <div
                   className="text"
@@ -417,7 +411,7 @@ const DesignTrendCaseStudy = () => {
                     propositions and prompted users to define their goal and
                     take first step toward action aka battling task paralysis.
                   </p>
-                  <br />
+
                   <p>
                     KPI 1:
                     <strong> Onboarding Completion (&gt;80% Target)</strong>
@@ -512,11 +506,11 @@ const DesignTrendCaseStudy = () => {
                     <p>
                       Based on our usability tests we strengthened the mountain
                       metaphor for Quest Tab and added Activity Points rewarding
-                      users for taking actions in the app, for example
-                      Purpose Reflection exercise. These features – along
-                      with our psychological aid cards – were designed to lower
-                      anxiety and provide the immediate stimulation required to
-                      bypass task paralysis.
+                      users for taking actions in the app, for example Purpose
+                      Reflection exercise. These features – along with our
+                      psychological aid cards – were designed to lower anxiety
+                      and provide the immediate stimulation required to bypass
+                      task paralysis.
                     </p>
                   </div>
                 </div>
@@ -529,7 +523,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Validation</span>
-                  <h3>Value of a Dopamine-First Strategy</h3>
+                  <h3>Value of a dopamine-first strategy</h3>
                 </div>
                 <div
                   className="text"
@@ -551,7 +545,7 @@ const DesignTrendCaseStudy = () => {
                       frequency
                     </strong>
                   </p>
-                  <br />
+
                   <strong>
                     <p>Key findings:</p>
                   </strong>
@@ -605,7 +599,7 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Impact</span>
-                  <h3>Stakeholder Alignment + Live Metrics</h3>
+                  <h3>Validating the first "Aha!" moment</h3>
                 </div>
                 <div
                   className="text"
@@ -613,16 +607,23 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The app was successfully{" "}
-                    <strong>launched on App Store</strong> and secured its first
-                    paying users in 2025. User onboarding completion and
-                    activation rates are high but mid term retention is sligtly
-                    lower that the industry benchmark for productivity apps
-                    (25-30%). It can be partially explained by the target user
-                    group profile - people with ADHD generally struggle with
-                    consistency.
+                    Buhdi successfully launched on the App Store in 2025,
+                    securing its first paying users and validating our core
+                    "Quest" strategy. While our onboarding and activation rates
+                    are exceptionally high, we’ve observed that mid-term
+                    retention (21% at Day 14) currently sits just below the
+                    industry benchmark.
                   </p>
-                  <br />
+
+                  <p>
+                    We anticipated this challenge: for a neurodivergent
+                    audience, the struggle isn't starting—it’s staying
+                    consistent. This data confirms that while our "Value-First"
+                    onboarding works, our next phase must focus on building even
+                    stronger long-term incentives to help users turn their
+                    initial "Quest" momentum into a lasting habit.
+                  </p>
+
                   <strong>
                     <p className="list_title ">Strategic outcomes:</p>
                   </strong>
@@ -653,7 +654,6 @@ const DesignTrendCaseStudy = () => {
 
                   <p>
                     <strong>Strategic insight: </strong>
-                    <br />
                     Current design is successful at communicating value and
                     getting users started, but we need more incentives for users
                     to achieve their goals in the long term.

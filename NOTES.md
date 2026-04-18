@@ -6,21 +6,21 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const AnimationProjectCaseStudy = () => {
-  const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [lightboxImg, setLightboxImg] = useState("");
+const [lightboxOpen, setLightboxOpen] = useState(false);
+const [lightboxImg, setLightboxImg] = useState("");
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+useEffect(() => {
+window.scrollTo(0, 0);
+}, []);
 
-  const handleImageClick = (imgSrc) => {
-    setLightboxImg(imgSrc);
-    setLightboxOpen(true);
-  };
+const handleImageClick = (imgSrc) => {
+setLightboxImg(imgSrc);
+setLightboxOpen(true);
+};
 
-  return (
-    <div className="shane_tm_all_wrap">
-      <Header />
+return (
+<div className="shane_tm_all_wrap">
+<Header />
 
       {/* Hero section */}
       <div className="shane_tm_hero_case_study" id="animationproject-home">
@@ -87,7 +87,7 @@ const AnimationProjectCaseStudy = () => {
                     Role:{" "}
                     <span className="timeline-fine">UX/UI Design, Motion Design, Front-End Development</span>
                   </p>
-                  
+
                     <p
                     style={{
                       fontWeight: 600,
@@ -97,14 +97,14 @@ const AnimationProjectCaseStudy = () => {
                     Tools:{" "}
                     <span className="timeline-fine">Figma, React.js, Relume AI, Cursor AI, After Effects</span>
                   </p>
-                  <br />
+
 
                   <p className="text">
                     A new veterinary practice in Vienna needed more than just a
                     website—they needed a digital identity that reflected their
                     business and a functional tool for client bookings.
                   </p>
-                  <br />
+
                   <p>
                     This project taught me the value of leveraging available
                     technology and experience to get the job done, acting as
@@ -753,34 +753,35 @@ const AnimationProjectCaseStudy = () => {
       )}
       <Footer />
     </div>
-  );
+
+);
 };
 
 export default AnimationProjectCaseStudy;
 
 // {
 
-//    <video
-//                     src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-//                     className="clickable-image"
-//                     style={{ width: "100%" }}
-//                     autoPlay
-//                     loop
-//                     muted
-//                     playsInline
-//                     poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
-//                   />
-//                   <div className="image_caption">
-//                     <p>
-//                       Hero section of the MVP version, designed and built to
-//                       meet project objectives - professional yet warm, built
-//                       using lightweight Lottie animation{" "}
-//                     </p>
-//                   </div>
+// <video
+// src="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+// className="clickable-image"
+// style={{ width: "100%" }}
+// autoPlay
+// loop
+// muted
+// playsInline
+// poster="/img/portfolio/case-study/Vet_Home_Desktop_anim_sm.mp4"
+// />
+// <div className="image_caption">
+// <p>
+// Hero section of the MVP version, designed and built to
+// meet project objectives - professional yet warm, built
+// using lightweight Lottie animation{" "}
+// </p>
+// </div>
 
 // }
 
-/* Updated Vet case study*/
+/_ Updated Vet case study_/
 
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -788,21 +789,21 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const AnimationProjectCaseStudy = () => {
-  const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [lightboxImg, setLightboxImg] = useState("");
+const [lightboxOpen, setLightboxOpen] = useState(false);
+const [lightboxImg, setLightboxImg] = useState("");
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+useEffect(() => {
+window.scrollTo(0, 0);
+}, []);
 
-  const handleImageClick = (imgSrc) => {
-    setLightboxImg(imgSrc);
-    setLightboxOpen(true);
-  };
+const handleImageClick = (imgSrc) => {
+setLightboxImg(imgSrc);
+setLightboxOpen(true);
+};
 
-  return (
-    <div className="shane_tm_all_wrap">
-      <Header />
+return (
+<div className="shane_tm_all_wrap">
+<Header />
 
       {/* Hero section */}
       <div className="shane_tm_hero_case_study" id="animationproject-home">
@@ -867,7 +868,7 @@ const AnimationProjectCaseStudy = () => {
                             and welcoming bussiness catering to local pets
                             owners.
                           </p>
-                          <br />
+
                           <p>
                             I led the project end-to-end—acting as the sole
                             UX/UI Designer, Motion Designer, and Front-End
@@ -893,7 +894,7 @@ const AnimationProjectCaseStudy = () => {
                                 April – May 2025
                               </span>
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -905,7 +906,7 @@ const AnimationProjectCaseStudy = () => {
                             <p className="timeline-fine">
                               UX/UI Design, Motion Design, Web Development
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -919,7 +920,7 @@ const AnimationProjectCaseStudy = () => {
                               Effects
                             </p>
 
-                            <br />
+
                           </div>
                         </div>
                       </div>
@@ -978,7 +979,7 @@ const AnimationProjectCaseStudy = () => {
                     clearly communicate services, introduce the care team, and
                     support mobile users—especially for appointment inquiries.
                   </p>
-                  {/* <br /> */}
+                  {/*   */}
                   <p
                     style={{
                       marginTop: "18px",
@@ -1008,7 +1009,7 @@ const AnimationProjectCaseStudy = () => {
                 </div>
               </div>
 
-            
+
             </div>
           </div>
         </div>
@@ -1468,9 +1469,9 @@ const AnimationProjectCaseStudy = () => {
                       Live website delivered in 5 weeks
                     </li>
                     <li>
-                      Average 
+                      Average
                     </li>
-                    
+
                   </ul> */}
                 </div>
                 <div
@@ -1595,7 +1596,8 @@ const AnimationProjectCaseStudy = () => {
       )}
       <Footer />
     </div>
-  );
+
+);
 };
 
 export default AnimationProjectCaseStudy;

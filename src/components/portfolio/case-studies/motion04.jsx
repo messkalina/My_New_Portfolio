@@ -77,11 +77,10 @@ const Motion04 = () => {
                 <div className="top">
                   <p className="text">
                     Video ad created for social media
-                    <br />
                     <strong> Tools:</strong> Adobe After Effects, Photoshop,
                     Illustrator
                   </p>
- <div
+                  <div
                     className="styleframes-grid"
                     style={{
                       display: "grid",
@@ -128,7 +127,7 @@ const Motion04 = () => {
                       }}
                     />
                   </div>
-                  <br />
+
                   <h3 className="title">Key Work</h3>
 
                   <ul className="case-study-list">

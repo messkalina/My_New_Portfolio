@@ -26,9 +26,9 @@ const Slider = () => {
         <div className="background">
           <div
             className="image"
-            style={{ backgroundImage: "url(/img/hero_animation_new.gif)",
-              filter: 'grayscale(100%)'
-             
+            style={{
+              backgroundImage: "url(/img/hero_animation_new.gif)",
+              filter: "grayscale(100%)",
             }}
           ></div>
         </div>
@@ -40,9 +40,8 @@ const Slider = () => {
               <div className="subheading">
                 <div className="name_wrap">
                   <h3>
-                    Smart Design <br />
-                    <span> with an edge </span>{" "}
-                    <span></span>
+                    Smart Design
+                    <span> with an edge </span> <span></span>
                   </h3>
                 </div>
               </div>

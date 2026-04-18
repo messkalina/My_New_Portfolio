@@ -4,13 +4,9 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion05 = () => {
- 
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-
 
   return (
     <div className="shane_tm_all_wrap">
@@ -22,19 +18,19 @@ const Motion05 = () => {
         <div className="container">
           <div>
             <div>
-                          <Link to="/?tab=motion#portfolio" className="back_button">
-                            ← PORTFOLIO / ANIMATION
-                          </Link>
-                          <Link
-                            to="/case-study/motion06"
-                            className="back_button"
-                            style={{
-                              float: "right",
-                            }}
-                          >
-                            NEXT PROJECT →
-                          </Link>
-                        </div>
+              <Link to="/?tab=motion#portfolio" className="back_button">
+                ← PORTFOLIO / ANIMATION
+              </Link>
+              <Link
+                to="/case-study/motion06"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
+                NEXT PROJECT →
+              </Link>
+            </div>
           </div>
           <div className="content">
             <div
@@ -80,11 +76,13 @@ const Motion05 = () => {
               >
                 <div className="top">
                   <p className="text">
-                   TV ad created when I worked as a motion designer for hotel search engine app Trivago.<br />
-                  <strong> Tools:</strong> Adobe After Effects, Photoshop, Illustrator
+                    TV ad created when I worked as a motion designer for hotel
+                    search engine app Trivago.
+                    <strong> Tools:</strong> Adobe After Effects, Photoshop,
+                    Illustrator
                   </p>
-                 
-                 <div
+
+                  <div
                     className="styleframes-grid"
                     style={{
                       display: "grid",
@@ -112,37 +110,40 @@ const Motion05 = () => {
                         // borderRadius: "12px",
                       }}
                     />
-                    </div>
+                  </div>
 
-                    <br />
                   <h3 className="title">Key Work</h3>
-                  
-                    <ul className="case-study-list">
-                      <li>
-                        <strong>Motion graphics design</strong> 
-                      </li>
-                      <li>
-                        <strong>Video editing</strong> 
-                      </li>
-                      <li>
-                        <strong>Video post production</strong> 
-                      </li>
-                  
-                    </ul>
-                    <div className="case-study-video" style={{ marginTop: "56px", marginBottom: "56px", textAlign: "center" }}>
-                        <iframe
-                            width="800"
-                            height="450"
-                            src="https://www.youtube.com/embed/ajRg-LXQ8Jg"
-                            title="Trivago TV Ad"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            style={{ maxWidth: "100%", borderRadius: "12px" }}
-                        ></iframe>
-                    </div>
-                   
-                  
+
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>Motion graphics design</strong>
+                    </li>
+                    <li>
+                      <strong>Video editing</strong>
+                    </li>
+                    <li>
+                      <strong>Video post production</strong>
+                    </li>
+                  </ul>
+                  <div
+                    className="case-study-video"
+                    style={{
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                      textAlign: "center",
+                    }}
+                  >
+                    <iframe
+                      width="800"
+                      height="450"
+                      src="https://www.youtube.com/embed/ajRg-LXQ8Jg"
+                      title="Trivago TV Ad"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      style={{ maxWidth: "100%", borderRadius: "12px" }}
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -150,8 +151,7 @@ const Motion05 = () => {
         </div>
       </div>
 
-      
- <div className="shane_tm_section">
+      <div className="shane_tm_section">
         <div className="container">
           <div
             style={{
@@ -175,7 +175,7 @@ const Motion05 = () => {
           </div>
         </div>
       </div>
-      
+
       <Footer />
     </div>
   );

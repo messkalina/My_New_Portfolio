@@ -85,15 +85,14 @@ const AnimationProjectCaseStudy = () => {
                           <p>
                             Tierpraxis Lebensberg is a veterinary practice in
                             Vienna, Austria that launched its digital presence
-                            alongside its physical opening. <br />
-                            <br />I adopted a two-phase delivery strategy to
-                            balance business velocity with long-term growth.
-                            First I designed an Minimal Viable Product (MVP)
-                            version of the website to meet the immediate launch
-                            deadline and drive conversions through an automated
-                            booking channel. In the second iteration I focused
-                            on expressing its business values of trust,
-                            credibility, and warmth.
+                            alongside its physical opening. I adopted a
+                            two-phase delivery strategy to balance business
+                            velocity with long-term growth. First I designed an
+                            Minimal Viable Product (MVP) version of the website
+                            to meet the immediate launch deadline and drive
+                            conversions through an automated booking channel. In
+                            the second iteration I focused on expressing its
+                            business values of trust, credibility, and warmth.
                           </p>
                         </div>
                       </div>
@@ -114,7 +113,7 @@ const AnimationProjectCaseStudy = () => {
                                 January – February 2025
                               </span>
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -127,7 +126,7 @@ const AnimationProjectCaseStudy = () => {
                               Product Designer,Motion Designer, Front-end
                               Developer
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -140,8 +139,6 @@ const AnimationProjectCaseStudy = () => {
                               Figma, React.js, CSS, Adobe After Effects, Relume
                               AI, Cursor AI
                             </p>
-
-                            <br />
                           </div>
                         </div>
                       </div>
@@ -175,8 +172,10 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      The first version of the website (MVP) focused on user flow to online-booking to mitigate administrative load from day one. Industry benchmarks show that manual scheduling can consume
-                    up to 40% of a receptionist's day.
+                      The first version of the website (MVP) focused on user
+                      flow to online-booking to mitigate administrative load
+                      from day one. Industry benchmarks show that manual
+                      scheduling can consume up to 40% of a receptionist's day.
                     </p>
                   </div>
                 </div>
@@ -196,7 +195,11 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Launching a new veterinary clinic comes with a tight deadline. The goal was to build a professional website that was ready to go the moment the doors opened. We needed a site that introduced the medical team and services clearly, but most importantly, handled the "admin heavy lifting."
+                    Launching a new veterinary clinic comes with a tight
+                    deadline. The goal was to build a professional website that
+                    was ready to go the moment the doors opened. We needed a
+                    site that introduced the medical team and services clearly,
+                    but most importantly, handled the "admin heavy lifting."
                   </p>
                   <p
                     style={{
@@ -208,17 +211,23 @@ const AnimationProjectCaseStudy = () => {
 
                   <ul className="case-study-list" style={{ marginTop: "10px" }}>
                     <li>
-                      <strong>Saving time through automation:</strong> Moving as many bookings as possible to a digital system so the team could focus on the animals, not the phone.
+                      <strong>Saving time through automation:</strong> Moving as
+                      many bookings as possible to a digital system so the team
+                      could focus on the animals, not the phone.
                     </li>
                     <li>
-                      <strong>Mobile-first experience for local search:</strong> Over 70% of local traffic comes from "near me" searches on phones, so the mobile experience had to be seamless.
+                      <strong>Mobile-first experience for local search:</strong>{" "}
+                      Over 70% of local traffic comes from "near me" searches on
+                      phones, so the mobile experience had to be seamless.
                     </li>
                     <li>
-                      <strong>Values:</strong> The website needed to feel like a trusted neighbor—warm and welcoming for pet owners, but professional enough to show they are medical experts.
+                      <strong>Values:</strong> The website needed to feel like a
+                      trusted neighbor—warm and welcoming for pet owners, but
+                      professional enough to show they are medical experts.
                     </li>
                     <li>
-                      <strong>Simple to manage:</strong> Tech must be scalable and easy to maintain.
-
+                      <strong>Simple to manage:</strong> Tech must be scalable
+                      and easy to maintain.
                     </li>
                   </ul>
                   <div
@@ -262,15 +271,16 @@ const AnimationProjectCaseStudy = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                
                   <ul className="case-study-list">
                     <li>
-                      <strong>Iterative Workflow:</strong> I focused on shipping a
-                    functional "Minimum Viable Product" to quickly get the
-                    business website live and validate it via user testing. In the next itaration I focused on communicating brand values of trust and warmth. The
-                    goal was to meet bussiness requirements, gather insights and
-                    move to design iterations that then would be easily
-                    implemented by external developer.
+                      <strong>Iterative Workflow:</strong> I focused on shipping
+                      a functional "Minimum Viable Product" to quickly get the
+                      business website live and validate it via user testing. In
+                      the next itaration I focused on communicating brand values
+                      of trust and warmth. The goal was to meet bussiness
+                      requirements, gather insights and move to design
+                      iterations that then would be easily implemented by
+                      external developer.
                     </li>
                     <li>
                       <strong>Community Testing:</strong> I validated the MVP
@@ -302,18 +312,15 @@ const AnimationProjectCaseStudy = () => {
                   <div className="image_caption">
                     <p>
                       1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design.
-                      <br />
-                      Since user testing revealed the MVP felt too "clinical"
-                      and cold I moved toward a warmer, high-fidelity color
-                      palette and more sophisticated typographic choices in the
-                      refinement phase.
+                      3. Second iteration of the design. Since user testing
+                      revealed the MVP felt too "clinical" and cold I moved
+                      toward a warmer, high-fidelity color palette and more
+                      sophisticated typographic choices in the refinement phase.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
@@ -338,13 +345,12 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Instead of starting from a blank canvas I used an
-                    AI-powered workflow to move from client brief to a Minimal
-                    Viable Product (MVP) in a quick, efficient way. The goal was
-                    to validate the design quickly via user testing and moving
-                    to iterations.
+                    Instead of starting from a blank canvas I used an AI-powered
+                    workflow to move from client brief to a Minimal Viable
+                    Product (MVP) in a quick, efficient way. The goal was to
+                    validate the design quickly via user testing and moving to
+                    iterations.
                   </p>
-                  
                 </div>
               </div>
 
@@ -481,26 +487,26 @@ const AnimationProjectCaseStudy = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <video
-                        src="/img/portfolio/case-study/Vet_Mobile_Terminbuchungsm.mp4"
-                        style={{
-                          width: "100%",
-                          maxHeight: "80vh",
-                          objectFit: "contain",
-                        }}
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                      />
-                      <div className="image_caption">
-                        <p>
-                          <strong>Main user flow</strong> leads visitors to an
-                          automated booking system to save time. By pairing this
-                          with a video tour of the practice, we made the
-                          experience feel more personal and trustworthy, leading
-                          to a higher number of confirmed appointments.{" "}
-                        </p>
-                      </div>
+                    src="/img/portfolio/case-study/Vet_Mobile_Terminbuchungsm.mp4"
+                    style={{
+                      width: "100%",
+                      maxHeight: "80vh",
+                      objectFit: "contain",
+                    }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />
+                  <div className="image_caption">
+                    <p>
+                      <strong>Main user flow</strong> leads visitors to an
+                      automated booking system to save time. By pairing this
+                      with a video tour of the practice, we made the experience
+                      feel more personal and trustworthy, leading to a higher
+                      number of confirmed appointments.{" "}
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -519,26 +525,27 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Once the MVP was live and receiving positive feedback, I moved to a
-                    high-fidelity iteration to maximize "the pop factor" and
-                    trust.
+                    Once the MVP was live and receiving positive feedback, I
+                    moved to a high-fidelity iteration to maximize "the pop
+                    factor" and trust.
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Color Palette:</strong> I evolved the palette from a simple Green
-                      (Primary)/ White (neutral) to a more sophisticated Green
-                      (Primary), Orange (Action/CTA) and pastel gradients to
-                      balance authority with friendliness and less steryle look.
+                      <strong>Color Palette:</strong> I evolved the palette from
+                      a simple Green (Primary)/ White (neutral) to a more
+                      sophisticated Green (Primary), Orange (Action/CTA) and
+                      pastel gradients to balance authority with friendliness
+                      and less steryle look.
                     </li>
                     <li>
-                      <strong>Social Proof:</strong> Integrated Google Review widgets and
-                      testimonials to capitalize on the practice’s early
-                      success.
+                      <strong>Social Proof:</strong> Integrated Google Review
+                      widgets and testimonials to capitalize on the practice’s
+                      early success.
                     </li>
                     <li>
-                      <strong>Art Direction:</strong> I provided creative direction for new
-                      photography and a video tour to ensure the digital space
-                      felt as premium as the physical venue.
+                      <strong>Art Direction:</strong> I provided creative
+                      direction for new photography and a video tour to ensure
+                      the digital space felt as premium as the physical venue.
                     </li>
                   </ul>
                 </div>
@@ -568,7 +575,8 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The project moved beyond a foundational MVP to become high-converting digital presence.
+                    The project moved beyond a foundational MVP to become
+                    high-converting digital presence.
                   </p>
                   <ul className="case-study-list">
                     <li>

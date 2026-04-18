@@ -89,7 +89,7 @@ const DesignTrendCaseStudy = () => {
                             users complete goals by tackling "task paralysis"
                             and emotional overwhelm.
                           </p>
-                          <br />
+
                           <p>
                             I joined the project early in{" "}
                             <strong>MVP development</strong> and worked closely
@@ -120,7 +120,7 @@ const DesignTrendCaseStudy = () => {
                                 December 2024 – March 2025
                               </span>
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -133,7 +133,7 @@ const DesignTrendCaseStudy = () => {
                               UX/UI Design, coding prompt engineering, UX
                               Research, User Testing
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -146,8 +146,6 @@ const DesignTrendCaseStudy = () => {
                               Figma, Flutter, Cursor AI, Adobe Illustrator,
                               After Effects, Lyssna
                             </p>
-
-                            <br />
                           </div>
                         </div>
                       </div>
@@ -195,7 +193,8 @@ const DesignTrendCaseStudy = () => {
                     </li>
                     <li>
                       <strong>Lack of immediate reward:</strong> traditional
-                      to-do lists are not motivating in the long run - they feel like chore rather than tool to visualise progress
+                      to-do lists are not motivating in the long run - they feel
+                      like chore rather than tool to visualise progress
                     </li>
                   </ul>
                   <p>
@@ -206,20 +205,20 @@ const DesignTrendCaseStudy = () => {
                     <strong> onboarding flow.</strong>
                   </p>
                   <div
-                  className="shane_tm_button"
-                  // style={{ marginTop: "20px" }}
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <a
-                    href="#outcome"
-                    style={{
-                      textDecoration: "none",
-                    }}
+                    className="shane_tm_button"
+                    // style={{ marginTop: "20px" }}
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
                   >
-                    <span className="button-text">Jump to Outcome</span>
-                  </a>
-                </div>
+                    <a
+                      href="#outcome"
+                      style={{
+                        textDecoration: "none",
+                      }}
+                    >
+                      <span className="button-text">Jump to Outcome</span>
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -293,7 +292,7 @@ const DesignTrendCaseStudy = () => {
                     To design for neurodiversity, I moved beyond standard UI
                     patterns and looked into the behavioral science of focus.
                   </p>
-                  <br />
+
                   <p>
                     <strong>1. Primary & Field Research</strong>
                   </p>
@@ -316,7 +315,7 @@ const DesignTrendCaseStudy = () => {
                       feel like "work" rather than progress
                     </li>
                   </ul>
-              
+
                   <p>
                     <strong>2. Secondary Research & Benchmarking</strong>
                   </p>
@@ -340,7 +339,6 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
                 </div>
-                
               </div>
               {/* End right */}
             </div>
@@ -443,7 +441,7 @@ const DesignTrendCaseStudy = () => {
                     <strong>Onboarding content comprehension</strong> and{" "}
                     <strong>Cognitive load during Quest setup</strong>.
                   </p>
-                  <br />
+
                   <p>
                     <strong>
                       Insights and iterations drawn from the testing:
@@ -522,7 +520,6 @@ const DesignTrendCaseStudy = () => {
                 </div>
                 <div
                   className="text"
-                 
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
@@ -534,45 +531,65 @@ const DesignTrendCaseStudy = () => {
                   post-launch research:
                   <ul className="case-study-list">
                     <li>
-                      <strong><string 
-                       style={{
-                    fontSize: "1.5em", // 200% bigger (2 * 1em)
-                    color: "#6e41e2", // Brand violet color
-                    fontWeight: "bold", // Making it stand out
-                    // display: "inline-block", // Ensuring it behaves as a block
-                    marginBottom: "0", // Add some spacing below
-                  }}>82% </string> 
-             <string 
-                       style={{
-                        fontSize: "1.1em",
-                         color: "#6e41e2"
-                       }}>
-                  Quest Activation Rate:</string></strong> Users
-                      successfully completing their first AI-generated
+                      <strong>
+                        <string
+                          style={{
+                            fontSize: "1.5em", // 200% bigger (2 * 1em)
+                            color: "#6e41e2", // Brand violet color
+                            fontWeight: "bold", // Making it stand out
+                            // display: "inline-block", // Ensuring it behaves as a block
+                            marginBottom: "0", // Add some spacing below
+                          }}
+                        >
+                          82%{" "}
+                        </string>
+                        <string
+                          style={{
+                            fontSize: "1.1em",
+                            color: "#6e41e2",
+                          }}
+                        >
+                          Quest Activation Rate:
+                        </string>
+                      </strong>{" "}
+                      Users successfully completing their first AI-generated
                       breakdown.
                     </li>
                     <li>
-                      <strong><string className="highlight"
-                    
-                  >+22%</string>{" "}<string className="highlight_label"
-                    
-                      >{" "}D30 Retention:</string></strong> Highlighting the
-                      long-term value of the gamified reward loop.
+                      <strong>
+                        <string className="highlight">+22%</string>{" "}
+                        <string className="highlight_label">
+                          {" "}
+                          D30 Retention:
+                        </string>
+                      </strong>{" "}
+                      Highlighting the long-term value of the gamified reward
+                      loop.
                     </li>
                     <li>
-                      <strong><string 
-                       style={{
-                    fontSize: "1.5em", // 200% bigger (2 * 1em)
-                    color: "#6e41e2", // Brand violet color
-                    fontWeight: "bold", // Making it stand out
-                    // display: "inline-block", // Ensuring it behaves as a block
-                    marginBottom: "0", // Add some spacing below
-                  }}>2x </string> <string 
-                       style={{
-                        fontSize: "1.1em",
-                         color: "#6e41e2"
-                       }}>Task Completion:</string></strong> Compared to pre-using
-                      Buhdi for more than half of the users being researched.
+                      <strong>
+                        <string
+                          style={{
+                            fontSize: "1.5em", // 200% bigger (2 * 1em)
+                            color: "#6e41e2", // Brand violet color
+                            fontWeight: "bold", // Making it stand out
+                            // display: "inline-block", // Ensuring it behaves as a block
+                            marginBottom: "0", // Add some spacing below
+                          }}
+                        >
+                          2x{" "}
+                        </string>{" "}
+                        <string
+                          style={{
+                            fontSize: "1.1em",
+                            color: "#6e41e2",
+                          }}
+                        >
+                          Task Completion:
+                        </string>
+                      </strong>{" "}
+                      Compared to pre-using Buhdi for more than half of the
+                      users being researched.
                     </li>
                   </ul>
                 </div>

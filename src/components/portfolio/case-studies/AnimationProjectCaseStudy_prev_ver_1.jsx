@@ -84,7 +84,7 @@ const AnimationProjectCaseStudy = () => {
                             and welcoming bussiness catering to local pets
                             owners.
                           </p>
-                          <br />
+
                           <p>
                             I led the project end-to-end—acting as the sole
                             UX/UI Designer, Motion Designer, and Front-End
@@ -110,7 +110,7 @@ const AnimationProjectCaseStudy = () => {
                                 April – May 2025
                               </span>
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -122,7 +122,7 @@ const AnimationProjectCaseStudy = () => {
                             <p className="timeline-fine">
                               UX/UI Design, Motion Design, Web Development
                             </p>
-                            <br />
+
                             <p
                               style={{
                                 fontWeight: 600,
@@ -135,8 +135,6 @@ const AnimationProjectCaseStudy = () => {
                               Figma, React.js, Relume AI, Cursor AI, After
                               Effects
                             </p>
-
-                            <br />
                           </div>
                         </div>
                       </div>
@@ -199,7 +197,7 @@ const AnimationProjectCaseStudy = () => {
                     clearly communicate services, introduce the care team, and
                     support mobile users—especially for appointment inquiries.
                   </p>
-                  {/* <br /> */}
+                  {/*   */}
                   <p
                     style={{
                       marginTop: "18px",
@@ -252,16 +250,16 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I bypassed restrictive website
-                    builders like Wix or WordPress in favor of a custom React.js
-                    build. This gave us total control over performance and
-                    eliminated monthly subscription fees for the client.
-                    I focused on shipping a
+                    I bypassed restrictive website builders like Wix or
+                    WordPress in favor of a custom React.js build. This gave us
+                    total control over performance and eliminated monthly
+                    subscription fees for the client. I focused on shipping a
                     functional "Minimum Viable Product" to quickly get the
-                    business website live and validate it via user testing. In the second phase I designed  The
-                    goal was to meet bussiness requirements, gather insights and
-                    move to design iterations that then would be easily
-                    implemented by external developer.{" "}
+                    business website live and validate it via user testing. In
+                    the second phase I designed The goal was to meet bussiness
+                    requirements, gather insights and move to design iterations
+                    that then would be easily implemented by external
+                    developer.{" "}
                   </p>
                   <ul className="case-study-list">
                     <li>
