@@ -10,6 +10,18 @@ const tabListContent = [
   {
     porftoliItems: [
 
+        {
+        img: "/img/portfolio/Port_thumbnail_Buhdi.png",
+        title: "Buhdi – Mindful ADHD Support App",
+        meta: "UX Challenges for ADHD Users",
+        portfolioLink: "/case-study/buhdi-app",
+      },
+   {
+        img: "/img/portfolio/Port_thumbnail_orbit.png",
+        title: "Orbit Health Website Redesign",
+        meta: "Designing Website for Complex Digital Products",
+        portfolioLink: "/case-study/orbit-website",
+      },
          {
         img: "/img/portfolio/Vet_hero_image02cm.png", // Keep as fallback
         title: "Veterinary Practice Website",
@@ -18,24 +30,14 @@ const tabListContent = [
         // video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property
       },
 
-      {
-        img: "/img/portfolio/Port_thumbnail_Buhdi.png",
-        title: "Buhdi – Mindful ADHD Support App",
-        meta: "UX Challenges for ADHD Users",
-        portfolioLink: "/case-study/buhdi-app",
-      },
-      {
-        img: "/img/portfolio/Port_thumbnail_orbit.png",
-        title: "Orbit Health Website Redesign",
-        meta: "Designing Website for Complex Digital Products",
-        portfolioLink: "/case-study/orbit-website",
-      },
-      {
-        img: "/img/portfolio/Port_thumbnail_Unlimitix.png",
-        title: "Unlimitix – AI Nutrition Coach",
-        meta: " Beta Version App Redesign for Better UX",
-        portfolioLink: "/case-study/unlimitix-app",
-      },
+    
+   
+      // {
+      //   img: "/img/portfolio/Port_thumbnail_Unlimitix.png",
+      //   title: "Unlimitix – AI Nutrition Coach",
+      //   meta: " Beta Version App Redesign for Better UX",
+      //   portfolioLink: "/case-study/unlimitix-app",
+      // },
     ],
   },
   {
