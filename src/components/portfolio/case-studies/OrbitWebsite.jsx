@@ -30,7 +30,7 @@ const MyStoryCaseStudy = () => {
                 ← PORTFOLIO / UX/UI PROJECTS
               </Link>
               <Link
-                to="/case-study/unlimitix-app"
+                to="/case-study/vet-website"
                 className="back_button"
                 style={{
                   float: "right",
