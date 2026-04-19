@@ -82,6 +82,7 @@ const AnimationProjectCaseStudy = () => {
                 loop
                 muted
                 playsInline
+                controls
                 poster="/img/portfolio/case-study/Tierpraxis_Desktop_website_scroll.mp4"
               />
 
@@ -92,20 +93,27 @@ const AnimationProjectCaseStudy = () => {
                     <div className="about_inner">
                       <div className="left">
                         <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                > <span>Overview</span>
+                          className="shane_tm_title"
+                          data-aos="fade-up"
+                          data-aos-duration="1200"
+                        >
+                          {" "}
+                          <span>Overview</span>
                           <p>
                             Tierpraxis Lebensberg is a veterinary practice in
                             Vienna, Austria that launched its digital presence
-                            alongside its physical opening. I adopted a
-                            two-phase delivery strategy to balance business
-                            velocity with long-term growth. First I designed an
-                            Minimal Viable Product (MVP) version of the website
-                            to meet the immediate launch deadline and drive
-                            conversions through an automated booking channel. In
-                            the second iteration I focused on expressing its
+                            alongside its physical opening.
+                          </p>
+                          <p>
+                            I adopted a two-phase delivery strategy to balance
+                            business velocity with long-term growth. First I
+                            designed an Minimal Viable Product (MVP) version of
+                            the website to meet the immediate launch deadline
+                            and drive conversions through an automated booking
+                            channel.
+                          </p>
+                          <p>
+                            In the second iteration I focused on expressing its
                             business values of trust, credibility, and warmth.
                           </p>
                         </div>
@@ -114,44 +122,25 @@ const AnimationProjectCaseStudy = () => {
                       <div className="right">
                         <div data-aos="fade-up" data-aos-duration="1200">
                           <div className="text">
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Timeline:{" "}
-                            </p>
                             <p>
-                              <span className="timeline-fine">
-                                January – February 2025
-                              </span>
+                              <strong>Timeline:</strong>
+                              <br />
+                              January – February 2025
                             </p>
 
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Role:{" "}
-                            </p>
-                            <p className="timeline-fine">
-                              Product Designer,Motion Designer, Front-end
-                              Developer
+                            <p>
+                              <strong>Role:</strong>
+                              <br />
+                              UX/UI/ motion designer, front-end developer
                             </p>
 
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Scope:{" "}
+                            <p>
+                              <strong>Scope:</strong>
+                              <br />
                             </p>
                             <p className="timeline-fine">
-                              Figma, React.js, CSS, Adobe After Effects, Relume
-                              AI, Cursor AI
+                              UX/UI design, strategy, motion graphics, React.js
+                              development, usability testing
                             </p>
                           </div>
                         </div>
@@ -201,7 +190,7 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Balancing speed and quality of project</h3>
+                  <h3>Balancing speed and a quality</h3>
                 </div>
                 <div
                   className="text"
@@ -511,6 +500,7 @@ const AnimationProjectCaseStudy = () => {
                     loop
                     muted
                     playsInline
+                    controls
                   />
                   <div className="image_caption">
                     <p>

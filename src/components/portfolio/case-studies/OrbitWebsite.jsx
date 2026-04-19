@@ -115,46 +115,30 @@ const MyStoryCaseStudy = () => {
                       <div className="right">
                         <div data-aos="fade-up" data-aos-duration="1200">
                           <div className="text">
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Timeline:{" "}
-                            </p>
                             <p>
-                              <span className="timeline-fine">
+                              <strong>Timeline: </strong>
+                             <br />
+                            
                                 April 2024 – September 2024
-                              </span>
+                              
                             </p>
 
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Role:{" "}
-                            </p>
-                            <p className="timeline-fine">
-                              Sole UX/UI Designer (UX Research, UX/UI Design, UX
-                              writing)
+                            <p>
+                              
+                           
+                               <strong>Role:</strong> <br />
+                           
+                              Sole UX/UI designer
                             </p>
 
-                            <p
-                              style={{
-                                fontWeight: 600,
-                                fontSize: "14px",
-                              }}
-                            >
-                              Scope:{" "}
+                            <p>
+                              
+      
+                              <strong>Scope:</strong>
+                              <br />
+                              UX research, strategy, design & writing, UI design, prototyping
                             </p>
-                            <p className="timeline-fine">
-                              Discovery, stakeholder alignment, content and IA
-                              strategy, mid‑fidelity wireframes for full
-                              website, interactive prototype
-                            </p>
+                           
                           </div>
                         </div>
                       </div>
@@ -646,7 +630,7 @@ const MyStoryCaseStudy = () => {
             </div>
             <div className="container">
               <div className="content">
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/portfolio/case-study/websites_comparison_before_after_cm.png"
                     alt="Redesign Pages Comparison"
