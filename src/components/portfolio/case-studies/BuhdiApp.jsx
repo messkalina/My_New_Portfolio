@@ -88,10 +88,10 @@ const DesignTrendCaseStudy = () => {
                     <div className="about_inner">
                       <div className="left">
                         <div
-                          className="text"
-                          data-aos="fade-up"
-                          data-aos-duration="1200"
-                        >
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                > <span>Overview</span>
                           <p>
                             Buhdi is an{" "}
                             <strong>AI-powered productivity app</strong>{" "}

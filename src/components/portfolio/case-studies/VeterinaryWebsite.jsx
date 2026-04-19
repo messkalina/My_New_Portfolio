@@ -92,10 +92,10 @@ const AnimationProjectCaseStudy = () => {
                     <div className="about_inner">
                       <div className="left">
                         <div
-                          className="text"
-                          data-aos="fade-up"
-                          data-aos-duration="1200"
-                        >
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                > <span>Overview</span>
                           <p>
                             Tierpraxis Lebensberg is a veterinary practice in
                             Vienna, Austria that launched its digital presence
