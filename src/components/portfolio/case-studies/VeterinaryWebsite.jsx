@@ -46,8 +46,22 @@ const AnimationProjectCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Delivering fast launch and strategic growth</h1>
+              <div className="subtitle-container">
+                <h1>
+                  Delivering fast launch
+                  <br /> and strategic growth
+                </h1>
+              </div>
               <h4>Veterinary Practise Website</h4>
+              <div className="subtitle-container">
+                <div className="subtitle-content">
+                  <h5>
+                    How combining a high-speed launch with automated booking
+                    helps a new veterinary clinic save time and build trust with
+                    local pet owners.{" "}
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>

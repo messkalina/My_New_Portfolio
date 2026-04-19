@@ -45,9 +45,18 @@ const DesignTrendCaseStudy = () => {
               className="shane_tm_title"
               data-aos="fade-up"
               data-aos-duration="1200"
-            >
-              <h1>Solving behavioral barriers to drive engagement</h1>
+            > <div className="subtitle-container">
+              
+              <h1>Solving behavioral barriers<br />to drive engagement</h1>
+              </div>
               <h4>Buhdi – Mindful ADHD Support App</h4>
+               <div className="subtitle-container">
+                <div className="subtitle-content">
+                  <h5>
+                    How turning overwhelming to-do list into a gamified Quest helps people with ADHD beat procrastination.
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
