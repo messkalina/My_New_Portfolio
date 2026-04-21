@@ -264,9 +264,7 @@ h6 {
 // }
 
 .shane_tm_title h1 {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  width: 100% !important;
+font-size: 5em;
   text-align: center;
 }
 
@@ -728,19 +726,31 @@ padding: 0;
 /*	04) SHANE HERO
 /*---------------------------------------------------*/
 .shane_tm_hero {
+  /* 1. This part centers your text */
+  display: flex;
+  flex-direction: column;    /* Keeps items stacked vertically (e.g., Title over Button) */
+  justify-content: center;   /* Centers vertically */
+  align-items: center;       /* Centers horizontally */
+  text-align: center;        /* Centers lines of text */
+
+  /* 2. Setup and cleanup */
   width: 100%;
   height: 100vh;
-  float: left;
-  clear: both;
   position: relative;
   overflow: hidden;
+  /* Removed float: left and clear: both */
+
+  /* 3. Tablet View */
   @media screen and (max-width: 1040px) {
-    height: 60vh;
+    height: 100vh;
   }
+
+  /* 4. Mobile View */
   @media screen and (max-width: 767px) {
     height: auto;
     padding: 240px 0;
   }
+
   .container {
     position: static;
   }
@@ -783,10 +793,12 @@ padding: 0;
 }
 
 .shane_tm_hero .content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding-right: 20px;
+  position: relative; 
+  top: 0;
+  transform: none;
+  width: 100%;
+
+  
   
   .subheading_wrap {
     width: 100%;
@@ -813,7 +825,7 @@ padding: 0;
   width: 100%;
   height: auto;
   clear: both;
-  float: left;
+ text-align: center;
   margin-bottom: 0;
 }
 .shane_tm_hero .job_wrap {
@@ -822,18 +834,18 @@ padding: 0;
   clear: both;
   float: left;
 }
-.shane_tm_hero .content h3 {
-  position: relative;
-  font-size: 82px;
-  font-family: "Noto Sans";
-  text-transform: uppercase;
+.shane_tm_hero .content h1 {
+
+
+  // text-transform: uppercase;
   font-weight: 900;
-  color: #000; // Solid black color like "Iwaszko"
-  line-height: 1;
+
+  line-height: 1em;
   display: inline-block;
-  overflow: hidden;
-  max-width: 50vw;
-  text-align: left;
+  // overflow: hidden;
+  // max-width: 50vw;
+  // text-align: left;
+  margin-top: 0.3em;
   
   @media screen and (max-width: 1040px) {
     font-size: 35px;
@@ -1081,12 +1093,11 @@ body.loaded .overlay_effect:after {
 .shane_tm_title {
   width: 100%;
   height: auto;
-  clear: both;
-  float: left;
+  
 }
 .shane_tm_title h3 {
   // font-weight: 800;
-  font-family: "Noto Sans";
+ 
 }
 .shane_tm_title span {
   display: inline-block;
@@ -1096,7 +1107,7 @@ body.loaded .overlay_effect:after {
   font-weight:  300;
   font-size: 1em;
   color: #ffffff;
-  font-family: "Noto Sans";
+ 
   letter-spacing: 0.12em;
   margin-bottom: 15px;
   margin-right: 16px;
@@ -3205,49 +3216,47 @@ body.dark .shane_tm_settings .cursor li .svg,
 }
 @media (max-width: 767px) {
   .shane_tm_hero .content {
-    padding-right: 0px;
+    // padding-right: 0px;
     width: 100%;
     z-index: 5;
     
-    h3 {
-      color: #fff !important; // Pure white text on mobile
-    }
+   
     
-    .job {
-      color: #fff !important; // Pure white text on mobile
-      margin-top: 5px;
-    }
+    // .job {
+    //   color: #fff !important; // Pure white text on mobile
+    //   margin-top: 5px;
+    // }
     
-    .text {
-      color: #fff !important; // Pure white text on mobile
-    }
+    // .text {
+    //   color: #fff !important; // Pure white text on mobile
+    // }
     
-    .shane_tm_title {
-      span {
-        color: #fff !important; // Pure white text on mobile
-        background-color: rgba(255, 255, 255, 0.2) !important;
-      }
+    // .shane_tm_title {
+    //   span {
+    //     color: #fff !important; // Pure white text on mobile
+    //     background-color: rgba(255, 255, 255, 0.2) !important;
+    //   }
       
-      h3 {
-        color: #fff !important; // Pure white text on mobile
-      }
+    //   h3 {
+    //     color: #fff !important; // Pure white text on mobile
+    //   }
       
-      p {
-        color: #fff !important; // Pure white text on mobile
-      }
-    }
+    //   p {
+    //     color: #fff !important; // Pure white text on mobile
+    //   }
+    // }
   }
   
   .shane_tm_hero {
     position: relative;
     &::before {
       content: "";
-      position: absolute;
-      left: 0;
+     
+      
       top: 0;
       width: 100%;
       height: 100%;
-      background: rgba(14, 11, 20, 0.807);
+
       z-index: 1; 
     }
   }
@@ -3789,7 +3798,7 @@ body.intro .loader_line:after {
   position: relative;
   font-size: 72px;
   font-family: "Noto Sans";
-  text-transform: uppercase;
+  // text-transform: uppercase;
   font-weight: 900;
   color: #000;
   line-height: 1.2;
@@ -3817,35 +3826,34 @@ body.intro .loader_line:after {
 // Mobile specific styles for case study hero
 @media (max-width: 767px) {
   .shane_tm_case_study_hero .content {
-    padding-right: 0px;
+    
     width: 100%;
     z-index: 5;
     
     h3 {
-      color: #fff !important; // Pure white text on mobile
+     
     }
     
     .job {
-      color: #fff !important; // Pure white text on mobile
+   
       margin-top: 5px;
     }
     
     .text {
-      color: #fff !important; // Pure white text on mobile
+    
     }
     
     .shane_tm_title {
       span {
-        color: #fff !important; // Pure white text on mobile
-        background-color: rgba(255, 255, 255, 0.2) !important;
+        
       }
       
-      h3 {
-        color: #fff !important; // Pure white text on mobile
+      h1 {
+      line-height: 2em;
       }
       
       p {
-        color: #fff !important; // Pure white text on mobile
+       
       }
     }
   }
@@ -3899,14 +3907,9 @@ body.intro .loader_line:after {
   }
   
   .shane_tm_title {
-    margin-bottom: 30px;
+
     
-    h3 {
-      font-weight: 800;
-      font-family: "Noto Sans";
-      color: #000; // Dark text on desktop
-    }
-    
+ 
     p span {
       display: inline-block;
       background-color: rgba(0, 0, 0, 0.05);
@@ -3937,17 +3940,10 @@ body.intro .loader_line:after {
     padding: 100px 0 40px 0;
     
     .content {
-      text-align: left !important; // LEFT ALIGNED
+     
       
       .shane_tm_title {
-        p span {
-          color: #333 !important; // DARK TEXT
-          background-color: rgba(0, 0, 0, 0.05) !important;
-        }
-        
-        h3 {
-          color: #000 !important; // DARK TEXT
-        }
+      
       }
       
       .hero_description {
