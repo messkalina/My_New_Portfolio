@@ -1201,7 +1201,7 @@ transform: translateY(2px);
   ul.react-tabs__tab-list {
     li {
       text-decoration: none;
-      color: #767676;
+      // color: #767676;
       font-family: "Noto Sans";
       font-weight: 500;
       cursor: pointer;
@@ -4261,12 +4261,12 @@ body.intro .loader_line:after {
 }
 .shane_tm_portfolio .portfolio_list .portfolio_title_always span.portfolio-meta-description,
 .portfolio-meta-description {
-  line-height: 1em !important;
+  line-height: 1.2em !important;
   display: inline-block !important;
   max-width: 100% !important;
- 
-  font-weight: 500 !important;
-  font-size: 1em !important;
+ color:#29272e;
+  font-weight: 600 !important;
+  font-size: 0.9em !important;
 }
 
 @media (max-width: 767px) {

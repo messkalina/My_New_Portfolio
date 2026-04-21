@@ -218,17 +218,11 @@ const Portfolio = () => {
                                   >
                                     {val.title}
                                   </h6>
-                                  <span
-                                    className="portfolio-meta-description"
-                                    style={{
-                                      // color: "#4749ad",
-                                      fontSize: "0.9rem",
-                                      fontWeight: "300",
-                                      marginTop: "0px",
-                                    }}
+                                  <p
+                                    
                                   >
                                     {val.meta}
-                                  </span>
+                                  </p>
                                 </div>
                               </div>
                             </li>

@@ -137,8 +137,7 @@ const AnimationProjectCaseStudy = () => {
                             <p>
                               <strong>Scope:</strong>
                               <br />
-                            </p>
-                            <p className="timeline-fine">
+                         
                               UX/UI design, strategy, motion graphics, React.js
                               development, usability testing
                             </p>
