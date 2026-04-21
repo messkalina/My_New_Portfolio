@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Header from "../../components/header/Header";
-import Slider from "../../components/slider/SliderTwo";
+import Slider from "../../components/slider/SliderFour";
 import About from "../../components/about/AboutTwo";
 import Portfolio from "../../components/portfolio/PortfolioTwo";
 import Skills from "../../components/skills/SkillsTwo";

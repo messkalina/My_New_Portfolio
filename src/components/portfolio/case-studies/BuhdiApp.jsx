@@ -114,22 +114,21 @@ const DesignTrendCaseStudy = () => {
                           <div className="text">
                             <p>
                               <strong>Timeline:</strong>
-                            </p>
-                            <p>
-                              <span className="timeline-fine">
+                            <br />
+                           
                                 December 2024 – March 2025
-                              </span>
+                              
                             </p>
 
                             <p>
                               <strong>Role:</strong>
-                            </p>
-                            <p className="timeline-fine">Lead UX/UI Designer</p>
+                           <br />
+                           Lead UX/UI Designer</p>
 
                             <p>
                               <strong>Scope:</strong>
-                            </p>
-                            <p className="timeline-fine">
+                            <br />
+                            
                               Quest Mode design, onboarding design, UX/UI
                               design, user interviews and usability testing
                             </p>

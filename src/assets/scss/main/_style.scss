@@ -35,14 +35,15 @@ html {
 body {
   font-family: 'Noto Sans', Arial, sans-serif;
   font-size: 17px;
-  line-height: 1.5em;                   
-  // letter-spacing: 0.5px;
+  line-height: 1.55em;                   
+  letter-spacing: 0.01em;
+  
   word-wrap: break-word;
   font-weight: 400;
   background-color: #fff;
   
   overflow: hidden;
-  color: #4a4848;
+  color: #6a6969;
 }
 svg {
   fill: currentcolor;
@@ -104,6 +105,7 @@ h6 {
   
   line-height: 1.2;
   font-family: "Noto Sans";
+   color: #29272e;
  
 }
 
@@ -111,20 +113,20 @@ h1 {
   font-weight: 800;
   font-size: 66px;
   letter-spacing: 0px;
-  color: #29272e;
+
 }
 h2 {
   font-weight: 800;
   font-size: 50px;
   letter-spacing: -0.5px;
-  color: #29272e;
+  
 }
 h3 {
   font-weight: 800;
   font-size: 36px;
   letter-spacing: -0.5px;
   font-weight: 700;
-  color: #29272e;
+ 
 }
 h4 {
   font-size: 1.4em;
@@ -132,7 +134,7 @@ h4 {
   font-weight: 700;
   line-height: 1.2;
   text-align: center;
-  color: #757474;
+  color: #6a6969;
   margin-top: 1.5rem;
   margin-bottom: 2em;
   text-transform: uppercase;
@@ -143,9 +145,8 @@ h5 {
   letter-spacing: 0px;
   font-weight: 300;
   // font-style: italic;
-  line-height: 1.4;
-
-// color: #141316;
+  line-height: 1.2;
+color: #6a6969;
 
 }
 h6 {
@@ -246,7 +247,7 @@ h6 {
   margin-top: 16px !important;
   margin-left: 16px;
    text-align: left !important;
-   color: #616060 !important;
+  
    max-width: 100%; 
   box-sizing: border-box;
   
@@ -3496,9 +3497,9 @@ body.intro .loader_line:after {
     margin: 0 auto;
   }
   .shane_tm_hero .content .job {
-    font-weight: 700;
+    // font-weight: 700;
     font-size: 35px;
-    font-family: "Noto Sans";
+    // font-family: "Noto Sans";
     color: #fff;
     padding: 8px 0px 10px;
     @media (max-width: 1040px) {
@@ -4263,7 +4264,7 @@ body.intro .loader_line:after {
   line-height: 1em !important;
   display: inline-block !important;
   max-width: 100% !important;
-  color:#716e78;
+ 
   font-weight: 500 !important;
   font-size: 1em !important;
 }
