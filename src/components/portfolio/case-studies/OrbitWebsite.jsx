@@ -679,12 +679,12 @@ const MyStoryCaseStudy = () => {
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
             <Link
-              to="/case-study/unlimitix-app"
-              className="back_button"
-              style={{
-                float: "right",
-              }}
-            >
+                to="/case-study/vet-website"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
               NEXT PROJECT →
             </Link>
           </div>

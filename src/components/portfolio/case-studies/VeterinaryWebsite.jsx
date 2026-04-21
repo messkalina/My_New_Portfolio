@@ -651,12 +651,12 @@ const AnimationProjectCaseStudy = () => {
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
             <Link
-              to="/case-study/buhdi-app"
-              className="back_button"
-              style={{
-                float: "right",
-              }}
-            >
+                to="/case-study/buhdi-app"
+                className="back_button"
+                style={{
+                  float: "right",
+                }}
+              >
               NEXT PROJECT →
             </Link>
           </div>
