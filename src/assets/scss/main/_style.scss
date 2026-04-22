@@ -137,7 +137,7 @@ h4 {
   color: #6a6969;
   margin-top: 1.5rem;
   margin-bottom: 2em;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 h5 {
@@ -839,14 +839,19 @@ padding: 0;
 
   // text-transform: uppercase;
   font-weight: 900;
-
-  line-height: 1em;
+  font-size: 6em;
+  line-height: 1.1em;
   display: inline-block;
   // overflow: hidden;
   // max-width: 50vw;
   // text-align: left;
   margin-top: 0.3em;
-  
+  margin-bottom: 0.5em;
+  letter-spacing: -4px;
+
+  .shane_tm_hero .content h1 span {
+  color: #7C3AED;
+  }
   @media screen and (max-width: 1040px) {
     font-size: 35px;
   }
@@ -858,6 +863,29 @@ padding: 0;
     font-size: 28px;
   }
 }
+
+.shane_tm_hero .content h3 {
+   font-style: normal;
+font-weight: 600;
+font-size: 1.6em;
+line-height: 0.7em;
+
+letter-spacing: 2.6px;
+text-transform: uppercase;
+color: #6a6969;
+  }
+.shane_tm_hero .content h4 {
+   font-style: normal;
+font-weight: 500;
+font-size: 1.6em;
+line-height: 0.1em;
+
+letter-spacing: 1px;
+// text-transform: lowercase;
+color: #7C3AED;
+  }
+
+
 .shane_tm_hero .content h3 span {
   color: transparent;
   -webkit-text-stroke: 2px rgb(124, 58, 237);
@@ -1100,17 +1128,10 @@ body.loaded .overlay_effect:after {
  
 }
 .shane_tm_title span {
-  display: inline-block;
-  background-color: #000;
-  text-transform: uppercase;
-  padding: 2px 10px;
-  font-weight:  300;
-  font-size: 1em;
-  color: #ffffff;
+
+  color: #7C3AED;
+
  
-  letter-spacing: 0.12em;
-  margin-bottom: 15px;
-  margin-right: 16px;
 }
 .shane_tm_about .right .text {
   width: 100%;
@@ -3122,7 +3143,16 @@ body.dark .shane_tm_settings .cursor li .svg,
     display: block;
   }
   .shane_tm_hero .content h3 {
-    font-size: 48px;
+   font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 16px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 2.4px;
+text-transform: uppercase;
   }
   .shane_tm_about .about_inner {
     flex-direction: column;

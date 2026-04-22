@@ -36,10 +36,12 @@ const Slider = () => {
             {/* <div className=".shane_tm_title">
               <span>UX/UI & Motion Designer </span>
               </div> */}
+              
+              
+              
+              <h1>Bringing <span>ideas</span> to live<br />for web and mobile</h1>
+              <h3>Kalina Iwaszko</h3>
               <h4>UX/UI & Motion Designer</h4>
-              <h5>Kalina Iwaszko</h5>
-              {/* <h6>Smart design with an edge</h6> */}
-              <h1>Bringing ideas to live for web and mobile</h1>
               
             </div>
           </div>
