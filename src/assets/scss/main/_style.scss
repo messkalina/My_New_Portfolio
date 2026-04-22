@@ -137,7 +137,7 @@ h4 {
   color: #6a6969;
   margin-top: 1.5rem;
   margin-bottom: 2em;
-  // text-transform: uppercase;
+  text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 h5 {
@@ -866,17 +866,17 @@ padding: 0;
 
 .shane_tm_hero .content h3 {
    font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 1.6em;
 line-height: 0.7em;
 
-letter-spacing: 2.6px;
-text-transform: uppercase;
+letter-spacing: 1px;
+// text-transform: uppercase;
 color: #6a6969;
   }
 .shane_tm_hero .content h4 {
    font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 1.6em;
 line-height: 0.1em;
 
@@ -1130,6 +1130,9 @@ body.loaded .overlay_effect:after {
 .shane_tm_title span {
 
   color: #7C3AED;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
 
  
 }

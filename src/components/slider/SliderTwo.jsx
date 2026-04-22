@@ -39,11 +39,30 @@ const Slider = () => {
               
               
               
-              <h1>Bringing <span>ideas</span> to live<br />for web and mobile</h1>
+              <h1>Bringing <span style={{ textTransform:"lowercase" }}>ideas</span> to live<br />for web and mobile</h1>
               <h3>Kalina Iwaszko</h3>
               <h4>UX/UI & Motion Designer</h4>
               
             </div>
+             <button
+                className="shane_tm_button fade-in-delay"
+                style={{
+                  opacity: showButton ? 1 : 0,
+                  transition: "opacity 0.8s ease",
+
+                  border: "none",
+                  cursor: "pointer",
+                  padding: 0,
+                  backgroundColor: "transparent",
+                }}
+                onClick={() => {
+                  document.getElementById("portfolio").scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                <span className="button-text">See my work</span>
+              </button>
           </div>
           </div>
           {/* End content */}
