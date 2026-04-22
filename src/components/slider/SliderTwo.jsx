@@ -61,7 +61,9 @@ const Slider = () => {
                   });
                 }}
               >
-                <span className="button-text">See my work</span>
+                <span className="button-text">See my work </span>
+                {/* <span className="arrow-icon">↓</span> */}
+                
               </button>
           </div>
           </div>

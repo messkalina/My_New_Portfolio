@@ -219,6 +219,13 @@ h6 {
   background-color: #7C3AED;
 }
 
+.arrow-icon {
+  // font-size: 1.2rem;   /* Make the arrow bigger or smaller */
+  font-family:'Arial', sans-serif ;    /* Nudge it down if it looks too high */
+  font-weight: 800;
+    /* Sometimes standard fonts have better looking arrows */
+}
+
 .shane_tm_all_wrap {
   width: 100%;
   height: auto;

@@ -4,7 +4,7 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 import { useNavigate, useLocation } from "react-router-dom"; // Add useLocation
 
 // Change the tabList array
-const tabList = ["UX/UI Design", "Animation"];
+const tabList = ["UX/UI Design", "Motion Graphics"];
 
 const tabListContent = [
   {
@@ -113,7 +113,7 @@ const Portfolio = () => {
               <div className="title_flex">
                 <div className="left">
                   <span>Portfolio</span>
-                  <h3>Selected works</h3>
+                  <h3>Selected work</h3>
                 </div>
               </div>
             </div>
