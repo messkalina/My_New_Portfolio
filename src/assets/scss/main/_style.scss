@@ -962,10 +962,20 @@ body.loaded .overlay_effect:after {
   }
 }
 .shane_tm_down {
-  position: absolute;
+ position: relative;
   z-index: 7;
-  bottom: 50px;
-  display: none;
+  bottom: 200px;
+  
+  /* 1. This pushes the box to the far right */
+  align-self: flex-end; 
+  
+  /* 2. This aligns any text inside the box to the right */
+  text-align: right;
+
+  /* Remember to change this from 'none' to see it! */
+  display: block;
+  margin-right: 20px;
+
 }
 .shane_tm_down.loaded {
   display: block;
