@@ -66,6 +66,25 @@ const Slider = () => {
                 
               </button>
           </div>
+  <div className="container">
+              <div className="content">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/new_hero_illustration white_2cm.gif"
+                    alt="Redesign Pages Comparison"
+                    className="clickable-image"
+                    style={{
+                      width: "100%",
+                      cursor: "pointer",
+                      marginTop: "4em",
+                    }}
+                    
+                  />
+                </div>
+                
+              </div>
+            </div>
+
           </div>
           {/* End content */}
           <div>
