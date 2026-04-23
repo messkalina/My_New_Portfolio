@@ -23,28 +23,31 @@ const Slider = () => {
   return (
     <div className="slider-two">
       <div className="shane_tm_hero_case_study" id="designtrend-home">
-      <div className="shane_tm_hero" id="home" data-style="one">
-        {/* End .background */}
+        <div className="shane_tm_hero" id="home" data-style="one">
+          {/* End .background */}
 
-        <div className="container">
-          <div className="content">
-            <div
-              className="shane_tm_title"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-            {/* <div className=".shane_tm_title">
+          <div className="container">
+            <div className="content">
+              <div
+                className="shane_tm_title"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                {/* <div className=".shane_tm_title">
               <span>UX/UI & Motion Designer </span>
               </div> */}
-              
-              
-              
-              <h1>Bringing <span style={{ textTransform:"lowercase" }}>ideas</span> to live<br />for web and mobile</h1>
-              <h3>Kalina Iwaszko</h3>
-              <h4>UX/UI & Motion Designer</h4>
-              
-            </div>
-             <button
+
+                <h1>
+                  Bringing{" "}
+                  <span style={{ textTransform: "lowercase" }}>ideas</span> to
+                  live
+                  <br />
+                  for web and mobile
+                </h1>
+                <h3>Kalina Iwaszko</h3>
+                <h4>UX/UI & Motion Designer</h4>
+              </div>
+              <button
                 className="shane_tm_button fade-in-delay"
                 style={{
                   opacity: showButton ? 1 : 0,
@@ -64,27 +67,21 @@ const Slider = () => {
               >
                 <span className="button-text">See my work </span>
                 {/* <span className="arrow-icon">↓</span> */}
-                
               </button>
-          </div>
-  <div className="container">
+            </div>
+            <div className="container">
               <div className="content">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/new_hero_illustration white_2cm.gif"
+                    src="/img/new_hero_illustration white_2cm.png"
                     alt="hero illustration"
-                  
                     style={{
-                      objectFit:"fit"
-                  
+                      objectFit: "fit",
                     }}
-                    
                   />
                 </div>
-                
               </div>
             </div>
-
           </div>
           {/* End content */}
           <div>
