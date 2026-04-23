@@ -78,7 +78,7 @@ const Slider = () => {
                     style={{
                       objectFit: "contain",
                       width: "100%",
-                      maxHeight: "400px",
+                      maxHeight: "350px",
                       display: "block",
                       margin: "0 auto"
                     }}
