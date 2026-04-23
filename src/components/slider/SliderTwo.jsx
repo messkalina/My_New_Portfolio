@@ -36,7 +36,8 @@ const Slider = () => {
                 {/* <div className=".shane_tm_title">
               <span>UX/UI & Motion Designer </span>
               </div> */}
-
+     <h3>Kalina Iwaszko</h3>
+                <h4>UX/UI & Motion Designer</h4>
                 <h1>
                   Bringing{" "}
                   <span style={{ textTransform: "lowercase" }}>ideas</span> to
@@ -44,8 +45,7 @@ const Slider = () => {
                   <br />
                   for web and mobile
                 </h1>
-                <h3>Kalina Iwaszko</h3>
-                <h4>UX/UI & Motion Designer</h4>
+           
               </div>
               <button
                 className="shane_tm_button fade-in-delay"
@@ -73,10 +73,14 @@ const Slider = () => {
               <div className="content">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/new_hero_illustration white_2cm.png"
+                    src="/img/new_hero_illustration white_3cm.gif"
                     alt="hero illustration"
                     style={{
-                      objectFit: "fit",
+                      objectFit: "contain",
+                      width: "100%",
+                      maxHeight: "400px",
+                      display: "block",
+                      margin: "0 auto"
                     }}
                   />
                 </div>
