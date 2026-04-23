@@ -49,6 +49,7 @@ const Slider = () => {
                 style={{
                   opacity: showButton ? 1 : 0,
                   transition: "opacity 0.8s ease",
+                  marginTop: "0rem",
 
                   border: "none",
                   cursor: "pointer",
@@ -71,12 +72,11 @@ const Slider = () => {
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
                     src="/img/new_hero_illustration white_2cm.gif"
-                    alt="Redesign Pages Comparison"
-                    className="clickable-image"
+                    alt="hero illustration"
+                  
                     style={{
-                      width: "100%",
-                      cursor: "pointer",
-                      marginTop: "4em",
+                      objectFit:"fit"
+                  
                     }}
                     
                   />
