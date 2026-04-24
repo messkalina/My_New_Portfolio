@@ -71,7 +71,7 @@ const AboutTwo = () => {
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
-                    <Social />
+                    {/* <Social /> */}
                   </div>
                 </div>
 

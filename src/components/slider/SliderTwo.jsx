@@ -41,10 +41,10 @@ const Slider = () => {
                 <h1>
                   Bringing{" "}
                   <span style={{ textTransform: "lowercase" }}>ideas</span> to
-                  live
-                  <br />
-                  for web and mobile
-                </h1>
+                  live for web and mobile</h1>
+                 
+                  
+              
            
               </div>
               <button
