@@ -19,6 +19,7 @@ setLightboxOpen(true);
 };
 
 return (
+
 <div className="shane_tm_all_wrap">
 <Header />
 
@@ -34,9 +35,7 @@ return (
               <Link
                 to="/case-study/buhdi-app"
                 className="back_button"
-                style={{
-                  float: "right",
-                }}
+
               >
                 NEXT PROJECT →
               </Link>
@@ -802,6 +801,7 @@ setLightboxOpen(true);
 };
 
 return (
+
 <div className="shane_tm_all_wrap">
 <Header />
 
@@ -817,9 +817,7 @@ return (
               <Link
                 to="/case-study/buhdi-app"
                 className="back_button"
-                style={{
-                  float: "right",
-                }}
+
               >
                 NEXT PROJECT →
               </Link>

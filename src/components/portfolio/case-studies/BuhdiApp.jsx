@@ -29,11 +29,7 @@ const DesignTrendCaseStudy = () => {
               <Link to="/#portfolio" className="back_button">
                 ← PORTFOLIO / UX/UI PROJECTS
               </Link>
-              <Link
-                to="/case-study/orbit-website"
-                className="back_button"
-               
-              >
+              <Link to="/case-study/orbit-website" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>
@@ -43,15 +39,17 @@ const DesignTrendCaseStudy = () => {
               className="shane_tm_title"
               data-aos="fade-up"
               data-aos-duration="1200"
-            > <div className="subtitle-container">
-              
-              <h1>Solving behavioral barriers to drive engagement</h1>
+            >
+              {" "}
+              <div className="subtitle-container">
+                <h1>Solving behavioral barriers to drive engagement</h1>
               </div>
               <h4>Buhdi – Mindful ADHD Support App</h4>
-               <div className="subtitle-container">
+              <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How turning overwhelming to-do list into a gamified Quest helps people with ADHD beat procrastination.
+                    How turning overwhelming to-do list into a gamified Quest
+                    helps people with ADHD beat procrastination.
                   </h5>
                 </div>
               </div>
@@ -86,10 +84,12 @@ const DesignTrendCaseStudy = () => {
                     <div className="about_inner">
                       <div className="left">
                         <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                > <span>Overview</span>
+                          className="shane_tm_title"
+                          data-aos="fade-up"
+                          data-aos-duration="1200"
+                        >
+                          {" "}
+                          <span>Overview</span>
                           <p>
                             Buhdi is an{" "}
                             <strong>AI-powered productivity app</strong>{" "}
@@ -112,21 +112,19 @@ const DesignTrendCaseStudy = () => {
                           <div className="text">
                             <p>
                               <strong>Timeline:</strong>
-                            <br />
-                           
-                                December 2024 – March 2025
-                              
+                              <br />
+                              December 2024 – March 2025
                             </p>
 
                             <p>
                               <strong>Role:</strong>
-                           <br />
-                           Lead UX/UI Designer</p>
+                              <br />
+                              Lead UX/UI Designer
+                            </p>
 
                             <p>
                               <strong>Scope:</strong>
-                            <br />
-                            
+                              <br />
                               Quest Mode design, onboarding design, UX/UI
                               design, user interviews and usability testing
                             </p>
@@ -756,13 +754,7 @@ const DesignTrendCaseStudy = () => {
             <Link to="/#portfolio" className="back_button">
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
-            <Link
-                to="/case-study/orbit-website"
-                className="back_button"
-                style={{
-                  float: "right",
-                }}
-              >
+            <Link to="/case-study/orbit-website" className="back_button">
               NEXT PROJECT →
             </Link>
           </div>

@@ -25,17 +25,11 @@ const MyStoryCaseStudy = () => {
         <div></div>
         <div className="container">
           <div>
-            <div>
+            <div className="navigation-wrapper">
               <Link to="/#portfolio" className="back_button">
                 ← PORTFOLIO / UX/UI PROJECTS
               </Link>
-              <Link
-                to="/case-study/vet-website"
-                className="back_button"
-                style={{
-                  float: "right",
-                }}
-              >
+              <Link to="/case-study/vet-website" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>
@@ -117,28 +111,21 @@ const MyStoryCaseStudy = () => {
                           <div className="text">
                             <p>
                               <strong>Timeline: </strong>
-                             <br />
-                            
-                                April 2024 – September 2024
-                              
+                              <br />
+                              April 2024 – September 2024
                             </p>
 
                             <p>
-                              
-                           
-                               <strong>Role:</strong> <br />
-                           
+                              <strong>Role:</strong> <br />
                               Sole UX/UI designer
                             </p>
 
                             <p>
-                              
-      
                               <strong>Scope:</strong>
                               <br />
-                              UX research, strategy, design & writing, UI design, prototyping
+                              UX research, strategy, design & writing, UI
+                              design, prototyping
                             </p>
-                           
                           </div>
                         </div>
                       </div>
@@ -678,13 +665,7 @@ const MyStoryCaseStudy = () => {
             <Link to="/#portfolio" className="back_button">
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
-            <Link
-                to="/case-study/vet-website"
-                className="back_button"
-                style={{
-                  float: "right",
-                }}
-              >
+            <Link to="/case-study/vet-website" className="back_button">
               NEXT PROJECT →
             </Link>
           </div>

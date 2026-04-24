@@ -29,13 +29,7 @@ const DesignTrendCaseStudy = () => {
               <Link to="/#portfolio" className="back_button">
                 ← PORTFOLIO / UX/UI PROJECTS
               </Link>
-              <Link
-                to="/case-study/orbit-website"
-                className="back_button"
-                style={{
-                  float: "right",
-                }}
-              >
+              <Link to="/case-study/orbit-website" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>

@@ -29,13 +29,7 @@ const AnimationProjectCaseStudy = () => {
               <Link to="/#portfolio" className="back_button">
                 ← PORTFOLIO / UX/UI PROJECTS
               </Link>
-              <Link
-                to="/case-study/buhdi-app"
-                className="back_button"
-                style={{
-                  float: "right",
-                }}
-              >
+              <Link to="/case-study/buhdi-app" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>
@@ -137,7 +131,6 @@ const AnimationProjectCaseStudy = () => {
                             <p>
                               <strong>Scope:</strong>
                               <br />
-                         
                               UX/UI design, strategy, motion graphics, React.js
                               development, usability testing
                             </p>
@@ -650,13 +643,7 @@ const AnimationProjectCaseStudy = () => {
             <Link to="/#portfolio" className="back_button">
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
-            <Link
-                to="/case-study/buhdi-app"
-                className="back_button"
-                style={{
-                  float: "right",
-                }}
-              >
+            <Link to="/case-study/buhdi-app" className="back_button">
               NEXT PROJECT →
             </Link>
           </div>
