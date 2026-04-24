@@ -17,7 +17,7 @@ const Motion01 = () => {
         <div></div>
         <div className="container">
           <div>
-            <div>
+            <div className="navigation-wrapper">
               <Link to="/?tab=motion#portfolio" className="back_button">
                 ← PORTFOLIO / ANIMATION
               </Link>
