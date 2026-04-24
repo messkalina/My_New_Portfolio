@@ -3,7 +3,7 @@ import React from "react";
 const SkillsTwo = () => {
   return (
     <>
-      <div className="shane_tm_section" style={{ marginTop: "-100px" }}>
+      <div className="shane_tm_section">
         <div className="shane_tm_skills"
         style={{ backgroundColor: "#fff" }}
         >
@@ -12,7 +12,7 @@ const SkillsTwo = () => {
                     data-aos-duration="1200"
                    
           >
-            <div style={{ textAlign: "center", marginBottom: "80px" }}>
+            <div style={{ textAlign: "center", marginBottom: "80px"}}>
               <h3>My Skills</h3>
             </div>
 

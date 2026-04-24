@@ -53,3 +53,21 @@ const Social = () => {
 };
 
 export default Social;
+
+// Responsive CSS for centering social icons on mobile
+// Add this to your main SCSS/CSS file if not already present
+// If you want it scoped, you can use a styled component or CSS module instead
+
+// Add the following CSS to your main stylesheet (e.g., style.scss or Social.scss):
+/*
+.share {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .share {
+    justify-content: center;
+  }
+}
+*/

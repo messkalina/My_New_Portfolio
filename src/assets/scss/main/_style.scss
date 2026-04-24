@@ -697,13 +697,25 @@ font-size: 5em;
 
 .social {
   display: inline-flex;
+
   gap: 18px; /* Adjust spacing as needed */
   list-style: none;
   padding: 0;
-  margin: 0;
+  
   align-items: center;
-   margin: 0;
-padding: 0;
+ 
+
+}
+
+.share {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .share {
+    justify-content: center;
+  }
 }
 
 // .social li {
