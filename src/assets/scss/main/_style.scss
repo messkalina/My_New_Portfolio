@@ -766,8 +766,9 @@ font-size: 5em;
 
   /* 4. Mobile View */
   @media screen and (max-width: 767px) {
-    height: auto;
-    padding: 240px 0;
+    height: 80vh;
+    padding: 12px 0;
+    
   }
 
   .container {
@@ -873,6 +874,7 @@ font-size: 5em;
   }
   @media screen and (max-width: 1040px) {
     font-size: 3em;
+    letter-spacing: 0px;
   }
   
   @media screen and (max-width: 767px) {

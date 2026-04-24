@@ -23,7 +23,7 @@ const Slider = () => {
   return (
     <div className="slider-two">
       <div className="shane_tm_hero_case_study" id="designtrend-home">
-        <div className="shane_tm_hero" id="home" data-style="one">
+        <div className="shane_tm_hero" id="home">
           {/* End .background */}
 
           <div className="container">
@@ -42,7 +42,7 @@ const Slider = () => {
                   Bringing{" "}
                   <span style={{ textTransform: "lowercase" }}>ideas</span> to
                   live
-                
+                  <br />
                   for web and mobile
                 </h1>
            
