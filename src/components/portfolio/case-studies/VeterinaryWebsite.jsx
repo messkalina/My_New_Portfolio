@@ -631,24 +631,24 @@ const AnimationProjectCaseStudy = () => {
       </div>
 
       {/* Navigation and Footer */}
-      <div>
-        <div className="container">
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              marginTop: "40px",
-            }}
-          >
-            <Link to="/#portfolio" className="back_button">
-              ← PORTFOLIO / UX/UI PROJECTS
-            </Link>
-            <Link to="/case-study/buhdi-app" className="back_button">
-              NEXT PROJECT →
-            </Link>
+      <div className="shane_tm_section">
+            <div className="container">
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  marginBottom: "40px",
+                }}
+              >
+                <Link to="/#portfolio" className="back_button">
+                  ← PORTFOLIO / UX/UI PROJECTS
+                </Link>
+                <Link to="/case-study/orbit-website" className="back_button">
+                  NEXT PROJECT →
+                </Link>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
       {/* Lightbox */}
       {lightboxOpen && (
