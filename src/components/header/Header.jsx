@@ -53,6 +53,19 @@ const Header = () => {
               </li>
             </Scrollspy>
           </div>
+          <div className="logo">
+            <NavLink to="#portfolio" style={{ textDecoration: "none" }}>
+              <p
+                style={{
+                  fontSize: "1.1em",
+                 color: "#29272e",
+                  fontWeight: "bold",
+                }}
+              >
+                Portfolio
+              </p>
+            </NavLink>
+          </div>
           {/* End menu */}
         </div>
       </div>
