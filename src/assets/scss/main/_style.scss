@@ -32,18 +32,28 @@ html {
   padding: 0px;
   margin: 0px;
 }
+:root {
+  --primary-text: #29272e;
+  --secondary-text: #6a6969;
+  --font-main: "Noto Sans", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-main);
+  color: var(--primary-text);
+  line-height: 1.2;
+  margin-top: 0;
+}
 body {
-  font-family: 'Noto Sans', Arial, sans-serif;
+  font-family: var(--font-main);
   font-size: 17px;
-  line-height: 1.55em;                   
+  line-height: 1.55;
   letter-spacing: 0.01em;
-  
-  word-wrap: break-word;
   font-weight: 400;
+  color: var(--secondary-text);
   background-color: #fff;
-  
-  overflow: hidden;
-  color: #6a6969;
+  /* Warning: overflow: hidden on body prevents scrolling! 
+     Remove it if your page needs to scroll. */
 }
 svg {
   fill: currentcolor;
@@ -96,69 +106,49 @@ img.svg {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  
-  line-height: 1.2;
-  font-family: "Noto Sans";
-   color: #29272e;
- 
-}
-
-h1 {
-  font-weight: 800;
-  font-size: 66px;
-  letter-spacing: 0px;
-
-}
-h2 {
-  font-weight: 800;
-  font-size: 50px;
-  letter-spacing: -0.5px;
-  
-}
-h3 {
-  font-weight: 800;
-  font-size: 36px;
-  letter-spacing: -0.5px;
-  font-weight: 700;
- 
-}
-h4 {
-  font-size: 1.4em;
-  // letter-spacing: 1.1px;
-  font-weight: 700;
-  line-height: 1.2;
+h1 { font-size: 66px; font-weight: 800; letter-spacing: 0px; }
+h2 { font-size: 50px; font-weight: 800; letter-spacing: -0.5px; }
+h3 { font-size: 36px; font-weight: 700; letter-spacing: -0.5px; }
+h4 { 
+  font-size: 1.4rem; 
+  font-weight: 700; 
+  text-transform: uppercase; 
+  color: var(--secondary-text); 
   text-align: center;
-  color: #6a6969;
-  margin-top: 1.5rem;
-  margin-bottom: 2em;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  margin-bottom: 1.5em; 
 }
-h5 {
-  font-size: 1.5em;
-  letter-spacing: 0px;
-  font-weight: 300;
-  // font-style: italic;
-  line-height: 1.2;
-color: #6a6969;
+h5 { font-size: 1.5rem; font-weight: 300; color: var(--secondary-text); }
+h6 { font-size: 1.3rem; font-weight: 700; }
 
+/* --- Tablet (Max-width: 1024px) --- */
+@media (max-width: 1024px) {
+  h1 { font-size: 48px; }
+  h2 { font-size: 38px; }
+  h3 { font-size: 30px; }
+  h4 { font-size: 1.2rem; }
+  h5 { font-size: 1.3rem; }
 }
-h6 {
-  font-size: 1.3em;
-  letter-spacing: 0px;
-  font-weight: 700;
+
+/* --- Mobile (Max-width: 768px) --- */
+@media (max-width: 768px) {
+  body { font-size: 16px; } /* Slightly smaller base text */
   
-  line-height: 1.2;
- 
-  //  letter-spacing: -0.1px;
+  h1 { 
+    font-size: 3rem; /* Essential to prevent horizontal scroll */
+    letter-spacing: -0.02em; 
+    line-height: 1; /* Tighter line height for mobile */
+  }
+  h2 { font-size: 28px; }
+  h3 { font-size: 24px; }
+  
+  h4 { 
+    font-size: 1.1rem; 
+    margin-bottom: 1em; /* Tighten margins for smaller screens */
+  }
+  
+  h5 { font-size: 1.2rem; }
+  h6 { font-size: 1.1rem; }
 }
-
  p {margin-bottom: 1em;
   
 
@@ -271,7 +261,7 @@ h6 {
 // }
 
 .shane_tm_title h1 {
-font-size: 5em;
+
   text-align: center;
 }
 
