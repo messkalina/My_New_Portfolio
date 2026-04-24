@@ -194,13 +194,43 @@ h6 { font-size: 1.3rem; font-weight: 700; }
   margin-bottom: 0;
 }
 
+/* The container that holds both buttons */
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between; /* Pushes one left, one right */
+  align-items: center;           /* Keeps them vertically aligned */
+  width: 100%;
+  margin-bottom: 40px;
+  gap: 10px;                     /* Prevents them from touching if names are long */
+}
+
+/* Base button styles */
 .back_button {
   text-decoration: none;
-  color: inherit;
-  font-weight: 500;
-  transition: color 0.2s;
-  // padding: 10px 20px;
-  margin-bottom: 44px;
+  font-weight: 600;
+  color: #6e41e2;
+  font-size: 15px;
+  white-space: nowrap;           /* Forces text to stay on one line */
+}
+
+/* Tablet Scaling */
+@media (max-width: 1024px) {
+  .back_button {
+    font-size: 13px;
+  }
+}
+
+/* Mobile Scaling */
+@media (max-width: 768px) {
+  .back_button {
+    font-size: 11px; /* Slightly smaller to fit the long "PORTFOLIO" text */
+  }
+  
+  /* Optional: If the text is still too long for very small phones, 
+     you can hide the extra words on mobile */
+  .back_button {
+    letter-spacing: -0.2px; 
+  }
 }
 
 .back_button:hover {
