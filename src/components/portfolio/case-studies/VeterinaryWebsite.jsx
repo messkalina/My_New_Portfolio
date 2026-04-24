@@ -25,7 +25,7 @@ const AnimationProjectCaseStudy = () => {
         <div></div>
         <div className="container">
           <div>
-            <div>
+            <div className="navigation-wrapper">
               <Link to="/#portfolio" className="back_button">
                 ← PORTFOLIO / UX/UI PROJECTS
               </Link>
