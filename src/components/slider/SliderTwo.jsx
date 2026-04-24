@@ -41,7 +41,7 @@ const Slider = () => {
                 <h1>
                   Bringing{" "}
                   <span style={{ textTransform: "lowercase" }}>ideas</span> to
-                  live for web and mobile</h1>
+                  life for web and mobile</h1>
                  
                   
               
