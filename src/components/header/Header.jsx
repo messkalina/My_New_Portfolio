@@ -53,19 +53,14 @@ const Header = () => {
               </li>
             </Scrollspy>
           </div>
-          <div className="logo">
-            <NavLink to="#portfolio" style={{ textDecoration: "none" }}>
-              <p
-                style={{
-                  fontSize: "1.1em",
-                 color: "#29272e",
-                  fontWeight: "bold",
-                  lineHeight: "0",
-                }}
-              >
-                Portfolio
-              </p>
-            </NavLink>
+         <div className="logo">
+            
+              <img
+                src="/img/logo/new/Personal_Logo_black_name.svg"
+             
+                style={{ height: "24px", width: "auto", display: "block", visibility: "hidden" }} // Adjust height as needed to match nav buttons
+              />
+           
           </div>
           {/* End menu */}
         </div>
