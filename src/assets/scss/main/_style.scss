@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 /*
 /*	Copyright (c) 2021 ib-themes
@@ -1210,6 +1211,22 @@ body.loaded .overlay_effect:after {
   margin-top: 3rem;
   display: inline-block; /* Change from flex to inline-block */
   align-self: flex-start; /* Align to the left in flex containers */
+}
+@media (max-width: 1024px) {
+  .shane_tm_button {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .shane_tm_button .button-text {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .shane_tm_button .button-text {

@@ -130,7 +130,7 @@ const ContactForm = () => {
               of this website.
             </label>
           </div>
-          <div className="tokyo_tm_button">
+          <div className="shane_tm_button">
             <button
               type="submit"
               className="shane_tm_button"
