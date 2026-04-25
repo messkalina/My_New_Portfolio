@@ -909,19 +909,18 @@ h6 { font-size: 1.3rem; font-weight: 700; }
 .shane_tm_hero .content h3 {
    font-style: normal;
 font-weight: 500;
-font-size: 1.1em;
-line-height: 0.7em;
-
+font-size: 1em;
+line-height: 1.2em;
 letter-spacing: 1px;
-// text-transform: uppercase;
+text-transform: uppercase;
 color: #6a6969;
   }
 .shane_tm_hero .content h4 {
    font-style: normal;
 font-weight: 400;
-font-size: 1.1em;
-line-height: 0.1em;
-margin: 1em;
+font-size: 1em;
+line-height: 1.2em;
+margin-bottom: 1.2em;
 
 letter-spacing: 1px;
 // text-transform: lowercase;
@@ -930,11 +929,12 @@ color: #7C3AED;
 
 
 .shane_tm_hero .content h3 span {
-  color: transparent;
-  -webkit-text-stroke: 2px rgb(124, 58, 237);
-  padding-left: 2px;
+  // color: transparent;
+  // -webkit-text-stroke: 2px rgb(124, 58, 237);
+  // padding-left: 2px;
+  font-weight: 400;
   @media screen and (max-width: 767px) {
-    -webkit-text-stroke: 1px #fff;
+    // -webkit-text-stroke: 1px #fff;
   }
 }
 .shane_tm_hero .content .job {
@@ -3217,14 +3217,14 @@ body.dark .shane_tm_settings .cursor li .svg,
   .shane_tm_hero .content h3 {
    font-style: normal;
 font-weight: 500;
-font-size: 24px;
-line-height: 16px;
+// font-size: 24px;
+// line-height: 16px;
 
 display: block;
 align-items: center;
 text-align: center;
 letter-spacing: 2.4px;
-text-transform: uppercase;
+// text-transform: uppercase;
   }
   .shane_tm_about .about_inner {
     flex-direction: column;
@@ -3583,7 +3583,7 @@ body.intro .loader_line:after {
     clip-path: none !important;
   }
   .shane_tm_hero .content h3 span {
-    -webkit-text-stroke: 1px #fff;
+    // -webkit-text-stroke: 1px #fff;
   }
   .shane_tm_hero .content h3 {
     color: #fff;
@@ -3628,7 +3628,7 @@ body.intro .loader_line:after {
   }
   @media screen and (max-width: 767px) {
     .shane_tm_hero .content h3 {
-      font-size: 44px;
+      // font-size: 44px;
     }
     .shane_tm_hero .content .job {
       font-size: 25px;

@@ -36,8 +36,8 @@ const Slider = () => {
                 {/* <div className=".shane_tm_title">
               <span>UX/UI & Motion Designer </span>
               </div> */}
-                <h3>Kalina Iwaszko</h3>
-                <h4>UX/UI & Motion Designer</h4>
+                <h3>Kalina Iwaszko <span>UX/UI & Motion Designer</span></h3>
+                {/* <h4>UX/UI & Motion Designer</h4> */}
                 <h1>
                   Bringing{" "}
                   <span style={{ textTransform: "lowercase" }}>ideas</span> to
