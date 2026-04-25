@@ -36,38 +36,36 @@ const Slider = () => {
                 {/* <div className=".shane_tm_title">
               <span>UX/UI & Motion Designer </span>
               </div> */}
-     <h3>Kalina Iwaszko</h3>
+                <h3>Kalina Iwaszko</h3>
                 <h4>UX/UI & Motion Designer</h4>
                 <h1>
                   Bringing{" "}
                   <span style={{ textTransform: "lowercase" }}>ideas</span> to
-                  life for web and mobile</h1>
-                 
-                  
-              
-           
+                  life for web and mobile
+                </h1>
               </div>
-              <button
-                className="shane_tm_button fade-in-delay"
-                style={{
-                  opacity: showButton ? 1 : 0,
-                  transition: "opacity 0.8s ease",
-                  marginTop: "0rem",
-
-                  border: "none",
-                  cursor: "pointer",
-                  padding: 0,
-                  backgroundColor: "transparent",
-                }}
-                onClick={() => {
-                  document.getElementById("portfolio").scrollIntoView({
-                    behavior: "smooth",
-                  });
-                }}
-              >
-                <span className="button-text">See my work </span>
-                {/* <span className="arrow-icon">↓</span> */}
-              </button>
+              {!isMobile && (
+                <button
+                  className="shane_tm_button fade-in-delay"
+                  style={{
+                    opacity: showButton ? 1 : 0,
+                    transition: "opacity 0.8s ease",
+                    marginTop: "0rem",
+                    border: "none",
+                    cursor: "pointer",
+                    padding: 0,
+                    backgroundColor: "transparent",
+                  }}
+                  onClick={() => {
+                    document.getElementById("portfolio").scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
+                >
+                  <span className="button-text">See my work </span>
+                  {/* <span className="arrow-icon">↓</span> */}
+                </button>
+              )}
             </div>
             <div className="container">
               <div className="content">
@@ -80,9 +78,32 @@ const Slider = () => {
                       width: "100%",
                       maxHeight: "350px",
                       display: "block",
-                      margin: "0 auto"
+                      margin: "0 auto",
                     }}
                   />
+                  {isMobile && (
+                    <button
+                      className="shane_tm_button fade-in-delay"
+                      style={{
+                        opacity: showButton ? 1 : 0,
+                        transition: "opacity 0.8s ease",
+                        marginTop: "1.5rem",
+                        border: "none",
+                        cursor: "pointer",
+                        padding: 0,
+                        backgroundColor: "transparent",
+                        width: "100%",
+                      }}
+                      onClick={() => {
+                        document.getElementById("portfolio").scrollIntoView({
+                          behavior: "smooth",
+                        });
+                      }}
+                    >
+                      <span className="button-text">See my work </span>
+                      {/* <span className="arrow-icon">↓</span> */}
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
