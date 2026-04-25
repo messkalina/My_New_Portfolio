@@ -24,6 +24,7 @@ const DesignTrendCaseStudy = () => {
       <div className="shane_tm_hero_case_study" id="designtrend-home">
         <div></div>
         <div className="container">
+          
           <div>
             <div className="navigation-wrapper">
               <Link to="/#portfolio" className="back_button">

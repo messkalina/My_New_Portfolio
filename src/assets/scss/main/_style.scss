@@ -1214,7 +1214,7 @@ body.loaded .overlay_effect:after {
 }
 @media (max-width: 1024px) {
   .shane_tm_button {
-    display: flex !important;
+    display: inline-block !important;
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
