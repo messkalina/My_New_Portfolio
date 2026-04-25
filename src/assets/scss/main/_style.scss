@@ -767,13 +767,15 @@ h6 { font-size: 1.3rem; font-weight: 700; }
   flex-direction: column;    /* Keeps items stacked vertically (e.g., Title over Button) */
   justify-content: center;   /* Centers vertically */
   align-items: center;       /* Centers horizontally */
-  text-align: center;        /* Centers lines of text */
+  text-align: center;
+  height: 100vh;
+      /* Centers lines of text */
 
   /* 2. Setup and cleanup */
   width: 100%;
   height: 100vh;
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
   /* Removed float: left and clear: both */
 
   /* 3. Tablet View */
