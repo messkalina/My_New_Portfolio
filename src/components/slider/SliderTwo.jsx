@@ -36,6 +36,17 @@ const Slider = () => {
                 {/* <div className=".shane_tm_title">
               <span>UX/UI & Motion Designer </span>
               </div> */}
+              <p
+                style={{
+                  fontSize: "0.8em",
+                 color: "color: #6a6969",
+                  fontWeight: "500",
+                  lineHeight: "0",
+                  letterSpacing: "0.6px",
+                }}
+              >
+                Portfolio
+              </p>
                 <h3>Kalina Iwaszko <span>UX/UI & Motion Designer</span></h3>
                 {/* <h4>UX/UI & Motion Designer</h4> */}
                 <h1>
