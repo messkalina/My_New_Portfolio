@@ -30,9 +30,9 @@ const SkillsTwo = () => {
               <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>
                   <img
-                    src="/img/svg/browser-ui-svgrepo-com.svg"
+                    src="/img/svg/UX_icon.svg"
                     alt="UX Design"
-                    style={{ height: "42px", width: "42px" }}
+                     style={{ height: "84px", width: "84px", border: "1px solid #000", borderRadius: "8px", padding: "12px" }}
                   />
                 </div>
                 <div className="portfolio-meta-description">
@@ -44,9 +44,9 @@ const SkillsTwo = () => {
               <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>
                   <img
-                    src="/img/svg/vector-svgrepo-com.svg"
+                    src="/img/svg/UI_icon.svg"
                     alt="UI Design"
-                     style={{ height: "42px", width: "42px" }}
+                     style={{ height: "84px", width: "84px", border: "1px solid #000", borderRadius: "8px", padding: "12px" }}
                   />
                 </div>
                 <div className="portfolio-meta-description">
@@ -61,9 +61,9 @@ const SkillsTwo = () => {
               <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>
                   <img
-                    src="/img/svg/animation-svgrepo-com.svg"
+                    src="/img/svg/motion_icon.svg"
                     alt="Motion Design"
-                     style={{ height: "42px", width: "42px" }}
+                     style={{ height: "84px", width: "84px", border: "1px solid #000", borderRadius: "8px", padding: "12px" }}
                   />
                 </div>
                 <div className="portfolio-meta-description">
@@ -73,9 +73,9 @@ const SkillsTwo = () => {
               <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>
                   <img
-                    src="/img/svg/laptop-web-development.svg"
+                    src="/img/svg/Dev.svg"
                     alt="Frontend Development"
-                    style={{ height: "42px", width: "42px" }}
+                    style={{ height: "84px", width: "84px", border: "1px solid #000", borderRadius: "8px", padding: "12px" }}
                   />
                 </div>
                 <div className="portfolio-meta-description">
