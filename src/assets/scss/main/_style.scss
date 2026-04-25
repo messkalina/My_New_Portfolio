@@ -1214,7 +1214,7 @@ body.loaded .overlay_effect:after {
   display: inline-block; /* Change from flex to inline-block */
   align-self: flex-start; /* Align to the left in flex containers */
 }
-@media (max-width: 1024px) {
+@media (max-width: 780px) {
   .shane_tm_button {
     display: inline-block !important;
     justify-content: center !important;
