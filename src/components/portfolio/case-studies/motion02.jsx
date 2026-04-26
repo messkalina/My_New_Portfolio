@@ -210,7 +210,7 @@ const Motion02 = () => {
               ← PORTFOLIO / ANIMATION
             </Link>
             <Link
-              to="/img/portfolio/stylesframes/wolt/3-copy-1.png"
+              to="/case-study/motion03"
               className="back_button"
               style={{
                 float: "right",
