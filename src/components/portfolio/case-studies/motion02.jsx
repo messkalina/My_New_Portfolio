@@ -40,8 +40,7 @@ const Motion02 = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How turning overwhelming to-do list into a gamified Quest
-                    helps people with ADHD beat procrastination.
+                    How utilising tradidional animation look with live footage can help create engaging content for social media
                   </h5>
                 </div>
               </div>
@@ -82,18 +81,11 @@ const Motion02 = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            Buhdi is an{" "}
-                            <strong>AI-powered productivity app</strong>{" "}
-                            accomodating the needs of users with{" "}
-                            <strong>ADHD</strong> (Attention Deficit
-                            Hyperactivity Disorder). It offers a{" "}
-                            <strong>gamified experience</strong> guided by a
-                            reassuring <strong>AI coach</strong>, to help users
-                            deal with inconsistent motivation and emotional
-                            overwhelm. I joined the project in the post-MVP
-                            phase to focus on user activation - ensuring that
-                            users didn't just download the app, but understood
-                            how the app works and tested its value proposition.
+                            This video was a design challenge I did during recruitment
+                    process during for a company. The task was to create a video
+                    ad for social media that would attract new customers. I used
+                    motion graphics and video editing skills while using
+                    provided video footage.
                           </p>
                         </div>
                       </div>
@@ -104,7 +96,7 @@ const Motion02 = () => {
                             <p>
                               <strong>Timeline:</strong>
                               <br />
-                              December 2024 – March 2025
+                              2022
                             </p>
 
                             <p>
@@ -174,7 +166,7 @@ const Motion02 = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Gamifying_to_do_list.png"
+                    src="/img/portfolio/stylesframes/wolt/1-copy-2.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
@@ -196,7 +188,7 @@ const Motion02 = () => {
                   data-aos-duration="1200"
                 >
                   <img
-                    src="/img/portfolio/case-study/Gamifying_to_do_list.png"
+                    src="/img/portfolio/stylesframes/wolt/2-copy-2.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
@@ -225,7 +217,7 @@ const Motion02 = () => {
               ← PORTFOLIO / ANIMATION
             </Link>
             <Link
-              to="/case-study/motion03"
+              to="/img/portfolio/stylesframes/wolt/3-copy-1.png"
               className="back_button"
               style={{
                 float: "right",
