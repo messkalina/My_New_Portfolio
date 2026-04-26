@@ -34,14 +34,15 @@ const Motion02 = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Grabbing attention with stop motion animation</h1>
+                <h1>Grabbing attention with mixed media animation</h1>
               </div>
               <h4>Social Media Video Ad</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How utilising tradidional animation look with live footage
-                    can help create engaging content for social media
+                    How combining 
+                    stop motion style with 3D animation
+                   helps ads standing out in social media 
                   </h5>
                 </div>
               </div>
