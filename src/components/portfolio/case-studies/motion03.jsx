@@ -47,7 +47,7 @@ const Motion03 = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How to design educational videos for engaging and effective learning experience
+                    How to transform educational videos for patients into an engaging and effective learning experience.
                   </h5>
                 </div>
               </div>
