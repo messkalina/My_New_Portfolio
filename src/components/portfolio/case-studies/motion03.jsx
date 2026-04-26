@@ -84,14 +84,11 @@ const Motion03 = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            As a motion designer at Goreha GmbH I was in charge
-                            of creating animated educational as content for
-                            company product - Caspar Health, the online
-                            multi-therapy platform. The animations were long
-                            videos between 10 to 45 min long and had to be
-                            optimised for the viewers - patients of various
-                            demographics. The objective was creating medically
-                            correct, informative, engaging and easy to follow. Solution: applying UX design thinking to video design
+                            Caspar Health is a Berlin-based digital healthcare company
+providing remote rehabilitation and physiotherapy programs for
+patients recovering from surgery or managing chronic conditions.
+The app offers access to educational and exercise videos created
+by medical professionals.
                           </p>
                         </div>
                       </div>
@@ -165,7 +162,7 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Balancing speed and a quality</h3>
+                  <h3>Making information-heavy educational videos engaging</h3>
                 </div>
                 <div
                   className="text"
@@ -220,7 +217,7 @@ const Motion03 = () => {
                         textDecoration: "none",
                       }}
                     >
-                      <span className="button-text">Jump to Outcome</span>
+                      <span className="button-text">Jump to Impact</span>
                     </a>
                   </div>
                 </div>
@@ -242,7 +239,7 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
-                  <h3> Lean UX + the "Builder" Approach</h3>
+                  <h3> Leveraging human factor</h3>
                 </div>
                 <div
                   className="text"
@@ -341,7 +338,8 @@ const Motion03 = () => {
           {/* End container */}
         </div>
       </div>
-
+      
+      
       <div className="shane_tm_hero_case_study">
         <div className="container">
           <div className="content">
@@ -377,7 +375,84 @@ const Motion03 = () => {
           </div>
         </div>
       </div>
+{/* Outcome Section */}
+      <div className="shane_tm_section" id="outcome">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Impact</span>
+                  <h3>From MVP to growth</h3>
+                </div>
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <p>
+                    The project moved beyond a foundational MVP to become
+                    high-converting digital presence.
+                  </p>
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>
+                        {" "}
+                        <string className="highlight">-40%</string>
+                      </strong>{" "}
+                      <string className="highlight_label">
+                        Administrative Risk
+                      </string>{" "}
+                      Mitigated potential receptionist workload by automating
+                      appointment scheduling.
+                    </li>
+                    <li>
+                      <strong>
+                        {" "}
+                        <string className="highlight">+35%</string>
+                      </strong>{" "}
+                      <string className="highlight_label">
+                        Customer Conversion Lift{" "}
+                      </string>{" "}
+                      Achieved after integrating social proof (Google Rating
+                      Score and Google Reviews widgets).
+                    </li>
+                    <li>
+                      <strong>
+                        <string className="highlight">1.8/7 </string>
+                      </strong>{" "}
+                      <string className="highlight_label">
+                        Customer Effort Score
+                      </string>{" "}
+                      Users reported high "Ease of Use," making digital booking
+                      faster than a phone call.
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Testimonial.png"
+                    style={{ width: "100%" }}
+                    alt="Client Testimonial"
+                  />
+                  <div className="image_caption">
+                    {/* <p>
+                      Client testimonial praising the aesthetic and ease of use.
+                    </p> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="shane_tm_section">
         <div className="container">
           <div
