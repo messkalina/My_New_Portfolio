@@ -167,6 +167,50 @@ const Motion02 = () => {
           </div>
         </div>
       </div>
+  <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Gamifying_to_do_list.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                  
+                  />
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p>
+                  
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* End right */}
+              <div className="right">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/case-study/Gamifying_to_do_list.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                  
+                  />
+              </div>
+              </div>
+              {/* End left */}
+            </div>
+          </div>
+          {/* End container */}
+        </div>
+      </div>
+      
 
       <div className="shane_tm_section">
         <div className="container">
