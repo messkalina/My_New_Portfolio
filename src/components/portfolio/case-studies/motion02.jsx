@@ -32,33 +32,104 @@ const Motion02 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Social Media Video Ad</h1>
+              {" "}
+              <div className="subtitle-container">
+                <h1>Grabbing attention with stop motion animation</h1>
+              </div>
+              <h4>Social Media Video Ad</h4>
+              <div className="subtitle-container">
+                <div className="subtitle-content">
+                  <h5>
+                    How turning overwhelming to-do list into a gamified Quest
+                    helps people with ADHD beat procrastination.
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Timeline section */}
-      <div className="shane_tm_section">
+      <div
+        className="full-image-section"
+        style={{ width: "100%" }}
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
         <div className="container">
-          <div
-            className="hero_description"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
-            <p
-              style={{
-                fontWeight: 600,
-                fontSize: "14px",
-                marginBottom: "60px",
-              }}
-            >
-              Timeline: <span className="timeline-fine">2022</span>
-            </p>
+          <div className="content">
+            <div>
+              <video
+                src="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+                style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+              />
+
+              {/* Overview section */}
+              <div className="shane_tm_section">
+                <div className="shane_tm_about">
+                  <div>
+                    <div className="about_inner">
+                      <div className="left">
+                        <div
+                          className="shane_tm_title"
+                          data-aos="fade-up"
+                          data-aos-duration="1200"
+                        >
+                          {" "}
+                          <span>Overview</span>
+                          <p>
+                            Buhdi is an{" "}
+                            <strong>AI-powered productivity app</strong>{" "}
+                            accomodating the needs of users with{" "}
+                            <strong>ADHD</strong> (Attention Deficit
+                            Hyperactivity Disorder). It offers a{" "}
+                            <strong>gamified experience</strong> guided by a
+                            reassuring <strong>AI coach</strong>, to help users
+                            deal with inconsistent motivation and emotional
+                            overwhelm. I joined the project in the post-MVP
+                            phase to focus on user activation - ensuring that
+                            users didn't just download the app, but understood
+                            how the app works and tested its value proposition.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="right">
+                        <div data-aos="fade-up" data-aos-duration="1200">
+                          <div className="text">
+                            <p>
+                              <strong>Timeline:</strong>
+                              <br />
+                              December 2024 – March 2025
+                            </p>
+
+                            <p>
+                              <strong>Role:</strong>
+                              <br />
+                              Sole motion graphics designer
+                            </p>
+
+                            <p>
+                              <strong>Scope:</strong>
+                              <br />
+                              Concept, script, art direction, visual design, motion graphics design, video editing,
+                             sound design
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
       <div className="shane_tm_hero_case_study">
         <div className="container">
           <div className="content">
@@ -69,80 +140,6 @@ const Motion02 = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                  <p className="text">
-                    This video was a design challenge I did during recruitment
-                    process during for a company. The task was to create a video
-                    ad for social media that would attract new customers. I used
-                    motion graphics and video editing skills while using
-                    provided video footage.
-                    <strong> Tools:</strong> Adobe After Effects, Premiere Pro,
-                    Photoshop, Illustrator
-                  </p>
-                  <div
-                    className="styleframes-grid"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "repeat(2, 1fr)",
-                      gap: "24px",
-                      marginTop: "56px",
-                      marginBottom: "56px",
-                    }}
-                  >
-                    <img
-                      src="/img/portfolio/stylesframes/wolt/1-copy-2.png"
-                      alt="Wolt ad styleframe 1"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/wolt/2-copy-2.png"
-                      alt="Wolt ad styleframe 2"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/wolt/3-copy-1.png"
-                      alt="Wolt ad styleframe 3"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/wolt/5-copy-1.png"
-                      alt="Wolt ad styleframe 4"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                  </div>
-
-                  <h3 className="title">Key Work</h3>
-
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>Visual assets</strong>
-                    </li>
-                    <li>
-                      <strong>Motion graphics design</strong>
-                    </li>
-                    <li>
-                      <strong>Video editing</strong>
-                    </li>
-                    <li>
-                      <strong>Sound design</strong>
-                    </li>
-                  </ul>
-
                   <div
                     className="case-study-video"
                     style={{
@@ -162,12 +159,15 @@ const Motion02 = () => {
                       style={{ maxWidth: "100%" }}
                     ></iframe>
                   </div>
+
+               
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="shane_tm_section">
         <div className="container">
           <div
