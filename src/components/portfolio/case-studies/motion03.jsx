@@ -4,17 +4,17 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion03 = () => {
-    const [lightboxOpen, setLightboxOpen] = useState(false);
-    const [lightboxImg, setLightboxImg] = useState("");
-  
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-  
-    const handleImageClick = (imgSrc) => {
-      setLightboxImg(imgSrc);
-      setLightboxOpen(true);
-    };
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxImg, setLightboxImg] = useState("");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const handleImageClick = (imgSrc) => {
+    setLightboxImg(imgSrc);
+    setLightboxOpen(true);
+  };
   return (
     <div className="shane_tm_all_wrap">
       <Header />
@@ -47,7 +47,8 @@ const Motion03 = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How to transform educational videos for patients into an engaging and effective learning experience.
+                    How to transform educational videos for patients into an
+                    engaging and effective learning experience.
                   </h5>
                 </div>
               </div>
@@ -84,11 +85,15 @@ const Motion03 = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            Caspar Health is a Berlin-based digital healthcare company
-providing remote rehabilitation and physiotherapy programs for
-patients recovering from surgery or managing chronic conditions.
-The app offers access to educational and exercise videos created
-by medical professionals.
+                            Caspar Health is a Berlin-based digital healthcare
+                            company providing remote rehabilitation and
+                            physiotherapy programs for patients recovering from
+                            surgery or managing chronic conditions. It is a
+                            medical product ("Diga") subjected to restrictive
+                            regulations and requirements for such products in
+                            Germany. The app offers access to educational and
+                            exercise videos created by medical professionals for
+                            patients.
                           </p>
                         </div>
                       </div>
@@ -105,15 +110,15 @@ by medical professionals.
                             <p>
                               <strong>Role:</strong>
                               <br />
-                              Sole motion graphics designer
+                              Sole motion graphics designer, creative video
+                              producer
                             </p>
 
                             <p>
                               <strong>Scope:</strong>
                               <br />
-                              Concept, script, art direction, visual design,
-                              motion graphics design, video editing, sound
-                              design
+                              Art direction, visual design, motion graphics
+                              design, video editing, sound design
                             </p>
                           </div>
                         </div>
@@ -126,12 +131,12 @@ by medical professionals.
           </div>
         </div>
       </div>
-{/* Challenge section */}
+      {/* Challenge section */}
       <div className="shane_tm_section" id="animationproject-challenge">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-               <div className="right">
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -146,11 +151,15 @@ by medical professionals.
                   data-aos-duration="1200"
                 >
                   <p>
-                    Launching a new veterinary clinic comes with a tight
-                    deadline. The goal was to build a professional website that
-                    was ready to go the moment the doors opened. We needed a
-                    site that introduced the medical team and services clearly,
-                    but most importantly, handled the "admin heavy lifting."
+                    When I joined Caspar Health, the video content was
+                    functional but not user-friendly: long, static, and heavily
+                    animated medical lectures that caused viewers to drop off
+                    early. My goal was to redesign and optimize the video
+                    experience to make it more engaging, digestible, and aligned
+                    with user behavior — effectively applying UX thinking to
+                    content design. Users were dropping off after a few minutes
+                    of video play, and internal metrics showed low completion
+                    rates and high churn.
                   </p>
                   <p
                     style={{
@@ -160,27 +169,6 @@ by medical professionals.
                     <strong>Requirements:</strong>
                   </p>
 
-                  <ul className="case-study-list" style={{ marginTop: "10px" }}>
-                    <li>
-                      <strong>Saving time through automation:</strong> Moving as
-                      many bookings as possible to a digital system so the team
-                      could focus on the animals, not the phone.
-                    </li>
-                    <li>
-                      <strong>Mobile-first experience for local search:</strong>{" "}
-                      Over 70% of local traffic comes from "near me" searches on
-                      phones, so the mobile experience had to be seamless.
-                    </li>
-                    <li>
-                      <strong>Values:</strong> The website needed to feel like a
-                      trusted neighbor—warm and welcoming for pet owners, but
-                      professional enough to show they are medical experts.
-                    </li>
-                    <li>
-                      <strong>Simple to manage:</strong> Tech must be scalable
-                      and easy to maintain.
-                    </li>
-                  </ul>
                   <div
                     className="shane_tm_button"
                     // style={{ marginTop: "20px" }}
@@ -222,7 +210,6 @@ by medical professionals.
                   </div>
                 </div>
               </div>
-             
             </div>
           </div>
         </div>
@@ -233,7 +220,6 @@ by medical professionals.
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
@@ -272,27 +258,38 @@ by medical professionals.
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
+                  <p>
+                    I approached the project like a UX problem, focusing on
+                    improving user retention and motivation by:
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Iterative Workflow:</strong> I focused on shipping
-                      a functional "Minimum Viable Product" to quickly get the
-                      business website live and validate it via user testing. In
-                      the next itaration I focused on communicating brand values
-                      of trust and warmth. The goal was to meet bussiness
-                      requirements, gather insights and move to design
-                      iterations that then would be easily implemented by
-                      external developer.
+                      <strong>Video series over long content:</strong> Spliting
+                      new and existing long-format videos into shorter, modular
+                      segments based on the hypothesis that users prefer
+                      shorter, more focused lessons and would be more likely to
+                      return regularly.
                     </li>
                     <li>
-                      <strong>Community Testing:</strong> I validated the MVP
-                      via the Career Foundry and Google UX communities.
+                      <strong>
+                        Designing for clarity and emotional impact:
+                      </strong>{" "}
+                      Positive emotional response to the content was key to
+                      improving retention and motivation. Rhythmic editing and
+                      selective motion graphics made the content more engaging
+                      and easier to follow. Including positive, encouraging
+                      messaging and visual cues to motivate users and create a
+                      more supportive learning environment.Adding humor and
+                      lightness to the content was a key strategy to make it
+                      more engaging and less intimidating for patients who were
+                      often dealing with stressful health issues.
                     </li>
                     <li>
-                      <strong>Custom Build:</strong> I coded the website in
-                      React.js bypassing subscription-based website builders
-                      such as Wix or heavy Wordpress CMS.The site was deployed
-                      via Netlify, ensuring a cost-effective and
-                      high-performance hosting solution.
+                      <strong>Hybrid content production model:</strong> filming
+                      live speakers delivering the medical webinars, combined
+                      with targeted motion graphics for key moments. This
+                      reduced production time dramatically and allowed for more
+                      human, relatable communication.
                     </li>
                   </ul>
                 </div>
@@ -301,7 +298,7 @@ by medical professionals.
           </div>
         </div>
       </div>
-      
+
       <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
@@ -340,7 +337,7 @@ by medical professionals.
           {/* End container */}
         </div>
       </div>
-      
+
       <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
@@ -447,7 +444,7 @@ by medical professionals.
           </div>
         </div>
       </div>
-{/* Outcome Section */}
+      {/* Outcome Section */}
       <div className="shane_tm_section" id="outcome">
         <div className="shane_tm_about">
           <div className="container">
