@@ -28,7 +28,7 @@ const Motion03 = () => {
               <Link to="/?tab=motion#portfolio" className="back_button">
                 ← PORTFOLIO / ANIMATION
               </Link>
-              <Link to="/case-study/motion03" className="back_button">
+              <Link to="/case-study/motion04" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>
@@ -131,31 +131,7 @@ by medical professionals.
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
-                <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <video
-                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                  />
-                  <div className="image_caption">
-                    <p>
-                      The first version of the website (MVP) focused on user
-                      flow to online-booking to mitigate administrative load
-                      from day one. Industry benchmarks show that manual
-                      scheduling can consume up to 40% of a receptionist's day.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="right">
+               <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -222,6 +198,31 @@ by medical professionals.
                   </div>
                 </div>
               </div>
+              <div className="left">
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <video
+                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />
+                  <div className="image_caption">
+                    <p>
+                      The first version of the website (MVP) focused on user
+                      flow to online-booking to mitigate administrative load
+                      from day one. Industry benchmarks show that manual
+                      scheduling can consume up to 40% of a receptionist's day.
+                    </p>
+                  </div>
+                </div>
+              </div>
+             
             </div>
           </div>
         </div>
@@ -232,6 +233,31 @@ by medical professionals.
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
+              
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
+                      )
+                    }
+                  />
+                  <div className="image_caption">
+                    <p>
+                      1. Website reference that client provided; 2. MVP version;
+                      3. Second iteration of the design. Since user testing
+                      revealed the MVP felt too "clinical" and cold I moved
+                      toward a warmer, high-fidelity color palette and more
+                      sophisticated typographic choices in the refinement phase.
+                    </p>
+                  </div>
+                </div>
+              </div>
               <div className="left">
                 <div
                   className="shane_tm_title"
@@ -239,6 +265,93 @@ by medical professionals.
                   data-aos-duration="1200"
                 >
                   <span>Solution</span>
+                  <h3> Leveraging human factor</h3>
+                </div>
+                <div
+                  className="text"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <ul className="case-study-list">
+                    <li>
+                      <strong>Iterative Workflow:</strong> I focused on shipping
+                      a functional "Minimum Viable Product" to quickly get the
+                      business website live and validate it via user testing. In
+                      the next itaration I focused on communicating brand values
+                      of trust and warmth. The goal was to meet bussiness
+                      requirements, gather insights and move to design
+                      iterations that then would be easily implemented by
+                      external developer.
+                    </li>
+                    <li>
+                      <strong>Community Testing:</strong> I validated the MVP
+                      via the Career Foundry and Google UX communities.
+                    </li>
+                    <li>
+                      <strong>Custom Build:</strong> I coded the website in
+                      React.js bypassing subscription-based website builders
+                      such as Wix or heavy Wordpress CMS.The site was deployed
+                      via Netlify, ensuring a cost-effective and
+                      high-performance hosting solution.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG04_cm.gif"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                  />
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              {/* End right */}
+              <div className="right">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG05cm.gif"
+                    alt="Wireframe"
+                    style={{ width: "100%" }}
+                  />
+                </div>
+              </div>
+              {/* End left */}
+            </div>
+          </div>
+          {/* End container */}
+        </div>
+      </div>
+      
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <span>Process</span>
                   <h3> Leveraging human factor</h3>
                 </div>
                 <div
@@ -299,47 +412,6 @@ by medical professionals.
           </div>
         </div>
       </div>
-      
-      <div className="shane_tm_section">
-        <div className="shane_tm_about">
-          <div className="container">
-            <div className="about_inner">
-              <div className="left">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG04_cm.gif"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                  />
-                  {/* Add caption */}
-                  <div className="image_caption">
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-              {/* End right */}
-              <div className="right">
-                <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <img
-                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG05cm.gif"
-                    alt="Wireframe"
-                    style={{ width: "100%" }}
-                  />
-                </div>
-              </div>
-              {/* End left */}
-            </div>
-          </div>
-          {/* End container */}
-        </div>
-      </div>
-      
-      
       <div className="shane_tm_hero_case_study">
         <div className="container">
           <div className="content">
