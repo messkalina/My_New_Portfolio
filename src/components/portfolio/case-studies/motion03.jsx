@@ -41,7 +41,7 @@ const Motion03 = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Boosting Retention with Video Design</h1>
+                <h1>Boosting retention with video design</h1>
               </div>
               <h4>Caspar Health</h4>
               <div className="subtitle-container">
@@ -143,7 +143,10 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Decreasing in-app drop-off rates of information-heavy educational videos</h3>
+                  <h3>
+                    Decreasing in-app drop-off rates of information-heavy
+                    educational videos
+                  </h3>
                 </div>
                 <div
                   className="text"
@@ -161,14 +164,6 @@ const Motion03 = () => {
                     of video play, and internal metrics showed low completion
                     rates and high churn.
                   </p>
-                  <p
-                    style={{
-                      marginTop: "18px",
-                    }}
-                  >
-                    <strong>Requirements:</strong>
-                  </p>
-
                   <div
                     className="shane_tm_button"
                     // style={{ marginTop: "20px" }}
@@ -349,34 +344,30 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <span>Process</span>
-                  <h3> Leveraging human factor</h3>
+                  <h3> Test, iterate, test</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
+                  <p>
+                    The UX researcher tested both content types — animated vs.
+                    live- action — with users. Results showed:
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Iterative Workflow:</strong> I focused on shipping
-                      a functional "Minimum Viable Product" to quickly get the
-                      business website live and validate it via user testing. In
-                      the next itaration I focused on communicating brand values
-                      of trust and warmth. The goal was to meet bussiness
-                      requirements, gather insights and move to design
-                      iterations that then would be easily implemented by
-                      external developer.
+                      Users preferred live-action videos for authenticity and
+                      emotional connection.
                     </li>
                     <li>
-                      <strong>Community Testing:</strong> I validated the MVP
-                      via the Career Foundry and Google UX communities.
+                      Viewer preference correlated with the speaker’s persona —
+                      older, empathetic female speakers received higher
+                      engagement scores than younger, “perfect” looking hosts.
                     </li>
                     <li>
-                      <strong>Custom Build:</strong> I coded the website in
-                      React.js bypassing subscription-based website builders
-                      such as Wix or heavy Wordpress CMS.The site was deployed
-                      via Netlify, ensuring a cost-effective and
-                      high-performance hosting solution.
+                      These findings helped us define new casting and content
+                      guidelines to ensure ongoing viewer engagement.
                     </li>
                   </ul>
                 </div>
@@ -456,49 +447,46 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <span>Impact</span>
-                  <h3>From MVP to growth</h3>
+                  <h3>Video design influences user engagement</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>
-                    The final video content strategy delivered:
-                  </p>
+                  <p>The final video content strategy delivered:</p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>
-                        {" "}
-                        <string className="highlight">-40%</string>
-                      </strong>{" "}
+                      Significant{" "}
+                      <string className="highlight_label">increase</string> in{" "}
                       <string className="highlight_label">
-                        Administrative Risk
+                        user watch time
                       </string>{" "}
-                      Noticeable increase in user watch time and repeat sessions.
+                      and{" "}
+                      <string className="highlight_label">
+                        repeat sessions.
+                      </string>
                     </li>
                     <li>
-                      <strong>
-                        {" "}
-                        <string className="highlight">+35%</string>
-                      </strong>{" "}
                       <string className="highlight_label">
-                        Customer Conversion Lift{" "}
-                      </string>{" "}
-                      Achieved after integrating social proof (Google Rating
-                      Score and Google Reviews widgets).
+                        Positive feedback{" "}
+                      </string>
+                      from patients and medical staff for clarity and
+                      motivation.
                     </li>
                     <li>
-                      <strong>
-                        <string className="highlight">1.8/7 </string>
-                      </strong>{" "}
                       <string className="highlight_label">
-                        Customer Effort Score
+                        Reduced production time
                       </string>{" "}
-                      Users reported high "Ease of Use," making digital booking
-                      faster than a phone call.
+                      per video.
                     </li>
                   </ul>
+                  <p>
+                    The redesigned video content significantly improved user
+                    engagement and retention, contributing to the overall
+                    success of the Caspar Health app and its mission to support
+                    patients in their recovery journeys.
+                  </p>
                 </div>
               </div>
 
