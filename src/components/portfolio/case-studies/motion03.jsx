@@ -66,7 +66,7 @@ const Motion03 = () => {
           <div className="content">
             <div>
               <img
-                src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG02_1.gif"
+                src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG02_.gif"
                 alt="Wireframe"
                 style={{ width: "100%" }}
               />
@@ -136,14 +136,14 @@ const Motion03 = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="right">
+              <div className="left">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
                   <span>Challenge</span>
-                  <h3>Making information-heavy educational videos engaging</h3>
+                  <h3>Decreasing in-app drop-off rates of information-heavy educational videos</h3>
                 </div>
                 <div
                   className="text"
@@ -186,7 +186,7 @@ const Motion03 = () => {
                   </div>
                 </div>
               </div>
-              <div className="left">
+              <div className="right">
                 <div
                   className="text"
                   data-aos="fade-up"
@@ -464,8 +464,7 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The project moved beyond a foundational MVP to become
-                    high-converting digital presence.
+                    The final video content strategy delivered:
                   </p>
                   <ul className="case-study-list">
                     <li>
@@ -476,8 +475,7 @@ const Motion03 = () => {
                       <string className="highlight_label">
                         Administrative Risk
                       </string>{" "}
-                      Mitigated potential receptionist workload by automating
-                      appointment scheduling.
+                      Noticeable increase in user watch time and repeat sessions.
                     </li>
                     <li>
                       <strong>
