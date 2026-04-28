@@ -72,6 +72,7 @@ const Motion03 = () => {
                 loop
                 muted
                 playsInline
+                controls
                 poster="/img/portfolio/stylesframes/caspar/pulsmessen2_cm.mp4"
               />
 
@@ -192,14 +193,17 @@ const Motion03 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <video
-                    src="/img/portfolio/stylesframes/caspar/before_slider_loopedcm.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/stylesframes/caspar/before_slider_loopedcm.mp4"
+              <img
+                    src="/img/portfolio/stylesframes/caspar/old_framescm.png"
+                   
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/stylesframes/caspar/old_framescm.png",
+                      )
+                    }
                   />
                   <div className="image_caption">
                     <p>
