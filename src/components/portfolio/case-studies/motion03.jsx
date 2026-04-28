@@ -65,11 +65,16 @@ const Motion03 = () => {
         <div className="container">
           <div className="content">
             <div>
-              <img
-                src="/img/portfolio/stylesframes/caspar/Caspar_Therapeut_Patientcrop.jpg"
-                alt="Wireframe"
+              <video
+                src="/img/portfolio/stylesframes/caspar/pulsmessen2_cm.mp4"
                 style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="/img/portfolio/stylesframes/caspar/pulsmessen2_cm.mp4"
               />
+
 
               {/* Overview section */}
               <div className="shane_tm_section">
@@ -391,13 +396,13 @@ const Motion03 = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                    <video
-                    src="/img/portfolio/stylesframes/caspar/Anxiety_Kurse_01sm_2cm.mp4"
+                    src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
                     style={{ width: "100%" }}
                     autoPlay
                     loop
                     muted
                     playsInline
-                    poster="/img/portfolio/stylesframes/caspar/Anxiety_Kurse_01sm_2cm.mp4"
+                    poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
                   />
                   <div className="image_caption">
                     <p>
@@ -508,16 +513,20 @@ const Motion03 = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Testimonial.png"
+                 <video
+                    src="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
                     style={{ width: "100%" }}
-                    alt="Client Testimonial"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
                   />
-                  <div className="image_caption">
+                  {/* <div className="image_caption"> */}
                     {/* <p>
                       Client testimonial praising the aesthetic and ease of use.
                     </p> */}
-                  </div>
+                  {/* </div> */}
                 </div>
               </div>
             </div>
