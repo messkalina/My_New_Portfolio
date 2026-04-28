@@ -215,26 +215,20 @@ const Motion03 = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="right">
+              <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
-                      )
-                    }
-                  />
+                   <video
+                src="/img/portfolio/stylesframes/caspar/Solution_vidcm.mp4"
+                style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+              />
                   <div className="image_caption">
                     <p>
-                      1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design. Since user testing
-                      revealed the MVP felt too "clinical" and cold I moved
-                      toward a warmer, high-fidelity color palette and more
-                      sophisticated typographic choices in the refinement phase.
+                      Frames from the newly designedvideo content. Shorter, more engaging videos with a mix of live-action and motion graphics that significantly improved user retention and motivation. Speaker blurred for legal reasons.
                     </p>
                   </div>
                 </div>
