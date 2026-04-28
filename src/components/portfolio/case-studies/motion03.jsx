@@ -297,56 +297,35 @@ const Motion03 = () => {
         </div>
       </div>
 
-      <div className="shane_tm_section">
-        <div className="shane_tm_about">
-          <div className="container">
-            <div className="about_inner">
-              <div className="left">
-                <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <video
-                    src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
-                  />
-                  {/* <div className="image_caption">
-                    <p>
-                      1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design. Since user testing
-                      revealed the MVP felt too "clinical" and cold I moved
-                      toward a warmer, high-fidelity color palette and more
-                      sophisticated typographic choices in the refinement phase.
-                    </p>
-                  </div> */}
-                </div>
-              </div>
-              <div className="right">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
-                  />
-                  {/* <div className="image_caption">
-                    <p>
-                      1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design. Since user testing
-                      revealed the MVP felt too "clinical" and cold I moved
-                      toward a warmer, high-fidelity color palette and more
-                      sophisticated typographic choices in the refinement phase.
-                    </p>
-                  </div> */}
+      <div className="shane_tm_hero_case_study">
+        <div className="container">
+          <div className="content">
+            <div className="shane_tm_section">
+              <div
+                className="case-study-intro-section"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <div className="top">
+                  <div
+                    className="case-study-video"
+                    style={{
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                      textAlign: "center",
+                    }}
+                  >
+                    <iframe
+                      width="800"
+                      height="450"
+                      src="https://www.youtube.com/embed/7i5AQkFl30I"
+                      title="Social Media Video Ad"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      style={{ maxWidth: "100%" }}
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -393,7 +372,7 @@ const Motion03 = () => {
                   </ul>
                 </div>
               </div>
-              <div className="right">
+              {/* <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                    <video
                     src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
@@ -414,54 +393,38 @@ const Motion03 = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
          
           </div>
         </div>
       </div>
 
-      <div className="shane_tm_hero_case_study">
-        <div className="container">
-          <div className="content">
-            <div className="shane_tm_section">
-              <div
-                className="case-study-intro-section"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <div className="top">
-                  <div
-                    className="case-study-video"
-                    style={{
-                      marginTop: "56px",
-                      marginBottom: "56px",
-                      textAlign: "center",
-                    }}
-                  >
-                    <iframe
-                      width="800"
-                      height="450"
-                      src="https://www.youtube.com/embed/7i5AQkFl30I"
-                      title="Social Media Video Ad"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      style={{ maxWidth: "100%" }}
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    
       {/* Outcome Section */}
       <div className="shane_tm_section" id="outcome">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-              <div className="left">
+               <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                 <video
+                    src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
+                  />
+                  {/* <div className="image_caption"> */}
+                    {/* <p>
+                      Client testimonial praising the aesthetic and ease of use.
+                    </p> */}
+                  {/* </div> */}
+                </div>
+              </div>
+              <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -503,7 +466,7 @@ const Motion03 = () => {
                     </li>
                   </ul>
                   <p>
-                    The redesigned video content significantly improved user
+                    The new video format significantly improved user
                     engagement and retention, contributing to the overall
                     success of the Caspar Health app and its mission to support
                     patients in their recovery journeys.
@@ -511,24 +474,7 @@ const Motion03 = () => {
                 </div>
               </div>
 
-              <div className="right">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                 <video
-                    src="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
-                  />
-                  {/* <div className="image_caption"> */}
-                    {/* <p>
-                      Client testimonial praising the aesthetic and ease of use.
-                    </p> */}
-                  {/* </div> */}
-                </div>
-              </div>
+             
             </div>
           </div>
         </div>
