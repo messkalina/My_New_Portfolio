@@ -66,7 +66,7 @@ const Motion03 = () => {
           <div className="content">
             <div>
               <img
-                src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG02_.gif"
+                src="/img/portfolio/stylesframes/caspar/Caspar_Therapeut_Patientcrop.jpg"
                 alt="Wireframe"
                 style={{ width: "100%" }}
               />
@@ -187,14 +187,11 @@ const Motion03 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <video
-                    src="/img/portfolio/case-study/Phone _mockup02.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                  />
+                   <img
+                src="/img/portfolio/stylesframes/caspar/Caspar_Therapeut_Patientcrop.jpg"
+                alt="Wireframe"
+               
+              />
                   <div className="image_caption">
                     <p>
                       The first version of the website (MVP) focused on user
