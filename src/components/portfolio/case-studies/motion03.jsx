@@ -88,12 +88,12 @@ const Motion03 = () => {
                             Caspar Health is a Berlin-based digital healthcare
                             company providing remote rehabilitation and
                             physiotherapy programs for patients recovering from
-                            surgery or managing chronic conditions. It provides 
-                            medical support and software ("Diga") subjected to restrictive
-                            regulations and requirements for such products in
-                            Germany. They software offer access to educational and
-                            exercise videos created by medical professionals for
-                            patients.
+                            surgery or managing chronic conditions. It provides
+                            medical support and software ("Diga") subjected to
+                            restrictive regulations and requirements for such
+                            products in Germany. They software offer access to
+                            educational and exercise videos created by medical
+                            professionals for patients.
                           </p>
                         </div>
                       </div>
@@ -188,27 +188,27 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <video
-                src="/img/portfolio/stylesframes/caspar/before_slider_loopedcm.mp4"
-                style={{ width: "100%" }}
-                autoPlay
-                loop
-                muted
-                playsInline
-                poster="/img/portfolio/stylesframes/caspar/before_slider_loopedcm.mp4"
-              />
+                    src="/img/portfolio/stylesframes/caspar/before_slider_loopedcm.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/stylesframes/caspar/before_slider_loopedcm.mp4"
+                  />
                   <div className="image_caption">
                     <p>
-                      Frames from the video content before I joined Caspar Health. Long and visually generic medical lectures that caused viewers to drop off early.
+                      Frames from the video content before I joined Caspar
+                      Health. Long and visually generic medical lectures that
+                      caused viewers to drop off early.
                     </p>
-                  </div>
-                    
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-     
+      </div>
 
       {/* Solution Section - Headline and Content Swapped */}
       <div className="shane_tm_section">
@@ -217,18 +217,21 @@ const Motion03 = () => {
             <div className="about_inner">
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                   <video
-                src="/img/portfolio/stylesframes/caspar/Solution_vidcm.mp4"
-                style={{ width: "100%" }}
-                autoPlay
-                loop
-                muted
-                playsInline
-                poster="/img/portfolio/stylesframes/caspar/Solution_vidcm.mp4"
-              />
+                  <video
+                    src="/img/portfolio/stylesframes/caspar/Solution_vidcm.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/stylesframes/caspar/Solution_vidcm.mp4"
+                  />
                   <div className="image_caption">
                     <p>
-                      Frames from the newly designedvideo content. Shorter, more engaging videos with a mix of live-action and motion graphics that significantly improved user retention and motivation. Speaker blurred for legal reasons.
+                      Frames from the newly designedvideo content. Shorter, more
+                      engaging videos with a mix of live-action and motion
+                      graphics that significantly improved user retention and
+                      motivation. Speaker blurred for legal reasons.
                     </p>
                   </div>
                 </div>
@@ -249,7 +252,8 @@ const Motion03 = () => {
                 >
                   <p>
                     I approached the project like a UX problem, focusing on
-                    improving user retention and motivation through content design. Key strategies included:
+                    improving user retention and motivation through content
+                    design. Key strategies included:
                   </p>
                   <ul className="case-study-list">
                     <li>
@@ -288,7 +292,7 @@ const Motion03 = () => {
         </div>
       </div>
 
-                      <div className="shane_tm_section">
+      <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
@@ -298,17 +302,15 @@ const Motion03 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  
                   <video
-                src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
-                style={{ width: "100%" }}
-                autoPlay
-                loop
-                muted
-                playsInline
-            
-                poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
-              />
+                    src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
+                  />
                   {/* <div className="image_caption">
                     <p>
                       1. Website reference that client provided; 2. MVP version;
@@ -322,16 +324,15 @@ const Motion03 = () => {
               </div>
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                   <video
-                src="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
-                style={{ width: "100%" }}
-                autoPlay
-                loop
-                muted
-                playsInline
-             
-                poster="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
-              />
+                  <video
+                    src="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
+                  />
                   {/* <div className="image_caption">
                     <p>
                       1. Website reference that client provided; 2. MVP version;
@@ -347,8 +348,6 @@ const Motion03 = () => {
           </div>
         </div>
       </div>
-
-      
 
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -391,16 +390,14 @@ const Motion03 = () => {
               </div>
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
-                      )
-                    }
+                   <video
+                    src="/img/portfolio/stylesframes/caspar/Anxiety_Kurse_01sm_2cm.mp4"
+                    style={{ width: "100%" }}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/img/portfolio/stylesframes/caspar/Anxiety_Kurse_01sm_2cm.mp4"
                   />
                   <div className="image_caption">
                     <p>
@@ -413,50 +410,11 @@ const Motion03 = () => {
                   </div>
                 </div>
               </div>
-              
             </div>
-            <div className="shane_tm_section">
-        <div className="shane_tm_about">
-          <div className="container">
-            <div className="about_inner">
-              <div className="left">
-                <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG04_cm.gif"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                  />
-                  {/* Add caption */}
-                  <div className="image_caption">
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-              {/* End right */}
-              <div className="right">
-                <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <img
-                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG05cm.gif"
-                    alt="Wireframe"
-                    style={{ width: "100%" }}
-                  />
-                </div>
-              </div>
-              {/* End left */}
-            </div>
-          </div>
-          {/* End container */}
-        </div>
-      </div>
+         
           </div>
         </div>
       </div>
-
 
       <div className="shane_tm_hero_case_study">
         <div className="container">
