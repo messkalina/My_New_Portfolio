@@ -198,18 +198,17 @@ const Motion03 = () => {
               />
                   <div className="image_caption">
                     <p>
-                      The first version of the website (MVP) focused on user
-                      flow to online-booking to mitigate administrative load
-                      from day one. Industry benchmarks show that manual
-                      scheduling can consume up to 40% of a receptionist's day.
+                      Frames from the video content before I joined Caspar Health. Long and visually generic medical lectures that caused viewers to drop off early.
                     </p>
+                  </div>
+                    
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+     
 
       {/* Solution Section - Headline and Content Swapped */}
       <div className="shane_tm_section">
