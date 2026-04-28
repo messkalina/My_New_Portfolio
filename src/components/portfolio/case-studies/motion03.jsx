@@ -88,10 +88,10 @@ const Motion03 = () => {
                             Caspar Health is a Berlin-based digital healthcare
                             company providing remote rehabilitation and
                             physiotherapy programs for patients recovering from
-                            surgery or managing chronic conditions. It is a
-                            medical product ("Diga") subjected to restrictive
+                            surgery or managing chronic conditions. It provides 
+                            medical support and software ("Diga") subjected to restrictive
                             regulations and requirements for such products in
-                            Germany. The app offers access to educational and
+                            Germany. They software offer access to educational and
                             exercise videos created by medical professionals for
                             patients.
                           </p>
@@ -187,10 +187,14 @@ const Motion03 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                   <img
-                src="/img/portfolio/stylesframes/caspar/Caspar_Therapeut_Patientcrop.jpg"
-                alt="Wireframe"
-               
+                  <video
+                src="/img/portfolio/stylesframes/caspar/before_slider_loopedcm.mp4"
+                style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
               />
                   <div className="image_caption">
                     <p>
