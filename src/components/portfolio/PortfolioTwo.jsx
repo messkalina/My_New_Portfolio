@@ -22,6 +22,13 @@ const tabListContent = [
         meta: "Driving growth through tailored user journeys",
         portfolioLink: "/case-study/orbit-website",
       },
+      {
+        img: "/img/portfolio/caspar.png",
+        title: "Explainer Videos",
+        meta: "Motion Design",
+        portfolioLink: "/case-study/motion03",
+      },
+
          {
         img: "/img/portfolio/Vet_hero_image02cm.png", // Keep as fallback
         title: "Veterinary Practice Website",
@@ -29,7 +36,7 @@ const tabListContent = [
         portfolioLink: "/case-study/vet-website",
         // video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property
       },
-
+      
     
    
       // {
@@ -48,30 +55,32 @@ const tabListContent = [
       //   meta: "Motion Design",
       //   portfolioLink: "/case-study/animation01",
       // },
+
+        {
+        img: "/img/portfolio/trivago2.png",
+        title: "Trivago TV Ad",
+        meta: "Motion Design",
+        portfolioLink: "/case-study/motion05",
+      },
       {
         img: "/img/portfolio/wolt5.png",
         title: "Social Media Video Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion02",
       },
-      {
-        img: "/img/portfolio/caspar.png",
-        title: "Explainer Videos",
-        meta: "Motion Design",
-        portfolioLink: "/case-study/motion03",
-      },
+      // {
+      //   img: "/img/portfolio/caspar.png",
+      //   title: "Explainer Videos",
+      //   meta: "Motion Design",
+      //   portfolioLink: "/case-study/motion03",
+      // },
       {
         img: "/img/portfolio/talon.png",
         title: "Social Media Video Ad",
         meta: "Motion Design",
         portfolioLink: "/case-study/motion04",
       },
-      {
-        img: "/img/portfolio/trivago2.png",
-        title: "Trivago TV Ad",
-        meta: "Motion Design",
-        portfolioLink: "/case-study/motion05",
-      },
+    
       {
         img: "/img/portfolio/filmfest.png",
         title: "Euroshorts 2015 Video Promo",
