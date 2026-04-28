@@ -255,7 +255,7 @@ const Motion03 = () => {
                 >
                   <p>
                     I approached the project like a UX problem, focusing on
-                    improving user retention and motivation by:
+                    improving user retention and motivation through content design. Key strategies included:
                   </p>
                   <ul className="case-study-list">
                     <li>
@@ -280,7 +280,7 @@ const Motion03 = () => {
                       often dealing with stressful health issues.
                     </li>
                     <li>
-                      <strong>Hybrid content production model:</strong> filming
+                      <strong>Hybrid content production model:</strong> Filming
                       live speakers delivering the medical webinars, combined
                       with targeted motion graphics for key moments. This
                       reduced production time dramatically and allowed for more
