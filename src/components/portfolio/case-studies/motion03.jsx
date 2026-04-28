@@ -194,7 +194,7 @@ const Motion03 = () => {
                 loop
                 muted
                 playsInline
-                poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+                poster="/img/portfolio/stylesframes/caspar/before_slider_loopedcm.mp4"
               />
                   <div className="image_caption">
                     <p>
@@ -224,7 +224,7 @@ const Motion03 = () => {
                 loop
                 muted
                 playsInline
-                poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
+                poster="/img/portfolio/stylesframes/caspar/Solution_vidcm.mp4"
               />
                   <div className="image_caption">
                     <p>
@@ -299,18 +299,17 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   
-                  <img
-                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
-                      )
-                    }
-                  />
-                  <div className="image_caption">
+                  <video
+                src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
+                style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+            
+                poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
+              />
+                  {/* <div className="image_caption">
                     <p>
                       1. Website reference that client provided; 2. MVP version;
                       3. Second iteration of the design. Since user testing
@@ -318,23 +317,22 @@ const Motion03 = () => {
                       toward a warmer, high-fidelity color palette and more
                       sophisticated typographic choices in the refinement phase.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <img
-                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
-                    alt="Wireframe"
-                    className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={() =>
-                      handleImageClick(
-                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
-                      )
-                    }
-                  />
-                  <div className="image_caption">
+                   <video
+                src="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
+                style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+             
+                poster="/img/portfolio/stylesframes/caspar/puls_messencm.mp4"
+              />
+                  {/* <div className="image_caption">
                     <p>
                       1. Website reference that client provided; 2. MVP version;
                       3. Second iteration of the design. Since user testing
@@ -342,7 +340,7 @@ const Motion03 = () => {
                       toward a warmer, high-fidelity color palette and more
                       sophisticated typographic choices in the refinement phase.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
