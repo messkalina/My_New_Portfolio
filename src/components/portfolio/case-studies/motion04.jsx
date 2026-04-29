@@ -1,12 +1,20 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion04 = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxImg, setLightboxImg] = useState("");
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const handleImageClick = (imgSrc) => {
+    setLightboxImg(imgSrc);
+    setLightboxOpen(true);
+  };
 
   return (
     <div className="shane_tm_all_wrap">
@@ -32,33 +40,129 @@ const Motion04 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Social Media Video Ad</h1>
+              
+              <div className="subtitle-container">
+                <h1>Taking charge of the motion graphics and video post production for a TV ad</h1>
+              </div>
+              <h4>Trivago TV Ad</h4>
+              <div className="subtitle-container">
+                <div className="subtitle-content">
+                  <h5>
+                    How to adopt a predefined style for a video format in a TV ad, that included live footage and motion graphics, while ensuring the final product is visually engaging and effectively communicates the brand message.
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Timeline section */}
-      <div className="shane_tm_section">
+      {/* Video and Overview Section */}
+      <div
+        className="full-image-section"
+        style={{ width: "100%" }}
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
         <div className="container">
-          <div
-            className="hero_description"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
-            <p
-              style={{
-                fontWeight: 600,
-                fontSize: "14px",
-                marginBottom: "60px",
-              }}
-            >
-              Timeline: <span className="timeline-fine">2019 - 2022</span>
-            </p>
+          <div className="content">
+            <video
+              src="/img/portfolio/stylesframes/trivago_man/trivago_TVC_Deutschlandcm.mp4"
+              style={{ width: "100%" }}
+              autoPlay
+              loop
+              muted
+              playsInline
+              poster="/img/portfolio/stylesframes/trivago_man/trivago_TVC_Deutschlandcm.mp4"
+            />
+
+            {/* Overview section */}
+            <div className="shane_tm_section">
+              <div className="shane_tm_about">
+                <div className="about_inner">
+                  <div className="left">
+                    <div
+                      className="shane_tm_title"
+                      data-aos="fade-up"
+                      data-aos-duration="1200"
+                    >
+                      <span>Overview</span>
+                      <p>
+                        TV ad created when I worked as a motion designer for hotel
+                    search engine app Trivago. I was responsible for post production supervison on the video set as well as designing the motion graphics, which included combining live footage and motion graphics. The ad was aired on TV in Germany and Austria.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="right">
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                      <div className="text">
+                        <p>
+                          <strong>Timeline:</strong>
+                          <br />
+                          2017
+                        </p>
+                        <p>
+                          <strong>Role:</strong>
+                          <br />
+                          Motion graphics designer, video-post production supervisor
+                        </p>
+                        <p>
+                          <strong>Scope:</strong>
+                          <br />
+                          Motion graphics design, video supervison & post-production
+                          
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
+      {/* Image Gallery Section */}
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/stylesframes/trivago_man/1.png"
+                    alt="Redesign Pages Comparison"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick("/img/portfolio/stylesframes/trivago_man/1.png")
+                    }
+                  />
+                  <div className="image_caption">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/stylesframes/trivago_man/2.png"
+                    alt="Redesign Pages Comparison"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick("/img/portfolio/stylesframes/trivago_man/2.png")
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* YouTube Section */}
       <div className="shane_tm_hero_case_study">
         <div className="container">
           <div className="content">
@@ -69,72 +173,6 @@ const Motion04 = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                  <p className="text">
-                    Video ad created for social media
-                    <strong> Tools:</strong> Adobe After Effects, Photoshop,
-                    Illustrator
-                  </p>
-                  <div
-                    className="styleframes-grid"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "repeat(2, 1fr)",
-                      gap: "24px",
-                      marginTop: "56px",
-                      marginBottom: "56px",
-                    }}
-                  >
-                    <img
-                      src="/img/portfolio/stylesframes/talon/1.png"
-                      alt="Talon ad styleframe 1"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/talon/2.png"
-                      alt="Talon ad styleframe 2"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/talon/4.png"
-                      alt="Talon ad styleframe 3"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/talon/6.png"
-                      alt="Talon ad styleframe 4"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                  </div>
-
-                  <h3 className="title">Key Work</h3>
-
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>Ideation</strong>
-                    </li>
-                    <li>
-                      <strong>Visual assets</strong>
-                    </li>
-                    <li>
-                      <strong>Motion graphics design</strong>
-                    </li>
-                  </ul>
                   <div
                     className="case-study-video"
                     style={{
@@ -146,12 +184,12 @@ const Motion04 = () => {
                     <iframe
                       width="800"
                       height="450"
-                      src="https://www.youtube.com/embed/IgY4LgvxP0I"
+                      src="https://www.youtube.com/embed/ajRg-LXQ8Jg"
                       title="Social Media Video Ad"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      style={{ maxWidth: "100%", borderRadius: "12px" }}
+                      style={{ maxWidth: "100%" }}
                     ></iframe>
                   </div>
                 </div>
