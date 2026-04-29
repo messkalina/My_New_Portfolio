@@ -87,12 +87,7 @@ const Motion06 = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            This video was a design challenge I did during
-                            recruitment process during for a company. The task
-                            was to create a video ad for social media that would
-                            attract new customers. I used motion graphics and
-                            video editing skills while using provided video
-                            footage.
+                            I designed and animated this promotional video for Euroshorts 2015 Film Festival. The video was created as a homage to classic cinema, using public domain footage from the 1920s and 1930s, which was included in the brief requirements. I combined the vintage footage with modern typography and motion graphics to create a visually engaging promo that captures the spirit of the festival.
                           </p>
                         </div>
                       </div>
