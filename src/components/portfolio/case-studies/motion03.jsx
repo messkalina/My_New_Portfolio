@@ -227,13 +227,13 @@ const Motion03 = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <video
-                    src="/img/portfolio/stylesframes/caspar/Solution_vidcm.mp4"
+                    src="/img/portfolio/stylesframes/caspar/Anxiety_live_graphicbl_2sm.mp4"
                     style={{ width: "100%" }}
                     autoPlay
                     loop
                     muted
                     playsInline
-                    poster="/img/portfolio/stylesframes/caspar/Solution_vidcm.mp4"
+                    poster="/img/portfolio/stylesframes/caspar/Anxiety_live_graphicbl_2sm.mp4"
                   />
                   <div className="image_caption">
                     <p>
