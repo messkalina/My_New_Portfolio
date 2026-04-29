@@ -64,12 +64,13 @@ const Motion05 = () => {
         <div className="container">
           <div className="content">
             <video
-              src="/img/portfolio/stylesframes/euroshorts/spot Euroshorts_2015cm.mp4"
+              src="/img/portfolio/stylesframes/trivago_man/trivago_TVC_Deutschlandcm.mp4"
               style={{ width: "100%" }}
               autoPlay
               loop
               muted
               playsInline
+              poster="/img/portfolio/stylesframes/trivago_man/trivago_TVC_Deutschlandcm.mp4"
             />
 
             {/* Overview section */}
@@ -106,9 +107,8 @@ const Motion05 = () => {
                         <p>
                           <strong>Scope:</strong>
                           <br />
-                          Concept, script, art direction, visual design,
-                          motion graphics design, video editing, sound
-                          design
+                          Motion graphics design, video supervison & post-production
+                          
                         </p>
                       </div>
                     </div>
@@ -128,12 +128,12 @@ const Motion05 = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/stylesframes/euroshorts/6.png"
+                    src="/img/portfolio/stylesframes/trivago_man/1.png"
                     alt="Redesign Pages Comparison"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
-                      handleImageClick("/img/portfolio/stylesframes/euroshorts/6.png")
+                      handleImageClick("/img/portfolio/stylesframes/trivago_man/1.png")
                     }
                   />
                   <div className="image_caption">
@@ -144,12 +144,12 @@ const Motion05 = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/stylesframes/euroshorts/4.png"
+                    src="/img/portfolio/stylesframes/trivago_man/2.png"
                     alt="Redesign Pages Comparison"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
-                      handleImageClick("/img/portfolio/stylesframes/euroshorts/4.png")
+                      handleImageClick("/img/portfolio/stylesframes/trivago_man/2.png")
                     }
                   />
                 </div>
