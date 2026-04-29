@@ -21,7 +21,7 @@ const Motion02 = () => {
               <Link to="/?tab=motion#portfolio" className="back_button">
                 ← PORTFOLIO / ANIMATION
               </Link>
-              <Link to="/case-study/motion03" className="back_button">
+              <Link to="/case-study/motion04" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>

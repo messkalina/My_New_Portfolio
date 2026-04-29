@@ -21,7 +21,7 @@ const Motion05 = () => {
               <Link to="/?tab=motion#portfolio" className="back_button">
                 ← PORTFOLIO / ANIMATION
               </Link>
-              <Link to="/case-study/motion06" className="back_button">
+              <Link to="/case-study/motion02" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>
@@ -158,7 +158,7 @@ const Motion05 = () => {
               ← PORTFOLIO / ANIMATION
             </Link>
             <Link
-              to="/case-study/motion06"
+              to="/case-study/motion02"
               className="back_button"
               style={{
                 float: "right",
