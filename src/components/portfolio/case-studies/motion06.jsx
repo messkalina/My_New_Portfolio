@@ -1,12 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion06 = () => {
+    const [lightboxOpen, setLightboxOpen] = useState(false);
+    const [lightboxImg, setLightboxImg] = useState("");
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+    const handleImageClick = (imgSrc) => {
+    setLightboxImg(imgSrc);
+    setLightboxOpen(true);
+  };
 
   return (
     <div className="shane_tm_all_wrap">
@@ -26,36 +32,138 @@ const Motion06 = () => {
               </Link>
             </div>
           </div>
-          <div className="content">
+            <div className="content">
             <div
               className="shane_tm_title"
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Euroshorts 2015 Video Promo</h1>
+              {" "}
+              <div className="subtitle-container">
+                <h1>Grabbing attention with mixed media animation</h1>
+              </div>
+              <h4>Social Media Video Ad</h4>
+              <div className="subtitle-container">
+                <div className="subtitle-content">
+                  <h5>
+                    How combining 
+                    stop motion style with 3D animation
+                   helps ads standing out in social media 
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Timeline section */}
-      <div className="shane_tm_section">
+<div
+        className="full-image-section"
+        style={{ width: "100%" }}
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
         <div className="container">
-          <div
-            className="hero_description"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
-            <p
-              style={{
-                fontWeight: 600,
-                fontSize: "14px",
-                marginBottom: "60px",
-              }}
-            >
-              Timeline: <span className="timeline-fine">2015</span>
-            </p>
+          <div className="content">
+            <div>
+              <img
+                src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG02_1.gif"
+                alt="Wireframe"
+                style={{ width: "100%" }}
+              />
+
+              {/* Overview section */}
+              <div className="shane_tm_section">
+                <div className="shane_tm_about">
+                  <div>
+                    <div className="about_inner">
+                      <div className="left">
+                        <div
+                          className="shane_tm_title"
+                          data-aos="fade-up"
+                          data-aos-duration="1200"
+                        >
+                          {" "}
+                          <span>Overview</span>
+                          <p>
+                            This video was a design challenge I did during
+                            recruitment process during for a company. The task
+                            was to create a video ad for social media that would
+                            attract new customers. I used motion graphics and
+                            video editing skills while using provided video
+                            footage.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="right">
+                        <div data-aos="fade-up" data-aos-duration="1200">
+                          <div className="text">
+                            <p>
+                              <strong>Timeline:</strong>
+                              <br />
+                              2022
+                            </p>
+
+                            <p>
+                              <strong>Role:</strong>
+                              <br />
+                              Sole motion graphics designer
+                            </p>
+
+                            <p>
+                              <strong>Scope:</strong>
+                              <br />
+                              Concept, script, art direction, visual design,
+                              motion graphics design, video editing, sound
+                              design
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG04_cm.gif"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                  />
+                  {/* Add caption */}
+                  <div className="image_caption">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              {/* End right */}
+              <div className="right">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG05cm.gif"
+                    alt="Wireframe"
+                    style={{ width: "100%" }}
+                  />
+                </div>
+              </div>
+              {/* End left */}
+            </div>
+          </div>
+          {/* End container */}
         </div>
       </div>
 
@@ -69,80 +177,6 @@ const Motion06 = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                  <p className="text">
-                    Promotional video I created for Euroshorts 2015 Film
-                    Festival.
-                    <strong> Tools:</strong> Adobe After Effects, Premiere Pro,
-                    Photoshop, Illustrator
-                  </p>
-
-                  <div
-                    className="styleframes-grid"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "repeat(2, 1fr)",
-                      gap: "24px",
-                      marginTop: "56px",
-                      marginBottom: "56px",
-                    }}
-                  >
-                    <img
-                      src="/img/portfolio/stylesframes/euroshorts/1.png"
-                      alt="Euroshorts ad styleframe 1"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/euroshorts/2.png"
-                      alt="Euroshorts ad styleframe 2"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/euroshorts/4.png"
-                      alt="Euroshorts ad styleframe 3"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/euroshorts/6.png"
-                      alt="Euroshorts ad styleframe 4"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                  </div>
-
-                  <h3 className="title">Key Work</h3>
-
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>Art Direction</strong>
-                    </li>
-                    <li>
-                      <strong>Visual assets</strong>
-                    </li>
-                    <li>
-                      <strong>Motion graphics design</strong>
-                    </li>
-                    <li>
-                      <strong>Video editing</strong>
-                    </li>
-                    <li>
-                      <strong>Sound design</strong>
-                    </li>
-                  </ul>
                   <div
                     className="case-study-video"
                     style={{
@@ -154,12 +188,12 @@ const Motion06 = () => {
                     <iframe
                       width="800"
                       height="450"
-                      src="https://www.youtube.com/embed/TMjuqn8H97I"
-                      title="Euroshorts 2015 Video Promo"
+                      src="https://www.youtube.com/embed/7i5AQkFl30I"
+                      title="Social Media Video Ad"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      style={{ maxWidth: "100%", borderRadius: "12px" }}
+                      style={{ maxWidth: "100%" }}
                     ></iframe>
                   </div>
                 </div>
@@ -168,6 +202,7 @@ const Motion06 = () => {
           </div>
         </div>
       </div>
+     
       <div className="shane_tm_section">
         <div className="container">
           <div
@@ -192,6 +227,35 @@ const Motion06 = () => {
           </div>
         </div>
       </div>
+      {/* Lightbox */}
+      {lightboxOpen && (
+        <div
+          className="lightbox"
+          onClick={() => setLightboxOpen(false)}
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: "rgba(0,0,0,0.85)",
+            zIndex: 9999,
+            width: "100vw",
+            height: "100vh",
+            overflow: "auto",
+            cursor: "zoom-out",
+          }}
+        >
+          <img
+            src={lightboxImg}
+            alt="Wireframe Full"
+            style={{
+              display: "block",
+              margin: "40px auto",
+            }}
+          />
+        </div>
+      )}
       <Footer />
     </div>
   );

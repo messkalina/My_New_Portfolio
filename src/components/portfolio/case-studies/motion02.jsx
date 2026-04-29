@@ -40,9 +40,8 @@ const Motion02 = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How combining 
-                    stop motion style with 3D animation
-                   helps ads standing out in social media 
+                    How combining stop motion style with 3D animation helps ads
+                    standing out in social media
                   </h5>
                 </div>
               </div>
@@ -122,7 +121,7 @@ const Motion02 = () => {
           </div>
         </div>
       </div>
- <div className="shane_tm_section">
+      <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
@@ -196,7 +195,6 @@ const Motion02 = () => {
           </div>
         </div>
       </div>
-     
 
       <div className="shane_tm_section">
         <div className="container">
