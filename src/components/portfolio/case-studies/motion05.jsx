@@ -84,14 +84,8 @@ const Motion05 = () => {
                     >
                       <span>Overview</span>
                       <p>
-                        I designed and animated this promotional video for
-                        Euroshorts 2015 Film Festival. The video was created
-                        as a homage to classic cinema, using public domain
-                        footage from the 1920s and 1930s, which was included
-                        in the brief requirements. I combined the vintage
-                        footage with modern typography and motion graphics
-                        to create a visually engaging promo that captures
-                        the spirit of the festival.
+                        TV ad created when I worked as a motion designer for hotel
+                    search engine app Trivago. I was responsible for post production supervison on the video set as well as designing the motion graphics, which included combining live footage and motion graphics. The ad was aired on TV in Germany and Austria.
                       </p>
                     </div>
                   </div>
@@ -102,12 +96,12 @@ const Motion05 = () => {
                         <p>
                           <strong>Timeline:</strong>
                           <br />
-                          2015
+                          2017
                         </p>
                         <p>
                           <strong>Role:</strong>
                           <br />
-                          Sole motion graphics designer
+                          Motion graphics designer, video-post production supervisor
                         </p>
                         <p>
                           <strong>Scope:</strong>
