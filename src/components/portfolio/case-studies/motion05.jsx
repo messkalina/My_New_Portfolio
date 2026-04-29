@@ -1,12 +1,20 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion05 = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxImg, setLightboxImg] = useState("");
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const handleImageClick = (imgSrc) => {
+    setLightboxImg(imgSrc);
+    setLightboxOpen(true);
+  };
 
   return (
     <div className="shane_tm_all_wrap">
@@ -14,17 +22,14 @@ const Motion05 = () => {
 
       {/* Hero section */}
       <div className="shane_tm_hero_case_study">
-        <div></div>
         <div className="container">
-          <div>
-            <div className="navigation-wrapper">
-              <Link to="/?tab=motion#portfolio" className="back_button">
-                ← PORTFOLIO / ANIMATION
-              </Link>
-              <Link to="/case-study/motion02" className="back_button">
-                NEXT PROJECT →
-              </Link>
-            </div>
+          <div className="navigation-wrapper">
+            <Link to="/?tab=motion#portfolio" className="back_button">
+              ← PORTFOLIO / ANIMATION
+            </Link>
+            <Link to="/case-study/motion02" className="back_button">
+              NEXT PROJECT →
+            </Link>
           </div>
           <div className="content">
             <div
@@ -32,33 +37,135 @@ const Motion05 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h1>Trivago TV Ad</h1>
+              
+              <div className="subtitle-container">
+                <h1>Taking charge of the motion graphics and video post production for a TV ad</h1>
+              </div>
+              <h4>Trivago TV Ad</h4>
+              <div className="subtitle-container">
+                <div className="subtitle-content">
+                  <h5>
+                    How to adopt a predefined style for a video format in a TV ad, that included live footage and motion graphics, while ensuring the final product is visually engaging and effectively communicates the brand message.
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Timeline section */}
-      <div className="shane_tm_section">
+      {/* Video and Overview Section */}
+      <div
+        className="full-image-section"
+        style={{ width: "100%" }}
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
         <div className="container">
-          <div
-            className="hero_description"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-          >
-            <p
-              style={{
-                fontWeight: 600,
-                fontSize: "14px",
-                marginBottom: "60px",
-              }}
-            >
-              Timeline: <span className="timeline-fine">2017</span>
-            </p>
+          <div className="content">
+            <video
+              src="/img/portfolio/stylesframes/euroshorts/spot Euroshorts_2015cm.mp4"
+              style={{ width: "100%" }}
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
+
+            {/* Overview section */}
+            <div className="shane_tm_section">
+              <div className="shane_tm_about">
+                <div className="about_inner">
+                  <div className="left">
+                    <div
+                      className="shane_tm_title"
+                      data-aos="fade-up"
+                      data-aos-duration="1200"
+                    >
+                      <span>Overview</span>
+                      <p>
+                        I designed and animated this promotional video for
+                        Euroshorts 2015 Film Festival. The video was created
+                        as a homage to classic cinema, using public domain
+                        footage from the 1920s and 1930s, which was included
+                        in the brief requirements. I combined the vintage
+                        footage with modern typography and motion graphics
+                        to create a visually engaging promo that captures
+                        the spirit of the festival.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="right">
+                    <div data-aos="fade-up" data-aos-duration="1200">
+                      <div className="text">
+                        <p>
+                          <strong>Timeline:</strong>
+                          <br />
+                          2015
+                        </p>
+                        <p>
+                          <strong>Role:</strong>
+                          <br />
+                          Sole motion graphics designer
+                        </p>
+                        <p>
+                          <strong>Scope:</strong>
+                          <br />
+                          Concept, script, art direction, visual design,
+                          motion graphics design, video editing, sound
+                          design
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
+      {/* Image Gallery Section */}
+      <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/stylesframes/euroshorts/6.png"
+                    alt="Redesign Pages Comparison"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick("/img/portfolio/stylesframes/euroshorts/6.png")
+                    }
+                  />
+                  <div className="image_caption">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/stylesframes/euroshorts/4.png"
+                    alt="Redesign Pages Comparison"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick("/img/portfolio/stylesframes/euroshorts/4.png")
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* YouTube Section */}
       <div className="shane_tm_hero_case_study">
         <div className="container">
           <div className="content">
@@ -69,56 +176,6 @@ const Motion05 = () => {
                 data-aos-duration="1200"
               >
                 <div className="top">
-                  <p className="text">
-                    TV ad created when I worked as a motion designer for hotel
-                    search engine app Trivago.
-                    <strong> Tools:</strong> Adobe After Effects, Photoshop,
-                    Illustrator
-                  </p>
-
-                  <div
-                    className="styleframes-grid"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "repeat(2, 1fr)",
-                      gap: "24px",
-                      marginTop: "56px",
-                      marginBottom: "56px",
-                    }}
-                  >
-                    <img
-                      src="/img/portfolio/stylesframes/trivago_man/1.png"
-                      alt="Trivago ad styleframe 1"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                    <img
-                      src="/img/portfolio/stylesframes/trivago_man/2.png"
-                      alt="Trivago ad styleframe 2"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        // borderRadius: "12px",
-                      }}
-                    />
-                  </div>
-
-                  <h3 className="title">Key Work</h3>
-
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>Motion graphics design</strong>
-                    </li>
-                    <li>
-                      <strong>Video editing</strong>
-                    </li>
-                    <li>
-                      <strong>Video post production</strong>
-                    </li>
-                  </ul>
                   <div
                     className="case-study-video"
                     style={{
@@ -130,12 +187,12 @@ const Motion05 = () => {
                     <iframe
                       width="800"
                       height="450"
-                      src="https://www.youtube.com/embed/ajRg-LXQ8Jg"
-                      title="Trivago TV Ad"
+                      src="https://www.youtube.com/embed/TMjuqn8H97I"
+                      title="Social Media Video Ad"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      style={{ maxWidth: "100%", borderRadius: "12px" }}
+                      style={{ maxWidth: "100%" }}
                     ></iframe>
                   </div>
                 </div>
@@ -145,6 +202,7 @@ const Motion05 = () => {
         </div>
       </div>
 
+      {/* Bottom Navigation */}
       <div className="shane_tm_section">
         <div className="container">
           <div
@@ -160,9 +218,7 @@ const Motion05 = () => {
             <Link
               to="/case-study/motion02"
               className="back_button"
-              style={{
-                float: "right",
-              }}
+              style={{ float: "right" }}
             >
               NEXT PROJECT →
             </Link>

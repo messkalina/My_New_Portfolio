@@ -4,12 +4,12 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion06 = () => {
-    const [lightboxOpen, setLightboxOpen] = useState(false);
-    const [lightboxImg, setLightboxImg] = useState("");
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxImg, setLightboxImg] = useState("");
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-    const handleImageClick = (imgSrc) => {
+  const handleImageClick = (imgSrc) => {
     setLightboxImg(imgSrc);
     setLightboxOpen(true);
   };
@@ -32,7 +32,7 @@ const Motion06 = () => {
               </Link>
             </div>
           </div>
-            <div className="content">
+          <div className="content">
             <div
               className="shane_tm_title"
               data-aos="fade-up"
@@ -46,7 +46,8 @@ const Motion06 = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How to weave in public domain footage as a hommage to classic cinema in a promo video for film festival.
+                    How to weave in public domain footage as a hommage to
+                    classic cinema in a promo video for film festival.
                   </h5>
                 </div>
               </div>
@@ -54,7 +55,7 @@ const Motion06 = () => {
           </div>
         </div>
       </div>
-<div
+      <div
         className="full-image-section"
         style={{ width: "100%" }}
         data-aos="fade-up"
@@ -63,7 +64,7 @@ const Motion06 = () => {
         <div className="container">
           <div className="content">
             <div>
-             <video
+              <video
                 src="/img/portfolio/stylesframes/euroshorts/spot Euroshorts_2015cm.mp4"
                 style={{ width: "100%" }}
                 autoPlay
@@ -87,7 +88,14 @@ const Motion06 = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            I designed and animated this promotional video for Euroshorts 2015 Film Festival. The video was created as a homage to classic cinema, using public domain footage from the 1920s and 1930s, which was included in the brief requirements. I combined the vintage footage with modern typography and motion graphics to create a visually engaging promo that captures the spirit of the festival.
+                            I designed and animated this promotional video for
+                            Euroshorts 2015 Film Festival. The video was created
+                            as a homage to classic cinema, using public domain
+                            footage from the 1920s and 1930s, which was included
+                            in the brief requirements. I combined the vintage
+                            footage with modern typography and motion graphics
+                            to create a visually engaging promo that captures
+                            the spirit of the festival.
                           </p>
                         </div>
                       </div>
@@ -138,7 +146,6 @@ const Motion06 = () => {
                     style={{
                       width: "100%",
                       cursor: "pointer",
-                    
                     }}
                     onClick={() =>
                       handleImageClick(
@@ -159,14 +166,13 @@ const Motion06 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                 <img
+                  <img
                     src="/img/portfolio/stylesframes/euroshorts/4.png"
                     alt="Redesign Pages Comparison"
                     className="clickable-image"
                     style={{
                       width: "100%",
                       cursor: "pointer",
-                    
                     }}
                     onClick={() =>
                       handleImageClick(
@@ -218,7 +224,7 @@ const Motion06 = () => {
           </div>
         </div>
       </div>
-     
+
       <div className="shane_tm_section">
         <div className="container">
           <div
