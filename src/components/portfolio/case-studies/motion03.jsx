@@ -322,12 +322,12 @@ const Motion03 = () => {
                     <iframe
                       width="800"
                       height="450"
-                      src="https://www.youtube.com/embed/7i5AQkFl30I"
-                      title="Social Media Video Ad"
+                      src="https://www.youtube.com/embed/9F-EWAQiF8g"
+                      title="Explainer Videos"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      style={{ maxWidth: "100%" }}
+                      style={{ maxWidth: "100%", borderRadius: "2px" }}
                     ></iframe>
                   </div>
                 </div>
@@ -376,16 +376,18 @@ const Motion03 = () => {
                   </ul>
                 </div>
               </div>
-              {/* <div className="right">
+              <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                   <video
-                    src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
+                   <img
+                    src="/img/portfolio/stylesframes/caspar/Caspar_Health_before_aftercm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/stylesframes/caspar/Caspar_Health_before_aftercm.png",
+                      )
+                    }
                   />
                   <div className="image_caption">
                     <p>
@@ -397,7 +399,7 @@ const Motion03 = () => {
                     </p>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
          
           </div>
