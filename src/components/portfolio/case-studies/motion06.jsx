@@ -133,7 +133,7 @@ const Motion06 = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/filmfest.png"
+                    src="/img/portfolio/stylesframes/euroshorts/2.png"
                     alt="Redesign Pages Comparison"
                     className="clickable-image"
                     style={{
@@ -143,7 +143,7 @@ const Motion06 = () => {
                     }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/filmfest.png",
+                        "/img/portfolio/stylesframes/euroshorts/2.png",
                       )
                     }
                   />
@@ -160,10 +160,20 @@ const Motion06 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <img
-                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG05cm.gif"
-                    alt="Wireframe"
-                    style={{ width: "100%" }}
+                 <img
+                    src="/img/portfolio/stylesframes/euroshorts/4.png"
+                    alt="Redesign Pages Comparison"
+                    className="clickable-image"
+                    style={{
+                      width: "100%",
+                      cursor: "pointer",
+                    
+                    }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/stylesframes/euroshorts/4.png",
+                      )
+                    }
                   />
                 </div>
               </div>
@@ -195,7 +205,7 @@ const Motion06 = () => {
                     <iframe
                       width="800"
                       height="450"
-                      src="https://www.youtube.com/embed/7i5AQkFl30I"
+                      src="https://www.youtube.com/embed/TMjuqn8H97I"
                       title="Social Media Video Ad"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
