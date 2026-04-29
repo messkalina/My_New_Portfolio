@@ -66,14 +66,14 @@ const Motion03 = () => {
           <div className="content">
             <div>
               <video
-                src="/img/portfolio/stylesframes/caspar/pulsmessen2_cm.mp4"
+                src="/img/portfolio/stylesframes/caspar/Anxiety_wiederholungcm.mp4"
                 style={{ width: "100%" }}
                 autoPlay
                 loop
                 muted
                 playsInline
                 controls
-                poster="/img/portfolio/stylesframes/caspar/pulsmessen2_cm.mp4"
+                poster="/img/portfolio/stylesframes/caspar/Anxiety_wiederholungcm.mp4"
               />
 
 
@@ -233,6 +233,7 @@ const Motion03 = () => {
                     loop
                     muted
                     playsInline
+                    controls
                     poster="/img/portfolio/stylesframes/caspar/Anxiety_live_graphicbl_2sm.mp4"
                   />
                   <div className="image_caption">
@@ -509,6 +510,35 @@ const Motion03 = () => {
           </div>
         </div>
       </div>
+      {/* Lightbox */}
+      {lightboxOpen && (
+        <div
+          className="lightbox"
+          onClick={() => setLightboxOpen(false)}
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: "rgba(0,0,0,0.85)",
+            zIndex: 9999,
+            width: "100vw",
+            height: "100vh",
+            overflow: "auto",
+            cursor: "zoom-out",
+          }}
+        >
+          <img
+            src={lightboxImg}
+            alt="Wireframe Full"
+            style={{
+              display: "block",
+              margin: "40px auto",
+            }}
+          />
+        </div>
+      )}
       <Footer />
     </div>
   );
