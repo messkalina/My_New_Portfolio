@@ -419,13 +419,13 @@ const Motion03 = () => {
                 >
                   
                   <img
-                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
+                    src="/img/portfolio/stylesframes/caspar/Caspar_Health_before.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
+                        "/img/portfolio/stylesframes/caspar/Caspar_Health_before.png",
                       )
                     }
                   />
@@ -443,13 +443,13 @@ const Motion03 = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
+                    src="/img/portfolio/stylesframes/caspar/Caspar_Health_after.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
+                        "/img/portfolio/stylesframes/caspar/Caspar_Health_after.png",
                       )
                     }
                   />
