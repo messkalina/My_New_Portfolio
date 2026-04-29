@@ -380,13 +380,13 @@ const Motion03 = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                    <img
-                    src="/img/portfolio/stylesframes/caspar/Caspar_Health_before_aftercm.png"
+                    src="/img/portfolio/stylesframes/caspar/caspar_exercises.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/stylesframes/caspar/Caspar_Health_before_aftercm.png",
+                        "/img/portfolio/stylesframes/caspar/caspar_exercises.png",
                       )
                     }
                   />
@@ -407,7 +407,67 @@ const Motion03 = () => {
         </div>
       </div>
 
-    
+                       <div className="shane_tm_section">
+        <div className="shane_tm_about">
+          <div className="container">
+            <div className="about_inner">
+              <div className="left">
+                <div
+                  className="shane_tm_title"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  
+                  <img
+                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
+                      )
+                    }
+                  />
+                  <div className="image_caption">
+                    <p>
+                      1. Website reference that client provided; 2. MVP version;
+                      3. Second iteration of the design. Since user testing
+                      revealed the MVP felt too "clinical" and cold I moved
+                      toward a warmer, high-fidelity color palette and more
+                      sophisticated typographic choices in the refinement phase.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="right">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <img
+                    src="/img/portfolio/case-study/Vet_Design_Iterations_sm.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Vet_Design_Iterations_sm.png",
+                      )
+                    }
+                  />
+                  <div className="image_caption">
+                    <p>
+                      1. Website reference that client provided; 2. MVP version;
+                      3. Second iteration of the design. Since user testing
+                      revealed the MVP felt too "clinical" and cold I moved
+                      toward a warmer, high-fidelity color palette and more
+                      sophisticated typographic choices in the refinement phase.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Outcome Section */}
       <div className="shane_tm_section" id="outcome">
         <div className="shane_tm_about">
