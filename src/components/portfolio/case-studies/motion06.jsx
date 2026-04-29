@@ -40,15 +40,13 @@ const Motion06 = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Grabbing attention with mixed media animation</h1>
+                <h1>Promo video for film festival</h1>
               </div>
-              <h4>Social Media Video Ad</h4>
+              <h4>Euroshorts 2015</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How combining 
-                    stop motion style with 3D animation
-                   helps ads standing out in social media 
+                    How to weave in public domain footage as a hommage to classic cinema in a promo video for film festival.
                   </h5>
                 </div>
               </div>
@@ -101,7 +99,7 @@ const Motion06 = () => {
                             <p>
                               <strong>Timeline:</strong>
                               <br />
-                              2022
+                              2015
                             </p>
 
                             <p>
@@ -135,10 +133,19 @@ const Motion06 = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG04_cm.gif"
-                    alt="Wireframe"
+                    src="/img/portfolio/filmfest.png"
+                    alt="Redesign Pages Comparison"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
+                    style={{
+                      width: "100%",
+                      cursor: "pointer",
+                    
+                    }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/filmfest.png",
+                      )
+                    }
                   />
                   {/* Add caption */}
                   <div className="image_caption">

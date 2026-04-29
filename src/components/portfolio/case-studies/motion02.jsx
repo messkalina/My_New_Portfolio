@@ -36,7 +36,7 @@ const Motion02 = () => {
               <div className="subtitle-container">
                 <h1>Grabbing attention with mixed media animation</h1>
               </div>
-              <h4>Social Media Video Ad</h4>
+              <h4>Wolt Social Media Video Ad</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
