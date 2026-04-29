@@ -40,7 +40,7 @@ const Motion06 = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Promo video for film festival</h1>
+                <h1>Promo video for a film festival</h1>
               </div>
               <h4>Euroshorts 2015</h4>
               <div className="subtitle-container">
@@ -63,10 +63,14 @@ const Motion06 = () => {
         <div className="container">
           <div className="content">
             <div>
-              <img
-                src="/img/portfolio/stylesframes/wolt/Wolt_verA_16_9_ENG02_1.gif"
-                alt="Wireframe"
+             <video
+                src="/img/portfolio/stylesframes/euroshorts/spot Euroshorts_2015cm.mp4"
                 style={{ width: "100%" }}
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="/img/portfolio/stylesframes/euroshorts/spot Euroshorts_2015cm.mp4"
               />
 
               {/* Overview section */}
@@ -133,7 +137,7 @@ const Motion06 = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/stylesframes/euroshorts/2.png"
+                    src="/img/portfolio/stylesframes/euroshorts/6.png"
                     alt="Redesign Pages Comparison"
                     className="clickable-image"
                     style={{
@@ -143,7 +147,7 @@ const Motion06 = () => {
                     }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/stylesframes/euroshorts/2.png",
+                        "/img/portfolio/stylesframes/euroshorts/6.png",
                       )
                     }
                   />
