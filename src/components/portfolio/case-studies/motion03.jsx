@@ -297,41 +297,6 @@ const Motion03 = () => {
         </div>
       </div>
 
-      <div className="shane_tm_hero_case_study">
-        <div className="container">
-          <div className="content">
-            <div className="shane_tm_section">
-              <div
-                className="case-study-intro-section"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <div className="top">
-                  <div
-                    className="case-study-video"
-                    style={{
-                      marginTop: "56px",
-                      marginBottom: "56px",
-                      textAlign: "center",
-                    }}
-                  >
-                    <iframe
-                      width="800"
-                      height="450"
-                      src="https://www.youtube.com/embed/9F-EWAQiF8g"
-                      title="Explainer Videos"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      style={{ maxWidth: "100%", borderRadius: "2px" }}
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div className="shane_tm_section">
         <div className="shane_tm_about">
@@ -519,6 +484,41 @@ Acting as a creative producer, I was responsible for designing the set and art d
                     Caspar Health app and its mission to support patients in
                     their recovery journeys.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div className="shane_tm_hero_case_study">
+        <div className="container">
+          <div className="content">
+            <div className="shane_tm_section">
+              <div
+                className="case-study-intro-section"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <div className="top">
+                  <div
+                    className="case-study-video"
+                    style={{
+                      marginTop: "56px",
+                      marginBottom: "56px",
+                      textAlign: "center",
+                    }}
+                  >
+                    <iframe
+                      width="800"
+                      height="450"
+                      src="https://www.youtube.com/embed/9F-EWAQiF8g"
+                      title="Explainer Videos"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      style={{ maxWidth: "100%", borderRadius: "2px" }}
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
