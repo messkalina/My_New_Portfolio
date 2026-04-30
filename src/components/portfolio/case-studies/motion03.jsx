@@ -317,8 +317,8 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The UX researcher tested both content types — animated vs.
-                    live- action — with users. Results showed:
+                    The UX researcher tested both content types with users: completely animated vs.
+                    a mix of speaker's live footage and motion graphics. Results showed:
                   </p>
                   <ul className="case-study-list">
                     <li>
@@ -326,7 +326,7 @@ const Motion03 = () => {
                       emotional connection.
                     </li>
                     <li>
-                      Viewer preference correlated with the speaker’s persona —
+                      Viewer preference correlated with the speaker’s persona -
                       older, empathetic female speakers received higher
                       engagement scores than younger, “perfect” looking hosts.
                     </li>
@@ -334,8 +334,13 @@ const Motion03 = () => {
                       These findings helped us define new casting and content
                       guidelines to ensure ongoing viewer engagement.
                     </li>
+                    <li>
+                      For some topics (e.g., very informative, technical procedures), users preferred a more visual, animated format, so we continued to produce a mix of content types based on the subject matter and target audience.
+                    </li>
                   </ul>
-                </div>
+                  As a creative producer I developed and implemented the new video format that combined speaker footage with motion graphics. This also allowed for shorter content production cycles ( since purely animated video seminars took longer to produce with small in-house team), enabling us to iterate more quickly based on user feedback and changing needs. 
+                 
+                  </div>
               </div>
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
