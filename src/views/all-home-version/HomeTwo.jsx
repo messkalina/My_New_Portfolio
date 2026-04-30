@@ -29,11 +29,12 @@ const HomeTwo = () => {
 
       <Slider />
 
-      <Portfolio />
+     
 
       <About />
 
       <Skills />
+       <Portfolio />
 
       {/* <ContactForm /> */}
 

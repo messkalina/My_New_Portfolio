@@ -702,8 +702,10 @@ h6 { font-size: 1.3rem; font-weight: 700; }
 }
 .shane_tm_topbar .menu ul li a {
   text-decoration: none;
-  color: #222;
+  color: var(--secondary-text);;
   position: relative;
+  font-weight: 500;
+  letter-spacing: 0.1px;
   &::before {
     content: "";
     position: absolute;
@@ -1353,7 +1355,7 @@ transform: translateY(2px);
   height: auto;
   clear: both;
   float: left;
-  background-color: #f9f9f9;
+  // background-color: #f9f9f9;
   padding: 150px 0px 100px 0px;
   @media screen and (max-width: 992px) {
     padding: 60px 0px 40px;
