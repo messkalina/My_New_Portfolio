@@ -67,13 +67,13 @@ const Motion04 = () => {
         <div className="container">
           <div className="content">
             <video
-              src="/img/portfolio/stylesframes/trivago_man/trivago_TVC_Deutschlandcm.mp4"
+              src="/img/portfolio/stylesframes/talon/social media ad_taloncm.mp4"
               style={{ width: "100%" }}
               autoPlay
               loop
               muted
               playsInline
-              poster="/img/portfolio/stylesframes/trivago_man/trivago_TVC_Deutschlandcm.mp4"
+              poster="/img/portfolio/stylesframes/talon/social media ad_taloncm.mp4"
             />
 
             {/* Overview section */}
