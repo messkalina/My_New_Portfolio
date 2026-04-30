@@ -42,13 +42,13 @@ const Motion04 = () => {
             >
               
               <div className="subtitle-container">
-                <h1>Taking charge of the motion graphics and video post production for a TV ad</h1>
+                <h1>Standing out in social media feed</h1>
               </div>
-              <h4>Trivago TV Ad</h4>
+              <h4>Social Media Video  Ad</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How to adopt a predefined style for a video format in a TV ad, that included live footage and motion graphics, while ensuring the final product is visually engaging and effectively communicates the brand message.
+                    How storyretelling and motion design to create a visually engaging video ad for social media, that effectively communicates the brand message and stands out in a crowded feed.
                   </h5>
                 </div>
               </div>
@@ -88,8 +88,7 @@ const Motion04 = () => {
                     >
                       <span>Overview</span>
                       <p>
-                        TV ad created when I worked as a motion designer for hotel
-                    search engine app Trivago. I was responsible for post production supervison on the video set as well as designing the motion graphics, which included combining live footage and motion graphics. The ad was aired on TV in Germany and Austria.
+                        Social media video created for a tech company promoting their customer engagement platform.
                       </p>
                     </div>
                   </div>
@@ -100,17 +99,17 @@ const Motion04 = () => {
                         <p>
                           <strong>Timeline:</strong>
                           <br />
-                          2017
+                          2022
                         </p>
                         <p>
                           <strong>Role:</strong>
                           <br />
-                          Motion graphics designer, video-post production supervisor
+                          Motion graphics designer
                         </p>
                         <p>
                           <strong>Scope:</strong>
                           <br />
-                          Motion graphics design, video supervison & post-production
+                          Concept, art direction, motion graphics design
                           
                         </p>
                       </div>
