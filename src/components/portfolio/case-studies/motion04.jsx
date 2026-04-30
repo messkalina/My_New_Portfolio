@@ -130,12 +130,12 @@ const Motion04 = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/stylesframes/trivago_man/1.png"
+                    src="/img/portfolio/stylesframes/talon/1.png"
                     alt="Redesign Pages Comparison"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
-                      handleImageClick("/img/portfolio/stylesframes/trivago_man/1.png")
+                      handleImageClick("/img/portfolio/stylesframes/talon/1.png")
                     }
                   />
                   <div className="image_caption">
@@ -146,12 +146,12 @@ const Motion04 = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/stylesframes/trivago_man/2.png"
+                    src="/img/portfolio/stylesframes/talon/2.png"
                     alt="Redesign Pages Comparison"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
-                      handleImageClick("/img/portfolio/stylesframes/trivago_man/2.png")
+                      handleImageClick("/img/portfolio/stylesframes/talon/2.png")
                     }
                   />
                 </div>
@@ -183,7 +183,7 @@ const Motion04 = () => {
                     <iframe
                       width="800"
                       height="450"
-                      src="https://www.youtube.com/embed/ajRg-LXQ8Jg"
+                      src="https://www.youtube.com/embed/IgY4LgvxP0I"
                       title="Social Media Video Ad"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
