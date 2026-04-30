@@ -76,7 +76,6 @@ const Motion03 = () => {
                 poster="/img/portfolio/stylesframes/caspar/Anxiety_wiederholungcm.mp4"
               />
 
-
               {/* Overview section */}
               <div className="shane_tm_section">
                 <div className="shane_tm_about">
@@ -94,12 +93,9 @@ const Motion03 = () => {
                             Caspar Health is a Berlin-based digital healthcare
                             company providing remote rehabilitation and
                             physiotherapy programs for patients recovering from
-                            surgery or managing chronic conditions. It provides
-                            medical support and software ("Diga") subjected to
-                            restrictive regulations and requirements for such
-                            products in Germany. They software offer access to
-                            educational and exercise videos created by medical
-                            professionals for patients.
+                            surgery or managing chronic conditions. They provide
+                            software and medical support for evidence-based
+                            digital prevention, rehabilitation, and aftercare.
                           </p>
                         </div>
                       </div>
@@ -160,15 +156,15 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    When I joined Caspar Health, the video content was
-                    functional but not user-friendly: long, static, and heavily
-                    animated medical lectures that caused viewers to drop off
-                    early. My goal was to redesign and optimize the video
-                    experience to make it more engaging, digestible, and aligned
-                    with user behavior — effectively applying UX thinking to
-                    content design. Users were dropping off after a few minutes
-                    of video play, and internal metrics showed low completion
-                    rates and high churn.
+                    When I joined Caspar Health, their video content was
+                    functional but particularly user-friendly: long and
+                    unengaging medical lectures that caused viewers to drop off
+                    early. My goal was to produce video content that would
+                    significantly improve user retention and motivation. I focused on
+                    creating shorter, more engaging videos with a mix of
+                    live-action and motion graphics, while also incorporating
+                    positive, encouraging messaging to motivate users and create
+                    a more supportive learning environment. 
                   </p>
                   <div
                     className="shane_tm_button"
@@ -193,9 +189,8 @@ const Motion03 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-              <img
+                  <img
                     src="/img/portfolio/stylesframes/caspar/old_framescm.png"
-                   
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
@@ -379,7 +374,7 @@ const Motion03 = () => {
               </div>
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                   <img
+                  <img
                     src="/img/portfolio/stylesframes/caspar/caspar_exercises.png"
                     alt="Wireframe"
                     className="clickable-image"
@@ -392,22 +387,17 @@ const Motion03 = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design. Since user testing
-                      revealed the MVP felt too "clinical" and cold I moved
-                      toward a warmer, high-fidelity color palette and more
-                      sophisticated typographic choices in the refinement phase.
+Acting as a creative producer, I was responsible for designing the set and art direction for the video content. Since the previous video style applied clean, minimalistic style that was not performing well in UX research, we shifted towards a more relatable and diverse representation of exercise models to better connect with the target audience. I also developed a warmer, more inviting color palette and set design to create a more supportive learning environment.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-         
           </div>
         </div>
       </div>
 
-                       <div className="shane_tm_section">
+      <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
@@ -417,7 +407,6 @@ const Motion03 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  
                   <img
                     src="/img/portfolio/stylesframes/caspar/Caspar_Health_before.png"
                     alt="Wireframe"
@@ -431,11 +420,7 @@ const Motion03 = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design. Since user testing
-                      revealed the MVP felt too "clinical" and cold I moved
-                      toward a warmer, high-fidelity color palette and more
-                      sophisticated typographic choices in the refinement phase.
+                      Metrics showed low completion rates and high churn of the viewership of the original video content. This was a key motivator for redesigning visual and content strategy to better align with user behavior and preferences.
                     </p>
                   </div>
                 </div>
@@ -455,11 +440,7 @@ const Motion03 = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      1. Website reference that client provided; 2. MVP version;
-                      3. Second iteration of the design. Since user testing
-                      revealed the MVP felt too "clinical" and cold I moved
-                      toward a warmer, high-fidelity color palette and more
-                      sophisticated typographic choices in the refinement phase.
+                      As Content Production team we put a strong emphasis on testing and iteration. I worked closely with a UX researcher to test different content formats and styles with users, and iterated based on feedback to optimize for engagement and retention.
                     </p>
                   </div>
                 </div>
@@ -473,9 +454,9 @@ const Motion03 = () => {
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
-               <div className="left">
+              <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                 <video
+                  <video
                     src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
                     style={{ width: "100%" }}
                     autoPlay
@@ -485,7 +466,7 @@ const Motion03 = () => {
                     poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
                   />
                   {/* <div className="image_caption"> */}
-                    {/* <p>
+                  {/* <p>
                       Client testimonial praising the aesthetic and ease of use.
                     </p> */}
                   {/* </div> */}
@@ -533,15 +514,13 @@ const Motion03 = () => {
                     </li>
                   </ul>
                   <p>
-                    The new video format significantly improved user
-                    engagement and retention, contributing to the overall
-                    success of the Caspar Health app and its mission to support
-                    patients in their recovery journeys.
+                    The new video format significantly improved user engagement
+                    and retention, contributing to the overall success of the
+                    Caspar Health app and its mission to support patients in
+                    their recovery journeys.
                   </p>
                 </div>
               </div>
-
-             
             </div>
           </div>
         </div>
