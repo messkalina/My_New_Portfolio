@@ -160,11 +160,11 @@ const Motion03 = () => {
                     functional but particularly user-friendly: long and
                     unengaging medical lectures that caused viewers to drop off
                     early. My goal was to produce video content that would
-                    significantly improve user retention and motivation. I focused on
-                    creating shorter, more engaging videos with a mix of
-                    live-action and motion graphics, while also incorporating
+                    significantly improve user retention and motivation. I
+                    focused on creating shorter, more engaging videos with a mix
+                    of live-action and motion graphics, while also incorporating
                     positive, encouraging messaging to motivate users and create
-                    a more supportive learning environment. 
+                    a more supportive learning environment.
                   </p>
                   <div
                     className="shane_tm_button"
@@ -297,7 +297,6 @@ const Motion03 = () => {
         </div>
       </div>
 
-
       <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
@@ -317,8 +316,9 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The UX researcher tested both content types with users: completely animated vs.
-                    a mix of speaker's live footage and motion graphics. Results showed:
+                    The UX researcher tested both content types with users:
+                    completely animated vs. a mix of speaker's live footage and
+                    motion graphics. Results showed:
                   </p>
                   <ul className="case-study-list">
                     <li>
@@ -335,12 +335,19 @@ const Motion03 = () => {
                       guidelines to ensure ongoing viewer engagement.
                     </li>
                     <li>
-                      For some topics (e.g., very informative, technical procedures), users preferred a more visual, animated format, so we continued to produce a mix of content types based on the subject matter and target audience.
+                      For some topics (e.g., very informative, technical
+                      procedures), users preferred a more visual, animated
+                      format, so we continued to produce a mix of content types
+                      based on the subject matter and target audience.
                     </li>
                   </ul>
-                  As a creative producer I developed and implemented the new video format that combined speaker footage with motion graphics. This also allowed for shorter content production cycles ( since purely animated video seminars took longer to produce with small in-house team), enabling us to iterate more quickly based on user feedback and changing needs. 
-                 
-                  </div>
+                  As a creative producer I developed and implemented the new
+                  video format that combined speaker footage with motion
+                  graphics. This also allowed for shorter content production
+                  cycles ( since purely animated video seminars took longer to
+                  produce with small in-house team), enabling us to iterate more
+                  quickly based on user feedback and changing needs.
+                </div>
               </div>
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
@@ -357,7 +364,15 @@ const Motion03 = () => {
                   />
                   <div className="image_caption">
                     <p>
-Acting as a creative producer, I was responsible for designing the set and art direction for the video content. Since the previous video style applied clean, minimalistic style that was not performing well in UX research, we shifted towards a more relatable and diverse representation of exercise models to better connect with the target audience. I also developed a warmer, more inviting color palette and set design to create a more supportive learning environment.
+                      Acting as a creative producer, I was responsible for
+                      designing the set and art direction for the video content.
+                      Since the previous video style applied clean, minimalistic
+                      style that was not performing well in UX research, we
+                      shifted towards a more relatable and diverse
+                      representation of exercise models to better connect with
+                      the target audience. I also developed a warmer, more
+                      inviting color palette and set design to create a more
+                      supportive learning environment.
                     </p>
                   </div>
                 </div>
@@ -390,7 +405,10 @@ Acting as a creative producer, I was responsible for designing the set and art d
                   />
                   <div className="image_caption">
                     <p>
-                      Metrics showed low completion rates and high churn of the viewership of the original video content. This was a key motivator for redesigning visual and content strategy to better align with user behavior and preferences.
+                      Metrics showed low completion rates and high churn of the
+                      viewership of the original video content. This was a key
+                      motivator for redesigning visual and content strategy to
+                      better align with user behavior and preferences.
                     </p>
                   </div>
                 </div>
@@ -410,7 +428,11 @@ Acting as a creative producer, I was responsible for designing the set and art d
                   />
                   <div className="image_caption">
                     <p>
-                      As Content Production team we put a strong emphasis on testing and iteration. I worked closely with a UX researcher to test different content formats and styles with users, and iterated based on feedback to optimize for engagement and retention.
+                      As Content Production team, we put a strong emphasis on
+                      testing and iteration. I worked closely with a UX
+                      researcher to test different content formats and styles
+                      with users, and iterated based on feedback to optimize for
+                      engagement and retention.
                     </p>
                   </div>
                 </div>
@@ -495,7 +517,7 @@ Acting as a creative producer, I was responsible for designing the set and art d
           </div>
         </div>
       </div>
-       <div className="shane_tm_hero_case_study">
+      <div className="shane_tm_hero_case_study">
         <div className="container">
           <div className="content">
             <div className="shane_tm_section">

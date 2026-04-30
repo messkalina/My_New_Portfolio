@@ -42,7 +42,7 @@ const ContactForm = () => {
 
   return (
     <section className="contact-section">
-      <h2 className="contact-title">Contact Me</h2>
+      <h3 className="contact-title">Contact Me</h3>
 
       {status === "success" && (
         <div className="contact-success">

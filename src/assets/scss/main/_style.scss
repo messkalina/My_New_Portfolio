@@ -1233,13 +1233,13 @@ body.loaded .overlay_effect:after {
 
 .shane_tm_button .button-text {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   display: inline-block;
   padding: 12px 3rem;
   background-color: rgb(124, 58, 237);
   color: #fff;
   border-radius: 2px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.5px;
   transition: all 0.3s ease;
   text-transform: none;
@@ -1305,8 +1305,8 @@ transform: translateY(2px);
   ul.react-tabs__tab-list {
     li {
       text-decoration: none;
-      // color: #767676;
-      font-family: "Noto Sans";
+      color: #747373;
+      font-size: 0.9rem;
       font-weight: 500;
       cursor: pointer;
       position: relative;
@@ -1339,7 +1339,7 @@ transform: translateY(2px);
 
       &.react-tabs__tab--selected {
         background-color: transparent; // Remove background color
-        color: #000; // Keep text black
+        color: #29272e; // Keep text black
         
         &::before {
           width: 100%; // Show full underline for selected tab
@@ -4114,12 +4114,9 @@ body.intro .loader_line:after {
   }
 }
 .contact-title {
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 24px;
-  color: #000;
-  font-family: "Noto Sans";
+  
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 .contact-form {
   width: 100%;
@@ -4131,17 +4128,18 @@ body.intro .loader_line:after {
   flex-direction: column;
 }
 .form-group label {
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 7px;
   color: #222;
-  font-family: "Noto Sans";
+  font-size: 0.9rem;
+
 }
 .form-group input,
 .form-group textarea {
   border: 1px solid #e0e0e0;
   border-radius: 6px;
   padding: 12px 14px;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Open Sans', Arial, sans-serif;
   background: #fafafa;
   color: #222;
@@ -4159,7 +4157,7 @@ body.intro .loader_line:after {
 .consent-group {
   flex-direction: row;
   align-items: flex-start;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 .consent-group input[type="checkbox"] {
   margin-right: 10px;
@@ -4167,9 +4165,13 @@ body.intro .loader_line:after {
 }
 .consent-label {
   font-weight: 400;
-  color: #555;
+  color: #656565;
   line-height: 1.3;
-  font-size: 10px
+  font-size: 0.8rem;
+}
+label.consent-label {
+  font-size: 0.8rem;
+  color: #656565;
 }
 .contact-success {
   color: #2e7d32;
