@@ -1,13 +1,10 @@
 import React from "react";
-import Social from "../Social";
 
 const AboutTwo = () => {
   return (
     <>
       <div className="shane_tm_section" id="about">
-        <div className="shane_tm_about"
-        style={{ backgroundColor: "#f9f9f9" }}
-        >
+        <div className="shane_tm_about" style={{ backgroundColor: "#f9f9f9" }}>
           <div className="container">
             <div className="about_inner">
               <div className="left">

@@ -4,9 +4,6 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion05 = () => {
-  const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [lightboxImg, setLightboxImg] = useState("");
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -37,15 +34,20 @@ const Motion05 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              
               <div className="subtitle-container">
-                <h1>Taking charge of the motion graphics and video post production for a TV ad</h1>
+                <h1>
+                  Taking charge of the motion graphics and video post production
+                  for a TV ad
+                </h1>
               </div>
               <h4>Trivago TV Ad</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How to adopt a predefined style for a video format in a TV ad, that included live footage and motion graphics, while ensuring the final product is visually engaging and effectively communicates the brand message.
+                    How to adopt a predefined style for a video format in a TV
+                    ad, that included live footage and motion graphics, while
+                    ensuring the final product is visually engaging and
+                    effectively communicates the brand message.
                   </h5>
                 </div>
               </div>
@@ -85,8 +87,12 @@ const Motion05 = () => {
                     >
                       <span>Overview</span>
                       <p>
-                        TV ad created when I worked as a motion designer for hotel
-                    search engine app Trivago. I was responsible for post production supervison on the video set as well as designing the motion graphics, which included combining live footage and motion graphics. The ad was aired on TV in Germany and Austria.
+                        TV ad created when I worked as a motion designer for
+                        hotel search engine app Trivago. I was responsible for
+                        post production supervison on the video set as well as
+                        designing the motion graphics, which included combining
+                        live footage and motion graphics. The ad was aired on TV
+                        in Germany and Austria.
                       </p>
                     </div>
                   </div>
@@ -102,13 +108,14 @@ const Motion05 = () => {
                         <p>
                           <strong>Role:</strong>
                           <br />
-                          Motion graphics designer, video-post production supervisor
+                          Motion graphics designer, video-post production
+                          supervisor
                         </p>
                         <p>
                           <strong>Scope:</strong>
                           <br />
-                          Motion graphics design, video supervison & post-production
-                          
+                          Motion graphics design, video supervison &
+                          post-production
                         </p>
                       </div>
                     </div>
@@ -133,7 +140,9 @@ const Motion05 = () => {
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
-                      handleImageClick("/img/portfolio/stylesframes/trivago_man/1.png")
+                      handleImageClick(
+                        "/img/portfolio/stylesframes/trivago_man/1.png",
+                      )
                     }
                   />
                   <div className="image_caption">
@@ -149,7 +158,9 @@ const Motion05 = () => {
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
-                      handleImageClick("/img/portfolio/stylesframes/trivago_man/2.png")
+                      handleImageClick(
+                        "/img/portfolio/stylesframes/trivago_man/2.png",
+                      )
                     }
                   />
                 </div>

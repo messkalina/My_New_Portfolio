@@ -6,7 +6,6 @@ import Footer from "../../footer/Footer";
 const Motion04 = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxImg, setLightboxImg] = useState("");
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -40,15 +39,17 @@ const Motion04 = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              
               <div className="subtitle-container">
                 <h1>Standing out in social media feed</h1>
               </div>
-              <h4>Social Media Video  Ad</h4>
+              <h4>Social Media Video Ad</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How storyretelling and motion design to create a visually engaging video ad for social media, that effectively communicates the brand message and stands out in a crowded feed.
+                    How storyretelling and motion design to create a visually
+                    engaging video ad for social media, that effectively
+                    communicates the brand message and stands out in a crowded
+                    feed.
                   </h5>
                 </div>
               </div>
@@ -88,7 +89,8 @@ const Motion04 = () => {
                     >
                       <span>Overview</span>
                       <p>
-                        Social media video created for a tech company promoting their customer engagement platform.
+                        Social media video created for a tech company promoting
+                        their customer engagement platform.
                       </p>
                     </div>
                   </div>
@@ -110,7 +112,6 @@ const Motion04 = () => {
                           <strong>Scope:</strong>
                           <br />
                           Concept, art direction, motion graphics design
-                          
                         </p>
                       </div>
                     </div>
@@ -135,7 +136,9 @@ const Motion04 = () => {
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
-                      handleImageClick("/img/portfolio/stylesframes/talon/1.png")
+                      handleImageClick(
+                        "/img/portfolio/stylesframes/talon/1.png",
+                      )
                     }
                   />
                   <div className="image_caption">
@@ -151,7 +154,9 @@ const Motion04 = () => {
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
-                      handleImageClick("/img/portfolio/stylesframes/talon/2.png")
+                      handleImageClick(
+                        "/img/portfolio/stylesframes/talon/2.png",
+                      )
                     }
                   />
                 </div>

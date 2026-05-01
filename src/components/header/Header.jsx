@@ -48,20 +48,23 @@ const Header = () => {
               <li>
                 <NavLink to="/#portfolio">Work</NavLink>
               </li>
-              
+
               <li>
                 <NavLink to="/#contact">Contact</NavLink>
               </li>
             </Scrollspy>
           </div>
-         <div className="logo">
-            
-              <img
-                src="/img/logo/new/Personal_Logo_black_name.svg"
-             
-                style={{ height: "24px", width: "auto", display: "block", visibility: "hidden" }} // Adjust height as needed to match nav buttons
-              />
-           
+          <div className="logo">
+            <img
+              src="/img/logo/new/Personal_Logo_black_name.svg"
+              alt="Personal logo"
+              style={{
+                height: "24px",
+                width: "auto",
+                display: "block",
+                visibility: "hidden",
+              }} // Adjust height as needed to match nav buttons
+            />
           </div>
           {/* End menu */}
         </div>
