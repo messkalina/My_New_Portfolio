@@ -4,6 +4,8 @@ import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
 
 const Motion05 = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxImg, setLightboxImg] = useState("");
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
