@@ -226,6 +226,35 @@ const Motion04 = () => {
           </div>
         </div>
       </div>
+      {/* Lightbox */}
+      {lightboxOpen && (
+        <div
+          className="lightbox"
+          onClick={() => setLightboxOpen(false)}
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: "rgba(0,0,0,0.85)",
+            zIndex: 9999,
+            width: "100vw",
+            height: "100vh",
+            overflow: "auto",
+            cursor: "zoom-out",
+          }}
+        >
+          <img
+            src={lightboxImg}
+            alt="Wireframe Full"
+            style={{
+              display: "block",
+              margin: "40px auto",
+            }}
+          />
+        </div>
+      )}
       <Footer />
     </div>
   );
