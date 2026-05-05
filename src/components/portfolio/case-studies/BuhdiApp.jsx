@@ -162,9 +162,8 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     For many people (especially those with <strong>ADHD</strong>
-                    ), the biggest obstacle to "getting things done" "getting
-                    things done" is not a lack of to-do list. It is{" "}
-                    <strong>Task Paralysis</strong> - knowing exactly what you
+                    ), the biggest obstacle to "getting things done" is not a lack of a to-do list. It is{" "}
+                    <strong>task paralysis</strong> - knowing exactly what you
                     need to do, but feeling mentally stuck and unable to start.
                     This is often caused by a struggle to plan, a fear of doing
                     it wrong, or simply a lack of interest.
@@ -173,13 +172,13 @@ const DesignTrendCaseStudy = () => {
                   <p>
                     Our early data showed that many users were downloading the
                     app but dropping off almost immediately. We believed this
-                    churn was caused by two specific challenges:
+                    was caused by two specific challenges:
                   </p>
                   <ul className="case-study-list">
                     <li>
                       <strong>The Dopamine Gap: </strong> without immediate
                       gratification the neurodivergent mind quickly becomes
-                      bored.If an app doesn't feel stimulating or rewarding
+                      bored. If an app doesn't feel stimulating or rewarding
                       right away, users often abandon it to find something more
                       engaging.
                     </li>
@@ -562,7 +561,7 @@ const DesignTrendCaseStudy = () => {
 
                     <li>
                       Quest Mode: Confusing bottom–to–top direction of the Quest
-                      screen → Strenghtening mountain metaphor by adding clearer
+                      screen → strengthening mountain metaphor by adding clearer
                       visual clues (flags and trail markers to guide the eye
                       upward) → framing progress as rewarding feeling of
                       climbing the mountain.
