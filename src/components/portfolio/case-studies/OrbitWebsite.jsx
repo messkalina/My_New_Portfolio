@@ -560,7 +560,7 @@ const MyStoryCaseStudy = () => {
                     <li>
                       <strong>Shared mental model: </strong> the redesign was
                       built on researched-based empathy for the users and
-                      bussiness objectives and insights of the company
+                      business objectives and insights of the company
                       stakeholders. That faciliated shared understanding of the
                       website strategy and made later development work faster
                       and more concrete.

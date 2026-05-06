@@ -338,13 +338,13 @@ return (
                       data-aos-duration="1200"
                     >
                       <img
-                        src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
+                        src="/img/portfolio/case-study/Veterinary Practice_ver01resized.png"
                         alt="Wireframe"
                         className="clickable-image"
                         style={{ width: "100%", cursor: "pointer" }}
                         onClick={() =>
                           handleImageClick(
-                            "/img/portfolio/case-study/Veterinary Practise_ver01resized.png",
+                            "/img/portfolio/case-study/Veterinary Practice_ver01resized.png",
                           )
                         }
                       />
@@ -861,9 +861,9 @@ return (
                         >
                           <p>
                             Tierarztpraxis Leberberg is recently launched
-                            veterinary practise in Vienna that required a
+                            veterinary practice in Vienna that required a
                             digital identity mirroring its professional yet warm
-                            and welcoming bussiness catering to local pets
+                            and welcoming business catering to local pets
                             owners.
                           </p>
 
@@ -1085,7 +1085,7 @@ return (
                   <div className="image_caption">
                     <p>
                       Style Guide was designed to match the aesthetic and
-                      branding of the practise. My initial choice was a cool
+                      branding of the practice. My initial choice was a cool
                       color pallette based on the brand emerald color. In the
                       second iteration I added an orange accent color that
                       visual pop and a touch of warmth.
@@ -1165,7 +1165,7 @@ return (
                     Following Lean UX principles, I focused on shipping a
                     functional "Minimum Viable Product" to quickly get the
                     business website live and validate it via user testing. The
-                    goal was to meet bussiness requirements, gather insights and
+                    goal was to meet business requirements, gather insights and
                     move to design iterations that then would be easily
                     implemented by external developer.{" "}
                   </p>
@@ -1224,13 +1224,13 @@ return (
                   <div className="right">
                     <div data-aos="fade-up" data-aos-duration="1200">
                       <img
-                        src="/img/portfolio/case-study/Veterinary Practise_ver01resized.png"
+                        src="/img/portfolio/case-study/Veterinary Practice_ver01resized.png"
                         alt="Wireframe"
                         className="clickable-image"
                         style={{ width: "100%", cursor: "pointer" }}
                         onClick={() =>
                           handleImageClick(
-                            "/img/portfolio/case-study/Veterinary Practise_ver01resized.png",
+                            "/img/portfolio/case-study/Veterinary Practice_ver01resized.png",
                           )
                         }
                       />
@@ -1394,7 +1394,7 @@ return (
                       Color Strategy: I evolved the palette from a simple Green
                       (Primary)/ White (neutral) to a more sophisticated Green
                       (Primary), Orange (Action/CTA) and pastel gradients to
-                      balance authority with friendliness and less steryle look.
+                      balance authority with friendliness and less sterile look.
                     </li>
                     <li>
                       Typography & Content: I used Gemini to refine the copy for

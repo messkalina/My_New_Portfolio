@@ -46,7 +46,7 @@ const AnimationProjectCaseStudy = () => {
                   <br /> and strategic growth
                 </h1>
               </div>
-              <h4>Veterinary Practise Website</h4>
+              <h4>Veterinary Practice Website</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
@@ -271,8 +271,8 @@ const AnimationProjectCaseStudy = () => {
                       <strong>Iterative Workflow:</strong> I focused on shipping
                       a functional "Minimum Viable Product" to quickly get the
                       business website live and validate it via user testing. In
-                      the next itaration I focused on communicating brand values
-                      of trust and warmth. The goal was to meet bussiness
+                      the next iteration I focused on communicating brand values
+                      of trust and warmth. The goal was to meet business
                       requirements, gather insights and move to design
                       iterations that then would be easily implemented by
                       external developer.
@@ -365,7 +365,7 @@ const AnimationProjectCaseStudy = () => {
                   <div className="image_caption">
                     <p>
                       Style Guide was designed to match the aesthetic and
-                      branding of the practise. My initial choice was a cool
+                      branding of the practice. My initial choice was a cool
                       color pallette based on the brand emerald color. In the
                       second iteration I added an orange accent color that
                       visual pop and a touch of warmth.
@@ -531,7 +531,7 @@ const AnimationProjectCaseStudy = () => {
                       a simple Green (Primary)/ White (neutral) to a more
                       sophisticated Green (Primary), Orange (Action/CTA) and
                       pastel gradients to balance authority with friendliness
-                      and less steryle look.
+                      and less sterile look.
                     </li>
                     <li>
                       <strong>Social Proof:</strong> Integrated Google Review
@@ -632,23 +632,23 @@ const AnimationProjectCaseStudy = () => {
 
       {/* Navigation and Footer */}
       <div className="shane_tm_section">
-            <div className="container">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  marginBottom: "40px",
-                }}
-              >
-                <Link to="/#portfolio" className="back_button">
-                  ← PORTFOLIO / UX/UI PROJECTS
-                </Link>
-                <Link to="/case-study/orbit-website" className="back_button">
-                  NEXT PROJECT →
-                </Link>
-              </div>
-            </div>
+        <div className="container">
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              marginBottom: "40px",
+            }}
+          >
+            <Link to="/#portfolio" className="back_button">
+              ← PORTFOLIO / UX/UI PROJECTS
+            </Link>
+            <Link to="/case-study/orbit-website" className="back_button">
+              NEXT PROJECT →
+            </Link>
           </div>
+        </div>
+      </div>
 
       {/* Lightbox */}
       {lightboxOpen && (
