@@ -46,13 +46,13 @@ const AboutTwo = () => {
                   {/* <p> <strong>I focus on turning complex topics and user journeys into clear, engaging user experience.</strong> </p> */}
                   <p>
                    
-                    I’m a hands-on product designer who bridges the gap between high-level strategy and technical implementation. With a background in motion and video production, I’ve developed a strong visual judgment—knowing exactly what "good" looks like and how to get there efficiently.
+                    I’m a hands-on product and motion graphics designer. My background in animation and video production helped me developed a strong visual judgment - knowing  what "good" looks like and how to get there efficiently using using the best tools for the job.
                     
-                    My approach combines strong visual judgment with genuine curiosity about human behaviour.
+                    My approach combines high-level strategy, technical fluency and curiosity about human behaviour.
                   </p>
                   <p>
                     I bring experience from fast-paced startups, where I’ve
-                   worked across the entire design process — from research, ideation and to testing and validation. I’m comfortable working at all levels of fidelity, from low-fi wireframes and sketches to high-fidelity prototypes and motion-enhanced UI.
+                   worked across the entire design process — from research, ideation to testing and validation. I’m comfortable working at all levels of fidelity, from low-fi wireframes and sketches to high-fidelity prototypes and motion-enhanced UI.
 
                    to high-fidelity prototyping and
                     motion-enhanced UI.
