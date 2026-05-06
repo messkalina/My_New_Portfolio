@@ -33,7 +33,7 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <span>About Me</span>
-                  <h3>Designing Digital Experiences with Impact</h3>
+                  <h3>Building digital experience with impact</h3>
                 </div>
                 <div
                   className="text"
@@ -41,17 +41,16 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I’m a UX/UI and Motion Designer with a background in visual
-                    storytelling and video production. I create{" "}
-                    <strong>intuitive</strong> and
-                    <strong> engaging user experiences</strong> for web and
-                    mobile applications, combining strong visual design with{" "}
-                    <strong>user research</strong> and accessibility principles.
+                    <strong>I focus on turning complex topics and user journeys into clear, engaging user experience.</strong> 
+                    I’m a hands-on product designer who bridges the gap between high-level strategy and technical implementation. With a background in motion and video production, I’ve developed a strong visual judgment—knowing exactly what "good" looks like and how to get there efficiently.
+                    
+                    My approach combines strong visual judgment with genuine curiosity about human behaviour.
                   </p>
                   <p>
                     I bring experience from fast-paced startups, where I’ve
-                    contributed across the entire design process — from research
-                    and wireframing to high-fidelity prototyping and
+                   worked across the entire design process — from research, ideation and to testing and validation. I’m comfortable working at all levels of fidelity, from low-fi wireframes and sketches to high-fidelity prototypes and motion-enhanced UI.
+
+                   to high-fidelity prototyping and
                     motion-enhanced UI.
                   </p>
 
@@ -60,7 +59,7 @@ const AboutTwo = () => {
                     I also have a solid grasp of{" "}
                     <strong>frontend technologies</strong> such as
                     <strong> HTML, CSS, JavaScript,</strong> and{" "}
-                    <strong>React</strong>, which helps me collaborate
+                    <strong>React</strong>. I can build my designs and collaborate
                     effectively with developers and design with implementation
                     in mind.
                   </p>
