@@ -180,6 +180,7 @@ style.innerHTML = `
     text-decoration: none;
   }
   .tertiary-link-button:active {
+  transform: scale(0.95);
     background: #4B256A;
     color: #F3EFFF !important;
     text-decoration: none;
