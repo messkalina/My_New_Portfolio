@@ -157,7 +157,7 @@ const Motion03 = () => {
                 >
                   <p>
                     When I joined Caspar Health, their video content was
-                    functional but particularly user-friendly: long and
+                    functional but not particularly user-friendly.: long and
                     unengaging medical lectures that caused viewers to drop off
                     early. My goal was to produce video content that would
                     significantly improve user retention and motivation. I
