@@ -22,12 +22,12 @@ const SkillsTwo = () => {
                 display: "flex",
                 justifyContent: "space-around",
                 flexWrap: "wrap",
-                gap: "40px",
+                gap: "16px",
                 marginBottom: "32px"
               }}
             >
               {/* Skill 1 */}
-              <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
+              <div style={{ textAlign: "center", width: "200px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>
                   <img
                     src="/img/svg/UX_icon.svg"
@@ -38,10 +38,11 @@ const SkillsTwo = () => {
                 <div className="portfolio-meta-description">
                UX Design
                 </div>
+                <div className="icon_label" >Rooting design decisions in insights (rather than guesswork) for best performance.</div>
               </div>
 
               {/* Skill 2 */}
-              <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
+              <div style={{ textAlign: "center", width: "200px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>
                   <img
                     src="/img/svg/UI_icon.svg"
@@ -52,13 +53,14 @@ const SkillsTwo = () => {
                 <div className="portfolio-meta-description">
             UI Design
                 </div>
+                <div className="icon_label" >Creating clean interfaces for better user experience.</div>
               </div>
 
               {/* Skill 3 */}
          
 
               {/* Skill 4 */}
-              <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
+              <div style={{ textAlign: "center", width: "200px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>
                   <img
                     src="/img/svg/motion_icon.svg"
@@ -69,8 +71,9 @@ const SkillsTwo = () => {
                 <div className="portfolio-meta-description">
                 Motion Design
                 </div>
+                <div className="icon_label" >Adding animation for better engagement and meaning.</div>
               </div>
-              <div style={{ textAlign: "center", width: "150px", marginBottom: "32px" }}>
+              <div style={{ textAlign: "center", width: "200px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>
                   <img
                     src="/img/svg/Dev.svg"
@@ -80,7 +83,9 @@ const SkillsTwo = () => {
                 </div>
                 <div className="portfolio-meta-description">
                 Frontend Fundamentals
+                
                 </div>
+                <div className="icon_label" >Designing and building for seamless delivery.</div>
               </div>
 
             </div>
