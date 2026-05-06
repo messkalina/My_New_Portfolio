@@ -47,9 +47,8 @@ const Slider = () => {
                 Kalina Iwaszko <span>UX/UI & Motion Designer</span>
               </h3>
               <h1>
-                Turning <span style={{ textTransform: "lowercase" }}>data</span>{" "}
-                into <span style={{ textTransform: "lowercase" }}>smart</span>{" "}
-                user experience
+                I turn complex data into <span style={{ textTransform: "lowercase" }}>intuitive </span>user experience
+               
               </h1>
             </div>
             {!isMobile && (
