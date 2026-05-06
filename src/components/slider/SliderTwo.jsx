@@ -142,7 +142,7 @@ const Slider = () => {
                     fontSize: "1rem",
                     opacity: showButton ? 1 : 0,
                     transition: "opacity 0.8s ease",
-                    border: "2px solid #7C3AED",
+                    border: "1px solid #7C3AED",
                     borderRadius: "6px",
                     padding: "8px 16px",
                     width: "100%",
@@ -167,3 +167,28 @@ const Slider = () => {
 };
 
 export default Slider;
+
+// Inline style for tertiary-link-button states
+const style = document.createElement("style");
+style.innerHTML = `
+  .tertiary-link-button {
+    transition: background 0.2s, color 0.2s;
+  }
+  .tertiary-link-button:hover, .tertiary-link-button:focus {
+    background: #e0d7fa;
+    color: #7C3AED;
+    text-decoration: none;
+  }
+  .tertiary-link-button:active {
+    background: #4B256A;
+    color: #F3EFFF !important;
+    text-decoration: none;
+  }
+`;
+if (
+  typeof document !== "undefined" &&
+  !document.getElementById("tertiary-link-style")
+) {
+  style.id = "tertiary-link-style";
+  document.head.appendChild(style);
+}

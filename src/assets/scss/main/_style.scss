@@ -1255,10 +1255,10 @@ body.loaded .overlay_effect:after {
 
 .shane_tm_button:active .button-text {
 
-transform: translateY(2px);
+transform: scale(0.95);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
   color:#EDE9FE;
-   background-color: #4749ad;
+   background-color: #4B256A;;
     box-shadow: none;
 }
 
