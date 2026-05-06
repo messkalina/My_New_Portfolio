@@ -13,25 +13,25 @@ const tabListContent = [
         {
         img: "/img/portfolio/Port_thumbnail_Buhdi.png",
         title: "Buhdi – Mindful ADHD Support App",
-        meta: "Delivering fast launch and strategic growth",
+        meta: "Solving behavioral barriers to drive engagement",
         portfolioLink: "/case-study/buhdi-app",
       },
    {
         img: "/img/portfolio/Port_thumbnail_orbit.png",
-        title: "Orbit Health Website Redesign",
+        title: "Orbit Health website wedesign",
         meta: "Driving growth through tailored user journeys",
         portfolioLink: "/case-study/orbit-website",
       },
       {
         img: "/img/portfolio/caspar.png",
-        title: "Explainer Videos",
-        meta: "Motion Design",
+        title: "Caspar Health educational videos",
+        meta: "Boosting retention with video design",
         portfolioLink: "/case-study/motion03",
       },
 
          {
         img: "/img/portfolio/Vet_hero_image02cm.png", // Keep as fallback
-        title: "Veterinary Practice Website",
+        title: "Veterinary practice website",
         meta: "Delivering fast launch and strategic growth",
         portfolioLink: "/case-study/vet-website",
         // video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property

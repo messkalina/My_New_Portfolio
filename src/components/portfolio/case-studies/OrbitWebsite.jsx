@@ -42,7 +42,7 @@ const MyStoryCaseStudy = () => {
             >
               <div className="subtitle-container">
                 <div className="subtitle-content">
-                  <h1>Driving Growth through Tailored User Journeys</h1>
+                  <h1>Driving growth through tailored user journeys</h1>
                 </div>
               </div>
               <div>
