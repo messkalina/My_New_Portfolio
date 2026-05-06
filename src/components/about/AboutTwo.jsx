@@ -40,8 +40,12 @@ const AboutTwo = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
+                  <h5>I focus on turning complex topics and user journeys into clear, engaging user experience.</h5>
+                  <br />
+                
+                  {/* <p> <strong>I focus on turning complex topics and user journeys into clear, engaging user experience.</strong> </p> */}
                   <p>
-                    <strong>I focus on turning complex topics and user journeys into clear, engaging user experience.</strong> 
+                   
                     I’m a hands-on product designer who bridges the gap between high-level strategy and technical implementation. With a background in motion and video production, I’ve developed a strong visual judgment—knowing exactly what "good" looks like and how to get there efficiently.
                     
                     My approach combines strong visual judgment with genuine curiosity about human behaviour.
@@ -56,10 +60,9 @@ const AboutTwo = () => {
 
                   <p>
                     {" "}
-                    I also have a solid grasp of{" "}
-                    <strong>frontend technologies</strong> such as
-                    <strong> HTML, CSS, JavaScript,</strong> and{" "}
-                    <strong>React</strong>. I can build my designs and collaborate
+                    I also have solid working knowledge of{" "}
+                    <strong>frontend development </strong> 
+                     (HTML, CSS, JavaScript, React.js) and decent vibe coding skills. I can  build my designs and collaborate
                     effectively with developers and design with implementation
                     in mind.
                   </p>
