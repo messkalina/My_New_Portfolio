@@ -24,7 +24,6 @@ const DesignTrendCaseStudy = () => {
       <div className="shane_tm_hero_case_study" id="designtrend-home">
         <div></div>
         <div className="container">
-          
           <div>
             <div className="navigation-wrapper">
               <Link to="/#portfolio" className="back_button">
@@ -94,7 +93,7 @@ const DesignTrendCaseStudy = () => {
                           <p>
                             Buhdi is an{" "}
                             <strong>AI-powered productivity app</strong>{" "}
-                            accomodating the needs of users with{" "}
+                            accommodating the needs of users with{" "}
                             <strong>ADHD</strong> (Attention Deficit
                             Hyperactivity Disorder). It offers a{" "}
                             <strong>gamified experience</strong> guided by a
@@ -162,11 +161,14 @@ const DesignTrendCaseStudy = () => {
                 >
                   <p>
                     For many people (especially those with <strong>ADHD</strong>
-                    ), the biggest obstacle to "getting things done" is not a lack of a to-do list. It is{" "}
-                    <strong>task paralysis</strong> - knowing exactly what you
-                    need to do, but feeling mentally stuck and unable to start.
-                    This is often caused by a struggle to plan, a fear of doing
-                    it wrong, or simply a lack of interest.
+                    ), the biggest obstacle to "getting things done" is not a
+                    lack of a to-do list. It is <strong>
+                      task paralysis
+                    </strong>{" "}
+                    - knowing exactly what you need to do, but feeling mentally
+                    stuck and unable to start. This is often caused by a
+                    struggle to plan, a fear of doing it wrong, or simply a lack
+                    of interest.
                   </p>
 
                   <p>
