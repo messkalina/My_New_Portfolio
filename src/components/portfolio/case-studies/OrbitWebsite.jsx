@@ -158,7 +158,7 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The company develeped medical apps ("DiGA") that were still
+                    The company developed medical apps ("DiGA") that were still
                     going through clinical trials. Users (both clinicians and
                     people with Parkinson’s) were needed to join an early access
                     program for products validation and driving early adoption.
@@ -295,7 +295,7 @@ const MyStoryCaseStudy = () => {
                       dedicated sections to explain the German healthcare
                       reimbursement process. By breaking down the steps to get
                       the app covered by insurance, we removed the biggest
-                      conversion obstable (information gap) for patients and
+                      conversion obstacle (information gap) for patients and
                       physicians.
                     </li>
                   </ul>
@@ -640,7 +640,7 @@ const MyStoryCaseStudy = () => {
                       When dealing with complex products and financial and
                       regulatory rules, clarity is the best way of converting
                       website visitors. The most important goal of the redesign
-                      was to remove cognitive and emotional obstables so that
+                      was to remove cognitive and emotional obstacles so that
                       life–changing technology can actually reach the people who
                       need it.
                     </p>
