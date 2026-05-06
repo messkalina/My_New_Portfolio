@@ -38,7 +38,7 @@ const SkillsTwo = () => {
                 <div className="portfolio-meta-description">
                UX Design
                 </div>
-                <div className="icon_label" >Rooting design decisions in insights (rather than guesswork) for best performance.</div>
+                <div className="icon_label" >Turning insights into intuitive solutions.</div>
               </div>
 
               {/* Skill 2 */}
@@ -53,7 +53,7 @@ const SkillsTwo = () => {
                 <div className="portfolio-meta-description">
             UI Design
                 </div>
-                <div className="icon_label" >Creating clean interfaces for better user experience.</div>
+                <div className="icon_label" >Creating clean interfaces that feel good to use.</div>
               </div>
 
               {/* Skill 3 */}
@@ -71,7 +71,7 @@ const SkillsTwo = () => {
                 <div className="portfolio-meta-description">
                 Motion Design
                 </div>
-                <div className="icon_label" >Adding animation for better engagement and meaning.</div>
+                <div className="icon_label" >Adding animation for more engagement and meaning.</div>
               </div>
               <div style={{ textAlign: "center", width: "200px", marginBottom: "32px" }}>
                 <div style={{ marginBottom: "16px" }}>

@@ -33,38 +33,34 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <span>About Me</span>
-                  <h3>Building digital experience with impact</h3>
+                  <h3>Building digital experiences with impact</h3>
                 </div>
                 <div
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <h5>I focus on turning complex topics and user journeys into clear, engaging user experience.</h5>
-                  <br />
-                
                   {/* <p> <strong>I focus on turning complex topics and user journeys into clear, engaging user experience.</strong> </p> */}
                   <p>
-                   
-                    I’m a hands-on product and motion graphics designer. My background in animation and video production helped me developed a strong visual judgment - knowing  what "good" looks like and how to get there efficiently using using the best tools for the job.
-                    
-                    My approach combines high-level strategy, technical fluency and curiosity about human behaviour.
+                    I’m a hands-on product and motion designer. My background in
+                    animation and video production helped me develop a strong
+                    visual judgment-knowing what "good" looks like and how to
+                    get there efficiently using the best tools for the job. My
+                    approach combines curiosity about human behavior with the
+                    technical fluency to actually build what I imagine.
                   </p>
                   <p>
                     I bring experience from fast-paced startups, where I’ve
-                   worked across the entire design process — from research, ideation to testing and validation. I’m comfortable working at all levels of fidelity, from low-fi wireframes and sketches to high-fidelity prototypes and motion-enhanced UI.
-
-                   to high-fidelity prototyping and
-                    motion-enhanced UI.
+                    worked across the entire design process, from research and
+                    ideation to testing and validation.
                   </p>
 
                   <p>
                     {" "}
-                    I also have solid working knowledge of{" "}
-                    <strong>frontend development </strong> 
-                     (HTML, CSS, JavaScript, React.js) and decent vibe coding skills. I can  build my designs and collaborate
-                    effectively with developers and design with implementation
-                    in mind.
+                    I also have solid working knowledge of frontend development
+                    (HTML, CSS, JavaScript, React.js) and decent vibe coding
+                    skills. I am able to build my designs and work effectively
+                    with developers.
                   </p>
 
                   <div
