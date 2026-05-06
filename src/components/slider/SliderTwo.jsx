@@ -109,26 +109,49 @@ const Slider = () => {
               }}
             />
             {isMobile && (
-              <button
-                className="shane_tm_button fade-in-delay"
-                style={{
-                  opacity: showButton ? 1 : 0,
-                  transition: "opacity 0.8s ease",
-                  marginTop: "1.5rem",
-                  border: "none",
-                  cursor: "pointer",
-                  padding: 0,
-                  backgroundColor: "transparent",
-                  width: "100%",
-                }}
-                onClick={() => {
-                  document.getElementById("portfolio").scrollIntoView({
-                    behavior: "smooth",
-                  });
-                }}
-              >
-                <span className="button-text">See selected work </span>
-              </button>
+              <>
+                <button
+                  className="shane_tm_button fade-in-delay"
+                  style={{
+                    opacity: showButton ? 1 : 0,
+                    transition: "opacity 0.8s ease",
+                    marginTop: "1.5rem",
+                    border: "none",
+                    cursor: "pointer",
+                    padding: 0,
+                    backgroundColor: "transparent",
+                    width: "100%",
+                  }}
+                  onClick={() => {
+                    document.getElementById("portfolio").scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
+                >
+                  <span className="button-text">See selected work </span>
+                </button>
+                <a
+                  href="#about"
+                  className="tertiary-link-button fade-in-delay"
+                  style={{
+                    display: "block",
+                    marginTop: "0.5rem",
+                    color: "#7C3AED",
+                    textDecoration: "none",
+                    fontWeight: 500,
+                    fontSize: "1rem",
+                    opacity: showButton ? 1 : 0,
+                    transition: "opacity 0.8s ease",
+                    border: "2px solid #7C3AED",
+                    borderRadius: "6px",
+                    padding: "8px 16px",
+                    width: "100%",
+                    textAlign: "center",
+                  }}
+                >
+                  Learn more
+                </a>
+              </>
             )}
           </div>
         </div>
