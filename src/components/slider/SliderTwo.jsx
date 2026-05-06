@@ -22,14 +22,16 @@ const Slider = () => {
     <div className="slider-two">
       <div className="shane_tm_hero" id="home">
         <div className="container">
-          <div className="content"
-          style={{ paddingTop: isMobile ? "60px" : "90px" }}>
+          <div
+            className="content"
+            style={{ paddingTop: isMobile ? "60px" : "90px" }}
+          >
             <div
               className="shane_tm_title"
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <p
+              {/* <p
                 style={{
                   fontSize: "0.8em",
                   color: "#6a6969",
@@ -40,36 +42,58 @@ const Slider = () => {
                 }}
               >
                 Portfolio
-              </p>
-              <h3>
+              </p> */}
+              <h3 style={{ fontWeight: "600" }}>
                 Kalina Iwaszko <span>UX/UI & Motion Designer</span>
               </h3>
               <h1>
-                Bringing{" "}
-                <span style={{ textTransform: "lowercase" }}>ideas</span> to
-                life for web and mobile
+                Turning <span style={{ textTransform: "lowercase" }}>data</span>{" "}
+                into <span style={{ textTransform: "lowercase" }}>smart</span>{" "}
+                user experience
               </h1>
             </div>
             {!isMobile && (
-              <button
-                className="shane_tm_button fade-in-delay"
-                style={{
-                  opacity: showButton ? 1 : 0,
-                  transition: "opacity 0.8s ease",
-                  marginTop: "1rem",
-                  border: "none",
-                  cursor: "pointer",
-                  padding: 0,
-                  backgroundColor: "transparent",
-                }}
-                onClick={() => {
-                  document.getElementById("portfolio").scrollIntoView({
-                    behavior: "smooth",
-                  });
-                }}
-              >
-                <span className="button-text">See my work </span>
-              </button>
+              <>
+                <button
+                  className="shane_tm_button fade-in-delay"
+                  style={{
+                    opacity: showButton ? 1 : 0,
+                    transition: "opacity 0.8s ease",
+                    marginTop: "1rem",
+                    border: "none",
+                    cursor: "pointer",
+                    padding: 0,
+                    backgroundColor: "transparent",
+                  }}
+                  onClick={() => {
+                    document.getElementById("portfolio").scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
+                >
+                  <span className="button-text">See my Portfolio </span>
+                </button>
+                <a
+                  href="#about"
+                  className="tertiary-link-button fade-in-delay"
+                  style={{
+                    display: "inline-block",
+                    marginTop: "0.5rem",
+                    color: "#7C3AED", // brand violet
+                    textDecoration: "none",
+                    fontWeight: 500,
+                    fontSize: "1rem",
+                    opacity: showButton ? 1 : 0,
+                    transition: "opacity 0.8s ease",
+                    border: "2px solid #7C3AED",
+                    borderRadius: "6px",
+                    padding: "8px 16px",
+                    marginLeft: "16px",
+                  }}
+                >
+                  Learn more
+                </a>
+              </>
             )}
           </div>
           <div className="content" data-aos="fade-up" data-aos-duration="1200">
@@ -103,7 +127,7 @@ const Slider = () => {
                   });
                 }}
               >
-                <span className="button-text">See my work </span>
+                <span className="button-text">See selected work </span>
               </button>
             )}
           </div>
