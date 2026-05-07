@@ -41,14 +41,13 @@ const Motion03 = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Boosting retention with video design</h1>
+                <h1>Boosting retention and insurance reimbursement through video design</h1>
               </div>
               <h4>Caspar Health</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How to transform educational videos for patients into an
-                    engaging and effective learning experience.
+                How I redesigned patient education videos to reduce drop-off and create more supportive, motivating learning experiences.
                   </h5>
                 </div>
               </div>

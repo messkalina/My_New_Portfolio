@@ -42,17 +42,14 @@ const AnimationProjectCaseStudy = () => {
             >
               <div className="subtitle-container">
                 <h1>
-                  Delivering fast launch
-                  <br /> and strategic growth
+                  Fast-launch website with automated booking and warm, trustworthy design for a new clinic
                 </h1>
               </div>
               <h4>Veterinary Practice Website</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How combining a high-speed launch with automated booking
-                    helps a new veterinary clinic save time and build trust with
-                    local pet owners.{" "}
+                 How I designed and built a high-converting veterinary clinic website under tight deadlines while creating a warm, trustworthy digital presence.
                   </h5>
                 </div>
               </div>

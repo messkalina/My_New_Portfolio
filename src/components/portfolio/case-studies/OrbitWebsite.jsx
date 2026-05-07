@@ -42,7 +42,7 @@ const MyStoryCaseStudy = () => {
             >
               <div className="subtitle-container">
                 <div className="subtitle-content">
-                  <h1>Driving growth through tailored user journeys</h1>
+                  <h1>Driving enrollment and software adoption through tailored user journeys</h1>
                 </div>
               </div>
               <div>
@@ -52,9 +52,7 @@ const MyStoryCaseStudy = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How replacing a "one-size-fits-all" website with distinct
-                    paths for key users helps improving value proposition and
-                    conversion.
+                   How I created clear, audience-specific journeys to improve understanding and drive conversions for a Parkinson’s medical software.
                   </h5>
                 </div>
               </div>
