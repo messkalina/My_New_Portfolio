@@ -43,10 +43,10 @@ const Header = () => {
                 <NavLink to="/#home">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/#about">About</NavLink>
+                <NavLink to="/#about">About me</NavLink>
               </li>
               <li>
-                <NavLink to="/#portfolio">Work</NavLink>
+                <NavLink to="/#portfolio">Portfolio</NavLink>
               </li>
 
               <li>
@@ -137,12 +137,12 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#about" onClick={handleClick}>
-                    About
+                    About me
                   </a>
                 </li>
                 <li>
                   <a href="#portfolio" onClick={handleClick}>
-                    Work
+                    Portfolio
                   </a>
                 </li>
                 <li>

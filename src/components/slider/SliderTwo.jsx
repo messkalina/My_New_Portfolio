@@ -70,7 +70,7 @@ const Slider = () => {
                     });
                   }}
                 >
-                  <span className="button-text">See my Portfolio </span>
+                  <span className="button-text">See selected work </span>
                 </button>
                 <a
                   href="#about"
@@ -90,7 +90,7 @@ const Slider = () => {
                     marginLeft: "16px",
                   }}
                 >
-                  Learn more
+                  More about me
                 </a>
               </>
             )}
@@ -148,7 +148,7 @@ const Slider = () => {
                     textAlign: "center",
                   }}
                 >
-                  Learn more
+                  More about me
                 </a>
               </>
             )}
