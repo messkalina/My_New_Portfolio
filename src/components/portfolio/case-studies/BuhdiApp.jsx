@@ -42,14 +42,16 @@ const DesignTrendCaseStudy = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Solving behavioral barriers to drive engagement</h1>
+                <h1>Gamifying a to-do list to drive engagement</h1>
               </div>
               <h4>Buhdi – Mindful ADHD Support App</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How turning overwhelming to-do list into a gamified Quest
-                    helps people with ADHD beat procrastination.
+                   How I turned
+                    overwhelming to-do lists into a motivating “Quest”
+                    experience that reduces task paralysis and boosts
+                    activation.
                   </h5>
                 </div>
               </div>
