@@ -42,7 +42,7 @@ const AnimationProjectCaseStudy = () => {
             >
               <div className="subtitle-container">
                 <h1>
-                  Fast-launch website with automated booking and warm, trustworthy design for a new clinic
+                  Fast-launch website with automated booking and warm, trustworthy design for a new practise
                 </h1>
               </div>
               <h4>Veterinary Practice Website</h4>
