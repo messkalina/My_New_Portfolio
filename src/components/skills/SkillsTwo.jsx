@@ -53,7 +53,7 @@ const SkillsTwo = () => {
                 <div className="portfolio-meta-description">
             UI Design
                 </div>
-                <div className="icon_label" >Creating clean interfaces that feel good to use.</div>
+                <div className="icon_label" >Creating compeling interfaces.</div>
               </div>
 
               {/* Skill 3 */}
