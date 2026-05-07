@@ -1,22 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
-import { useNavigate, useLocation } from "react-router-dom"; // Add useLocation
+import { useNavigate, useLocation } from "react-router-dom";
 
-// Change the tabList array
 const tabList = ["UX/UI Design", "Motion Graphics"];
 
 const tabListContent = [
   {
     porftoliItems: [
-
-        {
+      {
         img: "/img/portfolio/Port_thumbnail_Buhdi.png",
         title: "Buhdi – Mindful ADHD Support App",
         meta: "Gamifying a to-do list to drive engagement",
         portfolioLink: "/case-study/buhdi-app",
       },
-   {
+      {
         img: "/img/portfolio/Port_thumbnail_orbit.png",
         title: "Orbit Health Website Redesign",
         meta: "Driving enrollment and software adoption through tailored user journeys",
@@ -28,35 +26,17 @@ const tabListContent = [
         meta: "Boosting retention and insurance reimbursement through video design",
         portfolioLink: "/case-study/motion03",
       },
-
-         {
-        img: "/img/portfolio/Vet_hero_image02cm.png", // Keep as fallback
+      {
+        img: "/img/portfolio/Vet_hero_image02cm.png",
         title: "Veterinary Practice Website",
         meta: "Fast-launch website with automated booking and warm, trustworthy design for a new practise",
         portfolioLink: "/case-study/vet-website",
-        // video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property
       },
-      
-    
-   
-      // {
-      //   img: "/img/portfolio/Port_thumbnail_Unlimitix.png",
-      //   title: "Unlimitix – AI Nutrition Coach",
-      //   meta: " Beta Version App Redesign for Better UX",
-      //   portfolioLink: "/case-study/unlimitix-app",
-      // },
     ],
   },
   {
     porftoliItems: [
-      // {
-      //   img: "/img/portfolio/Neptune_walkthrough0.jpg",
-      //   title: "Neptune Apps Demo",
-      //   meta: "Motion Design",
-      //   portfolioLink: "/case-study/animation01",
-      // },
-
-        {
+      {
         img: "/img/portfolio/trivago2.png",
         title: "Trivago TV Ad",
         meta: "Motion graphics and post-production for Trivago’s national TV campaign",
@@ -68,19 +48,12 @@ const tabListContent = [
         meta: "Mixed media animation for maximum impact in crowded social feeds",
         portfolioLink: "/case-study/motion02",
       },
-      // {
-      //   img: "/img/portfolio/caspar.png",
-      //   title: "Explainer Videos",
-      //   meta: "Motion Design",
-      //   portfolioLink: "/case-study/motion03",
-      // },
       {
         img: "/img/portfolio/talon.png",
         title: "Social Media Video Ad",
         meta: "Story-driven motion graphics that cut through crowded social feeds",
         portfolioLink: "/case-study/motion04",
       },
-    
       {
         img: "/img/portfolio/filmfest.png",
         title: "Euroshorts 2015 promo video",
@@ -89,7 +62,6 @@ const tabListContent = [
       },
     ],
   },
-  // Remove the third object (All tab)
 ];
 
 const Portfolio = () => {
@@ -97,7 +69,6 @@ const Portfolio = () => {
   const location = useLocation();
   const [tabIndex, setTabIndex] = useState(0);
 
-  // Set tab based on URL query
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const tab = params.get("tab");
@@ -126,7 +97,6 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/* End shane_tm_title */}
 
             <div className="portfolio_filter">
               <Tabs selectedIndex={tabIndex} onSelect={setTabIndex}>
@@ -135,7 +105,6 @@ const Portfolio = () => {
                     <Tab key={i}>{val}</Tab>
                   ))}
                 </TabList>
-                {/* End tablist */}
 
                 <div className="portfolio_list has-effect">
                   <Gallery>
@@ -147,26 +116,26 @@ const Portfolio = () => {
                               key={i}
                               data-aos="fade-right"
                               data-aos-duration="1200"
-                              data-aos-delay={val.delayAnimation}
                             >
                               <div className="inner">
-                                <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <Item
-                                    original={val.img}
-                                    thumbnail={val.img}
-                                    width={1000}
-                                    height={1000}
-                                  >
-                                    {({ ref, open }) => (
-                                      <div
-                                        onClick={() =>
-                                          handlePortfolioClick(
-                                            val.portfolioLink
-                                          )
-                                        }
-                                        role="button"
-                                        tabIndex={0}
-                                      >
+                                <Item
+                                  original={val.img}
+                                  thumbnail={val.img}
+                                  width={1000}
+                                  height={1000}
+                                >
+                                  {({ ref }) => (
+                                    /* 
+                                      WRAPPER START: 
+                                      This div now contains BOTH the image and the text 
+                                    */
+                                    <div
+                                      onClick={() => handlePortfolioClick(val.portfolioLink)}
+                                      role="button"
+                                      tabIndex={0}
+                                      style={{ cursor: "pointer", outline: "none" }}
+                                    >
+                                      <div className="entry shane_tm_portfolio_animation_wrap">
                                         {val.video ? (
                                           <video
                                             autoPlay
@@ -176,28 +145,13 @@ const Portfolio = () => {
                                             style={{
                                               width: "100%",
                                               height: "100%",
-                                              objectFit: "cover", // Changed from "cover" to show top left corner
-                                              objectPosition: "20% center", // Explicitly position the video
+                                              objectFit: "cover",
+                                              objectPosition: "20% center",
                                               display: "block",
-                                              cursor: "pointer",
                                             }}
                                           >
-                                            <source
-                                              src={val.video}
-                                              type="video/mp4"
-                                            />
-                                            <img
-                                              src={val.img}
-                                              alt={val.title}
-                                              ref={ref}
-                                              style={{
-                                                width: "100%",
-                                                height: "100%",
-                                                objectFit: "fill", // Match the video style
-                                                objectPosition: "top left",
-                                                display: "block",
-                                              }}
-                                            />
+                                            <source src={val.video} type="video/mp4" />
+                                            <img src={val.img} alt={val.title} ref={ref} />
                                           </video>
                                         ) : (
                                           <img
@@ -209,30 +163,21 @@ const Portfolio = () => {
                                               height: "100%",
                                               objectFit: "cover",
                                               display: "block",
-                                              cursor: "pointer",
                                             }}
                                           />
                                         )}
                                       </div>
-                                    )}
-                                  </Item>
-                                </div>
-                                {/* Always show project name and meta below the image */}
-                                <div className="portfolio_title_always">
-                                  <h6
-                                    style={{
-                                      margin: "24px 0 2px 0",
-                                      // fontWeight: "600",
-                                    }}
-                                  >
-                                    {val.title}
-                                  </h6>
-                                  <p
-                                    
-                                  >
-                                    {val.meta}
-                                  </p>
-                                </div>
+
+                                      {/* Descriptions are now inside the clickable div */}
+                                      <div className="portfolio_title_always">
+                                        <h6 style={{ margin: "24px 0 2px 0" }}>
+                                          {val.title}
+                                        </h6>
+                                        <p>{val.meta}</p>
+                                      </div>
+                                    </div>
+                                  )}
+                                </Item>
                               </div>
                             </li>
                           ))}
@@ -240,35 +185,12 @@ const Portfolio = () => {
                       </TabPanel>
                     ))}
                   </Gallery>
-                  {/* End tabpanel */}
                 </div>
-                {/* End list wrapper */}
-                {/* <div style={{ textAlign: "center", margin: "32px 0 0 0" }}>
-                  <button
-                    className="shane_tm_button fade-in-delay"
-                    style={{
-                      opacity: 1,
-                      border: "none",
-                      cursor: "pointer",
-                      padding: 0,
-                      backgroundColor: "transparent",
-                    }}
-                    onClick={() => {
-                      const contactSection = document.getElementById("contact");
-                      if (contactSection) {
-                        contactSection.scrollIntoView({ behavior: "smooth" });
-                      }
-                    }}
-                  >
-                    <span className="button-text">Contact</span>
-                  </button>
-                </div> */}
               </Tabs>
             </div>
           </div>
         </div>
       </div>
-      {/* Add Contact button below portfolio */}
     </div>
   );
 };
