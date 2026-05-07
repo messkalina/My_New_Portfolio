@@ -1289,7 +1289,15 @@ transform: scale(0.95);
 /*---------------------------------------------------*/
 /*	06) SHANE PORTFOLIO
 /*---------------------------------------------------*/
-
+.shane_tm_portfolio_animation_wrap img,
+.shane_tm_portfolio_animation_wrap video {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.shane_tm_portfolio_animation_wrap:hover img,
+.shane_tm_portfolio_animation_wrap:hover video {
+  transform: scale(1.06);
+  z-index: 2;
+}
 .shane_tm_title .title_flex {
   width: 100%;
   height: auto;
