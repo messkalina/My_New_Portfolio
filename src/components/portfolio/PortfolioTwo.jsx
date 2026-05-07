@@ -18,20 +18,20 @@ const tabListContent = [
       },
    {
         img: "/img/portfolio/Port_thumbnail_orbit.png",
-        title: "Orbit Health website wedesign",
+        title: "Orbit Health Website Redesign",
         meta: "Driving enrollment and software adoption through tailored user journeys",
         portfolioLink: "/case-study/orbit-website",
       },
       {
         img: "/img/portfolio/caspar.png",
-        title: "Caspar Health educational videos",
+        title: "Caspar Health Educational Videos",
         meta: "Boosting retention and insurance reimbursement through video design",
         portfolioLink: "/case-study/motion03",
       },
 
          {
         img: "/img/portfolio/Vet_hero_image02cm.png", // Keep as fallback
-        title: "Veterinary practice website",
+        title: "Veterinary Practice Website",
         meta: "Fast-launch website with automated booking and warm, trustworthy design for a new practise",
         portfolioLink: "/case-study/vet-website",
         // video: "/img/portfolio/case-study/Home_Desktop.mp4", // Add video property
