@@ -49,7 +49,7 @@ const AnimationProjectCaseStudy = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                 How I designed a fast-launch veterinary website with automated booking and warm, trustworthy branding.
+                    How I designed a fast-launch veterinary website with automated booking and warm, trustworthy digital presence.
                   </h5>
                 </div>
               </div>
