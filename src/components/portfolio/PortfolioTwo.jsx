@@ -59,13 +59,13 @@ const tabListContent = [
         {
         img: "/img/portfolio/trivago2.png",
         title: "Trivago TV Ad",
-        meta: "Motion Design",
+        meta: "Motion graphics and post-production for Trivago’s national TV campaign",
         portfolioLink: "/case-study/motion05",
       },
       {
         img: "/img/portfolio/wolt5.png",
         title: "Social Media Video Ad",
-        meta: "Motion Design",
+        meta: "Mixed media animation for maximum impact in crowded social feeds",
         portfolioLink: "/case-study/motion02",
       },
       // {
@@ -77,14 +77,14 @@ const tabListContent = [
       {
         img: "/img/portfolio/talon.png",
         title: "Social Media Video Ad",
-        meta: "Motion Design",
+        meta: "Story-driven motion graphics that cut through crowded social feeds",
         portfolioLink: "/case-study/motion04",
       },
     
       {
         img: "/img/portfolio/filmfest.png",
-        title: "Euroshorts 2015 Video Promo",
-        meta: "Motion Design",
+        title: "Euroshorts 2015 promo video",
+        meta: "Homage to classic cinema through vintage footage and 2D animation",
         portfolioLink: "/case-study/motion06",
       },
     ],

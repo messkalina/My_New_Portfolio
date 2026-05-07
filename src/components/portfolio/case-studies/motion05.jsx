@@ -38,12 +38,12 @@ const Motion05 = () => {
             >
               <div className="subtitle-container">
                 <h1>
-                  Taking charge of the motion graphics and video post production
-                  for a TV ad
+                  Motion graphics and post-production for Trivago’s national TV
+                  campaign
                 </h1>
               </div>
               <h4>Trivago TV Ad</h4>
-              <div className="subtitle-container">
+              {/* <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
                     How to adopt a predefined style for a video format in a TV
@@ -52,7 +52,7 @@ const Motion05 = () => {
                     effectively communicates the brand message.
                   </h5>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -89,12 +89,16 @@ const Motion05 = () => {
                     >
                       <span>Overview</span>
                       <p>
-                        TV ad created when I worked as a motion designer for
-                        hotel search engine app Trivago. I was responsible for
-                        post production supervison on the video set as well as
-                        designing the motion graphics, which included combining
-                        live footage and motion graphics. The ad was aired on TV
-                        in Germany and Austria.
+                        I took charge of motion graphics and post-production
+                        supervision for Trivago’s TV commercial, which aired in
+                        Germany and Austria. The project combined live-action
+                        footage with integrated motion graphics.
+                      </p>
+                      <p>
+                        I took charge of motion graphics and post-production
+                        supervision for Trivago’s TV commercial, which aired in
+                        Germany and Austria. The project combined live-action
+                        footage with integrated motion graphics.
                       </p>
                     </div>
                   </div>
@@ -232,7 +236,7 @@ const Motion05 = () => {
           </div>
         </div>
       </div>
-{/* Lightbox */}
+      {/* Lightbox */}
       {lightboxOpen && (
         <div
           className="lightbox"

@@ -40,17 +40,17 @@ const Motion06 = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Promo video for a film festival</h1>
+                <h1>Homage to classic cinema through vintage footage and 2D animation</h1>
               </div>
-              <h4>Euroshorts 2015</h4>
-              <div className="subtitle-container">
+              <h4>Euroshorts 2015 promo video</h4>
+              {/* <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
                     How to weave in public domain footage as a hommage to
                     classic cinema in a promo video for film festival.
                   </h5>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -88,15 +88,9 @@ const Motion06 = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            I designed and animated this promotional video for
-                            Euroshorts 2015 Film Festival. The video was created
-                            as a homage to classic cinema, using public domain
-                            footage from the 1920s and 1930s, which was included
-                            in the brief requirements. I combined the vintage
-                            footage with modern typography and motion graphics
-                            to create a visually engaging promo that captures
-                            the spirit of the festival.
+                           I designed and animated the official promotional video for Euroshorts 2015 Film Festival. The brief required using public domain footage from the 1920s and 1930s as a homage to classic cinema.
                           </p>
+                          <p>I combined archival footage with contemporary typography and fluid motion graphics to bridge old and new cinema.</p>
                         </div>
                       </div>
 

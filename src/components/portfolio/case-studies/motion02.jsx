@@ -34,17 +34,17 @@ const Motion02 = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Grabbing attention with mixed media animation</h1>
+                <h1>Mixed media animation for maximum impact in crowded social feeds</h1>
               </div>
               <h4>Wolt Social Media Video Ad</h4>
-              <div className="subtitle-container">
+              {/* <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
                     How combining stop motion style with 3D animation helps ads
                     standing out in social media
                   </h5>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -78,13 +78,9 @@ const Motion02 = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            This video was a design challenge I did during
-                            recruitment process during for a company. The task
-                            was to create a video ad for social media that would
-                            attract new customers. I used motion graphics and
-                            video editing skills while using provided video
-                            footage.
+                          This was a design challenge I completed during a recruitment process for Wolt. The task was to create an eye-catching social media video ad to attract new customers.
                           </p>
+                          <p>I combined stop-motion aesthetics with 3D animation and provided footage to create a playful, tactile feel that stands out in social feeds. The video used everyday objects and smooth transitions to communicate the convenience and joy of using Wolt.</p>
                         </div>
                       </div>
 

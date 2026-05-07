@@ -40,10 +40,13 @@ const Motion04 = () => {
               data-aos-duration="1200"
             >
               <div className="subtitle-container">
-                <h1>Standing out in social media feed</h1>
+                <h1>
+                  Story-driven motion graphics that cut through crowded social
+                  feeds
+                </h1>
               </div>
               <h4>Social Media Video Ad</h4>
-              <div className="subtitle-container">
+              {/* <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
                     How storyretelling and motion design to create a visually
@@ -52,7 +55,7 @@ const Motion04 = () => {
                     feed.
                   </h5>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -89,9 +92,12 @@ const Motion04 = () => {
                     >
                       <span>Overview</span>
                       <p>
-                        Social media video created for a tech company promoting
-                        their customer engagement platform.
+                        I created a social media video ad for a tech company
+                        promoting their customer engagement platform. The goal
+                        was to stand out in fast-scrolling feeds while clearly
+                        communicating the brand’s value.
                       </p>
+                      <p>Using bold illustrations, dynamic animations, and clever visual metaphors, I turned abstract product benefits into a simple, entertaining story. The mix of character animation and graphic elements made the ad feel alive and memorable.</p>
                     </div>
                   </div>
 
