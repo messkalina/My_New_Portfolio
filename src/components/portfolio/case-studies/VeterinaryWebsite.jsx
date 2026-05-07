@@ -601,7 +601,7 @@ const AnimationProjectCaseStudy = () => {
                       <string className="highlight_label">
                         Customer Effort Score
                       </string>{" "}
-                      Users reported high "Ease of Use," making digital booking
+                      (where 1 = effortless). Users reported high "Ease of Use," making digital booking
                       faster than a phone call.
                     </li>
                   </ul>
