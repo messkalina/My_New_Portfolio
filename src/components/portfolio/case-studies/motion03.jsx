@@ -41,13 +41,17 @@ const Motion03 = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Boosting retention and insurance reimbursement through video design</h1>
+                <h1>
+                  Boosting retention and insurance reimbursement through video
+                  design
+                </h1>
               </div>
               <h4>Caspar Health</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                How I redesigned patient education videos to reduce drop-off and create more supportive, motivating learning experiences.
+                    How I redesigned patient education videos to reduce drop-off
+                    and create more supportive, motivating learning experiences.
                   </h5>
                 </div>
               </div>
@@ -111,8 +115,8 @@ const Motion03 = () => {
                             <p>
                               <strong>Role:</strong>
                               <br />
-                              Sole motion graphics designer, creative video
-                              producer
+                              Motion graphics designer, creative video producer,
+                              video editor
                             </p>
 
                             <p>
@@ -155,15 +159,12 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    When I joined Caspar Health, their video content was
-                    functional but not particularly user-friendly.: long and
-                    unengaging medical lectures that caused viewers to drop off
-                    early. My goal was to produce video content that would
-                    significantly improve user retention and motivation. I
-                    focused on creating shorter, more engaging videos with a mix
-                    of live-action and motion graphics, while also incorporating
-                    positive, encouraging messaging to motivate users and create
-                    a more supportive learning environment.
+                    When I joined, Caspar Health’s educational videos were long,
+                    lecture-style medical content that felt underwhelming.
+                    Viewers dropped off early, leading to low completion rates
+                    and reduced engagement with their rehabilitation program. My
+                    goal was to produce video content that would significantly
+                    improve user retention and motivation.
                   </p>
                   <div
                     className="shane_tm_button"
@@ -232,10 +233,10 @@ const Motion03 = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      Frames from the newly designedvideo content. Shorter, more
-                      engaging videos with a mix of live-action and motion
-                      graphics that significantly improved user retention and
-                      motivation. Speaker blurred for legal reasons.
+                      Adding humor and lightness to the content was a key
+                      strategy to make it more engaging and less intimidating
+                      for patients who were often dealing with stressful health
+                      issues. Speaker blurred for legal reasons.
                     </p>
                   </div>
                 </div>
@@ -255,17 +256,23 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <p>
+                    I focused on creating shorter, more engaging videos with a
+                    mix of live-action and motion graphics, while also
+                    incorporating positive, encouraging messaging to motivate
+                    users and create a more supportive learning environment.
+                  </p>
+                  <p>
                     I approached the project like a UX problem, focusing on
                     improving user retention and motivation through content
                     design. Key strategies included:
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Video series over long content:</strong> Spliting
-                      new and existing long-format videos into shorter, modular
-                      segments based on the hypothesis that users prefer
-                      shorter, more focused lessons and would be more likely to
-                      return regularly.
+                      <strong>Video series over long content:</strong> Split
+                      long lectures into short, modular video series focused on
+                      one topic at a time based on the hypothesis that users
+                      prefer shorter, more focused lessons and would be more
+                      likely to return regularly.
                     </li>
                     <li>
                       <strong>
@@ -276,7 +283,7 @@ const Motion03 = () => {
                       selective motion graphics made the content more engaging
                       and easier to follow. Including positive, encouraging
                       messaging and visual cues to motivate users and create a
-                      more supportive learning environment.Adding humor and
+                      more supportive learning environment. Adding humor and
                       lightness to the content was a key strategy to make it
                       more engaging and less intimidating for patients who were
                       often dealing with stressful health issues.
@@ -363,15 +370,12 @@ const Motion03 = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      Acting as a creative producer, I was responsible for
-                      designing the set and art direction for the video content.
+                      
                       Since the previous video style applied clean, minimalistic
                       style that was not performing well in UX research, we
                       shifted towards a more relatable and diverse
                       representation of exercise models to better connect with
-                      the target audience. I also developed a warmer, more
-                      inviting color palette and set design to create a more
-                      supportive learning environment.
+                      the target audience.
                     </p>
                   </div>
                 </div>
@@ -427,11 +431,8 @@ const Motion03 = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      As Content Production team, we put a strong emphasis on
-                      testing and iteration. I worked closely with a UX
-                      researcher to test different content formats and styles
-                      with users, and iterated based on feedback to optimize for
-                      engagement and retention.
+                      Positive emotional response to the content was key to
+                      improving retention and motivation.
                     </p>
                   </div>
                 </div>
@@ -456,11 +457,11 @@ const Motion03 = () => {
                     playsInline
                     poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
                   />
-                  {/* <div className="image_caption"> */}
-                  {/* <p>
-                      Client testimonial praising the aesthetic and ease of use.
-                    </p> */}
-                  {/* </div> */}
+                  <div className="image_caption"> 
+                 <p>
+                      Including positive, encouraging messaging and visual cues to motivate users and create a more supportive learning environment.
+                    </p> 
+                </div>
                 </div>
               </div>
               <div className="right">
