@@ -1,4 +1,5 @@
 
+
 @charset "utf-8";
 /*
 /*	Copyright (c) 2021 ib-themes
@@ -91,6 +92,16 @@ img.svg {
 ::placeholder {
   /* Most modern browsers support this now. */
   color: #6f6f6f;
+}
+
+/* Hide elements with .hide-on-mobile on screens smaller than desktop */
+.hide-on-mobile {
+  display: block;
+}
+@media (max-width: 1199px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
 }
 
 .container {
