@@ -42,16 +42,15 @@ const DesignTrendCaseStudy = () => {
             >
               {" "}
               <div className="subtitle-container">
-                <h1>Gamifying a to-do list to drive engagement</h1>
+                <h1>Gamifying a to-do list to help people get things done</h1>
               </div>
               <h4>Buhdi – Mindful ADHD Support App</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                   How I turned
-                    overwhelming to-do lists into a motivating “Quest”
-                    experience that reduces task paralysis and boosts
-                    activation.
+                    How I turned overwhelming to-do lists into a motivating
+                    “Quest” experience that reduces task paralysis and boosts
+                    user activation.
                   </h5>
                 </div>
               </div>
@@ -97,14 +96,15 @@ const DesignTrendCaseStudy = () => {
                             <strong>AI-powered productivity app</strong>{" "}
                             accommodating the needs of users with{" "}
                             <strong>ADHD</strong> (Attention Deficit
-                            Hyperactivity Disorder). It offers a{" "}
-                            <strong>gamified experience</strong> guided by a
-                            reassuring <strong>AI coach</strong>, to help users
-                            deal with inconsistent motivation and emotional
-                            overwhelm. I joined the project in the post-MVP
-                            phase to focus on user activation - ensuring that
-                            users didn't just download the app, but understood
-                            how the app works and tested its value proposition.
+                            Hyperactivity Disorder).
+                          </p>
+                          <p>
+                            I joined the project post-MVP to solve a critical
+                            bottleneck: users were downloading the app but
+                            dropping off before completing their first task. My
+                            goal was to drive user activation by transforming a
+                            standard to-do list into a motivating, gamified
+                            experience.
                           </p>
                         </div>
                       </div>
@@ -162,21 +162,16 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    For many people (especially those with <strong>ADHD</strong>
-                    ), the biggest obstacle to "getting things done" is not a
-                    lack of a to-do list. It is <strong>
-                      task paralysis
-                    </strong>{" "}
-                    - knowing exactly what you need to do, but feeling mentally
-                    stuck and unable to start. This is often caused by a
-                    struggle to plan, a fear of doing it wrong, or simply a lack
-                    of interest.
+                    Many users downloaded the app but{" "}
+                    <strong>dropped off quickly. </strong>
+                    The main barriers were <strong>task paralysis</strong>:
+                    knowing what to do but feeling unable to actually start
+                    working on it (executive disfunction).
                   </p>
 
                   <p>
-                    Our early data showed that many users were downloading the
-                    app but dropping off almost immediately. We believed this
-                    was caused by two specific challenges:
+                    Through user interviews and research, I identified most
+                    probable causes:
                   </p>
                   <ul className="case-study-list">
                     <li>
@@ -231,8 +226,7 @@ const DesignTrendCaseStudy = () => {
                     <p>
                       To save our retention numbers we needed to design a way to
                       give users the dopamine and structure the brain was
-                      missing. For that reason we incorporated gamification
-                      design patterns such as statistics and badges into Buhdi.
+                      missing.
                     </p>
                   </div>
                 </div>
@@ -272,14 +266,9 @@ const DesignTrendCaseStudy = () => {
                 <div className="image_caption">
                   <p>
                     The to-do list does not increase motivation in ADHD users.
-                    To help users stay motivated, we moved away from the cold
-                    tone of traditional apps. We leaned into the "wise master"
-                    archetype found in films like Star Wars or The Karate Kid.
-                    The goal was to create a personality that feels like a
-                    trusted mentor – someone who understands your struggles but
-                    encourages you to keep climbing. Also reframing working on
-                    task by adding "taking a break" and reflection as task
-                    actions is intended to combat task paralysis.
+                    To help users stay motivated, we leaned into the "wise
+                    master" idea - a supportive mentor that provides positive
+                    reinforcement and guidance.
                   </p>
                 </div>
               </div>
@@ -308,14 +297,10 @@ const DesignTrendCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      By removing small "micro-frustrations" discovered in
-                      testing, we ensured that the behavioral logic of the app
-                      supported the user's focus rather than distracting from
-                      it. Doing self-reflection activities and taking a break
-                      from a task so that the user can recharge and come back
-                      later is reframed as intentional actions user is rewarded
-                      for. That should decrease the frustration and shame users
-                      may feel when not completing a task as planned.
+                      Self-reflection activities and taking a break from a task
+                      was reframed as intentional actions a user is rewarded
+                      for. The result: a decrease of the frustration and shame
+                      users may feel when not completing a task as planned.
                     </p>
                   </div>
                 </div>
@@ -337,15 +322,12 @@ const DesignTrendCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Users don't need another to-do list app. They need a partner
-                    to help them actually start and keep going. We believed that
-                    by using AI to break down complex goals into "micro-wins"
-                    steps and provide positive reinforcement for staying on
-                    track we would tackle task paralysis and increase app{" "}
-                    <strong>activation rate</strong>. The more users would
-                    experience app value during the free trial, the higher the
-                    chance of <strong>conversion</strong> to paid subscription
-                    and <strong>retention.</strong>
+                    Since typical to-do lists often feel like a way too much to
+                    take on, I designed the core experience as gamified "Quest
+                    Mode". The focus was on immediate rewards and AI-assisted
+                    task break-down. That should tackle task paralysis and
+                    increase
+                    <strong> user activation rate</strong>.
                   </p>
 
                   <p>
@@ -353,12 +335,11 @@ const DesignTrendCaseStudy = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>A vertical "climbing" path:</strong> to make
-                      progress feel like an achievement, I designed a
-                      bottom–to–top trail. Users start at the base of the
-                      mountain and move upward as they complete tasks. This
-                      linear path removes "choice paralysis" by showing the user
-                      exactly what the next step is on their climb.
+                      <strong>A vertical "climbing" path:</strong> the Quest is
+                      presented as a as a mountain route where next steps are
+                      trail flags. This bottom-to-top path turns progress into
+                      an achievement and removes choice paralysis by
+                      highlighting the clear next step.
                     </li>
                     <li>
                       <strong>Designing for dopamine:</strong> A reward system –
@@ -369,9 +350,9 @@ const DesignTrendCaseStudy = () => {
                       users dropping off.
                     </li>
                     <li>
-                      <strong>Master Buhdi (The AI Coach):</strong> I designed a
-                      calming AI coach persona (Master Buhdi) to offer emotional
-                      support and reduce the "failure shame" leading to
+                      <strong>Master Buhdi (The AI Coach):</strong> A reassuring
+                      AI coach persona (Master Buhdi) offers emotional support
+                      and reduce the "failure shame" leading to
                       procrastination.{" "}
                     </li>
                     <li>
@@ -414,10 +395,11 @@ const DesignTrendCaseStudy = () => {
                   <p>
                     To measure if the redesign effectively solved for
                     ADHD-specific behaviors, I established three primary success
-                    signals. Rather than just gathering data, I used these KPIs
-                    to validate if we successfully communicated the value
-                    propositions and prompted users to define their goal and
-                    take first step toward action aka battling task paralysis.
+                    signals. Validation was crucial from the bussiness
+                    perspective - the more users would experience app value
+                    during the free trial, the higher the chance of{" "}
+                    <strong>conversion</strong> to paid subscription and{" "}
+                    <strong>retention.</strong>
                   </p>
 
                   <p>
@@ -513,12 +495,9 @@ const DesignTrendCaseStudy = () => {
                   <div className="image_caption">
                     <p>
                       Based on our usability tests we strengthened the mountain
-                      metaphor for Quest Tab and added Activity Points rewarding
-                      users for taking actions in the app, for example Purpose
-                      Reflection exercise. These features – along with our
-                      psychological aid cards – were designed to lower anxiety
-                      and provide the immediate stimulation required to bypass
-                      task paralysis.
+                      metaphor for Quest Tab and added Activity Points. The
+                      result: less anxiety and more immediate stimulation
+                      required to bypass task paralysis.
                     </p>
                   </div>
                 </div>
@@ -623,13 +602,13 @@ const DesignTrendCaseStudy = () => {
                     industry benchmark.
                   </p>
 
-                  <p>
-                    We anticipated this challenge: for a neurodivergent
-                    audience, the struggle isn't starting—it’s staying
-                    consistent. This data confirms that while our "Value-First"
-                    onboarding works, our next phase must focus on building even
-                    stronger long-term incentives to help users turn their
-                    initial "Quest" momentum into a lasting habit.
+                   <p>
+                    <strong>Strategic insight: </strong>
+                    Current design is successful at communicating value and
+                    getting users started. In the next phase we should shift
+                    focus toward long-term incentive loops and habit-stacking
+                    features to sustain engagement after the initial excitement
+                    fades.
                   </p>
 
                   <strong>
@@ -660,12 +639,7 @@ const DesignTrendCaseStudy = () => {
                     </li>
                   </ul>
 
-                  <p>
-                    <strong>Strategic insight: </strong>
-                    Current design is successful at communicating value and
-                    getting users started, but we need more incentives for users
-                    to achieve their goals in the long term.
-                  </p>
+                 
                 </div>
                 {/* <div
                  

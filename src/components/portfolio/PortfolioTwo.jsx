@@ -11,7 +11,7 @@ const tabListContent = [
       {
         img: "/img/portfolio/Port_thumbnail_Buhdi.png",
         title: "Buhdi – Mindful ADHD Support App",
-        meta: "Gamifying a to-do list to drive engagement",
+        meta: "Gamifying a to-do list to help people get things done",
         portfolioLink: "/case-study/buhdi-app",
       },
       {
