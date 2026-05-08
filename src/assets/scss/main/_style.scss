@@ -1,5 +1,4 @@
 
-
 @charset "utf-8";
 /*
 /*	Copyright (c) 2021 ib-themes
@@ -191,6 +190,18 @@ h6 { font-size: 1.3rem; font-weight: 700; }
     max-width: 70%; /* Limits width only on desktop */
   }
 }
+
+/* Limit width of .left and .right content containers except on mobile */
+.left, .right {
+  width: 100%;
+  max-width: 100%;
+}
+@media (min-width: 660px) {
+  .left, .right {
+    max-width: 600px;
+  }
+}
+
 
 
 .highlight {
