@@ -268,32 +268,22 @@ const Motion03 = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Video series over long content:</strong> Split
+                      <strong>Video series over long content:</strong> splitting
                       long lectures into short, modular video series focused on
                       one topic at a time based on the hypothesis that users
                       prefer shorter, more focused lessons and would be more
                       likely to return regularly.
                     </li>
                     <li>
-                      <strong>
-                        Designing for clarity and emotional impact:
-                      </strong>{" "}
-                      Positive emotional response to the content was key to
-                      improving retention and motivation. Rhythmic editing and
-                      selective motion graphics made the content more engaging
-                      and easier to follow. Including positive, encouraging
-                      messaging and visual cues to motivate users and create a
-                      more supportive learning environment. Adding humor and
-                      lightness to the content was a key strategy to make it
-                      more engaging and less intimidating for patients who were
-                      often dealing with stressful health issues.
+                      <strong>Shifted to a hybrid video format:</strong>{" "}
+                      authentic live speakers combined with targeted motion
+                      graphics for clarity and emotional impact
                     </li>
                     <li>
-                      <strong>Hybrid content production model:</strong> Filming
-                      live speakers delivering the medical webinars, combined
-                      with targeted motion graphics for key moments. This
-                      reduced production time dramatically and allowed for more
-                      human, relatable communication.
+                      <strong>Appealing presentation style:</strong> adding
+                      positive, encouraging messaging, light humor, and
+                      relatable visuals to reduce intimidation and build
+                      motivation
                     </li>
                   </ul>
                 </div>
@@ -313,8 +303,8 @@ const Motion03 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>Design strategy</span>
-                  <h3> Test, iterate, test</h3>
+                  <span>Process</span>
+                  <h3> Validating more personal style</h3>
                 </div>
                 <div
                   className="text"
@@ -322,37 +312,21 @@ const Motion03 = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The UX researcher tested both content types with users:
-                    completely animated vs. a mix of speaker's live footage and
-                    motion graphics. Results showed:
+                    Working with the UX researcher, we tested fully animated vs.
+                    hybrid (live + motion) formats. <strong>Users strongly preferred the
+                    hybrid approach for authenticity and emotional connection. </strong>
+                    We also discovered that empathetic, older female speakers
+                    performed best. These insights shaped new casting and
+                    content guidelines.
                   </p>
-                  <ul className="case-study-list">
-                    <li>
-                      Users preferred live-action videos for authenticity and
-                      emotional connection.
-                    </li>
-                    <li>
-                      Viewer preference correlated with the speaker’s persona -
-                      older, empathetic female speakers received higher
-                      engagement scores than younger, “perfect” looking hosts.
-                    </li>
-                    <li>
-                      These findings helped us define new casting and content
-                      guidelines to ensure ongoing viewer engagement.
-                    </li>
-                    <li>
-                      For some topics (e.g., very informative, technical
-                      procedures), users preferred a more visual, animated
-                      format, so we continued to produce a mix of content types
-                      based on the subject matter and target audience.
-                    </li>
-                  </ul>
-                  As a creative producer I developed and implemented the new
-                  video format that combined speaker footage with motion
-                  graphics. This also allowed for shorter content production
-                  cycles ( since purely animated video seminars took longer to
-                  produce with small in-house team), enabling us to iterate more
-                  quickly based on user feedback and changing needs.
+                  <p>
+                    As a creative producer I developed and implemented <strong>the new
+                    video format</strong>  that combined speaker footage with motion
+                    graphics. This also allowed for shorter content production
+                    cycles (since purely animated video seminars took longer to
+                    produce with small in-house team), enabling us to iterate
+                    more quickly based on user feedback and changing needs.
+                  </p>
                 </div>
               </div>
               <div className="right">
@@ -370,7 +344,6 @@ const Motion03 = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      
                       Since the previous video style applied clean, minimalistic
                       style that was not performing well in UX research, we
                       shifted towards a more relatable and diverse
@@ -457,11 +430,13 @@ const Motion03 = () => {
                     playsInline
                     poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
                   />
-                  <div className="image_caption"> 
-                 <p>
-                      Including positive, encouraging messaging and visual cues to motivate users and create a more supportive learning environment.
-                    </p> 
-                </div>
+                  <div className="image_caption">
+                    <p>
+                      Including positive, encouraging messaging and visual cues
+                      to motivate users and create a more supportive learning
+                      environment.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="right">
@@ -478,18 +453,20 @@ const Motion03 = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <p>The final video content strategy delivered:</p>
+                  <p>The new video strategy delivered:</p>
                   <ul className="case-study-list">
                     <li>
                       Significant{" "}
                       <string className="highlight_label">increase</string> in{" "}
                       <string className="highlight_label">
                         user watch time
-                      </string>{" "}
-                      and{" "}
-                      <string className="highlight_label">
-                        repeat sessions.
                       </string>
+                    </li>
+                      <li>
+                      <string className="highlight_label">
+                        Higher video completion rates
+                      </string>
+                   
                     </li>
                     <li>
                       <string className="highlight_label">
