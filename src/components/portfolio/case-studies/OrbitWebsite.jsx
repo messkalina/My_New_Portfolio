@@ -373,11 +373,12 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      <strong>Patient Journey: </strong> Most visitors find us
-                      while researching Parkinson’s topics online. This flow
-                      prioritizes the patient experience, helping them
-                      understand the product so they can take the first step –
-                      reaching out to enroll.
+                      <strong> Doctor's journey: </strong> Just like the patient
+                      flow, the goal here was to make conversion as simple as
+                      possible. However, healthcare professionals have different
+                      priorities. While patients need to learn the eligibility
+                      and enrollment process, doctors need to see medical proof
+                      and understand how the insurance process works.
                     </p>
                   </div>
                 </div>
@@ -389,7 +390,7 @@ const MyStoryCaseStudy = () => {
         </div>
       </div>
       {/* Results Section - Image left, Text right */}
-      <div className="shane_tm_section">
+      {/* <div className="shane_tm_section">
         <div className="shane_tm_about">
           <div className="container">
             <div className="about_inner">
@@ -412,7 +413,7 @@ const MyStoryCaseStudy = () => {
                     }
                   />
                   {/* Add caption */}
-                  <div className="image_caption">
+                  {/* <div className="image_caption">
                     <p>
                       How to design a home page for complex medical products and
                       two quite different user groups? Existing website lacked
@@ -420,7 +421,7 @@ const MyStoryCaseStudy = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* End left */}
 
               {/* <div className="right">
@@ -511,7 +512,7 @@ const MyStoryCaseStudy = () => {
                 </div> */}
               {/* </div> */}
               {/* End right */}
-            </div> 
+            {/* </div>  */}
 
             {/* <div
               className="full-image-section"
@@ -519,10 +520,10 @@ const MyStoryCaseStudy = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             ></div> */}
-          </div>
+          {/* </div> */}
           {/* End container */}
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
 
       {/* --- COPY OF SECTION BELOW --- */}
       <div className="shane_tm_section" id="outcome">
@@ -589,34 +590,37 @@ const MyStoryCaseStudy = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <div data-aos="fade-up" data-aos-duration="1200">
-                    <video
-                      src="/img/portfolio/case-study/Patient_Flow.mp4"
-                      style={{ width: "100%" }}
-                      autoPlay
-                      muted
-                      playsInline
-                      controls
-                      controlsList="nodownload"
-                      poster="/img/portfolio/case-study/Patient_Flow.mp4"
-                    />
+                    <img
+                    src="/img/portfolio/case-study/websites_comparison_before_after_cm.png"
+                    alt="Redesign Pages Comparison"
+                    className="clickable-image"
+                    style={{
+                      width: "100%",
+                      cursor: "pointer",
+                      marginTop: "4em",
+                    }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/websites_comparison_before_after_cm.png",
+                      )
+                    }
+                  />
                   </div>
                   {/* Add caption */}
 
                   <div className="image_caption">
                     <p>
-                      <strong> Doctor's journey: </strong> Just like the patient
-                      flow, the goal here was to make conversion as simple as
-                      possible. However, healthcare professionals have different
-                      priorities. While patients need to learn the eligibility
-                      and enrollment process, doctors need to see medical proof
-                      and understand how the insurance process works.
+                      The most important goal of the redesign
+                      was to remove cognitive and emotional obstacles so that
+                      life–changing technology can actually reach the people who
+                      need it.
                     </p>
                   </div>
                 </div>
               </div>
               {/* End right */}
             </div>
-            <div className="container">
+            {/* <div className="container">
               <div className="content">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
@@ -648,7 +652,7 @@ const MyStoryCaseStudy = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* End container */}
         </div>
