@@ -423,7 +423,7 @@ const MyStoryCaseStudy = () => {
               </div>
               {/* End left */}
 
-              <div className="right">
+              {/* <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -509,16 +509,16 @@ const MyStoryCaseStudy = () => {
                 >
                   <Link to="/#portfolio">View More Projects</Link>
                 </div> */}
-              </div>
+              {/* </div> */}
               {/* End right */}
-            </div>
+            </div> 
 
-            <div
+            {/* <div
               className="full-image-section"
               style={{ width: "100%" }}
               data-aos="fade-up"
               data-aos-duration="1200"
-            ></div>
+            ></div> */}
           </div>
           {/* End container */}
         </div>
