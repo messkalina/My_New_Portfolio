@@ -43,8 +43,7 @@ const MyStoryCaseStudy = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h1>
-                    Driving enrollment and software adoption through tailored
-                    user journeys
+                    Simplifying journey to thelatest Parkinson’s care
                   </h1>
                 </div>
               </div>
@@ -55,9 +54,8 @@ const MyStoryCaseStudy = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How I created clear, audience-specific journeys to improve
-                    understanding and drive conversions for a Parkinson’s
-                    medical software.
+                    How I redesigned a website for a digital healthcare startup to improve understading
+                    and adoption of their Parkinson’s Disease management software.
                   </h5>
                 </div>
               </div>
