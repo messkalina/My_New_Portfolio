@@ -42,9 +42,7 @@ const MyStoryCaseStudy = () => {
             >
               <div className="subtitle-container">
                 <div className="subtitle-content">
-                  <h1>
-                    Simplifying journey to the latest Parkinson’s care
-                  </h1>
+                  <h1>Simplifying journey to the latest Parkinson’s care</h1>
                 </div>
               </div>
               <div>
@@ -54,8 +52,9 @@ const MyStoryCaseStudy = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How I redesigned a website for a digital healthcare startup to improve understading
-                    and adoption of their Parkinson’s Disease management software.
+                    How I redesigned a website for a digital healthcare startup
+                    to improve understading and adoption of their Parkinson’s
+                    Disease management software.
                   </h5>
                 </div>
               </div>
@@ -99,12 +98,16 @@ const MyStoryCaseStudy = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            Orbit Health is a Munich-based digital healthcare
-                            startup improving Parkinson’s Disease care through
-                            AI-powered technology. Their apps turn users data
-                            into objective, continuous insights helping
-                            neurologists and patients move toward data-backed
-                            symptom management.
+                            Orbit Health is a digital healthcare startup
+                            improving Parkinson’s Disease care through
+                            AI-powered software. Their apps turn patient data
+                            into actionable insights for neurologists and
+                            patients. The company developed medical apps
+                            ("DiGA") that were still going through clinical
+                            trials. Users (both clinicians and people with
+                            Parkinson’s) were needed to join an early access
+                            program for products validation and driving early
+                            adoption.
                           </p>
                         </div>
                       </div>
@@ -161,12 +164,12 @@ const MyStoryCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    The company developed medical apps ("DiGA") that were still
-                    going through clinical trials. Users (both clinicians and
-                    people with Parkinson’s) were needed to join an early access
-                    program for products validation and driving early adoption.
-                    The website needed to be a conversion channel for both users
-                    groups.
+                    The existing website had low engagement and few sign-ups. It
+                    used a one-size-fits-all approach that failed to address the
+                    different needs of patients and healthcare professionals
+                    navigating complex German reimbursement and eligibility
+                    processes. The website needed to be a conversion channel for
+                    both users groups.
                   </p>
                 </div>
                 <div
@@ -203,12 +206,7 @@ const MyStoryCaseStudy = () => {
                   {/* Add caption */}
                   <div className="image_caption">
                     <p>
-                      The existing site lacked effective user flows,
-                      conversion-focused messaging and guidance through complex
-                      eligibility, regulatory and reimbursement processes for
-                      medical applications in Germany. Simple downloading the
-                      app wouldn't work because user needed an account created
-                      by the company, after meeting eligibility criteria.
+                      The original site lacked efficient user flows for both specialists and patients. For example, the site prompted patients to download the app without explaining that a company-verified account is required to sync their data.
                     </p>
                   </div>
                 </div>
@@ -595,7 +593,6 @@ const MyStoryCaseStudy = () => {
                       src="/img/portfolio/case-study/Patient_Flow.mp4"
                       style={{ width: "100%" }}
                       autoPlay
-               
                       muted
                       playsInline
                       controls
