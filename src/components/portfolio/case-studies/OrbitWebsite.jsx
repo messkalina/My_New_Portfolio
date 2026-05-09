@@ -43,7 +43,7 @@ const MyStoryCaseStudy = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h1>
-                    Simplifying journey to thelatest Parkinson’s care
+                    Simplifying journey to the latest Parkinson’s care
                   </h1>
                 </div>
               </div>

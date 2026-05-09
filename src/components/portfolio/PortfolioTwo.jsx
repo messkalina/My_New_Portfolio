@@ -17,7 +17,7 @@ const tabListContent = [
       {
         img: "/img/portfolio/Port_thumbnail_orbit.png",
         title: "Orbit Health Website Redesign",
-        meta: "Driving enrollment and software adoption through tailored user journeys",
+        meta: "Simplifying journey to the latest Parkinson’s care",
         portfolioLink: "/case-study/orbit-website",
       },
       {
@@ -29,7 +29,7 @@ const tabListContent = [
       {
         img: "/img/portfolio/Vet_hero_image02cm.png",
         title: "Veterinary Practice Website",
-        meta: "Fast-launch website with automated booking and warm, trustworthy design for a new practise",
+        meta: "Fast-launch website with automated booking and a warm, trustworthy presence",
         portfolioLink: "/case-study/vet-website",
       },
     ],
