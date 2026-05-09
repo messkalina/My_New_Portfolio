@@ -71,10 +71,10 @@ const DesignTrendCaseStudy = () => {
               <video
                 src="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
                 style={{ width: "100%" }}
-                autoPlay
-                loop
+                autoPlay             
                 muted
                 playsInline
+                controlscontrolsList="nodownload"
                 poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
               />
 
@@ -693,10 +693,11 @@ const DesignTrendCaseStudy = () => {
                         height: "auto",
                       }}
                       autoPlay
-                      loop
+                    
                       muted
                       playsInline
                       controls
+                      controlsList="nodownload"
                       poster="/img/portfolio/case-study/Buhdi_onboarding_after.mp4"
                     />
                   </div>

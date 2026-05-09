@@ -72,7 +72,7 @@ const Motion03 = () => {
                 src="/img/portfolio/stylesframes/caspar/Anxiety_wiederholungcm.mp4"
                 style={{ width: "100%" }}
                 autoPlay
-                loop
+                controlsList="nodownload"
                 muted
                 playsInline
                 controls
@@ -225,7 +225,7 @@ const Motion03 = () => {
                     src="/img/portfolio/stylesframes/caspar/Anxiety_live_graphicbl_2sm.mp4"
                     style={{ width: "100%" }}
                     autoPlay
-                    loop
+                    controlsList="nodownload"
                     muted
                     playsInline
                     controls
@@ -313,19 +313,23 @@ const Motion03 = () => {
                 >
                   <p>
                     Working with the UX researcher, we tested fully animated vs.
-                    hybrid (live + motion) formats. <strong>Users strongly preferred the
-                    hybrid approach for authenticity and emotional connection. </strong>
+                    hybrid (live + motion) formats.{" "}
+                    <strong>
+                      Users strongly preferred the hybrid approach for
+                      authenticity and emotional connection.{" "}
+                    </strong>
                     We also discovered that empathetic, older female speakers
                     performed best. These insights shaped new casting and
                     content guidelines.
                   </p>
                   <p>
-                    As a creative producer I developed and implemented <strong>the new
-                    video format</strong>  that combined speaker footage with motion
-                    graphics. This also allowed for shorter content production
-                    cycles (since purely animated video seminars took longer to
-                    produce with small in-house team), enabling us to iterate
-                    more quickly based on user feedback and changing needs.
+                    As a creative producer I developed and implemented{" "}
+                    <strong>the new video format</strong> that combined speaker
+                    footage with motion graphics. This also allowed for shorter
+                    content production cycles (since purely animated video
+                    seminars took longer to produce with small in-house team),
+                    enabling us to iterate more quickly based on user feedback
+                    and changing needs.
                   </p>
                 </div>
               </div>
@@ -425,7 +429,7 @@ const Motion03 = () => {
                     src="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
                     style={{ width: "100%" }}
                     autoPlay
-                    loop
+                    controlsList="nodownload"
                     muted
                     playsInline
                     poster="/img/portfolio/stylesframes/caspar/Nutrition_Log_videocm.mp4"
@@ -462,11 +466,10 @@ const Motion03 = () => {
                         user watch time
                       </string>
                     </li>
-                      <li>
+                    <li>
                       <string className="highlight_label">
                         Higher video completion rates
                       </string>
-                   
                     </li>
                     <li>
                       <string className="highlight_label">

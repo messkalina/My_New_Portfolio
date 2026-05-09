@@ -42,7 +42,10 @@ const MyStoryCaseStudy = () => {
             >
               <div className="subtitle-container">
                 <div className="subtitle-content">
-                  <h1>Driving enrollment and software adoption through tailored user journeys</h1>
+                  <h1>
+                    Driving enrollment and software adoption through tailored
+                    user journeys
+                  </h1>
                 </div>
               </div>
               <div>
@@ -52,7 +55,9 @@ const MyStoryCaseStudy = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                   How I created clear, audience-specific journeys to improve understanding and drive conversions for a Parkinson’s medical software.
+                    How I created clear, audience-specific journeys to improve
+                    understanding and drive conversions for a Parkinson’s
+                    medical software.
                   </h5>
                 </div>
               </div>
@@ -74,9 +79,11 @@ const MyStoryCaseStudy = () => {
                 src="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
                 style={{ width: "100%" }}
                 autoPlay
-                loop
+                // loop
                 muted
                 playsInline
+                controls
+                controlsList="nodownload"
                 poster="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
               />
 
@@ -361,7 +368,7 @@ const MyStoryCaseStudy = () => {
                     src="/img/portfolio/case-study/HCP_Flow.mp4"
                     style={{ width: "100%" }}
                     autoPlay
-                    loop
+                    controlsList="nodownload"
                     muted
                     playsInline
                     controls
@@ -590,10 +597,11 @@ const MyStoryCaseStudy = () => {
                       src="/img/portfolio/case-study/Patient_Flow.mp4"
                       style={{ width: "100%" }}
                       autoPlay
-                      loop
+               
                       muted
                       playsInline
                       controls
+                      controlsList="nodownload"
                       poster="/img/portfolio/case-study/Patient_Flow.mp4"
                     />
                   </div>

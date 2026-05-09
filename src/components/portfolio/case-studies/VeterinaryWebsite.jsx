@@ -42,14 +42,16 @@ const AnimationProjectCaseStudy = () => {
             >
               <div className="subtitle-container">
                 <h1>
-                  Fast-launch website with automated booking and warm, trustworthy design for a new practise
+                  Fast-launch website with automated booking and warm,
+                  trustworthy design for a new practise
                 </h1>
               </div>
               <h4>Veterinary Practice Website</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    How I designed a fast-launch veterinary website with automated booking and warm, trustworthy digital presence.
+                    How I designed a fast-launch veterinary website with
+                    automated booking and warm, trustworthy digital presence.
                   </h5>
                 </div>
               </div>
@@ -70,7 +72,7 @@ const AnimationProjectCaseStudy = () => {
                 src="/img/portfolio/case-study/Tierpraxis_Desktop_website_scroll.mp4"
                 style={{ width: "100%" }}
                 autoPlay
-                loop
+                controlsList="nodownload"
                 muted
                 playsInline
                 controls
@@ -158,9 +160,11 @@ const AnimationProjectCaseStudy = () => {
                     src="/img/portfolio/case-study/Phone _mockup02.mp4"
                     style={{ width: "100%" }}
                     autoPlay
-                    loop
+                    controlsList="nodownload"
                     muted
                     playsInline
+                    controls
+                    poster="/img/portfolio/case-study/Phone _mockup02.mp4"
                   />
                   <div className="image_caption">
                     <p>
@@ -486,10 +490,14 @@ const AnimationProjectCaseStudy = () => {
                       objectFit: "contain",
                     }}
                     autoPlay
-                    loop
+                    controlsList="nodownload"
                     muted
                     playsInline
                     controls
+                    controlsList="nodownload"  
+                    poster="/img/portfolio/case-study/Vet_Mobile_Terminbuchungsm.mp4"
+                
+                    
                   />
                   <div className="image_caption">
                     <p>
@@ -601,8 +609,8 @@ const AnimationProjectCaseStudy = () => {
                       <string className="highlight_label">
                         Customer Effort Score
                       </string>{" "}
-                      (where 1 = effortless). Users reported high "Ease of Use," making digital booking
-                      faster than a phone call.
+                      (where 1 = effortless). Users reported high "Ease of Use,"
+                      making digital booking faster than a phone call.
                     </li>
                   </ul>
                 </div>
