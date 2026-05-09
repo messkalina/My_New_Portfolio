@@ -10,7 +10,7 @@ const tabListContent = [
     porftoliItems: [
       {
         img: "/img/portfolio/Port_thumbnail_Buhdi.png",
-        title: "Buhdi – Mindful ADHD Support App",
+        title: "Buhdi – Mindful ADHD Support",
         meta: "Gamifying a to-do list to help people get things done",
         portfolioLink: "/case-study/buhdi-app",
       },

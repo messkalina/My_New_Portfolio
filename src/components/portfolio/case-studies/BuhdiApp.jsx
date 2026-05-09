@@ -44,7 +44,7 @@ const DesignTrendCaseStudy = () => {
               <div className="subtitle-container">
                 <h1>Gamifying a to-do list to help people get things done</h1>
               </div>
-              <h4>Buhdi – Mindful ADHD Support App</h4>
+              <h4>Buhdi – Mindful ADHD Support</h4>
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
