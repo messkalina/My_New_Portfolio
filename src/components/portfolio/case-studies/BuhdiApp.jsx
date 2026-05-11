@@ -74,7 +74,9 @@ const DesignTrendCaseStudy = () => {
                 autoPlay             
                 muted
                 playsInline
+                loop
                 controlscontrolsList="nodownload"
+                controls
                 poster="/img/portfolio/case-study/Buhdi_App_Slider_sm.mp4"
               />
 
