@@ -41,10 +41,7 @@ const AnimationProjectCaseStudy = () => {
               data-aos-duration="1200"
             >
               <div className="subtitle-container">
-                <h1>
-                  Fast-launch website with automated booking and warm,
-                  trustworthy design for a new practise
-                </h1>
+                <h1>Bulding automation and trust for a fast-launch website</h1>
               </div>
               <h4>Veterinary Practice Website</h4>
               <div className="subtitle-container">
@@ -93,21 +90,10 @@ const AnimationProjectCaseStudy = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            Tierpraxis Lebensberg is a veterinary practice in
-                            Vienna, Austria that launched its digital presence
-                            alongside its physical opening.
-                          </p>
-                          <p>
-                            I adopted a two-phase delivery strategy to balance
-                            business velocity with long-term growth. First I
-                            designed an Minimal Viable Product (MVP) version of
-                            the website to meet the immediate launch deadline
-                            and drive conversions through an automated booking
-                            channel.
-                          </p>
-                          <p>
-                            In the second iteration I focused on expressing its
-                            business values of trust, credibility, and warmth.
+                            Tierpraxis Lebensberg is a newly opened veterinary
+                            practice in Vienna. I supported their launch with a
+                            professional website that balances immediate
+                            business needs with long-term brand building.
                           </p>
                         </div>
                       </div>
@@ -168,10 +154,11 @@ const AnimationProjectCaseStudy = () => {
                   />
                   <div className="image_caption">
                     <p>
-                      The first version of the website (MVP) focused on user
-                      flow to online-booking to mitigate administrative load
-                      from day one. Industry benchmarks show that manual
+                     Industry benchmarks show that manual
                       scheduling can consume up to 40% of a receptionist's day.
+                     The first version of the website (MVP) focused on user
+                      conversion to online-booking to mitigate administrative
+                      load from day one. 
                     </p>
                   </div>
                 </div>
@@ -191,11 +178,9 @@ const AnimationProjectCaseStudy = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Launching a new veterinary clinic comes with a tight
-                    deadline. The goal was to build a professional website that
-                    was ready to go the moment the doors opened. We needed a
-                    site that introduced the medical team and services clearly,
-                    but most importantly, handled the "admin heavy lifting."
+                    Tight launch deadline + need to reduce administrative
+                    workload through online booking while building trust with
+                    local pet owners.
                   </p>
                   <p
                     style={{
@@ -209,7 +194,7 @@ const AnimationProjectCaseStudy = () => {
                     <li>
                       <strong>Saving time through automation:</strong> Moving as
                       many bookings as possible to a digital system so the team
-                      could focus on the animals, not the phone.
+                      could focus on treating animals.
                     </li>
                     <li>
                       <strong>Mobile-first experience for local search:</strong>{" "}
@@ -266,29 +251,20 @@ const AnimationProjectCaseStudy = () => {
                   className="text"
                   data-aos="fade-up"
                   data-aos-duration="1200"
-                >
+                ><p>
+                    I used a lean, iterative approach to quickly launch an MVP
+                    that met core business needs and then refined it based on
+                    user feedback.
+                  </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Iterative Workflow:</strong> I focused on shipping
-                      a functional "Minimum Viable Product" to quickly get the
-                      business website live and validate it via user testing. In
-                      the next iteration I focused on communicating brand values
-                      of trust and warmth. The goal was to meet business
-                      requirements, gather insights and move to design
-                      iterations that then would be easily implemented by
-                      external developer.
+                      <strong>MVP:</strong> Fast, functional site with prominent automated booking flow (mobile-first).
                     </li>
                     <li>
-                      <strong>Community Testing:</strong> I validated the MVP
-                      via the Career Foundry and Google UX communities.
+                      <strong>Refinement:</strong> Warmer visuals, better photography, testimonials, and brand personality (shifted from clinical to inviting).
+
                     </li>
-                    <li>
-                      <strong>Custom Build:</strong> I coded the website in
-                      React.js bypassing subscription-based website builders
-                      such as Wix or heavy Wordpress CMS.The site was deployed
-                      via Netlify, ensuring a cost-effective and
-                      high-performance hosting solution.
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -494,10 +470,8 @@ const AnimationProjectCaseStudy = () => {
                     muted
                     playsInline
                     controls
-                    controlsList="nodownload"  
+                    controlsList="nodownload"
                     poster="/img/portfolio/case-study/Vet_Mobile_Terminbuchungsm.mp4"
-                
-                    
                   />
                   <div className="image_caption">
                     <p>
