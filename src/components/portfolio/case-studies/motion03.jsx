@@ -42,7 +42,7 @@ const Motion03 = () => {
               {" "}
               <div className="subtitle-container">
                 <h1>
-                  Boosting retention and insurance reimbursement through video
+                  Boosting retention through video
                   design
                 </h1>
               </div>

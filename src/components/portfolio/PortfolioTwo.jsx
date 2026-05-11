@@ -23,13 +23,14 @@ const tabListContent = [
       {
         img: "/img/portfolio/caspar.png",
         title: "Caspar Health Educational Videos",
-        meta: "Boosting retention and insurance reimbursement through video design",
+        meta: "Boosting retention through video design",
+                  
         portfolioLink: "/case-study/motion03",
       },
       {
         img: "/img/portfolio/Vet_hero_image02cm.png",
         title: "Veterinary Practice Website",
-        meta: "Fast-launch website with automated booking and a warm, trustworthy presence",
+        meta: "Building automation and trust for a fast-launch website",
         portfolioLink: "/case-study/vet-website",
       },
     ],
