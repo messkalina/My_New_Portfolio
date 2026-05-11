@@ -28,7 +28,7 @@ const tabListContent = [
         portfolioLink: "/case-study/motion03",
       },
       {
-        img: "/img/portfolio/Vet_hero_image02cm.png",
+        img: "/img/portfolio/case-study/Vet_hero_image03cm.png",
         title: "Veterinary Practice Website",
         meta: "Building automation and trust for a fast-launch website",
         portfolioLink: "/case-study/vet-website",
