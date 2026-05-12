@@ -240,7 +240,7 @@ const DesignTrendCaseStudy = () => {
         </div>
         <div
           className="full-image-section"
-          style={{ width: "100%" }}
+          style={{ width: "100%", pointerEvents: "none" }}
           data-aos="fade-up"
           data-aos-duration="1200"
         >
