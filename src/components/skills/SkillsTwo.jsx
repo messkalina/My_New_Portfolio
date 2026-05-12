@@ -5,7 +5,7 @@ const SkillsTwo = () => {
     <>
       <div className="shane_tm_section">
         <div className="shane_tm_skills"
-        style={{ backgroundColor: "#f9f9f9" }}
+        style={{ backgroundColor: "white" }}
         >
           <div className="container"
          data-aos="fade-up"
