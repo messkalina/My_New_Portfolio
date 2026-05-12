@@ -906,11 +906,15 @@ h6 { font-size: 1.3rem; font-weight: 700; }
   line-height: 1.1em;
   display: inline-block;
   // overflow: hidden;
-  max-width: 55vw;
+  max-width: 65vw;
   // text-align: left;
   margin-top: 0.3em;
   margin-bottom: 0.5em;
   letter-spacing: -4px;
+  @media screen and (max-width: 1040px) {
+    
+    max-width: 80vw;
+  }
 
   .shane_tm_hero .content h1 span {
   color: #7C3AED;
@@ -918,6 +922,7 @@ h6 { font-size: 1.3rem; font-weight: 700; }
   @media screen and (max-width: 1040px) {
     font-size: 3em;
     letter-spacing: 0px;
+     
   }
   
   @media screen and (max-width: 767px) {
