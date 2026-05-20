@@ -14,6 +14,12 @@ const tabListContent = [
         meta: "Gamifying a to-do list to help people get things done",
         portfolioLink: "/case-study/buhdi-app",
       },
+        {
+        img: "/img/portfolio/Port_thumbnail_orbit.png",
+        title: "Clinical Screening Feature Design",
+        meta: "Simplifying journey to the latest Parkinson’s care",
+        portfolioLink: "/case-study/neptune-feature",
+      },
       {
         img: "/img/portfolio/Port_thumbnail_orbit.png",
         title: "Orbit Health Website Redesign",

@@ -7,7 +7,8 @@ import { Routes, Route } from "react-router-dom";
 import MyStoryCaseStudy from "../components/portfolio/case-studies/OrbitWebsite";
 import DesignTrendCaseStudy from "../components/portfolio/case-studies/BuhdiApp";
 import AnimationProjectCaseStudy from "../components/portfolio/case-studies/VeterinaryWebsite";
-import UnlimitixApp from "../components/portfolio/case-studies/UnlimitixApp";
+import NeptuneFeature from "../components/portfolio/case-studies/NeptuneFeature";
+
 import Animation01 from "../components/portfolio/case-studies/Animation01";
 import Motion02 from "../components/portfolio/case-studies/motion02";
 import Motion03 from "../components/portfolio/case-studies/motion03";
@@ -41,7 +42,7 @@ const AllRouter = () => {
           path="/case-study/vet-website"
           element={<AnimationProjectCaseStudy />}
         />
-        <Route path="/case-study/unlimitix-app" element={<UnlimitixApp />} />
+        <Route path="/case-study/neptune-feature" element={<NeptuneFeature />} />
         <Route path="/case-study/animation01" element={<Animation01 />} />
         <Route path="/case-study/motion02" element={<Motion02 />} />
         <Route path="/case-study/motion03" element={<Motion03 />} />
