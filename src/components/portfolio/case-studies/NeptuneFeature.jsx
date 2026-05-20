@@ -52,7 +52,7 @@ const NeptuneFeature = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    Designing a clinical decision-support tool based on the 5-2-1 criteria to help busy neurologists identify advanced therapy candidates instantly.
+                    Enabling Neurologists to identify advanced therapy candidates faster.
                   </h5>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const NeptuneFeature = () => {
         <div className="container">
           <div className="content">
             <div>
-              <video
+              {/* <video
                 src="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
                 style={{ width: "100%" }}
                 autoPlay
@@ -80,7 +80,7 @@ const NeptuneFeature = () => {
                 controls
                 controlsList="nodownload"
                 poster="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
-              />
+              /> */}
 
               {/* Overview section */}
               <div className="shane_tm_section">
@@ -111,14 +111,14 @@ const NeptuneFeature = () => {
                             </p>
 
                             <p>
-                              <strong>Role:</strong> <br />
-                              Lead UX/UI Designer
+                              <strong>Role: </strong> UX/UI Designer
+                               
                             </p>
 
                             <p>
                               <strong>Scope:</strong>
                               <br />
-                              B2B Interface Design, Data Visualization, Clinical Workflow Optimization
+                              Research, UX/UI Design, data visualization, clinical workflow optimization
                             </p>
                           </div>
                         </div>
@@ -143,7 +143,7 @@ const NeptuneFeature = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>The Insight</span>
+                  <span>The Challenge</span>
                   <h3>The Consultation Bottleneck</h3>
                 </div>
                 <div
@@ -177,13 +177,13 @@ const NeptuneFeature = () => {
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Orbit_Old_Flows_cm.png"
+                    src="/img/portfolio/case-study/neptune_logic.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Orbit_Old_Flows_cm.png",
+                        "/img/portfolio/case-study/neptune_logic.png",
                       )
                     }
                   />
@@ -307,15 +307,16 @@ const NeptuneFeature = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                  <video
-                    src="/img/portfolio/case-study/HCP_Flow.mp4"
-                    style={{ width: "100%" }}
-                    autoPlay
-                    controlsList="nodownload"
-                    muted
-                    playsInline
-                    controls
-                    poster="/img/portfolio/case-study/HCP_Flow.mp4"
+                        <img
+                    src="/img/portfolio/case-study/Neptune_Ideation.png"
+                    alt="Wireframe"
+                    className="clickable-image"
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/Neptune_Ideation.png",
+                      )
+                    }
                   />
                   {/* Add caption */}
                   <div className="image_caption">
@@ -385,7 +386,7 @@ const NeptuneFeature = () => {
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <div data-aos="fade-up" data-aos-duration="1200">
                     <img
-                      src="/img/portfolio/case-study/websites_comparison_before_after_cm.png"
+                      src="/img/portfolio/case-study/doctor_screen_sm.jpg"
                       alt="Redesign Pages Comparison"
                       className="clickable-image"
                       style={{
@@ -395,7 +396,7 @@ const NeptuneFeature = () => {
                       }}
                       onClick={() =>
                         handleImageClick(
-                          "/img/portfolio/case-study/websites_comparison_before_after_cm.png",
+                          "/img/portfolio/case-study/doctor_screen_sm.jpg",
                         )
                       }
                     />
