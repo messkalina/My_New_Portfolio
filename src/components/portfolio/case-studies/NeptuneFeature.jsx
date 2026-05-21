@@ -70,17 +70,11 @@ const NeptuneFeature = () => {
         <div className="container">
           <div className="content">
             <div>
-              {/* <video
-                src="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
+              <img
+                src="/img/portfolio/case-study/neptune_hero.png"
                 style={{ width: "100%" }}
-                autoPlay
-                // loop
-                muted
-                playsInline
-                controls
-                controlsList="nodownload"
-                poster="/img/portfolio/case-study/Orbit_Hero_Animcm.mp4"
-              /> */}
+                alt="Neptune Feature Hero Image"
+              />
 
               {/* Overview section */}
               <div className="shane_tm_section">
