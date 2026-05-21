@@ -52,7 +52,8 @@ const NeptuneFeature = () => {
               <div className="subtitle-container">
                 <div className="subtitle-content">
                   <h5>
-                    Enabling Neurologists to identify advanced therapy candidates faster.
+                    Enabling Neurologists to identify advanced therapy
+                    candidates faster.
                   </h5>
                 </div>
               </div>
@@ -90,7 +91,15 @@ const NeptuneFeature = () => {
                           {" "}
                           <span>Overview</span>
                           <p>
-                            Orbit Health’s Neptune software utilizes smartwatch data to personalize Parkinson’s Disease management. However, busy neurologists navigating short clinical consultations struggled to systematically spot when a patient was transitioning into the advanced stage of the disease. I designed a built-in decision-support tool using the clinical "5-2-1" framework to streamline manual data exploration into an efficient screening flow.
+                            Orbit Health’s Neptune software utilizes smartwatch
+                            data to personalize Parkinson’s Disease management.
+                            However, busy neurologists navigating short clinical
+                            consultations struggled to systematically spot when
+                            a patient was transitioning into the advanced stage
+                            of the disease. Company decided to address this by building a
+                            decision-support tool using the so called "5-2-1
+                            Framework" to streamline manual data exploration into
+                            an efficient screening flow.
                           </p>
                         </div>
                       </div>
@@ -106,13 +115,13 @@ const NeptuneFeature = () => {
 
                             <p>
                               <strong>Role: </strong> UX/UI Designer
-                               
                             </p>
 
                             <p>
                               <strong>Scope:</strong>
                               <br />
-                              Research, UX/UI Design, data visualization, clinical workflow optimization
+                              Research, UX/UI Design, data visualization,
+                              clinical workflow optimization
                             </p>
                           </div>
                         </div>
@@ -146,10 +155,23 @@ const NeptuneFeature = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Neurologists face intense time pressures during patient appointments. Sifting through months of historical motor-state timelines to see if a patient met eligibility standards for advanced clinical procedures was too labor-intensive, meaning optimal treatment adjustment windows were frequently missed.
+                    Neurologists face intense time pressures during patient
+                    appointments. Sifting through months of historical
+                    motor-state timelines to see if a patient met eligibility
+                    standards for advanced clinical procedures was too
+                    labor-intensive, meaning <strong>optimal treatment adjustment
+                    windows were frequently missed.</strong>
                   </p>
                   <p>
-                    To fix this, my strategy was to translate the complex clinical "5-2-1" rule (5 daily levodopa doses, 2 hours of off-time, 1 hour of troublesome dyskinesia) into an instantly scannable metric. The design benchmark was to completely minimize cognitive strain so doctors could make accurate screening determinations in a glance.
+                    To fix this, the product team I was a part of decided to
+                    translate the complex
+                    clinical "5-2-1" rule (at least 5 daily medication doses and 2 hours of
+                    off-time per day and/or 1 at least 1 hour of dyskinesia symptoms daily in the last 90 days) into an
+                    instantly scannable metric. 
+                    <br />
+                    The design benchmark was to
+                    <strong> minimize cognitive strain so doctors could make
+                    accurate screening determinations in a glance.</strong>
                   </p>
                 </div>
                 <div
@@ -245,25 +267,35 @@ const NeptuneFeature = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I introduced an automated screening pattern directly inside the digital dashboard, allowing the app to act as an active assistant during check-ins.
+                    Together with another UX/UI designer and product manager, we introduced an automated screening pattern directly inside
+                    the digital dashboard, allowing the app to act as an active
+                    assistant during check-ins.
                   </p>
                   <p>Key feature implementations included:</p>
                   <ul className="case-study-list">
                     <li>
                       <strong>Instant Status Triggers: </strong>
-                      Color-coded system alerts that visually flag when a patient reaches the established 5-2-1 threshold parameters.
+                      Color-coded system alerts that visually flag when a
+                      patient reaches the established 5-2-1 threshold
+                      parameters.
                     </li>
                     <li>
-                      <strong>Progressive Data Disclosure: </strong>
-                      A simplified overview layer displays high-level trends first, letting specialists hover or expand fields to explore granular smartwatch graphs only when clinically necessary.
+                      <strong>Progressive Data Disclosure: </strong>A simplified
+                      overview layer displays high-level trends first, letting
+                      specialists hover or expand fields to explore granular
+                      smartwatch graphs only when clinically necessary.
                     </li>
                     <li>
-                      <strong>Frictionless Referral Path: </strong>
-                      A contextual single-click action module built into the screen layout to instantly trigger advanced therapy application protocols.
+                      <strong>Frictionless Referral Path: </strong>A contextual
+                      single-click action module built into the screen layout to
+                      instantly trigger advanced therapy application protocols.
                     </li>
                     <li>
                       <strong>Implementation-Minded UI Layouts: </strong>
-                      Optimized components mapped alongside strict front-end performance practices, guaranteeing fast loading times for complex metrics inside demanding healthcare screen systems.
+                      Optimized components mapped alongside strict front-end
+                      performance practices, guaranteeing fast loading times for
+                      complex metrics inside demanding healthcare screen
+                      systems.
                     </li>
                   </ul>
                 </div>
@@ -289,10 +321,16 @@ const NeptuneFeature = () => {
                   <h3>Defining Strategic Success</h3>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Primary Objective:</strong> Drastically reduce critical assessment time during visits. The interface was engineered to transform tedious historical data review into a rapid status confirmation loop.
+                      <strong>Primary Objective:</strong> Drastically reduce
+                      critical assessment time during visits. The interface was
+                      engineered to transform tedious historical data review
+                      into a rapid status confirmation loop.
                     </li>
                     <li>
-                      <strong>Workflow Engagement:</strong> Successfully move the platform experience away from manual, secondary tool tracking into an embedded, high-value clinical companion doctors trust.
+                      <strong>Workflow Engagement:</strong> Successfully move
+                      the platform experience away from manual, secondary tool
+                      tracking into an embedded, high-value clinical companion
+                      doctors trust.
                     </li>
                   </ul>
                 </div>
@@ -301,7 +339,7 @@ const NeptuneFeature = () => {
 
               <div className="right">
                 <div data-aos="fade-up" data-aos-duration="1200">
-                        <img
+                  <img
                     src="/img/portfolio/case-study/Neptune_Ideation.png"
                     alt="Wireframe"
                     className="clickable-image"
@@ -352,7 +390,9 @@ const NeptuneFeature = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    By anchoring product functionality within an industry-accepted clinical practice rule, the feature safely removes cognitive steps from medical checkups.
+                    By anchoring product functionality within an
+                    industry-accepted clinical practice rule, the feature safely
+                    removes cognitive steps from medical checkups.
                   </p>
                   <p
                     style={{
@@ -363,13 +403,22 @@ const NeptuneFeature = () => {
                   </p>
                   <ul className="case-study-list">
                     <li>
-                      <strong>Streamlined Clinical Decisions: </strong> Specialists evaluate criteria validation instantaneously, maximizing evaluation accuracy inside narrow schedule constraints.
+                      <strong>Streamlined Clinical Decisions: </strong>{" "}
+                      Specialists evaluate criteria validation instantaneously,
+                      maximizing evaluation accuracy inside narrow schedule
+                      constraints.
                     </li>
                     <li>
-                      <strong>Indispensable Application Workflow: </strong> Positioning the 5-2-1 metrics naturally within core views transitioned the platform away from a disconnected logger toward an intuitive workflow hub.
+                      <strong>Indispensable Application Workflow: </strong>{" "}
+                      Positioning the 5-2-1 metrics naturally within core views
+                      transitioned the platform away from a disconnected logger
+                      toward an intuitive workflow hub.
                     </li>
                     <li>
-                      <strong>Product Portfolio Alignment: </strong> Successfully lowering time-to-decision bottlenecks helps drive physician product satisfaction, aligning cleanly with B2B healthcare market expansion.
+                      <strong>Product Portfolio Alignment: </strong>{" "}
+                      Successfully lowering time-to-decision bottlenecks helps
+                      drive physician product satisfaction, aligning cleanly
+                      with B2B healthcare market expansion.
                     </li>
                   </ul>
                 </div>
