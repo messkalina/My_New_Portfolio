@@ -51,7 +51,8 @@ const NeptuneFeature = () => {
               </div>
               <div className="subtitle-container">
                 <div className="subtitle-content">
-                  <h5>
+                  <h5
+                  style={{ textAlign: 'center' }}>
                     Enabling Neurologists to identify advanced therapy
                     candidates faster.
                   </h5>
