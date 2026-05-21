@@ -51,8 +51,7 @@ const NeptuneFeature = () => {
               </div>
               <div className="subtitle-container">
                 <div className="subtitle-content">
-                  <h5
-                  style={{ textAlign: 'center' }}>
+                  <h5 style={{ textAlign: "center" }}>
                     Enabling Neurologists to identify advanced therapy
                     candidates faster.
                   </h5>
@@ -97,10 +96,10 @@ const NeptuneFeature = () => {
                             However, busy neurologists navigating short clinical
                             consultations struggled to systematically spot when
                             a patient was transitioning into the advanced stage
-                            of the disease. Company decided to address this by building a
-                            decision-support tool using the so called "5-2-1
-                            Framework" to streamline manual data exploration into
-                            an efficient screening flow.
+                            of the disease. Company decided to address this by
+                            building a decision-support tool using the so called
+                            "5-2-1 Framework" to streamline manual data
+                            exploration into an efficient screening flow.
                           </p>
                         </div>
                       </div>
@@ -160,19 +159,25 @@ const NeptuneFeature = () => {
                     appointments. Sifting through months of historical
                     motor-state timelines to see if a patient met eligibility
                     standards for advanced clinical procedures was too
-                    labor-intensive, meaning <strong>optimal treatment adjustment
-                    windows were frequently missed.</strong>
+                    labor-intensive, meaning{" "}
+                    <strong>
+                      optimal treatment adjustment windows were frequently
+                      missed.
+                    </strong>
                   </p>
                   <p>
                     To fix this, the product team I was a part of decided to
-                    translate the complex
-                    clinical "5-2-1" rule (at least 5 daily medication doses and 2 hours of
-                    off-time per day and/or 1 at least 1 hour of dyskinesia symptoms daily in the last 90 days) into an
-                    instantly scannable metric. 
+                    translate the complex clinical "5-2-1" rule (at least 5
+                    daily medication doses and 2 hours of off-time per day
+                    and/or 1 at least 1 hour of dyskinesia symptoms daily in the
+                    last 90 days) into an instantly scannable metric.
                     <br />
                     The design benchmark was to
-                    <strong> minimize cognitive strain so doctors could make
-                    accurate screening determinations in a glance.</strong>
+                    <strong>
+                      {" "}
+                      minimize cognitive strain so doctors could make accurate
+                      screening determinations in a glance.
+                    </strong>
                   </p>
                 </div>
                 <div
@@ -230,7 +235,13 @@ const NeptuneFeature = () => {
                     src="/img/portfolio/case-study/Neptune_all_screens.png"
                     alt="Wireframe"
                     className="clickable-image"
-                    style={{ width: "100%", cursor: "pointer" }}
+                    style={{
+                      width: "200%",
+                      height: "200%", // Scale regular height to 100%
+                      maxHeight: "200vh", // Clamp to 100% of viewport height
+                      objectFit: "contain", // Prevent stretching/cropping
+                      cursor: "pointer",
+                    }}
                     onClick={() =>
                       handleImageClick(
                         "/img/portfolio/case-study/Neptune_all_screens.png",
@@ -268,7 +279,8 @@ const NeptuneFeature = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Together with another UX/UI designer and product manager, we introduced an automated screening pattern directly inside
+                    Together with another UX/UI designer and product manager, we
+                    introduced an automated screening pattern directly inside
                     the digital dashboard, allowing the app to act as an active
                     assistant during check-ins.
                   </p>
