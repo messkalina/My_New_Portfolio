@@ -183,11 +183,11 @@ const NeptuneFeature = () => {
                   />
 
                   {/* Add caption */}
-                  <div className="image_caption">
+                  {/* <div className="image_caption">
                     <p>
                       The original site lacked efficient user flows for both specialists and patients. For example, the site prompted patients to download the app without explaining that a company-verified account is required to sync their data.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* End right */}
@@ -215,7 +215,7 @@ const NeptuneFeature = () => {
                     }
                   />
                   {/* Add caption */}
-                  <div className="image_caption">
+                  {/* <div className="image_caption">
                     <p>
                       Doctors and patients needed to be guided through user
                       flows that remove user frictions and lead to conversion. I
@@ -224,7 +224,7 @@ const NeptuneFeature = () => {
                       being able to get access to the app without completing
                       enrollment process.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* End left */}
@@ -313,7 +313,7 @@ const NeptuneFeature = () => {
                     }
                   />
                   {/* Add caption */}
-                  <div className="image_caption">
+                  {/* <div className="image_caption">
                     <p>
                       <strong> Doctor's journey: </strong> Just like the patient
                       flow, the goal here was to make conversion as simple as
@@ -322,7 +322,7 @@ const NeptuneFeature = () => {
                       and enrollment process, doctors need to see medical proof
                       and understand how the insurance process works.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* End right */}
@@ -382,7 +382,7 @@ const NeptuneFeature = () => {
                     <img
                       src="/img/portfolio/case-study/doctor_screen_sm.jpg"
                       alt="Redesign Pages Comparison"
-                      className="clickable-image"
+                      // className="clickable-image"
                       style={{
                         width: "100%",
                         cursor: "pointer",
@@ -396,14 +396,14 @@ const NeptuneFeature = () => {
                     />
                   </div>
                   {/* Add caption */}
-                  <div className="image_caption">
+                  {/* <div className="image_caption">
                     <p>
                       The most important goal of the redesign
                       was to remove cognitive and emotional obstacles so that
                       life–changing technology can actually reach the people who
                       need it.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* End right */}
