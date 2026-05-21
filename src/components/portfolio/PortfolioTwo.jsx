@@ -15,7 +15,7 @@ const tabListContent = [
         portfolioLink: "/case-study/buhdi-app",
       },
         {
-        img: "/img/portfolio/Port_thumbnail_orbit.png",
+        img: "/img/portfolio/case-study/neptune thumbnail.png",
         title: "Clinical Screening Feature Design",
         meta: "Enabling Neurologists to identify advanced therapy candidates faster",
         portfolioLink: "/case-study/neptune-feature",

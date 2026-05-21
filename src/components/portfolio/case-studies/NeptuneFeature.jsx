@@ -210,13 +210,13 @@ const NeptuneFeature = () => {
               <div className="left">
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <img
-                    src="/img/portfolio/case-study/Orbit_New_Flows_cm.png"
+                    src="/img/portfolio/case-study/Neptune_all_screens.png"
                     alt="Wireframe"
                     className="clickable-image"
                     style={{ width: "100%", cursor: "pointer" }}
                     onClick={() =>
                       handleImageClick(
-                        "/img/portfolio/case-study/Orbit_New_Flows_cm.png",
+                        "/img/portfolio/case-study/Neptune_all_screens.png",
                       )
                     }
                   />
