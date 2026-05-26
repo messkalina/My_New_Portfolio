@@ -6,11 +6,11 @@ const SocialShare = [
     link: "https://www.linkedin.com/in/kalina-iwaszko/",
     title: "LinkedIn",
   },
-  {
-    iconName: "behance",
-    link: "https://www.behance.net/kalinaiwaszko2",
-    title: "Behance",
-  },
+  // {
+  //   iconName: "behance",
+  //   link: "https://www.behance.net/kalinaiwaszko2",
+  //   title: "Behance",
+  // },
   {
     iconName: "github",
     link: "https://github.com/messkalina",
