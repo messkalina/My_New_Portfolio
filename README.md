@@ -76,11 +76,11 @@ My_New_Portfolio/
 
 ## ✨ Features
 
-- ✅ Fully responsive design (mobile, tablet, desktop)
-- ✅ Modern and interactive user interface
-- ✅ Fast performance optimization
+- ✅ Pages: Home, Project pages
+- ✅ Contact Form, Project Cards
 - ✅ SEO-friendly structure
-- ✅ Easy to navigate and update
+- ✅ Responsive
+- ✅ Tailored for showcasing static and animated viduals
 
 ---
 
