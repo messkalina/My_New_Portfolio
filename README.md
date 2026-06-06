@@ -1,19 +1,8 @@
 # 💼 My Digital Portfolio
 
-Responsive portfolio website showcasing my UX/UI and motion design projectss. Built with **JavaScript, SCSS, and HTML**. 
+Responsive portfolio website showcasing my UX/UI and motion design projectss. Built with **JavaScript, SCSS, and HTML**. Serves as a central hub to showcase my projects, skills, and experience to potential clients and employers.
 
 **🌐 Live Site:** [https://digital-at-heart.com/](https://digital-at-heart.com/)
-
----
-
-## 📋 Overview
-
-This portfolio is a personal branding project that demonstrates my expertise in:
-- **Front-end Development** - Creating interactive and responsive user interfaces
-- **Web Design** - Modern, clean UI/UX principles
-- **Web Technologies** - JavaScript, SCSS, HTML
-
-The website serves as a central hub to showcase my projects, skills, and experience to potential clients and employers.
 
 ---
 
