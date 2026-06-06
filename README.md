@@ -1,6 +1,6 @@
 # 💼 My Digital Portfolio
 
-A modern, responsive portfolio website showcasing my web development projects and skills. Built with **JavaScript, SCSS, and HTML**.
+Responsive portfolio website showcasing my UX/UI and motion design projectss. Built with **JavaScript, SCSS, and HTML**. 
 
 **🌐 Live Site:** [https://digital-at-heart.com/](https://digital-at-heart.com/)
 
@@ -17,7 +17,7 @@ The website serves as a central hub to showcase my projects, skills, and experie
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Stack
 
 - **JavaScript** (58.6%) - Dynamic functionality and interactivity
 - **SCSS** (41%) - Advanced styling and responsive design
@@ -95,7 +95,7 @@ My_New_Portfolio/
 
 ---
 
-## 🎯 Live Demo
+## 🎯 Live
 
 Visit the live website: **[https://digital-at-heart.com/](https://digital-at-heart.com/)**
 
