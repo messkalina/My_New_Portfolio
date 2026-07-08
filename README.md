@@ -1,26 +1,116 @@
-# My Portfolio Website
+# 💼 My Digital Portfolio
 
-## Description
-Setup Procedure
-## Project setup
-```
-npm install
-```
+Responsive portfolio website showcasing my UX/UI and motion design projectss. Built with **JavaScript, SCSS, and HTML**. Serves as a central hub to showcase my projects, skills, and experience to potential clients and employers.
 
-### Compiles and hot-reloads for development
-```
+**🌐 Live Site:** [https://digital-at-heart.com/](https://digital-at-heart.com/)
+
+---
+
+## 🛠️ Stack
+
+- **JavaScript** (58.6%) - Dynamic functionality and interactivity
+- **SCSS** (41%) - Advanced styling and responsive design
+- **HTML** (0.4%) - Semantic markup and structure
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Project Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/messkalina/My_New_Portfolio.git
+   cd My_New_Portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Run the development server with hot-reload:
+
+```bash
 npm run start
 ```
 
-### Compiles and minifies for production
-```
+The application will be available at `http://localhost:3000` (or your configured port).
+
+### Production Build
+
+Compile and minify for production:
+
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
+### Code Quality
+
+Lint and fix files:
+
+```bash
 npm run lint
 ```
 
-### Customize configuration (vue-cli)
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
+
+## 📁 Project Structure
+
+```
+My_New_Portfolio/
+├── src/                 # Source files
+├── public/             # Static assets
+├── build/              # Production build output
+├── package.json        # Project dependencies
+└── README.md           # This file
+```
+
+---
+
+## ✨ Features
+
+- ✅ Pages: Home, Project pages
+- ✅ Contact Form, Project Cards
+- ✅ SEO-friendly structure
+- ✅ Responsive
+- ✅ Tailored for showcasing static and animated viduals
+
+---
+
+## 🎯 Live
+
+Visit the live website: **[https://digital-at-heart.com/](https://digital-at-heart.com/)**
+
+---
+
+## 👨‍💻 Author
+
+**Messkalina**  
+GitHub: [@messkalina](https://github.com/messkalina)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - feel free to use it as inspiration for your own portfolio.
+
+---
+
+## 🤝 Contact & Support
+
+For inquiries or collaborations, feel free to reach out through:
+- 📧 GitHub: [@messkalina](https://github.com/messkalina)
+- 🌐 Portfolio: [https://digital-at-heart.com/](https://digital-at-heart.com/)
+
+---
+
+## 🙏 Acknowledgments
+
+Thank you for visiting my portfolio! Feel free to explore my projects and get in touch if you'd like to collaborate.
