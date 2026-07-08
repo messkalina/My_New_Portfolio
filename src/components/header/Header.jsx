@@ -35,7 +35,7 @@ const Header = () => {
           <div className="menu ">
             <Scrollspy
               className="anchor_nav"
-              items={["home", "portfolio", "about", "contact"]} // Updated order to match your navigation
+              items={["home", "about", "portfolio", "contact"]}
               currentClassName="current"
               offset={-200}
             >
