@@ -25,10 +25,10 @@ const Motion03 = () => {
         <div className="container">
           <div>
             <div className="navigation-wrapper">
-              <Link to="/?tab=motion#portfolio" className="back_button">
-                ← PORTFOLIO / ANIMATION
-              </Link>
               <Link to="/case-study/vet-website" className="back_button">
+                ← PREVIOUS PROJECT
+              </Link>
+              <Link to="/case-study/motion05" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>

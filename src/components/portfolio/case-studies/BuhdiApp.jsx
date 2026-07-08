@@ -26,10 +26,10 @@ const DesignTrendCaseStudy = () => {
         <div className="container">
           <div>
             <div className="navigation-wrapper">
-              <Link to="/#portfolio" className="back_button">
-                ← PORTFOLIO / UX/UI PROJECTS
+              <Link to="/case-study/motion06" className="back_button">
+                ← PREVIOUS PROJECT
               </Link>
-              <Link to="/case-study/orbit-website" className="back_button">
+              <Link to="/case-study/neptune-feature" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>

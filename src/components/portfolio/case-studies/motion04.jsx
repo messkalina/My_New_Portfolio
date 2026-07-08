@@ -25,8 +25,8 @@ const Motion04 = () => {
         <div className="container">
           <div>
             <div className="navigation-wrapper">
-              <Link to="/?tab=motion#portfolio" className="back_button">
-                ← PORTFOLIO / ANIMATION
+              <Link to="/case-study/motion02" className="back_button">
+                ← PREVIOUS PROJECT
               </Link>
               <Link to="/case-study/motion06" className="back_button">
                 NEXT PROJECT →
