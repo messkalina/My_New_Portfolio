@@ -1,12 +1,24 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import Social from "../Social";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const { pathname } = useLocation();
+  const isHomePage = pathname === "/";
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const [navbar, setNavbar] = useState(false);
+  const navItems = [
+    ["home", "Home"],
+    ["about", "About me"],
+    ["portfolio", "Portfolio"],
+    ["contact", "Contact"],
+  ].map(([id, label]) => (
+    <li key={id}>
+      <NavLink to={`/#${id}`}>{label}</NavLink>
+    </li>
+  ));
 
   const changeBackground = () => {
     if (window.scrollY >= 80) {
@@ -33,26 +45,18 @@ const Header = () => {
           </div>
           {/* End logo */}
           <div className="menu ">
-            <Scrollspy
-              className="anchor_nav"
-              items={["home", "about", "portfolio", "contact"]}
-              currentClassName="current"
-              offset={-200}
-            >
-              <li>
-                <NavLink to="/#home">Home</NavLink>
-              </li>
-              <li>
-                <NavLink to="/#about">About me</NavLink>
-              </li>
-              <li>
-                <NavLink to="/#portfolio">Portfolio</NavLink>
-              </li>
-
-              <li>
-                <NavLink to="/#contact">Contact</NavLink>
-              </li>
-            </Scrollspy>
+            {isHomePage ? (
+              <Scrollspy
+                className="anchor_nav"
+                items={["home", "about", "portfolio", "contact"]}
+                currentClassName="current"
+                offset={-200}
+              >
+                {navItems}
+              </Scrollspy>
+            ) : (
+              <ul className="anchor_nav">{navItems}</ul>
+            )}
           </div>
           <div className="logo">
             <img
@@ -130,7 +134,7 @@ const Header = () => {
             </div>
             <div className="dropdown_inner">
               <ul className="anchor_nav">
-                <li className="current">
+                <li className={isHomePage ? "current" : undefined}>
                   <a href="#home" onClick={handleClick}>
                     Home
                   </a>
