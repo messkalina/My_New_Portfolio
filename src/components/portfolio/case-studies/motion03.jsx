@@ -25,7 +25,7 @@ const Motion03 = () => {
         <div className="container">
           <div>
             <div className="navigation-wrapper">
-              <Link to="/case-study/vet-website" className="back_button">
+              <Link to="/case-study/orbit-website" className="back_button">
                 ← PREVIOUS PROJECT
               </Link>
               <Link to="/case-study/motion05" className="back_button">
@@ -545,7 +545,7 @@ const Motion03 = () => {
               ← PORTFOLIO / ANIMATION
             </Link>
             <Link
-              to="/case-study/vet-website"
+              to="/case-study/motion05"
               className="back_button"
               style={{
                 float: "right",
