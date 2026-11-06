@@ -106,3 +106,21 @@
     }
   }
 }
+
+/* Case study pages: single-column layout on all screen sizes (same as mobile) */
+.case_study_page .shane_tm_about {
+  .about_inner {
+    flex-direction: column;
+  }
+
+  .left {
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .right {
+    padding-left: 0;
+    width: 100%;
+  }
+}

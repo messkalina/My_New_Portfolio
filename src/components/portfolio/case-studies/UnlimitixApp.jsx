@@ -17,7 +17,7 @@ const UnlimitixApp = () => {
   };
 
   return (
-    <div className="shane_tm_all_wrap">
+    <div className="shane_tm_all_wrap case_study_page">
       <Header />
 
       {/* Hero section */}
