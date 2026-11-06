@@ -14,7 +14,7 @@ const tabListContent = [
         meta: "Gamifying a to-do list to help people get things done",
         portfolioLink: "/case-study/buhdi-app",
       },
-        {
+      {
         img: "/img/portfolio/case-study/neptune thumbnail.png",
         title: "Clinical Screening Feature Design",
         meta: "Enabling Neurologists to identify advanced therapy candidates faster",
@@ -26,18 +26,19 @@ const tabListContent = [
         meta: "Simplifying journey to the latest Parkinson’s care",
         portfolioLink: "/case-study/orbit-website",
       },
-     
+
+      // Hidden from the Home page (case study page still available at /case-study/vet-website)
+      // {
+      //   img: "/img/portfolio/case-study/Vet_hero_image03cm.png",
+      //   title: "Veterinary Practice Website",
+      //   meta: "Building automation and trust for a fast-launch website",
+      //   portfolioLink: "/case-study/vet-website",
+      // },
       {
-        img: "/img/portfolio/case-study/Vet_hero_image03cm.png",
-        title: "Veterinary Practice Website",
-        meta: "Building automation and trust for a fast-launch website",
-        portfolioLink: "/case-study/vet-website",
-      },
-       {
         img: "/img/portfolio/caspar.png",
         title: "Caspar Health Educational Videos",
         meta: "Boosting retention through video design",
-                  
+
         portfolioLink: "/case-study/motion03",
       },
     ],
