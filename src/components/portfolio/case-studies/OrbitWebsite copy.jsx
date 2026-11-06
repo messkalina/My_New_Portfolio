@@ -413,7 +413,7 @@ const MyStoryCaseStudy = () => {
                     }
                   />
                   {/* Add caption */}
-      {/* <div className="image_caption">
+                  {/* <div className="image_caption">
                     <p>
                       How to design a home page for complex medical products and
                       two quite different user groups? Existing website lacked
@@ -422,9 +422,9 @@ const MyStoryCaseStudy = () => {
                   </div>
                 </div>
               </div> */}
-      {/* End left */}
+              {/* End left */}
 
-      {/* <div className="right">
+              {/* <div className="right">
                 <div
                   className="shane_tm_title"
                   data-aos="fade-up"
@@ -510,19 +510,19 @@ const MyStoryCaseStudy = () => {
                 >
                   <Link to="/#portfolio">View More Projects</Link>
                 </div> */}
-      {/* </div> */}
-      {/* End right */}
-      {/* </div>  */}
+              {/* </div> */}
+              {/* End right */}
+            {/* </div>  */}
 
-      {/* <div
+            {/* <div
               className="full-image-section"
               style={{ width: "100%" }}
               data-aos="fade-up"
               data-aos-duration="1200"
             ></div> */}
-      {/* </div> */}
-      {/* End container */}
-      {/* </div> */}
+          {/* </div> */}
+          {/* End container */}
+        {/* </div> */}
       {/* </div> */}
 
       {/* --- COPY OF SECTION BELOW --- */}
@@ -591,20 +591,20 @@ const MyStoryCaseStudy = () => {
                 <div data-aos="fade-up" data-aos-duration="1200">
                   <div data-aos="fade-up" data-aos-duration="1200">
                     <img
-                      src="/img/portfolio/case-study/websites_comparison_before_after_cm.png"
-                      alt="Redesign Pages Comparison"
-                      className="clickable-image"
-                      style={{
-                        width: "100%",
-                        cursor: "pointer",
-                        marginTop: "4em",
-                      }}
-                      onClick={() =>
-                        handleImageClick(
-                          "/img/portfolio/case-study/websites_comparison_before_after_cm.png",
-                        )
-                      }
-                    />
+                    src="/img/portfolio/case-study/websites_comparison_before_after_cm.png"
+                    alt="Redesign Pages Comparison"
+                    className="clickable-image"
+                    style={{
+                      width: "100%",
+                      cursor: "pointer",
+                      marginTop: "4em",
+                    }}
+                    onClick={() =>
+                      handleImageClick(
+                        "/img/portfolio/case-study/websites_comparison_before_after_cm.png",
+                      )
+                    }
+                  />
                   </div>
                   {/* Add caption */}
 
