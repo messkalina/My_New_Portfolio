@@ -7,12 +7,12 @@ const PROTOTYPES = {
   desktop: {
     link: "https://www.figma.com/proto/lnr4Ifju2ibh70Ovj7JpNH/Lebi-Website?node-id=12508-603&viewport=52%2C341%2C0.13&t=kmQ4A1C0ltUppTB1-9&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12508%3A603&show-proto-sidebar=1",
     embed:
-      "https://embed.figma.com/proto/lnr4Ifju2ibh70Ovj7JpNH/Lebi-Website?node-id=12508-603&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12508%3A603&show-proto-sidebar=1&embed-host=share",
+      "https://embed.figma.com/proto/lnr4Ifju2ibh70Ovj7JpNH/Lebi-Website?node-id=12508-603&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12508%3A603&show-proto-sidebar=0&embed-host=share",
   },
   mobile: {
     link: "https://www.figma.com/proto/lnr4Ifju2ibh70Ovj7JpNH/Lebi-Website?node-id=12595-4931&viewport=52%2C341%2C0.13&t=kmQ4A1C0ltUppTB1-9&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12595%3A4931&show-proto-sidebar=1",
     embed:
-      "https://embed.figma.com/proto/lnr4Ifju2ibh70Ovj7JpNH/Lebi-Website?node-id=12595-4931&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12595%3A4931&show-proto-sidebar=1&embed-host=share",
+      "https://embed.figma.com/proto/lnr4Ifju2ibh70Ovj7JpNH/Lebi-Website?node-id=12595-4931&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12595%3A4931&show-proto-sidebar=0&embed-host=share",
   },
 };
 const LEBI_WEBSITE_URL = "https://lebi.care/en";
@@ -270,8 +270,8 @@ const LebiAICaseStudy = () => {
               {/* Figma prototype: desktop */}
               {renderPrototype(
                 "desktop",
-                "Interactive prototype: desktop",
-                "Desktop prototype (post user-feedback version). Use the sidebar inside the prototype to move between flows.",
+                "Desktop website prototype",
+                "Desktop prototype (post user-feedback version). Click through the interactive screens or open in Figma to see all flows.",
                 true
               )}
             </div>
@@ -342,8 +342,8 @@ const LebiAICaseStudy = () => {
         <div className="container">
           {renderPrototype(
             "mobile",
-            "Interactive prototype: mobile",
-            "Mobile prototype (post user-feedback version). Use the sidebar inside the prototype to move between flows.",
+            "Mobile website prototype",
+            "Mobile prototype (post user-feedback version). Click through the interactive screens or open in Figma to see all flows.",
             false
           )}
         </div>
