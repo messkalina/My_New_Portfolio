@@ -27,19 +27,20 @@ const tabListContent = [
         portfolioLink: "/case-study/orbit-website",
       },
 
-      // Hidden from the Home page (case study page still available at /case-study/vet-website)
-      // {
-      //   img: "/img/portfolio/case-study/Vet_hero_image03cm.png",
-      //   title: "Veterinary Practice Website",
-      //   meta: "Building automation and trust for a fast-launch website",
-      //   portfolioLink: "/case-study/vet-website",
-      // },
+    
       {
         img: "/img/portfolio/caspar.png",
         title: "Caspar Health Educational Videos",
         meta: "Boosting retention through video design",
 
         portfolioLink: "/case-study/motion03",
+      },
+        // Hidden from the Home page (case study page still available at /case-study/vet-website)
+      {
+        img: "/img/portfolio/case-study/Vet_hero_image03cm.png",
+        title: "Veterinary Practice Website",
+        meta: "Building automation and trust for a fast-launch website",
+        portfolioLink: "/case-study/vet-website",
       },
     ],
   },
