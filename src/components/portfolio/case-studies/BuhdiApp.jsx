@@ -29,7 +29,7 @@ const DesignTrendCaseStudy = () => {
               <Link to="/case-study/motion06" className="back_button">
                 ← PREVIOUS PROJECT
               </Link>
-              <Link to="/case-study/neptune-feature" className="back_button">
+              <Link to="/case-study/lebi-ai" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>
@@ -735,7 +735,7 @@ const DesignTrendCaseStudy = () => {
             <Link to="/#portfolio" className="back_button">
               ← PORTFOLIO / UX/UI PROJECTS
             </Link>
-            <Link to="/case-study/orbit-website" className="back_button">
+            <Link to="/case-study/lebi-ai" className="back_button">
               NEXT PROJECT →
             </Link>
           </div>

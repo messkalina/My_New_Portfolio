@@ -8,6 +8,7 @@ import MyStoryCaseStudy from "../components/portfolio/case-studies/OrbitWebsite"
 import DesignTrendCaseStudy from "../components/portfolio/case-studies/BuhdiApp";
 import AnimationProjectCaseStudy from "../components/portfolio/case-studies/VeterinaryWebsite";
 import NeptuneFeature from "../components/portfolio/case-studies/NeptuneFeature";
+import LebiAICaseStudy from "../components/portfolio/case-studies/LebiAI";
 
 import Animation01 from "../components/portfolio/case-studies/Animation01";
 import Motion02 from "../components/portfolio/case-studies/motion02";
@@ -42,6 +43,7 @@ const AllRouter = () => {
           path="/case-study/vet-website"
           element={<AnimationProjectCaseStudy />}
         />
+        <Route path="/case-study/lebi-ai" element={<LebiAICaseStudy />} />
         <Route path="/case-study/neptune-feature" element={<NeptuneFeature />} />
         <Route path="/case-study/animation01" element={<Animation01 />} />
         <Route path="/case-study/motion02" element={<Motion02 />} />

@@ -26,7 +26,7 @@ const NeptuneFeature = () => {
         <div className="container">
           <div>
             <div className="navigation-wrapper">
-              <Link to="/case-study/buhdi-app" className="back_button">
+              <Link to="/case-study/lebi-ai" className="back_button">
                 ← PREVIOUS PROJECT
               </Link>
               <Link to="/case-study/orbit-website" className="back_button">

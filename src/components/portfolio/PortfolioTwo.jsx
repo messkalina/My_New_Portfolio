@@ -15,6 +15,12 @@ const tabListContent = [
         portfolioLink: "/case-study/buhdi-app",
       },
       {
+        img: "/img/portfolio/lebi/lebi_ad_versus_ads_de.jpg",
+        title: "Lebi AI Website & Meta Ads",
+        meta: "Building trust in an AI phone assistant for medical practices",
+        portfolioLink: "/case-study/lebi-ai",
+      },
+      {
         img: "/img/portfolio/case-study/neptune thumbnail.png",
         title: "Clinical Screening Feature Design",
         meta: "Enabling Neurologists to identify advanced therapy candidates faster",
