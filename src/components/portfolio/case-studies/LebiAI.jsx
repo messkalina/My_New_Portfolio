@@ -58,7 +58,6 @@ const LebiAICaseStudy = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxImg, setLightboxImg] = useState("");
   const [adLang, setAdLang] = useState("de");
-  const [protoView, setProtoView] = useState("desktop");
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -68,6 +67,45 @@ const LebiAICaseStudy = () => {
     setLightboxImg(imgSrc);
     setLightboxOpen(true);
   };
+
+  const renderPrototype = (view, heading, caption, showLiveLink) => (
+    <div className="lebi_prototype" id={`prototype-${view}`}>
+      <div className="shane_tm_title">
+        <span>{heading}</span>
+      </div>
+      <div className={`prototype_frame ${view === "mobile" ? "is_mobile" : ""}`}>
+        <iframe
+          title={`Lebi website ${view} Figma prototype`}
+          src={PROTOTYPES[view].embed}
+          allowFullScreen
+          loading="lazy"
+        />
+      </div>
+      <div className="prototype_actions">
+        <a
+          href={PROTOTYPES[view].link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="back_button"
+        >
+          OPEN PROTOTYPE IN FIGMA ↗
+        </a>
+        {showLiveLink && (
+          <a
+            href={LEBI_WEBSITE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="back_button"
+          >
+            VISIT LIVE WEBSITE: LEBI.CARE ↗
+          </a>
+        )}
+      </div>
+      <div className="image_caption" style={{ marginTop: "14px" }}>
+        <p>{caption}</p>
+      </div>
+    </div>
+  );
 
   return (
     <div className="shane_tm_all_wrap case_study_page">
@@ -114,6 +152,55 @@ const LebiAICaseStudy = () => {
           </div>
         </div>
       </div>
+
+      {/* Meta Ads (above the fold) */}
+      <div className="shane_tm_section" id="ads" style={{ paddingTop: 0 }}>
+        <div className="container">
+          <div className="shane_tm_title" style={{ marginBottom: "20px" }}>
+            <span>Meta Ads</span>
+          </div>
+          <div className="lebi_ads" data-aos="fade-up" data-aos-duration="1200">
+            <div className="ads_toggle" role="tablist" aria-label="Ad language">
+              <button
+                type="button"
+                className={adLang === "de" ? "active" : ""}
+                onClick={() => setAdLang("de")}
+              >
+                Deutsch
+              </button>
+              <button
+                type="button"
+                className={adLang === "nl" ? "active" : ""}
+                onClick={() => setAdLang("nl")}
+              >
+                Nederlands
+              </button>
+            </div>
+            <div className="ads_grid">
+              {ADS[adLang].map((ad) => (
+                <figure key={ad.src}>
+                  <img
+                    src={ad.src}
+                    alt={ad.alt}
+                    loading="lazy"
+                    onClick={() => handleImageClick(ad.src)}
+                  />
+                  <figcaption>{ad.caption}</figcaption>
+                </figure>
+              ))}
+            </div>
+          </div>
+          <div className="image_caption" style={{ marginTop: "14px" }}>
+            <p>
+              Six static ads (3 concepts &times; 2 languages) for Lebi&rsquo;s
+              first Meta campaign, aimed at the German and Dutch markets. Each
+              ad uses one emotional trigger and a short headline in the brand
+              green.
+            </p>
+          </div>
+        </div>
+      </div>
+
 
       {/* Prototype + overview */}
       <div
@@ -180,71 +267,13 @@ const LebiAICaseStudy = () => {
                 </div>
               </div>
 
-              {/* Figma prototype */}
-              <div className="lebi_prototype" id="prototype">
-                <div className="shane_tm_title">
-                  <span>Interactive prototype</span>
-                </div>
-                <div className="lebi_ads">
-                  <div
-                    className="ads_toggle"
-                    role="tablist"
-                    aria-label="Prototype version"
-                    style={{ marginBottom: "20px" }}
-                  >
-                    <button
-                      type="button"
-                      className={protoView === "desktop" ? "active" : ""}
-                      onClick={() => setProtoView("desktop")}
-                    >
-                      Desktop
-                    </button>
-                    <button
-                      type="button"
-                      className={protoView === "mobile" ? "active" : ""}
-                      onClick={() => setProtoView("mobile")}
-                    >
-                      Mobile
-                    </button>
-                  </div>
-                </div>
-                <div
-                  className={`prototype_frame ${protoView === "mobile" ? "is_mobile" : ""}`}
-                >
-                  <iframe
-                    key={protoView}
-                    title={`Lebi website ${protoView} Figma prototype`}
-                    src={PROTOTYPES[protoView].embed}
-                    allowFullScreen
-                    loading="lazy"
-                  />
-                </div>
-                <div className="prototype_actions">
-                  <a
-                    href={PROTOTYPES[protoView].link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="back_button"
-                  >
-                    OPEN PROTOTYPE IN FIGMA ↗
-                  </a>
-                  <a
-                    href={LEBI_WEBSITE_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="back_button"
-                  >
-                    VISIT LIVE WEBSITE: LEBI.CARE ↗
-                  </a>
-                </div>
-                <div className="image_caption" style={{ marginTop: "14px" }}>
-                  <p>
-                    Desktop and mobile prototypes (post user-feedback
-                    version). Use the switch to change version, and the sidebar
-                    inside the prototype to move between flows.
-                  </p>
-                </div>
-              </div>
+              {/* Figma prototype: desktop */}
+              {renderPrototype(
+                "desktop",
+                "Interactive prototype: desktop",
+                "Desktop prototype (post user-feedback version). Use the sidebar inside the prototype to move between flows.",
+                true
+              )}
             </div>
           </div>
         </div>
@@ -302,11 +331,24 @@ const LebiAICaseStudy = () => {
                     <span className="button-text">Jump to Outcome</span>
                   </a>
                 </div>
+                {/* Mobile prototype */}
+                <div className="shane_tm_section" id="mobile-prototype">
+                  <div className="container">
+                    {renderPrototype(
+                      "mobile",
+                      "Interactive prototype: mobile",
+                      "Mobile prototype (post user-feedback version). Use the sidebar inside the prototype to move between flows.",
+                      false
+                    )}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
+
 
       {/* Solution */}
       <div className="shane_tm_section">
@@ -366,119 +408,6 @@ const LebiAICaseStudy = () => {
         </div>
       </div>
 
-      {/* Process / iteration */}
-      <div className="shane_tm_section">
-        <div className="shane_tm_about">
-          <div className="container">
-            <div className="about_inner">
-              <div className="left">
-                <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <span>Process</span>
-                  <h3>Iterating from feedback to a shipped site</h3>
-                </div>
-                <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <p>
-                    The prototype above is the post-feedback version. After
-                    review, the site was built and launched in three languages
-                    and continued to evolve with the team&rsquo;s demand
-                    generation plan.
-                  </p>
-                  <ul className="case-study-list">
-                    <li>
-                      <strong>Broader than GPs: </strong>
-                      the messaging and pages were extended to dentists and
-                      other care providers, using concrete examples such as
-                      physiotherapy intake and appointment reminders.
-                    </li>
-                    <li>
-                      <strong>Trust details: </strong>
-                      updated FAQ copy, supporting institution logos and legal
-                      pages (Impressum, privacy).
-                    </li>
-                    <li>
-                      <strong>Built to be measured: </strong>
-                      the design handed over to development included consent
-                      handling, tag management and a demo-booking flow that
-                      supports conversion tracking.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Meta Ads */}
-      <div className="shane_tm_section" id="ads">
-        <div className="shane_tm_about">
-          <div className="container">
-            <div className="about_inner">
-              <div className="left">
-                <div
-                  className="shane_tm_title"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <span>Meta Ads</span>
-                  <h3>First campaign: three concepts, two languages</h3>
-                </div>
-                <div
-                  className="text"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <p>
-                    For Lebi&rsquo;s first marketing campaign I designed square
-                    static ads for the German and Dutch markets. Each ad uses
-                    one emotional trigger, a short headline and the brand
-                    green, so the message lands in a fast-scrolling feed.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="lebi_ads" data-aos="fade-up" data-aos-duration="1200">
-              <div className="ads_toggle" role="tablist" aria-label="Ad language">
-                <button
-                  type="button"
-                  className={adLang === "de" ? "active" : ""}
-                  onClick={() => setAdLang("de")}
-                >
-                  Deutsch
-                </button>
-                <button
-                  type="button"
-                  className={adLang === "nl" ? "active" : ""}
-                  onClick={() => setAdLang("nl")}
-                >
-                  Nederlands
-                </button>
-              </div>
-              <div className="ads_grid">
-                {ADS[adLang].map((ad) => (
-                  <figure key={ad.src}>
-                    <img
-                      src={ad.src}
-                      alt={ad.alt}
-                      loading="lazy"
-                      onClick={() => handleImageClick(ad.src)}
-                    />
-                    <figcaption>{ad.caption}</figcaption>
-                  </figure>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Outcome */}
       <div className="shane_tm_section" id="outcome">
