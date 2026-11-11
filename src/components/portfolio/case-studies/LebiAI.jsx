@@ -143,8 +143,8 @@ const LebiAICaseStudy = () => {
                 <div className="subtitle-content">
                   <h5>
                     Designing the desktop and mobile website, and the first
-                    Meta ad campaign, for a startup that helps doctors answer
-                    every patient call.
+                    Meta ad campaign, for a startup that helps medical practices with answering
+                    patient calls.
                   </h5>
                 </div>
               </div>
@@ -157,7 +157,7 @@ const LebiAICaseStudy = () => {
       <div className="shane_tm_section" id="ads" style={{ paddingTop: 0 }}>
         <div className="container">
           <div className="shane_tm_title">
-            <h3>Meta Ads</h3>
+            <h3>Meta Ads Designs</h3>
           </div>
           <div className="lebi_ads" data-aos="fade-up" data-aos-duration="1200">
             <div className="ads_toggle" role="tablist" aria-label="Ad language">
