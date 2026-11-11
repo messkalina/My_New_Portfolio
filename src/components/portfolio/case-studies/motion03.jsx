@@ -28,7 +28,7 @@ const Motion03 = () => {
               <Link to="/case-study/orbit-website" className="back_button">
                 ← PREVIOUS PROJECT
               </Link>
-              <Link to="/case-study/motion05" className="back_button">
+              <Link to="/case-study/vet-website" className="back_button">
                 NEXT PROJECT →
               </Link>
             </div>
