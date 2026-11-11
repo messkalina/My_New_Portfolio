@@ -180,8 +180,32 @@
   .prototype_actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 14px 28px;
-    margin-top: 22px;
+    gap: 14px 16px;
+    margin-top: 20px;
+
+    // Matches the "More about me" secondary button in the Home hero (SliderTwo.jsx)
+    .secondary_button {
+      display: inline-block;
+      color: #7C3AED;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.5;
+      border: 2px solid #7C3AED;
+      border-radius: 6px;
+      padding: 8px 16px;
+      transition: background-color 0.2s ease, color 0.2s ease;
+
+      &:hover {
+        background-color: #7C3AED;
+        color: #fff;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+      }
+    }
   }
 
   @media (max-width: 768px) {
@@ -254,5 +278,25 @@
         color: #666;
       }
     }
+  }
+}
+
+/* Lebi AI page only: center media section titles, captions, and action buttons */
+.lebi_ai_page {
+  #ads .shane_tm_title,
+  .lebi_prototype .shane_tm_title {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+
+  .image_caption {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 680px !important;
+    text-align: center !important;
+  }
+
+  .lebi_prototype .prototype_actions {
+    justify-content: center;
   }
 }

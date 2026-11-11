@@ -71,7 +71,7 @@ const LebiAICaseStudy = () => {
   const renderPrototype = (view, heading, caption, showLiveLink) => (
     <div className="lebi_prototype" id={`prototype-${view}`}>
       <div className="shane_tm_title">
-        <span>{heading}</span>
+        <h3>{heading}</h3>
       </div>
       <div className={`prototype_frame ${view === "mobile" ? "is_mobile" : ""}`}>
         <iframe
@@ -81,34 +81,34 @@ const LebiAICaseStudy = () => {
           loading="lazy"
         />
       </div>
+      <div className="image_caption" style={{ marginTop: "14px" }}>
+        <p>{caption}</p>
+      </div>
       <div className="prototype_actions">
         <a
           href={PROTOTYPES[view].link}
           target="_blank"
           rel="noopener noreferrer"
-          className="back_button"
+          className="secondary_button"
         >
-          OPEN PROTOTYPE IN FIGMA ↗
+          Open Prototype in Figma ↗
         </a>
         {showLiveLink && (
           <a
             href={LEBI_WEBSITE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="back_button"
+            className="secondary_button"
           >
-            VISIT LIVE WEBSITE: LEBI.CARE ↗
+            Visit Live Website: lebi.care ↗
           </a>
         )}
-      </div>
-      <div className="image_caption" style={{ marginTop: "14px" }}>
-        <p>{caption}</p>
       </div>
     </div>
   );
 
   return (
-    <div className="shane_tm_all_wrap case_study_page">
+    <div className="shane_tm_all_wrap case_study_page lebi_ai_page">
       <Header />
 
       {/* Hero section */}
@@ -133,7 +133,7 @@ const LebiAICaseStudy = () => {
             >
               <div className="subtitle-container">
                 <div className="subtitle-content">
-                  <h1>Building trust in an AI phone assistant for medical practices</h1>
+                  <h1>Building trust in an AI office assistant for medical practices</h1>
                 </div>
               </div>
               <div>
@@ -156,8 +156,8 @@ const LebiAICaseStudy = () => {
       {/* Meta Ads (above the fold) */}
       <div className="shane_tm_section" id="ads" style={{ paddingTop: 0 }}>
         <div className="container">
-          <div className="shane_tm_title" style={{ marginBottom: "20px" }}>
-            <span>Meta Ads</span>
+          <div className="shane_tm_title">
+            <h3>Meta Ads</h3>
           </div>
           <div className="lebi_ads" data-aos="fade-up" data-aos-duration="1200">
             <div className="ads_toggle" role="tablist" aria-label="Ad language">
@@ -331,24 +331,23 @@ const LebiAICaseStudy = () => {
                     <span className="button-text">Jump to Outcome</span>
                   </a>
                 </div>
-                {/* Mobile prototype */}
-                <div className="shane_tm_section" id="mobile-prototype">
-                  <div className="container">
-                    {renderPrototype(
-                      "mobile",
-                      "Interactive prototype: mobile",
-                      "Mobile prototype (post user-feedback version). Use the sidebar inside the prototype to move between flows.",
-                      false
-                    )}
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
 
+      {/* Mobile prototype */}
+      <div className="shane_tm_section" id="mobile-prototype">
+        <div className="container">
+          {renderPrototype(
+            "mobile",
+            "Interactive prototype: mobile",
+            "Mobile prototype (post user-feedback version). Use the sidebar inside the prototype to move between flows.",
+            false
+          )}
+        </div>
+      </div>
 
       {/* Solution */}
       <div className="shane_tm_section">
